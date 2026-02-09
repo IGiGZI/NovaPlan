@@ -1,0 +1,27 @@
+{
+	"steps": [
+		{ "id": "1", "title": "Download league" },
+		{ "id": "2", "title": "Create an account" },
+		{
+			"id": "3",
+			"title": "Start playing",
+			"children": [
+				{ "id": "4", "title": "Kill yourself from the the toxicity" },
+				{
+					"id": "5",
+					"title": "Dont kill yourself cus you're rock solid",
+					"children": [
+						{
+							"id": "6",
+							"title": "Some ranomd text"
+						},
+						{
+							"id": "7",
+							"title": "Another random text"
+						}
+					]
+				}
+			]
+		}
+	]
+}

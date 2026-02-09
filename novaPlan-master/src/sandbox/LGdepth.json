@@ -1,0 +1,351 @@
+{
+      "path_title": "legal guardian",
+      "focus": "Depth",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "title": "Foundations",
+          "objective": "Build essential groundwork for your career",
+          "duration_months": 1,
+          "prerequisites": [],
+          "milestones": [
+            "Complete foundation modules",
+            "Set up workspace"
+          ],
+          "resources": [
+            "Standard Industry Tools"
+          ],
+          "tasks": [
+            "Set up your learning workspace",
+            "Create a study schedule",
+            "Join relevant online communities"
+          ],
+          "children": [
+            {
+              "title": "Industry Fundamentals",
+              "objective": "Understand the core concepts of legal guardian",
+              "duration_months": 1,
+              "prerequisites": [],
+              "milestones": [
+                "Complete introductory course",
+                "Learn industry terminology",
+                "Understand role responsibilities"
+              ],
+              "resources": [
+                "Online Courses",
+                "Industry Glossaries",
+                "Career Guides"
+              ],
+              "tasks": [
+                "Build a public portfolio showcasing projects related to legal guardian",
+                "Connect with professionals in the field and request informational interviews",
+                "Complete a vocational certificate focused on apply person-centred care or tools used in legal guardian",
+                "Join local/online communities for practical advice and networking",
+                "Set short-term learning goals and review progress every month"
+              ],
+              "children": []
+            },
+            {
+              "title": "Tools & Environment",
+              "objective": "Set up your professional workspace",
+              "duration_months": 1,
+              "prerequisites": [],
+              "milestones": [
+                "Install necessary software",
+                "Configure development/work environment",
+                "Join professional communities"
+              ],
+              "resources": [
+                "Official Documentation",
+                "Community Forums"
+              ],
+              "tasks": [
+                "Research standard tools for legal guardian",
+                "Install primary software tools",
+                "Create account on professional networks"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Core Skills Development",
+          "objective": "Master essential skills for legal guardian",
+          "duration_months": 5,
+          "prerequisites": [
+            "disability care"
+          ],
+          "milestones": [
+            "Complete all core skill modules",
+            "Pass skill assessments"
+          ],
+          "resources": [
+            "Online Learning Platforms"
+          ],
+          "tasks": [
+            "Create a skills tracking spreadsheet",
+            "Set up practice projects",
+            "Find a mentor"
+          ],
+          "children": [
+            {
+              "title": "Advocate For Social Service Users Proficiency",
+              "objective": "Develop proficiency in advocate for social service users",
+              "duration_months": 2,
+              "prerequisites": [
+                "disability care"
+              ],
+              "milestones": [
+                "Complete advocate for social service users course",
+                "Demonstrate advocate for social service users usage",
+                "Pass advocate for social service users quiz"
+              ],
+              "resources": [
+                "Advocate For Social Service Users Resources"
+              ],
+              "tasks": [
+                "Practice advocate for social service users fundamentals",
+                "Apply advocate for social service users in small scenarios"
+              ],
+              "children": []
+            },
+            {
+              "title": "Apply Person-Centred Care Proficiency",
+              "objective": "Develop proficiency in apply person-centred care",
+              "duration_months": 2,
+              "prerequisites": [],
+              "milestones": [
+                "Complete apply person-centred care course",
+                "Demonstrate apply person-centred care usage",
+                "Pass apply person-centred care quiz"
+              ],
+              "resources": [
+                "Apply Person-Centred Care Resources"
+              ],
+              "tasks": [
+                "Complete a vocational certificate focused on apply person-centred care or tools used in legal guardian"
+              ],
+              "children": []
+            },
+            {
+              "title": "Assess The Development Of Youth Proficiency",
+              "objective": "Develop proficiency in assess the development of youth",
+              "duration_months": 2,
+              "prerequisites": [],
+              "milestones": [
+                "Complete assess the development of youth course",
+                "Demonstrate assess the development of youth usage",
+                "Pass assess the development of youth quiz"
+              ],
+              "resources": [
+                "Assess The Development Of Youth Resources"
+              ],
+              "tasks": [
+                "Practice assess the development of youth fundamentals",
+                "Apply assess the development of youth in small scenarios"
+              ],
+              "children": []
+            },
+            {
+              "title": "Assist Children In Developing Personal Skills Proficiency",
+              "objective": "Develop proficiency in assist children in developing personal skills",
+              "duration_months": 2,
+              "prerequisites": [],
+              "milestones": [
+                "Complete assist children in developing personal skills course",
+                "Demonstrate assist children in developing personal skills usage",
+                "Pass assist children in developing personal skills quiz"
+              ],
+              "resources": [
+                "Assist Children In Developing Personal Skills Resources"
+              ],
+              "tasks": [
+                "Practice assist children in developing personal skills fundamentals",
+                "Apply assist children in developing personal skills in small scenarios"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Practical Application",
+          "objective": "Gain hands-on experience through projects or simulations",
+          "duration_months": 2,
+          "prerequisites": [
+            "disability care"
+          ],
+          "milestones": [
+            "Complete 2 major projects",
+            "Build portfolio"
+          ],
+          "resources": [
+            "Portfolio Platform"
+          ],
+          "tasks": [
+            "Research industry standard projects",
+            "Document process and outcomes"
+          ],
+          "children": [
+            {
+              "title": "Applied Practice Project",
+              "objective": "Apply core skills in a realistic scenario",
+              "duration_months": 2,
+              "prerequisites": [
+                "disability care",
+                "advocate for social service users",
+                "apply person-centred care"
+              ],
+              "milestones": [
+                "Design project scope",
+                "Implement core features",
+                "Document results"
+              ],
+              "resources": [
+                "Project Management Tools",
+                "Documentation Tools"
+              ],
+              "tasks": [
+                "Select a real-world problem to solve",
+                "Plan the solution",
+                "Connect with professionals in the field and request informational interviews",
+                "Build a public portfolio showcasing projects related to legal guardian",
+                "Join local/online communities for practical advice and networking",
+                "Complete a vocational certificate focused on apply person-centred care or tools used in legal guardian"
+              ],
+              "children": []
+            },
+            {
+              "title": "Advanced Capstone",
+              "objective": "Demonstrate comprehensive mastery",
+              "duration_months": 2,
+              "prerequisites": [
+                "disability care",
+                "advocate for social service users",
+                "apply person-centred care",
+                "assess the development of youth"
+              ],
+              "milestones": [
+                "Complete complex project",
+                "Peer review",
+                "Final presentation"
+              ],
+              "resources": [
+                "Advanced Tools"
+              ],
+              "tasks": [
+                "Define advanced project requirements",
+                "Join local/online communities for practical advice and networking",
+                "Connect with professionals in the field and request informational interviews",
+                "Set short-term learning goals and review progress every month",
+                "Complete a vocational certificate focused on apply person-centred care or tools used in legal guardian",
+                "Build a public portfolio showcasing projects related to legal guardian"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Specialization",
+          "objective": "Develop expertise in specific areas",
+          "duration_months": 2,
+          "prerequisites": [],
+          "milestones": [
+            "Choose specialization",
+            "Achieve advanced competency"
+          ],
+          "resources": [
+            "Industry Certifications"
+          ],
+          "tasks": [
+            "Research trending specializations in legal guardian",
+            "Select a niche"
+          ],
+          "children": [
+            {
+              "title": "Specialization Track",
+              "objective": "Deep dive into a specific area",
+              "duration_months": 2,
+              "prerequisites": [
+                "disability care",
+                "advocate for social service users",
+                "apply person-centred care"
+              ],
+              "milestones": [
+                "Complete specialization course",
+                "Advanced certification",
+                "Master advanced concepts"
+              ],
+              "resources": [
+                "Specialized Training"
+              ],
+              "tasks": [
+                "Publish or present your project work on a portfolio or site",
+                "Build a public portfolio showcasing projects related to legal guardian",
+                "Join local/online communities for practical advice and networking",
+                "Set short-term learning goals and review progress every month"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Career Launch",
+          "objective": "Land your first role in the field",
+          "duration_months": 2,
+          "prerequisites": [],
+          "milestones": [
+            "Complete branding",
+            "Secure job offer"
+          ],
+          "resources": [
+            "Job Search Platforms"
+          ],
+          "tasks": [
+            "Develop job search strategy",
+            "Practice interview questions"
+          ],
+          "children": [
+            {
+              "title": "Professional Branding",
+              "objective": "Create compelling professional presence",
+              "duration_months": 1,
+              "prerequisites": [],
+              "milestones": [
+                "Update resume",
+                "Optimize professional profile",
+                "Build portfolio"
+              ],
+              "resources": [
+                "LinkedIn",
+                "Resume Builder"
+              ],
+              "tasks": [
+                "Tailor resume for legal guardian",
+                "Highlight key skills: advocate for social service users, apply person-centred care, assess the development of youth"
+              ],
+              "children": []
+            },
+            {
+              "title": "Job Search Strategy",
+              "objective": "Execute systematic job search",
+              "duration_months": 1,
+              "prerequisites": [],
+              "milestones": [
+                "Apply to positions",
+                "Network",
+                "Interview prep"
+              ],
+              "resources": [
+                "Job Boards",
+                "Networking Events"
+              ],
+              "tasks": [
+                "Identify top companies for legal guardian",
+                "Prepare for interviews"
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
