@@ -65,7 +65,7 @@ function Fetching() {
 			</div>
 
 			<header className="max-w-3xl mx-auto mt-32 text-center px-4 mb-12">
-				<h1 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400 bg-clip-text text-transparent">
+				<h1 className="text-4xl md:text-5xl font-bold mb-4 bg-linear-to-r from-purple-400 via-pink-400 to-purple-400 bg-clip-text text-transparent">
 					Launch Your Career
 				</h1>
 				<p className="text-center text-lg text-gray-300">
@@ -74,7 +74,7 @@ function Fetching() {
 				</p>
 			</header>
 
-			<div className="max-w-3xl mx-auto my-10 bg-gradient-to-br from-purple-900/20 to-transparent backdrop-blur-sm p-6 md:p-8 rounded-xl shadow-lg border border-purple-500/30 space-y-6">
+			<div className="max-w-3xl mx-auto my-10 bg-linear-to-br from-purple-900/20 to-transparent backdrop-blur-sm p-6 md:p-8 rounded-xl shadow-lg border border-purple-500/30 space-y-6">
 				{questions.map((question) => (
 					<fieldset className="group" key={question.id}>
 						<legend className="mb-4 text-lg font-semibold text-gray-100">
@@ -101,7 +101,7 @@ function Fetching() {
 									/>
 									<label
 										htmlFor={`${question.id}-${idx}`}
-										className="flex-1 cursor-pointer rounded-lg px-4 py-3 border border-purple-500/30 hover:border-purple-400 transition-all duration-150 text-gray-200 peer-checked:ring-2 peer-checked:ring-purple-500 peer-checked:bg-gradient-to-r peer-checked:from-purple-600 peer-checked:to-pink-500 peer-checked:shadow-lg peer-checked:shadow-purple-500/50"
+										className="flex-1 cursor-pointer rounded-lg px-4 py-3 border border-purple-500/30 hover:border-purple-400 transition-all duration-150 text-gray-200 peer-checked:ring-2 peer-checked:ring-purple-500 peer-checked:bg-linear-to-r peer-checked:from-purple-600 peer-checked:to-pink-500 peer-checked:shadow-lg peer-checked:shadow-purple-500/50"
 									>
 										<div className="font-medium">
 											{opt.text}
@@ -141,8 +141,8 @@ function Fetching() {
 
 			{result && (
 				<section className="max-w-5xl mx-auto px-4 pb-20">
-					<div className="bg-gradient-to-br from-purple-900/30 to-transparent backdrop-blur-sm border border-purple-500/30 rounded-2xl p-8 mb-8">
-						<h2 className="text-3xl font-bold mb-2 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+					<div className="bg-linear-to-br from-purple-900/30 to-transparent backdrop-blur-sm border border-purple-500/30 rounded-2xl p-8 mb-8">
+						<h2 className="text-3xl font-bold mb-2 bg-linear-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
 							Suggested Career: {result.chosen_career}
 						</h2>
 						<p className="text-gray-400 mb-8">
@@ -163,7 +163,7 @@ function Fetching() {
 						{result.roadmaps?.map((r, i) => (
 							<div
 								key={i}
-								className="bg-gradient-to-br from-purple-900/20 to-transparent backdrop-blur-sm border border-purple-500/30 rounded-2xl p-6 hover:border-purple-400 transition-all"
+								className="bg-linear-to-br from-purple-900/20 to-transparent backdrop-blur-sm border border-purple-500/30 rounded-2xl p-6 hover:border-purple-400 transition-all"
 							>
 								<h4 className="text-xl font-bold text-gray-100 mb-4">
 									{r.path_title} — {r.focus}

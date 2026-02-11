@@ -1,6 +1,6 @@
 import { icons, FontAwesomeIcon } from "../assets";
 import { Link } from "react-router";
-import MainNav from "./MainNav";
+import MainNav from "../components/MainNav";
 
 function Landing() {
 	return (
@@ -21,7 +21,7 @@ function Landing() {
 					alt="NovaPlan"
 					className="m-auto -mb-11 h-[600px] drop-shadow-2xl"
 				/>
-				<h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400 bg-clip-text text-transparent">
+				<h1 className="text-5xl md:text-6xl font-bold mb-6 bg-linear-to-r from-purple-400 via-pink-400 to-purple-400 bg-clip-text text-transparent">
 					Navigate Your Career Journey
 				</h1>
 				<p className="text-xl mb-14 text-gray-300 max-w-2xl mx-auto">
@@ -61,7 +61,7 @@ function Landing() {
 					Why Choose NovaPlan
 				</h2>
 				<div className="grid grid-cols-1 gap-6 md:grid-cols-2 items-start">
-					<div className="box w-full border border-purple-500/50 rounded-2xl p-6 text-center md:text-left hover:border-purple-400 transition-all hover:shadow-lg hover:shadow-purple-500/20 bg-gradient-to-br from-purple-900/20 to-transparent">
+					<div className="box w-full border border-purple-500/50 rounded-2xl p-6 text-center md:text-left hover:border-purple-400 transition-all hover:shadow-lg hover:shadow-purple-500/20 bg-linear-to-r from-purple-900/20 to-transparent">
 						<FontAwesomeIcon
 							icon={icons.faRocket}
 							className="mb-3 bg-purple-600 rounded-full p-5 text-2xl"
@@ -74,7 +74,7 @@ function Landing() {
 							skills and aspirations
 						</p>
 					</div>
-					<div className="box w-full border border-purple-500/50 rounded-2xl p-6 text-center md:text-left hover:border-purple-400 transition-all hover:shadow-lg hover:shadow-purple-500/20 bg-gradient-to-br from-purple-900/20 to-transparent">
+					<div className="box w-full border border-purple-500/50 rounded-2xl p-6 text-center md:text-left hover:border-purple-400 transition-all hover:shadow-lg hover:shadow-purple-500/20 bg-linear-to-r from-purple-900/20 to-transparent">
 						<FontAwesomeIcon
 							icon={icons.faBullseye}
 							className="mb-3 bg-purple-600 rounded-full p-5 text-2xl"
@@ -87,7 +87,7 @@ function Landing() {
 							cosmos of opportunities
 						</p>
 					</div>
-					<div className="box w-full border border-purple-500/50 rounded-2xl p-6 text-center md:text-left hover:border-purple-400 transition-all hover:shadow-lg hover:shadow-purple-500/20 bg-gradient-to-br from-purple-900/20 to-transparent">
+					<div className="box w-full border border-purple-500/50 rounded-2xl p-6 text-center md:text-left hover:border-purple-400 transition-all hover:shadow-lg hover:shadow-purple-500/20 bg-linear-to-br from-purple-900/20 to-transparent">
 						<FontAwesomeIcon
 							icon={icons.faWandMagicSparkles}
 							className="mb-3 bg-purple-600 rounded-full p-5 text-2xl"
@@ -100,7 +100,7 @@ function Landing() {
 							optimal careers
 						</p>
 					</div>
-					<div className="box w-full border border-purple-500/50 rounded-2xl p-6 text-center md:text-left hover:border-purple-400 transition-all hover:shadow-lg hover:shadow-purple-500/20 bg-gradient-to-br from-purple-900/20 to-transparent">
+					<div className="box w-full border border-purple-500/50 rounded-2xl p-6 text-center md:text-left hover:border-purple-400 transition-all hover:shadow-lg hover:shadow-purple-500/20 bg-linear-to-br from-purple-900/20 to-transparent">
 						<FontAwesomeIcon
 							icon={icons.faFaceSmile}
 							className="mb-3 bg-purple-600 rounded-full p-5 text-2xl"
@@ -129,7 +129,7 @@ function Landing() {
 				</div>
 
 				<div className="FAQs flex flex-col gap-6 mx-10 md:mx-60 mb-40">
-					<div className="box w-full border border-purple-500/50 rounded-2xl p-6 text-center md:text-left hover:border-purple-400 transition-all bg-gradient-to-br from-purple-900/10 to-transparent">
+					<div className="box w-full border border-purple-500/50 rounded-2xl p-6 text-center md:text-left hover:border-purple-400 transition-all bg-linear-to-br from-purple-900/10 to-transparent">
 						<h2 className="text-xl font-bold mb-3">
 							What is novaPlan?
 						</h2>
@@ -141,7 +141,7 @@ function Landing() {
 							optimal path through your career journey.
 						</p>
 					</div>
-					<div className="box w-full border border-purple-500/50 rounded-2xl p-6 text-center md:text-left hover:border-purple-400 transition-all bg-gradient-to-br from-purple-900/10 to-transparent">
+					<div className="box w-full border border-purple-500/50 rounded-2xl p-6 text-center md:text-left hover:border-purple-400 transition-all bg-linear-to-br from-purple-900/10 to-transparent">
 						<h2 className="text-xl font-bold mb-3">
 							How does the personalized roadmaps work?
 						</h2>
@@ -154,7 +154,7 @@ function Landing() {
 							and timeline suggestions.
 						</p>
 					</div>
-					<div className="box w-full border border-purple-500/50 rounded-2xl p-6 text-center md:text-left hover:border-purple-400 transition-all bg-gradient-to-br from-purple-900/10 to-transparent">
+					<div className="box w-full border border-purple-500/50 rounded-2xl p-6 text-center md:text-left hover:border-purple-400 transition-all bg-linear-to-br from-purple-900/10 to-transparent">
 						<h2 className="text-xl font-bold mb-3">
 							Is novaPlan free to use?
 						</h2>
@@ -166,7 +166,7 @@ function Landing() {
 							through our subscription plans.
 						</p>
 					</div>
-					<div className="box w-full border border-purple-500/50 rounded-2xl p-6 text-center md:text-left hover:border-purple-400 transition-all bg-gradient-to-br from-purple-900/10 to-transparent">
+					<div className="box w-full border border-purple-500/50 rounded-2xl p-6 text-center md:text-left hover:border-purple-400 transition-all bg-linear-to-br from-purple-900/10 to-transparent">
 						<h2 className="text-xl font-bold mb-3">
 							How often should i update my roadmap?
 						</h2>
@@ -177,7 +177,7 @@ function Landing() {
 							makes it easy to adjust your trajectory as you grow.
 						</p>
 					</div>
-					<div className="box w-full border border-purple-500/50 rounded-2xl p-6 text-center md:text-left hover:border-purple-400 transition-all bg-gradient-to-br from-purple-900/10 to-transparent">
+					<div className="box w-full border border-purple-500/50 rounded-2xl p-6 text-center md:text-left hover:border-purple-400 transition-all bg-linear-to-br from-purple-900/10 to-transparent">
 						<h2 className="text-xl font-bold mb-3">
 							Can i connect with mentors through novaPlan?
 						</h2>
@@ -189,7 +189,7 @@ function Landing() {
 							industry insights.
 						</p>
 					</div>
-					<div className="box w-full border border-purple-500/50 rounded-2xl p-6 text-center md:text-left hover:border-purple-400 transition-all bg-gradient-to-br from-purple-900/10 to-transparent">
+					<div className="box w-full border border-purple-500/50 rounded-2xl p-6 text-center md:text-left hover:border-purple-400 transition-all bg-linear-to-br from-purple-900/10 to-transparent">
 						<h2 className="text-xl font-bold mb-3">
 							What makes novaPlan different?
 						</h2>

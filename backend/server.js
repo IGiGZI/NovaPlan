@@ -3,7 +3,6 @@ const cors = require('cors');
 const path = require('path');
 const fs = require('fs');
 const multer = require('multer');
-
 const app = express();
 const port = 8000;
 
@@ -36,7 +35,7 @@ const generate_roadmaps_for_user = (payload) => {
 app.use(cors());
 app.use(express.json({ limit: '50mb' }));
 
-const FRONTEND_DIST = path.join(__dirname, '../novaPlan-master/dist');
+const FRONTEND_DIST = path.join(__dirname, '../frontend/dist');
 app.use('/assets', express.static(path.join(FRONTEND_DIST, 'assets')));
 app.use('/static', express.static(path.join(__dirname, 'static')));
 

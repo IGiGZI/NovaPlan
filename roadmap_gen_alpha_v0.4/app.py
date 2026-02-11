@@ -14,7 +14,8 @@ app = FastAPI()
 # serve static frontend
 # serve static frontend from novaPlan-master/dist
 # We assume the build output is in ../novaPlan-master/dist relative to this file
-FRONTEND_DIST = Path('../novaPlan-master/dist')
+# changed folder name "novaPlan-master" -> "frontend"
+FRONTEND_DIST = Path('../frontend/dist')
 
 app.mount('/assets', StaticFiles(directory=FRONTEND_DIST / 'assets'), name='assets')
 # We also keep the old static for generated images

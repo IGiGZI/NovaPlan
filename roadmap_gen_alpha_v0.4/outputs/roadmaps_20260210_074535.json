@@ -3,7 +3,7 @@
     "answers": [
       {
         "questionId": 1,
-        "type": "B"
+        "type": "A"
       },
       {
         "questionId": 2,
@@ -11,23 +11,23 @@
       },
       {
         "questionId": 3,
-        "type": "C"
+        "type": "D"
       },
       {
         "questionId": 4,
-        "type": "C"
-      },
-      {
-        "questionId": 5,
         "type": "B"
       },
       {
+        "questionId": 5,
+        "type": "A"
+      },
+      {
         "questionId": 6,
-        "type": "C"
+        "type": "A"
       },
       {
         "questionId": 7,
-        "type": "A"
+        "type": "C"
       },
       {
         "questionId": 8,
@@ -35,32 +35,29 @@
       },
       {
         "questionId": 9,
-        "type": "B"
+        "type": "A"
       },
       {
         "questionId": 10,
         "type": "B"
       }
     ],
-    "summary": "i like eating ice cream"
+    "summary": ""
   },
   "derived_skills": [
+    "python",
+    "analgesics",
+    "sql",
+    "data visualization",
     "communication",
     "teach writing",
     "etiopathy",
-    "reforestation",
-    "lipspeaking",
-    "metalworking",
-    "develop personal skills",
-    "python",
-    "data analytics",
-    "sql",
-    "statistics"
+    "reforestation"
   ],
-  "chosen_career": "volunteer mentor",
+  "chosen_career": "boiler operator",
   "roadmaps": [
     {
-      "path_title": "volunteer mentor",
+      "path_title": "boiler operator",
       "focus": "Depth",
       "confidence_score": 0.8,
       "steps": [
@@ -84,7 +81,7 @@
           "children": [
             {
               "title": "Industry Fundamentals",
-              "objective": "Understand the core concepts of volunteer mentor",
+              "objective": "Understand the core concepts of boiler operator",
               "duration_months": 1,
               "prerequisites": [],
               "milestones": [
@@ -98,11 +95,11 @@
                 "Career Guides"
               ],
               "tasks": [
-                "Build a public portfolio showcasing projects related to volunteer mentor",
-                "Connect with professionals in the field and request informational interviews",
+                "Target specialist or leadership roles and craft a research/experience summary",
                 "Set short-term learning goals and review progress every month",
-                "Publish or present your project work on a portfolio or site",
-                "Join local/online communities for practical advice and networking"
+                "Lead a capstone or team project solving a realistic problem in boiler operator",
+                "Undertake advanced coursework or a master\u2019s specialization relevant to boiler operator",
+                "Build a public portfolio showcasing projects related to boiler operator"
               ],
               "children": []
             },
@@ -121,7 +118,7 @@
                 "Community Forums"
               ],
               "tasks": [
-                "Research standard tools for volunteer mentor",
+                "Research standard tools for boiler operator",
                 "Install primary software tools",
                 "Create account on professional networks"
               ],
@@ -131,11 +128,10 @@
         },
         {
           "title": "Core Skills Development",
-          "objective": "Master essential skills for volunteer mentor",
+          "objective": "Master essential skills for boiler operator",
           "duration_months": 5,
           "prerequisites": [
-            "communication",
-            "data analytics"
+            "communication"
           ],
           "milestones": [
             "Complete all core skill modules",
@@ -151,80 +147,80 @@
           ],
           "children": [
             {
-              "title": "Advocate For Others Proficiency",
-              "objective": "Develop proficiency in advocate for others",
+              "title": "Control Steam Flows Proficiency",
+              "objective": "Develop proficiency in control steam flows",
               "duration_months": 2,
               "prerequisites": [
-                "communication",
-                "data analytics"
+                "communication"
               ],
               "milestones": [
-                "Complete advocate for others course",
-                "Demonstrate advocate for others usage",
-                "Pass advocate for others quiz"
+                "Complete control steam flows course",
+                "Demonstrate control steam flows usage",
+                "Pass control steam flows quiz"
               ],
               "resources": [
-                "Advocate For Others Resources"
+                "Control Steam Flows Resources"
               ],
               "tasks": [
-                "Complete a vocational certificate focused on advocate for others or tools used in volunteer mentor"
+                "Practice control steam flows fundamentals",
+                "Apply control steam flows in small scenarios"
               ],
               "children": []
             },
             {
-              "title": "Assist Clients With Personal Development Proficiency",
-              "objective": "Develop proficiency in assist clients with personal development",
+              "title": "Domestic Cooling Systems Proficiency",
+              "objective": "Develop proficiency in domestic cooling systems",
               "duration_months": 2,
               "prerequisites": [],
               "milestones": [
-                "Complete assist clients with personal development course",
-                "Demonstrate assist clients with personal development usage",
-                "Pass assist clients with personal development quiz"
+                "Complete domestic cooling systems course",
+                "Demonstrate domestic cooling systems usage",
+                "Pass domestic cooling systems quiz"
               ],
               "resources": [
-                "Assist Clients With Personal Development Resources"
+                "Domestic Cooling Systems Resources"
               ],
               "tasks": [
-                "Practice assist clients with personal development fundamentals",
-                "Apply assist clients with personal development in small scenarios"
+                "Practice domestic cooling systems fundamentals",
+                "Apply domestic cooling systems in small scenarios"
               ],
               "children": []
             },
             {
-              "title": "Brief Volunteers Proficiency",
-              "objective": "Develop proficiency in brief volunteers",
+              "title": "Ensure Equipment Maintenance Proficiency",
+              "objective": "Develop proficiency in ensure equipment maintenance",
               "duration_months": 2,
               "prerequisites": [],
               "milestones": [
-                "Complete brief volunteers course",
-                "Demonstrate brief volunteers usage",
-                "Pass brief volunteers quiz"
+                "Complete ensure equipment maintenance course",
+                "Demonstrate ensure equipment maintenance usage",
+                "Pass ensure equipment maintenance quiz"
               ],
               "resources": [
-                "Brief Volunteers Resources"
+                "Ensure Equipment Maintenance Resources"
               ],
               "tasks": [
-                "Practice brief volunteers fundamentals",
-                "Apply brief volunteers in small scenarios"
+                "Practice ensure equipment maintenance fundamentals",
+                "Apply ensure equipment maintenance in small scenarios"
               ],
               "children": []
             },
             {
-              "title": "Capacity Building Proficiency",
-              "objective": "Develop proficiency in capacity building",
+              "title": "Ensure Sanitation Proficiency",
+              "objective": "Develop proficiency in ensure sanitation",
               "duration_months": 2,
               "prerequisites": [],
               "milestones": [
-                "Complete capacity building course",
-                "Demonstrate capacity building usage",
-                "Pass capacity building quiz"
+                "Complete ensure sanitation course",
+                "Demonstrate ensure sanitation usage",
+                "Pass ensure sanitation quiz"
               ],
               "resources": [
-                "Capacity Building Resources"
+                "Ensure Sanitation Resources"
               ],
               "tasks": [
-                "Practice capacity building fundamentals",
-                "Apply capacity building in small scenarios"
+                "Practice ensure sanitation fundamentals",
+                "Apply ensure sanitation in small scenarios"
               ],
               "children": []
             }
@@ -235,8 +231,7 @@
           "objective": "Gain hands-on experience through projects or simulations",
           "duration_months": 2,
           "prerequisites": [
-            "communication",
-            "data analytics"
+            "communication"
           ],
           "milestones": [
             "Complete 2 major projects",
@@ -256,9 +251,8 @@
               "duration_months": 2,
               "prerequisites": [
                 "communication",
-                "data analytics",
-                "advocate for others",
-                "assist clients with personal development"
+                "control steam flows",
+                "domestic cooling systems"
               ],
               "milestones": [
                 "Design project scope",
@@ -272,10 +266,10 @@
               "tasks": [
                 "Select a real-world problem to solve",
                 "Plan the solution",
-                "Set short-term learning goals and review progress every month",
-                "Join local/online communities for practical advice and networking",
-                "Connect with professionals in the field and request informational interviews",
-                "Complete a vocational certificate focused on advocate for others or tools used in volunteer mentor"
+                "Publish or present your project work on a portfolio or site",
+                "Undertake advanced coursework or a master\u2019s specialization relevant to boiler operator",
+                "Build a public portfolio showcasing projects related to boiler operator",
+                "Set short-term learning goals and review progress every month"
               ],
               "children": []
             },
@@ -285,10 +279,9 @@
               "duration_months": 2,
               "prerequisites": [
                 "communication",
-                "data analytics",
-                "advocate for others",
-                "assist clients with personal development",
-                "brief volunteers"
+                "control steam flows",
+                "domestic cooling systems",
+                "ensure equipment maintenance"
               ],
               "milestones": [
                 "Complete complex project",
@@ -300,10 +293,10 @@
               ],
               "tasks": [
                 "Define advanced project requirements",
-                "Join local/online communities for practical advice and networking",
+                "Undertake advanced coursework or a master\u2019s specialization relevant to boiler operator",
+                "Build a public portfolio showcasing projects related to boiler operator",
                 "Set short-term learning goals and review progress every month",
-                "Intern or co-op with industry partners to build professional experience",
-                "Publish or present your project work on a portfolio or site",
+                "Target specialist or leadership roles and craft a research/experience summary",
                 "Connect with professionals in the field and request informational interviews"
               ],
               "children": []
@@ -323,7 +316,7 @@
             "Industry Certifications"
           ],
           "tasks": [
-            "Research trending specializations in volunteer mentor",
+            "Research trending specializations in boiler operator",
             "Select a niche"
           ],
           "children": [
@@ -333,9 +326,8 @@
               "duration_months": 2,
               "prerequisites": [
                 "communication",
-                "data analytics",
-                "advocate for others",
-                "assist clients with personal development"
+                "control steam flows",
+                "domestic cooling systems"
               ],
               "milestones": [
                 "Complete specialization course",
@@ -346,10 +338,10 @@
                 "Specialized Training"
               ],
               "tasks": [
+                "Target specialist or leadership roles and craft a research/experience summary",
                 "Publish or present your project work on a portfolio or site",
-                "Set short-term learning goals and review progress every month",
-                "Connect with professionals in the field and request informational interviews",
-                "Complete a vocational certificate focused on advocate for others or tools used in volunteer mentor"
+                "Lead a capstone or team project solving a realistic problem in boiler operator",
+                "Connect with professionals in the field and request informational interviews"
               ],
               "children": []
             }
@@ -387,8 +379,8 @@
                 "Resume Builder"
               ],
               "tasks": [
-                "Tailor resume for volunteer mentor",
-                "Highlight key skills: advocate for others, assist clients with personal development, brief volunteers"
+                "Tailor resume for boiler operator",
+                "Highlight key skills: control steam flows, domestic cooling systems, ensure equipment maintenance"
               ],
               "children": []
             },
@@ -407,7 +399,7 @@
                 "Networking Events"
               ],
               "tasks": [
-                "Identify top companies for volunteer mentor",
+                "Identify top companies for boiler operator",
                 "Prepare for interviews"
               ],
               "children": []
@@ -417,7 +409,7 @@
       ]
     },
     {
-      "path_title": "volunteer mentor",
+      "path_title": "boiler operator",
       "focus": "Fast-Entry",
       "confidence_score": 0.8,
       "steps": [
@@ -441,7 +433,7 @@
           "children": [
             {
               "title": "Industry Fundamentals",
-              "objective": "Understand the core concepts of volunteer mentor",
+              "objective": "Understand the core concepts of boiler operator",
               "duration_months": 1,
               "prerequisites": [],
               "milestones": [
@@ -455,11 +447,11 @@
                 "Career Guides"
               ],
               "tasks": [
-                "Build a public portfolio showcasing projects related to volunteer mentor",
-                "Publish or present your project work on a portfolio or site",
+                "Undertake advanced coursework or a master\u2019s specialization relevant to boiler operator",
                 "Connect with professionals in the field and request informational interviews",
-                "Intern or co-op with industry partners to build professional experience",
-                "Complete a vocational certificate focused on advocate for others or tools used in volunteer mentor"
+                "Lead a capstone or team project solving a realistic problem in boiler operator",
+                "Build a public portfolio showcasing projects related to boiler operator",
+                "Publish or present your project work on a portfolio or site"
               ],
               "children": []
             },
@@ -478,7 +470,7 @@
                 "Community Forums"
               ],
               "tasks": [
-                "Research standard tools for volunteer mentor",
+                "Research standard tools for boiler operator",
                 "Install primary software tools",
                 "Create account on professional networks"
               ],
@@ -488,11 +480,10 @@
         },
         {
           "title": "Core Skills Development",
-          "objective": "Master essential skills for volunteer mentor",
+          "objective": "Master essential skills for boiler operator",
           "duration_months": 4,
           "prerequisites": [
-            "communication",
-            "data analytics"
+            "communication"
           ],
           "milestones": [
             "Complete all core skill modules",
@@ -508,80 +499,80 @@
           ],
           "children": [
             {
-              "title": "Advocate For Others Proficiency",
-              "objective": "Develop proficiency in advocate for others",
+              "title": "Control Steam Flows Proficiency",
+              "objective": "Develop proficiency in control steam flows",
               "duration_months": 2,
               "prerequisites": [
-                "communication",
-                "data analytics"
+                "communication"
               ],
               "milestones": [
-                "Complete advocate for others course",
-                "Demonstrate advocate for others usage",
-                "Pass advocate for others quiz"
+                "Complete control steam flows course",
+                "Demonstrate control steam flows usage",
+                "Pass control steam flows quiz"
               ],
               "resources": [
-                "Advocate For Others Resources"
+                "Control Steam Flows Resources"
               ],
               "tasks": [
-                "Complete a vocational certificate focused on advocate for others or tools used in volunteer mentor"
+                "Practice control steam flows fundamentals",
+                "Apply control steam flows in small scenarios"
               ],
               "children": []
             },
             {
-              "title": "Assist Clients With Personal Development Proficiency",
-              "objective": "Develop proficiency in assist clients with personal development",
+              "title": "Domestic Cooling Systems Proficiency",
+              "objective": "Develop proficiency in domestic cooling systems",
               "duration_months": 2,
               "prerequisites": [],
               "milestones": [
-                "Complete assist clients with personal development course",
-                "Demonstrate assist clients with personal development usage",
-                "Pass assist clients with personal development quiz"
+                "Complete domestic cooling systems course",
+                "Demonstrate domestic cooling systems usage",
+                "Pass domestic cooling systems quiz"
               ],
               "resources": [
-                "Assist Clients With Personal Development Resources"
+                "Domestic Cooling Systems Resources"
               ],
               "tasks": [
-                "Practice assist clients with personal development fundamentals",
-                "Apply assist clients with personal development in small scenarios"
+                "Practice domestic cooling systems fundamentals",
+                "Apply domestic cooling systems in small scenarios"
               ],
               "children": []
             },
             {
-              "title": "Brief Volunteers Proficiency",
-              "objective": "Develop proficiency in brief volunteers",
+              "title": "Ensure Equipment Maintenance Proficiency",
+              "objective": "Develop proficiency in ensure equipment maintenance",
               "duration_months": 2,
               "prerequisites": [],
               "milestones": [
-                "Complete brief volunteers course",
-                "Demonstrate brief volunteers usage",
-                "Pass brief volunteers quiz"
+                "Complete ensure equipment maintenance course",
+                "Demonstrate ensure equipment maintenance usage",
+                "Pass ensure equipment maintenance quiz"
               ],
               "resources": [
-                "Brief Volunteers Resources"
+                "Ensure Equipment Maintenance Resources"
               ],
               "tasks": [
-                "Practice brief volunteers fundamentals",
-                "Apply brief volunteers in small scenarios"
+                "Practice ensure equipment maintenance fundamentals",
+                "Apply ensure equipment maintenance in small scenarios"
               ],
               "children": []
             },
             {
-              "title": "Capacity Building Proficiency",
-              "objective": "Develop proficiency in capacity building",
+              "title": "Ensure Sanitation Proficiency",
+              "objective": "Develop proficiency in ensure sanitation",
               "duration_months": 2,
               "prerequisites": [],
               "milestones": [
-                "Complete capacity building course",
-                "Demonstrate capacity building usage",
-                "Pass capacity building quiz"
+                "Complete ensure sanitation course",
+                "Demonstrate ensure sanitation usage",
+                "Pass ensure sanitation quiz"
               ],
               "resources": [
-                "Capacity Building Resources"
+                "Ensure Sanitation Resources"
               ],
               "tasks": [
-                "Practice capacity building fundamentals",
-                "Apply capacity building in small scenarios"
+                "Practice ensure sanitation fundamentals",
+                "Apply ensure sanitation in small scenarios"
               ],
               "children": []
             }
@@ -592,8 +583,7 @@
           "objective": "Gain hands-on experience through projects or simulations",
           "duration_months": 3,
           "prerequisites": [
-            "communication",
-            "data analytics"
+            "communication"
           ],
           "milestones": [
             "Complete 2 major projects",
@@ -613,9 +603,8 @@
               "duration_months": 2,
               "prerequisites": [
                 "communication",
-                "data analytics",
-                "advocate for others",
-                "assist clients with personal development"
+                "control steam flows",
+                "domestic cooling systems"
               ],
               "milestones": [
                 "Design project scope",
@@ -629,10 +618,10 @@
               "tasks": [
                 "Select a real-world problem to solve",
                 "Plan the solution",
+                "Lead a capstone or team project solving a realistic problem in boiler operator",
                 "Connect with professionals in the field and request informational interviews",
-                "Intern or co-op with industry partners to build professional experience",
-                "Join local/online communities for practical advice and networking",
-                "Set short-term learning goals and review progress every month"
+                "Publish or present your project work on a portfolio or site",
+                "Undertake advanced coursework or a master\u2019s specialization relevant to boiler operator"
               ],
               "children": []
             },
@@ -642,10 +631,9 @@
               "duration_months": 2,
               "prerequisites": [
                 "communication",
-                "data analytics",
-                "advocate for others",
-                "assist clients with personal development",
-                "brief volunteers"
+                "control steam flows",
+                "domestic cooling systems",
+                "ensure equipment maintenance"
               ],
               "milestones": [
                 "Complete complex project",
@@ -657,11 +645,11 @@
               ],
               "tasks": [
                 "Define advanced project requirements",
-                "Publish or present your project work on a portfolio or site",
-                "Connect with professionals in the field and request informational interviews",
-                "Join local/online communities for practical advice and networking",
+                "Undertake advanced coursework or a master\u2019s specialization relevant to boiler operator",
                 "Set short-term learning goals and review progress every month",
-                "Intern or co-op with industry partners to build professional experience"
+                "Connect with professionals in the field and request informational interviews",
+                "Publish or present your project work on a portfolio or site",
+                "Lead a capstone or team project solving a realistic problem in boiler operator"
               ],
               "children": []
             }
@@ -680,7 +668,7 @@
             "Industry Certifications"
           ],
           "tasks": [
-            "Research trending specializations in volunteer mentor",
+            "Research trending specializations in boiler operator",
             "Select a niche"
           ],
           "children": [
@@ -690,9 +678,8 @@
               "duration_months": 2,
               "prerequisites": [
                 "communication",
-                "data analytics",
-                "advocate for others",
-                "assist clients with personal development"
+                "control steam flows",
+                "domestic cooling systems"
               ],
               "milestones": [
                 "Complete specialization course",
@@ -703,10 +690,10 @@
                 "Specialized Training"
               ],
               "tasks": [
-                "Connect with professionals in the field and request informational interviews",
-                "Complete a vocational certificate focused on advocate for others or tools used in volunteer mentor",
-                "Publish or present your project work on a portfolio or site",
-                "Build a public portfolio showcasing projects related to volunteer mentor"
+                "Target specialist or leadership roles and craft a research/experience summary",
+                "Set short-term learning goals and review progress every month",
+                "Undertake advanced coursework or a master\u2019s specialization relevant to boiler operator",
+                "Build a public portfolio showcasing projects related to boiler operator"
               ],
               "children": []
             }
@@ -744,8 +731,8 @@
                 "Resume Builder"
               ],
               "tasks": [
-                "Tailor resume for volunteer mentor",
-                "Highlight key skills: advocate for others, assist clients with personal development, brief volunteers"
+                "Tailor resume for boiler operator",
+                "Highlight key skills: control steam flows, domestic cooling systems, ensure equipment maintenance"
               ],
               "children": []
             },
@@ -764,7 +751,7 @@
                 "Networking Events"
               ],
               "tasks": [
-                "Identify top companies for volunteer mentor",
+                "Identify top companies for boiler operator",
                 "Prepare for interviews"
               ],
               "children": []
@@ -774,7 +761,7 @@
       ]
     },
     {
-      "path_title": "volunteer mentor",
+      "path_title": "boiler operator",
       "focus": "Transition",
       "confidence_score": 0.8,
       "steps": [
@@ -798,7 +785,7 @@
           "children": [
             {
               "title": "Industry Fundamentals",
-              "objective": "Understand the core concepts of volunteer mentor",
+              "objective": "Understand the core concepts of boiler operator",
               "duration_months": 1,
               "prerequisites": [],
               "milestones": [
@@ -812,11 +799,11 @@
                 "Career Guides"
               ],
               "tasks": [
-                "Build a public portfolio showcasing projects related to volunteer mentor",
-                "Join local/online communities for practical advice and networking",
-                "Connect with professionals in the field and request informational interviews",
-                "Complete a vocational certificate focused on advocate for others or tools used in volunteer mentor",
-                "Publish or present your project work on a portfolio or site"
+                "Build a public portfolio showcasing projects related to boiler operator",
+                "Set short-term learning goals and review progress every month",
+                "Lead a capstone or team project solving a realistic problem in boiler operator",
+                "Undertake advanced coursework or a master\u2019s specialization relevant to boiler operator",
+                "Connect with professionals in the field and request informational interviews"
               ],
               "children": []
             },
@@ -835,7 +822,7 @@
                 "Community Forums"
               ],
               "tasks": [
-                "Research standard tools for volunteer mentor",
+                "Research standard tools for boiler operator",
                 "Install primary software tools",
                 "Create account on professional networks"
               ],
@@ -845,11 +832,10 @@
         },
         {
           "title": "Core Skills Development",
-          "objective": "Master essential skills for volunteer mentor",
+          "objective": "Master essential skills for boiler operator",
           "duration_months": 4,
           "prerequisites": [
-            "communication",
-            "data analytics"
+            "communication"
           ],
           "milestones": [
             "Complete all core skill modules",
@@ -865,80 +851,80 @@
           ],
           "children": [
             {
-              "title": "Advocate For Others Proficiency",
-              "objective": "Develop proficiency in advocate for others",
+              "title": "Control Steam Flows Proficiency",
+              "objective": "Develop proficiency in control steam flows",
               "duration_months": 2,
               "prerequisites": [
-                "communication",
-                "data analytics"
+                "communication"
               ],
               "milestones": [
-                "Complete advocate for others course",
-                "Demonstrate advocate for others usage",
-                "Pass advocate for others quiz"
+                "Complete control steam flows course",
+                "Demonstrate control steam flows usage",
+                "Pass control steam flows quiz"
               ],
               "resources": [
-                "Advocate For Others Resources"
+                "Control Steam Flows Resources"
               ],
               "tasks": [
-                "Complete a vocational certificate focused on advocate for others or tools used in volunteer mentor"
+                "Practice control steam flows fundamentals",
+                "Apply control steam flows in small scenarios"
               ],
               "children": []
             },
             {
-              "title": "Assist Clients With Personal Development Proficiency",
-              "objective": "Develop proficiency in assist clients with personal development",
+              "title": "Domestic Cooling Systems Proficiency",
+              "objective": "Develop proficiency in domestic cooling systems",
               "duration_months": 2,
               "prerequisites": [],
               "milestones": [
-                "Complete assist clients with personal development course",
-                "Demonstrate assist clients with personal development usage",
-                "Pass assist clients with personal development quiz"
+                "Complete domestic cooling systems course",
+                "Demonstrate domestic cooling systems usage",
+                "Pass domestic cooling systems quiz"
               ],
               "resources": [
-                "Assist Clients With Personal Development Resources"
+                "Domestic Cooling Systems Resources"
               ],
               "tasks": [
-                "Practice assist clients with personal development fundamentals",
-                "Apply assist clients with personal development in small scenarios"
+                "Practice domestic cooling systems fundamentals",
+                "Apply domestic cooling systems in small scenarios"
               ],
               "children": []
             },
             {
-              "title": "Brief Volunteers Proficiency",
-              "objective": "Develop proficiency in brief volunteers",
+              "title": "Ensure Equipment Maintenance Proficiency",
+              "objective": "Develop proficiency in ensure equipment maintenance",
               "duration_months": 2,
               "prerequisites": [],
               "milestones": [
-                "Complete brief volunteers course",
-                "Demonstrate brief volunteers usage",
-                "Pass brief volunteers quiz"
+                "Complete ensure equipment maintenance course",
+                "Demonstrate ensure equipment maintenance usage",
+                "Pass ensure equipment maintenance quiz"
               ],
               "resources": [
-                "Brief Volunteers Resources"
+                "Ensure Equipment Maintenance Resources"
               ],
               "tasks": [
-                "Practice brief volunteers fundamentals",
-                "Apply brief volunteers in small scenarios"
+                "Practice ensure equipment maintenance fundamentals",
+                "Apply ensure equipment maintenance in small scenarios"
               ],
               "children": []
             },
             {
-              "title": "Capacity Building Proficiency",
-              "objective": "Develop proficiency in capacity building",
+              "title": "Ensure Sanitation Proficiency",
+              "objective": "Develop proficiency in ensure sanitation",
               "duration_months": 2,
               "prerequisites": [],
               "milestones": [
-                "Complete capacity building course",
-                "Demonstrate capacity building usage",
-                "Pass capacity building quiz"
+                "Complete ensure sanitation course",
+                "Demonstrate ensure sanitation usage",
+                "Pass ensure sanitation quiz"
               ],
               "resources": [
-                "Capacity Building Resources"
+                "Ensure Sanitation Resources"
               ],
               "tasks": [
-                "Practice capacity building fundamentals",
-                "Apply capacity building in small scenarios"
+                "Practice ensure sanitation fundamentals",
+                "Apply ensure sanitation in small scenarios"
               ],
               "children": []
             }
@@ -949,8 +935,7 @@
           "objective": "Gain hands-on experience through projects or simulations",
           "duration_months": 2,
           "prerequisites": [
-            "communication",
-            "data analytics"
+            "communication"
           ],
           "milestones": [
             "Complete 2 major projects",
@@ -970,9 +955,8 @@
               "duration_months": 2,
               "prerequisites": [
                 "communication",
-                "data analytics",
-                "advocate for others",
-                "assist clients with personal development"
+                "control steam flows",
+                "domestic cooling systems"
               ],
               "milestones": [
                 "Design project scope",
@@ -986,10 +970,10 @@
               "tasks": [
                 "Select a real-world problem to solve",
                 "Plan the solution",
+                "Undertake advanced coursework or a master\u2019s specialization relevant to boiler operator",
                 "Set short-term learning goals and review progress every month",
-                "Complete a vocational certificate focused on advocate for others or tools used in volunteer mentor",
-                "Publish or present your project work on a portfolio or site",
-                "Intern or co-op with industry partners to build professional experience"
+                "Build a public portfolio showcasing projects related to boiler operator",
+                "Connect with professionals in the field and request informational interviews"
               ],
               "children": []
             },
@@ -999,10 +983,9 @@
               "duration_months": 2,
               "prerequisites": [
                 "communication",
-                "data analytics",
-                "advocate for others",
-                "assist clients with personal development",
-                "brief volunteers"
+                "control steam flows",
+                "domestic cooling systems",
+                "ensure equipment maintenance"
               ],
               "milestones": [
                 "Complete complex project",
@@ -1014,11 +997,11 @@
               ],
               "tasks": [
                 "Define advanced project requirements",
-                "Join local/online communities for practical advice and networking",
-                "Build a public portfolio showcasing projects related to volunteer mentor",
+                "Publish or present your project work on a portfolio or site",
+                "Build a public portfolio showcasing projects related to boiler operator",
+                "Lead a capstone or team project solving a realistic problem in boiler operator",
                 "Set short-term learning goals and review progress every month",
-                "Connect with professionals in the field and request informational interviews",
-                "Complete a vocational certificate focused on advocate for others or tools used in volunteer mentor"
+                "Target specialist or leadership roles and craft a research/experience summary"
               ],
               "children": []
             }
@@ -1037,7 +1020,7 @@
             "Industry Certifications"
           ],
           "tasks": [
-            "Research trending specializations in volunteer mentor",
+            "Research trending specializations in boiler operator",
             "Select a niche"
           ],
           "children": [
@@ -1047,9 +1030,8 @@
               "duration_months": 2,
               "prerequisites": [
                 "communication",
-                "data analytics",
-                "advocate for others",
-                "assist clients with personal development"
+                "control steam flows",
+                "domestic cooling systems"
               ],
               "milestones": [
                 "Complete specialization course",
@@ -1060,10 +1042,10 @@
                 "Specialized Training"
               ],
               "tasks": [
-                "Complete a vocational certificate focused on advocate for others or tools used in volunteer mentor",
-                "Connect with professionals in the field and request informational interviews",
+                "Publish or present your project work on a portfolio or site",
                 "Set short-term learning goals and review progress every month",
-                "Publish or present your project work on a portfolio or site"
+                "Connect with professionals in the field and request informational interviews",
+                "Lead a capstone or team project solving a realistic problem in boiler operator"
               ],
               "children": []
             }
@@ -1101,8 +1083,8 @@
                 "Resume Builder"
               ],
               "tasks": [
-                "Tailor resume for volunteer mentor",
-                "Highlight key skills: advocate for others, assist clients with personal development, brief volunteers"
+                "Tailor resume for boiler operator",
+                "Highlight key skills: control steam flows, domestic cooling systems, ensure equipment maintenance"
               ],
               "children": []
             },
@@ -1121,7 +1103,7 @@
                 "Networking Events"
               ],
               "tasks": [
-                "Identify top companies for volunteer mentor",
+                "Identify top companies for boiler operator",
                 "Prepare for interviews"
               ],
               "children": []

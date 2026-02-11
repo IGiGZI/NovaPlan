@@ -1,12 +1,11 @@
-import React, { useState, memo } from 'react';
-import { Link } from "react-router";
+import { useState, memo } from 'react';
 import { ReactFlow, Handle, Position } from '@xyflow/react';
 import { getLayoutedElements } from '../util/newDagre';
-import roadmapData from "./bidManager.json"
+import roadmapData from "../data/bidManager.json"
 import MainNav from '../components/MainNav';
 import '@xyflow/react/dist/style.css';
 
-// Custom Node Component with purple gradient
+// custom node type
 const CustomRoadmapNode = memo(({ data }) => {
   return (
     <div className="relative">
@@ -17,7 +16,7 @@ const CustomRoadmapNode = memo(({ data }) => {
       
       <div className="px-4 py-3 shadow-lg rounded-lg bg-[#111111] border-2 border-purple-400/50 w-[200px]">
         <div className="text-white">
-          <div className="font-bold text-sm mb-1 break-words">{data.label}</div>
+          <div className="font-bold text-sm mb-1 wrap-break-word">{data.label}</div>
           {data.duration && (
             <div className="text-xs text-purple-100 opacity-80">
               {data.duration} months
@@ -41,7 +40,7 @@ const nodeTypes = {
   customRoadmap: CustomRoadmapNode,
 };
 
-function FlowT2() {
+function Flowmap() {
   const [selectedNode, setSelectedNode] = useState(null);
   
   // Apply layout to the roadmap steps
@@ -71,7 +70,7 @@ function FlowT2() {
 
       {/* Header */}
       <div className="pt-28 pb-6 px-6 text-center">
-        <h1 className="text-4xl md:text-5xl font-bold mb-2 bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400 bg-clip-text text-transparent">
+        <h1 className="text-4xl md:text-5xl font-bold mb-2 bg-linear-to-r from-purple-400 via-pink-400 to-purple-400 bg-clip-text text-transparent">
           Roadmap Name
         </h1>
         <p className="text-gray-400">Interactive career path visualization</p>
@@ -102,11 +101,11 @@ function FlowT2() {
           onClick={closePopup}
         >
           <div 
-            className="bg-gradient-to-br from-purple-900/90 to-black/90 backdrop-blur-md border border-purple-500/50 rounded-2xl p-6 max-w-2xl max-h-[80vh] overflow-y-auto shadow-2xl shadow-purple-500/20"
+            className="bg-linear-to-br from-purple-900/90 to-black/90 backdrop-blur-md border border-purple-500/50 rounded-2xl p-6 max-w-2xl max-h-[80vh] overflow-y-auto shadow-2xl shadow-purple-500/20"
             onClick={(e) => e.stopPropagation()}
           >
             <div className="flex justify-between items-start mb-6">
-              <h2 className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+              <h2 className="text-2xl font-bold bg-linear-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
                 {selectedNode.data.label}
               </h2>
               <button 
@@ -179,4 +178,4 @@ function FlowT2() {
   );
 }
 
-export default FlowT2;
+export default Flowmap;
