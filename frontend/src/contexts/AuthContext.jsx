@@ -1,10 +1,8 @@
-// oookaaay? for disabling the fast refresh warning i guess...
 /* eslint-disable react-refresh/only-export-components */
 import { createContext, useContext, useState, useEffect } from "react";
 
 const AuthContext = createContext(null);
 
-// the brain logic for authentication states and functions
 export function AuthProvider({ children }) {
 	const [user, setUser] = useState(null);
 	const [showAuthModal, setShowAuthModal] = useState(false);
@@ -13,7 +11,6 @@ export function AuthProvider({ children }) {
 	const [loading, setLoading] = useState(false);
 	const [error, setError] = useState("");
 
-	// Check for stored user on mount
 	useEffect(() => {
 		const storedUser = localStorage.getItem("user");
 		if (storedUser) {
@@ -21,7 +18,6 @@ export function AuthProvider({ children }) {
 		}
 	}, []);
 
-	// Open modal
 	const openAuthModal = (mode) => {
 		setAuthMode(mode);
 		setShowAuthModal(true);
@@ -29,14 +25,12 @@ export function AuthProvider({ children }) {
 		setFormData({ username: "", email: "", password: "" });
 	};
 
-	// Close modal
 	const closeAuthModal = () => {
 		setShowAuthModal(false);
 		setError("");
 		setFormData({ username: "", email: "", password: "" });
 	};
 
-	// Handle input change
 	const handleInputChange = (e) => {
 		setFormData({
 			...formData,
@@ -44,13 +38,13 @@ export function AuthProvider({ children }) {
 		});
 	};
 
-	// Handle login
+	// --- تعديل دالة Login لاستقبال الـ ID ---
 	const handleLogin = async () => {
 		setLoading(true);
 		setError("");
 		
 		try {
-			const response = await fetch("http://localhost:8000/api/auth/login", {
+			const response = await fetch("http://localhost:5000/api/auth/login", {
 				method: "POST",
 				headers: { "Content-Type": "application/json" },
 				body: JSON.stringify({
@@ -62,8 +56,10 @@ export function AuthProvider({ children }) {
 			const data = await response.json();
 
 			if (response.ok) {
-				setUser({ username: data.username });
-				localStorage.setItem("user", JSON.stringify({ username: data.username }));
+				// هنا أضفنا الـ id اللي جاي من الباك إند
+				const userData = { username: data.username, id: data.id }; 
+				setUser(userData);
+				localStorage.setItem("user", JSON.stringify(userData));
 				closeAuthModal();
 			} else {
 				setError(data.message || "Login failed");
@@ -76,13 +72,13 @@ export function AuthProvider({ children }) {
 		}
 	};
 
-	// Handle signup
+	// --- تعديل دالة Signup لاستقبال الـ ID ---
 	const handleSignup = async () => {
 		setLoading(true);
 		setError("");
 		
 		try {
-			const response = await fetch("http://localhost:8000/api/auth/signup", {
+			const response = await fetch("http://localhost:5000/api/auth/signup", {
 				method: "POST",
 				headers: { "Content-Type": "application/json" },
 				body: JSON.stringify({
@@ -95,8 +91,10 @@ export function AuthProvider({ children }) {
 			const data = await response.json();
 
 			if (response.ok) {
-				setUser({ username: data.username });
-				localStorage.setItem("user", JSON.stringify({ username: data.username }));
+				// نفس الشيء هنا، نخزن البيانات مع الـ ID
+				const userData = { username: data.username, id: data.id };
+				setUser(userData);
+				localStorage.setItem("user", JSON.stringify(userData));
 				closeAuthModal();
 			} else {
 				setError(data.message || "Signup failed");
@@ -109,13 +107,11 @@ export function AuthProvider({ children }) {
 		}
 	};
 
-	// Handle logout
 	const handleLogout = () => {
 		setUser(null);
 		localStorage.removeItem("user");
 	};
 
-	// Handle form submit
 	const handleSubmit = (e) => {
 		e.preventDefault();
 		if (authMode === "login") {
@@ -125,7 +121,6 @@ export function AuthProvider({ children }) {
 		}
 	};
 
-	// everything the rest of the app needs from this context
 	const value = {
 		user,
 		showAuthModal,
@@ -148,7 +143,6 @@ export function AuthProvider({ children }) {
 	);
 }
 
-// exporting the useAuth hook for accessing the context in other components (for example MainNav.jsx)
 export const useAuth = () => {
 	const context = useContext(AuthContext);
 	if (!context) {

@@ -1,7 +1,6 @@
-import { useState, memo } from 'react';
+import { useState, useEffect, memo } from 'react';
 import { ReactFlow, Handle, Position } from '@xyflow/react';
 import { getLayoutedElements } from '../util/newDagre';
-import roadmapData from "../data/bidManager.json"
 import MainNav from '../components/MainNav';
 import '@xyflow/react/dist/style.css';
 
@@ -42,9 +41,25 @@ const nodeTypes = {
 
 function Flowmap() {
   const [selectedNode, setSelectedNode] = useState(null);
-  
-  // Apply layout to the roadmap steps
-  const { nodes, edges } = getLayoutedElements(roadmapData.roadmaps[0].steps);
+  const [roadmapData, setRoadmapData] = useState(null);
+  const [nodes, setNodes] = useState([]);
+  const [edges, setEdges] = useState([]);
+
+  useEffect(() => {
+    // Get roadmap from localStorage
+    const storedRoadmap = localStorage.getItem("roadmapResult");
+    if (storedRoadmap) {
+      const data = JSON.parse(storedRoadmap);
+      setRoadmapData(data);
+      
+      // Apply layout to the roadmap steps
+      if (data.roadmaps && data.roadmaps.length > 0) {
+        const layouted = getLayoutedElements(data.roadmaps[0].steps);
+        setNodes(layouted.nodes);
+        setEdges(layouted.edges);
+      }
+    }
+  }, []);
 
   // Handle node click
   const onNodeClick = (event, node) => {
@@ -56,6 +71,29 @@ function Flowmap() {
   const closePopup = () => {
     setSelectedNode(null);
   };
+
+  // Show loading or no data message
+  if (!roadmapData) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <MainNav/>
+        <div className="text-center">
+          <h2 className="text-2xl font-bold text-gray-100 mb-4">
+            No Roadmap Found
+          </h2>
+          <p className="text-gray-400 mb-6">
+            Please generate a roadmap first to view it here.
+          </p>
+          <a
+            href="/"
+            className="specialBtnGradient rounded-full px-8 py-3 text-white font-semibold shadow-lg shadow-purple-500/50 hover:scale-105 transition-transform inline-block"
+          >
+            Generate Roadmap
+          </a>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen">
@@ -71,9 +109,10 @@ function Flowmap() {
       {/* Header */}
       <div className="pt-28 pb-6 px-6 text-center">
         <h1 className="text-4xl md:text-5xl font-bold mb-2 bg-linear-to-r from-purple-400 via-pink-400 to-purple-400 bg-clip-text text-transparent">
-          Roadmap Name
+          {roadmapData.roadmaps[0]?.path_title || "Career Roadmap"}
         </h1>
         <p className="text-gray-400">Interactive career path visualization</p>
+        <p className="text-purple-400 mt-2">Career: {roadmapData.chosen_career}</p>
       </div>
 
       {/* ReactFlow Container */}

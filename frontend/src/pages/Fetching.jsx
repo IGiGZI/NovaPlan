@@ -1,49 +1,96 @@
 import { useState } from "react";
 import { Link } from "react-router";
-import questions from "../data/questions.json";
+import questionTree from "../data/questionsTree.json";
 import MainNav from "../components/MainNav";
+
+const questions = questionTree.questions;
 
 function Fetching() {
 	const [loading, setLoading] = useState(false);
 	const [result, setResult] = useState(null);
 	const [error, setError] = useState("");
-	const [answers, setAnswers] = useState({});
-	const [summary, setSummary] = useState("");
 
-	const handleRadioChange = (questionId, value) => {
-		setAnswers((prev) => ({
-			...prev,
-			[questionId]: value,
-		}));
+	// History of { questionId, selectedOptionIndex } for back navigation
+	const [history, setHistory] = useState([]);
+	// Accumulated answers: array of { questionId, label, next }
+	const [answers, setAnswers] = useState([]);
+	// Current question ID
+	const [currentId, setCurrentId] = useState(questionTree.start);
+	// Selected option index (before confirming)
+	const [selected, setSelected] = useState(null);
+	// Whether we've reached a result node
+	const [reachedResult, setReachedResult] = useState(false);
+	const [resultNode, setResultNode] = useState(null);
+
+	const currentQuestion = questions[currentId];
+
+	const handleSelect = (idx) => {
+		setSelected(idx);
+	};
+
+	const handleNext = () => {
+		if (selected === null) return;
+
+		const option = currentQuestion.options[selected];
+		const nextId = option.next;
+		const nextNode = questions[nextId];
+
+		const newAnswers = [
+			...answers,
+			{ questionId: currentId, label: option.label, next: nextId },
+		];
+		setAnswers(newAnswers);
+		setHistory([...history, { questionId: currentId, selectedOptionIndex: selected }]);
+		setSelected(null);
+
+		if (!nextNode || nextNode.type === "result") {
+			setReachedResult(true);
+			setResultNode(nextNode || null);
+		} else {
+			setCurrentId(nextId);
+		}
+	};
+
+	const handleBack = () => {
+		if (history.length === 0) return;
+
+		const prevHistory = [...history];
+		const last = prevHistory.pop();
+
+		setHistory(prevHistory);
+		setAnswers(answers.slice(0, -1));
+		setCurrentId(last.questionId);
+		setSelected(last.selectedOptionIndex);
+		setReachedResult(false);
+		setResultNode(null);
+		setResult(null);
+		setError("");
 	};
 
 	const handleSubmit = async () => {
 		setError("");
-
-		// Validate that all questions are answered
-		const allAnswered = questions.every((q) => answers[q.id]);
-		if (!allAnswered) {
-			setError("Please answer all questions");
-			return;
-		}
-
 		setLoading(true);
 		setResult(null);
 
-		const formattedAnswers = questions.map((q) => ({
-			questionId: q.id,
-			type: answers[q.id],
+		const formattedAnswers = answers.map((a) => ({
+			questionId: a.questionId,
+			label: a.label,
 		}));
 
 		try {
 			const res = await fetch("http://localhost:8000/generate", {
 				method: "POST",
 				headers: { "Content-Type": "application/json" },
-				body: JSON.stringify({ answers: formattedAnswers, summary }),
+				body: JSON.stringify({
+					answers: formattedAnswers,
+					careers: resultNode?.careers ?? [],
+					category: resultNode?.category ?? "",
+				}),
 			});
 			if (!res.ok) throw new Error("Failed to generate roadmaps");
 			const data = await res.json();
 			setResult(data);
+			localStorage.setItem("roadmapResult", JSON.stringify(data));
 		} catch (err) {
 			setError(err.message || "Something went wrong");
 		} finally {
@@ -51,12 +98,22 @@ function Fetching() {
 		}
 	};
 
-	console.log(result);
+	const handleRestart = () => {
+		setHistory([]);
+		setAnswers([]);
+		setCurrentId(questionTree.start);
+		setSelected(null);
+		setReachedResult(false);
+		setResultNode(null);
+		setResult(null);
+		setError("");
+	};
+
+	const progressSteps = history.length + (reachedResult ? 1 : 0);
 
 	return (
 		<main className="min-h-screen">
-			{/* Navbar */}
-			<MainNav/>
+			<MainNav />
 
 			{/* Background effects */}
 			<div className="fixed inset-0 -z-10 overflow-hidden pointer-events-none">
@@ -69,75 +126,127 @@ function Fetching() {
 					Launch Your Career
 				</h1>
 				<p className="text-center text-lg text-gray-300">
-					Answer the following questions to help us tailor a career
-					roadmap just for you
+					Answer a few questions and we'll tailor a career roadmap just for you
 				</p>
 			</header>
 
-			<div className="max-w-3xl mx-auto my-10 bg-linear-to-br from-purple-900/20 to-transparent backdrop-blur-sm p-6 md:p-8 rounded-xl shadow-lg border border-purple-500/30 space-y-6">
-				{questions.map((question) => (
-					<fieldset className="group" key={question.id}>
-						<legend className="mb-4 text-lg font-semibold text-gray-100">
-							{question.question}
-						</legend>
-						<div className="grid gap-3">
-							{question.options.map((opt, idx) => (
-								<div key={idx} className="flex items-center">
-									<input
-										type="radio"
-										name={`question-${question.id}`}
-										id={`${question.id}-${idx}`}
-										value={opt.type}
-										checked={
-											answers[question.id] === opt.type
-										}
-										onChange={() =>
-											handleRadioChange(
-												question.id,
-												opt.type,
-											)
-										}
-										className="peer sr-only"
-									/>
-									<label
-										htmlFor={`${question.id}-${idx}`}
-										className="flex-1 cursor-pointer rounded-lg px-4 py-3 border border-purple-500/30 hover:border-purple-400 transition-all duration-150 text-gray-200 peer-checked:ring-2 peer-checked:ring-purple-500 peer-checked:bg-linear-to-r peer-checked:from-purple-600 peer-checked:to-pink-500 peer-checked:shadow-lg peer-checked:shadow-purple-500/50"
-									>
-										<div className="font-medium">
-											{opt.text}
-										</div>
-									</label>
-								</div>
-							))}
+			{!result && (
+				<div className="max-w-2xl mx-auto px-4 pb-20">
+					{/* Progress bar */}
+					{progressSteps > 0 && (
+						<div className="mb-6">
+							<div className="flex items-center justify-between text-xs text-gray-500 mb-1">
+								<span>Question {progressSteps}</span>
+								<button
+									onClick={handleRestart}
+									className="text-purple-400 hover:text-purple-300 transition-colors"
+								>
+									Restart
+								</button>
+							</div>
+							<div className="w-full h-1 bg-purple-900/40 rounded-full">
+								<div
+									className="h-1 bg-linear-to-r from-purple-500 to-pink-500 rounded-full transition-all duration-500"
+									style={{ width: `${Math.min(progressSteps * 8, 100)}%` }}
+								/>
+							</div>
 						</div>
-					</fieldset>
-				))}
+					)}
 
-				<div>
-					<label className="block text-lg font-semibold mb-2 text-gray-100">
-						Write a brief summary about yourself
-					</label>
-					<textarea
-						value={summary}
-						onChange={(e) => setSummary(e.target.value)}
-						placeholder="Talk about yourself, your interests, skills, and career aspirations..."
-						className="w-full rounded-lg border border-purple-500/30 bg-black/20 backdrop-blur-sm p-3 placeholder-gray-500 text-gray-200 h-32 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition"
-					/>
-				</div>
+					{!reachedResult ? (
+						/* Question card */
+						<div className="bg-linear-to-br from-purple-900/20 to-transparent backdrop-blur-sm p-6 md:p-8 rounded-xl shadow-lg border border-purple-500/30 space-y-6">
+							<p className="text-xl font-semibold text-gray-100">
+								{currentQuestion?.question}
+							</p>
 
-				<div className="flex items-center justify-between gap-4">
-					<button
-						onClick={handleSubmit}
-						disabled={loading}
-						className="specialBtnGradient rounded-full px-8 py-3 text-white font-semibold shadow-lg shadow-purple-500/50 disabled:opacity-60 disabled:cursor-not-allowed hover:scale-105 transition-transform"
-					>
-						{loading ? "Generating..." : "Generate Roadmap"}
-					</button>
-					{error && (
-						<p className="text-red-400 font-medium">{error}</p>
+							<div className="grid gap-3">
+								{currentQuestion?.options.map((opt, idx) => (
+									<button
+										key={idx}
+										onClick={() => handleSelect(idx)}
+										className={`w-full text-left rounded-lg px-4 py-3 border transition-all duration-150 text-gray-200 ${
+											selected === idx
+												? "border-purple-500 ring-2 ring-purple-500 bg-linear-to-r from-purple-600 to-pink-500 shadow-lg shadow-purple-500/50"
+												: "border-purple-500/30 hover:border-purple-400"
+										}`}
+									>
+										{opt.label}
+									</button>
+								))}
+							</div>
+
+							<div className="flex items-center gap-3">
+								{history.length > 0 && (
+									<button
+										onClick={handleBack}
+										className="rounded-full px-6 py-3 border border-purple-500/40 text-gray-300 hover:border-purple-400 hover:text-white transition-all"
+									>
+										← Back
+									</button>
+								)}
+								<button
+									onClick={handleNext}
+									disabled={selected === null}
+									className="specialBtnGradient rounded-full px-8 py-3 text-white font-semibold shadow-lg shadow-purple-500/50 disabled:opacity-40 disabled:cursor-not-allowed hover:scale-105 transition-transform"
+								>
+									Next →
+								</button>
+							</div>
+						</div>
+					) : (
+						/* Result discovery card */
+						<div className="bg-linear-to-br from-purple-900/20 to-transparent backdrop-blur-sm p-6 md:p-8 rounded-xl shadow-lg border border-purple-500/30 space-y-6">
+							<div>
+								<p className="text-sm text-purple-400 font-medium mb-1 uppercase tracking-widest">
+									Career Match Found
+								</p>
+								<h2 className="text-2xl font-bold text-gray-100 mb-2">
+									{resultNode?.careers?.join(", ") ?? "Your career path"}
+								</h2>
+								{resultNode?.category && (
+									<p className="text-sm text-gray-400">
+										Category: {resultNode.category}
+									</p>
+								)}
+								{resultNode?.education_min && (
+									<p className="text-sm text-gray-400">
+										Minimum education: {resultNode.education_min}
+									</p>
+								)}
+							</div>
+
+							<p className="text-gray-300">
+								Ready to generate your personalized roadmap for this career?
+							</p>
+
+							{error && <p className="text-red-400 font-medium">{error}</p>}
+
+							<div className="flex flex-wrap items-center gap-3">
+								<button
+									onClick={handleBack}
+									className="rounded-full px-6 py-3 border border-purple-500/40 text-gray-300 hover:border-purple-400 hover:text-white transition-all"
+								>
+									← Back
+								</button>
+								<button
+									onClick={handleSubmit}
+									disabled={loading}
+									className="specialBtnGradient rounded-full px-8 py-3 text-white font-semibold shadow-lg shadow-purple-500/50 disabled:opacity-60 disabled:cursor-not-allowed hover:scale-105 transition-transform"
+								>
+									{loading ? "Generating..." : "Generate Roadmap"}
+								</button>
+								<button
+									onClick={handleRestart}
+									className="rounded-full px-6 py-3 border border-purple-500/40 text-gray-300 hover:border-purple-400 hover:text-white transition-all"
+								>
+									Start Over
+								</button>
+							</div>
+						</div>
 					)}
 				</div>
-			</div>
+			)}
 
 			{result && (
 				<section className="max-w-5xl mx-auto px-4 pb-20">
@@ -148,11 +257,19 @@ function Fetching() {
 						<p className="text-gray-400 mb-8">
 							Your personalized roadmaps are ready!
 						</p>
-						<Link to={"/FlowT2"}>
-							<button className="specialBtnGradient rounded-full px-8 py-3 text-white font-semibold shadow-lg shadow-purple-500/50 disabled:opacity-60 disabled:cursor-not-allowed hover:scale-105 transition-transform">
-								View Visual Roadmap
+						<div className="flex flex-wrap gap-4">
+							<Link to={"/flowmap"}>
+								<button className="specialBtnGradient rounded-full px-8 py-3 text-white font-semibold shadow-lg shadow-purple-500/50 hover:scale-105 transition-transform">
+									View Visual Roadmap
+								</button>
+							</Link>
+							<button
+								onClick={handleRestart}
+								className="rounded-full px-8 py-3 border border-purple-500/40 text-gray-300 hover:border-purple-400 hover:text-white transition-all"
+							>
+								Start Over
 							</button>
-						</Link>
+						</div>
 					</div>
 
 					{/* Detailed Roadmap Breakdown with Milestones */}
@@ -168,12 +285,10 @@ function Fetching() {
 								<h4 className="text-xl font-bold text-gray-100 mb-4">
 									{r.path_title} — {r.focus}
 									<span className="ml-2 text-sm text-purple-400">
-										(Confidence:{" "}
-										{Math.round(r.confidence_score * 100)}%)
+										(Confidence: {Math.round(r.confidence_score * 100)}%)
 									</span>
 								</h4>
 
-								{/* Render hierarchical steps with milestones */}
 								<div className="ml-4 space-y-4">
 									{r.steps.map((step, stepIndex) => (
 										<div
@@ -187,191 +302,105 @@ function Fetching() {
 												{step.objective}
 											</div>
 											<div className="text-xs text-gray-500 mb-3">
-												Duration: {step.duration_months}{" "}
-												month
-												{step.duration_months !== 1
-													? "s"
-													: ""}
+												Duration: {step.duration_months} month
+												{step.duration_months !== 1 ? "s" : ""}
 											</div>
 
-											{/* Milestones */}
-											{step.milestones &&
-												step.milestones.length > 0 && (
-													<div className="ml-4 mb-3">
-														<div className="font-semibold text-xs text-green-400 mb-1">
-															Milestones:
-														</div>
-														<ul className="list-disc list-inside space-y-1">
-															{step.milestones.map(
-																(
-																	milestone,
-																	mIndex,
-																) => (
-																	<li
-																		key={
-																			mIndex
-																		}
-																		className="text-xs text-gray-300"
-																	>
-																		{
-																			milestone
-																		}
-																	</li>
-																),
-															)}
-														</ul>
+											{step.milestones?.length > 0 && (
+												<div className="ml-4 mb-3">
+													<div className="font-semibold text-xs text-green-400 mb-1">
+														Milestones:
 													</div>
-												)}
+													<ul className="list-disc list-inside space-y-1">
+														{step.milestones.map((milestone, mIndex) => (
+															<li key={mIndex} className="text-xs text-gray-300">
+																{milestone}
+															</li>
+														))}
+													</ul>
+												</div>
+											)}
 
-											{/* Prerequisites */}
-											{step.prerequisites &&
-												step.prerequisites.length >
-													0 && (
-													<div className="ml-4 mb-3">
-														<div className="font-semibold text-xs text-red-400 mb-1">
-															Prerequisites:
-														</div>
-														<div className="text-xs text-gray-400">
-															{step.prerequisites.join(
-																", ",
-															)}
-														</div>
+											{step.prerequisites?.length > 0 && (
+												<div className="ml-4 mb-3">
+													<div className="font-semibold text-xs text-red-400 mb-1">
+														Prerequisites:
 													</div>
-												)}
-
-											{/* Tasks */}
-											{step.tasks &&
-												step.tasks.length > 0 && (
-													<div className="ml-4 mb-3">
-														<div className="font-semibold text-xs text-purple-400 mb-1">
-															Specific Tasks:
-														</div>
-														<ol className="list-decimal list-inside space-y-1">
-															{step.tasks.map(
-																(
-																	task,
-																	tIndex,
-																) => (
-																	<li
-																		key={
-																			tIndex
-																		}
-																		className="text-xs text-gray-300"
-																	>
-																		{task}
-																	</li>
-																),
-															)}
-														</ol>
+													<div className="text-xs text-gray-400">
+														{step.prerequisites.join(", ")}
 													</div>
-												)}
+												</div>
+											)}
 
-											{/* Child Steps (Branching) */}
-											{step.children &&
-												step.children.length > 0 && (
-													<div className="ml-4 mt-3 space-y-3">
-														<div className="font-semibold text-sm text-purple-400 mb-2">
-															Sub-steps:
-														</div>
-														{step.children.map(
-															(
-																child,
-																childIndex,
-															) => (
-																<div
-																	key={
-																		childIndex
-																	}
-																	className="border-l-2 border-purple-500/30 pl-4 py-2 bg-purple-900/10 rounded"
-																>
-																	<div className="font-semibold text-sm text-gray-200 mb-1">
-																		{
-																			child.title
-																		}
-																	</div>
-																	<div className="text-xs text-gray-400 mb-1">
-																		{
-																			child.objective
-																		}
-																	</div>
-																	<div className="text-xs text-gray-500 mb-2">
-																		Duration:{" "}
-																		{
-																			child.duration_months
-																		}{" "}
-																		month
-																		{child.duration_months !==
-																		1
-																			? "s"
-																			: ""}
-																	</div>
+											{step.tasks?.length > 0 && (
+												<div className="ml-4 mb-3">
+													<div className="font-semibold text-xs text-purple-400 mb-1">
+														Specific Tasks:
+													</div>
+													<ol className="list-decimal list-inside space-y-1">
+														{step.tasks.map((task, tIndex) => (
+															<li key={tIndex} className="text-xs text-gray-300">
+																{task}
+															</li>
+														))}
+													</ol>
+												</div>
+											)}
 
-																	{child.milestones &&
-																		child
-																			.milestones
-																			.length >
-																			0 && (
-																			<div className="ml-2 mb-2">
-																				<div className="font-semibold text-xs text-green-400 mb-1">
-																					Milestones:
-																				</div>
-																				<ul className="list-disc list-inside space-y-1">
-																					{child.milestones.map(
-																						(
-																							milestone,
-																							mIndex,
-																						) => (
-																							<li
-																								key={
-																									mIndex
-																								}
-																								className="text-xs text-gray-300"
-																							>
-																								{
-																									milestone
-																								}
-																							</li>
-																						),
-																					)}
-																				</ul>
-																			</div>
-																		)}
+											{step.children?.length > 0 && (
+												<div className="ml-4 mt-3 space-y-3">
+													<div className="font-semibold text-sm text-purple-400 mb-2">
+														Sub-steps:
+													</div>
+													{step.children.map((child, childIndex) => (
+														<div
+															key={childIndex}
+															className="border-l-2 border-purple-500/30 pl-4 py-2 bg-purple-900/10 rounded"
+														>
+															<div className="font-semibold text-sm text-gray-200 mb-1">
+																{child.title}
+															</div>
+															<div className="text-xs text-gray-400 mb-1">
+																{child.objective}
+															</div>
+															<div className="text-xs text-gray-500 mb-2">
+																Duration: {child.duration_months} month
+																{child.duration_months !== 1 ? "s" : ""}
+															</div>
 
-																	{child.tasks &&
-																		child
-																			.tasks
-																			.length >
-																			0 && (
-																			<div className="ml-2">
-																				<div className="font-semibold text-xs text-purple-400 mb-1">
-																					Tasks:
-																				</div>
-																				<ol className="list-decimal list-inside space-y-1">
-																					{child.tasks.map(
-																						(
-																							task,
-																							tIndex,
-																						) => (
-																							<li
-																								key={
-																									tIndex
-																								}
-																								className="text-xs text-gray-300"
-																							>
-																								{
-																									task
-																								}
-																							</li>
-																						),
-																					)}
-																				</ol>
-																			</div>
-																		)}
+															{child.milestones?.length > 0 && (
+																<div className="ml-2 mb-2">
+																	<div className="font-semibold text-xs text-green-400 mb-1">
+																		Milestones:
+																	</div>
+																	<ul className="list-disc list-inside space-y-1">
+																		{child.milestones.map((milestone, mIndex) => (
+																			<li key={mIndex} className="text-xs text-gray-300">
+																				{milestone}
+																			</li>
+																		))}
+																	</ul>
 																</div>
-															),
-														)}
-													</div>
-												)}
+															)}
+
+															{child.tasks?.length > 0 && (
+																<div className="ml-2">
+																	<div className="font-semibold text-xs text-purple-400 mb-1">
+																		Tasks:
+																	</div>
+																	<ol className="list-decimal list-inside space-y-1">
+																		{child.tasks.map((task, tIndex) => (
+																			<li key={tIndex} className="text-xs text-gray-300">
+																				{task}
+																			</li>
+																		))}
+																	</ol>
+																</div>
+															)}
+														</div>
+													))}
+												</div>
+											)}
 										</div>
 									))}
 								</div>
@@ -379,7 +408,6 @@ function Fetching() {
 						))}
 					</div>
 
-					{/* Download link for JSON */}
 					<div className="mt-12 text-center">
 						<a
 							href="http://localhost:8000/download"

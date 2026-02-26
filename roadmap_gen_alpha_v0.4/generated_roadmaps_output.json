@@ -3,7 +3,7 @@
     "answers": [
       {
         "questionId": 1,
-        "type": "B"
+        "type": "A"
       },
       {
         "questionId": 2,
@@ -11,19 +11,19 @@
       },
       {
         "questionId": 3,
-        "type": "C"
+        "type": "D"
       },
       {
         "questionId": 4,
-        "type": "C"
+        "type": "A"
       },
       {
         "questionId": 5,
-        "type": "B"
+        "type": "A"
       },
       {
         "questionId": 6,
-        "type": "C"
+        "type": "A"
       },
       {
         "questionId": 7,
@@ -35,32 +35,33 @@
       },
       {
         "questionId": 9,
-        "type": "B"
+        "type": "A"
       },
       {
         "questionId": 10,
-        "type": "B"
+        "type": "A"
       }
     ],
-    "summary": "i like eating ice cream"
+    "summary": ""
   },
   "derived_skills": [
-    "communication",
-    "teach writing",
-    "etiopathy",
-    "reforestation",
-    "lipspeaking",
-    "metalworking",
-    "develop personal skills",
     "python",
     "data analytics",
     "sql",
-    "statistics"
+    "statistics",
+    "mathematics",
+    "logic",
+    "solve problems",
+    "machine learning",
+    "project management",
+    "contraindications",
+    "plan tiling",
+    "clean ships"
   ],
-  "chosen_career": "volunteer mentor",
+  "chosen_career": "predictive maintenance expert",
   "roadmaps": [
     {
-      "path_title": "volunteer mentor",
+      "path_title": "predictive maintenance expert",
       "focus": "Depth",
       "confidence_score": 0.8,
       "steps": [
@@ -84,7 +85,7 @@
           "children": [
             {
               "title": "Industry Fundamentals",
-              "objective": "Understand the core concepts of volunteer mentor",
+              "objective": "Understand the core concepts of predictive maintenance expert",
               "duration_months": 1,
               "prerequisites": [],
               "milestones": [
@@ -98,11 +99,11 @@
                 "Career Guides"
               ],
               "tasks": [
-                "Build a public portfolio showcasing projects related to volunteer mentor",
-                "Connect with professionals in the field and request informational interviews",
                 "Set short-term learning goals and review progress every month",
-                "Publish or present your project work on a portfolio or site",
-                "Join local/online communities for practical advice and networking"
+                "Target specialist or leadership roles and craft a research/experience summary",
+                "Mentor junior peers and document advanced workflows",
+                "Build a public portfolio showcasing projects related to predictive maintenance expert",
+                "Lead a capstone or team project solving a realistic problem in predictive maintenance expert"
               ],
               "children": []
             },
@@ -121,7 +122,7 @@
                 "Community Forums"
               ],
               "tasks": [
-                "Research standard tools for volunteer mentor",
+                "Research standard tools for predictive maintenance expert",
                 "Install primary software tools",
                 "Create account on professional networks"
               ],
@@ -131,11 +132,11 @@
         },
         {
           "title": "Core Skills Development",
-          "objective": "Master essential skills for volunteer mentor",
+          "objective": "Master essential skills for predictive maintenance expert",
           "duration_months": 5,
           "prerequisites": [
-            "communication",
-            "data analytics"
+            "mathematics",
+            "statistics"
           ],
           "milestones": [
             "Complete all core skill modules",
@@ -151,80 +152,81 @@
           ],
           "children": [
             {
-              "title": "Advocate For Others Proficiency",
-              "objective": "Develop proficiency in advocate for others",
+              "title": "Advise On Equipment Maintenance Proficiency",
+              "objective": "Develop proficiency in advise on equipment maintenance",
               "duration_months": 2,
               "prerequisites": [
-                "communication",
-                "data analytics"
+                "mathematics",
+                "statistics"
               ],
               "milestones": [
-                "Complete advocate for others course",
-                "Demonstrate advocate for others usage",
-                "Pass advocate for others quiz"
+                "Complete advise on equipment maintenance course",
+                "Demonstrate advise on equipment maintenance usage",
+                "Pass advise on equipment maintenance quiz"
               ],
               "resources": [
-                "Advocate For Others Resources"
+                "Advise On Equipment Maintenance Resources"
               ],
               "tasks": [
-                "Complete a vocational certificate focused on advocate for others or tools used in volunteer mentor"
+                "Practice advise on equipment maintenance fundamentals",
+                "Apply advise on equipment maintenance in small scenarios"
               ],
               "children": []
             },
             {
-              "title": "Assist Clients With Personal Development Proficiency",
-              "objective": "Develop proficiency in assist clients with personal development",
+              "title": "Analyse Big Data Proficiency",
+              "objective": "Develop proficiency in analyse big data",
               "duration_months": 2,
               "prerequisites": [],
               "milestones": [
-                "Complete assist clients with personal development course",
-                "Demonstrate assist clients with personal development usage",
-                "Pass assist clients with personal development quiz"
+                "Complete analyse big data course",
+                "Demonstrate analyse big data usage",
+                "Pass analyse big data quiz"
               ],
               "resources": [
-                "Assist Clients With Personal Development Resources"
+                "Analyse Big Data Resources"
               ],
               "tasks": [
-                "Practice assist clients with personal development fundamentals",
-                "Apply assist clients with personal development in small scenarios"
+                "Practice analyse big data fundamentals",
+                "Apply analyse big data in small scenarios"
               ],
               "children": []
             },
             {
-              "title": "Brief Volunteers Proficiency",
-              "objective": "Develop proficiency in brief volunteers",
+              "title": "Apply Information Security Policies Proficiency",
+              "objective": "Develop proficiency in apply information security policies",
               "duration_months": 2,
               "prerequisites": [],
               "milestones": [
-                "Complete brief volunteers course",
-                "Demonstrate brief volunteers usage",
-                "Pass brief volunteers quiz"
+                "Complete apply information security policies course",
+                "Demonstrate apply information security policies usage",
+                "Pass apply information security policies quiz"
               ],
               "resources": [
-                "Brief Volunteers Resources"
+                "Apply Information Security Policies Resources"
               ],
               "tasks": [
-                "Practice brief volunteers fundamentals",
-                "Apply brief volunteers in small scenarios"
+                "Practice apply information security policies fundamentals",
+                "Apply apply information security policies in small scenarios"
               ],
               "children": []
             },
             {
-              "title": "Capacity Building Proficiency",
-              "objective": "Develop proficiency in capacity building",
+              "title": "Apply Statistical Analysis Techniques Proficiency",
+              "objective": "Develop proficiency in apply statistical analysis techniques",
               "duration_months": 2,
               "prerequisites": [],
               "milestones": [
-                "Complete capacity building course",
-                "Demonstrate capacity building usage",
-                "Pass capacity building quiz"
+                "Complete apply statistical analysis techniques course",
+                "Demonstrate apply statistical analysis techniques usage",
+                "Pass apply statistical analysis techniques quiz"
               ],
               "resources": [
-                "Capacity Building Resources"
+                "Apply Statistical Analysis Techniques Resources"
               ],
               "tasks": [
-                "Practice capacity building fundamentals",
-                "Apply capacity building in small scenarios"
+                "Practice apply statistical analysis techniques fundamentals",
+                "Apply apply statistical analysis techniques in small scenarios"
               ],
               "children": []
             }
@@ -235,8 +237,8 @@
           "objective": "Gain hands-on experience through projects or simulations",
           "duration_months": 2,
           "prerequisites": [
-            "communication",
-            "data analytics"
+            "mathematics",
+            "statistics"
           ],
           "milestones": [
             "Complete 2 major projects",
@@ -255,10 +257,10 @@
               "objective": "Apply core skills in a realistic scenario",
               "duration_months": 2,
               "prerequisites": [
-                "communication",
-                "data analytics",
-                "advocate for others",
-                "assist clients with personal development"
+                "mathematics",
+                "statistics",
+                "advise on equipment maintenance",
+                "analyse big data"
               ],
               "milestones": [
                 "Design project scope",
@@ -272,10 +274,10 @@
               "tasks": [
                 "Select a real-world problem to solve",
                 "Plan the solution",
-                "Set short-term learning goals and review progress every month",
-                "Join local/online communities for practical advice and networking",
-                "Connect with professionals in the field and request informational interviews",
-                "Complete a vocational certificate focused on advocate for others or tools used in volunteer mentor"
+                "Publish or present your project work on a portfolio or site",
+                "Build a public portfolio showcasing projects related to predictive maintenance expert",
+                "Target specialist or leadership roles and craft a research/experience summary",
+                "Connect with professionals in the field and request informational interviews"
               ],
               "children": []
             },
@@ -284,11 +286,11 @@
               "objective": "Demonstrate comprehensive mastery",
               "duration_months": 2,
               "prerequisites": [
-                "communication",
-                "data analytics",
-                "advocate for others",
-                "assist clients with personal development",
-                "brief volunteers"
+                "mathematics",
+                "statistics",
+                "advise on equipment maintenance",
+                "analyse big data",
+                "apply information security policies"
               ],
               "milestones": [
                 "Complete complex project",
@@ -300,11 +302,11 @@
               ],
               "tasks": [
                 "Define advanced project requirements",
-                "Join local/online communities for practical advice and networking",
-                "Set short-term learning goals and review progress every month",
-                "Intern or co-op with industry partners to build professional experience",
-                "Publish or present your project work on a portfolio or site",
-                "Connect with professionals in the field and request informational interviews"
+                "Target specialist or leadership roles and craft a research/experience summary",
+                "Lead a capstone or team project solving a realistic problem in predictive maintenance expert",
+                "Connect with professionals in the field and request informational interviews",
+                "Mentor junior peers and document advanced workflows",
+                "Build a public portfolio showcasing projects related to predictive maintenance expert"
               ],
               "children": []
             }
@@ -323,7 +325,7 @@
             "Industry Certifications"
           ],
           "tasks": [
-            "Research trending specializations in volunteer mentor",
+            "Research trending specializations in predictive maintenance expert",
             "Select a niche"
           ],
           "children": [
@@ -332,10 +334,10 @@
               "objective": "Deep dive into a specific area",
               "duration_months": 2,
               "prerequisites": [
-                "communication",
-                "data analytics",
-                "advocate for others",
-                "assist clients with personal development"
+                "mathematics",
+                "statistics",
+                "advise on equipment maintenance",
+                "analyse big data"
               ],
               "milestones": [
                 "Complete specialization course",
@@ -346,10 +348,10 @@
                 "Specialized Training"
               ],
               "tasks": [
-                "Publish or present your project work on a portfolio or site",
                 "Set short-term learning goals and review progress every month",
                 "Connect with professionals in the field and request informational interviews",
-                "Complete a vocational certificate focused on advocate for others or tools used in volunteer mentor"
+                "Target specialist or leadership roles and craft a research/experience summary",
+                "Build a public portfolio showcasing projects related to predictive maintenance expert"
               ],
               "children": []
             }
@@ -387,8 +389,8 @@
                 "Resume Builder"
               ],
               "tasks": [
-                "Tailor resume for volunteer mentor",
-                "Highlight key skills: advocate for others, assist clients with personal development, brief volunteers"
+                "Tailor resume for predictive maintenance expert",
+                "Highlight key skills: advise on equipment maintenance, analyse big data, apply information security policies"
               ],
               "children": []
             },
@@ -407,7 +409,7 @@
                 "Networking Events"
               ],
               "tasks": [
-                "Identify top companies for volunteer mentor",
+                "Identify top companies for predictive maintenance expert",
                 "Prepare for interviews"
               ],
               "children": []
@@ -417,7 +419,7 @@
       ]
     },
     {
-      "path_title": "volunteer mentor",
+      "path_title": "predictive maintenance expert",
       "focus": "Fast-Entry",
       "confidence_score": 0.8,
       "steps": [
@@ -441,7 +443,7 @@
           "children": [
             {
               "title": "Industry Fundamentals",
-              "objective": "Understand the core concepts of volunteer mentor",
+              "objective": "Understand the core concepts of predictive maintenance expert",
               "duration_months": 1,
               "prerequisites": [],
               "milestones": [
@@ -455,11 +457,11 @@
                 "Career Guides"
               ],
               "tasks": [
-                "Build a public portfolio showcasing projects related to volunteer mentor",
+                "Lead a capstone or team project solving a realistic problem in predictive maintenance expert",
                 "Publish or present your project work on a portfolio or site",
-                "Connect with professionals in the field and request informational interviews",
-                "Intern or co-op with industry partners to build professional experience",
-                "Complete a vocational certificate focused on advocate for others or tools used in volunteer mentor"
+                "Mentor junior peers and document advanced workflows",
+                "Build a public portfolio showcasing projects related to predictive maintenance expert",
+                "Set short-term learning goals and review progress every month"
               ],
               "children": []
             },
@@ -478,7 +480,7 @@
                 "Community Forums"
               ],
               "tasks": [
-                "Research standard tools for volunteer mentor",
+                "Research standard tools for predictive maintenance expert",
                 "Install primary software tools",
                 "Create account on professional networks"
               ],
@@ -488,11 +490,11 @@
         },
         {
           "title": "Core Skills Development",
-          "objective": "Master essential skills for volunteer mentor",
+          "objective": "Master essential skills for predictive maintenance expert",
           "duration_months": 4,
           "prerequisites": [
-            "communication",
-            "data analytics"
+            "mathematics",
+            "statistics"
           ],
           "milestones": [
             "Complete all core skill modules",
@@ -508,80 +510,81 @@
           ],
           "children": [
             {
-              "title": "Advocate For Others Proficiency",
-              "objective": "Develop proficiency in advocate for others",
+              "title": "Advise On Equipment Maintenance Proficiency",
+              "objective": "Develop proficiency in advise on equipment maintenance",
               "duration_months": 2,
               "prerequisites": [
-                "communication",
-                "data analytics"
+                "mathematics",
+                "statistics"
               ],
               "milestones": [
-                "Complete advocate for others course",
-                "Demonstrate advocate for others usage",
-                "Pass advocate for others quiz"
+                "Complete advise on equipment maintenance course",
+                "Demonstrate advise on equipment maintenance usage",
+                "Pass advise on equipment maintenance quiz"
               ],
               "resources": [
-                "Advocate For Others Resources"
+                "Advise On Equipment Maintenance Resources"
               ],
               "tasks": [
-                "Complete a vocational certificate focused on advocate for others or tools used in volunteer mentor"
+                "Practice advise on equipment maintenance fundamentals",
+                "Apply advise on equipment maintenance in small scenarios"
               ],
               "children": []
             },
             {
-              "title": "Assist Clients With Personal Development Proficiency",
-              "objective": "Develop proficiency in assist clients with personal development",
+              "title": "Analyse Big Data Proficiency",
+              "objective": "Develop proficiency in analyse big data",
               "duration_months": 2,
               "prerequisites": [],
               "milestones": [
-                "Complete assist clients with personal development course",
-                "Demonstrate assist clients with personal development usage",
-                "Pass assist clients with personal development quiz"
+                "Complete analyse big data course",
+                "Demonstrate analyse big data usage",
+                "Pass analyse big data quiz"
               ],
               "resources": [
-                "Assist Clients With Personal Development Resources"
+                "Analyse Big Data Resources"
               ],
               "tasks": [
-                "Practice assist clients with personal development fundamentals",
-                "Apply assist clients with personal development in small scenarios"
+                "Practice analyse big data fundamentals",
+                "Apply analyse big data in small scenarios"
               ],
               "children": []
             },
             {
-              "title": "Brief Volunteers Proficiency",
-              "objective": "Develop proficiency in brief volunteers",
+              "title": "Apply Information Security Policies Proficiency",
+              "objective": "Develop proficiency in apply information security policies",
               "duration_months": 2,
               "prerequisites": [],
               "milestones": [
-                "Complete brief volunteers course",
-                "Demonstrate brief volunteers usage",
-                "Pass brief volunteers quiz"
+                "Complete apply information security policies course",
+                "Demonstrate apply information security policies usage",
+                "Pass apply information security policies quiz"
               ],
               "resources": [
-                "Brief Volunteers Resources"
+                "Apply Information Security Policies Resources"
               ],
               "tasks": [
-                "Practice brief volunteers fundamentals",
-                "Apply brief volunteers in small scenarios"
+                "Practice apply information security policies fundamentals",
+                "Apply apply information security policies in small scenarios"
               ],
               "children": []
             },
             {
-              "title": "Capacity Building Proficiency",
-              "objective": "Develop proficiency in capacity building",
+              "title": "Apply Statistical Analysis Techniques Proficiency",
+              "objective": "Develop proficiency in apply statistical analysis techniques",
               "duration_months": 2,
               "prerequisites": [],
               "milestones": [
-                "Complete capacity building course",
-                "Demonstrate capacity building usage",
-                "Pass capacity building quiz"
+                "Complete apply statistical analysis techniques course",
+                "Demonstrate apply statistical analysis techniques usage",
+                "Pass apply statistical analysis techniques quiz"
               ],
               "resources": [
-                "Capacity Building Resources"
+                "Apply Statistical Analysis Techniques Resources"
               ],
               "tasks": [
-                "Practice capacity building fundamentals",
-                "Apply capacity building in small scenarios"
+                "Practice apply statistical analysis techniques fundamentals",
+                "Apply apply statistical analysis techniques in small scenarios"
               ],
               "children": []
             }
@@ -592,8 +595,8 @@
           "objective": "Gain hands-on experience through projects or simulations",
           "duration_months": 3,
           "prerequisites": [
-            "communication",
-            "data analytics"
+            "mathematics",
+            "statistics"
           ],
           "milestones": [
             "Complete 2 major projects",
@@ -612,10 +615,10 @@
               "objective": "Apply core skills in a realistic scenario",
               "duration_months": 2,
               "prerequisites": [
-                "communication",
-                "data analytics",
-                "advocate for others",
-                "assist clients with personal development"
+                "mathematics",
+                "statistics",
+                "advise on equipment maintenance",
+                "analyse big data"
               ],
               "milestones": [
                 "Design project scope",
@@ -629,10 +632,10 @@
               "tasks": [
                 "Select a real-world problem to solve",
                 "Plan the solution",
-                "Connect with professionals in the field and request informational interviews",
-                "Intern or co-op with industry partners to build professional experience",
-                "Join local/online communities for practical advice and networking",
-                "Set short-term learning goals and review progress every month"
+                "Target specialist or leadership roles and craft a research/experience summary",
+                "Lead a capstone or team project solving a realistic problem in predictive maintenance expert",
+                "Publish or present your project work on a portfolio or site",
+                "Build a public portfolio showcasing projects related to predictive maintenance expert"
               ],
               "children": []
             },
@@ -641,11 +644,11 @@
               "objective": "Demonstrate comprehensive mastery",
               "duration_months": 2,
               "prerequisites": [
-                "communication",
-                "data analytics",
-                "advocate for others",
-                "assist clients with personal development",
-                "brief volunteers"
+                "mathematics",
+                "statistics",
+                "advise on equipment maintenance",
+                "analyse big data",
+                "apply information security policies"
               ],
               "milestones": [
                 "Complete complex project",
@@ -657,11 +660,11 @@
               ],
               "tasks": [
                 "Define advanced project requirements",
+                "Target specialist or leadership roles and craft a research/experience summary",
+                "Set short-term learning goals and review progress every month",
                 "Publish or present your project work on a portfolio or site",
                 "Connect with professionals in the field and request informational interviews",
-                "Join local/online communities for practical advice and networking",
-                "Set short-term learning goals and review progress every month",
-                "Intern or co-op with industry partners to build professional experience"
+                "Mentor junior peers and document advanced workflows"
               ],
               "children": []
             }
@@ -680,7 +683,7 @@
             "Industry Certifications"
           ],
           "tasks": [
-            "Research trending specializations in volunteer mentor",
+            "Research trending specializations in predictive maintenance expert",
             "Select a niche"
           ],
           "children": [
@@ -689,10 +692,10 @@
               "objective": "Deep dive into a specific area",
               "duration_months": 2,
               "prerequisites": [
-                "communication",
-                "data analytics",
-                "advocate for others",
-                "assist clients with personal development"
+                "mathematics",
+                "statistics",
+                "advise on equipment maintenance",
+                "analyse big data"
               ],
               "milestones": [
                 "Complete specialization course",
@@ -703,10 +706,10 @@
                 "Specialized Training"
               ],
               "tasks": [
-                "Connect with professionals in the field and request informational interviews",
-                "Complete a vocational certificate focused on advocate for others or tools used in volunteer mentor",
-                "Publish or present your project work on a portfolio or site",
-                "Build a public portfolio showcasing projects related to volunteer mentor"
+                "Build a public portfolio showcasing projects related to predictive maintenance expert",
+                "Target specialist or leadership roles and craft a research/experience summary",
+                "Mentor junior peers and document advanced workflows",
+                "Publish or present your project work on a portfolio or site"
               ],
               "children": []
             }
@@ -744,8 +747,8 @@
                 "Resume Builder"
               ],
               "tasks": [
-                "Tailor resume for volunteer mentor",
-                "Highlight key skills: advocate for others, assist clients with personal development, brief volunteers"
+                "Tailor resume for predictive maintenance expert",
+                "Highlight key skills: advise on equipment maintenance, analyse big data, apply information security policies"
               ],
               "children": []
             },
@@ -764,7 +767,7 @@
                 "Networking Events"
               ],
               "tasks": [
-                "Identify top companies for volunteer mentor",
+                "Identify top companies for predictive maintenance expert",
                 "Prepare for interviews"
               ],
               "children": []
@@ -774,7 +777,7 @@
       ]
     },
     {
-      "path_title": "volunteer mentor",
+      "path_title": "predictive maintenance expert",
       "focus": "Transition",
       "confidence_score": 0.8,
       "steps": [
@@ -798,7 +801,7 @@
           "children": [
             {
               "title": "Industry Fundamentals",
-              "objective": "Understand the core concepts of volunteer mentor",
+              "objective": "Understand the core concepts of predictive maintenance expert",
               "duration_months": 1,
               "prerequisites": [],
               "milestones": [
@@ -812,11 +815,11 @@
                 "Career Guides"
               ],
               "tasks": [
-                "Build a public portfolio showcasing projects related to volunteer mentor",
-                "Join local/online communities for practical advice and networking",
-                "Connect with professionals in the field and request informational interviews",
-                "Complete a vocational certificate focused on advocate for others or tools used in volunteer mentor",
-                "Publish or present your project work on a portfolio or site"
+                "Publish or present your project work on a portfolio or site",
+                "Build a public portfolio showcasing projects related to predictive maintenance expert",
+                "Lead a capstone or team project solving a realistic problem in predictive maintenance expert",
+                "Target specialist or leadership roles and craft a research/experience summary",
+                "Set short-term learning goals and review progress every month"
               ],
               "children": []
             },
@@ -835,7 +838,7 @@
                 "Community Forums"
               ],
               "tasks": [
-                "Research standard tools for volunteer mentor",
+                "Research standard tools for predictive maintenance expert",
                 "Install primary software tools",
                 "Create account on professional networks"
               ],
@@ -845,11 +848,11 @@
         },
         {
           "title": "Core Skills Development",
-          "objective": "Master essential skills for volunteer mentor",
+          "objective": "Master essential skills for predictive maintenance expert",
           "duration_months": 4,
           "prerequisites": [
-            "communication",
-            "data analytics"
+            "mathematics",
+            "statistics"
           ],
           "milestones": [
             "Complete all core skill modules",
@@ -865,80 +868,81 @@
           ],
           "children": [
             {
-              "title": "Advocate For Others Proficiency",
-              "objective": "Develop proficiency in advocate for others",
+              "title": "Advise On Equipment Maintenance Proficiency",
+              "objective": "Develop proficiency in advise on equipment maintenance",
               "duration_months": 2,
               "prerequisites": [
-                "communication",
-                "data analytics"
+                "mathematics",
+                "statistics"
               ],
               "milestones": [
-                "Complete advocate for others course",
-                "Demonstrate advocate for others usage",
-                "Pass advocate for others quiz"
+                "Complete advise on equipment maintenance course",
+                "Demonstrate advise on equipment maintenance usage",
+                "Pass advise on equipment maintenance quiz"
               ],
               "resources": [
-                "Advocate For Others Resources"
+                "Advise On Equipment Maintenance Resources"
               ],
               "tasks": [
-                "Complete a vocational certificate focused on advocate for others or tools used in volunteer mentor"
+                "Practice advise on equipment maintenance fundamentals",
+                "Apply advise on equipment maintenance in small scenarios"
               ],
               "children": []
             },
             {
-              "title": "Assist Clients With Personal Development Proficiency",
-              "objective": "Develop proficiency in assist clients with personal development",
+              "title": "Analyse Big Data Proficiency",
+              "objective": "Develop proficiency in analyse big data",
               "duration_months": 2,
               "prerequisites": [],
               "milestones": [
-                "Complete assist clients with personal development course",
-                "Demonstrate assist clients with personal development usage",
-                "Pass assist clients with personal development quiz"
+                "Complete analyse big data course",
+                "Demonstrate analyse big data usage",
+                "Pass analyse big data quiz"
               ],
               "resources": [
-                "Assist Clients With Personal Development Resources"
+                "Analyse Big Data Resources"
               ],
               "tasks": [
-                "Practice assist clients with personal development fundamentals",
-                "Apply assist clients with personal development in small scenarios"
+                "Practice analyse big data fundamentals",
+                "Apply analyse big data in small scenarios"
               ],
               "children": []
             },
             {
-              "title": "Brief Volunteers Proficiency",
-              "objective": "Develop proficiency in brief volunteers",
+              "title": "Apply Information Security Policies Proficiency",
+              "objective": "Develop proficiency in apply information security policies",
               "duration_months": 2,
               "prerequisites": [],
               "milestones": [
-                "Complete brief volunteers course",
-                "Demonstrate brief volunteers usage",
-                "Pass brief volunteers quiz"
+                "Complete apply information security policies course",
+                "Demonstrate apply information security policies usage",
+                "Pass apply information security policies quiz"
               ],
               "resources": [
-                "Brief Volunteers Resources"
+                "Apply Information Security Policies Resources"
               ],
               "tasks": [
-                "Practice brief volunteers fundamentals",
-                "Apply brief volunteers in small scenarios"
+                "Practice apply information security policies fundamentals",
+                "Apply apply information security policies in small scenarios"
               ],
               "children": []
             },
             {
-              "title": "Capacity Building Proficiency",
-              "objective": "Develop proficiency in capacity building",
+              "title": "Apply Statistical Analysis Techniques Proficiency",
+              "objective": "Develop proficiency in apply statistical analysis techniques",
               "duration_months": 2,
               "prerequisites": [],
               "milestones": [
-                "Complete capacity building course",
-                "Demonstrate capacity building usage",
-                "Pass capacity building quiz"
+                "Complete apply statistical analysis techniques course",
+                "Demonstrate apply statistical analysis techniques usage",
+                "Pass apply statistical analysis techniques quiz"
               ],
               "resources": [
-                "Capacity Building Resources"
+                "Apply Statistical Analysis Techniques Resources"
               ],
               "tasks": [
-                "Practice capacity building fundamentals",
-                "Apply capacity building in small scenarios"
+                "Practice apply statistical analysis techniques fundamentals",
+                "Apply apply statistical analysis techniques in small scenarios"
               ],
               "children": []
             }
@@ -949,8 +953,8 @@
           "objective": "Gain hands-on experience through projects or simulations",
           "duration_months": 2,
           "prerequisites": [
-            "communication",
-            "data analytics"
+            "mathematics",
+            "statistics"
           ],
           "milestones": [
             "Complete 2 major projects",
@@ -969,10 +973,10 @@
               "objective": "Apply core skills in a realistic scenario",
               "duration_months": 2,
               "prerequisites": [
-                "communication",
-                "data analytics",
-                "advocate for others",
-                "assist clients with personal development"
+                "mathematics",
+                "statistics",
+                "advise on equipment maintenance",
+                "analyse big data"
               ],
               "milestones": [
                 "Design project scope",
@@ -986,10 +990,10 @@
               "tasks": [
                 "Select a real-world problem to solve",
                 "Plan the solution",
-                "Set short-term learning goals and review progress every month",
-                "Complete a vocational certificate focused on advocate for others or tools used in volunteer mentor",
                 "Publish or present your project work on a portfolio or site",
-                "Intern or co-op with industry partners to build professional experience"
+                "Mentor junior peers and document advanced workflows",
+                "Connect with professionals in the field and request informational interviews",
+                "Set short-term learning goals and review progress every month"
               ],
               "children": []
             },
@@ -998,11 +1002,11 @@
               "objective": "Demonstrate comprehensive mastery",
               "duration_months": 2,
               "prerequisites": [
-                "communication",
-                "data analytics",
-                "advocate for others",
-                "assist clients with personal development",
-                "brief volunteers"
+                "mathematics",
+                "statistics",
+                "advise on equipment maintenance",
+                "analyse big data",
+                "apply information security policies"
               ],
               "milestones": [
                 "Complete complex project",
@@ -1014,11 +1018,11 @@
               ],
               "tasks": [
                 "Define advanced project requirements",
-                "Join local/online communities for practical advice and networking",
-                "Build a public portfolio showcasing projects related to volunteer mentor",
-                "Set short-term learning goals and review progress every month",
+                "Lead a capstone or team project solving a realistic problem in predictive maintenance expert",
+                "Mentor junior peers and document advanced workflows",
                 "Connect with professionals in the field and request informational interviews",
-                "Complete a vocational certificate focused on advocate for others or tools used in volunteer mentor"
+                "Set short-term learning goals and review progress every month",
+                "Target specialist or leadership roles and craft a research/experience summary"
               ],
               "children": []
             }
@@ -1037,7 +1041,7 @@
             "Industry Certifications"
           ],
           "tasks": [
-            "Research trending specializations in volunteer mentor",
+            "Research trending specializations in predictive maintenance expert",
             "Select a niche"
           ],
           "children": [
@@ -1046,10 +1050,10 @@
               "objective": "Deep dive into a specific area",
               "duration_months": 2,
               "prerequisites": [
-                "communication",
-                "data analytics",
-                "advocate for others",
-                "assist clients with personal development"
+                "mathematics",
+                "statistics",
+                "advise on equipment maintenance",
+                "analyse big data"
               ],
               "milestones": [
                 "Complete specialization course",
@@ -1060,10 +1064,10 @@
                 "Specialized Training"
               ],
               "tasks": [
-                "Complete a vocational certificate focused on advocate for others or tools used in volunteer mentor",
                 "Connect with professionals in the field and request informational interviews",
                 "Set short-term learning goals and review progress every month",
-                "Publish or present your project work on a portfolio or site"
+                "Target specialist or leadership roles and craft a research/experience summary",
+                "Lead a capstone or team project solving a realistic problem in predictive maintenance expert"
               ],
               "children": []
             }
@@ -1101,8 +1105,8 @@
                 "Resume Builder"
               ],
               "tasks": [
-                "Tailor resume for volunteer mentor",
-                "Highlight key skills: advocate for others, assist clients with personal development, brief volunteers"
+                "Tailor resume for predictive maintenance expert",
+                "Highlight key skills: advise on equipment maintenance, analyse big data, apply information security policies"
               ],
               "children": []
             },
@@ -1121,7 +1125,7 @@
                 "Networking Events"
               ],
               "tasks": [
-                "Identify top companies for volunteer mentor",
+                "Identify top companies for predictive maintenance expert",
                 "Prepare for interviews"
               ],
               "children": []
