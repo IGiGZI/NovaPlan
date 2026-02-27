@@ -92,22 +92,14 @@ from generator_core import generate_distinct_roadmaps as core_generator
 
 
 def _derive_skills_from_quiz(answers: List[Dict[str, Any]]) -> List[str]:
-    """Map A-D choices to indicative skills clusters; lightweight heuristic."""
-    # Expanded mapping to increase overlap probability
-    type_to_skills = {
-        'A': ['python', 'data analysis', 'sql', 'statistics', 'mathematics', 'logic', 'problem solving', 'machine learning'],
-        'B': ['communication', 'teaching', 'empathy', 'presentation', 'public speaking', 'mentoring', 'writing', 'interpersonal skills'],
-        'C': ['design', 'creativity', 'ui/ux', 'graphic design', 'art', 'visual communication', 'adobe creative suite', 'sketching'],
-        'D': ['project management', 'organization', 'planning', 'leadership', 'strategic thinking', 'business management', 'negotiation', 'teamwork'],
-    }
-    tallied: Dict[str, int] = {}
-    for ans in answers or []:
-        t = (ans.get('type') or '').upper()
-        for sk in type_to_skills.get(t, []):
-            tallied[sk] = tallied.get(sk, 0) + 1
-    # choose top skills
-    ranked = sorted(tallied.items(), key=lambda x: x[1], reverse=True)
-    return [s for s, _ in ranked[:12]] if ranked else [] # Increased to top 12
+    """
+    Derive skills directly from the question tree answers.
+    The current question flow already narrows down to specific careers and
+    categories (passed in from the frontend), so we don't rely on legacy
+    A/B/C/D letter types anymore. For now we return an empty list here and
+    let the selected careers' own skill lists drive the roadmap.
+    """
+    return []
 
 
 def _serialize_nested_steps(step):
@@ -117,6 +109,10 @@ def _serialize_nested_steps(step):
         serialized_step['children'] = [_serialize_nested_steps(s) for s in serialized_step['children']]
     if 'tasks' in serialized_step and serialized_step['tasks']:
         serialized_step['tasks'] = [t.__dict__ if hasattr(t, '__dict__') else t for t in serialized_step['tasks']]
+    if 'milestones' in serialized_step and serialized_step['milestones']:
+        serialized_step['milestones'] = [m.__dict__ if hasattr(m, '__dict__') else m for m in serialized_step['milestones']]
+    if 'resources' in serialized_step and serialized_step['resources']:
+        serialized_step['resources'] = [r.__dict__ if hasattr(r, '__dict__') else r for r in serialized_step['resources']]
     return serialized_step
 
 
@@ -248,36 +244,12 @@ def _plot_roadmaps(roadmaps: List[Dict[str, Any]], output_dir: Path) -> List[str
 
 
 def _get_category_bonus(career_skills: List[str], user_answers: List[Dict[str, Any]]) -> float:
-    """Calculate a bonus score based on general category alignment."""
-    # Heuristic mapping of skills to types
-    skill_to_type = {
-        'python': 'A', 'data': 'A', 'analysis': 'A', 'code': 'A', 'programming': 'A',
-        'communication': 'B', 'teaching': 'B', 'people': 'B', 'social': 'B',
-        'design': 'C', 'art': 'C', 'creative': 'C', 'ui': 'C', 'ux': 'C',
-        'management': 'D', 'business': 'D', 'planning': 'D', 'leadership': 'D'
-    }
-    
-    # Determine dominant user type
-    type_counts = {'A': 0, 'B': 0, 'C': 0, 'D': 0}
-    for ans in user_answers:
-        t = (ans.get('type') or '').upper()
-        if t in type_counts:
-            type_counts[t] += 1
-    
-    if not any(type_counts.values()):
-        return 0.0
-        
-    dominant_type = max(type_counts, key=type_counts.get)
-    
-    # Check if career skills align with dominant type
-    matches = 0
-    for sk in career_skills:
-        for key, val in skill_to_type.items():
-            if key in sk.lower():
-                if val == dominant_type:
-                    matches += 1
-    
-    return min(0.5, matches * 0.1) # Cap bonus at 0.5
+    """
+    Legacy helper previously used A/B/C/D answer types.
+    The question tree now directly encodes category and careers,
+    so we don't add any extra letter-based bonus.
+    """
+    return 0.0
 
 
 def generate_roadmaps_for_user(user_input: Dict[str,Any]) -> Dict[str,Any]:

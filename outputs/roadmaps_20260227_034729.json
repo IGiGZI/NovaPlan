@@ -1,0 +1,884 @@
+{
+  "input": {
+    "answers": [
+      {
+        "questionId": "Q1",
+        "label": "High School Student / No degree yet"
+      },
+      {
+        "questionId": "Q_PERS1_HS",
+        "label": "I like helping, teaching, or supporting people"
+      },
+      {
+        "questionId": "Q_PERS2_HS_PEOPLE",
+        "label": "Outdoors or on-site (field, site, lab, clinic)"
+      },
+      {
+        "questionId": "Q_PERS3_HS_PEOPLE_OUTDOOR",
+        "label": "Balanced \u2014 good pay and meaningful work"
+      },
+      {
+        "questionId": "Q_PERS4_HS_PEOPLE_OUTDOOR_BAL",
+        "label": "Large collaborative organization"
+      },
+      {
+        "questionId": "Q_PERS5_HS_PEOPLE_OUTDOOR_BAL_LARGE",
+        "label": "Public sector / government / non-profit"
+      },
+      {
+        "questionId": "Q_DOMAIN_HS",
+        "label": "I'm not sure yet"
+      },
+      {
+        "questionId": "Q3_HS_UNSURE",
+        "label": "Using computers or playing games"
+      },
+      {
+        "questionId": "Q3_HS_TECH",
+        "label": "Understanding how computer systems and networks work"
+      },
+      {
+        "questionId": "Q4_HS_TECH_NET",
+        "label": "Operations \u2014 keeping networks and servers running"
+      },
+      {
+        "questionId": "Q5_HS_TECH_NET_OPS",
+        "label": "Physical hardware and cabling"
+      },
+      {
+        "questionId": "Q6_HS_NET_CERT",
+        "label": "I'd prefer a formal degree route"
+      }
+    ],
+    "careers": [
+      "embedded systems software developer",
+      "industrial mobile devices software developer"
+    ],
+    "category": "Programming & Software Development"
+  },
+  "derived_skills": [],
+  "chosen_career": "embedded systems software developer",
+  "roadmaps": [
+    {
+      "path_title": "embedded systems software developer",
+      "focus": "Depth",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "title": "Foundations",
+          "objective": "Build essential groundwork for your career",
+          "prerequisites": [],
+          "milestones": [
+            "Complete"
+          ],
+          "resources": [
+            "Standard Industry Tools"
+          ],
+          "tasks": [
+            "Complete a hands-on project building firmware for an embedded device (e.g., Arduino, Raspberry Pi)"
+          ],
+          "children": [
+            {
+              "title": "Industry Fundamentals",
+              "objective": "Understand the core concepts of embedded systems software developer",
+              "prerequisites": [],
+              "milestones": [
+                "Complete",
+                "Build"
+              ],
+              "resources": [
+                "Online Courses",
+                "Industry Glossaries",
+                "Career Guides"
+              ],
+              "tasks": [
+                "Complete an associate or bachelor's degree in computer engineering or electronics",
+                "Build strong foundations in C/C++ and low-level programming languages"
+              ],
+              "children": []
+            },
+            {
+              "title": "Tools & Environment",
+              "objective": "Set up your professional workspace",
+              "prerequisites": [],
+              "milestones": [
+                "Learn"
+              ],
+              "resources": [
+                "Official Documentation",
+                "Community Forums"
+              ],
+              "tasks": [
+                "Learn microcontroller architectures (e.g., ARM, AVR) and real-time operating systems"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Core Skills Development",
+          "objective": "Master essential skills for embedded systems software developer",
+          "prerequisites": [],
+          "milestones": [
+            "Master"
+          ],
+          "resources": [
+            "Online Learning Platforms"
+          ],
+          "tasks": [
+            "Master core skills 1"
+          ],
+          "children": [
+            {
+              "title": "C And C++ Programming Proficiency",
+              "objective": "Develop proficiency in c and c++ programming",
+              "prerequisites": [],
+              "milestones": [
+                "Gain"
+              ],
+              "resources": [
+                "C And C++ Programming Resources"
+              ],
+              "tasks": [
+                "Gain experience with hardware-software interfacing and communication protocols (I2C, SPI, UART)"
+              ],
+              "children": []
+            },
+            {
+              "title": "Microcontroller Programming Proficiency",
+              "objective": "Develop proficiency in microcontroller programming",
+              "prerequisites": [],
+              "milestones": [
+                "Intern"
+              ],
+              "resources": [
+                "Microcontroller Programming Resources"
+              ],
+              "tasks": [
+                "Intern or apprentice with a hardware company to get real-world embedded development experience"
+              ],
+              "children": []
+            },
+            {
+              "title": "Real-Time Operating Systems (Rtos) Proficiency",
+              "objective": "Develop proficiency in real-time operating systems (rtos)",
+              "prerequisites": [],
+              "milestones": [
+                "Build"
+              ],
+              "resources": [
+                "Real-Time Operating Systems (Rtos) Resources"
+              ],
+              "tasks": [
+                "Build a portfolio of embedded projects on GitHub"
+              ],
+              "children": []
+            },
+            {
+              "title": "Hardware-Software Interfacing Proficiency",
+              "objective": "Develop proficiency in hardware-software interfacing",
+              "prerequisites": [],
+              "milestones": [
+                "Practice"
+              ],
+              "resources": [
+                "Hardware-Software Interfacing Resources"
+              ],
+              "tasks": [
+                "Practice hardware-software interfacing 1"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Practical Application",
+          "objective": "Gain hands-on experience through projects or simulations",
+          "prerequisites": [],
+          "milestones": [
+            "Build"
+          ],
+          "resources": [
+            "Portfolio Platform"
+          ],
+          "tasks": [
+            "Build portfolio 1"
+          ],
+          "children": [
+            {
+              "title": "Applied Practice Project",
+              "objective": "Apply core skills in a realistic scenario",
+              "prerequisites": [
+                "c and c++ programming",
+                "microcontroller programming"
+              ],
+              "milestones": [
+                "Apply",
+                "Apply"
+              ],
+              "resources": [
+                "Project Management Tools",
+                "Documentation Tools"
+              ],
+              "tasks": [
+                "Apply core skills 1",
+                "Apply core skills 2"
+              ],
+              "children": []
+            },
+            {
+              "title": "Advanced Capstone",
+              "objective": "Demonstrate comprehensive mastery",
+              "prerequisites": [
+                "c and c++ programming",
+                "microcontroller programming",
+                "real-time operating systems (rtos)"
+              ],
+              "milestones": [
+                "Demonstrate"
+              ],
+              "resources": [
+                "Advanced Tools"
+              ],
+              "tasks": [
+                "Demonstrate mastery 1"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Specialization",
+          "objective": "Develop expertise in specific areas",
+          "prerequisites": [],
+          "milestones": [
+            "Choose"
+          ],
+          "resources": [
+            "Industry Certifications"
+          ],
+          "tasks": [
+            "Choose specialization 1"
+          ],
+          "children": [
+            {
+              "title": "Specialization Track",
+              "objective": "Deep dive into a specific area",
+              "prerequisites": [
+                "c and c++ programming",
+                "microcontroller programming"
+              ],
+              "milestones": [
+                "Study"
+              ],
+              "resources": [
+                "Specialized Training"
+              ],
+              "tasks": [
+                "Study advanced topic 1"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Career Launch",
+          "objective": "Land your first role in the field",
+          "prerequisites": [],
+          "milestones": [
+            "Secure"
+          ],
+          "resources": [
+            "Job Search Platforms"
+          ],
+          "tasks": [
+            "Secure job offer 1"
+          ],
+          "children": [
+            {
+              "title": "Professional Branding",
+              "objective": "Create compelling professional presence",
+              "prerequisites": [],
+              "milestones": [
+                "Professional"
+              ],
+              "resources": [
+                "LinkedIn",
+                "Resume Builder"
+              ],
+              "tasks": [
+                "Professional Branding 1"
+              ],
+              "children": []
+            },
+            {
+              "title": "Job Search Strategy",
+              "objective": "Execute systematic job search",
+              "prerequisites": [],
+              "milestones": [
+                "Job"
+              ],
+              "resources": [
+                "Job Boards",
+                "Networking Events"
+              ],
+              "tasks": [
+                "Job Search Strategy 1"
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path_title": "embedded systems software developer",
+      "focus": "Fast-Entry",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "title": "Foundations",
+          "objective": "Build essential groundwork for your career",
+          "prerequisites": [],
+          "milestones": [
+            "Complete"
+          ],
+          "resources": [
+            "Standard Industry Tools"
+          ],
+          "tasks": [
+            "Complete a hands-on project building firmware for an embedded device (e.g., Arduino, Raspberry Pi)"
+          ],
+          "children": [
+            {
+              "title": "Industry Fundamentals",
+              "objective": "Understand the core concepts of embedded systems software developer",
+              "prerequisites": [],
+              "milestones": [
+                "Complete",
+                "Build"
+              ],
+              "resources": [
+                "Online Courses",
+                "Industry Glossaries",
+                "Career Guides"
+              ],
+              "tasks": [
+                "Complete an associate or bachelor's degree in computer engineering or electronics",
+                "Build strong foundations in C/C++ and low-level programming languages"
+              ],
+              "children": []
+            },
+            {
+              "title": "Tools & Environment",
+              "objective": "Set up your professional workspace",
+              "prerequisites": [],
+              "milestones": [
+                "Learn"
+              ],
+              "resources": [
+                "Official Documentation",
+                "Community Forums"
+              ],
+              "tasks": [
+                "Learn microcontroller architectures (e.g., ARM, AVR) and real-time operating systems"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Core Skills Development",
+          "objective": "Master essential skills for embedded systems software developer",
+          "prerequisites": [],
+          "milestones": [
+            "Master"
+          ],
+          "resources": [
+            "Online Learning Platforms"
+          ],
+          "tasks": [
+            "Master core skills 1"
+          ],
+          "children": [
+            {
+              "title": "C And C++ Programming Proficiency",
+              "objective": "Develop proficiency in c and c++ programming",
+              "prerequisites": [],
+              "milestones": [
+                "Gain"
+              ],
+              "resources": [
+                "C And C++ Programming Resources"
+              ],
+              "tasks": [
+                "Gain experience with hardware-software interfacing and communication protocols (I2C, SPI, UART)"
+              ],
+              "children": []
+            },
+            {
+              "title": "Microcontroller Programming Proficiency",
+              "objective": "Develop proficiency in microcontroller programming",
+              "prerequisites": [],
+              "milestones": [
+                "Intern"
+              ],
+              "resources": [
+                "Microcontroller Programming Resources"
+              ],
+              "tasks": [
+                "Intern or apprentice with a hardware company to get real-world embedded development experience"
+              ],
+              "children": []
+            },
+            {
+              "title": "Real-Time Operating Systems (Rtos) Proficiency",
+              "objective": "Develop proficiency in real-time operating systems (rtos)",
+              "prerequisites": [],
+              "milestones": [
+                "Build"
+              ],
+              "resources": [
+                "Real-Time Operating Systems (Rtos) Resources"
+              ],
+              "tasks": [
+                "Build a portfolio of embedded projects on GitHub"
+              ],
+              "children": []
+            },
+            {
+              "title": "Hardware-Software Interfacing Proficiency",
+              "objective": "Develop proficiency in hardware-software interfacing",
+              "prerequisites": [],
+              "milestones": [
+                "Practice"
+              ],
+              "resources": [
+                "Hardware-Software Interfacing Resources"
+              ],
+              "tasks": [
+                "Practice hardware-software interfacing 1"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Practical Application",
+          "objective": "Gain hands-on experience through projects or simulations",
+          "prerequisites": [],
+          "milestones": [
+            "Build"
+          ],
+          "resources": [
+            "Portfolio Platform"
+          ],
+          "tasks": [
+            "Build portfolio 1"
+          ],
+          "children": [
+            {
+              "title": "Applied Practice Project",
+              "objective": "Apply core skills in a realistic scenario",
+              "prerequisites": [
+                "c and c++ programming",
+                "microcontroller programming"
+              ],
+              "milestones": [
+                "Apply",
+                "Apply"
+              ],
+              "resources": [
+                "Project Management Tools",
+                "Documentation Tools"
+              ],
+              "tasks": [
+                "Apply core skills 1",
+                "Apply core skills 2"
+              ],
+              "children": []
+            },
+            {
+              "title": "Advanced Capstone",
+              "objective": "Demonstrate comprehensive mastery",
+              "prerequisites": [
+                "c and c++ programming",
+                "microcontroller programming",
+                "real-time operating systems (rtos)"
+              ],
+              "milestones": [
+                "Demonstrate"
+              ],
+              "resources": [
+                "Advanced Tools"
+              ],
+              "tasks": [
+                "Demonstrate mastery 1"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Specialization",
+          "objective": "Develop expertise in specific areas",
+          "prerequisites": [],
+          "milestones": [
+            "Choose"
+          ],
+          "resources": [
+            "Industry Certifications"
+          ],
+          "tasks": [
+            "Choose specialization 1"
+          ],
+          "children": [
+            {
+              "title": "Specialization Track",
+              "objective": "Deep dive into a specific area",
+              "prerequisites": [
+                "c and c++ programming",
+                "microcontroller programming"
+              ],
+              "milestones": [
+                "Study"
+              ],
+              "resources": [
+                "Specialized Training"
+              ],
+              "tasks": [
+                "Study advanced topic 1"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Career Launch",
+          "objective": "Land your first role in the field",
+          "prerequisites": [],
+          "milestones": [
+            "Secure"
+          ],
+          "resources": [
+            "Job Search Platforms"
+          ],
+          "tasks": [
+            "Secure job offer 1"
+          ],
+          "children": [
+            {
+              "title": "Professional Branding",
+              "objective": "Create compelling professional presence",
+              "prerequisites": [],
+              "milestones": [
+                "Professional"
+              ],
+              "resources": [
+                "LinkedIn",
+                "Resume Builder"
+              ],
+              "tasks": [
+                "Professional Branding 1"
+              ],
+              "children": []
+            },
+            {
+              "title": "Job Search Strategy",
+              "objective": "Execute systematic job search",
+              "prerequisites": [],
+              "milestones": [
+                "Job"
+              ],
+              "resources": [
+                "Job Boards",
+                "Networking Events"
+              ],
+              "tasks": [
+                "Job Search Strategy 1"
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path_title": "embedded systems software developer",
+      "focus": "Transition",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "title": "Foundations",
+          "objective": "Build essential groundwork for your career",
+          "prerequisites": [],
+          "milestones": [
+            "Complete"
+          ],
+          "resources": [
+            "Standard Industry Tools"
+          ],
+          "tasks": [
+            "Complete a hands-on project building firmware for an embedded device (e.g., Arduino, Raspberry Pi)"
+          ],
+          "children": [
+            {
+              "title": "Industry Fundamentals",
+              "objective": "Understand the core concepts of embedded systems software developer",
+              "prerequisites": [],
+              "milestones": [
+                "Complete",
+                "Build"
+              ],
+              "resources": [
+                "Online Courses",
+                "Industry Glossaries",
+                "Career Guides"
+              ],
+              "tasks": [
+                "Complete an associate or bachelor's degree in computer engineering or electronics",
+                "Build strong foundations in C/C++ and low-level programming languages"
+              ],
+              "children": []
+            },
+            {
+              "title": "Tools & Environment",
+              "objective": "Set up your professional workspace",
+              "prerequisites": [],
+              "milestones": [
+                "Learn"
+              ],
+              "resources": [
+                "Official Documentation",
+                "Community Forums"
+              ],
+              "tasks": [
+                "Learn microcontroller architectures (e.g., ARM, AVR) and real-time operating systems"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Core Skills Development",
+          "objective": "Master essential skills for embedded systems software developer",
+          "prerequisites": [],
+          "milestones": [
+            "Master"
+          ],
+          "resources": [
+            "Online Learning Platforms"
+          ],
+          "tasks": [
+            "Master core skills 1"
+          ],
+          "children": [
+            {
+              "title": "C And C++ Programming Proficiency",
+              "objective": "Develop proficiency in c and c++ programming",
+              "prerequisites": [],
+              "milestones": [
+                "Gain"
+              ],
+              "resources": [
+                "C And C++ Programming Resources"
+              ],
+              "tasks": [
+                "Gain experience with hardware-software interfacing and communication protocols (I2C, SPI, UART)"
+              ],
+              "children": []
+            },
+            {
+              "title": "Microcontroller Programming Proficiency",
+              "objective": "Develop proficiency in microcontroller programming",
+              "prerequisites": [],
+              "milestones": [
+                "Intern"
+              ],
+              "resources": [
+                "Microcontroller Programming Resources"
+              ],
+              "tasks": [
+                "Intern or apprentice with a hardware company to get real-world embedded development experience"
+              ],
+              "children": []
+            },
+            {
+              "title": "Real-Time Operating Systems (Rtos) Proficiency",
+              "objective": "Develop proficiency in real-time operating systems (rtos)",
+              "prerequisites": [],
+              "milestones": [
+                "Build"
+              ],
+              "resources": [
+                "Real-Time Operating Systems (Rtos) Resources"
+              ],
+              "tasks": [
+                "Build a portfolio of embedded projects on GitHub"
+              ],
+              "children": []
+            },
+            {
+              "title": "Hardware-Software Interfacing Proficiency",
+              "objective": "Develop proficiency in hardware-software interfacing",
+              "prerequisites": [],
+              "milestones": [
+                "Practice"
+              ],
+              "resources": [
+                "Hardware-Software Interfacing Resources"
+              ],
+              "tasks": [
+                "Practice hardware-software interfacing 1"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Practical Application",
+          "objective": "Gain hands-on experience through projects or simulations",
+          "prerequisites": [],
+          "milestones": [
+            "Build"
+          ],
+          "resources": [
+            "Portfolio Platform"
+          ],
+          "tasks": [
+            "Build portfolio 1"
+          ],
+          "children": [
+            {
+              "title": "Applied Practice Project",
+              "objective": "Apply core skills in a realistic scenario",
+              "prerequisites": [
+                "c and c++ programming",
+                "microcontroller programming"
+              ],
+              "milestones": [
+                "Apply",
+                "Apply"
+              ],
+              "resources": [
+                "Project Management Tools",
+                "Documentation Tools"
+              ],
+              "tasks": [
+                "Apply core skills 1",
+                "Apply core skills 2"
+              ],
+              "children": []
+            },
+            {
+              "title": "Advanced Capstone",
+              "objective": "Demonstrate comprehensive mastery",
+              "prerequisites": [
+                "c and c++ programming",
+                "microcontroller programming",
+                "real-time operating systems (rtos)"
+              ],
+              "milestones": [
+                "Demonstrate"
+              ],
+              "resources": [
+                "Advanced Tools"
+              ],
+              "tasks": [
+                "Demonstrate mastery 1"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Specialization",
+          "objective": "Develop expertise in specific areas",
+          "prerequisites": [],
+          "milestones": [
+            "Choose"
+          ],
+          "resources": [
+            "Industry Certifications"
+          ],
+          "tasks": [
+            "Choose specialization 1"
+          ],
+          "children": [
+            {
+              "title": "Specialization Track",
+              "objective": "Deep dive into a specific area",
+              "prerequisites": [
+                "c and c++ programming",
+                "microcontroller programming"
+              ],
+              "milestones": [
+                "Study"
+              ],
+              "resources": [
+                "Specialized Training"
+              ],
+              "tasks": [
+                "Study advanced topic 1"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Career Launch",
+          "objective": "Land your first role in the field",
+          "prerequisites": [],
+          "milestones": [
+            "Secure"
+          ],
+          "resources": [
+            "Job Search Platforms"
+          ],
+          "tasks": [
+            "Secure job offer 1"
+          ],
+          "children": [
+            {
+              "title": "Professional Branding",
+              "objective": "Create compelling professional presence",
+              "prerequisites": [],
+              "milestones": [
+                "Professional"
+              ],
+              "resources": [
+                "LinkedIn",
+                "Resume Builder"
+              ],
+              "tasks": [
+                "Professional Branding 1"
+              ],
+              "children": []
+            },
+            {
+              "title": "Job Search Strategy",
+              "objective": "Execute systematic job search",
+              "prerequisites": [],
+              "milestones": [
+                "Job"
+              ],
+              "resources": [
+                "Job Boards",
+                "Networking Events"
+              ],
+              "tasks": [
+                "Job Search Strategy 1"
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/static/roadmaps/roadmap_1.png",
+    "/static/roadmaps/roadmap_2.png",
+    "/static/roadmaps/roadmap_3.png"
+  ]
+}

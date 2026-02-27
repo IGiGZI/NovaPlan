@@ -1,0 +1,883 @@
+{
+  "input": {
+    "answers": [
+      {
+        "questionId": "Q1",
+        "label": "High School Student / No degree yet"
+      },
+      {
+        "questionId": "Q_PERS1_HS",
+        "label": "I like solving complex problems and thinking analytically"
+      },
+      {
+        "questionId": "Q_PERS2_HS_ANALYTICAL",
+        "label": "Office / desk-based, mostly indoors"
+      },
+      {
+        "questionId": "Q_PERS3_HS_ANALYTICAL_INDOOR",
+        "label": "Primarily financial \u2014 I want to maximise earnings"
+      },
+      {
+        "questionId": "Q_PERS4_HS_ANALYTICAL_INDOOR_FIN",
+        "label": "Mostly alone \u2014 I'm highly self-sufficient"
+      },
+      {
+        "questionId": "Q_PERS5_HS_ANALYTICAL_INDOOR_FIN_SOLO",
+        "label": "Private sector / corporate"
+      },
+      {
+        "questionId": "Q_DOMAIN_HS",
+        "label": "Computers and Technology"
+      },
+      {
+        "questionId": "Q3_HS_TECH",
+        "label": "Building apps or websites"
+      },
+      {
+        "questionId": "Q4_HS_TECH_DEV",
+        "label": "Visual, design-focused (front-end / UI)"
+      },
+      {
+        "questionId": "Q5_HS_TECH_DEV_FE",
+        "label": "User experience and usability first"
+      },
+      {
+        "questionId": "Q6_HS_TECH_COLLAB",
+        "label": "Building what users see \u2014 visuals, layouts, interactions (frontend)"
+      },
+      {
+        "questionId": "Q7_HS_FE_DEPTH",
+        "label": "Making things beautiful \u2014 design, animations, and visual polish"
+      }
+    ],
+    "careers": [
+      "frontend developer"
+    ],
+    "category": "Programming & Software Development"
+  },
+  "derived_skills": [],
+  "chosen_career": "frontend developer",
+  "roadmaps": [
+    {
+      "path_title": "frontend developer",
+      "focus": "Depth",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "title": "Foundations",
+          "objective": "Build essential groundwork for your career",
+          "prerequisites": [],
+          "milestones": [
+            "Learn"
+          ],
+          "resources": [
+            "Standard Industry Tools"
+          ],
+          "tasks": [
+            "Learn to translate UI/UX designs into responsive, high-performing web pages"
+          ],
+          "children": [
+            {
+              "title": "Industry Fundamentals",
+              "objective": "Understand the core concepts of frontend developer",
+              "prerequisites": [],
+              "milestones": [
+                "Complete",
+                "Master"
+              ],
+              "resources": [
+                "Online Courses",
+                "Industry Glossaries",
+                "Career Guides"
+              ],
+              "tasks": [
+                "Complete an associate or bachelor's degree in computer science, web design, or software engineering",
+                "Master HTML, CSS, and modern JavaScript"
+              ],
+              "children": []
+            },
+            {
+              "title": "Tools & Environment",
+              "objective": "Set up your professional workspace",
+              "prerequisites": [],
+              "milestones": [
+                "Become"
+              ],
+              "resources": [
+                "Official Documentation",
+                "Community Forums"
+              ],
+              "tasks": [
+                "Become proficient in at least one major frontend framework like React or Vue"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Core Skills Development",
+          "objective": "Master essential skills for frontend developer",
+          "prerequisites": [],
+          "milestones": [
+            "Master"
+          ],
+          "resources": [
+            "Online Learning Platforms"
+          ],
+          "tasks": [
+            "Master core skills 1"
+          ],
+          "children": [
+            {
+              "title": "Html5 Proficiency",
+              "objective": "Develop proficiency in html5",
+              "prerequisites": [],
+              "milestones": [
+                "Understand"
+              ],
+              "resources": [
+                "Html5 Resources"
+              ],
+              "tasks": [
+                "Understand state management and API integration for dynamic interfaces"
+              ],
+              "children": []
+            },
+            {
+              "title": "Css3 And Preprocessors (Sass) Proficiency",
+              "objective": "Develop proficiency in css3 and preprocessors (sass)",
+              "prerequisites": [],
+              "milestones": [
+                "Build"
+              ],
+              "resources": [
+                "Css3 And Preprocessors (Sass) Resources"
+              ],
+              "tasks": [
+                "Build a strong portfolio of interactive web applications deployed online"
+              ],
+              "children": []
+            },
+            {
+              "title": "Javascript (Es6+) Proficiency",
+              "objective": "Develop proficiency in javascript (es6+)",
+              "prerequisites": [],
+              "milestones": [
+                "Apply"
+              ],
+              "resources": [
+                "Javascript (Es6+) Resources"
+              ],
+              "tasks": [
+                "Apply for frontend developer or UI engineer roles"
+              ],
+              "children": []
+            },
+            {
+              "title": "Frontend Frameworks (React, Vue.Js, Or Angular) Proficiency",
+              "objective": "Develop proficiency in frontend frameworks (react, vue.js, or angular)",
+              "prerequisites": [],
+              "milestones": [
+                "Practice"
+              ],
+              "resources": [
+                "Frontend Frameworks (React, Vue.Js, Or Angular) Resources"
+              ],
+              "tasks": [
+                "Practice frontend frameworks (react, vue.js, or angular) 1"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Practical Application",
+          "objective": "Gain hands-on experience through projects or simulations",
+          "prerequisites": [],
+          "milestones": [
+            "Build"
+          ],
+          "resources": [
+            "Portfolio Platform"
+          ],
+          "tasks": [
+            "Build portfolio 1"
+          ],
+          "children": [
+            {
+              "title": "Applied Practice Project",
+              "objective": "Apply core skills in a realistic scenario",
+              "prerequisites": [
+                "html5",
+                "css3 and preprocessors (sass)"
+              ],
+              "milestones": [
+                "Apply",
+                "Apply"
+              ],
+              "resources": [
+                "Project Management Tools",
+                "Documentation Tools"
+              ],
+              "tasks": [
+                "Apply core skills 1",
+                "Apply core skills 2"
+              ],
+              "children": []
+            },
+            {
+              "title": "Advanced Capstone",
+              "objective": "Demonstrate comprehensive mastery",
+              "prerequisites": [
+                "html5",
+                "css3 and preprocessors (sass)",
+                "javascript (es6+)"
+              ],
+              "milestones": [
+                "Demonstrate"
+              ],
+              "resources": [
+                "Advanced Tools"
+              ],
+              "tasks": [
+                "Demonstrate mastery 1"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Specialization",
+          "objective": "Develop expertise in specific areas",
+          "prerequisites": [],
+          "milestones": [
+            "Choose"
+          ],
+          "resources": [
+            "Industry Certifications"
+          ],
+          "tasks": [
+            "Choose specialization 1"
+          ],
+          "children": [
+            {
+              "title": "Specialization Track",
+              "objective": "Deep dive into a specific area",
+              "prerequisites": [
+                "html5",
+                "css3 and preprocessors (sass)"
+              ],
+              "milestones": [
+                "Study"
+              ],
+              "resources": [
+                "Specialized Training"
+              ],
+              "tasks": [
+                "Study advanced topic 1"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Career Launch",
+          "objective": "Land your first role in the field",
+          "prerequisites": [],
+          "milestones": [
+            "Secure"
+          ],
+          "resources": [
+            "Job Search Platforms"
+          ],
+          "tasks": [
+            "Secure job offer 1"
+          ],
+          "children": [
+            {
+              "title": "Professional Branding",
+              "objective": "Create compelling professional presence",
+              "prerequisites": [],
+              "milestones": [
+                "Professional"
+              ],
+              "resources": [
+                "LinkedIn",
+                "Resume Builder"
+              ],
+              "tasks": [
+                "Professional Branding 1"
+              ],
+              "children": []
+            },
+            {
+              "title": "Job Search Strategy",
+              "objective": "Execute systematic job search",
+              "prerequisites": [],
+              "milestones": [
+                "Job"
+              ],
+              "resources": [
+                "Job Boards",
+                "Networking Events"
+              ],
+              "tasks": [
+                "Job Search Strategy 1"
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path_title": "frontend developer",
+      "focus": "Fast-Entry",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "title": "Foundations",
+          "objective": "Build essential groundwork for your career",
+          "prerequisites": [],
+          "milestones": [
+            "Learn"
+          ],
+          "resources": [
+            "Standard Industry Tools"
+          ],
+          "tasks": [
+            "Learn to translate UI/UX designs into responsive, high-performing web pages"
+          ],
+          "children": [
+            {
+              "title": "Industry Fundamentals",
+              "objective": "Understand the core concepts of frontend developer",
+              "prerequisites": [],
+              "milestones": [
+                "Complete",
+                "Master"
+              ],
+              "resources": [
+                "Online Courses",
+                "Industry Glossaries",
+                "Career Guides"
+              ],
+              "tasks": [
+                "Complete an associate or bachelor's degree in computer science, web design, or software engineering",
+                "Master HTML, CSS, and modern JavaScript"
+              ],
+              "children": []
+            },
+            {
+              "title": "Tools & Environment",
+              "objective": "Set up your professional workspace",
+              "prerequisites": [],
+              "milestones": [
+                "Become"
+              ],
+              "resources": [
+                "Official Documentation",
+                "Community Forums"
+              ],
+              "tasks": [
+                "Become proficient in at least one major frontend framework like React or Vue"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Core Skills Development",
+          "objective": "Master essential skills for frontend developer",
+          "prerequisites": [],
+          "milestones": [
+            "Master"
+          ],
+          "resources": [
+            "Online Learning Platforms"
+          ],
+          "tasks": [
+            "Master core skills 1"
+          ],
+          "children": [
+            {
+              "title": "Html5 Proficiency",
+              "objective": "Develop proficiency in html5",
+              "prerequisites": [],
+              "milestones": [
+                "Understand"
+              ],
+              "resources": [
+                "Html5 Resources"
+              ],
+              "tasks": [
+                "Understand state management and API integration for dynamic interfaces"
+              ],
+              "children": []
+            },
+            {
+              "title": "Css3 And Preprocessors (Sass) Proficiency",
+              "objective": "Develop proficiency in css3 and preprocessors (sass)",
+              "prerequisites": [],
+              "milestones": [
+                "Build"
+              ],
+              "resources": [
+                "Css3 And Preprocessors (Sass) Resources"
+              ],
+              "tasks": [
+                "Build a strong portfolio of interactive web applications deployed online"
+              ],
+              "children": []
+            },
+            {
+              "title": "Javascript (Es6+) Proficiency",
+              "objective": "Develop proficiency in javascript (es6+)",
+              "prerequisites": [],
+              "milestones": [
+                "Apply"
+              ],
+              "resources": [
+                "Javascript (Es6+) Resources"
+              ],
+              "tasks": [
+                "Apply for frontend developer or UI engineer roles"
+              ],
+              "children": []
+            },
+            {
+              "title": "Frontend Frameworks (React, Vue.Js, Or Angular) Proficiency",
+              "objective": "Develop proficiency in frontend frameworks (react, vue.js, or angular)",
+              "prerequisites": [],
+              "milestones": [
+                "Practice"
+              ],
+              "resources": [
+                "Frontend Frameworks (React, Vue.Js, Or Angular) Resources"
+              ],
+              "tasks": [
+                "Practice frontend frameworks (react, vue.js, or angular) 1"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Practical Application",
+          "objective": "Gain hands-on experience through projects or simulations",
+          "prerequisites": [],
+          "milestones": [
+            "Build"
+          ],
+          "resources": [
+            "Portfolio Platform"
+          ],
+          "tasks": [
+            "Build portfolio 1"
+          ],
+          "children": [
+            {
+              "title": "Applied Practice Project",
+              "objective": "Apply core skills in a realistic scenario",
+              "prerequisites": [
+                "html5",
+                "css3 and preprocessors (sass)"
+              ],
+              "milestones": [
+                "Apply",
+                "Apply"
+              ],
+              "resources": [
+                "Project Management Tools",
+                "Documentation Tools"
+              ],
+              "tasks": [
+                "Apply core skills 1",
+                "Apply core skills 2"
+              ],
+              "children": []
+            },
+            {
+              "title": "Advanced Capstone",
+              "objective": "Demonstrate comprehensive mastery",
+              "prerequisites": [
+                "html5",
+                "css3 and preprocessors (sass)",
+                "javascript (es6+)"
+              ],
+              "milestones": [
+                "Demonstrate"
+              ],
+              "resources": [
+                "Advanced Tools"
+              ],
+              "tasks": [
+                "Demonstrate mastery 1"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Specialization",
+          "objective": "Develop expertise in specific areas",
+          "prerequisites": [],
+          "milestones": [
+            "Choose"
+          ],
+          "resources": [
+            "Industry Certifications"
+          ],
+          "tasks": [
+            "Choose specialization 1"
+          ],
+          "children": [
+            {
+              "title": "Specialization Track",
+              "objective": "Deep dive into a specific area",
+              "prerequisites": [
+                "html5",
+                "css3 and preprocessors (sass)"
+              ],
+              "milestones": [
+                "Study"
+              ],
+              "resources": [
+                "Specialized Training"
+              ],
+              "tasks": [
+                "Study advanced topic 1"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Career Launch",
+          "objective": "Land your first role in the field",
+          "prerequisites": [],
+          "milestones": [
+            "Secure"
+          ],
+          "resources": [
+            "Job Search Platforms"
+          ],
+          "tasks": [
+            "Secure job offer 1"
+          ],
+          "children": [
+            {
+              "title": "Professional Branding",
+              "objective": "Create compelling professional presence",
+              "prerequisites": [],
+              "milestones": [
+                "Professional"
+              ],
+              "resources": [
+                "LinkedIn",
+                "Resume Builder"
+              ],
+              "tasks": [
+                "Professional Branding 1"
+              ],
+              "children": []
+            },
+            {
+              "title": "Job Search Strategy",
+              "objective": "Execute systematic job search",
+              "prerequisites": [],
+              "milestones": [
+                "Job"
+              ],
+              "resources": [
+                "Job Boards",
+                "Networking Events"
+              ],
+              "tasks": [
+                "Job Search Strategy 1"
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path_title": "frontend developer",
+      "focus": "Transition",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "title": "Foundations",
+          "objective": "Build essential groundwork for your career",
+          "prerequisites": [],
+          "milestones": [
+            "Learn"
+          ],
+          "resources": [
+            "Standard Industry Tools"
+          ],
+          "tasks": [
+            "Learn to translate UI/UX designs into responsive, high-performing web pages"
+          ],
+          "children": [
+            {
+              "title": "Industry Fundamentals",
+              "objective": "Understand the core concepts of frontend developer",
+              "prerequisites": [],
+              "milestones": [
+                "Complete",
+                "Master"
+              ],
+              "resources": [
+                "Online Courses",
+                "Industry Glossaries",
+                "Career Guides"
+              ],
+              "tasks": [
+                "Complete an associate or bachelor's degree in computer science, web design, or software engineering",
+                "Master HTML, CSS, and modern JavaScript"
+              ],
+              "children": []
+            },
+            {
+              "title": "Tools & Environment",
+              "objective": "Set up your professional workspace",
+              "prerequisites": [],
+              "milestones": [
+                "Become"
+              ],
+              "resources": [
+                "Official Documentation",
+                "Community Forums"
+              ],
+              "tasks": [
+                "Become proficient in at least one major frontend framework like React or Vue"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Core Skills Development",
+          "objective": "Master essential skills for frontend developer",
+          "prerequisites": [],
+          "milestones": [
+            "Master"
+          ],
+          "resources": [
+            "Online Learning Platforms"
+          ],
+          "tasks": [
+            "Master core skills 1"
+          ],
+          "children": [
+            {
+              "title": "Html5 Proficiency",
+              "objective": "Develop proficiency in html5",
+              "prerequisites": [],
+              "milestones": [
+                "Understand"
+              ],
+              "resources": [
+                "Html5 Resources"
+              ],
+              "tasks": [
+                "Understand state management and API integration for dynamic interfaces"
+              ],
+              "children": []
+            },
+            {
+              "title": "Css3 And Preprocessors (Sass) Proficiency",
+              "objective": "Develop proficiency in css3 and preprocessors (sass)",
+              "prerequisites": [],
+              "milestones": [
+                "Build"
+              ],
+              "resources": [
+                "Css3 And Preprocessors (Sass) Resources"
+              ],
+              "tasks": [
+                "Build a strong portfolio of interactive web applications deployed online"
+              ],
+              "children": []
+            },
+            {
+              "title": "Javascript (Es6+) Proficiency",
+              "objective": "Develop proficiency in javascript (es6+)",
+              "prerequisites": [],
+              "milestones": [
+                "Apply"
+              ],
+              "resources": [
+                "Javascript (Es6+) Resources"
+              ],
+              "tasks": [
+                "Apply for frontend developer or UI engineer roles"
+              ],
+              "children": []
+            },
+            {
+              "title": "Frontend Frameworks (React, Vue.Js, Or Angular) Proficiency",
+              "objective": "Develop proficiency in frontend frameworks (react, vue.js, or angular)",
+              "prerequisites": [],
+              "milestones": [
+                "Practice"
+              ],
+              "resources": [
+                "Frontend Frameworks (React, Vue.Js, Or Angular) Resources"
+              ],
+              "tasks": [
+                "Practice frontend frameworks (react, vue.js, or angular) 1"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Practical Application",
+          "objective": "Gain hands-on experience through projects or simulations",
+          "prerequisites": [],
+          "milestones": [
+            "Build"
+          ],
+          "resources": [
+            "Portfolio Platform"
+          ],
+          "tasks": [
+            "Build portfolio 1"
+          ],
+          "children": [
+            {
+              "title": "Applied Practice Project",
+              "objective": "Apply core skills in a realistic scenario",
+              "prerequisites": [
+                "html5",
+                "css3 and preprocessors (sass)"
+              ],
+              "milestones": [
+                "Apply",
+                "Apply"
+              ],
+              "resources": [
+                "Project Management Tools",
+                "Documentation Tools"
+              ],
+              "tasks": [
+                "Apply core skills 1",
+                "Apply core skills 2"
+              ],
+              "children": []
+            },
+            {
+              "title": "Advanced Capstone",
+              "objective": "Demonstrate comprehensive mastery",
+              "prerequisites": [
+                "html5",
+                "css3 and preprocessors (sass)",
+                "javascript (es6+)"
+              ],
+              "milestones": [
+                "Demonstrate"
+              ],
+              "resources": [
+                "Advanced Tools"
+              ],
+              "tasks": [
+                "Demonstrate mastery 1"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Specialization",
+          "objective": "Develop expertise in specific areas",
+          "prerequisites": [],
+          "milestones": [
+            "Choose"
+          ],
+          "resources": [
+            "Industry Certifications"
+          ],
+          "tasks": [
+            "Choose specialization 1"
+          ],
+          "children": [
+            {
+              "title": "Specialization Track",
+              "objective": "Deep dive into a specific area",
+              "prerequisites": [
+                "html5",
+                "css3 and preprocessors (sass)"
+              ],
+              "milestones": [
+                "Study"
+              ],
+              "resources": [
+                "Specialized Training"
+              ],
+              "tasks": [
+                "Study advanced topic 1"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Career Launch",
+          "objective": "Land your first role in the field",
+          "prerequisites": [],
+          "milestones": [
+            "Secure"
+          ],
+          "resources": [
+            "Job Search Platforms"
+          ],
+          "tasks": [
+            "Secure job offer 1"
+          ],
+          "children": [
+            {
+              "title": "Professional Branding",
+              "objective": "Create compelling professional presence",
+              "prerequisites": [],
+              "milestones": [
+                "Professional"
+              ],
+              "resources": [
+                "LinkedIn",
+                "Resume Builder"
+              ],
+              "tasks": [
+                "Professional Branding 1"
+              ],
+              "children": []
+            },
+            {
+              "title": "Job Search Strategy",
+              "objective": "Execute systematic job search",
+              "prerequisites": [],
+              "milestones": [
+                "Job"
+              ],
+              "resources": [
+                "Job Boards",
+                "Networking Events"
+              ],
+              "tasks": [
+                "Job Search Strategy 1"
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/static/roadmaps/roadmap_1.png",
+    "/static/roadmaps/roadmap_2.png",
+    "/static/roadmaps/roadmap_3.png"
+  ]
+}

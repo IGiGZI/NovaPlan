@@ -1,7 +1,7 @@
 [
   {
     "category": "Programming & Software Development",
-    "total_careers": 23,
+    "total_careers": 25,
     "careers_by_education": {
       "High School / Vocational": [
         {
@@ -219,6 +219,37 @@
             "associate"
           ],
           "description": "Full stack developer typically involves working with both client-side and server-side software development, databases, and applying technology stacks to deliver end-to-end applications.",
+          "education_level": "Associate / Diploma",
+          "education_min": "Associate / Diploma"
+        },
+        {
+          "career": "web / HTML5 game developer",
+          "skills": [
+            "HTML5, CSS3, and JavaScript",
+            "game frameworks (Phaser, PixiJS, BabylonJS)",
+            "WebGL and canvas rendering",
+            "game loop and state machine design",
+            "physics engines (Matter.js, Planck.js)",
+            "asset management and sprite animation",
+            "audio integration for web games",
+            "monetisation APIs (ad networks, IAP)",
+            "cross-browser and mobile optimisation",
+            "game deployment to web portals and app stores"
+          ],
+          "tasks": [
+            "Complete an associate degree or self-taught certificate in web development or game development",
+            "Master JavaScript and the HTML5 Canvas API for interactive graphics",
+            "Learn a web game framework such as Phaser 3 or PixiJS for structured game development",
+            "Build a portfolio of playable web games demonstrating different genres and mechanics",
+            "Study performance optimisation for smooth gameplay across browsers and mobile devices",
+            "Explore WebGL and 3D web rendering for more advanced projects using BabylonJS or Three.js",
+            "Apply for web game developer roles at browser game studios, casual game publishers, or as a freelance developer"
+          ],
+          "education": [
+            "certificate",
+            "associate"
+          ],
+          "description": "Web / HTML5 game developer typically involves working with browser-based game frameworks, JavaScript rendering, and applying web development skills to build interactive games that run natively in browsers across desktop and mobile platforms.",
           "education_level": "Associate / Diploma",
           "education_min": "Associate / Diploma"
         }
@@ -686,6 +717,37 @@
             "master"
           ],
           "description": "Software manager typically involves working with agile project management, analyse ict technical proposals, analyse software specifications, android (mobile operating systems) and applying agile project management to deliver job outcomes.",
+          "education_level": "Bachelor's Degree",
+          "education_min": "Bachelor's Degree"
+        },
+        {
+          "career": "AAA game developer",
+          "skills": [
+            "C++ for AAA game development",
+            "Unreal Engine 5 (Blueprints and C++)",
+            "3D rendering pipelines and shader programming",
+            "gameplay systems and AI design",
+            "physics simulation",
+            "multi-threaded and performance-critical programming",
+            "version control (Perforce)",
+            "debugging tools and profiling (PIX, RenderDoc)",
+            "cross-platform development (PC, console)",
+            "large codebase navigation and contribution"
+          ],
+          "tasks": [
+            "Complete a bachelor's degree in computer science, software engineering, or game development",
+            "Develop expert-level C++ skills with a focus on performance-critical systems",
+            "Build deep proficiency in Unreal Engine 5, including custom rendering, gameplay framework, and editor tools",
+            "Complete a substantial game project demonstrating AAA-quality systems and visual fidelity",
+            "Contribute to open-source Unreal projects or build a demo reel showcasing technical depth",
+            "Study multi-threading, memory management, and console-specific optimisation techniques",
+            "Apply for junior programmer roles at AAA studios (EA, Ubisoft, CD Projekt, Rockstar, etc.)"
+          ],
+          "education": [
+            "bachelor",
+            "master"
+          ],
+          "description": "AAA game developer typically involves working with high-fidelity game engine systems, performance-critical C++ programming, and applying advanced rendering and gameplay engineering skills to build large-scale commercial video games on PC and console platforms.",
           "education_level": "Bachelor's Degree",
           "education_min": "Bachelor's Degree"
         }
@@ -1413,7 +1475,7 @@
   },
   {
     "category": "Healthcare & Medicine",
-    "total_careers": 21,
+    "total_careers": 27,
     "careers_by_education": {
       "High School / Vocational": [
         {
@@ -1444,6 +1506,68 @@
             "bachelor"
           ],
           "description": "Tree surgeon typically involves working with advise on tree issues, analyse tree population, assist tree identification, carry out aerial tree rigging and applying analyse tree population to deliver job outcomes.",
+          "education_level": "High School / Vocational",
+          "education_min": "High School / Vocational"
+        },
+        {
+          "career": "community health worker",
+          "skills": [
+            "health education and promotion",
+            "patient navigation and signposting",
+            "basic first aid and vital signs monitoring",
+            "culturally sensitive communication",
+            "chronic disease prevention awareness",
+            "data collection and record keeping",
+            "community outreach and engagement",
+            "mental health first aid basics",
+            "safeguarding awareness",
+            "liaison with health and social services"
+          ],
+          "tasks": [
+            "Complete a certificate or diploma in health and social care or community health",
+            "Develop communication and cultural competency skills for working with diverse communities",
+            "Learn health promotion principles, disease prevention, and patient education techniques",
+            "Gain experience volunteering or working in community health settings such as clinics or outreach programs",
+            "Build knowledge of local health services and referral pathways",
+            "Complete safeguarding and mental health awareness training",
+            "Apply for community health worker or health outreach roles with NHS trusts, local authorities, or charities"
+          ],
+          "education": [
+            "certificate",
+            "vocational"
+          ],
+          "description": "Community health worker typically involves working with health education, patient navigation, and applying community outreach skills to improve health outcomes for underserved or at-risk populations.",
+          "education_level": "High School / Vocational",
+          "education_min": "High School / Vocational"
+        },
+        {
+          "career": "care home assistant",
+          "skills": [
+            "personal care assistance (bathing, dressing, mobility)",
+            "dementia and elderly care awareness",
+            "medication administration assistance",
+            "safeguarding vulnerable adults",
+            "manual handling and moving techniques",
+            "basic life support (BLS)",
+            "care plan documentation",
+            "communication with residents and families",
+            "infection control and hygiene",
+            "emotional support and companionship"
+          ],
+          "tasks": [
+            "Complete a certificate or NVQ in Health and Social Care (Level 2 or 3)",
+            "Develop person-centered care skills for supporting elderly or vulnerable residents",
+            "Complete mandatory training in manual handling, fire safety, infection control, and safeguarding",
+            "Build understanding of dementia, end-of-life care, and mental health in older adults",
+            "Gain practical experience working in a residential or nursing care home environment",
+            "Learn to accurately document care activities and report changes in resident wellbeing",
+            "Apply for care assistant or support worker roles in residential or nursing care settings"
+          ],
+          "education": [
+            "certificate",
+            "vocational"
+          ],
+          "description": "Care home assistant typically involves working with personal care, dementia support, and applying compassionate, person-centered skills to improve the daily quality of life for elderly or vulnerable residents.",
           "education_level": "High School / Vocational",
           "education_min": "High School / Vocational"
         }
@@ -1946,6 +2070,37 @@
           "description": "Optometrist typically involves working with accept own accountability, adhere to organisational guidelines, administer medication for vision problems, advise customers on optical instruments maintenance and applying accept own accountability to deliver job outcomes.",
           "education_level": "Bachelor's Degree",
           "education_min": "Bachelor's Degree"
+        },
+        {
+          "career": "public health nutritionist",
+          "skills": [
+            "nutritional epidemiology",
+            "public health policy and program design",
+            "community dietary assessment",
+            "health behavior change theory",
+            "food systems and sustainability",
+            "data analysis (SPSS, R)",
+            "stakeholder engagement",
+            "grant writing and project management",
+            "nutrition communication and media",
+            "cross-sector collaboration"
+          ],
+          "tasks": [
+            "Complete a bachelor's or master's degree in nutrition, public health, or dietetics",
+            "Study nutritional epidemiology, population dietary assessment methods, and food policy",
+            "Develop skills in community nutrition program planning and evaluation",
+            "Learn data analysis methods for analysing dietary surveys and population health data",
+            "Build experience working with NGOs, local government, or public health agencies on nutrition programs",
+            "Develop health communication skills to translate evidence into public-facing campaigns",
+            "Apply for public health nutritionist or nutrition policy roles with government bodies, NGOs, or research institutions"
+          ],
+          "education": [
+            "bachelor",
+            "master"
+          ],
+          "description": "Public health nutritionist typically involves working with population-level nutrition surveillance, policy development, and applying evidence-based approaches to design programs that improve dietary habits and reduce diet-related disease across communities.",
+          "education_level": "Bachelor's Degree",
+          "education_min": "Bachelor's Degree"
         }
       ],
       "Master's Degree": [
@@ -2070,6 +2225,99 @@
             "master"
           ],
           "description": "Specialist dentist typically involves working with analyse x-ray imagery, carry out local anesthesia in dental procedures, conduct continuing professional development workshops, conduct health related research and applying analyse x-ray imagery to deliver job outcomes.",
+          "education_level": "Master's Degree",
+          "education_min": "Master's Degree"
+        },
+        {
+          "career": "sports nutritionist",
+          "skills": [
+            "sports nutrition science and physiology",
+            "macro and micronutrient periodisation",
+            "supplement safety and anti-doping regulations (WADA)",
+            "body composition assessment",
+            "hydration strategy",
+            "recovery nutrition protocols",
+            "athlete dietary assessment",
+            "behaviour change coaching",
+            "research methodology",
+            "working with elite and recreational athletes"
+          ],
+          "tasks": [
+            "Complete a master's degree in sports nutrition, sport science, or dietetics with a performance focus",
+            "Study exercise physiology and the nutritional demands of different sports and training loads",
+            "Gain accreditation through a recognised body such as the Sport and Exercise Nutrition Register (SENr) or AND",
+            "Build experience working with athletes across different disciplines in practice or research settings",
+            "Develop supplement safety knowledge and understanding of WADA anti-doping regulations",
+            "Learn to conduct dietary assessments and create individualised performance nutrition plans",
+            "Apply for sports nutritionist roles with professional sports teams, academies, or performance centres"
+          ],
+          "education": [
+            "bachelor",
+            "master"
+          ],
+          "description": "Sports nutritionist typically involves working with athlete dietary planning, performance nutrition science, and applying evidence-based strategies to optimise training, recovery, and competitive performance.",
+          "education_level": "Master's Degree",
+          "education_min": "Master's Degree"
+        },
+        {
+          "career": "critical care paramedic",
+          "skills": [
+            "advanced airway management",
+            "critical care transport (CCT) protocols",
+            "ventilator management",
+            "advanced pharmacology and drug infusions",
+            "point-of-care ultrasound (POCUS)",
+            "haemodynamic monitoring",
+            "inter-facility critical care transfer",
+            "paediatric and neonatal critical care basics",
+            "trauma systems and major incident response",
+            "clinical decision-making in resource-limited environments"
+          ],
+          "tasks": [
+            "Complete a paramedic qualification and gain significant operational experience in emergency services",
+            "Undertake a Critical Care Practitioner (CCP) or Specialist Paramedic qualification",
+            "Complete advanced airway, ventilation, and pharmacology training relevant to CCT or HEMS",
+            "Gain experience working in air ambulance, HART (Hazardous Area Response Team), or critical care transfer services",
+            "Develop POCUS and haemodynamic monitoring skills through clinical placements",
+            "Build research literacy and contribute to clinical audit in your critical care service",
+            "Apply for critical care paramedic or HEMS paramedic roles with air ambulance charities or specialist retrieval teams"
+          ],
+          "education": [
+            "bachelor",
+            "master"
+          ],
+          "description": "Critical care paramedic typically involves working with advanced pre-hospital and transfer medicine, complex patient management, and applying specialist critical care skills in high-acuity environments including air ambulance and hazardous area response.",
+          "education_level": "Master's Degree",
+          "education_min": "Master's Degree"
+        },
+        {
+          "career": "paramedic educator / researcher",
+          "skills": [
+            "curriculum design for paramedic education",
+            "simulation-based learning",
+            "clinical supervision and assessment",
+            "research methodology and ethics",
+            "evidence-based practice in pre-hospital care",
+            "academic writing and publication",
+            "grant application and research funding",
+            "quality improvement methodology",
+            "interprofessional education",
+            "advanced clinical knowledge in paramedicine"
+          ],
+          "tasks": [
+            "Complete a master's or doctoral degree in paramedic science, health professions education, or clinical research",
+            "Build significant clinical experience as a registered paramedic before transitioning to education or research",
+            "Complete a teaching qualification (e.g., PGCE, PGCertHE) if moving into university-based education",
+            "Design and deliver paramedic training programs and simulation scenarios for undergraduate or CPD learners",
+            "Conduct and publish research in pre-hospital care, trauma, or emergency medicine",
+            "Contribute to national guidelines, clinical audits, and service improvement projects",
+            "Apply for paramedic lecturer, clinical educator, or pre-hospital research roles in universities or NHS trusts"
+          ],
+          "education": [
+            "master",
+            "doctorate"
+          ],
+          "description": "Paramedic educator / researcher typically involves working with paramedic curriculum design, simulation-based teaching, and applying research skills to advance evidence-based practice and the education of the next generation of paramedic professionals.",
           "education_level": "Master's Degree",
           "education_min": "Master's Degree"
         }
@@ -2801,7 +3049,7 @@
   },
   {
     "category": "Veterinary & Animal Care",
-    "total_careers": 3,
+    "total_careers": 8,
     "careers_by_education": {
       "Bachelor's Degree": [
         {
@@ -2896,13 +3144,172 @@
           "description": "Official veterinarian typically involves working with advise on animal welfare, advise on livestock disease control, anatomy of animals, animal behaviour and applying anatomy of animals to deliver job outcomes.",
           "education_level": "Bachelor's Degree",
           "education_min": "Bachelor's Degree"
+        },
+        {
+          "career": "equine physiotherapist",
+          "skills": [
+            "equine musculoskeletal anatomy and biomechanics",
+            "manual therapy techniques for horses",
+            "electrotherapy (TENS, laser, NMES)",
+            "back and sacroiliac assessment in horses",
+            "gait analysis and movement evaluation",
+            "rehabilitation program design for equine athletes",
+            "saddle fit awareness",
+            "cold and heat therapy",
+            "exercise rehabilitation",
+            "liaison with veterinary surgeons and trainers"
+          ],
+          "tasks": [
+            "Complete a bachelor's degree in physiotherapy followed by a postgraduate qualification in veterinary/equine physiotherapy, or a recognised equine physiotherapy degree",
+            "Gain registration with the ACPAT (Association of Chartered Physiotherapists in Animal Therapy) or IRVAP",
+            "Develop deep knowledge of equine musculoskeletal anatomy, biomechanics, and common conditions",
+            "Build practical assessment and manual therapy skills through supervised clinical placements with horses",
+            "Develop exercise rehabilitation programs for horses returning from injury or surgery",
+            "Work alongside veterinary surgeons and farriers to provide holistic equine care",
+            "Apply for equine physiotherapist roles with racing stables, competition yards, rehabilitation centres, or in private practice"
+          ],
+          "education": [
+            "bachelor",
+            "master"
+          ],
+          "description": "Equine physiotherapist typically involves working with musculoskeletal assessment, manual therapy, and applying specialist physiotherapy techniques to treat and rehabilitate horses with injuries, performance issues, or post-surgical recovery needs.",
+          "education_level": "Bachelor's Degree",
+          "education_min": "Bachelor's Degree"
+        },
+        {
+          "career": "zoo / exotic animal therapist",
+          "skills": [
+            "exotic and zoo animal anatomy and physiology",
+            "species-specific handling and restraint",
+            "animal behaviour and welfare assessment",
+            "manual therapy adaptations for exotic species",
+            "positive reinforcement and cooperative care",
+            "rehabilitation planning for wildlife and zoo animals",
+            "working within zoo management teams",
+            "knowledge of CITES and wildlife regulations",
+            "environmental enrichment",
+            "zoo veterinary team collaboration"
+          ],
+          "tasks": [
+            "Complete a physiotherapy or animal therapy degree and gain additional training in exotic and zoo animal species",
+            "Develop species-specific anatomy knowledge across mammals, reptiles, birds, and exotic companion animals",
+            "Complete hands-on placements at zoos, wildlife rehabilitation centres, or exotic animal practices",
+            "Learn cooperative care and positive reinforcement techniques for working with non-domesticated species",
+            "Develop rehabilitation plans adapted to the unique physiological and behavioural needs of zoo and exotic animals",
+            "Build relationships with zoo veterinary teams and keepers to deliver integrated care programs",
+            "Apply for zoo animal therapist, wildlife rehabilitator, or exotic animal physiotherapy roles at zoological collections or specialist clinics"
+          ],
+          "education": [
+            "bachelor",
+            "master"
+          ],
+          "description": "Zoo / exotic animal therapist typically involves working with a wide range of non-domesticated species, and applying adapted physiotherapy and rehabilitation techniques to improve the health, welfare, and mobility of animals in captivity or wildlife rehabilitation.",
+          "education_level": "Bachelor's Degree",
+          "education_min": "Bachelor's Degree"
+        }
+      ],
+      "Associate / Diploma": [
+        {
+          "career": "veterinary surgical nurse",
+          "skills": [
+            "surgical preparation and scrub nursing",
+            "anaesthesia monitoring and support",
+            "sterile field maintenance",
+            "surgical instrument knowledge and care",
+            "post-operative patient monitoring",
+            "pain management protocols",
+            "IV catheter placement and fluid therapy",
+            "radiology positioning and safety",
+            "emergency and critical care nursing",
+            "client communication about surgical procedures"
+          ],
+          "tasks": [
+            "Complete a veterinary nursing diploma or degree and gain registration with the RCVS or equivalent body",
+            "Develop specialist skills in surgical preparation, anaesthetic monitoring, and scrub nursing techniques",
+            "Complete additional training in veterinary anaesthesia and pain management",
+            "Build experience in a surgical setting within a referral hospital or busy general practice",
+            "Develop expertise in post-operative monitoring and recognition of surgical complications",
+            "Complete CPD in specific surgical specialties such as orthopaedics, soft tissue, or neurosurgery",
+            "Apply for veterinary surgical nurse or theatre nurse roles at specialist referral centres or surgical practices"
+          ],
+          "education": [
+            "certificate",
+            "associate"
+          ],
+          "description": "Veterinary surgical nurse typically involves working with surgical preparation, anaesthetic support, and applying specialist nursing skills to assist veterinary surgeons in performing safe and effective procedures across a range of species.",
+          "education_level": "Associate / Diploma",
+          "education_min": "Associate / Diploma"
+        }
+      ],
+      "Master's Degree": [
+        {
+          "career": "veterinary surgeon",
+          "skills": [
+            "advanced soft tissue and orthopaedic surgery",
+            "surgical planning and imaging interpretation",
+            "anaesthesia for surgical cases",
+            "surgical oncology basics",
+            "post-operative management and wound care",
+            "minimally invasive techniques (laparoscopy, arthroscopy)",
+            "sterile technique and surgical team leadership",
+            "haemostasis and blood transfusion",
+            "emergency surgical decision-making",
+            "continuing professional development in surgery"
+          ],
+          "tasks": [
+            "Complete a veterinary degree (BVSc or equivalent) and gain several years of general practice experience",
+            "Apply for and complete an RCVS or ECVS-recognised surgical residency program",
+            "Pass the RCVS Certificate in Veterinary Surgery (CertVS) or work toward ECVS Diplomate status",
+            "Develop advanced skills in soft tissue, orthopaedic, and emergency surgical procedures",
+            "Complete surgical case logs and publications required for specialist registration",
+            "Work under supervision of a board-certified veterinary surgeon during residency training",
+            "Apply for veterinary surgeon roles at specialist referral centres or academic veterinary hospitals"
+          ],
+          "education": [
+            "master",
+            "doctorate"
+          ],
+          "description": "Veterinary surgeon typically involves working with advanced surgical procedures, complex case management, and applying specialist surgical training to perform high-level operations on companion animals, equines, or exotic species at referral centres.",
+          "education_level": "Master's Degree",
+          "education_min": "Master's Degree"
+        },
+        {
+          "career": "veterinary oncologist",
+          "skills": [
+            "cancer diagnosis and staging in animals",
+            "chemotherapy protocol design and administration",
+            "radiation therapy planning and delivery",
+            "surgical oncology techniques",
+            "haematology and cytology interpretation",
+            "clinical trials in veterinary medicine",
+            "pain and palliative care management",
+            "client communication for oncology cases",
+            "multi-disciplinary cancer team working",
+            "oncology research and evidence-based practice"
+          ],
+          "tasks": [
+            "Complete a veterinary degree and several years of clinical experience, particularly in internal medicine or surgery",
+            "Apply for and complete a veterinary oncology residency accredited by ECVIM-CA or ACVIM (Oncology)",
+            "Develop expertise in medical, surgical, and radiation oncology for companion animals",
+            "Build skills in cancer diagnosis, staging, treatment planning, and client communication about prognosis",
+            "Contribute to oncology research or clinical trials to advance evidence-based treatment protocols",
+            "Pass board certification examinations in veterinary oncology",
+            "Apply for veterinary oncologist roles at specialist referral centres, university veterinary hospitals, or specialist oncology practices"
+          ],
+          "education": [
+            "master",
+            "doctorate"
+          ],
+          "description": "Veterinary oncologist typically involves working with cancer diagnosis, chemotherapy, and applying specialist medical and surgical oncology skills to manage cancer in companion animals, improving outcomes through evidence-based treatment and research.",
+          "education_level": "Master's Degree",
+          "education_min": "Master's Degree"
         }
       ]
     }
   },
   {
     "category": "Engineering - Civil & Construction",
-    "total_careers": 11,
+    "total_careers": 12,
     "careers_by_education": {
       "High School / Vocational": [
         {
@@ -3249,13 +3656,44 @@
           "description": "Civil engineer typically involves working with abide by regulations on banned materials, adapt energy distribution schedules, address problems critically, address public health issues and applying address problems critically to deliver job outcomes.",
           "education_level": "Bachelor's Degree",
           "education_min": "Bachelor's Degree"
+        },
+        {
+          "career": "construction project manager",
+          "skills": [
+            "construction programme management (MS Project, Primavera)",
+            "NEC / JCT contract management",
+            "site supervision and quality control",
+            "health and safety management (NEBOSH)",
+            "cost planning and value engineering",
+            "subcontractor procurement and management",
+            "building regulations and planning compliance",
+            "risk management on construction projects",
+            "BIM coordination",
+            "stakeholder and client management"
+          ],
+          "tasks": [
+            "Complete a bachelor's degree in construction management, civil engineering, or quantity surveying",
+            "Gain site experience in a junior project engineer or site manager role",
+            "Earn NEBOSH or IOSH health and safety qualification for construction",
+            "Learn contract management (NEC3/4 or JCT) and develop commercial awareness",
+            "Build skills in construction programming using Primavera P6 or Microsoft Project",
+            "Obtain a CSCS card and develop knowledge of building regulations and planning conditions",
+            "Apply for construction project manager or project engineer roles with main contractors or developers"
+          ],
+          "education": [
+            "bachelor",
+            "master"
+          ],
+          "description": "Construction project manager typically involves working with construction programme delivery, contract management, and applying project management skills to deliver buildings and infrastructure on time, within budget, and to specification.",
+          "education_level": "Bachelor's Degree",
+          "education_min": "Bachelor's Degree"
         }
       ]
     }
   },
   {
     "category": "Engineering - Mechanical & Electrical",
-    "total_careers": 12,
+    "total_careers": 15,
     "careers_by_education": {
       "Associate / Diploma": [
         {
@@ -3569,6 +4007,99 @@
           "description": "Mine mechanical engineer typically involves working with address problems critically, advise on mine equipment, assess operating cost, design drawings and applying address problems critically to deliver job outcomes.",
           "education_level": "Bachelor's Degree",
           "education_min": "Bachelor's Degree"
+        },
+        {
+          "career": "offshore electrical engineer",
+          "skills": [
+            "offshore power systems and distribution",
+            "hazardous area electrical equipment (ATEX/IECEx)",
+            "electrical installation and maintenance on offshore platforms",
+            "protection relay settings and testing",
+            "high voltage systems and switchgear",
+            "offshore safety management (PTW, LOTO)",
+            "cable management and containment systems",
+            "condition monitoring and predictive maintenance",
+            "instrumentation and control basics",
+            "offshore survival and BOSIET certification"
+          ],
+          "tasks": [
+            "Complete a bachelor's degree in electrical engineering or electrical and electronic engineering",
+            "Study power systems, protection engineering, and high-voltage systems",
+            "Obtain offshore survival training including BOSIET (Basic Offshore Safety Induction and Emergency Training)",
+            "Develop knowledge of ATEX and IECEx standards for electrical equipment in explosive atmospheres",
+            "Gain experience in industrial electrical engineering before moving into offshore roles",
+            "Build skills in preventive and corrective maintenance of offshore electrical infrastructure",
+            "Apply for offshore electrical engineer roles with oil and gas operators, renewable energy developers, or EPCI contractors"
+          ],
+          "education": [
+            "bachelor",
+            "master"
+          ],
+          "description": "Offshore electrical engineer typically involves working with power distribution systems, ATEX-rated equipment, and applying electrical engineering expertise to install, maintain, and troubleshoot electrical infrastructure on offshore oil, gas, or renewable energy platforms.",
+          "education_level": "Bachelor's Degree",
+          "education_min": "Bachelor's Degree"
+        },
+        {
+          "career": "telecommunications engineer",
+          "skills": [
+            "telecoms network design and architecture",
+            "fibre optic installation and splicing",
+            "microwave and radio frequency (RF) systems",
+            "telecoms protocols (SIP, SS7, LTE, 5G)",
+            "network infrastructure planning",
+            "transmission systems (SDH, DWDM)",
+            "network performance monitoring",
+            "antenna systems and site commissioning",
+            "technical specifications and documentation",
+            "regulatory compliance (Ofcom / FCC)"
+          ],
+          "tasks": [
+            "Complete a bachelor's degree in telecommunications, electronic engineering, or electrical engineering",
+            "Study telecommunications network design, RF propagation, and transmission technologies",
+            "Develop practical skills in fibre optic cabling, antenna installation, and RF testing",
+            "Learn telecoms protocols and standards including 4G/5G, SIP, and optical networking",
+            "Gain experience working with a telecoms operator, tower company, or network equipment vendor",
+            "Build skills in network planning tools and radio planning software",
+            "Apply for telecoms engineer or network engineer roles with mobile operators, ISPs, or infrastructure companies"
+          ],
+          "education": [
+            "bachelor",
+            "master"
+          ],
+          "description": "Telecommunications engineer typically involves working with network design, radio frequency systems, and applying telecoms engineering expertise to plan, build, and maintain communication networks for mobile, broadband, and enterprise connectivity.",
+          "education_level": "Bachelor's Degree",
+          "education_min": "Bachelor's Degree"
+        },
+        {
+          "career": "industrial automation engineer",
+          "skills": [
+            "PLC programming (Siemens, Allen-Bradley, Mitsubishi)",
+            "SCADA and HMI development",
+            "industrial robotics integration",
+            "process control and instrumentation",
+            "factory automation and production systems",
+            "industrial networking (Profibus, EtherNet/IP, Modbus)",
+            "electrical panel design (AutoCAD Electrical)",
+            "commissioning and FAT/SAT testing",
+            "OEE improvement and lean manufacturing",
+            "functional safety (IEC 61508/61511)"
+          ],
+          "tasks": [
+            "Complete a bachelor's degree in electrical engineering, mechatronics, or control systems",
+            "Develop PLC programming skills in platforms such as Siemens TIA Portal or Rockwell Studio 5000",
+            "Learn SCADA development, HMI design, and industrial network communication protocols",
+            "Study process control theory, instrumentation, and automated production systems",
+            "Gain hands-on experience commissioning automation systems in manufacturing or process industries",
+            "Earn relevant certifications in functional safety or industrial networking",
+            "Apply for automation engineer or controls engineer roles in manufacturing, pharma, or food and beverage sectors"
+          ],
+          "education": [
+            "bachelor",
+            "master"
+          ],
+          "description": "Industrial automation engineer typically involves working with PLC programming, SCADA systems, and applying control engineering expertise to design, implement, and optimise automated manufacturing and process systems.",
+          "education_level": "Bachelor's Degree",
+          "education_min": "Bachelor's Degree"
         }
       ],
       "Master's Degree": [
@@ -3639,7 +4170,7 @@
   },
   {
     "category": "Engineering - Aerospace & Transportation",
-    "total_careers": 9,
+    "total_careers": 11,
     "careers_by_education": {
       "Associate / Diploma": [
         {
@@ -3923,12 +4454,76 @@
           "education_level": "Bachelor's Degree",
           "education_min": "Bachelor's Degree"
         }
+      ],
+      "Master's Degree": [
+        {
+          "career": "propulsion engineer",
+          "skills": [
+            "gas turbine thermodynamics and cycle analysis",
+            "combustion system design",
+            "turbomachinery (compressors, turbines)",
+            "CFD for propulsion applications",
+            "propulsion test rig design and operation",
+            "jet engine performance modelling",
+            "emissions and noise reduction",
+            "materials for high-temperature applications",
+            "propulsion system integration",
+            "rocket and hybrid propulsion basics"
+          ],
+          "tasks": [
+            "Complete a master's degree in aerospace engineering, mechanical engineering, or propulsion systems",
+            "Develop expertise in thermodynamics, fluid mechanics, and turbomachinery design",
+            "Learn CFD tools such as ANSYS Fluent or OpenFOAM for propulsion aerodynamic analysis",
+            "Study gas turbine performance modelling and engine cycle optimisation",
+            "Gain experience in propulsion test facilities, rig testing, or engine development programs",
+            "Build knowledge of emissions regulations and next-generation sustainable aviation fuel (SAF) technologies",
+            "Apply for propulsion engineer roles at aero-engine manufacturers, aerospace companies, or research institutes"
+          ],
+          "education": [
+            "bachelor",
+            "master"
+          ],
+          "description": "Propulsion engineer typically involves working with gas turbine design, combustion systems, and applying advanced thermodynamic and aerodynamic analysis to develop high-performance and fuel-efficient aircraft and spacecraft propulsion systems.",
+          "education_level": "Master's Degree",
+          "education_min": "Master's Degree"
+        },
+        {
+          "career": "space systems engineer",
+          "skills": [
+            "spacecraft systems engineering (ECSS standards)",
+            "orbital mechanics and mission design",
+            "satellite subsystems (power, thermal, ADCS, comms)",
+            "systems integration and verification",
+            "FMEA and reliability analysis",
+            "space environment and radiation effects",
+            "launch vehicle interfaces",
+            "model-based systems engineering (MBSE)",
+            "ground segment and mission operations",
+            "space mission feasibility and trade studies"
+          ],
+          "tasks": [
+            "Complete a master's degree in aerospace engineering, physics, or space systems engineering",
+            "Study orbital mechanics, spacecraft subsystem design, and systems engineering methodology",
+            "Learn systems engineering tools such as MATLAB/Simulink and MBSE platforms (e.g., CAMEO)",
+            "Develop knowledge of European or international space standards (ECSS, NASA-STD)",
+            "Gain experience through university satellite projects, ESA internships, or graduate programs at space companies",
+            "Build skills in mission analysis, systems integration, and verification and validation",
+            "Apply for space systems engineer or satellite engineer roles at space agencies (ESA, NASA), primes, or NewSpace companies"
+          ],
+          "education": [
+            "master",
+            "doctorate"
+          ],
+          "description": "Space systems engineer typically involves working with spacecraft subsystem design, mission analysis, and applying systems engineering methodology to integrate and verify satellite and space mission systems from concept through to launch and operations.",
+          "education_level": "Master's Degree",
+          "education_min": "Master's Degree"
+        }
       ]
     }
   },
   {
     "category": "Renewable & Solar Energy",
-    "total_careers": 6,
+    "total_careers": 12,
     "careers_by_education": {
       "High School / Vocational": [
         {
@@ -4118,6 +4713,194 @@
           "description": "Offshore renewable energy engineer typically involves working with address problems critically, adjust engineering designs, adjust voltage, advise on offshore renewable energies subjects and applying address problems critically to deliver job outcomes.",
           "education_level": "Bachelor's Degree",
           "education_min": "Bachelor's Degree"
+        },
+        {
+          "career": "energy storage engineer",
+          "skills": [
+            "battery chemistry and electrochemistry (Li-ion, flow batteries)",
+            "battery management systems (BMS)",
+            "grid-scale energy storage design",
+            "power electronics for storage systems",
+            "thermal management of battery systems",
+            "state of charge and state of health estimation",
+            "energy storage safety and fire protection",
+            "grid interconnection standards",
+            "project engineering for BESS",
+            "degradation modelling and lifecycle analysis"
+          ],
+          "tasks": [
+            "Complete a bachelor's degree in electrical engineering, energy engineering, or chemistry",
+            "Study electrochemistry, power electronics, and battery management systems",
+            "Develop knowledge of grid-scale battery energy storage system (BESS) design and integration",
+            "Learn energy storage project standards, safety requirements, and grid interconnection rules",
+            "Gain experience with battery testing, BMS configuration, and BESS commissioning",
+            "Study emerging storage technologies including flow batteries, hydrogen, and thermal storage",
+            "Apply for energy storage engineer or BESS engineer roles with energy storage developers, utilities, or system integrators"
+          ],
+          "education": [
+            "bachelor",
+            "master"
+          ],
+          "description": "Energy storage engineer typically involves working with battery system design, grid integration, and applying electrochemical and power engineering knowledge to develop large-scale energy storage solutions that support the transition to renewable energy.",
+          "education_level": "Bachelor's Degree",
+          "education_min": "Bachelor's Degree"
+        },
+        {
+          "career": "grid integration engineer",
+          "skills": [
+            "power systems analysis (load flow, short circuit)",
+            "grid connection standards and codes",
+            "renewable energy integration modelling",
+            "power quality and harmonic analysis",
+            "protection relay coordination",
+            "SCADA and energy management systems",
+            "inverter and converter technology",
+            "transmission and distribution network planning",
+            "power system simulation (PSS/E, DIgSILENT)",
+            "grid stability and frequency response"
+          ],
+          "tasks": [
+            "Complete a bachelor's degree in electrical engineering or power systems engineering",
+            "Develop expertise in power systems analysis tools such as PSS/E or DIgSILENT PowerFactory",
+            "Study grid connection standards and codes relevant to your region (e.g., GB Grid Code, EU RfG)",
+            "Learn how to model renewable energy plant interactions with transmission and distribution networks",
+            "Gain experience in grid studies, connection applications, and network impact assessments",
+            "Build knowledge of power quality, protection coordination, and grid stability requirements",
+            "Apply for grid integration engineer or power systems engineer roles with DNOs, TSOs, or renewable energy developers"
+          ],
+          "education": [
+            "bachelor",
+            "master"
+          ],
+          "description": "Grid integration engineer typically involves working with power systems analysis, grid connection studies, and applying electrical engineering expertise to ensure renewable energy plants connect safely and efficiently to electricity transmission and distribution networks.",
+          "education_level": "Bachelor's Degree",
+          "education_min": "Bachelor's Degree"
+        }
+      ],
+      "Master's Degree": [
+        {
+          "career": "wind turbine design engineer",
+          "skills": [
+            "structural dynamics and fatigue analysis",
+            "aeroelastic modelling",
+            "rotor blade design and aerodynamics",
+            "mechanical drivetrain design",
+            "finite element analysis (FEA)",
+            "turbine load simulation (FAST, Bladed, HAWC2)",
+            "material selection for wind turbine components",
+            "certifications and IEC 61400 standards",
+            "offshore and onshore turbine differences",
+            "design optimisation and weight reduction"
+          ],
+          "tasks": [
+            "Complete a master's degree in mechanical engineering, aerospace engineering, or wind energy",
+            "Study structural dynamics, aeroelasticity, and fatigue analysis for rotating machinery",
+            "Develop skills in turbine load simulation tools such as Bladed, HAWC2, or OpenFAST",
+            "Learn rotor blade aerodynamic design, composite materials, and structural optimisation",
+            "Gain experience in a turbine manufacturer's R&D or engineering team",
+            "Study IEC 61400 standards for wind turbine certification and design requirements",
+            "Apply for wind turbine design engineer roles at OEMs (Vestas, Siemens Gamesa, GE) or specialist consultancies"
+          ],
+          "education": [
+            "master",
+            "doctorate"
+          ],
+          "description": "Wind turbine design engineer typically involves working with rotor aerodynamics, structural analysis, and applying mechanical and aeroelastic engineering to develop next-generation wind turbine components and systems for improved energy yield and reliability.",
+          "education_level": "Master's Degree",
+          "education_min": "Master's Degree"
+        },
+        {
+          "career": "tidal and wave energy engineer",
+          "skills": [
+            "marine hydrodynamics and ocean energy resource assessment",
+            "tidal stream and wave energy converter design",
+            "mooring and structural engineering for marine environments",
+            "corrosion protection and marine materials",
+            "electrical export systems for marine devices",
+            "CFD for tidal/wave applications",
+            "device testing and tank testing",
+            "environmental consenting for marine energy",
+            "grid connection for offshore marine devices",
+            "project development and techno-economic analysis"
+          ],
+          "tasks": [
+            "Complete a master's degree in ocean engineering, marine technology, or renewable energy",
+            "Study marine hydrodynamics, ocean wave theory, and tidal resource characterisation",
+            "Develop skills in the design and analysis of tidal stream turbines and wave energy converters",
+            "Learn mooring system design, corrosion engineering, and marine material selection",
+            "Gain experience through university wave tank testing, marine energy test centres, or industry internships",
+            "Build knowledge of environmental impact assessment and consenting for marine energy projects",
+            "Apply for tidal or wave energy engineer roles with marine energy developers, research institutes, or engineering consultancies"
+          ],
+          "education": [
+            "master",
+            "doctorate"
+          ],
+          "description": "Tidal and wave energy engineer typically involves working with ocean energy resource assessment, marine device design, and applying hydrodynamic and marine engineering expertise to develop reliable tidal stream and wave energy conversion technologies.",
+          "education_level": "Master's Degree",
+          "education_min": "Master's Degree"
+        },
+        {
+          "career": "floating solar engineer",
+          "skills": [
+            "floating PV system design and buoyancy engineering",
+            "pontoon and anchoring systems",
+            "waterproofing and corrosion in aquatic environments",
+            "shading and reflection analysis on water bodies",
+            "grid connection for floating systems",
+            "environmental impact on water bodies and ecosystems",
+            "mooring design and wind/wave loading",
+            "floating structure stability analysis",
+            "O&M for floating PV installations",
+            "project development and planning consent for water-based solar"
+          ],
+          "tasks": [
+            "Complete a master's degree in civil engineering, renewable energy, or electrical engineering with a solar specialisation",
+            "Study floating pontoon design, anchoring systems, and structural loading from wind and wave action",
+            "Develop skills in PV system design adapted for aquatic environments (cable routing, humidity management)",
+            "Learn environmental assessment requirements for floating solar on reservoirs, lakes, and coastal waters",
+            "Gain experience in PV system engineering and adapt skills to floating platform-specific challenges",
+            "Study relevant standards and technical guidelines for floating solar PV (e.g., IEC TS 63265)",
+            "Apply for floating solar engineer roles with specialist developers, EPCs, or solar engineering consultancies"
+          ],
+          "education": [
+            "master",
+            "doctorate"
+          ],
+          "description": "Floating solar engineer typically involves working with aquatic PV system design, pontoon engineering, and applying electrical and civil engineering expertise to develop floating solar installations on water bodies for land-efficient renewable energy generation.",
+          "education_level": "Master's Degree",
+          "education_min": "Master's Degree"
+        },
+        {
+          "career": "energy policy analyst",
+          "skills": [
+            "energy policy research and analysis",
+            "regulatory frameworks for electricity markets",
+            "energy economics and cost modelling",
+            "stakeholder consultation and engagement",
+            "carbon markets and emissions trading schemes",
+            "energy transition strategy",
+            "quantitative modelling (Python, R, Excel)",
+            "policy brief and report writing",
+            "understanding of grid codes and planning legislation",
+            "international energy governance (IEA, IRENA, UN)"
+          ],
+          "tasks": [
+            "Complete a master's degree in energy policy, public policy, environmental economics, or engineering",
+            "Study energy economics, electricity market design, and decarbonisation strategy",
+            "Develop quantitative modelling skills for energy system analysis and scenario building",
+            "Learn the regulatory frameworks governing energy generation, distribution, and carbon pricing",
+            "Build experience through internships at energy regulators, government departments, or think tanks",
+            "Contribute to energy policy reports, position papers, and consultation responses",
+            "Apply for energy policy analyst or energy advisor roles with regulators, government bodies, NGOs, or energy companies"
+          ],
+          "education": [
+            "bachelor",
+            "master"
+          ],
+          "description": "Energy policy analyst typically involves working with energy market research, regulatory analysis, and applying policy and economics expertise to design, evaluate, and communicate strategies for a sustainable and equitable energy transition.",
+          "education_level": "Master's Degree",
+          "education_min": "Master's Degree"
         }
       ]
     }
@@ -4444,7 +5227,7 @@
   },
   {
     "category": "Welding & Skilled Trades",
-    "total_careers": 6,
+    "total_careers": 8,
     "careers_by_education": {
       "High School / Vocational": [
         {
@@ -4570,6 +5353,68 @@
           "description": "Spot welder typically involves working with adjust temperature gauges, advise on machinery malfunctions, apply arc welding techniques, apply electrolytes to cathodes and anodes and applying adjust temperature gauges to deliver job outcomes.",
           "education_level": "High School / Vocational",
           "education_min": "High School / Vocational"
+        },
+        {
+          "career": "hvac technician",
+          "skills": [
+            "hvac system installation and commissioning",
+            "refrigeration principles",
+            "electrical wiring for hvac",
+            "ductwork fabrication and fitting",
+            "boiler and heat pump maintenance",
+            "thermostat and control system configuration",
+            "refrigerant handling (f-gas certified)",
+            "fault diagnosis and repair",
+            "building regulations for hvac",
+            "health and safety in mechanical services"
+          ],
+          "tasks": [
+            "Complete a vocational qualification or apprenticeship in heating, ventilation, and air conditioning (HVAC)",
+            "Obtain F-Gas certification for handling refrigerants",
+            "Learn to install, commission, and maintain split systems, central AC units, and ventilation systems",
+            "Develop skills in electrical wiring for HVAC controls and thermostats",
+            "Study heat load calculations and system sizing for residential and commercial buildings",
+            "Build experience with boilers, heat pumps, and underfloor heating systems",
+            "Apply for HVAC technician or refrigeration engineer roles with mechanical services contractors"
+          ],
+          "education": [
+            "certificate",
+            "vocational"
+          ],
+          "description": "HVAC technician typically involves working with heating and cooling system installation, refrigeration principles, and applying mechanical and electrical skills to maintain comfortable and energy-efficient indoor environments.",
+          "education_level": "High School / Vocational",
+          "education_min": "High School / Vocational"
+        },
+        {
+          "career": "site / construction welder",
+          "skills": [
+            "mig, tig, and stick welding on site",
+            "structural steel and rebar welding",
+            "reading construction and fabrication drawings",
+            "health and safety on construction sites",
+            "working at height and confined space awareness",
+            "welding inspection basics",
+            "distortion control in structural welding",
+            "scaffold and access equipment use",
+            "weather and environmental awareness for outdoor welding",
+            "weld quality and defect identification"
+          ],
+          "tasks": [
+            "Complete a welding apprenticeship or vocational qualification with a focus on structural and site welding",
+            "Obtain relevant welding certifications (e.g., AWS D1.1, BS EN ISO 9606) for structural steel",
+            "Learn to read engineering and fabrication drawings for on-site installation",
+            "Develop health and safety awareness for construction environments including working at height",
+            "Build experience welding structural steelwork on live construction projects",
+            "Gain experience with site-specific challenges such as weather, access, and fit-up tolerances",
+            "Apply for site welder or structural welder roles with construction or steelwork contractors"
+          ],
+          "education": [
+            "certificate",
+            "vocational"
+          ],
+          "description": "Site / construction welder typically involves working with structural steel welding, on-site fabrication, and applying welding techniques in challenging outdoor and construction environments to join structural components.",
+          "education_level": "High School / Vocational",
+          "education_min": "High School / Vocational"
         }
       ],
       "Associate / Diploma": [
@@ -4640,7 +5485,7 @@
   },
   {
     "category": "Aviation & Piloting",
-    "total_careers": 11,
+    "total_careers": 24,
     "careers_by_education": {
       "High School / Vocational": [
         {
@@ -4702,6 +5547,99 @@
             "master"
           ],
           "description": "Private pilot typically involves working with air traffic control operations, air transport law, aircraft flight control systems, analyse weather forecast and applying air transport law to deliver job outcomes.",
+          "education_level": "High School / Vocational",
+          "education_min": "High School / Vocational"
+        },
+        {
+          "career": "drone survey pilot",
+          "skills": [
+            "UAV/UAS operation and flight control",
+            "GIS and geospatial data fundamentals",
+            "drone operator certification (FAA Part 107 / EASA equivalent)",
+            "photogrammetry and lidar data capture",
+            "flight planning software (DJI Pilot, Mission Planner)",
+            "pre-flight risk assessment",
+            "airspace awareness and NOTAM reading",
+            "data processing and point cloud generation",
+            "emergency procedures",
+            "equipment maintenance and care"
+          ],
+          "tasks": [
+            "Obtain a drone pilot certification such as FAA Part 107 or EASA A2/A3",
+            "Learn GIS fundamentals and photogrammetry software (e.g., Pix4D, DroneDeploy)",
+            "Build flight planning skills for systematic area coverage and accuracy",
+            "Practice data capture using RGB, LiDAR, and multispectral sensors",
+            "Develop skills in post-processing survey data and generating deliverables (maps, models)",
+            "Build experience working in surveying, construction, or land management environments",
+            "Apply for drone survey pilot or UAS operator roles in surveying or civil engineering firms"
+          ],
+          "education": [
+            "certificate",
+            "vocational"
+          ],
+          "description": "Drone survey pilot typically involves working with UAV flight operations, aerial photogrammetry, GIS data capture, and applying remote sensing technology to produce maps and spatial datasets.",
+          "education_level": "High School / Vocational",
+          "education_min": "High School / Vocational"
+        },
+        {
+          "career": "drone inspection pilot",
+          "skills": [
+            "UAV/UAS operation for close-range inspection",
+            "drone operator certification (FAA Part 107 / EASA equivalent)",
+            "visual and thermal inspection techniques",
+            "knowledge of inspection standards (infrastructure, energy, telecoms)",
+            "flight planning for confined and complex environments",
+            "report writing and defect identification",
+            "airspace regulation compliance",
+            "payload operation (thermal cameras, zoom lenses)",
+            "emergency procedures",
+            "drone maintenance and pre-flight checks"
+          ],
+          "tasks": [
+            "Obtain a drone pilot certification such as FAA Part 107 or EASA A2/A3",
+            "Learn inspection techniques for infrastructure assets like bridges, pylons, and pipelines",
+            "Develop skills in operating thermal and high-zoom camera payloads",
+            "Build report-writing skills for documenting defects and recommendations",
+            "Gain experience working alongside engineers or asset managers in field inspections",
+            "Learn relevant inspection standards for the industry (e.g., BSRIA for buildings, CIGRE for power)",
+            "Apply for drone inspection pilot roles in energy, telecoms, or civil infrastructure sectors"
+          ],
+          "education": [
+            "certificate",
+            "vocational"
+          ],
+          "description": "Drone inspection pilot typically involves working with UAV flight operations, close-range visual and thermal inspection, and applying aerial inspection techniques to assess the condition of infrastructure assets.",
+          "education_level": "High School / Vocational",
+          "education_min": "High School / Vocational"
+        },
+        {
+          "career": "drone media pilot",
+          "skills": [
+            "UAV/UAS operation for aerial filming",
+            "drone operator certification (FAA Part 107 / EASA equivalent)",
+            "aerial cinematography and composition",
+            "gimbal and camera control",
+            "color grading and video editing basics",
+            "creative flight techniques (orbits, reveals, tracking)",
+            "permit and airspace coordination for filming",
+            "client communication and pre-shoot planning",
+            "equipment setup and maintenance",
+            "understanding of broadcast and streaming formats"
+          ],
+          "tasks": [
+            "Obtain a drone pilot certification such as FAA Part 107 or EASA A2/A3",
+            "Develop aerial cinematography skills including camera movement, composition, and exposure",
+            "Build a portfolio of aerial footage demonstrating creative and technical skill",
+            "Learn video editing and color grading to deliver polished final content",
+            "Develop client management skills and understand production shoot requirements",
+            "Gain experience on film sets, events, or real estate shoots",
+            "Apply for drone camera operator or aerial cinematography roles with production companies"
+          ],
+          "education": [
+            "certificate",
+            "vocational"
+          ],
+          "description": "Drone media pilot typically involves working with aerial cinematography, UAV flight operations, camera systems, and applying creative and technical skills to capture aerial footage for film, TV, and marketing productions.",
           "education_level": "High School / Vocational",
           "education_min": "High School / Vocational"
         }
@@ -4766,6 +5704,161 @@
             "master"
           ],
           "description": "Helicopter pilot typically involves working with act reliably, address aircraft mechanical issues, air traffic control operations, air transport law and applying act reliably to deliver job outcomes.",
+          "education_level": "Associate / Diploma",
+          "education_min": "Associate / Diploma"
+        },
+        {
+          "career": "EMS helicopter pilot",
+          "skills": [
+            "CPL-H (Commercial Pilot License \u2014 Helicopter)",
+            "instrument rating for helicopters",
+            "emergency medical service operations",
+            "confined area and rooftop landing techniques",
+            "night vision goggle (NVG) operations",
+            "crew resource management (CRM)",
+            "inter-agency communication (fire, ambulance, police)",
+            "fatigue and stress management in critical operations",
+            "medical patient handling awareness",
+            "multi-engine helicopter type ratings"
+          ],
+          "tasks": [
+            "Earn a Commercial Pilot License for helicopters (CPL-H) with instrument rating",
+            "Complete multi-engine helicopter training and accumulate the required flight hours for EMS operations",
+            "Obtain relevant type ratings for EMS-configured helicopters (e.g., H145, AW139)",
+            "Complete NVG (Night Vision Goggle) qualification for night operations",
+            "Develop crew resource management skills for working with paramedics and dispatchers",
+            "Build experience in confined area operations, helipad landings, and scene management",
+            "Apply for EMS helicopter pilot roles with air ambulance services or emergency medical providers"
+          ],
+          "education": [
+            "certificate",
+            "associate"
+          ],
+          "description": "EMS helicopter pilot typically involves working with rotary-wing flight operations, emergency medical service coordination, and applying advanced helicopter piloting skills to transport patients and crews in critical care situations.",
+          "education_level": "Associate / Diploma",
+          "education_min": "Associate / Diploma"
+        },
+        {
+          "career": "offshore helicopter pilot",
+          "skills": [
+            "CPL-H (Commercial Pilot License \u2014 Helicopter)",
+            "instrument rating for helicopters",
+            "offshore and helideck operations",
+            "weather assessment for maritime environments",
+            "ditching and underwater escape training (HUET)",
+            "sea survival and survival training",
+            "oil and gas industry safety protocols",
+            "multi-engine helicopter type ratings (e.g., H175, S-92)",
+            "CRM for multi-crew operations",
+            "fuel management for extended overwater flights"
+          ],
+          "tasks": [
+            "Earn a Commercial Pilot License for helicopters (CPL-H) with instrument and multi-engine ratings",
+            "Complete offshore survival training including HUET (Helicopter Underwater Escape Training)",
+            "Obtain type ratings for offshore helicopters such as the Sikorsky S-92 or Airbus H175",
+            "Build flight hours in demanding offshore environments and complex weather conditions",
+            "Learn offshore helideck operations, vessel approach procedures, and maritime weather planning",
+            "Develop fatigue management strategies for long offshore rotations",
+            "Apply for offshore helicopter pilot roles with oil and gas operators or helicopter service companies"
+          ],
+          "education": [
+            "certificate",
+            "associate"
+          ],
+          "description": "Offshore helicopter pilot typically involves working with rotary-wing flight operations, maritime environment navigation, and applying specialist offshore procedures to transport crews and equipment to oil and gas installations.",
+          "education_level": "Associate / Diploma",
+          "education_min": "Associate / Diploma"
+        },
+        {
+          "career": "SAR / police helicopter pilot",
+          "skills": [
+            "CPL-H (Commercial Pilot License \u2014 Helicopter)",
+            "instrument rating for helicopters",
+            "search and rescue (SAR) procedures",
+            "night vision goggle (NVG) operations",
+            "law enforcement and public safety aviation",
+            "winch and hoist operations",
+            "aerial surveillance and observation",
+            "inter-agency communication",
+            "confined area and mountain operations",
+            "crew resource management"
+          ],
+          "tasks": [
+            "Earn a Commercial Pilot License for helicopters (CPL-H) with instrument rating",
+            "Complete NVG qualification and SAR or police aviation specialist training",
+            "Gain experience with winch operations, hoist rescues, and confined area landings",
+            "Develop awareness of law enforcement procedures and public safety protocols",
+            "Build inter-agency communication skills for working with ground and marine units",
+            "Complete mountain flying or maritime SAR training relevant to your operating environment",
+            "Apply for helicopter pilot roles with police aviation units, coastguard, or mountain rescue services"
+          ],
+          "education": [
+            "certificate",
+            "associate"
+          ],
+          "description": "SAR / police helicopter pilot typically involves working with rotary-wing flight operations, search and rescue coordination, and applying specialist aviation skills to support law enforcement, rescue, and public safety missions.",
+          "education_level": "Associate / Diploma",
+          "education_min": "Associate / Diploma"
+        },
+        {
+          "career": "flight instructor",
+          "skills": [
+            "Flight Instructor Certificate (CFI / FI)",
+            "instructional techniques and adult learning principles",
+            "lesson plan development for flight training",
+            "assessment and debriefing skills",
+            "air law and training regulations",
+            "safety management in training environments",
+            "communication and coaching",
+            "syllabus and progression tracking",
+            "multi-engine and instrument instruction (MEI/CFII if applicable)",
+            "human factors in aviation"
+          ],
+          "tasks": [
+            "Earn a Commercial Pilot License (CPL) or equivalent and accumulate sufficient flight hours",
+            "Complete a Flight Instructor (FI) or CFI certificate course covering instructional technique",
+            "Learn adult learning theory, lesson planning, and how to teach flight skills progressively",
+            "Complete examiner-assessed flight tests and oral examinations for your instructor rating",
+            "Build experience teaching student pilots through solo, cross-country, and instrument stages",
+            "Develop a training portfolio and structured lesson plans for PPL and CPL syllabuses",
+            "Apply for flight instructor roles at flying schools, aviation academies, or airline cadet programs"
+          ],
+          "education": [
+            "certificate",
+            "associate"
+          ],
+          "description": "Flight instructor typically involves working with flight training syllabus delivery, instructional technique, and applying aviation teaching skills to develop student pilots from first solo to licensed status.",
+          "education_level": "Associate / Diploma",
+          "education_min": "Associate / Diploma"
+        },
+        {
+          "career": "flight dispatcher",
+          "skills": [
+            "aircraft dispatch certificate (FAA / EASA dispatcher qualification)",
+            "flight planning and fuel calculations",
+            "weather interpretation and METAR/TAF analysis",
+            "NOTAMs and airspace restriction awareness",
+            "weight and balance calculations",
+            "air traffic flow management",
+            "pilot-dispatcher communication",
+            "emergency and abnormal situation handling",
+            "regulatory compliance (FAR/CAR)",
+            "crew scheduling awareness"
+          ],
+          "tasks": [
+            "Complete a Flight Dispatcher / Aircraft Dispatcher Certificate (e.g., FAA Part 65, EASA equivalent)",
+            "Study meteorology, flight planning, air law, and aircraft performance for dispatch operations",
+            "Develop proficiency in flight planning software (e.g., Jeppesen, Lido, Navtech)",
+            "Learn how to interpret weather forecasts, NOTAMs, and TFRs to support safe flight release",
+            "Practice weight and balance calculations and fuel planning for different aircraft types",
+            "Gain experience in an airline or charter operations control center environment",
+            "Apply for flight dispatcher or operations controller roles with airlines or charter operators"
+          ],
+          "education": [
+            "certificate",
+            "associate"
+          ],
+          "description": "Flight dispatcher typically involves working with flight planning, weather interpretation, fuel and performance calculations, and applying aviation operations knowledge to authorize and monitor flights in coordination with pilots.",
           "education_level": "Associate / Diploma",
           "education_min": "Associate / Diploma"
         }
@@ -4985,6 +6078,161 @@
             "master"
           ],
           "description": "Air force pilot typically involves working with adapt to changing situations, air force operations, air traffic control operations, air transport law and applying air force operations to deliver job outcomes.",
+          "education_level": "Bachelor's Degree",
+          "education_min": "Bachelor's Degree"
+        },
+        {
+          "career": "military transport pilot",
+          "skills": [
+            "military transport aircraft operations",
+            "strategic and tactical airlift procedures",
+            "air-to-air refueling awareness",
+            "formation flying",
+            "instrument and night operations",
+            "cargo and troop transport procedures",
+            "military communications and codes",
+            "mission planning and briefing",
+            "airdrop and airland operations",
+            "crew resource management for multi-crew transport"
+          ],
+          "tasks": [
+            "Complete a bachelor's degree and obtain a commission as a military officer",
+            "Pass the physical, psychological, and aptitude selection process for military pilot training",
+            "Complete primary military flight training on training aircraft",
+            "Progress to multi-engine conversion and type-specific training on transport aircraft (e.g., C-130, C-17, A400M)",
+            "Qualify in airlift operations including cargo, troop transport, and airdrop missions",
+            "Complete aeromedical evacuation or special operations airlift qualifications as required",
+            "Build hours in operational transport squadrons and develop toward aircraft commander status"
+          ],
+          "education": [
+            "bachelor",
+            "master"
+          ],
+          "description": "Military transport pilot typically involves working with strategic airlift operations, large multi-crew transport aircraft, and applying military aviation procedures to deliver personnel and cargo in support of operational missions.",
+          "education_level": "Bachelor's Degree",
+          "education_min": "Bachelor's Degree"
+        },
+        {
+          "career": "maritime patrol pilot",
+          "skills": [
+            "multi-engine maritime patrol aircraft operations",
+            "anti-submarine warfare (ASW) awareness",
+            "maritime surveillance and patrol procedures",
+            "long-range overwater navigation",
+            "tactical sensor management",
+            "search and rescue coordination from the air",
+            "coordination with naval vessels",
+            "instrument and night operations",
+            "military communications",
+            "crew resource management for long-endurance missions"
+          ],
+          "tasks": [
+            "Complete a bachelor's degree and obtain a military commission through officer training",
+            "Complete primary military flight training and progress to multi-engine qualification",
+            "Convert onto maritime patrol aircraft (e.g., P-8 Poseidon, P-3 Orion, ATR 72MP)",
+            "Qualify in overwater navigation, anti-submarine warfare tactics, and sensor operation",
+            "Develop skills in long-endurance mission planning, including fuel management and crew rest",
+            "Complete maritime SAR coordination training and inter-service operations awareness",
+            "Build toward patrol aircraft commander status through operational flying hours"
+          ],
+          "education": [
+            "bachelor",
+            "master"
+          ],
+          "description": "Maritime patrol pilot typically involves working with long-endurance multi-engine aircraft, maritime surveillance missions, and applying specialist patrol aviation skills to conduct anti-submarine warfare, SAR, and reconnaissance operations.",
+          "education_level": "Bachelor's Degree",
+          "education_min": "Bachelor's Degree"
+        },
+        {
+          "career": "business aviation pilot",
+          "skills": [
+            "ATPL or CPL with business jet type ratings",
+            "corporate flight operations and VIP passenger handling",
+            "international trip planning and handling (Jeppesen, Universal)",
+            "ETOPS and oceanic navigation procedures",
+            "FBO coordination and ground operations management",
+            "customs, immigration, and overflight permit handling",
+            "cabin management and professional presentation",
+            "advanced CRM for small-crew operations",
+            "short-notice scheduling and flexibility",
+            "discretion and confidentiality in VIP operations"
+          ],
+          "tasks": [
+            "Earn a Commercial Pilot License (CPL) or ATPL and build hours toward business aviation minimums",
+            "Complete type ratings on business jets such as the Bombardier Challenger, Gulfstream, or Cessna Citation",
+            "Learn international trip planning, handling, and permit coordination for private charter",
+            "Develop professional standards for VIP passenger service and high-discretion operations",
+            "Build experience co-piloting in corporate or charter operations before progressing to captain",
+            "Study ETOPS, oceanic navigation, and cold weather operations relevant to global corporate flights",
+            "Apply for first officer or captain roles with private charter companies, UHNW operators, or corporate flight departments"
+          ],
+          "education": [
+            "bachelor",
+            "certificate"
+          ],
+          "description": "Business aviation pilot typically involves working with corporate and private jet operations, VIP passenger handling, and applying advanced flight skills to deliver flexible, discreet international air travel for corporate clients.",
+          "education_level": "Bachelor's Degree",
+          "education_min": "Bachelor's Degree"
+        },
+        {
+          "career": "military UAS / drone defense pilot",
+          "skills": [
+            "military UAS operator certification",
+            "tactical UAV/UAS mission planning",
+            "intelligence, surveillance, and reconnaissance (ISR) operations",
+            "target identification and rules of engagement",
+            "secure communications and data links",
+            "sensor management (EO/IR, SAR)",
+            "multi-domain awareness",
+            "cyber-physical security for drone systems",
+            "team coordination with ground forces",
+            "after-action reporting"
+          ],
+          "tasks": [
+            "Complete a bachelor's degree and enlist or commission in a military or defense role",
+            "Complete military UAS operator training on platforms such as the MQ-9 Reaper, RQ-4 Global Hawk, or tactical SUAS",
+            "Qualify in mission planning, ISR operations, and UAS employment doctrine",
+            "Develop situational awareness and target identification skills within rules of engagement",
+            "Learn secure data link management, sensor fusion, and coordination with manned assets",
+            "Complete operational deployments and accumulate mission hours in ISR or strike-capable UAS roles",
+            "Progress toward senior UAS operator, mission commander, or defense UAS program roles"
+          ],
+          "education": [
+            "bachelor",
+            "master"
+          ],
+          "description": "Military UAS / drone defense pilot typically involves working with tactical unmanned aircraft systems, ISR mission operations, and applying military UAS employment doctrine to conduct surveillance, reconnaissance, and defense missions.",
+          "education_level": "Bachelor's Degree",
+          "education_min": "Bachelor's Degree"
+        },
+        {
+          "career": "harbour master",
+          "skills": [
+            "Master Mariner Certificate of Competency",
+            "port and harbour management",
+            "vessel traffic management",
+            "maritime law and port regulations",
+            "emergency and incident management in port",
+            "environmental and pollution response",
+            "stakeholder management (ship operators, agents, authorities)",
+            "marine safety risk assessment",
+            "tide and weather assessment",
+            "budget and resource management"
+          ],
+          "tasks": [
+            "Complete a bachelor's degree in nautical science or maritime studies and obtain a Master Mariner CoC",
+            "Build extensive seagoing experience as a navigating officer and master on commercial vessels",
+            "Develop deep knowledge of port regulations, marine by-laws, and the ISPS Code",
+            "Complete a port management qualification or MBA relevant to maritime administration",
+            "Gain experience in a deputy harbour master or marine operations superintendent role",
+            "Build skills in incident command, emergency response, and inter-agency coordination",
+            "Apply for harbour master or port marine safety officer roles with port authorities or private terminals"
+          ],
+          "education": [
+            "bachelor",
+            "master"
+          ],
+          "description": "Harbour master typically involves working with port marine operations, vessel traffic management, and applying maritime expertise and regulatory authority to ensure the safe and efficient movement of vessels within a port or harbour.",
           "education_level": "Bachelor's Degree",
           "education_min": "Bachelor's Degree"
         }
@@ -5220,7 +6468,7 @@
   },
   {
     "category": "Finance & Accounting",
-    "total_careers": 7,
+    "total_careers": 11,
     "careers_by_education": {
       "High School / Vocational": [
         {
@@ -5410,6 +6658,68 @@
           "description": "Accountant typically involves working with accounting department processes, accounting entries, accounting techniques, advise on financial matters and applying accounting department processes to deliver job outcomes.",
           "education_level": "Bachelor's Degree",
           "education_min": "Bachelor's Degree"
+        },
+        {
+          "career": "management accountant",
+          "skills": [
+            "management accounting and reporting",
+            "budgeting and forecasting",
+            "variance analysis",
+            "cost accounting and margin analysis",
+            "business partnering and stakeholder communication",
+            "ERP systems (SAP, Oracle, Sage)",
+            "financial modelling in Excel",
+            "KPI development and performance reporting",
+            "scenario and sensitivity analysis",
+            "CIMA qualification knowledge"
+          ],
+          "tasks": [
+            "Complete a bachelor's degree in accounting, finance, or business",
+            "Pursue the CIMA (Chartered Institute of Management Accountants) qualification",
+            "Develop skills in management reporting, budgeting, and variance analysis",
+            "Build business partnering skills to support operational teams with financial insight",
+            "Learn ERP system reporting and financial consolidation in systems such as SAP or Oracle",
+            "Gain experience in a commercial finance or management accounts role",
+            "Apply for management accountant or finance business partner roles in industry"
+          ],
+          "education": [
+            "bachelor",
+            "master"
+          ],
+          "description": "Management accountant typically involves working with internal financial reporting, budgeting, and applying cost and performance analysis to provide commercial insights that support business decision-making.",
+          "education_level": "Bachelor's Degree",
+          "education_min": "Bachelor's Degree"
+        },
+        {
+          "career": "corporate credit analyst",
+          "skills": [
+            "corporate financial statement analysis",
+            "credit risk assessment and rating",
+            "leveraged finance and debt structuring",
+            "industry and sector analysis",
+            "cash flow modelling",
+            "covenant monitoring and portfolio management",
+            "credit memo and report writing",
+            "Bloomberg and financial data platforms",
+            "regulatory capital awareness (Basel III)",
+            "client relationship management"
+          ],
+          "tasks": [
+            "Complete a bachelor's degree in finance, economics, or accounting",
+            "Develop strong financial analysis skills including ratio analysis, cash flow modelling, and debt sizing",
+            "Learn credit risk assessment frameworks and the mechanics of corporate lending",
+            "Study leveraged finance, corporate bonds, and syndicated loan markets",
+            "Gain experience in a bank's credit or lending team through internships or graduate programs",
+            "Build proficiency in financial modelling and credit memo writing for loan committees",
+            "Apply for corporate credit analyst or credit risk roles at commercial banks, investment banks, or credit rating agencies"
+          ],
+          "education": [
+            "bachelor",
+            "master"
+          ],
+          "description": "Corporate credit analyst typically involves working with corporate financial analysis, credit risk assessment, and applying lending and structuring expertise to evaluate and manage credit exposure to corporate borrowers.",
+          "education_level": "Bachelor's Degree",
+          "education_min": "Bachelor's Degree"
         }
       ],
       "Master's Degree": [
@@ -5443,13 +6753,75 @@
           "description": "Economist typically involves working with accounting techniques, advise on economic development, analyse economic trends, analyse financial performance of a company and applying accounting techniques to deliver job outcomes.",
           "education_level": "Master's Degree",
           "education_min": "Master's Degree"
+        },
+        {
+          "career": "investment banker",
+          "skills": [
+            "financial modelling (DCF, LBO, M&A)",
+            "valuation techniques",
+            "capital markets (equity and debt)",
+            "pitch book and deal presentation",
+            "due diligence coordination",
+            "client advisory and relationship management",
+            "sector research and industry analysis",
+            "deal execution and transaction management",
+            "Bloomberg and capital markets data",
+            "regulatory knowledge (FCA, SEC)"
+          ],
+          "tasks": [
+            "Complete a master's degree or MBA in finance, economics, or a quantitative field",
+            "Develop advanced financial modelling skills in Excel (DCF, LBO, precedent transactions, comparable companies)",
+            "Build expertise in capital markets, M&A, or leveraged finance depending on your target division",
+            "Complete internships or spring weeks at investment banks to secure a graduate analyst offer",
+            "Develop pitch book and presentation skills for client advisory and deal marketing",
+            "Build industry sector knowledge relevant to your coverage area (e.g., TMT, energy, healthcare)",
+            "Apply for investment banking analyst roles in M&A, ECM, DCM, or leveraged finance teams"
+          ],
+          "education": [
+            "bachelor",
+            "master"
+          ],
+          "description": "Investment banker typically involves working with financial modelling, capital markets transactions, and applying advisory and analytical skills to help corporate clients raise capital, execute M&A deals, and navigate complex financial transactions.",
+          "education_level": "Master's Degree",
+          "education_min": "Master's Degree"
+        },
+        {
+          "career": "development / international economist",
+          "skills": [
+            "development economics and poverty analysis",
+            "international trade theory and policy",
+            "macroeconomic modelling",
+            "impact evaluation and econometrics",
+            "aid effectiveness and public finance management",
+            "multilateral institution knowledge (IMF, World Bank, UN)",
+            "policy research and advisory",
+            "data analysis (R, Stata, Python)",
+            "report writing for international audiences",
+            "cross-cultural communication"
+          ],
+          "tasks": [
+            "Complete a master's degree in development economics, international economics, or public policy",
+            "Develop econometric and quantitative research skills using Stata, R, or Python",
+            "Study development theory, international trade, and macroeconomic policy in developing economies",
+            "Gain experience through internships at international organisations such as the World Bank, IMF, or UNDP",
+            "Build report writing and policy advisory skills for international development audiences",
+            "Conduct fieldwork or research in developing country contexts to understand real-world policy challenges",
+            "Apply for development economist or policy economist roles at multilateral institutions, government agencies, or development NGOs"
+          ],
+          "education": [
+            "master",
+            "doctorate"
+          ],
+          "description": "Development / international economist typically involves working with macroeconomic analysis, development policy research, and applying economics expertise to advise governments, multilateral organisations, and NGOs on strategies for sustainable economic growth and poverty reduction.",
+          "education_level": "Master's Degree",
+          "education_min": "Master's Degree"
         }
       ]
     }
   },
   {
     "category": "Business, Management & HR",
-    "total_careers": 6,
+    "total_careers": 13,
     "careers_by_education": {
       "Bachelor's Degree": [
         {
@@ -5636,13 +7008,234 @@
           "description": "Product manager typically involves working with cross-functional teams, defining product vision, managing roadmaps, and applying business strategy to deliver value to users and the business.",
           "education_level": "Bachelor's Degree",
           "education_min": "Bachelor's Degree"
+        },
+        {
+          "career": "IT project manager",
+          "skills": [
+            "IT project lifecycle management",
+            "agile and scrum methodologies",
+            "software development lifecycle (SDLC)",
+            "stakeholder management in tech environments",
+            "risk and issue management",
+            "budget tracking for IT projects",
+            "vendor and contract management",
+            "change management",
+            "requirements management",
+            "JIRA and project management tools"
+          ],
+          "tasks": [
+            "Complete a bachelor's degree in information technology, computer science, or business",
+            "Gain foundational experience in IT operations, software development, or systems implementation",
+            "Earn a project management certification (PMP, PRINCE2, or SAFe) with an IT focus",
+            "Learn agile frameworks such as Scrum and Kanban for software delivery",
+            "Develop stakeholder management and communication skills for technical and non-technical audiences",
+            "Build experience managing IT infrastructure upgrades, software rollouts, or digital transformation projects",
+            "Apply for IT project manager or technical program manager roles"
+          ],
+          "education": [
+            "bachelor",
+            "master"
+          ],
+          "description": "IT project manager typically involves working with technology project delivery, agile methodologies, and applying project management disciplines to plan and execute software, infrastructure, and digital transformation initiatives.",
+          "education_level": "Bachelor's Degree",
+          "education_min": "Bachelor's Degree"
+        },
+        {
+          "career": "HR specialist",
+          "skills": [
+            "specialist HR function (L&D, compensation, or ER)",
+            "employment law in specialist area",
+            "HR data analysis and reporting",
+            "policy design and implementation",
+            "training needs analysis (for L&D)",
+            "job evaluation and benchmarking (for compensation)",
+            "case management and investigations (for ER)",
+            "stakeholder communication",
+            "HRIS systems",
+            "advisory and coaching skills"
+          ],
+          "tasks": [
+            "Complete a bachelor's degree in human resources, business, or organisational psychology",
+            "Choose and develop deep expertise in one HR specialism: Learning & Development, Compensation & Benefits, or Employee Relations",
+            "Earn a CIPD or SHRM qualification relevant to your specialism",
+            "Build experience in your chosen HR function through graduate schemes or specialist roles",
+            "Develop policy writing, data analysis, and advisory skills specific to your area",
+            "Stay current with employment law changes and best practice in your specialist domain",
+            "Apply for specialist HR roles such as L&D advisor, reward analyst, or employee relations officer"
+          ],
+          "education": [
+            "bachelor",
+            "master"
+          ],
+          "description": "HR specialist typically involves working with a focused area of human resources \u2014 such as learning and development, compensation and benefits, or employee relations \u2014 and applying deep expertise to deliver specialist HR services and advice.",
+          "education_level": "Bachelor's Degree",
+          "education_min": "Bachelor's Degree"
+        },
+        {
+          "career": "logistics manager",
+          "skills": [
+            "logistics network design and optimisation",
+            "warehouse management systems (WMS)",
+            "transport planning and carrier management",
+            "customs and international freight",
+            "inventory control and demand forecasting",
+            "KPI tracking and operational reporting",
+            "team leadership",
+            "cost reduction strategies",
+            "ERP systems (SAP, Oracle)",
+            "health and safety in logistics"
+          ],
+          "tasks": [
+            "Complete a bachelor's degree in logistics, supply chain management, or business",
+            "Gain operational experience in warehousing, transport, or distribution environments",
+            "Develop skills in logistics systems such as WMS and TMS (Transport Management Systems)",
+            "Study supply chain optimisation, lean operations, and last-mile delivery strategies",
+            "Build carrier and freight partner management skills for both domestic and international shipping",
+            "Lead a logistics team and develop performance management and coaching capabilities",
+            "Apply for logistics manager or operations manager roles with retailers, 3PLs, or manufacturers"
+          ],
+          "education": [
+            "bachelor",
+            "master"
+          ],
+          "description": "Logistics manager typically involves working with transport planning, warehouse operations, and applying supply chain optimisation to ensure goods are delivered efficiently, on time, and at the right cost.",
+          "education_level": "Bachelor's Degree",
+          "education_min": "Bachelor's Degree"
+        },
+        {
+          "career": "agile scrum master",
+          "skills": [
+            "scrum framework and ceremonies",
+            "agile coaching and servant leadership",
+            "sprint planning and backlog refinement",
+            "removing impediments and team enablement",
+            "jira and agile project tools",
+            "conflict resolution in teams",
+            "scaled agile (SAFe, LeSS)",
+            "continuous improvement (retrospectives, kaizen)",
+            "stakeholder communication",
+            "metrics and velocity tracking"
+          ],
+          "tasks": [
+            "Complete a bachelor's degree in IT, business, or a related field",
+            "Earn a Certified Scrum Master (CSM) or Professional Scrum Master (PSM) certification",
+            "Learn the Scrum framework deeply including roles, events, and artifacts",
+            "Develop servant leadership and agile coaching skills to enable high-performing teams",
+            "Gain hands-on experience facilitating sprints, stand-ups, retrospectives, and sprint reviews",
+            "Study scaled agile frameworks such as SAFe or LeSS for enterprise environments",
+            "Apply for Scrum Master or Agile Coach roles in software, product, or transformation teams"
+          ],
+          "education": [
+            "bachelor",
+            "master"
+          ],
+          "description": "Agile scrum master typically involves working with sprint facilitation, team coaching, and applying scrum principles to help software and product teams deliver iteratively and continuously improve their processes.",
+          "education_level": "Bachelor's Degree",
+          "education_min": "Bachelor's Degree"
+        }
+      ],
+      "High School / Vocational": [
+        {
+          "career": "recruiter / talent acquisition specialist",
+          "skills": [
+            "sourcing and headhunting candidates",
+            "job advertising and employer branding",
+            "applicant tracking systems (ATS)",
+            "interviewing and assessment techniques",
+            "offer negotiation",
+            "employment law basics",
+            "relationship management with hiring managers",
+            "salary benchmarking",
+            "diversity and inclusion in hiring",
+            "pipeline management and reporting"
+          ],
+          "tasks": [
+            "Complete a diploma or degree in human resources, business, or psychology",
+            "Learn the full recruitment lifecycle from job briefing and sourcing through to offer management",
+            "Build proficiency in applicant tracking systems (e.g., Workday, Greenhouse, Bullhorn)",
+            "Develop sourcing skills using LinkedIn Recruiter, Boolean search, and direct headhunting",
+            "Study employment law essentials including contracts, discrimination, and right to work",
+            "Gain experience in agency or in-house recruitment environments",
+            "Apply for talent acquisition, recruitment consultant, or internal recruiter roles"
+          ],
+          "education": [
+            "certificate",
+            "associate"
+          ],
+          "description": "Recruiter / talent acquisition specialist typically involves working with candidate sourcing, interview coordination, and applying talent attraction strategies to match qualified candidates with suitable roles across industries.",
+          "education_level": "High School / Vocational",
+          "education_min": "High School / Vocational"
+        }
+      ],
+      "Master's Degree": [
+        {
+          "career": "management consultant",
+          "skills": [
+            "business problem structuring and hypothesis-driven analysis",
+            "client relationship management",
+            "presentation and storytelling (PowerPoint, executive briefings)",
+            "financial modelling",
+            "process improvement (lean, six sigma)",
+            "change management",
+            "industry analysis and benchmarking",
+            "project and workstream management",
+            "data analysis (Excel, SQL, Tableau)",
+            "proposal and pitch development"
+          ],
+          "tasks": [
+            "Complete a master's degree or MBA in business, management, or a specialist field",
+            "Develop strong analytical, problem-solving, and structured communication skills",
+            "Build proficiency in Excel modelling, data analysis, and executive presentation design",
+            "Gain experience in a strategy, operations, or specialist consulting environment",
+            "Develop knowledge of a target industry vertical (e.g., financial services, healthcare, technology)",
+            "Complete case interview preparation for top-tier consulting firm selection processes",
+            "Apply for management consulting analyst, associate, or consultant roles at consulting firms"
+          ],
+          "education": [
+            "bachelor",
+            "master"
+          ],
+          "description": "Management consultant typically involves working with business problem diagnosis, strategic recommendations, and applying analytical and client management skills to advise organisations on performance improvement and transformation.",
+          "education_level": "Master's Degree",
+          "education_min": "Master's Degree"
+        },
+        {
+          "career": "policy analyst",
+          "skills": [
+            "policy research and evidence synthesis",
+            "quantitative and qualitative research methods",
+            "stakeholder mapping and consultation",
+            "policy writing and briefing documents",
+            "cost-benefit analysis",
+            "regulatory analysis",
+            "public administration knowledge",
+            "political awareness and sensitivity",
+            "data analysis (R, Python, Excel)",
+            "report writing for government audiences"
+          ],
+          "tasks": [
+            "Complete a master's degree in public policy, political science, economics, or a related field",
+            "Develop research skills in both quantitative and qualitative policy analysis methods",
+            "Learn to synthesize complex evidence into concise policy briefs and recommendations",
+            "Study government decision-making processes, public administration, and regulatory frameworks",
+            "Build stakeholder engagement skills for consulting with public, private, and civil society actors",
+            "Gain experience through internships or graduate schemes in government departments, think tanks, or international organisations",
+            "Apply for policy analyst, policy advisor, or research officer roles in public sector bodies or policy institutes"
+          ],
+          "education": [
+            "bachelor",
+            "master"
+          ],
+          "description": "Policy analyst typically involves working with evidence-based policy research, regulatory analysis, and applying analytical and communication skills to develop and evaluate public policy for government, international organisations, or think tanks.",
+          "education_level": "Master's Degree",
+          "education_min": "Master's Degree"
         }
       ]
     }
   },
   {
     "category": "Legal",
-    "total_careers": 3,
+    "total_careers": 4,
     "careers_by_education": {
       "Master's Degree": [
         {
@@ -5737,6 +7330,39 @@
           "description": "Corporate lawyer typically involves working with advise on participation in financial markets, air transport law, analyse internal factors of companies, analyse legal enforceability and applying air transport law to deliver job outcomes.",
           "education_level": "Master's Degree",
           "education_min": "Master's Degree"
+        }
+      ],
+      "Associate / Diploma": [
+        {
+          "career": "paralegal",
+          "skills": [
+            "legal research and case law analysis",
+            "drafting legal documents and correspondence",
+            "client file management",
+            "court procedure and documentation",
+            "legal billing and time recording",
+            "regulatory compliance support",
+            "data management and confidentiality",
+            "due diligence assistance",
+            "communication with clients and counsel",
+            "knowledge of a specific legal practice area"
+          ],
+          "tasks": [
+            "Complete a paralegal certificate, diploma, or foundation degree in law",
+            "Develop legal research skills using platforms such as Westlaw, LexisNexis, or Practical Law",
+            "Learn to draft legal documents including letters, pleadings, contracts, and summaries",
+            "Study court procedures and case management in your chosen practice area (e.g., conveyancing, litigation, family law)",
+            "Build experience assisting solicitors or barristers in a law firm or legal department",
+            "Gain knowledge of legal billing, file management, and regulatory compliance requirements",
+            "Apply for paralegal or legal assistant roles in private practice, in-house legal teams, or the public sector"
+          ],
+          "education": [
+            "certificate",
+            "associate"
+          ],
+          "description": "Paralegal typically involves working with legal research, document drafting, and applying procedural and administrative skills to support solicitors and barristers in delivering legal services across a range of practice areas.",
+          "education_level": "Associate / Diploma",
+          "education_min": "Associate / Diploma"
         }
       ]
     }

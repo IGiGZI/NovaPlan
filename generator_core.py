@@ -1,6 +1,60 @@
 import random
+import json
 from dataclasses import dataclass, field
 from typing import List, Dict, Any
+from google import genai
+
+GEMINI_API_KEY = "AIzaSyCHqBHdcIii1qn_V5-S6rFOVLaI-zCysTg"
+client = genai.Client(api_key=GEMINI_API_KEY)
+
+# Simple in-memory cache to avoid duplicate gemini calls for the same resource query
+_RESOURCE_CACHE = {}
+
+def _fetch_real_resources_with_gemini(career_name: str, resource_names: List[str]) -> List[Dict[str, str]]:
+    if not resource_names:
+        return []
+        
+    cache_key = f"{career_name}:::{','.join(resource_names)}"
+    if cache_key in _RESOURCE_CACHE:
+        return _RESOURCE_CACHE[cache_key]
+
+    prompt = f"""
+    You are an expert career advisor. I am generating a learning roadmap for a {career_name}.
+    I need real, high-quality, actual URLs (links) for the following resources/certificates:
+    {', '.join(resource_names)}
+
+    Please return a JSON array of objects. Each object must have exactly two keys:
+    - "title": A descriptive title for the specific resource (e.g. "Google Data Analytics Professional Certificate", "FreeCodeCamp JavaScript Algorithms").
+    - "url": The actual valid URL pointing to the course, certificate, or resource that actually exist on the internet.
+
+    Return ONLY the valid JSON array, with no markdown formatting backticks, no markdown json block, and no other text.
+    """
+    try:
+        response = client.models.generate_content(
+            model='gemini-2.5-flash',
+            contents=prompt,
+        )
+        text = response.text.strip()
+        if text.startswith('```json'): text = text[7:]
+        if text.startswith('```'): text = text[3:]
+        if text.endswith('```'): text = text[:-3]
+        text = text.strip()
+        
+        results = json.loads(text)
+        
+        valid_results = []
+        for r in results:
+            if isinstance(r, dict) and 'title' in r and 'url' in r:
+                valid_results.append(r)
+                
+        if valid_results:
+            _RESOURCE_CACHE[cache_key] = valid_results
+            return valid_results
+    except Exception as e:
+        print(f"Gemini API Error for resources: {e}")
+        pass
+        
+    return []
 
 @dataclass
 class RoadmapTask:
@@ -8,11 +62,22 @@ class RoadmapTask:
     description: str
 
 @dataclass
+class RoadmapMilestone:
+    title: str
+    description: str
+
+@dataclass
+class RoadmapResource:
+    title: str
+    url: str
+
+@dataclass
 class RoadmapStep:
     title: str
     objective: str
     prerequisites: List[str]
-    resources: List[str]
+    resources: List[RoadmapResource]
+    milestones: List[RoadmapMilestone] = field(default_factory=list)
     tasks: List[RoadmapTask] = field(default_factory=list)
     children: List['RoadmapStep'] = field(default_factory=list)
 
@@ -49,22 +114,50 @@ def _extract_title_from_task(task_text: str) -> str:
     return f"({title.capitalize()})"
 
 def generate_steps_for_career(career: Dict[str,Any], profile_skills: List[str], focus: str, beginner: bool = True):
+    import urllib.parse
+
     known = [s for s in [sk.lower() for sk in career.get('skills', [])] if s in profile_skills]
     missing = [s for s in [sk.lower() for sk in career.get('skills', [])] if s not in profile_skills]
 
-    def make_step(title, objective, prereq, resources, tasks=None, children=None):
+    career_name = career.get('career', 'Career')
+
+    def make_step(title, objective, prereq, resources_names, tasks=None, children=None):
+        resources = []
+        import urllib.parse
+        
+        # Try to fetch real links from Gemini
+        real_resources = _fetch_real_resources_with_gemini(career_name, resources_names)
+        
+        if real_resources:
+            for rr in real_resources:
+                resources.append(RoadmapResource(title=rr['title'], url=rr['url']))
+        else:
+            # Fallback to search if Gemini fails
+            for r in resources_names:
+                query = f"{r} {career_name} tutorial course certificate"
+                url = f"https://www.google.com/search?q={urllib.parse.quote(query)}"
+                resources.append(RoadmapResource(title=f"Search: {r}", url=url))
+
+        milestones = []
+        if tasks:
+            task_titles = ', '.join([t.title for t in tasks[:3]])
+            milestones.append(RoadmapMilestone(
+                title=f"Complete {title}",
+                description=f"Achieve the objective '{objective}' by completing tasks such as: {task_titles}."
+            ))
+
         return RoadmapStep(
             title=title,
             objective=objective,
             prerequisites=prereq,
             resources=resources,
+            milestones=milestones,
             tasks=tasks or [],
             children=children or []
         )
 
     # Dynamic Step Generation Logic
     career_tasks = career.get('tasks', [])
-    career_name = career.get('career', 'Career')
     
     available_tasks = list(career_tasks)
     

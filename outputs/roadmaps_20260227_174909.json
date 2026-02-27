@@ -1,0 +1,1373 @@
+{
+  "input": {
+    "answers": [
+      {
+        "questionId": "Q1",
+        "label": "Undergraduate (studying for or completed a Bachelor's)"
+      },
+      {
+        "questionId": "Q_PERS1_UG",
+        "label": "I like solving complex problems and thinking analytically"
+      },
+      {
+        "questionId": "Q_PERS2_UG_ANALYTICAL",
+        "label": "Mixed \u2014 I want variety in my environment"
+      },
+      {
+        "questionId": "Q_PERS3_UG_ANALYTICAL_MIXED",
+        "label": "Balanced \u2014 good pay and meaningful work"
+      },
+      {
+        "questionId": "Q_PERS4_UG_ANALYTICAL_MIXED_BAL",
+        "label": "Large collaborative organization"
+      },
+      {
+        "questionId": "Q_PERS5_UG_ANALYTICAL_MIXED_BAL_LARGE",
+        "label": "Public sector / government / non-profit"
+      },
+      {
+        "questionId": "Q_DOMAIN_UG",
+        "label": "Business & Economics"
+      },
+      {
+        "questionId": "Q3_UG_BIZ",
+        "label": "Business analysis and strategy"
+      },
+      {
+        "questionId": "Q4_UG_BIZ_STRAT",
+        "label": "Market research and competitive analysis"
+      },
+      {
+        "questionId": "Q5_UG_STRAT_FOCUS",
+        "label": "Internal business analyst role"
+      }
+    ],
+    "careers": [
+      "business analyst"
+    ],
+    "category": "Business, Management & HR"
+  },
+  "derived_skills": [],
+  "chosen_career": "business analyst",
+  "roadmaps": [
+    {
+      "path_title": "business analyst",
+      "focus": "Depth",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "title": "Foundations",
+          "objective": "Build essential groundwork for your career",
+          "prerequisites": [],
+          "resources": [
+            {
+              "title": "Standard Industry Tools",
+              "url": "https://www.google.com/search?q=Standard%20Industry%20Tools%20business%20analyst%20tutorial%20course"
+            }
+          ],
+          "milestones": [
+            {
+              "title": "Complete Foundations",
+              "description": "Achieve the objective 'Build essential groundwork for your career' by completing tasks such as: (Earn a cbap)."
+            }
+          ],
+          "tasks": [
+            {
+              "title": "(Earn a cbap)",
+              "description": "Earn a CBAP certification (Certified Business Analysis Professional) to strengthen your credentials"
+            }
+          ],
+          "children": [
+            {
+              "title": "Industry Fundamentals",
+              "objective": "Understand the core concepts of business analyst",
+              "prerequisites": [],
+              "resources": [
+                {
+                  "title": "Online Courses",
+                  "url": "https://www.google.com/search?q=Online%20Courses%20business%20analyst%20tutorial%20course"
+                },
+                {
+                  "title": "Industry Glossaries",
+                  "url": "https://www.google.com/search?q=Industry%20Glossaries%20business%20analyst%20tutorial%20course"
+                },
+                {
+                  "title": "Career Guides",
+                  "url": "https://www.google.com/search?q=Career%20Guides%20business%20analyst%20tutorial%20course"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Industry Fundamentals",
+                  "description": "Achieve the objective 'Understand the core concepts of business analyst' by completing tasks such as: (A master's degree), (Process modeling)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "(A master's degree)",
+                  "description": "Complete a master's degree in business analysis, management, or information systems"
+                },
+                {
+                  "title": "(Process modeling)",
+                  "description": "Develop skills in process modeling, stakeholder requirements gathering, and solution design"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Tools & Environment",
+              "objective": "Set up your professional workspace",
+              "prerequisites": [],
+              "resources": [
+                {
+                  "title": "Official Documentation",
+                  "url": "https://www.google.com/search?q=Official%20Documentation%20business%20analyst%20tutorial%20course"
+                },
+                {
+                  "title": "Community Forums",
+                  "url": "https://www.google.com/search?q=Community%20Forums%20business%20analyst%20tutorial%20course"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Tools & Environment",
+                  "description": "Achieve the objective 'Set up your professional workspace' by completing tasks such as: (Learn business analysis)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "(Learn business analysis)",
+                  "description": "Learn business analysis methodologies (BABOK, Agile BA, Lean process improvement)"
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Core Skills Development",
+          "objective": "Master essential skills for business analyst",
+          "prerequisites": [],
+          "resources": [
+            {
+              "title": "Online Learning Platforms",
+              "url": "https://www.google.com/search?q=Online%20Learning%20Platforms%20business%20analyst%20tutorial%20course"
+            }
+          ],
+          "milestones": [
+            {
+              "title": "Complete Core Skills Development",
+              "description": "Achieve the objective 'Master essential skills for business analyst' by completing tasks such as: ([advanced task] collaborate)."
+            }
+          ],
+          "tasks": [
+            {
+              "title": "([advanced task] collaborate)",
+              "description": "[Advanced Task] Collaborate with a cross-functional team to solve a real-world problem related to business analyst, documenting decisions, trade-offs, and lessons learned."
+            }
+          ],
+          "children": [
+            {
+              "title": "Requirements Gathering And Documentation Proficiency",
+              "objective": "Develop proficiency in requirements gathering and documentation",
+              "prerequisites": [],
+              "resources": [
+                {
+                  "title": "Requirements Gathering And Documentation Resources",
+                  "url": "https://www.google.com/search?q=Requirements%20Gathering%20And%20Documentation%20Resources%20business%20analyst%20tutorial%20course"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Requirements Gathering And Documentation Proficiency",
+                  "description": "Achieve the objective 'Develop proficiency in requirements gathering and documentation' by completing tasks such as: (End-to-end analysis projects)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "(End-to-end analysis projects)",
+                  "description": "Complete end-to-end analysis projects documenting processes, gaps, and proposed solutions"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Process Mapping And Analysis Proficiency",
+              "objective": "Develop proficiency in process mapping and analysis",
+              "prerequisites": [],
+              "resources": [
+                {
+                  "title": "Process Mapping And Analysis Resources",
+                  "url": "https://www.google.com/search?q=Process%20Mapping%20And%20Analysis%20Resources%20business%20analyst%20tutorial%20course"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Process Mapping And Analysis Proficiency",
+                  "description": "Achieve the objective 'Develop proficiency in process mapping and analysis' by completing tasks such as: (Communication skills for)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "(Communication skills for)",
+                  "description": "Build communication skills for translating complex business problems into clear requirements"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Stakeholder Management Proficiency",
+              "objective": "Develop proficiency in stakeholder management",
+              "prerequisites": [],
+              "resources": [
+                {
+                  "title": "Stakeholder Management Resources",
+                  "url": "https://www.google.com/search?q=Stakeholder%20Management%20Resources%20business%20analyst%20tutorial%20course"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Stakeholder Management Proficiency",
+                  "description": "Achieve the objective 'Develop proficiency in stakeholder management' by completing tasks such as: (For business analyst)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "(For business analyst)",
+                  "description": "Apply for business analyst roles in consultancy, banking, healthcare, or technology sectors"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Gap Analysis Proficiency",
+              "objective": "Develop proficiency in gap analysis",
+              "prerequisites": [],
+              "resources": [
+                {
+                  "title": "Gap Analysis Resources",
+                  "url": "https://www.google.com/search?q=Gap%20Analysis%20Resources%20business%20analyst%20tutorial%20course"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Gap Analysis Proficiency",
+                  "description": "Achieve the objective 'Develop proficiency in gap analysis' by completing tasks such as: ([advanced task] design)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "([advanced task] design)",
+                  "description": "[Advanced Task] Design and complete a multi-month capstone project that demonstrates end-to-end responsibilities of a business analyst, from initial planning to final delivery."
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Practical Application",
+          "objective": "Gain hands-on experience through projects or simulations",
+          "prerequisites": [],
+          "resources": [
+            {
+              "title": "Portfolio Platform",
+              "url": "https://www.google.com/search?q=Portfolio%20Platform%20business%20analyst%20tutorial%20course"
+            }
+          ],
+          "milestones": [
+            {
+              "title": "Complete Practical Application",
+              "description": "Achieve the objective 'Gain hands-on experience through projects or simulations' by completing tasks such as: ([expert task] lead)."
+            }
+          ],
+          "tasks": [
+            {
+              "title": "([expert task] lead)",
+              "description": "[Expert Task] Lead a mentoring or coaching programme for juniors interested in becoming a business analyst, including structured feedback and progress tracking."
+            }
+          ],
+          "children": [
+            {
+              "title": "Applied Practice Project",
+              "objective": "Apply core skills in a realistic scenario",
+              "prerequisites": [
+                "requirements gathering and documentation",
+                "process mapping and analysis"
+              ],
+              "resources": [
+                {
+                  "title": "Project Management Tools",
+                  "url": "https://www.google.com/search?q=Project%20Management%20Tools%20business%20analyst%20tutorial%20course"
+                },
+                {
+                  "title": "Documentation Tools",
+                  "url": "https://www.google.com/search?q=Documentation%20Tools%20business%20analyst%20tutorial%20course"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Applied Practice Project",
+                  "description": "Achieve the objective 'Apply core skills in a realistic scenario' by completing tasks such as: ([advanced task] build), ([advanced task] deep)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "([advanced task] build)",
+                  "description": "[Advanced Task] Build a detailed portfolio case study for business analyst, including goals, research, implementation steps, and measurable outcomes."
+                },
+                {
+                  "title": "([advanced task] deep)",
+                  "description": "[Advanced Task] Deep dive into advanced requirements gathering and documentation by completing an intensive course, implementing a complex practice project, and seeking feedback from an experienced mentor."
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Advanced Capstone",
+              "objective": "Demonstrate comprehensive mastery",
+              "prerequisites": [
+                "requirements gathering and documentation",
+                "process mapping and analysis",
+                "stakeholder management"
+              ],
+              "resources": [
+                {
+                  "title": "Advanced Tools",
+                  "url": "https://www.google.com/search?q=Advanced%20Tools%20business%20analyst%20tutorial%20course"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Advanced Capstone",
+                  "description": "Achieve the objective 'Demonstrate comprehensive mastery' by completing tasks such as: ([advanced task] combine)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "([advanced task] combine)",
+                  "description": "[Advanced Task] Combine requirements gathering and documentation with process mapping and analysis in a single integrated project that mirrors realistic business analyst responsibilities."
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Specialization",
+          "objective": "Develop expertise in specific areas",
+          "prerequisites": [],
+          "resources": [
+            {
+              "title": "Industry Certifications",
+              "url": "https://www.google.com/search?q=Industry%20Certifications%20business%20analyst%20tutorial%20course"
+            }
+          ],
+          "milestones": [
+            {
+              "title": "Complete Specialization",
+              "description": "Achieve the objective 'Develop expertise in specific areas' by completing tasks such as: ([expert task] map)."
+            }
+          ],
+          "tasks": [
+            {
+              "title": "([expert task] map)",
+              "description": "[Expert Task] Map out a 12\u201318 month professional development plan for your path as a business analyst, including certifications, projects, and networking milestones."
+            }
+          ],
+          "children": [
+            {
+              "title": "Specialization Track",
+              "objective": "Deep dive into a specific area",
+              "prerequisites": [
+                "requirements gathering and documentation",
+                "process mapping and analysis"
+              ],
+              "resources": [
+                {
+                  "title": "Specialized Training",
+                  "url": "https://www.google.com/search?q=Specialized%20Training%20business%20analyst%20tutorial%20course"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Specialization Track",
+                  "description": "Achieve the objective 'Deep dive into a specific area' by completing tasks such as: ([expert task] contribute)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "([expert task] contribute)",
+                  "description": "[Expert Task] Contribute to the wider community for business analyst by writing an in-depth blog post, recording a talk, or speaking at a local meetup or conference."
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Career Launch",
+          "objective": "Land your first role in the field",
+          "prerequisites": [],
+          "resources": [
+            {
+              "title": "Job Search Platforms",
+              "url": "https://www.google.com/search?q=Job%20Search%20Platforms%20business%20analyst%20tutorial%20course"
+            }
+          ],
+          "milestones": [
+            {
+              "title": "Complete Career Launch",
+              "description": "Achieve the objective 'Land your first role in the field' by completing tasks such as: (Job offer 1)."
+            }
+          ],
+          "tasks": [
+            {
+              "title": "(Job offer 1)",
+              "description": "Secure job offer 1"
+            }
+          ],
+          "children": [
+            {
+              "title": "Professional Branding",
+              "objective": "Create compelling professional presence",
+              "prerequisites": [],
+              "resources": [
+                {
+                  "title": "LinkedIn",
+                  "url": "https://www.google.com/search?q=LinkedIn%20business%20analyst%20tutorial%20course"
+                },
+                {
+                  "title": "Resume Builder",
+                  "url": "https://www.google.com/search?q=Resume%20Builder%20business%20analyst%20tutorial%20course"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Professional Branding",
+                  "description": "Achieve the objective 'Create compelling professional presence' by completing tasks such as: ([expert task] perform)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "([expert task] perform)",
+                  "description": "[Expert Task] Perform a full retrospective on a complex business analyst project, identifying risks, failures, and improvements, and turn it into a reusable internal playbook."
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Job Search Strategy",
+              "objective": "Execute systematic job search",
+              "prerequisites": [],
+              "resources": [
+                {
+                  "title": "Job Boards",
+                  "url": "https://www.google.com/search?q=Job%20Boards%20business%20analyst%20tutorial%20course"
+                },
+                {
+                  "title": "Networking Events",
+                  "url": "https://www.google.com/search?q=Networking%20Events%20business%20analyst%20tutorial%20course"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Job Search Strategy",
+                  "description": "Achieve the objective 'Execute systematic job search' by completing tasks such as: ([expert task] design)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "([expert task] design)",
+                  "description": "[Expert Task] Design and deliver a workshop that teaches requirements gathering and documentation to others, including hands-on exercises, example projects, and assessment criteria."
+                }
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path_title": "business analyst",
+      "focus": "Fast-Entry",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "title": "Foundations",
+          "objective": "Build essential groundwork for your career",
+          "prerequisites": [],
+          "resources": [
+            {
+              "title": "Standard Industry Tools",
+              "url": "https://www.google.com/search?q=Standard%20Industry%20Tools%20business%20analyst%20tutorial%20course"
+            }
+          ],
+          "milestones": [
+            {
+              "title": "Complete Foundations",
+              "description": "Achieve the objective 'Build essential groundwork for your career' by completing tasks such as: (Earn a cbap)."
+            }
+          ],
+          "tasks": [
+            {
+              "title": "(Earn a cbap)",
+              "description": "Earn a CBAP certification (Certified Business Analysis Professional) to strengthen your credentials"
+            }
+          ],
+          "children": [
+            {
+              "title": "Industry Fundamentals",
+              "objective": "Understand the core concepts of business analyst",
+              "prerequisites": [],
+              "resources": [
+                {
+                  "title": "Online Courses",
+                  "url": "https://www.google.com/search?q=Online%20Courses%20business%20analyst%20tutorial%20course"
+                },
+                {
+                  "title": "Industry Glossaries",
+                  "url": "https://www.google.com/search?q=Industry%20Glossaries%20business%20analyst%20tutorial%20course"
+                },
+                {
+                  "title": "Career Guides",
+                  "url": "https://www.google.com/search?q=Career%20Guides%20business%20analyst%20tutorial%20course"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Industry Fundamentals",
+                  "description": "Achieve the objective 'Understand the core concepts of business analyst' by completing tasks such as: (A master's degree), (Process modeling)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "(A master's degree)",
+                  "description": "Complete a master's degree in business analysis, management, or information systems"
+                },
+                {
+                  "title": "(Process modeling)",
+                  "description": "Develop skills in process modeling, stakeholder requirements gathering, and solution design"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Tools & Environment",
+              "objective": "Set up your professional workspace",
+              "prerequisites": [],
+              "resources": [
+                {
+                  "title": "Official Documentation",
+                  "url": "https://www.google.com/search?q=Official%20Documentation%20business%20analyst%20tutorial%20course"
+                },
+                {
+                  "title": "Community Forums",
+                  "url": "https://www.google.com/search?q=Community%20Forums%20business%20analyst%20tutorial%20course"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Tools & Environment",
+                  "description": "Achieve the objective 'Set up your professional workspace' by completing tasks such as: (Learn business analysis)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "(Learn business analysis)",
+                  "description": "Learn business analysis methodologies (BABOK, Agile BA, Lean process improvement)"
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Core Skills Development",
+          "objective": "Master essential skills for business analyst",
+          "prerequisites": [],
+          "resources": [
+            {
+              "title": "Online Learning Platforms",
+              "url": "https://www.google.com/search?q=Online%20Learning%20Platforms%20business%20analyst%20tutorial%20course"
+            }
+          ],
+          "milestones": [
+            {
+              "title": "Complete Core Skills Development",
+              "description": "Achieve the objective 'Master essential skills for business analyst' by completing tasks such as: ([advanced task] collaborate)."
+            }
+          ],
+          "tasks": [
+            {
+              "title": "([advanced task] collaborate)",
+              "description": "[Advanced Task] Collaborate with a cross-functional team to solve a real-world problem related to business analyst, documenting decisions, trade-offs, and lessons learned."
+            }
+          ],
+          "children": [
+            {
+              "title": "Requirements Gathering And Documentation Proficiency",
+              "objective": "Develop proficiency in requirements gathering and documentation",
+              "prerequisites": [],
+              "resources": [
+                {
+                  "title": "Requirements Gathering And Documentation Resources",
+                  "url": "https://www.google.com/search?q=Requirements%20Gathering%20And%20Documentation%20Resources%20business%20analyst%20tutorial%20course"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Requirements Gathering And Documentation Proficiency",
+                  "description": "Achieve the objective 'Develop proficiency in requirements gathering and documentation' by completing tasks such as: (End-to-end analysis projects)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "(End-to-end analysis projects)",
+                  "description": "Complete end-to-end analysis projects documenting processes, gaps, and proposed solutions"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Process Mapping And Analysis Proficiency",
+              "objective": "Develop proficiency in process mapping and analysis",
+              "prerequisites": [],
+              "resources": [
+                {
+                  "title": "Process Mapping And Analysis Resources",
+                  "url": "https://www.google.com/search?q=Process%20Mapping%20And%20Analysis%20Resources%20business%20analyst%20tutorial%20course"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Process Mapping And Analysis Proficiency",
+                  "description": "Achieve the objective 'Develop proficiency in process mapping and analysis' by completing tasks such as: (Communication skills for)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "(Communication skills for)",
+                  "description": "Build communication skills for translating complex business problems into clear requirements"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Stakeholder Management Proficiency",
+              "objective": "Develop proficiency in stakeholder management",
+              "prerequisites": [],
+              "resources": [
+                {
+                  "title": "Stakeholder Management Resources",
+                  "url": "https://www.google.com/search?q=Stakeholder%20Management%20Resources%20business%20analyst%20tutorial%20course"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Stakeholder Management Proficiency",
+                  "description": "Achieve the objective 'Develop proficiency in stakeholder management' by completing tasks such as: (For business analyst)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "(For business analyst)",
+                  "description": "Apply for business analyst roles in consultancy, banking, healthcare, or technology sectors"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Gap Analysis Proficiency",
+              "objective": "Develop proficiency in gap analysis",
+              "prerequisites": [],
+              "resources": [
+                {
+                  "title": "Gap Analysis Resources",
+                  "url": "https://www.google.com/search?q=Gap%20Analysis%20Resources%20business%20analyst%20tutorial%20course"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Gap Analysis Proficiency",
+                  "description": "Achieve the objective 'Develop proficiency in gap analysis' by completing tasks such as: ([advanced task] design)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "([advanced task] design)",
+                  "description": "[Advanced Task] Design and complete a multi-month capstone project that demonstrates end-to-end responsibilities of a business analyst, from initial planning to final delivery."
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Practical Application",
+          "objective": "Gain hands-on experience through projects or simulations",
+          "prerequisites": [],
+          "resources": [
+            {
+              "title": "Portfolio Platform",
+              "url": "https://www.google.com/search?q=Portfolio%20Platform%20business%20analyst%20tutorial%20course"
+            }
+          ],
+          "milestones": [
+            {
+              "title": "Complete Practical Application",
+              "description": "Achieve the objective 'Gain hands-on experience through projects or simulations' by completing tasks such as: ([expert task] lead)."
+            }
+          ],
+          "tasks": [
+            {
+              "title": "([expert task] lead)",
+              "description": "[Expert Task] Lead a mentoring or coaching programme for juniors interested in becoming a business analyst, including structured feedback and progress tracking."
+            }
+          ],
+          "children": [
+            {
+              "title": "Applied Practice Project",
+              "objective": "Apply core skills in a realistic scenario",
+              "prerequisites": [
+                "requirements gathering and documentation",
+                "process mapping and analysis"
+              ],
+              "resources": [
+                {
+                  "title": "Project Management Tools",
+                  "url": "https://www.google.com/search?q=Project%20Management%20Tools%20business%20analyst%20tutorial%20course"
+                },
+                {
+                  "title": "Documentation Tools",
+                  "url": "https://www.google.com/search?q=Documentation%20Tools%20business%20analyst%20tutorial%20course"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Applied Practice Project",
+                  "description": "Achieve the objective 'Apply core skills in a realistic scenario' by completing tasks such as: ([advanced task] build), ([advanced task] deep)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "([advanced task] build)",
+                  "description": "[Advanced Task] Build a detailed portfolio case study for business analyst, including goals, research, implementation steps, and measurable outcomes."
+                },
+                {
+                  "title": "([advanced task] deep)",
+                  "description": "[Advanced Task] Deep dive into advanced requirements gathering and documentation by completing an intensive course, implementing a complex practice project, and seeking feedback from an experienced mentor."
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Advanced Capstone",
+              "objective": "Demonstrate comprehensive mastery",
+              "prerequisites": [
+                "requirements gathering and documentation",
+                "process mapping and analysis",
+                "stakeholder management"
+              ],
+              "resources": [
+                {
+                  "title": "Advanced Tools",
+                  "url": "https://www.google.com/search?q=Advanced%20Tools%20business%20analyst%20tutorial%20course"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Advanced Capstone",
+                  "description": "Achieve the objective 'Demonstrate comprehensive mastery' by completing tasks such as: ([advanced task] combine)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "([advanced task] combine)",
+                  "description": "[Advanced Task] Combine requirements gathering and documentation with process mapping and analysis in a single integrated project that mirrors realistic business analyst responsibilities."
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Specialization",
+          "objective": "Develop expertise in specific areas",
+          "prerequisites": [],
+          "resources": [
+            {
+              "title": "Industry Certifications",
+              "url": "https://www.google.com/search?q=Industry%20Certifications%20business%20analyst%20tutorial%20course"
+            }
+          ],
+          "milestones": [
+            {
+              "title": "Complete Specialization",
+              "description": "Achieve the objective 'Develop expertise in specific areas' by completing tasks such as: ([expert task] map)."
+            }
+          ],
+          "tasks": [
+            {
+              "title": "([expert task] map)",
+              "description": "[Expert Task] Map out a 12\u201318 month professional development plan for your path as a business analyst, including certifications, projects, and networking milestones."
+            }
+          ],
+          "children": [
+            {
+              "title": "Specialization Track",
+              "objective": "Deep dive into a specific area",
+              "prerequisites": [
+                "requirements gathering and documentation",
+                "process mapping and analysis"
+              ],
+              "resources": [
+                {
+                  "title": "Specialized Training",
+                  "url": "https://www.google.com/search?q=Specialized%20Training%20business%20analyst%20tutorial%20course"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Specialization Track",
+                  "description": "Achieve the objective 'Deep dive into a specific area' by completing tasks such as: ([expert task] contribute)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "([expert task] contribute)",
+                  "description": "[Expert Task] Contribute to the wider community for business analyst by writing an in-depth blog post, recording a talk, or speaking at a local meetup or conference."
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Career Launch",
+          "objective": "Land your first role in the field",
+          "prerequisites": [],
+          "resources": [
+            {
+              "title": "Job Search Platforms",
+              "url": "https://www.google.com/search?q=Job%20Search%20Platforms%20business%20analyst%20tutorial%20course"
+            }
+          ],
+          "milestones": [
+            {
+              "title": "Complete Career Launch",
+              "description": "Achieve the objective 'Land your first role in the field' by completing tasks such as: (Job offer 1)."
+            }
+          ],
+          "tasks": [
+            {
+              "title": "(Job offer 1)",
+              "description": "Secure job offer 1"
+            }
+          ],
+          "children": [
+            {
+              "title": "Professional Branding",
+              "objective": "Create compelling professional presence",
+              "prerequisites": [],
+              "resources": [
+                {
+                  "title": "LinkedIn",
+                  "url": "https://www.google.com/search?q=LinkedIn%20business%20analyst%20tutorial%20course"
+                },
+                {
+                  "title": "Resume Builder",
+                  "url": "https://www.google.com/search?q=Resume%20Builder%20business%20analyst%20tutorial%20course"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Professional Branding",
+                  "description": "Achieve the objective 'Create compelling professional presence' by completing tasks such as: ([expert task] perform)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "([expert task] perform)",
+                  "description": "[Expert Task] Perform a full retrospective on a complex business analyst project, identifying risks, failures, and improvements, and turn it into a reusable internal playbook."
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Job Search Strategy",
+              "objective": "Execute systematic job search",
+              "prerequisites": [],
+              "resources": [
+                {
+                  "title": "Job Boards",
+                  "url": "https://www.google.com/search?q=Job%20Boards%20business%20analyst%20tutorial%20course"
+                },
+                {
+                  "title": "Networking Events",
+                  "url": "https://www.google.com/search?q=Networking%20Events%20business%20analyst%20tutorial%20course"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Job Search Strategy",
+                  "description": "Achieve the objective 'Execute systematic job search' by completing tasks such as: ([expert task] design)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "([expert task] design)",
+                  "description": "[Expert Task] Design and deliver a workshop that teaches requirements gathering and documentation to others, including hands-on exercises, example projects, and assessment criteria."
+                }
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path_title": "business analyst",
+      "focus": "Transition",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "title": "Foundations",
+          "objective": "Build essential groundwork for your career",
+          "prerequisites": [],
+          "resources": [
+            {
+              "title": "Standard Industry Tools",
+              "url": "https://www.google.com/search?q=Standard%20Industry%20Tools%20business%20analyst%20tutorial%20course"
+            }
+          ],
+          "milestones": [
+            {
+              "title": "Complete Foundations",
+              "description": "Achieve the objective 'Build essential groundwork for your career' by completing tasks such as: (Earn a cbap)."
+            }
+          ],
+          "tasks": [
+            {
+              "title": "(Earn a cbap)",
+              "description": "Earn a CBAP certification (Certified Business Analysis Professional) to strengthen your credentials"
+            }
+          ],
+          "children": [
+            {
+              "title": "Industry Fundamentals",
+              "objective": "Understand the core concepts of business analyst",
+              "prerequisites": [],
+              "resources": [
+                {
+                  "title": "Online Courses",
+                  "url": "https://www.google.com/search?q=Online%20Courses%20business%20analyst%20tutorial%20course"
+                },
+                {
+                  "title": "Industry Glossaries",
+                  "url": "https://www.google.com/search?q=Industry%20Glossaries%20business%20analyst%20tutorial%20course"
+                },
+                {
+                  "title": "Career Guides",
+                  "url": "https://www.google.com/search?q=Career%20Guides%20business%20analyst%20tutorial%20course"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Industry Fundamentals",
+                  "description": "Achieve the objective 'Understand the core concepts of business analyst' by completing tasks such as: (A master's degree), (Process modeling)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "(A master's degree)",
+                  "description": "Complete a master's degree in business analysis, management, or information systems"
+                },
+                {
+                  "title": "(Process modeling)",
+                  "description": "Develop skills in process modeling, stakeholder requirements gathering, and solution design"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Tools & Environment",
+              "objective": "Set up your professional workspace",
+              "prerequisites": [],
+              "resources": [
+                {
+                  "title": "Official Documentation",
+                  "url": "https://www.google.com/search?q=Official%20Documentation%20business%20analyst%20tutorial%20course"
+                },
+                {
+                  "title": "Community Forums",
+                  "url": "https://www.google.com/search?q=Community%20Forums%20business%20analyst%20tutorial%20course"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Tools & Environment",
+                  "description": "Achieve the objective 'Set up your professional workspace' by completing tasks such as: (Learn business analysis)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "(Learn business analysis)",
+                  "description": "Learn business analysis methodologies (BABOK, Agile BA, Lean process improvement)"
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Core Skills Development",
+          "objective": "Master essential skills for business analyst",
+          "prerequisites": [],
+          "resources": [
+            {
+              "title": "Online Learning Platforms",
+              "url": "https://www.google.com/search?q=Online%20Learning%20Platforms%20business%20analyst%20tutorial%20course"
+            }
+          ],
+          "milestones": [
+            {
+              "title": "Complete Core Skills Development",
+              "description": "Achieve the objective 'Master essential skills for business analyst' by completing tasks such as: ([advanced task] collaborate)."
+            }
+          ],
+          "tasks": [
+            {
+              "title": "([advanced task] collaborate)",
+              "description": "[Advanced Task] Collaborate with a cross-functional team to solve a real-world problem related to business analyst, documenting decisions, trade-offs, and lessons learned."
+            }
+          ],
+          "children": [
+            {
+              "title": "Requirements Gathering And Documentation Proficiency",
+              "objective": "Develop proficiency in requirements gathering and documentation",
+              "prerequisites": [],
+              "resources": [
+                {
+                  "title": "Requirements Gathering And Documentation Resources",
+                  "url": "https://www.google.com/search?q=Requirements%20Gathering%20And%20Documentation%20Resources%20business%20analyst%20tutorial%20course"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Requirements Gathering And Documentation Proficiency",
+                  "description": "Achieve the objective 'Develop proficiency in requirements gathering and documentation' by completing tasks such as: (End-to-end analysis projects)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "(End-to-end analysis projects)",
+                  "description": "Complete end-to-end analysis projects documenting processes, gaps, and proposed solutions"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Process Mapping And Analysis Proficiency",
+              "objective": "Develop proficiency in process mapping and analysis",
+              "prerequisites": [],
+              "resources": [
+                {
+                  "title": "Process Mapping And Analysis Resources",
+                  "url": "https://www.google.com/search?q=Process%20Mapping%20And%20Analysis%20Resources%20business%20analyst%20tutorial%20course"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Process Mapping And Analysis Proficiency",
+                  "description": "Achieve the objective 'Develop proficiency in process mapping and analysis' by completing tasks such as: (Communication skills for)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "(Communication skills for)",
+                  "description": "Build communication skills for translating complex business problems into clear requirements"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Stakeholder Management Proficiency",
+              "objective": "Develop proficiency in stakeholder management",
+              "prerequisites": [],
+              "resources": [
+                {
+                  "title": "Stakeholder Management Resources",
+                  "url": "https://www.google.com/search?q=Stakeholder%20Management%20Resources%20business%20analyst%20tutorial%20course"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Stakeholder Management Proficiency",
+                  "description": "Achieve the objective 'Develop proficiency in stakeholder management' by completing tasks such as: (For business analyst)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "(For business analyst)",
+                  "description": "Apply for business analyst roles in consultancy, banking, healthcare, or technology sectors"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Gap Analysis Proficiency",
+              "objective": "Develop proficiency in gap analysis",
+              "prerequisites": [],
+              "resources": [
+                {
+                  "title": "Gap Analysis Resources",
+                  "url": "https://www.google.com/search?q=Gap%20Analysis%20Resources%20business%20analyst%20tutorial%20course"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Gap Analysis Proficiency",
+                  "description": "Achieve the objective 'Develop proficiency in gap analysis' by completing tasks such as: ([advanced task] design)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "([advanced task] design)",
+                  "description": "[Advanced Task] Design and complete a multi-month capstone project that demonstrates end-to-end responsibilities of a business analyst, from initial planning to final delivery."
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Practical Application",
+          "objective": "Gain hands-on experience through projects or simulations",
+          "prerequisites": [],
+          "resources": [
+            {
+              "title": "Portfolio Platform",
+              "url": "https://www.google.com/search?q=Portfolio%20Platform%20business%20analyst%20tutorial%20course"
+            }
+          ],
+          "milestones": [
+            {
+              "title": "Complete Practical Application",
+              "description": "Achieve the objective 'Gain hands-on experience through projects or simulations' by completing tasks such as: ([expert task] lead)."
+            }
+          ],
+          "tasks": [
+            {
+              "title": "([expert task] lead)",
+              "description": "[Expert Task] Lead a mentoring or coaching programme for juniors interested in becoming a business analyst, including structured feedback and progress tracking."
+            }
+          ],
+          "children": [
+            {
+              "title": "Applied Practice Project",
+              "objective": "Apply core skills in a realistic scenario",
+              "prerequisites": [
+                "requirements gathering and documentation",
+                "process mapping and analysis"
+              ],
+              "resources": [
+                {
+                  "title": "Project Management Tools",
+                  "url": "https://www.google.com/search?q=Project%20Management%20Tools%20business%20analyst%20tutorial%20course"
+                },
+                {
+                  "title": "Documentation Tools",
+                  "url": "https://www.google.com/search?q=Documentation%20Tools%20business%20analyst%20tutorial%20course"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Applied Practice Project",
+                  "description": "Achieve the objective 'Apply core skills in a realistic scenario' by completing tasks such as: ([advanced task] build), ([advanced task] deep)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "([advanced task] build)",
+                  "description": "[Advanced Task] Build a detailed portfolio case study for business analyst, including goals, research, implementation steps, and measurable outcomes."
+                },
+                {
+                  "title": "([advanced task] deep)",
+                  "description": "[Advanced Task] Deep dive into advanced requirements gathering and documentation by completing an intensive course, implementing a complex practice project, and seeking feedback from an experienced mentor."
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Advanced Capstone",
+              "objective": "Demonstrate comprehensive mastery",
+              "prerequisites": [
+                "requirements gathering and documentation",
+                "process mapping and analysis",
+                "stakeholder management"
+              ],
+              "resources": [
+                {
+                  "title": "Advanced Tools",
+                  "url": "https://www.google.com/search?q=Advanced%20Tools%20business%20analyst%20tutorial%20course"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Advanced Capstone",
+                  "description": "Achieve the objective 'Demonstrate comprehensive mastery' by completing tasks such as: ([advanced task] combine)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "([advanced task] combine)",
+                  "description": "[Advanced Task] Combine requirements gathering and documentation with process mapping and analysis in a single integrated project that mirrors realistic business analyst responsibilities."
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Specialization",
+          "objective": "Develop expertise in specific areas",
+          "prerequisites": [],
+          "resources": [
+            {
+              "title": "Industry Certifications",
+              "url": "https://www.google.com/search?q=Industry%20Certifications%20business%20analyst%20tutorial%20course"
+            }
+          ],
+          "milestones": [
+            {
+              "title": "Complete Specialization",
+              "description": "Achieve the objective 'Develop expertise in specific areas' by completing tasks such as: ([expert task] map)."
+            }
+          ],
+          "tasks": [
+            {
+              "title": "([expert task] map)",
+              "description": "[Expert Task] Map out a 12\u201318 month professional development plan for your path as a business analyst, including certifications, projects, and networking milestones."
+            }
+          ],
+          "children": [
+            {
+              "title": "Specialization Track",
+              "objective": "Deep dive into a specific area",
+              "prerequisites": [
+                "requirements gathering and documentation",
+                "process mapping and analysis"
+              ],
+              "resources": [
+                {
+                  "title": "Specialized Training",
+                  "url": "https://www.google.com/search?q=Specialized%20Training%20business%20analyst%20tutorial%20course"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Specialization Track",
+                  "description": "Achieve the objective 'Deep dive into a specific area' by completing tasks such as: ([expert task] contribute)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "([expert task] contribute)",
+                  "description": "[Expert Task] Contribute to the wider community for business analyst by writing an in-depth blog post, recording a talk, or speaking at a local meetup or conference."
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Career Launch",
+          "objective": "Land your first role in the field",
+          "prerequisites": [],
+          "resources": [
+            {
+              "title": "Job Search Platforms",
+              "url": "https://www.google.com/search?q=Job%20Search%20Platforms%20business%20analyst%20tutorial%20course"
+            }
+          ],
+          "milestones": [
+            {
+              "title": "Complete Career Launch",
+              "description": "Achieve the objective 'Land your first role in the field' by completing tasks such as: (Job offer 1)."
+            }
+          ],
+          "tasks": [
+            {
+              "title": "(Job offer 1)",
+              "description": "Secure job offer 1"
+            }
+          ],
+          "children": [
+            {
+              "title": "Professional Branding",
+              "objective": "Create compelling professional presence",
+              "prerequisites": [],
+              "resources": [
+                {
+                  "title": "LinkedIn",
+                  "url": "https://www.google.com/search?q=LinkedIn%20business%20analyst%20tutorial%20course"
+                },
+                {
+                  "title": "Resume Builder",
+                  "url": "https://www.google.com/search?q=Resume%20Builder%20business%20analyst%20tutorial%20course"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Professional Branding",
+                  "description": "Achieve the objective 'Create compelling professional presence' by completing tasks such as: ([expert task] perform)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "([expert task] perform)",
+                  "description": "[Expert Task] Perform a full retrospective on a complex business analyst project, identifying risks, failures, and improvements, and turn it into a reusable internal playbook."
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Job Search Strategy",
+              "objective": "Execute systematic job search",
+              "prerequisites": [],
+              "resources": [
+                {
+                  "title": "Job Boards",
+                  "url": "https://www.google.com/search?q=Job%20Boards%20business%20analyst%20tutorial%20course"
+                },
+                {
+                  "title": "Networking Events",
+                  "url": "https://www.google.com/search?q=Networking%20Events%20business%20analyst%20tutorial%20course"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Job Search Strategy",
+                  "description": "Achieve the objective 'Execute systematic job search' by completing tasks such as: ([expert task] design)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "([expert task] design)",
+                  "description": "[Expert Task] Design and deliver a workshop that teaches requirements gathering and documentation to others, including hands-on exercises, example projects, and assessment criteria."
+                }
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/static/roadmaps/roadmap_1.png",
+    "/static/roadmaps/roadmap_2.png",
+    "/static/roadmaps/roadmap_3.png"
+  ]
+}

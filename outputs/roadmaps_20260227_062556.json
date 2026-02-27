@@ -1,0 +1,848 @@
+{
+  "input": {
+    "answers": [],
+    "careers": [
+      "plumber"
+    ],
+    "category": "Welding & Skilled Trades",
+    "education": "High School",
+    "summary": ""
+  },
+  "derived_skills": [],
+  "chosen_career": "plumber",
+  "roadmaps": [
+    {
+      "path_title": "plumber",
+      "focus": "Depth",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "title": "Foundations",
+          "objective": "Build essential groundwork for your career",
+          "prerequisites": [],
+          "resources": [
+            "Standard Industry Tools"
+          ],
+          "tasks": [
+            {
+              "title": "(Building regulations related)",
+              "description": "Study building regulations related to plumbing, drainage, and water safety"
+            }
+          ],
+          "children": [
+            {
+              "title": "Industry Fundamentals",
+              "objective": "Understand the core concepts of plumber",
+              "prerequisites": [],
+              "resources": [
+                "Online Courses",
+                "Industry Glossaries",
+                "Career Guides"
+              ],
+              "tasks": [
+                {
+                  "title": "(Apprenticeship or associate)",
+                  "description": "Complete an apprenticeship or associate diploma in plumbing"
+                },
+                {
+                  "title": "(Install and maintain)",
+                  "description": "Learn to install and maintain water supply systems, drainage, heating, and gas pipework"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Tools & Environment",
+              "objective": "Set up your professional workspace",
+              "prerequisites": [],
+              "resources": [
+                "Official Documentation",
+                "Community Forums"
+              ],
+              "tasks": [
+                {
+                  "title": "(Pipe fitting)",
+                  "description": "Develop skills in pipe fitting, soldering, and using specialist plumbing tools"
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Core Skills Development",
+          "objective": "Master essential skills for plumber",
+          "prerequisites": [],
+          "resources": [
+            "Online Learning Platforms"
+          ],
+          "tasks": [
+            {
+              "title": "(Core skills 1)",
+              "description": "Master core skills 1"
+            }
+          ],
+          "children": [
+            {
+              "title": "Installation Of Water Supply And Drainage Systems Proficiency",
+              "objective": "Develop proficiency in installation of water supply and drainage systems",
+              "prerequisites": [],
+              "resources": [
+                "Installation Of Water Supply And Drainage Systems Resources"
+              ],
+              "tasks": [
+                {
+                  "title": "(Supervised work experience)",
+                  "description": "Complete supervised work experience with a licensed plumber"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Pipe Fitting And Soldering Proficiency",
+              "objective": "Develop proficiency in pipe fitting and soldering",
+              "prerequisites": [],
+              "resources": [
+                "Pipe Fitting And Soldering Resources"
+              ],
+              "tasks": [
+                {
+                  "title": "(Plumbing license or)",
+                  "description": "Obtain your plumbing license or certification as required in your region"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Heating System Installation (Boilers, Radiators) Proficiency",
+              "objective": "Develop proficiency in heating system installation (boilers, radiators)",
+              "prerequisites": [],
+              "resources": [
+                "Heating System Installation (Boilers, Radiators) Resources"
+              ],
+              "tasks": [
+                {
+                  "title": "(For plumber positions)",
+                  "description": "Apply for plumber positions or work toward self-employment"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Testing And Commissioning Plumbing Systems Proficiency",
+              "objective": "Develop proficiency in testing and commissioning plumbing systems",
+              "prerequisites": [],
+              "resources": [
+                "Testing And Commissioning Plumbing Systems Resources"
+              ],
+              "tasks": [
+                {
+                  "title": "(Testing and commissioning)",
+                  "description": "Practice testing and commissioning plumbing systems 1"
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Practical Application",
+          "objective": "Gain hands-on experience through projects or simulations",
+          "prerequisites": [],
+          "resources": [
+            "Portfolio Platform"
+          ],
+          "tasks": [
+            {
+              "title": "(Portfolio 1)",
+              "description": "Build portfolio 1"
+            }
+          ],
+          "children": [
+            {
+              "title": "Applied Practice Project",
+              "objective": "Apply core skills in a realistic scenario",
+              "prerequisites": [
+                "installation of water supply and drainage systems",
+                "pipe fitting and soldering"
+              ],
+              "resources": [
+                "Project Management Tools",
+                "Documentation Tools"
+              ],
+              "tasks": [
+                {
+                  "title": "(Core skills 1)",
+                  "description": "Apply core skills 1"
+                },
+                {
+                  "title": "(Core skills 2)",
+                  "description": "Apply core skills 2"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Advanced Capstone",
+              "objective": "Demonstrate comprehensive mastery",
+              "prerequisites": [
+                "installation of water supply and drainage systems",
+                "pipe fitting and soldering",
+                "heating system installation (boilers, radiators)"
+              ],
+              "resources": [
+                "Advanced Tools"
+              ],
+              "tasks": [
+                {
+                  "title": "(Mastery 1)",
+                  "description": "Demonstrate mastery 1"
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Specialization",
+          "objective": "Develop expertise in specific areas",
+          "prerequisites": [],
+          "resources": [
+            "Industry Certifications"
+          ],
+          "tasks": [
+            {
+              "title": "(Specialization 1)",
+              "description": "Choose specialization 1"
+            }
+          ],
+          "children": [
+            {
+              "title": "Specialization Track",
+              "objective": "Deep dive into a specific area",
+              "prerequisites": [
+                "installation of water supply and drainage systems",
+                "pipe fitting and soldering"
+              ],
+              "resources": [
+                "Specialized Training"
+              ],
+              "tasks": [
+                {
+                  "title": "(Advanced topic 1)",
+                  "description": "Study advanced topic 1"
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Career Launch",
+          "objective": "Land your first role in the field",
+          "prerequisites": [],
+          "resources": [
+            "Job Search Platforms"
+          ],
+          "tasks": [
+            {
+              "title": "(Job offer 1)",
+              "description": "Secure job offer 1"
+            }
+          ],
+          "children": [
+            {
+              "title": "Professional Branding",
+              "objective": "Create compelling professional presence",
+              "prerequisites": [],
+              "resources": [
+                "LinkedIn",
+                "Resume Builder"
+              ],
+              "tasks": [
+                {
+                  "title": "(Professional branding 1)",
+                  "description": "Professional Branding 1"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Job Search Strategy",
+              "objective": "Execute systematic job search",
+              "prerequisites": [],
+              "resources": [
+                "Job Boards",
+                "Networking Events"
+              ],
+              "tasks": [
+                {
+                  "title": "(Job search strategy)",
+                  "description": "Job Search Strategy 1"
+                }
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path_title": "plumber",
+      "focus": "Fast-Entry",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "title": "Foundations",
+          "objective": "Build essential groundwork for your career",
+          "prerequisites": [],
+          "resources": [
+            "Standard Industry Tools"
+          ],
+          "tasks": [
+            {
+              "title": "(Building regulations related)",
+              "description": "Study building regulations related to plumbing, drainage, and water safety"
+            }
+          ],
+          "children": [
+            {
+              "title": "Industry Fundamentals",
+              "objective": "Understand the core concepts of plumber",
+              "prerequisites": [],
+              "resources": [
+                "Online Courses",
+                "Industry Glossaries",
+                "Career Guides"
+              ],
+              "tasks": [
+                {
+                  "title": "(Apprenticeship or associate)",
+                  "description": "Complete an apprenticeship or associate diploma in plumbing"
+                },
+                {
+                  "title": "(Install and maintain)",
+                  "description": "Learn to install and maintain water supply systems, drainage, heating, and gas pipework"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Tools & Environment",
+              "objective": "Set up your professional workspace",
+              "prerequisites": [],
+              "resources": [
+                "Official Documentation",
+                "Community Forums"
+              ],
+              "tasks": [
+                {
+                  "title": "(Pipe fitting)",
+                  "description": "Develop skills in pipe fitting, soldering, and using specialist plumbing tools"
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Core Skills Development",
+          "objective": "Master essential skills for plumber",
+          "prerequisites": [],
+          "resources": [
+            "Online Learning Platforms"
+          ],
+          "tasks": [
+            {
+              "title": "(Core skills 1)",
+              "description": "Master core skills 1"
+            }
+          ],
+          "children": [
+            {
+              "title": "Installation Of Water Supply And Drainage Systems Proficiency",
+              "objective": "Develop proficiency in installation of water supply and drainage systems",
+              "prerequisites": [],
+              "resources": [
+                "Installation Of Water Supply And Drainage Systems Resources"
+              ],
+              "tasks": [
+                {
+                  "title": "(Supervised work experience)",
+                  "description": "Complete supervised work experience with a licensed plumber"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Pipe Fitting And Soldering Proficiency",
+              "objective": "Develop proficiency in pipe fitting and soldering",
+              "prerequisites": [],
+              "resources": [
+                "Pipe Fitting And Soldering Resources"
+              ],
+              "tasks": [
+                {
+                  "title": "(Plumbing license or)",
+                  "description": "Obtain your plumbing license or certification as required in your region"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Heating System Installation (Boilers, Radiators) Proficiency",
+              "objective": "Develop proficiency in heating system installation (boilers, radiators)",
+              "prerequisites": [],
+              "resources": [
+                "Heating System Installation (Boilers, Radiators) Resources"
+              ],
+              "tasks": [
+                {
+                  "title": "(For plumber positions)",
+                  "description": "Apply for plumber positions or work toward self-employment"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Testing And Commissioning Plumbing Systems Proficiency",
+              "objective": "Develop proficiency in testing and commissioning plumbing systems",
+              "prerequisites": [],
+              "resources": [
+                "Testing And Commissioning Plumbing Systems Resources"
+              ],
+              "tasks": [
+                {
+                  "title": "(Testing and commissioning)",
+                  "description": "Practice testing and commissioning plumbing systems 1"
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Practical Application",
+          "objective": "Gain hands-on experience through projects or simulations",
+          "prerequisites": [],
+          "resources": [
+            "Portfolio Platform"
+          ],
+          "tasks": [
+            {
+              "title": "(Portfolio 1)",
+              "description": "Build portfolio 1"
+            }
+          ],
+          "children": [
+            {
+              "title": "Applied Practice Project",
+              "objective": "Apply core skills in a realistic scenario",
+              "prerequisites": [
+                "installation of water supply and drainage systems",
+                "pipe fitting and soldering"
+              ],
+              "resources": [
+                "Project Management Tools",
+                "Documentation Tools"
+              ],
+              "tasks": [
+                {
+                  "title": "(Core skills 1)",
+                  "description": "Apply core skills 1"
+                },
+                {
+                  "title": "(Core skills 2)",
+                  "description": "Apply core skills 2"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Advanced Capstone",
+              "objective": "Demonstrate comprehensive mastery",
+              "prerequisites": [
+                "installation of water supply and drainage systems",
+                "pipe fitting and soldering",
+                "heating system installation (boilers, radiators)"
+              ],
+              "resources": [
+                "Advanced Tools"
+              ],
+              "tasks": [
+                {
+                  "title": "(Mastery 1)",
+                  "description": "Demonstrate mastery 1"
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Specialization",
+          "objective": "Develop expertise in specific areas",
+          "prerequisites": [],
+          "resources": [
+            "Industry Certifications"
+          ],
+          "tasks": [
+            {
+              "title": "(Specialization 1)",
+              "description": "Choose specialization 1"
+            }
+          ],
+          "children": [
+            {
+              "title": "Specialization Track",
+              "objective": "Deep dive into a specific area",
+              "prerequisites": [
+                "installation of water supply and drainage systems",
+                "pipe fitting and soldering"
+              ],
+              "resources": [
+                "Specialized Training"
+              ],
+              "tasks": [
+                {
+                  "title": "(Advanced topic 1)",
+                  "description": "Study advanced topic 1"
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Career Launch",
+          "objective": "Land your first role in the field",
+          "prerequisites": [],
+          "resources": [
+            "Job Search Platforms"
+          ],
+          "tasks": [
+            {
+              "title": "(Job offer 1)",
+              "description": "Secure job offer 1"
+            }
+          ],
+          "children": [
+            {
+              "title": "Professional Branding",
+              "objective": "Create compelling professional presence",
+              "prerequisites": [],
+              "resources": [
+                "LinkedIn",
+                "Resume Builder"
+              ],
+              "tasks": [
+                {
+                  "title": "(Professional branding 1)",
+                  "description": "Professional Branding 1"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Job Search Strategy",
+              "objective": "Execute systematic job search",
+              "prerequisites": [],
+              "resources": [
+                "Job Boards",
+                "Networking Events"
+              ],
+              "tasks": [
+                {
+                  "title": "(Job search strategy)",
+                  "description": "Job Search Strategy 1"
+                }
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path_title": "plumber",
+      "focus": "Transition",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "title": "Foundations",
+          "objective": "Build essential groundwork for your career",
+          "prerequisites": [],
+          "resources": [
+            "Standard Industry Tools"
+          ],
+          "tasks": [
+            {
+              "title": "(Building regulations related)",
+              "description": "Study building regulations related to plumbing, drainage, and water safety"
+            }
+          ],
+          "children": [
+            {
+              "title": "Industry Fundamentals",
+              "objective": "Understand the core concepts of plumber",
+              "prerequisites": [],
+              "resources": [
+                "Online Courses",
+                "Industry Glossaries",
+                "Career Guides"
+              ],
+              "tasks": [
+                {
+                  "title": "(Apprenticeship or associate)",
+                  "description": "Complete an apprenticeship or associate diploma in plumbing"
+                },
+                {
+                  "title": "(Install and maintain)",
+                  "description": "Learn to install and maintain water supply systems, drainage, heating, and gas pipework"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Tools & Environment",
+              "objective": "Set up your professional workspace",
+              "prerequisites": [],
+              "resources": [
+                "Official Documentation",
+                "Community Forums"
+              ],
+              "tasks": [
+                {
+                  "title": "(Pipe fitting)",
+                  "description": "Develop skills in pipe fitting, soldering, and using specialist plumbing tools"
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Core Skills Development",
+          "objective": "Master essential skills for plumber",
+          "prerequisites": [],
+          "resources": [
+            "Online Learning Platforms"
+          ],
+          "tasks": [
+            {
+              "title": "(Core skills 1)",
+              "description": "Master core skills 1"
+            }
+          ],
+          "children": [
+            {
+              "title": "Installation Of Water Supply And Drainage Systems Proficiency",
+              "objective": "Develop proficiency in installation of water supply and drainage systems",
+              "prerequisites": [],
+              "resources": [
+                "Installation Of Water Supply And Drainage Systems Resources"
+              ],
+              "tasks": [
+                {
+                  "title": "(Supervised work experience)",
+                  "description": "Complete supervised work experience with a licensed plumber"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Pipe Fitting And Soldering Proficiency",
+              "objective": "Develop proficiency in pipe fitting and soldering",
+              "prerequisites": [],
+              "resources": [
+                "Pipe Fitting And Soldering Resources"
+              ],
+              "tasks": [
+                {
+                  "title": "(Plumbing license or)",
+                  "description": "Obtain your plumbing license or certification as required in your region"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Heating System Installation (Boilers, Radiators) Proficiency",
+              "objective": "Develop proficiency in heating system installation (boilers, radiators)",
+              "prerequisites": [],
+              "resources": [
+                "Heating System Installation (Boilers, Radiators) Resources"
+              ],
+              "tasks": [
+                {
+                  "title": "(For plumber positions)",
+                  "description": "Apply for plumber positions or work toward self-employment"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Testing And Commissioning Plumbing Systems Proficiency",
+              "objective": "Develop proficiency in testing and commissioning plumbing systems",
+              "prerequisites": [],
+              "resources": [
+                "Testing And Commissioning Plumbing Systems Resources"
+              ],
+              "tasks": [
+                {
+                  "title": "(Testing and commissioning)",
+                  "description": "Practice testing and commissioning plumbing systems 1"
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Practical Application",
+          "objective": "Gain hands-on experience through projects or simulations",
+          "prerequisites": [],
+          "resources": [
+            "Portfolio Platform"
+          ],
+          "tasks": [
+            {
+              "title": "(Portfolio 1)",
+              "description": "Build portfolio 1"
+            }
+          ],
+          "children": [
+            {
+              "title": "Applied Practice Project",
+              "objective": "Apply core skills in a realistic scenario",
+              "prerequisites": [
+                "installation of water supply and drainage systems",
+                "pipe fitting and soldering"
+              ],
+              "resources": [
+                "Project Management Tools",
+                "Documentation Tools"
+              ],
+              "tasks": [
+                {
+                  "title": "(Core skills 1)",
+                  "description": "Apply core skills 1"
+                },
+                {
+                  "title": "(Core skills 2)",
+                  "description": "Apply core skills 2"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Advanced Capstone",
+              "objective": "Demonstrate comprehensive mastery",
+              "prerequisites": [
+                "installation of water supply and drainage systems",
+                "pipe fitting and soldering",
+                "heating system installation (boilers, radiators)"
+              ],
+              "resources": [
+                "Advanced Tools"
+              ],
+              "tasks": [
+                {
+                  "title": "(Mastery 1)",
+                  "description": "Demonstrate mastery 1"
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Specialization",
+          "objective": "Develop expertise in specific areas",
+          "prerequisites": [],
+          "resources": [
+            "Industry Certifications"
+          ],
+          "tasks": [
+            {
+              "title": "(Specialization 1)",
+              "description": "Choose specialization 1"
+            }
+          ],
+          "children": [
+            {
+              "title": "Specialization Track",
+              "objective": "Deep dive into a specific area",
+              "prerequisites": [
+                "installation of water supply and drainage systems",
+                "pipe fitting and soldering"
+              ],
+              "resources": [
+                "Specialized Training"
+              ],
+              "tasks": [
+                {
+                  "title": "(Advanced topic 1)",
+                  "description": "Study advanced topic 1"
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Career Launch",
+          "objective": "Land your first role in the field",
+          "prerequisites": [],
+          "resources": [
+            "Job Search Platforms"
+          ],
+          "tasks": [
+            {
+              "title": "(Job offer 1)",
+              "description": "Secure job offer 1"
+            }
+          ],
+          "children": [
+            {
+              "title": "Professional Branding",
+              "objective": "Create compelling professional presence",
+              "prerequisites": [],
+              "resources": [
+                "LinkedIn",
+                "Resume Builder"
+              ],
+              "tasks": [
+                {
+                  "title": "(Professional branding 1)",
+                  "description": "Professional Branding 1"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Job Search Strategy",
+              "objective": "Execute systematic job search",
+              "prerequisites": [],
+              "resources": [
+                "Job Boards",
+                "Networking Events"
+              ],
+              "tasks": [
+                {
+                  "title": "(Job search strategy)",
+                  "description": "Job Search Strategy 1"
+                }
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/static/roadmaps/roadmap_1.png",
+    "/static/roadmaps/roadmap_2.png",
+    "/static/roadmaps/roadmap_3.png"
+  ]
+}
