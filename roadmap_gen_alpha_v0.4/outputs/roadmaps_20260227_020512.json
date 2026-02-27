@@ -7,47 +7,51 @@
       },
       {
         "questionId": "Q_PERS1_GR",
-        "label": "I like solving complex problems and thinking analytically"
+        "label": "I like leading, organizing, and making decisions"
       },
       {
-        "questionId": "Q_PERS2_GR_ANALYTICAL",
-        "label": "Outdoors or on-site (field, site, lab, clinic)"
+        "questionId": "Q_PERS2_GR_LEADER",
+        "label": "Mixed \u2014 I want variety in my environment"
       },
       {
-        "questionId": "Q_PERS3_GR_ANALYTICAL_OUTDOOR",
-        "label": "Balanced \u2014 good pay and meaningful work"
+        "questionId": "Q_PERS3_GR_LEADER_MIXED",
+        "label": "Fulfillment first \u2014 purpose matters more than pay"
       },
       {
-        "questionId": "Q_PERS4_GR_ANALYTICAL_OUTDOOR_BAL",
+        "questionId": "Q_PERS4_GR_LEADER_MIXED_FUL",
         "label": "Client-facing \u2014 I enjoy working with the public"
       },
       {
-        "questionId": "Q_PERS5_GR_ANALYTICAL_OUTDOOR_BAL_CLIENT",
-        "label": "Private sector / corporate"
+        "questionId": "Q_PERS5_GR_LEADER_MIXED_FUL_CLIENT",
+        "label": "Open to anything"
       },
       {
         "questionId": "Q_DOMAIN_GR",
-        "label": "Aviation & Transportation"
+        "label": "Architecture & Design"
       },
       {
-        "questionId": "Q3_GR_AVIA",
-        "label": "Military / Air Force piloting"
+        "questionId": "Q3_GR_ARCH",
+        "label": "Landscape architecture and outdoor design"
       },
       {
-        "questionId": "Q4_GR_AVIA_MIL",
-        "label": "Fast jet / fighter pilot"
+        "questionId": "Q4_GR_ARCH_LAND",
+        "label": "Private gardens and estate design"
+      },
+      {
+        "questionId": "Q5_GR_ARCH_REG",
+        "label": "Landscape specific path"
       }
     ],
     "careers": [
-      "air force pilot"
+      "landscape architect"
     ],
-    "category": "Aviation & Piloting"
+    "category": "Architecture & Urban Planning"
   },
   "derived_skills": [],
-  "chosen_career": "pasta operator",
+  "chosen_career": "rental service representative in other machinery, equipment and tangible goods",
   "roadmaps": [
     {
-      "path_title": "pasta operator",
+      "path_title": "rental service representative in other machinery, equipment and tangible goods",
       "focus": "Depth",
       "confidence_score": 0.8,
       "steps": [
@@ -71,7 +75,7 @@
           "children": [
             {
               "title": "Industry Fundamentals",
-              "objective": "Understand the core concepts of pasta operator",
+              "objective": "Understand the core concepts of rental service representative in other machinery, equipment and tangible goods",
               "duration_months": 1,
               "prerequisites": [],
               "milestones": [
@@ -85,11 +89,11 @@
                 "Career Guides"
               ],
               "tasks": [
+                "Build a public portfolio showcasing projects related to rental service representative in other machinery, equipment and tangible goods",
                 "Set short-term learning goals and review progress every month",
+                "Intern or co-op with industry partners to build professional experience",
                 "Connect with professionals in the field and request informational interviews",
-                "Graduate a bachelor\u2019s degree or equivalent in a relevant discipline",
-                "Target specialist or leadership roles and craft a research/experience summary",
-                "Build a public portfolio showcasing projects related to pasta operator"
+                "Join local/online communities for practical advice and networking"
               ],
               "children": []
             },
@@ -108,7 +112,7 @@
                 "Community Forums"
               ],
               "tasks": [
-                "Research standard tools for pasta operator",
+                "Research standard tools for rental service representative in other machinery, equipment and tangible goods",
                 "Install primary software tools",
                 "Create account on professional networks"
               ],
@@ -118,7 +122,7 @@
         },
         {
           "title": "Core Skills Development",
-          "objective": "Master essential skills for pasta operator",
+          "objective": "Master essential skills for rental service representative in other machinery, equipment and tangible goods",
           "duration_months": 5,
           "prerequisites": [],
           "milestones": [
@@ -135,78 +139,78 @@
           ],
           "children": [
             {
-              "title": "Act Reliably Proficiency",
-              "objective": "Develop proficiency in act reliably",
+              "title": "Achieve Sales Targets Proficiency",
+              "objective": "Develop proficiency in achieve sales targets",
               "duration_months": 2,
               "prerequisites": [],
               "milestones": [
-                "Complete act reliably course",
-                "Demonstrate act reliably usage",
-                "Pass act reliably quiz"
+                "Complete achieve sales targets course",
+                "Demonstrate achieve sales targets usage",
+                "Pass achieve sales targets quiz"
               ],
               "resources": [
-                "Act Reliably Resources"
+                "Achieve Sales Targets Resources"
               ],
               "tasks": [
-                "Practice act reliably fundamentals",
-                "Apply act reliably in small scenarios"
+                "Practice achieve sales targets fundamentals",
+                "Apply achieve sales targets in small scenarios"
               ],
               "children": []
             },
             {
-              "title": "Adhere To Organisational Guidelines Proficiency",
-              "objective": "Develop proficiency in adhere to organisational guidelines",
+              "title": "Apply Numeracy Skills Proficiency",
+              "objective": "Develop proficiency in apply numeracy skills",
               "duration_months": 2,
               "prerequisites": [],
               "milestones": [
-                "Complete adhere to organisational guidelines course",
-                "Demonstrate adhere to organisational guidelines usage",
-                "Pass adhere to organisational guidelines quiz"
+                "Complete apply numeracy skills course",
+                "Demonstrate apply numeracy skills usage",
+                "Pass apply numeracy skills quiz"
               ],
               "resources": [
-                "Adhere To Organisational Guidelines Resources"
+                "Apply Numeracy Skills Resources"
               ],
               "tasks": [
-                "Practice adhere to organisational guidelines fundamentals",
-                "Apply adhere to organisational guidelines in small scenarios"
+                "Practice apply numeracy skills fundamentals",
+                "Apply apply numeracy skills in small scenarios"
               ],
               "children": []
             },
             {
-              "title": "Adjust Drying Process To Goods Proficiency",
-              "objective": "Develop proficiency in adjust drying process to goods",
+              "title": "Assist Customers Proficiency",
+              "objective": "Develop proficiency in assist customers",
               "duration_months": 2,
               "prerequisites": [],
               "milestones": [
-                "Complete adjust drying process to goods course",
-                "Demonstrate adjust drying process to goods usage",
-                "Pass adjust drying process to goods quiz"
+                "Complete assist customers course",
+                "Demonstrate assist customers usage",
+                "Pass assist customers quiz"
               ],
               "resources": [
-                "Adjust Drying Process To Goods Resources"
+                "Assist Customers Resources"
               ],
               "tasks": [
-                "Practice adjust drying process to goods fundamentals",
-                "Apply adjust drying process to goods in small scenarios"
+                "Practice assist customers fundamentals",
+                "Apply assist customers in small scenarios"
               ],
               "children": []
             },
             {
-              "title": "Administer Ingredients In Food Production Proficiency",
-              "objective": "Develop proficiency in administer ingredients in food production",
+              "title": "Communicate With Customers Proficiency",
+              "objective": "Develop proficiency in communicate with customers",
               "duration_months": 2,
               "prerequisites": [],
               "milestones": [
-                "Complete administer ingredients in food production course",
-                "Demonstrate administer ingredients in food production usage",
-                "Pass administer ingredients in food production quiz"
+                "Complete communicate with customers course",
+                "Demonstrate communicate with customers usage",
+                "Pass communicate with customers quiz"
               ],
               "resources": [
-                "Administer Ingredients In Food Production Resources"
+                "Communicate With Customers Resources"
               ],
               "tasks": [
-                "Practice administer ingredients in food production fundamentals",
-                "Apply administer ingredients in food production in small scenarios"
+                "Practice communicate with customers fundamentals",
+                "Apply communicate with customers in small scenarios"
               ],
               "children": []
             }
@@ -234,8 +238,8 @@
               "objective": "Apply core skills in a realistic scenario",
               "duration_months": 2,
               "prerequisites": [
-                "act reliably",
-                "adhere to organisational guidelines"
+                "achieve sales targets",
+                "apply numeracy skills"
               ],
               "milestones": [
                 "Design project scope",
@@ -249,10 +253,10 @@
               "tasks": [
                 "Select a real-world problem to solve",
                 "Plan the solution",
-                "Target specialist or leadership roles and craft a research/experience summary",
-                "Publish or present your project work on a portfolio or site",
-                "Connect with professionals in the field and request informational interviews",
-                "Graduate a bachelor\u2019s degree or equivalent in a relevant discipline"
+                "Intern or co-op with industry partners to build professional experience",
+                "Build a public portfolio showcasing projects related to rental service representative in other machinery, equipment and tangible goods",
+                "Join local/online communities for practical advice and networking",
+                "Connect with professionals in the field and request informational interviews"
               ],
               "children": []
             },
@@ -261,9 +265,9 @@
               "objective": "Demonstrate comprehensive mastery",
               "duration_months": 2,
               "prerequisites": [
-                "act reliably",
-                "adhere to organisational guidelines",
-                "adjust drying process to goods"
+                "achieve sales targets",
+                "apply numeracy skills",
+                "assist customers"
               ],
               "milestones": [
                 "Complete complex project",
@@ -275,11 +279,11 @@
               ],
               "tasks": [
                 "Define advanced project requirements",
-                "Target specialist or leadership roles and craft a research/experience summary",
+                "Intern or co-op with industry partners to build professional experience",
                 "Connect with professionals in the field and request informational interviews",
-                "Graduate a bachelor\u2019s degree or equivalent in a relevant discipline",
-                "Set short-term learning goals and review progress every month",
-                "Publish or present your project work on a portfolio or site"
+                "Build a public portfolio showcasing projects related to rental service representative in other machinery, equipment and tangible goods",
+                "Join local/online communities for practical advice and networking",
+                "Set short-term learning goals and review progress every month"
               ],
               "children": []
             }
@@ -298,7 +302,7 @@
             "Industry Certifications"
           ],
           "tasks": [
-            "Research trending specializations in pasta operator",
+            "Research trending specializations in rental service representative in other machinery, equipment and tangible goods",
             "Select a niche"
           ],
           "children": [
@@ -307,8 +311,8 @@
               "objective": "Deep dive into a specific area",
               "duration_months": 2,
               "prerequisites": [
-                "act reliably",
-                "adhere to organisational guidelines"
+                "achieve sales targets",
+                "apply numeracy skills"
               ],
               "milestones": [
                 "Complete specialization course",
@@ -319,9 +323,9 @@
                 "Specialized Training"
               ],
               "tasks": [
-                "Publish or present your project work on a portfolio or site",
+                "Intern or co-op with industry partners to build professional experience",
                 "Connect with professionals in the field and request informational interviews",
-                "Mentor junior peers and document advanced workflows",
+                "Join local/online communities for practical advice and networking",
                 "Set short-term learning goals and review progress every month"
               ],
               "children": []
@@ -360,8 +364,8 @@
                 "Resume Builder"
               ],
               "tasks": [
-                "Tailor resume for pasta operator",
-                "Highlight key skills: act reliably, adhere to organisational guidelines, adjust drying process to goods"
+                "Tailor resume for rental service representative in other machinery, equipment and tangible goods",
+                "Highlight key skills: achieve sales targets, apply numeracy skills, assist customers"
               ],
               "children": []
             },
@@ -380,7 +384,7 @@
                 "Networking Events"
               ],
               "tasks": [
-                "Identify top companies for pasta operator",
+                "Identify top companies for rental service representative in other machinery, equipment and tangible goods",
                 "Prepare for interviews"
               ],
               "children": []
@@ -390,7 +394,7 @@
       ]
     },
     {
-      "path_title": "pasta operator",
+      "path_title": "rental service representative in other machinery, equipment and tangible goods",
       "focus": "Fast-Entry",
       "confidence_score": 0.8,
       "steps": [
@@ -414,7 +418,7 @@
           "children": [
             {
               "title": "Industry Fundamentals",
-              "objective": "Understand the core concepts of pasta operator",
+              "objective": "Understand the core concepts of rental service representative in other machinery, equipment and tangible goods",
               "duration_months": 1,
               "prerequisites": [],
               "milestones": [
@@ -428,10 +432,10 @@
                 "Career Guides"
               ],
               "tasks": [
-                "Publish or present your project work on a portfolio or site",
-                "Mentor junior peers and document advanced workflows",
-                "Target specialist or leadership roles and craft a research/experience summary",
-                "Build a public portfolio showcasing projects related to pasta operator",
+                "Intern or co-op with industry partners to build professional experience",
+                "Join local/online communities for practical advice and networking",
+                "Build a public portfolio showcasing projects related to rental service representative in other machinery, equipment and tangible goods",
+                "Connect with professionals in the field and request informational interviews",
                 "Set short-term learning goals and review progress every month"
               ],
               "children": []
@@ -451,7 +455,7 @@
                 "Community Forums"
               ],
               "tasks": [
-                "Research standard tools for pasta operator",
+                "Research standard tools for rental service representative in other machinery, equipment and tangible goods",
                 "Install primary software tools",
                 "Create account on professional networks"
               ],
@@ -461,7 +465,7 @@
         },
         {
           "title": "Core Skills Development",
-          "objective": "Master essential skills for pasta operator",
+          "objective": "Master essential skills for rental service representative in other machinery, equipment and tangible goods",
           "duration_months": 4,
           "prerequisites": [],
           "milestones": [
@@ -478,78 +482,78 @@
           ],
           "children": [
             {
-              "title": "Act Reliably Proficiency",
-              "objective": "Develop proficiency in act reliably",
+              "title": "Achieve Sales Targets Proficiency",
+              "objective": "Develop proficiency in achieve sales targets",
               "duration_months": 2,
               "prerequisites": [],
               "milestones": [
-                "Complete act reliably course",
-                "Demonstrate act reliably usage",
-                "Pass act reliably quiz"
+                "Complete achieve sales targets course",
+                "Demonstrate achieve sales targets usage",
+                "Pass achieve sales targets quiz"
               ],
               "resources": [
-                "Act Reliably Resources"
+                "Achieve Sales Targets Resources"
               ],
               "tasks": [
-                "Practice act reliably fundamentals",
-                "Apply act reliably in small scenarios"
+                "Practice achieve sales targets fundamentals",
+                "Apply achieve sales targets in small scenarios"
               ],
               "children": []
             },
             {
-              "title": "Adhere To Organisational Guidelines Proficiency",
-              "objective": "Develop proficiency in adhere to organisational guidelines",
+              "title": "Apply Numeracy Skills Proficiency",
+              "objective": "Develop proficiency in apply numeracy skills",
               "duration_months": 2,
               "prerequisites": [],
               "milestones": [
-                "Complete adhere to organisational guidelines course",
-                "Demonstrate adhere to organisational guidelines usage",
-                "Pass adhere to organisational guidelines quiz"
+                "Complete apply numeracy skills course",
+                "Demonstrate apply numeracy skills usage",
+                "Pass apply numeracy skills quiz"
               ],
               "resources": [
-                "Adhere To Organisational Guidelines Resources"
+                "Apply Numeracy Skills Resources"
               ],
               "tasks": [
-                "Practice adhere to organisational guidelines fundamentals",
-                "Apply adhere to organisational guidelines in small scenarios"
+                "Practice apply numeracy skills fundamentals",
+                "Apply apply numeracy skills in small scenarios"
               ],
               "children": []
             },
             {
-              "title": "Adjust Drying Process To Goods Proficiency",
-              "objective": "Develop proficiency in adjust drying process to goods",
+              "title": "Assist Customers Proficiency",
+              "objective": "Develop proficiency in assist customers",
               "duration_months": 2,
               "prerequisites": [],
               "milestones": [
-                "Complete adjust drying process to goods course",
-                "Demonstrate adjust drying process to goods usage",
-                "Pass adjust drying process to goods quiz"
+                "Complete assist customers course",
+                "Demonstrate assist customers usage",
+                "Pass assist customers quiz"
               ],
               "resources": [
-                "Adjust Drying Process To Goods Resources"
+                "Assist Customers Resources"
               ],
               "tasks": [
-                "Practice adjust drying process to goods fundamentals",
-                "Apply adjust drying process to goods in small scenarios"
+                "Practice assist customers fundamentals",
+                "Apply assist customers in small scenarios"
               ],
               "children": []
             },
             {
-              "title": "Administer Ingredients In Food Production Proficiency",
-              "objective": "Develop proficiency in administer ingredients in food production",
+              "title": "Communicate With Customers Proficiency",
+              "objective": "Develop proficiency in communicate with customers",
               "duration_months": 2,
               "prerequisites": [],
               "milestones": [
-                "Complete administer ingredients in food production course",
-                "Demonstrate administer ingredients in food production usage",
-                "Pass administer ingredients in food production quiz"
+                "Complete communicate with customers course",
+                "Demonstrate communicate with customers usage",
+                "Pass communicate with customers quiz"
               ],
               "resources": [
-                "Administer Ingredients In Food Production Resources"
+                "Communicate With Customers Resources"
               ],
               "tasks": [
-                "Practice administer ingredients in food production fundamentals",
-                "Apply administer ingredients in food production in small scenarios"
+                "Practice communicate with customers fundamentals",
+                "Apply communicate with customers in small scenarios"
               ],
               "children": []
             }
@@ -577,8 +581,8 @@
               "objective": "Apply core skills in a realistic scenario",
               "duration_months": 2,
               "prerequisites": [
-                "act reliably",
-                "adhere to organisational guidelines"
+                "achieve sales targets",
+                "apply numeracy skills"
               ],
               "milestones": [
                 "Design project scope",
@@ -592,9 +596,9 @@
               "tasks": [
                 "Select a real-world problem to solve",
                 "Plan the solution",
-                "Graduate a bachelor\u2019s degree or equivalent in a relevant discipline",
-                "Connect with professionals in the field and request informational interviews",
-                "Publish or present your project work on a portfolio or site",
+                "Join local/online communities for practical advice and networking",
+                "Intern or co-op with industry partners to build professional experience",
+                "Build a public portfolio showcasing projects related to rental service representative in other machinery, equipment and tangible goods",
                 "Set short-term learning goals and review progress every month"
               ],
               "children": []
@@ -604,9 +608,9 @@
               "objective": "Demonstrate comprehensive mastery",
               "duration_months": 2,
               "prerequisites": [
-                "act reliably",
-                "adhere to organisational guidelines",
-                "adjust drying process to goods"
+                "achieve sales targets",
+                "apply numeracy skills",
+                "assist customers"
               ],
               "milestones": [
                 "Complete complex project",
@@ -619,10 +623,10 @@
               "tasks": [
                 "Define advanced project requirements",
                 "Connect with professionals in the field and request informational interviews",
-                "Target specialist or leadership roles and craft a research/experience summary",
-                "Build a public portfolio showcasing projects related to pasta operator",
-                "Mentor junior peers and document advanced workflows",
-                "Publish or present your project work on a portfolio or site"
+                "Set short-term learning goals and review progress every month",
+                "Join local/online communities for practical advice and networking",
+                "Build a public portfolio showcasing projects related to rental service representative in other machinery, equipment and tangible goods",
+                "Intern or co-op with industry partners to build professional experience"
               ],
               "children": []
             }
@@ -641,7 +645,7 @@
             "Industry Certifications"
           ],
           "tasks": [
-            "Research trending specializations in pasta operator",
+            "Research trending specializations in rental service representative in other machinery, equipment and tangible goods",
             "Select a niche"
           ],
           "children": [
@@ -650,8 +654,8 @@
               "objective": "Deep dive into a specific area",
               "duration_months": 2,
               "prerequisites": [
-                "act reliably",
-                "adhere to organisational guidelines"
+                "achieve sales targets",
+                "apply numeracy skills"
               ],
               "milestones": [
                 "Complete specialization course",
@@ -662,10 +666,10 @@
                 "Specialized Training"
               ],
               "tasks": [
-                "Graduate a bachelor\u2019s degree or equivalent in a relevant discipline",
-                "Set short-term learning goals and review progress every month",
-                "Target specialist or leadership roles and craft a research/experience summary",
-                "Build a public portfolio showcasing projects related to pasta operator"
+                "Intern or co-op with industry partners to build professional experience",
+                "Connect with professionals in the field and request informational interviews",
+                "Join local/online communities for practical advice and networking",
+                "Set short-term learning goals and review progress every month"
               ],
               "children": []
             }
@@ -703,8 +707,8 @@
                 "Resume Builder"
               ],
               "tasks": [
-                "Tailor resume for pasta operator",
-                "Highlight key skills: act reliably, adhere to organisational guidelines, adjust drying process to goods"
+                "Tailor resume for rental service representative in other machinery, equipment and tangible goods",
+                "Highlight key skills: achieve sales targets, apply numeracy skills, assist customers"
               ],
               "children": []
             },
@@ -723,7 +727,7 @@
                 "Networking Events"
               ],
               "tasks": [
-                "Identify top companies for pasta operator",
+                "Identify top companies for rental service representative in other machinery, equipment and tangible goods",
                 "Prepare for interviews"
               ],
               "children": []
@@ -733,7 +737,7 @@
       ]
     },
     {
-      "path_title": "pasta operator",
+      "path_title": "rental service representative in other machinery, equipment and tangible goods",
       "focus": "Transition",
       "confidence_score": 0.8,
       "steps": [
@@ -757,7 +761,7 @@
           "children": [
             {
               "title": "Industry Fundamentals",
-              "objective": "Understand the core concepts of pasta operator",
+              "objective": "Understand the core concepts of rental service representative in other machinery, equipment and tangible goods",
               "duration_months": 1,
               "prerequisites": [],
               "milestones": [
@@ -771,11 +775,11 @@
                 "Career Guides"
               ],
               "tasks": [
-                "Target specialist or leadership roles and craft a research/experience summary",
                 "Set short-term learning goals and review progress every month",
+                "Build a public portfolio showcasing projects related to rental service representative in other machinery, equipment and tangible goods",
                 "Connect with professionals in the field and request informational interviews",
-                "Graduate a bachelor\u2019s degree or equivalent in a relevant discipline",
-                "Build a public portfolio showcasing projects related to pasta operator"
+                "Join local/online communities for practical advice and networking",
+                "Intern or co-op with industry partners to build professional experience"
               ],
               "children": []
             },
@@ -794,7 +798,7 @@
                 "Community Forums"
               ],
               "tasks": [
-                "Research standard tools for pasta operator",
+                "Research standard tools for rental service representative in other machinery, equipment and tangible goods",
                 "Install primary software tools",
                 "Create account on professional networks"
               ],
@@ -804,7 +808,7 @@
         },
         {
           "title": "Core Skills Development",
-          "objective": "Master essential skills for pasta operator",
+          "objective": "Master essential skills for rental service representative in other machinery, equipment and tangible goods",
           "duration_months": 4,
           "prerequisites": [],
           "milestones": [
@@ -821,78 +825,78 @@
           ],
           "children": [
             {
-              "title": "Act Reliably Proficiency",
-              "objective": "Develop proficiency in act reliably",
+              "title": "Achieve Sales Targets Proficiency",
+              "objective": "Develop proficiency in achieve sales targets",
               "duration_months": 2,
               "prerequisites": [],
               "milestones": [
-                "Complete act reliably course",
-                "Demonstrate act reliably usage",
-                "Pass act reliably quiz"
+                "Complete achieve sales targets course",
+                "Demonstrate achieve sales targets usage",
+                "Pass achieve sales targets quiz"
               ],
               "resources": [
-                "Act Reliably Resources"
+                "Achieve Sales Targets Resources"
               ],
               "tasks": [
-                "Practice act reliably fundamentals",
-                "Apply act reliably in small scenarios"
+                "Practice achieve sales targets fundamentals",
+                "Apply achieve sales targets in small scenarios"
               ],
               "children": []
             },
             {
-              "title": "Adhere To Organisational Guidelines Proficiency",
-              "objective": "Develop proficiency in adhere to organisational guidelines",
+              "title": "Apply Numeracy Skills Proficiency",
+              "objective": "Develop proficiency in apply numeracy skills",
               "duration_months": 2,
               "prerequisites": [],
               "milestones": [
-                "Complete adhere to organisational guidelines course",
-                "Demonstrate adhere to organisational guidelines usage",
-                "Pass adhere to organisational guidelines quiz"
+                "Complete apply numeracy skills course",
+                "Demonstrate apply numeracy skills usage",
+                "Pass apply numeracy skills quiz"
               ],
               "resources": [
-                "Adhere To Organisational Guidelines Resources"
+                "Apply Numeracy Skills Resources"
               ],
               "tasks": [
-                "Practice adhere to organisational guidelines fundamentals",
-                "Apply adhere to organisational guidelines in small scenarios"
+                "Practice apply numeracy skills fundamentals",
+                "Apply apply numeracy skills in small scenarios"
               ],
               "children": []
             },
             {
-              "title": "Adjust Drying Process To Goods Proficiency",
-              "objective": "Develop proficiency in adjust drying process to goods",
+              "title": "Assist Customers Proficiency",
+              "objective": "Develop proficiency in assist customers",
               "duration_months": 2,
               "prerequisites": [],
               "milestones": [
-                "Complete adjust drying process to goods course",
-                "Demonstrate adjust drying process to goods usage",
-                "Pass adjust drying process to goods quiz"
+                "Complete assist customers course",
+                "Demonstrate assist customers usage",
+                "Pass assist customers quiz"
               ],
               "resources": [
-                "Adjust Drying Process To Goods Resources"
+                "Assist Customers Resources"
               ],
               "tasks": [
-                "Practice adjust drying process to goods fundamentals",
-                "Apply adjust drying process to goods in small scenarios"
+                "Practice assist customers fundamentals",
+                "Apply assist customers in small scenarios"
               ],
               "children": []
             },
             {
-              "title": "Administer Ingredients In Food Production Proficiency",
-              "objective": "Develop proficiency in administer ingredients in food production",
+              "title": "Communicate With Customers Proficiency",
+              "objective": "Develop proficiency in communicate with customers",
               "duration_months": 2,
               "prerequisites": [],
               "milestones": [
-                "Complete administer ingredients in food production course",
-                "Demonstrate administer ingredients in food production usage",
-                "Pass administer ingredients in food production quiz"
+                "Complete communicate with customers course",
+                "Demonstrate communicate with customers usage",
+                "Pass communicate with customers quiz"
               ],
               "resources": [
-                "Administer Ingredients In Food Production Resources"
+                "Communicate With Customers Resources"
               ],
               "tasks": [
-                "Practice administer ingredients in food production fundamentals",
-                "Apply administer ingredients in food production in small scenarios"
+                "Practice communicate with customers fundamentals",
+                "Apply communicate with customers in small scenarios"
               ],
               "children": []
             }
@@ -920,8 +924,8 @@
               "objective": "Apply core skills in a realistic scenario",
               "duration_months": 2,
               "prerequisites": [
-                "act reliably",
-                "adhere to organisational guidelines"
+                "achieve sales targets",
+                "apply numeracy skills"
               ],
               "milestones": [
                 "Design project scope",
@@ -935,10 +939,10 @@
               "tasks": [
                 "Select a real-world problem to solve",
                 "Plan the solution",
-                "Publish or present your project work on a portfolio or site",
-                "Graduate a bachelor\u2019s degree or equivalent in a relevant discipline",
-                "Set short-term learning goals and review progress every month",
-                "Mentor junior peers and document advanced workflows"
+                "Connect with professionals in the field and request informational interviews",
+                "Intern or co-op with industry partners to build professional experience",
+                "Join local/online communities for practical advice and networking",
+                "Set short-term learning goals and review progress every month"
               ],
               "children": []
             },
@@ -947,9 +951,9 @@
               "objective": "Demonstrate comprehensive mastery",
               "duration_months": 2,
               "prerequisites": [
-                "act reliably",
-                "adhere to organisational guidelines",
-                "adjust drying process to goods"
+                "achieve sales targets",
+                "apply numeracy skills",
+                "assist customers"
               ],
               "milestones": [
                 "Complete complex project",
@@ -961,11 +965,11 @@
               ],
               "tasks": [
                 "Define advanced project requirements",
-                "Set short-term learning goals and review progress every month",
-                "Publish or present your project work on a portfolio or site",
-                "Target specialist or leadership roles and craft a research/experience summary",
-                "Graduate a bachelor\u2019s degree or equivalent in a relevant discipline",
-                "Mentor junior peers and document advanced workflows"
+                "Build a public portfolio showcasing projects related to rental service representative in other machinery, equipment and tangible goods",
+                "Intern or co-op with industry partners to build professional experience",
+                "Connect with professionals in the field and request informational interviews",
+                "Join local/online communities for practical advice and networking",
+                "Set short-term learning goals and review progress every month"
               ],
               "children": []
             }
@@ -984,7 +988,7 @@
             "Industry Certifications"
           ],
           "tasks": [
-            "Research trending specializations in pasta operator",
+            "Research trending specializations in rental service representative in other machinery, equipment and tangible goods",
             "Select a niche"
           ],
           "children": [
@@ -993,8 +997,8 @@
               "objective": "Deep dive into a specific area",
               "duration_months": 2,
               "prerequisites": [
-                "act reliably",
-                "adhere to organisational guidelines"
+                "achieve sales targets",
+                "apply numeracy skills"
               ],
               "milestones": [
                 "Complete specialization course",
@@ -1005,10 +1009,10 @@
                 "Specialized Training"
               ],
               "tasks": [
-                "Target specialist or leadership roles and craft a research/experience summary",
-                "Publish or present your project work on a portfolio or site",
                 "Connect with professionals in the field and request informational interviews",
-                "Build a public portfolio showcasing projects related to pasta operator"
+                "Set short-term learning goals and review progress every month",
+                "Build a public portfolio showcasing projects related to rental service representative in other machinery, equipment and tangible goods",
+                "Intern or co-op with industry partners to build professional experience"
               ],
               "children": []
             }
@@ -1046,8 +1050,8 @@
                 "Resume Builder"
               ],
               "tasks": [
-                "Tailor resume for pasta operator",
-                "Highlight key skills: act reliably, adhere to organisational guidelines, adjust drying process to goods"
+                "Tailor resume for rental service representative in other machinery, equipment and tangible goods",
+                "Highlight key skills: achieve sales targets, apply numeracy skills, assist customers"
               ],
               "children": []
             },
@@ -1066,7 +1070,7 @@
                 "Networking Events"
               ],
               "tasks": [
-                "Identify top companies for pasta operator",
+                "Identify top companies for rental service representative in other machinery, equipment and tangible goods",
                 "Prepare for interviews"
               ],
               "children": []

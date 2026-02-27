@@ -3,14 +3,17 @@ from dataclasses import dataclass, field
 from typing import List, Dict, Any
 
 @dataclass
+class RoadmapTask:
+    title: str
+    description: str
+
+@dataclass
 class RoadmapStep:
     title: str
     objective: str
-    duration_months: int
     prerequisites: List[str]
-    milestones: List[str]
     resources: List[str]
-    tasks: List[str] = field(default_factory=list)
+    tasks: List[RoadmapTask] = field(default_factory=list)
     children: List['RoadmapStep'] = field(default_factory=list)
 
 @dataclass
@@ -20,18 +23,40 @@ class Roadmap:
     confidence_score: float
     steps: List[RoadmapStep]
 
+def _extract_title_from_task(task_text: str) -> str:
+    """Helper to extract a short title from a long task description."""
+    prefixes_to_remove = [
+        "study ", "complete an ", "complete ", "learn to ", "develop skills in ", 
+        "develop proficiency in ", "practice ", "apply ", "demonstrate comprehensive ", 
+        "demonstrate ", "build ", "choose ", "master ", "obtain your ", "obtain ",
+        "understand ", "set up ", "gain ", "secure ", "execute ", "create "
+    ]
+    
+    title = task_text.lower().strip()
+    for prefix in prefixes_to_remove:
+        if title.startswith(prefix):
+            title = title[len(prefix):]
+            break
+            
+    # take the first few words of whatever is left, up to 3-4 words
+    title = title.split(',')[0].strip()
+    words = title.split()
+    if len(words) > 3:
+        title = " ".join(words[:3])
+    else:
+        title = " ".join(words)
+        
+    return f"({title.capitalize()})"
 
 def generate_steps_for_career(career: Dict[str,Any], profile_skills: List[str], focus: str, beginner: bool = True):
     known = [s for s in [sk.lower() for sk in career.get('skills', [])] if s in profile_skills]
     missing = [s for s in [sk.lower() for sk in career.get('skills', [])] if s not in profile_skills]
 
-    def make_step(title, objective, months, prereq, milestones, resources, tasks=None, children=None):
+    def make_step(title, objective, prereq, resources, tasks=None, children=None):
         return RoadmapStep(
             title=title,
             objective=objective,
-            duration_months=months,
             prerequisites=prereq,
-            milestones=milestones,
             resources=resources,
             tasks=tasks or [],
             children=children or []
@@ -41,47 +66,56 @@ def generate_steps_for_career(career: Dict[str,Any], profile_skills: List[str], 
     career_tasks = career.get('tasks', [])
     career_name = career.get('career', 'Career')
     
-    # helper to get random subset or fallback
-    def get_tasks(count, fallback_prefix):
-        if career_tasks:
-            # try to find relevant tasks first if possible, else random
-            return random.sample(career_tasks, min(len(career_tasks), count))
-        return [f"{fallback_prefix} {i+1}" for i in range(count)]
-
-    # helper to generate milestones
-    def get_milestones(context, count=3):
-        return [f"Complete {context} module {i+1}", f"Pass {context} assessment", f"Build {context} demo"]
+    available_tasks = list(career_tasks)
+    
+    def get_phase_tasks(count, fallback_prefix):
+        """Pops up to `count` tasks from the available list, or generates fallbacks."""
+        selected_tasks = []
+        for _ in range(count):
+            if available_tasks:
+                selected_tasks.append(available_tasks.pop(0))
+            else:
+                selected_tasks.append(f"{fallback_prefix} {len(selected_tasks)+1}")
+        return selected_tasks
+        
+    def get_tasks_with_titles(count, fallback_prefix):
+        """Returns a list of RoadmapTask objects with generated titles and descriptions."""
+        tasks = get_phase_tasks(count, fallback_prefix)
+        task_objs = []
+        for t in tasks:
+            title = _extract_title_from_task(t)
+            task_objs.append(RoadmapTask(title=title, description=t))
+        return task_objs
 
     # 1. Foundations
     foundations_children = []
     if beginner:
+        t1 = get_tasks_with_titles(2, 'Study fundamental concept')
         foundations_children.append(make_step(
             'Industry Fundamentals',
             f'Understand the core concepts of {career_name}',
-            1,
             [],
-            ['Complete introductory course', 'Learn industry terminology', 'Understand role responsibilities'],
             ['Online Courses', 'Industry Glossaries', 'Career Guides'],
-            get_tasks(5, 'Study fundamental concept')
+            t1
         ))
+        
+        t2 = get_tasks_with_titles(1, 'Research standard tools')
         foundations_children.append(make_step(
             'Tools & Environment',
             'Set up your professional workspace',
-            1,
             [],
-            ['Install necessary software', 'Configure development/work environment', 'Join professional communities'],
             ['Official Documentation', 'Community Forums'],
-            ['Research standard tools for ' + career_name, 'Install primary software tools', 'Create account on professional networks']
+            t2
         ))
 
+    # A phase-level task
+    t_f = get_tasks_with_titles(1, 'Set up workspace')
     foundations = make_step(
         'Foundations', 
         'Build essential groundwork for your career', 
-        1 if beginner else 0, 
         [], 
-        ['Complete foundation modules', 'Set up workspace'],
         ['Standard Industry Tools'],
-        ['Set up your learning workspace', 'Create a study schedule', 'Join relevant online communities'],
+        t_f,
         children=foundations_children
     )
 
@@ -90,131 +124,114 @@ def generate_steps_for_career(career: Dict[str,Any], profile_skills: List[str], 
     skills_to_learn = (missing[:4] if missing else career.get('skills', [])[:4])
     
     for i, sk in enumerate(skills_to_learn):
-        # Try to find tasks related to this skill
-        related_tasks = [t for t in career_tasks if sk.lower() in t.lower()]
-        step_tasks = related_tasks[:3] if related_tasks else [f'Practice {sk} fundamentals', f'Apply {sk} in small scenarios']
-        
+        t_sk = get_tasks_with_titles(1, f'Practice {sk}')
         core_children.append(make_step(
             f'{sk.title()} Proficiency', 
             f'Develop proficiency in {sk}', 
-            2, 
             known[:2] if i == 0 else [], 
-            [f'Complete {sk} course', f'Demonstrate {sk} usage', f'Pass {sk} quiz'],
             [f'{sk.title()} Resources'],
-            step_tasks
+            t_sk
         ))
     
+    t_c = get_tasks_with_titles(1, 'Master core skills')
     core = make_step(
         'Core Skills Development', 
         f'Master essential skills for {career_name}', 
-        max(2, len(core_children)), 
         known, 
-        ['Complete all core skill modules', 'Pass skill assessments'],
         ['Online Learning Platforms'],
-        ['Create a skills tracking spreadsheet', 'Set up practice projects', 'Find a mentor'],
+        t_c,
         children=core_children
     )
 
     # 3. Practical Application (Projects/Experience)
     project_children = []
     
-    # Project 1: Basic Application
-    proj1_tasks = get_tasks(4, 'Implement basic feature')
+    t_p1 = get_tasks_with_titles(2, 'Apply core skills')
     project_children.append(make_step(
         'Applied Practice Project', 
         'Apply core skills in a realistic scenario', 
-        2, 
         known + missing[:2], 
-        ['Design project scope', 'Implement core features', 'Document results'],
         ['Project Management Tools', 'Documentation Tools'],
-        ['Select a real-world problem to solve', 'Plan the solution'] + proj1_tasks
+        t_p1
     ))
 
-    # Project 2: Advanced Application
-    proj2_tasks = get_tasks(5, 'Implement advanced feature')
+    t_p2 = get_tasks_with_titles(1, 'Demonstrate mastery')
     project_children.append(make_step(
         'Advanced Capstone', 
         'Demonstrate comprehensive mastery', 
-        2, 
         known + missing[:3], 
-        ['Complete complex project', 'Peer review', 'Final presentation'],
         ['Advanced Tools'],
-        ['Define advanced project requirements'] + proj2_tasks
+        t_p2
     ))
 
+    t_p = get_tasks_with_titles(1, 'Build portfolio')
     project = make_step(
         'Practical Application', 
         'Gain hands-on experience through projects or simulations', 
-        len(project_children), 
         known, 
-        ['Complete 2 major projects', 'Build portfolio'],
         ['Portfolio Platform'],
-        ['Research industry standard projects', 'Document process and outcomes'],
+        t_p,
         children=project_children
     )
 
     # 4. Specialization
+    
+    t_s1 = get_tasks_with_titles(1, 'Study advanced topic')
     spec_children = [
         make_step(
             'Specialization Track', 
             'Deep dive into a specific area', 
-            2, 
             known + missing[:2], 
-            ['Complete specialization course', 'Advanced certification', 'Master advanced concepts'],
             ['Specialized Training'],
-            get_tasks(4, 'Study advanced topic')
+            t_s1
         )
     ]
+    
+    t_s = get_tasks_with_titles(1, 'Choose specialization')
     spec = make_step(
         'Specialization', 
         'Develop expertise in specific areas', 
-        2, 
         [], 
-        ['Choose specialization', 'Achieve advanced competency'],
         ['Industry Certifications'],
-        ['Research trending specializations in ' + career_name, 'Select a niche'],
+        t_s,
         children=spec_children
     )
 
     # 5. Career Launch
+    t_j1 = get_tasks_with_titles(1, 'Professional Branding')
+    t_j2 = get_tasks_with_titles(1, 'Job Search Strategy')
+    
     job_children = [
         make_step(
             'Professional Branding', 
             'Create compelling professional presence', 
-            1, 
             [], 
-            ['Update resume', 'Optimize professional profile', 'Build portfolio'],
             ['LinkedIn', 'Resume Builder'],
-            ['Tailor resume for ' + career_name, 'Highlight key skills: ' + ', '.join(skills_to_learn[:3])]
+            t_j1
         ),
         make_step(
             'Job Search Strategy', 
             'Execute systematic job search', 
-            1, 
             [], 
-            ['Apply to positions', 'Network', 'Interview prep'],
             ['Job Boards', 'Networking Events'],
-            ['Identify top companies for ' + career_name, 'Prepare for interviews']
+            t_j2
         )
     ]
+    
+    t_j = get_tasks_with_titles(1, 'Secure job offer')
     job = make_step(
         'Career Launch', 
         'Land your first role in the field', 
-        len(job_children), 
         [], 
-        ['Complete branding', 'Secure job offer'],
         ['Job Search Platforms'],
-        ['Develop job search strategy', 'Practice interview questions'],
+        t_j,
         children=job_children
     )
 
-    # Tailor for focus
-    if focus == 'Depth':
-        core.duration_months += 1
-    elif focus == 'Fast-Entry':
-        project.duration_months += 1
-    elif focus == 'Transition':
-        job.duration_months += 1
+    # Any remaining tasks can be added to the final Career Launch node to make sure they aren't lost
+    if available_tasks:
+        t_rem = get_tasks_with_titles(len(available_tasks), '')
+        job.tasks.extend(t_rem)
 
     return [foundations, core, project, spec, job]
 

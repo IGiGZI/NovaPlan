@@ -19,10 +19,10 @@
       },
       {
         "questionId": "Q_PERS4_GR_ANALYTICAL_OUTDOOR_BAL",
-        "label": "Client-facing \u2014 I enjoy working with the public"
+        "label": "Large collaborative organization"
       },
       {
-        "questionId": "Q_PERS5_GR_ANALYTICAL_OUTDOOR_BAL_CLIENT",
+        "questionId": "Q_PERS5_GR_ANALYTICAL_OUTDOOR_BAL_LARGE",
         "label": "Private sector / corporate"
       },
       {
@@ -35,7 +35,7 @@
       },
       {
         "questionId": "Q4_GR_AVIA_MIL",
-        "label": "Fast jet / fighter pilot"
+        "label": "Multi-engine patrol or maritime patrol"
       }
     ],
     "careers": [
@@ -44,10 +44,10 @@
     "category": "Aviation & Piloting"
   },
   "derived_skills": [],
-  "chosen_career": "pasta operator",
+  "chosen_career": "land-based machinery technician",
   "roadmaps": [
     {
-      "path_title": "pasta operator",
+      "path_title": "land-based machinery technician",
       "focus": "Depth",
       "confidence_score": 0.8,
       "steps": [
@@ -71,7 +71,7 @@
           "children": [
             {
               "title": "Industry Fundamentals",
-              "objective": "Understand the core concepts of pasta operator",
+              "objective": "Understand the core concepts of land-based machinery technician",
               "duration_months": 1,
               "prerequisites": [],
               "milestones": [
@@ -87,9 +87,9 @@
               "tasks": [
                 "Set short-term learning goals and review progress every month",
                 "Connect with professionals in the field and request informational interviews",
-                "Graduate a bachelor\u2019s degree or equivalent in a relevant discipline",
-                "Target specialist or leadership roles and craft a research/experience summary",
-                "Build a public portfolio showcasing projects related to pasta operator"
+                "Build a public portfolio showcasing projects related to land-based machinery technician",
+                "Lead complex applied projects or supervised research using assemble machines",
+                "Lead a capstone or team project solving a realistic problem in land-based machinery technician"
               ],
               "children": []
             },
@@ -108,7 +108,7 @@
                 "Community Forums"
               ],
               "tasks": [
-                "Research standard tools for pasta operator",
+                "Research standard tools for land-based machinery technician",
                 "Install primary software tools",
                 "Create account on professional networks"
               ],
@@ -118,7 +118,7 @@
         },
         {
           "title": "Core Skills Development",
-          "objective": "Master essential skills for pasta operator",
+          "objective": "Master essential skills for land-based machinery technician",
           "duration_months": 5,
           "prerequisites": [],
           "milestones": [
@@ -135,78 +135,77 @@
           ],
           "children": [
             {
-              "title": "Act Reliably Proficiency",
-              "objective": "Develop proficiency in act reliably",
+              "title": "Apply Health And Safety Standards Proficiency",
+              "objective": "Develop proficiency in apply health and safety standards",
               "duration_months": 2,
               "prerequisites": [],
               "milestones": [
-                "Complete act reliably course",
-                "Demonstrate act reliably usage",
-                "Pass act reliably quiz"
+                "Complete apply health and safety standards course",
+                "Demonstrate apply health and safety standards usage",
+                "Pass apply health and safety standards quiz"
               ],
               "resources": [
-                "Act Reliably Resources"
+                "Apply Health And Safety Standards Resources"
               ],
               "tasks": [
-                "Practice act reliably fundamentals",
-                "Apply act reliably in small scenarios"
+                "Practice apply health and safety standards fundamentals",
+                "Apply apply health and safety standards in small scenarios"
               ],
               "children": []
             },
             {
-              "title": "Adhere To Organisational Guidelines Proficiency",
-              "objective": "Develop proficiency in adhere to organisational guidelines",
+              "title": "Assemble Machines Proficiency",
+              "objective": "Develop proficiency in assemble machines",
               "duration_months": 2,
               "prerequisites": [],
               "milestones": [
-                "Complete adhere to organisational guidelines course",
-                "Demonstrate adhere to organisational guidelines usage",
-                "Pass adhere to organisational guidelines quiz"
+                "Complete assemble machines course",
+                "Demonstrate assemble machines usage",
+                "Pass assemble machines quiz"
               ],
               "resources": [
-                "Adhere To Organisational Guidelines Resources"
+                "Assemble Machines Resources"
               ],
               "tasks": [
-                "Practice adhere to organisational guidelines fundamentals",
-                "Apply adhere to organisational guidelines in small scenarios"
+                "Lead complex applied projects or supervised research using assemble machines"
               ],
               "children": []
             },
             {
-              "title": "Adjust Drying Process To Goods Proficiency",
-              "objective": "Develop proficiency in adjust drying process to goods",
+              "title": "Carry Out Improvised Vehicle Repairs Proficiency",
+              "objective": "Develop proficiency in carry out improvised vehicle repairs",
               "duration_months": 2,
               "prerequisites": [],
               "milestones": [
-                "Complete adjust drying process to goods course",
-                "Demonstrate adjust drying process to goods usage",
-                "Pass adjust drying process to goods quiz"
+                "Complete carry out improvised vehicle repairs course",
+                "Demonstrate carry out improvised vehicle repairs usage",
+                "Pass carry out improvised vehicle repairs quiz"
               ],
               "resources": [
-                "Adjust Drying Process To Goods Resources"
+                "Carry Out Improvised Vehicle Repairs Resources"
               ],
               "tasks": [
-                "Practice adjust drying process to goods fundamentals",
-                "Apply adjust drying process to goods in small scenarios"
+                "Practice carry out improvised vehicle repairs fundamentals",
+                "Apply carry out improvised vehicle repairs in small scenarios"
               ],
               "children": []
             },
             {
-              "title": "Administer Ingredients In Food Production Proficiency",
-              "objective": "Develop proficiency in administer ingredients in food production",
+              "title": "Clean Vehicle Engine Proficiency",
+              "objective": "Develop proficiency in clean vehicle engine",
               "duration_months": 2,
               "prerequisites": [],
               "milestones": [
-                "Complete administer ingredients in food production course",
-                "Demonstrate administer ingredients in food production usage",
-                "Pass administer ingredients in food production quiz"
+                "Complete clean vehicle engine course",
+                "Demonstrate clean vehicle engine usage",
+                "Pass clean vehicle engine quiz"
               ],
               "resources": [
-                "Administer Ingredients In Food Production Resources"
+                "Clean Vehicle Engine Resources"
               ],
               "tasks": [
-                "Practice administer ingredients in food production fundamentals",
-                "Apply administer ingredients in food production in small scenarios"
+                "Practice clean vehicle engine fundamentals",
+                "Apply clean vehicle engine in small scenarios"
               ],
               "children": []
             }
@@ -234,8 +233,8 @@
               "objective": "Apply core skills in a realistic scenario",
               "duration_months": 2,
               "prerequisites": [
-                "act reliably",
-                "adhere to organisational guidelines"
+                "apply health and safety standards",
+                "assemble machines"
               ],
               "milestones": [
                 "Design project scope",
@@ -249,10 +248,10 @@
               "tasks": [
                 "Select a real-world problem to solve",
                 "Plan the solution",
-                "Target specialist or leadership roles and craft a research/experience summary",
-                "Publish or present your project work on a portfolio or site",
-                "Connect with professionals in the field and request informational interviews",
-                "Graduate a bachelor\u2019s degree or equivalent in a relevant discipline"
+                "Build a public portfolio showcasing projects related to land-based machinery technician",
+                "Set short-term learning goals and review progress every month",
+                "Lead a capstone or team project solving a realistic problem in land-based machinery technician",
+                "Lead complex applied projects or supervised research using assemble machines"
               ],
               "children": []
             },
@@ -261,9 +260,9 @@
               "objective": "Demonstrate comprehensive mastery",
               "duration_months": 2,
               "prerequisites": [
-                "act reliably",
-                "adhere to organisational guidelines",
-                "adjust drying process to goods"
+                "apply health and safety standards",
+                "assemble machines",
+                "carry out improvised vehicle repairs"
               ],
               "milestones": [
                 "Complete complex project",
@@ -275,11 +274,11 @@
               ],
               "tasks": [
                 "Define advanced project requirements",
-                "Target specialist or leadership roles and craft a research/experience summary",
                 "Connect with professionals in the field and request informational interviews",
-                "Graduate a bachelor\u2019s degree or equivalent in a relevant discipline",
                 "Set short-term learning goals and review progress every month",
-                "Publish or present your project work on a portfolio or site"
+                "Lead complex applied projects or supervised research using assemble machines",
+                "Lead a capstone or team project solving a realistic problem in land-based machinery technician",
+                "Build a public portfolio showcasing projects related to land-based machinery technician"
               ],
               "children": []
             }
@@ -298,7 +297,7 @@
             "Industry Certifications"
           ],
           "tasks": [
-            "Research trending specializations in pasta operator",
+            "Research trending specializations in land-based machinery technician",
             "Select a niche"
           ],
           "children": [
@@ -307,8 +306,8 @@
               "objective": "Deep dive into a specific area",
               "duration_months": 2,
               "prerequisites": [
-                "act reliably",
-                "adhere to organisational guidelines"
+                "apply health and safety standards",
+                "assemble machines"
               ],
               "milestones": [
                 "Complete specialization course",
@@ -319,10 +318,10 @@
                 "Specialized Training"
               ],
               "tasks": [
-                "Publish or present your project work on a portfolio or site",
-                "Connect with professionals in the field and request informational interviews",
-                "Mentor junior peers and document advanced workflows",
-                "Set short-term learning goals and review progress every month"
+                "Lead a capstone or team project solving a realistic problem in land-based machinery technician",
+                "Build a public portfolio showcasing projects related to land-based machinery technician",
+                "Lead complex applied projects or supervised research using assemble machines",
+                "Connect with professionals in the field and request informational interviews"
               ],
               "children": []
             }
@@ -360,8 +359,8 @@
                 "Resume Builder"
               ],
               "tasks": [
-                "Tailor resume for pasta operator",
-                "Highlight key skills: act reliably, adhere to organisational guidelines, adjust drying process to goods"
+                "Tailor resume for land-based machinery technician",
+                "Highlight key skills: apply health and safety standards, assemble machines, carry out improvised vehicle repairs"
               ],
               "children": []
             },
@@ -380,7 +379,7 @@
                 "Networking Events"
               ],
               "tasks": [
-                "Identify top companies for pasta operator",
+                "Identify top companies for land-based machinery technician",
                 "Prepare for interviews"
               ],
               "children": []
@@ -390,7 +389,7 @@
       ]
     },
     {
-      "path_title": "pasta operator",
+      "path_title": "land-based machinery technician",
       "focus": "Fast-Entry",
       "confidence_score": 0.8,
       "steps": [
@@ -414,7 +413,7 @@
           "children": [
             {
               "title": "Industry Fundamentals",
-              "objective": "Understand the core concepts of pasta operator",
+              "objective": "Understand the core concepts of land-based machinery technician",
               "duration_months": 1,
               "prerequisites": [],
               "milestones": [
@@ -428,10 +427,10 @@
                 "Career Guides"
               ],
               "tasks": [
-                "Publish or present your project work on a portfolio or site",
-                "Mentor junior peers and document advanced workflows",
-                "Target specialist or leadership roles and craft a research/experience summary",
-                "Build a public portfolio showcasing projects related to pasta operator",
+                "Lead a capstone or team project solving a realistic problem in land-based machinery technician",
+                "Lead complex applied projects or supervised research using assemble machines",
+                "Connect with professionals in the field and request informational interviews",
+                "Build a public portfolio showcasing projects related to land-based machinery technician",
                 "Set short-term learning goals and review progress every month"
               ],
               "children": []
@@ -451,7 +450,7 @@
                 "Community Forums"
               ],
               "tasks": [
-                "Research standard tools for pasta operator",
+                "Research standard tools for land-based machinery technician",
                 "Install primary software tools",
                 "Create account on professional networks"
               ],
@@ -461,7 +460,7 @@
         },
         {
           "title": "Core Skills Development",
-          "objective": "Master essential skills for pasta operator",
+          "objective": "Master essential skills for land-based machinery technician",
           "duration_months": 4,
           "prerequisites": [],
           "milestones": [
@@ -478,78 +477,77 @@
           ],
           "children": [
             {
-              "title": "Act Reliably Proficiency",
-              "objective": "Develop proficiency in act reliably",
+              "title": "Apply Health And Safety Standards Proficiency",
+              "objective": "Develop proficiency in apply health and safety standards",
               "duration_months": 2,
               "prerequisites": [],
               "milestones": [
-                "Complete act reliably course",
-                "Demonstrate act reliably usage",
-                "Pass act reliably quiz"
+                "Complete apply health and safety standards course",
+                "Demonstrate apply health and safety standards usage",
+                "Pass apply health and safety standards quiz"
               ],
               "resources": [
-                "Act Reliably Resources"
+                "Apply Health And Safety Standards Resources"
               ],
               "tasks": [
-                "Practice act reliably fundamentals",
-                "Apply act reliably in small scenarios"
+                "Practice apply health and safety standards fundamentals",
+                "Apply apply health and safety standards in small scenarios"
               ],
               "children": []
             },
             {
-              "title": "Adhere To Organisational Guidelines Proficiency",
-              "objective": "Develop proficiency in adhere to organisational guidelines",
+              "title": "Assemble Machines Proficiency",
+              "objective": "Develop proficiency in assemble machines",
               "duration_months": 2,
               "prerequisites": [],
               "milestones": [
-                "Complete adhere to organisational guidelines course",
-                "Demonstrate adhere to organisational guidelines usage",
-                "Pass adhere to organisational guidelines quiz"
+                "Complete assemble machines course",
+                "Demonstrate assemble machines usage",
+                "Pass assemble machines quiz"
               ],
               "resources": [
-                "Adhere To Organisational Guidelines Resources"
+                "Assemble Machines Resources"
               ],
               "tasks": [
-                "Practice adhere to organisational guidelines fundamentals",
-                "Apply adhere to organisational guidelines in small scenarios"
+                "Lead complex applied projects or supervised research using assemble machines"
               ],
               "children": []
             },
             {
-              "title": "Adjust Drying Process To Goods Proficiency",
-              "objective": "Develop proficiency in adjust drying process to goods",
+              "title": "Carry Out Improvised Vehicle Repairs Proficiency",
+              "objective": "Develop proficiency in carry out improvised vehicle repairs",
               "duration_months": 2,
               "prerequisites": [],
               "milestones": [
-                "Complete adjust drying process to goods course",
-                "Demonstrate adjust drying process to goods usage",
-                "Pass adjust drying process to goods quiz"
+                "Complete carry out improvised vehicle repairs course",
+                "Demonstrate carry out improvised vehicle repairs usage",
+                "Pass carry out improvised vehicle repairs quiz"
               ],
               "resources": [
-                "Adjust Drying Process To Goods Resources"
+                "Carry Out Improvised Vehicle Repairs Resources"
               ],
               "tasks": [
-                "Practice adjust drying process to goods fundamentals",
-                "Apply adjust drying process to goods in small scenarios"
+                "Practice carry out improvised vehicle repairs fundamentals",
+                "Apply carry out improvised vehicle repairs in small scenarios"
               ],
               "children": []
             },
             {
-              "title": "Administer Ingredients In Food Production Proficiency",
-              "objective": "Develop proficiency in administer ingredients in food production",
+              "title": "Clean Vehicle Engine Proficiency",
+              "objective": "Develop proficiency in clean vehicle engine",
               "duration_months": 2,
               "prerequisites": [],
               "milestones": [
-                "Complete administer ingredients in food production course",
-                "Demonstrate administer ingredients in food production usage",
-                "Pass administer ingredients in food production quiz"
+                "Complete clean vehicle engine course",
+                "Demonstrate clean vehicle engine usage",
+                "Pass clean vehicle engine quiz"
               ],
               "resources": [
-                "Administer Ingredients In Food Production Resources"
+                "Clean Vehicle Engine Resources"
               ],
               "tasks": [
-                "Practice administer ingredients in food production fundamentals",
-                "Apply administer ingredients in food production in small scenarios"
+                "Practice clean vehicle engine fundamentals",
+                "Apply clean vehicle engine in small scenarios"
               ],
               "children": []
             }
@@ -577,8 +575,8 @@
               "objective": "Apply core skills in a realistic scenario",
               "duration_months": 2,
               "prerequisites": [
-                "act reliably",
-                "adhere to organisational guidelines"
+                "apply health and safety standards",
+                "assemble machines"
               ],
               "milestones": [
                 "Design project scope",
@@ -592,10 +590,10 @@
               "tasks": [
                 "Select a real-world problem to solve",
                 "Plan the solution",
-                "Graduate a bachelor\u2019s degree or equivalent in a relevant discipline",
-                "Connect with professionals in the field and request informational interviews",
-                "Publish or present your project work on a portfolio or site",
-                "Set short-term learning goals and review progress every month"
+                "Build a public portfolio showcasing projects related to land-based machinery technician",
+                "Lead complex applied projects or supervised research using assemble machines",
+                "Set short-term learning goals and review progress every month",
+                "Connect with professionals in the field and request informational interviews"
               ],
               "children": []
             },
@@ -604,9 +602,9 @@
               "objective": "Demonstrate comprehensive mastery",
               "duration_months": 2,
               "prerequisites": [
-                "act reliably",
-                "adhere to organisational guidelines",
-                "adjust drying process to goods"
+                "apply health and safety standards",
+                "assemble machines",
+                "carry out improvised vehicle repairs"
               ],
               "milestones": [
                 "Complete complex project",
@@ -618,11 +616,11 @@
               ],
               "tasks": [
                 "Define advanced project requirements",
+                "Set short-term learning goals and review progress every month",
+                "Build a public portfolio showcasing projects related to land-based machinery technician",
                 "Connect with professionals in the field and request informational interviews",
-                "Target specialist or leadership roles and craft a research/experience summary",
-                "Build a public portfolio showcasing projects related to pasta operator",
-                "Mentor junior peers and document advanced workflows",
-                "Publish or present your project work on a portfolio or site"
+                "Lead a capstone or team project solving a realistic problem in land-based machinery technician",
+                "Lead complex applied projects or supervised research using assemble machines"
               ],
               "children": []
             }
@@ -641,7 +639,7 @@
             "Industry Certifications"
           ],
           "tasks": [
-            "Research trending specializations in pasta operator",
+            "Research trending specializations in land-based machinery technician",
             "Select a niche"
           ],
           "children": [
@@ -650,8 +648,8 @@
               "objective": "Deep dive into a specific area",
               "duration_months": 2,
               "prerequisites": [
-                "act reliably",
-                "adhere to organisational guidelines"
+                "apply health and safety standards",
+                "assemble machines"
               ],
               "milestones": [
                 "Complete specialization course",
@@ -662,10 +660,10 @@
                 "Specialized Training"
               ],
               "tasks": [
-                "Graduate a bachelor\u2019s degree or equivalent in a relevant discipline",
+                "Connect with professionals in the field and request informational interviews",
+                "Build a public portfolio showcasing projects related to land-based machinery technician",
                 "Set short-term learning goals and review progress every month",
-                "Target specialist or leadership roles and craft a research/experience summary",
-                "Build a public portfolio showcasing projects related to pasta operator"
+                "Lead a capstone or team project solving a realistic problem in land-based machinery technician"
               ],
               "children": []
             }
@@ -703,8 +701,8 @@
                 "Resume Builder"
               ],
               "tasks": [
-                "Tailor resume for pasta operator",
-                "Highlight key skills: act reliably, adhere to organisational guidelines, adjust drying process to goods"
+                "Tailor resume for land-based machinery technician",
+                "Highlight key skills: apply health and safety standards, assemble machines, carry out improvised vehicle repairs"
               ],
               "children": []
             },
@@ -723,7 +721,7 @@
                 "Networking Events"
               ],
               "tasks": [
-                "Identify top companies for pasta operator",
+                "Identify top companies for land-based machinery technician",
                 "Prepare for interviews"
               ],
               "children": []
@@ -733,7 +731,7 @@
       ]
     },
     {
-      "path_title": "pasta operator",
+      "path_title": "land-based machinery technician",
       "focus": "Transition",
       "confidence_score": 0.8,
       "steps": [
@@ -757,7 +755,7 @@
           "children": [
             {
               "title": "Industry Fundamentals",
-              "objective": "Understand the core concepts of pasta operator",
+              "objective": "Understand the core concepts of land-based machinery technician",
               "duration_months": 1,
               "prerequisites": [],
               "milestones": [
@@ -771,11 +769,11 @@
                 "Career Guides"
               ],
               "tasks": [
-                "Target specialist or leadership roles and craft a research/experience summary",
-                "Set short-term learning goals and review progress every month",
                 "Connect with professionals in the field and request informational interviews",
-                "Graduate a bachelor\u2019s degree or equivalent in a relevant discipline",
-                "Build a public portfolio showcasing projects related to pasta operator"
+                "Lead a capstone or team project solving a realistic problem in land-based machinery technician",
+                "Lead complex applied projects or supervised research using assemble machines",
+                "Set short-term learning goals and review progress every month",
+                "Build a public portfolio showcasing projects related to land-based machinery technician"
               ],
               "children": []
             },
@@ -794,7 +792,7 @@
                 "Community Forums"
               ],
               "tasks": [
-                "Research standard tools for pasta operator",
+                "Research standard tools for land-based machinery technician",
                 "Install primary software tools",
                 "Create account on professional networks"
               ],
@@ -804,7 +802,7 @@
         },
         {
           "title": "Core Skills Development",
-          "objective": "Master essential skills for pasta operator",
+          "objective": "Master essential skills for land-based machinery technician",
           "duration_months": 4,
           "prerequisites": [],
           "milestones": [
@@ -821,78 +819,77 @@
           ],
           "children": [
             {
-              "title": "Act Reliably Proficiency",
-              "objective": "Develop proficiency in act reliably",
+              "title": "Apply Health And Safety Standards Proficiency",
+              "objective": "Develop proficiency in apply health and safety standards",
               "duration_months": 2,
               "prerequisites": [],
               "milestones": [
-                "Complete act reliably course",
-                "Demonstrate act reliably usage",
-                "Pass act reliably quiz"
+                "Complete apply health and safety standards course",
+                "Demonstrate apply health and safety standards usage",
+                "Pass apply health and safety standards quiz"
               ],
               "resources": [
-                "Act Reliably Resources"
+                "Apply Health And Safety Standards Resources"
               ],
               "tasks": [
-                "Practice act reliably fundamentals",
-                "Apply act reliably in small scenarios"
+                "Practice apply health and safety standards fundamentals",
+                "Apply apply health and safety standards in small scenarios"
               ],
               "children": []
             },
             {
-              "title": "Adhere To Organisational Guidelines Proficiency",
-              "objective": "Develop proficiency in adhere to organisational guidelines",
+              "title": "Assemble Machines Proficiency",
+              "objective": "Develop proficiency in assemble machines",
               "duration_months": 2,
               "prerequisites": [],
               "milestones": [
-                "Complete adhere to organisational guidelines course",
-                "Demonstrate adhere to organisational guidelines usage",
-                "Pass adhere to organisational guidelines quiz"
+                "Complete assemble machines course",
+                "Demonstrate assemble machines usage",
+                "Pass assemble machines quiz"
               ],
               "resources": [
-                "Adhere To Organisational Guidelines Resources"
+                "Assemble Machines Resources"
               ],
               "tasks": [
-                "Practice adhere to organisational guidelines fundamentals",
-                "Apply adhere to organisational guidelines in small scenarios"
+                "Lead complex applied projects or supervised research using assemble machines"
               ],
               "children": []
             },
             {
-              "title": "Adjust Drying Process To Goods Proficiency",
-              "objective": "Develop proficiency in adjust drying process to goods",
+              "title": "Carry Out Improvised Vehicle Repairs Proficiency",
+              "objective": "Develop proficiency in carry out improvised vehicle repairs",
               "duration_months": 2,
               "prerequisites": [],
               "milestones": [
-                "Complete adjust drying process to goods course",
-                "Demonstrate adjust drying process to goods usage",
-                "Pass adjust drying process to goods quiz"
+                "Complete carry out improvised vehicle repairs course",
+                "Demonstrate carry out improvised vehicle repairs usage",
+                "Pass carry out improvised vehicle repairs quiz"
               ],
               "resources": [
-                "Adjust Drying Process To Goods Resources"
+                "Carry Out Improvised Vehicle Repairs Resources"
               ],
               "tasks": [
-                "Practice adjust drying process to goods fundamentals",
-                "Apply adjust drying process to goods in small scenarios"
+                "Practice carry out improvised vehicle repairs fundamentals",
+                "Apply carry out improvised vehicle repairs in small scenarios"
               ],
               "children": []
             },
             {
-              "title": "Administer Ingredients In Food Production Proficiency",
-              "objective": "Develop proficiency in administer ingredients in food production",
+              "title": "Clean Vehicle Engine Proficiency",
+              "objective": "Develop proficiency in clean vehicle engine",
               "duration_months": 2,
               "prerequisites": [],
               "milestones": [
-                "Complete administer ingredients in food production course",
-                "Demonstrate administer ingredients in food production usage",
-                "Pass administer ingredients in food production quiz"
+                "Complete clean vehicle engine course",
+                "Demonstrate clean vehicle engine usage",
+                "Pass clean vehicle engine quiz"
               ],
               "resources": [
-                "Administer Ingredients In Food Production Resources"
+                "Clean Vehicle Engine Resources"
               ],
               "tasks": [
-                "Practice administer ingredients in food production fundamentals",
-                "Apply administer ingredients in food production in small scenarios"
+                "Practice clean vehicle engine fundamentals",
+                "Apply clean vehicle engine in small scenarios"
               ],
               "children": []
             }
@@ -920,8 +917,8 @@
               "objective": "Apply core skills in a realistic scenario",
               "duration_months": 2,
               "prerequisites": [
-                "act reliably",
-                "adhere to organisational guidelines"
+                "apply health and safety standards",
+                "assemble machines"
               ],
               "milestones": [
                 "Design project scope",
@@ -935,10 +932,10 @@
               "tasks": [
                 "Select a real-world problem to solve",
                 "Plan the solution",
-                "Publish or present your project work on a portfolio or site",
-                "Graduate a bachelor\u2019s degree or equivalent in a relevant discipline",
+                "Lead complex applied projects or supervised research using assemble machines",
+                "Build a public portfolio showcasing projects related to land-based machinery technician",
                 "Set short-term learning goals and review progress every month",
-                "Mentor junior peers and document advanced workflows"
+                "Connect with professionals in the field and request informational interviews"
               ],
               "children": []
             },
@@ -947,9 +944,9 @@
               "objective": "Demonstrate comprehensive mastery",
               "duration_months": 2,
               "prerequisites": [
-                "act reliably",
-                "adhere to organisational guidelines",
-                "adjust drying process to goods"
+                "apply health and safety standards",
+                "assemble machines",
+                "carry out improvised vehicle repairs"
               ],
               "milestones": [
                 "Complete complex project",
@@ -962,10 +959,10 @@
               "tasks": [
                 "Define advanced project requirements",
                 "Set short-term learning goals and review progress every month",
-                "Publish or present your project work on a portfolio or site",
-                "Target specialist or leadership roles and craft a research/experience summary",
-                "Graduate a bachelor\u2019s degree or equivalent in a relevant discipline",
-                "Mentor junior peers and document advanced workflows"
+                "Build a public portfolio showcasing projects related to land-based machinery technician",
+                "Connect with professionals in the field and request informational interviews",
+                "Lead complex applied projects or supervised research using assemble machines",
+                "Lead a capstone or team project solving a realistic problem in land-based machinery technician"
               ],
               "children": []
             }
@@ -984,7 +981,7 @@
             "Industry Certifications"
           ],
           "tasks": [
-            "Research trending specializations in pasta operator",
+            "Research trending specializations in land-based machinery technician",
             "Select a niche"
           ],
           "children": [
@@ -993,8 +990,8 @@
               "objective": "Deep dive into a specific area",
               "duration_months": 2,
               "prerequisites": [
-                "act reliably",
-                "adhere to organisational guidelines"
+                "apply health and safety standards",
+                "assemble machines"
               ],
               "milestones": [
                 "Complete specialization course",
@@ -1005,10 +1002,10 @@
                 "Specialized Training"
               ],
               "tasks": [
-                "Target specialist or leadership roles and craft a research/experience summary",
-                "Publish or present your project work on a portfolio or site",
+                "Lead a capstone or team project solving a realistic problem in land-based machinery technician",
                 "Connect with professionals in the field and request informational interviews",
-                "Build a public portfolio showcasing projects related to pasta operator"
+                "Set short-term learning goals and review progress every month",
+                "Build a public portfolio showcasing projects related to land-based machinery technician"
               ],
               "children": []
             }
@@ -1046,8 +1043,8 @@
                 "Resume Builder"
               ],
               "tasks": [
-                "Tailor resume for pasta operator",
-                "Highlight key skills: act reliably, adhere to organisational guidelines, adjust drying process to goods"
+                "Tailor resume for land-based machinery technician",
+                "Highlight key skills: apply health and safety standards, assemble machines, carry out improvised vehicle repairs"
               ],
               "children": []
             },
@@ -1066,7 +1063,7 @@
                 "Networking Events"
               ],
               "tasks": [
-                "Identify top companies for pasta operator",
+                "Identify top companies for land-based machinery technician",
                 "Prepare for interviews"
               ],
               "children": []

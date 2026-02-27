@@ -3,51 +3,55 @@
     "answers": [
       {
         "questionId": "Q1",
-        "label": "Graduate (Master's or higher)"
+        "label": "Undergraduate (studying for or completed a Bachelor's)"
       },
       {
-        "questionId": "Q_PERS1_GR",
-        "label": "I like solving complex problems and thinking analytically"
+        "questionId": "Q_PERS1_UG",
+        "label": "I like creating, designing, or making things"
       },
       {
-        "questionId": "Q_PERS2_GR_ANALYTICAL",
-        "label": "Outdoors or on-site (field, site, lab, clinic)"
+        "questionId": "Q_PERS2_UG_CREATIVE",
+        "label": "Mixed \u2014 I want variety in my environment"
       },
       {
-        "questionId": "Q_PERS3_GR_ANALYTICAL_OUTDOOR",
-        "label": "Balanced \u2014 good pay and meaningful work"
+        "questionId": "Q_PERS3_UG_CREATIVE_MIXED",
+        "label": "Fulfillment first \u2014 purpose matters more than pay"
       },
       {
-        "questionId": "Q_PERS4_GR_ANALYTICAL_OUTDOOR_BAL",
-        "label": "Client-facing \u2014 I enjoy working with the public"
+        "questionId": "Q_PERS4_UG_CREATIVE_MIXED_FUL",
+        "label": "Mostly alone \u2014 I'm highly self-sufficient"
       },
       {
-        "questionId": "Q_PERS5_GR_ANALYTICAL_OUTDOOR_BAL_CLIENT",
-        "label": "Private sector / corporate"
+        "questionId": "Q_PERS5_UG_CREATIVE_MIXED_FUL_SOLO",
+        "label": "Open to anything"
       },
       {
-        "questionId": "Q_DOMAIN_GR",
-        "label": "Aviation & Transportation"
+        "questionId": "Q_DOMAIN_UG",
+        "label": "Architecture & Design"
       },
       {
-        "questionId": "Q3_GR_AVIA",
-        "label": "Military / Air Force piloting"
+        "questionId": "Q3_UG_ARCH",
+        "label": "Full architectural design and construction"
       },
       {
-        "questionId": "Q4_GR_AVIA_MIL",
-        "label": "Fast jet / fighter pilot"
+        "questionId": "Q4_UG_ARCH_FULL",
+        "label": "Conceptual design and creative vision"
+      },
+      {
+        "questionId": "Q5_UG_ARCH_TOOLS",
+        "label": "I prefer hand-drawing and conceptual design tools"
       }
     ],
     "careers": [
-      "air force pilot"
+      "interior architect"
     ],
-    "category": "Aviation & Piloting"
+    "category": "Architecture & Urban Planning"
   },
   "derived_skills": [],
-  "chosen_career": "pasta operator",
+  "chosen_career": "mine surveyor",
   "roadmaps": [
     {
-      "path_title": "pasta operator",
+      "path_title": "mine surveyor",
       "focus": "Depth",
       "confidence_score": 0.8,
       "steps": [
@@ -71,7 +75,7 @@
           "children": [
             {
               "title": "Industry Fundamentals",
-              "objective": "Understand the core concepts of pasta operator",
+              "objective": "Understand the core concepts of mine surveyor",
               "duration_months": 1,
               "prerequisites": [],
               "milestones": [
@@ -85,11 +89,11 @@
                 "Career Guides"
               ],
               "tasks": [
-                "Set short-term learning goals and review progress every month",
                 "Connect with professionals in the field and request informational interviews",
-                "Graduate a bachelor\u2019s degree or equivalent in a relevant discipline",
-                "Target specialist or leadership roles and craft a research/experience summary",
-                "Build a public portfolio showcasing projects related to pasta operator"
+                "Lead complex applied projects or supervised research using create gis reports",
+                "Intern or co-op with industry partners to build professional experience",
+                "Set short-term learning goals and review progress every month",
+                "Build a public portfolio showcasing projects related to mine surveyor"
               ],
               "children": []
             },
@@ -108,7 +112,7 @@
                 "Community Forums"
               ],
               "tasks": [
-                "Research standard tools for pasta operator",
+                "Research standard tools for mine surveyor",
                 "Install primary software tools",
                 "Create account on professional networks"
               ],
@@ -118,7 +122,7 @@
         },
         {
           "title": "Core Skills Development",
-          "objective": "Master essential skills for pasta operator",
+          "objective": "Master essential skills for mine surveyor",
           "duration_months": 5,
           "prerequisites": [],
           "milestones": [
@@ -135,78 +139,77 @@
           ],
           "children": [
             {
-              "title": "Act Reliably Proficiency",
-              "objective": "Develop proficiency in act reliably",
+              "title": "Create Gis Reports Proficiency",
+              "objective": "Develop proficiency in create gis reports",
               "duration_months": 2,
               "prerequisites": [],
               "milestones": [
-                "Complete act reliably course",
-                "Demonstrate act reliably usage",
-                "Pass act reliably quiz"
+                "Complete create gis reports course",
+                "Demonstrate create gis reports usage",
+                "Pass create gis reports quiz"
               ],
               "resources": [
-                "Act Reliably Resources"
+                "Create Gis Reports Resources"
               ],
               "tasks": [
-                "Practice act reliably fundamentals",
-                "Apply act reliably in small scenarios"
+                "Lead complex applied projects or supervised research using create gis reports"
               ],
               "children": []
             },
             {
-              "title": "Adhere To Organisational Guidelines Proficiency",
-              "objective": "Develop proficiency in adhere to organisational guidelines",
+              "title": "Create Thematic Maps Proficiency",
+              "objective": "Develop proficiency in create thematic maps",
               "duration_months": 2,
               "prerequisites": [],
               "milestones": [
-                "Complete adhere to organisational guidelines course",
-                "Demonstrate adhere to organisational guidelines usage",
-                "Pass adhere to organisational guidelines quiz"
+                "Complete create thematic maps course",
+                "Demonstrate create thematic maps usage",
+                "Pass create thematic maps quiz"
               ],
               "resources": [
-                "Adhere To Organisational Guidelines Resources"
+                "Create Thematic Maps Resources"
               ],
               "tasks": [
-                "Practice adhere to organisational guidelines fundamentals",
-                "Apply adhere to organisational guidelines in small scenarios"
+                "Practice create thematic maps fundamentals",
+                "Apply create thematic maps in small scenarios"
               ],
               "children": []
             },
             {
-              "title": "Adjust Drying Process To Goods Proficiency",
-              "objective": "Develop proficiency in adjust drying process to goods",
+              "title": "Delineate Mine Area Proficiency",
+              "objective": "Develop proficiency in delineate mine area",
               "duration_months": 2,
               "prerequisites": [],
               "milestones": [
-                "Complete adjust drying process to goods course",
-                "Demonstrate adjust drying process to goods usage",
-                "Pass adjust drying process to goods quiz"
+                "Complete delineate mine area course",
+                "Demonstrate delineate mine area usage",
+                "Pass delineate mine area quiz"
               ],
               "resources": [
-                "Adjust Drying Process To Goods Resources"
+                "Delineate Mine Area Resources"
               ],
               "tasks": [
-                "Practice adjust drying process to goods fundamentals",
-                "Apply adjust drying process to goods in small scenarios"
+                "Practice delineate mine area fundamentals",
+                "Apply delineate mine area in small scenarios"
               ],
               "children": []
             },
             {
-              "title": "Administer Ingredients In Food Production Proficiency",
-              "objective": "Develop proficiency in administer ingredients in food production",
+              "title": "Dimension Stone Proficiency",
+              "objective": "Develop proficiency in dimension stone",
               "duration_months": 2,
               "prerequisites": [],
               "milestones": [
-                "Complete administer ingredients in food production course",
-                "Demonstrate administer ingredients in food production usage",
-                "Pass administer ingredients in food production quiz"
+                "Complete dimension stone course",
+                "Demonstrate dimension stone usage",
+                "Pass dimension stone quiz"
               ],
               "resources": [
-                "Administer Ingredients In Food Production Resources"
+                "Dimension Stone Resources"
               ],
               "tasks": [
-                "Practice administer ingredients in food production fundamentals",
-                "Apply administer ingredients in food production in small scenarios"
+                "Practice dimension stone fundamentals",
+                "Apply dimension stone in small scenarios"
               ],
               "children": []
             }
@@ -234,8 +237,8 @@
               "objective": "Apply core skills in a realistic scenario",
               "duration_months": 2,
               "prerequisites": [
-                "act reliably",
-                "adhere to organisational guidelines"
+                "create gis reports",
+                "create thematic maps"
               ],
               "milestones": [
                 "Design project scope",
@@ -249,10 +252,10 @@
               "tasks": [
                 "Select a real-world problem to solve",
                 "Plan the solution",
-                "Target specialist or leadership roles and craft a research/experience summary",
-                "Publish or present your project work on a portfolio or site",
+                "Lead complex applied projects or supervised research using create gis reports",
+                "Intern or co-op with industry partners to build professional experience",
                 "Connect with professionals in the field and request informational interviews",
-                "Graduate a bachelor\u2019s degree or equivalent in a relevant discipline"
+                "Build a public portfolio showcasing projects related to mine surveyor"
               ],
               "children": []
             },
@@ -261,9 +264,9 @@
               "objective": "Demonstrate comprehensive mastery",
               "duration_months": 2,
               "prerequisites": [
-                "act reliably",
-                "adhere to organisational guidelines",
-                "adjust drying process to goods"
+                "create gis reports",
+                "create thematic maps",
+                "delineate mine area"
               ],
               "milestones": [
                 "Complete complex project",
@@ -275,11 +278,11 @@
               ],
               "tasks": [
                 "Define advanced project requirements",
-                "Target specialist or leadership roles and craft a research/experience summary",
-                "Connect with professionals in the field and request informational interviews",
-                "Graduate a bachelor\u2019s degree or equivalent in a relevant discipline",
+                "Intern or co-op with industry partners to build professional experience",
+                "Lead complex applied projects or supervised research using create gis reports",
                 "Set short-term learning goals and review progress every month",
-                "Publish or present your project work on a portfolio or site"
+                "Connect with professionals in the field and request informational interviews",
+                "Build a public portfolio showcasing projects related to mine surveyor"
               ],
               "children": []
             }
@@ -298,7 +301,7 @@
             "Industry Certifications"
           ],
           "tasks": [
-            "Research trending specializations in pasta operator",
+            "Research trending specializations in mine surveyor",
             "Select a niche"
           ],
           "children": [
@@ -307,8 +310,8 @@
               "objective": "Deep dive into a specific area",
               "duration_months": 2,
               "prerequisites": [
-                "act reliably",
-                "adhere to organisational guidelines"
+                "create gis reports",
+                "create thematic maps"
               ],
               "milestones": [
                 "Complete specialization course",
@@ -319,9 +322,9 @@
                 "Specialized Training"
               ],
               "tasks": [
-                "Publish or present your project work on a portfolio or site",
+                "Lead complex applied projects or supervised research using create gis reports",
+                "Intern or co-op with industry partners to build professional experience",
                 "Connect with professionals in the field and request informational interviews",
-                "Mentor junior peers and document advanced workflows",
                 "Set short-term learning goals and review progress every month"
               ],
               "children": []
@@ -360,8 +363,8 @@
                 "Resume Builder"
               ],
               "tasks": [
-                "Tailor resume for pasta operator",
-                "Highlight key skills: act reliably, adhere to organisational guidelines, adjust drying process to goods"
+                "Tailor resume for mine surveyor",
+                "Highlight key skills: create gis reports, create thematic maps, delineate mine area"
               ],
               "children": []
             },
@@ -380,7 +383,7 @@
                 "Networking Events"
               ],
               "tasks": [
-                "Identify top companies for pasta operator",
+                "Identify top companies for mine surveyor",
                 "Prepare for interviews"
               ],
               "children": []
@@ -390,7 +393,7 @@
       ]
     },
     {
-      "path_title": "pasta operator",
+      "path_title": "mine surveyor",
       "focus": "Fast-Entry",
       "confidence_score": 0.8,
       "steps": [
@@ -414,7 +417,7 @@
           "children": [
             {
               "title": "Industry Fundamentals",
-              "objective": "Understand the core concepts of pasta operator",
+              "objective": "Understand the core concepts of mine surveyor",
               "duration_months": 1,
               "prerequisites": [],
               "milestones": [
@@ -428,11 +431,11 @@
                 "Career Guides"
               ],
               "tasks": [
-                "Publish or present your project work on a portfolio or site",
-                "Mentor junior peers and document advanced workflows",
-                "Target specialist or leadership roles and craft a research/experience summary",
-                "Build a public portfolio showcasing projects related to pasta operator",
-                "Set short-term learning goals and review progress every month"
+                "Lead complex applied projects or supervised research using create gis reports",
+                "Build a public portfolio showcasing projects related to mine surveyor",
+                "Connect with professionals in the field and request informational interviews",
+                "Set short-term learning goals and review progress every month",
+                "Intern or co-op with industry partners to build professional experience"
               ],
               "children": []
             },
@@ -451,7 +454,7 @@
                 "Community Forums"
               ],
               "tasks": [
-                "Research standard tools for pasta operator",
+                "Research standard tools for mine surveyor",
                 "Install primary software tools",
                 "Create account on professional networks"
               ],
@@ -461,7 +464,7 @@
         },
         {
           "title": "Core Skills Development",
-          "objective": "Master essential skills for pasta operator",
+          "objective": "Master essential skills for mine surveyor",
           "duration_months": 4,
           "prerequisites": [],
           "milestones": [
@@ -478,78 +481,77 @@
           ],
           "children": [
             {
-              "title": "Act Reliably Proficiency",
-              "objective": "Develop proficiency in act reliably",
+              "title": "Create Gis Reports Proficiency",
+              "objective": "Develop proficiency in create gis reports",
               "duration_months": 2,
               "prerequisites": [],
               "milestones": [
-                "Complete act reliably course",
-                "Demonstrate act reliably usage",
-                "Pass act reliably quiz"
+                "Complete create gis reports course",
+                "Demonstrate create gis reports usage",
+                "Pass create gis reports quiz"
               ],
               "resources": [
-                "Act Reliably Resources"
+                "Create Gis Reports Resources"
               ],
               "tasks": [
-                "Practice act reliably fundamentals",
-                "Apply act reliably in small scenarios"
+                "Lead complex applied projects or supervised research using create gis reports"
               ],
               "children": []
             },
             {
-              "title": "Adhere To Organisational Guidelines Proficiency",
-              "objective": "Develop proficiency in adhere to organisational guidelines",
+              "title": "Create Thematic Maps Proficiency",
+              "objective": "Develop proficiency in create thematic maps",
               "duration_months": 2,
               "prerequisites": [],
               "milestones": [
-                "Complete adhere to organisational guidelines course",
-                "Demonstrate adhere to organisational guidelines usage",
-                "Pass adhere to organisational guidelines quiz"
+                "Complete create thematic maps course",
+                "Demonstrate create thematic maps usage",
+                "Pass create thematic maps quiz"
               ],
               "resources": [
-                "Adhere To Organisational Guidelines Resources"
+                "Create Thematic Maps Resources"
               ],
               "tasks": [
-                "Practice adhere to organisational guidelines fundamentals",
-                "Apply adhere to organisational guidelines in small scenarios"
+                "Practice create thematic maps fundamentals",
+                "Apply create thematic maps in small scenarios"
               ],
               "children": []
             },
             {
-              "title": "Adjust Drying Process To Goods Proficiency",
-              "objective": "Develop proficiency in adjust drying process to goods",
+              "title": "Delineate Mine Area Proficiency",
+              "objective": "Develop proficiency in delineate mine area",
               "duration_months": 2,
               "prerequisites": [],
               "milestones": [
-                "Complete adjust drying process to goods course",
-                "Demonstrate adjust drying process to goods usage",
-                "Pass adjust drying process to goods quiz"
+                "Complete delineate mine area course",
+                "Demonstrate delineate mine area usage",
+                "Pass delineate mine area quiz"
               ],
               "resources": [
-                "Adjust Drying Process To Goods Resources"
+                "Delineate Mine Area Resources"
               ],
               "tasks": [
-                "Practice adjust drying process to goods fundamentals",
-                "Apply adjust drying process to goods in small scenarios"
+                "Practice delineate mine area fundamentals",
+                "Apply delineate mine area in small scenarios"
               ],
               "children": []
             },
             {
-              "title": "Administer Ingredients In Food Production Proficiency",
-              "objective": "Develop proficiency in administer ingredients in food production",
+              "title": "Dimension Stone Proficiency",
+              "objective": "Develop proficiency in dimension stone",
               "duration_months": 2,
               "prerequisites": [],
               "milestones": [
-                "Complete administer ingredients in food production course",
-                "Demonstrate administer ingredients in food production usage",
-                "Pass administer ingredients in food production quiz"
+                "Complete dimension stone course",
+                "Demonstrate dimension stone usage",
+                "Pass dimension stone quiz"
               ],
               "resources": [
-                "Administer Ingredients In Food Production Resources"
+                "Dimension Stone Resources"
               ],
               "tasks": [
-                "Practice administer ingredients in food production fundamentals",
-                "Apply administer ingredients in food production in small scenarios"
+                "Practice dimension stone fundamentals",
+                "Apply dimension stone in small scenarios"
               ],
               "children": []
             }
@@ -577,8 +579,8 @@
               "objective": "Apply core skills in a realistic scenario",
               "duration_months": 2,
               "prerequisites": [
-                "act reliably",
-                "adhere to organisational guidelines"
+                "create gis reports",
+                "create thematic maps"
               ],
               "milestones": [
                 "Design project scope",
@@ -592,10 +594,10 @@
               "tasks": [
                 "Select a real-world problem to solve",
                 "Plan the solution",
-                "Graduate a bachelor\u2019s degree or equivalent in a relevant discipline",
+                "Lead complex applied projects or supervised research using create gis reports",
                 "Connect with professionals in the field and request informational interviews",
-                "Publish or present your project work on a portfolio or site",
-                "Set short-term learning goals and review progress every month"
+                "Set short-term learning goals and review progress every month",
+                "Build a public portfolio showcasing projects related to mine surveyor"
               ],
               "children": []
             },
@@ -604,9 +606,9 @@
               "objective": "Demonstrate comprehensive mastery",
               "duration_months": 2,
               "prerequisites": [
-                "act reliably",
-                "adhere to organisational guidelines",
-                "adjust drying process to goods"
+                "create gis reports",
+                "create thematic maps",
+                "delineate mine area"
               ],
               "milestones": [
                 "Complete complex project",
@@ -618,11 +620,11 @@
               ],
               "tasks": [
                 "Define advanced project requirements",
+                "Lead complex applied projects or supervised research using create gis reports",
                 "Connect with professionals in the field and request informational interviews",
-                "Target specialist or leadership roles and craft a research/experience summary",
-                "Build a public portfolio showcasing projects related to pasta operator",
-                "Mentor junior peers and document advanced workflows",
-                "Publish or present your project work on a portfolio or site"
+                "Build a public portfolio showcasing projects related to mine surveyor",
+                "Intern or co-op with industry partners to build professional experience",
+                "Set short-term learning goals and review progress every month"
               ],
               "children": []
             }
@@ -641,7 +643,7 @@
             "Industry Certifications"
           ],
           "tasks": [
-            "Research trending specializations in pasta operator",
+            "Research trending specializations in mine surveyor",
             "Select a niche"
           ],
           "children": [
@@ -650,8 +652,8 @@
               "objective": "Deep dive into a specific area",
               "duration_months": 2,
               "prerequisites": [
-                "act reliably",
-                "adhere to organisational guidelines"
+                "create gis reports",
+                "create thematic maps"
               ],
               "milestones": [
                 "Complete specialization course",
@@ -662,10 +664,10 @@
                 "Specialized Training"
               ],
               "tasks": [
-                "Graduate a bachelor\u2019s degree or equivalent in a relevant discipline",
-                "Set short-term learning goals and review progress every month",
-                "Target specialist or leadership roles and craft a research/experience summary",
-                "Build a public portfolio showcasing projects related to pasta operator"
+                "Connect with professionals in the field and request informational interviews",
+                "Intern or co-op with industry partners to build professional experience",
+                "Lead complex applied projects or supervised research using create gis reports",
+                "Set short-term learning goals and review progress every month"
               ],
               "children": []
             }
@@ -703,8 +705,8 @@
                 "Resume Builder"
               ],
               "tasks": [
-                "Tailor resume for pasta operator",
-                "Highlight key skills: act reliably, adhere to organisational guidelines, adjust drying process to goods"
+                "Tailor resume for mine surveyor",
+                "Highlight key skills: create gis reports, create thematic maps, delineate mine area"
               ],
               "children": []
             },
@@ -723,7 +725,7 @@
                 "Networking Events"
               ],
               "tasks": [
-                "Identify top companies for pasta operator",
+                "Identify top companies for mine surveyor",
                 "Prepare for interviews"
               ],
               "children": []
@@ -733,7 +735,7 @@
       ]
     },
     {
-      "path_title": "pasta operator",
+      "path_title": "mine surveyor",
       "focus": "Transition",
       "confidence_score": 0.8,
       "steps": [
@@ -757,7 +759,7 @@
           "children": [
             {
               "title": "Industry Fundamentals",
-              "objective": "Understand the core concepts of pasta operator",
+              "objective": "Understand the core concepts of mine surveyor",
               "duration_months": 1,
               "prerequisites": [],
               "milestones": [
@@ -771,11 +773,11 @@
                 "Career Guides"
               ],
               "tasks": [
-                "Target specialist or leadership roles and craft a research/experience summary",
-                "Set short-term learning goals and review progress every month",
+                "Build a public portfolio showcasing projects related to mine surveyor",
+                "Intern or co-op with industry partners to build professional experience",
+                "Lead complex applied projects or supervised research using create gis reports",
                 "Connect with professionals in the field and request informational interviews",
-                "Graduate a bachelor\u2019s degree or equivalent in a relevant discipline",
-                "Build a public portfolio showcasing projects related to pasta operator"
+                "Set short-term learning goals and review progress every month"
               ],
               "children": []
             },
@@ -794,7 +796,7 @@
                 "Community Forums"
               ],
               "tasks": [
-                "Research standard tools for pasta operator",
+                "Research standard tools for mine surveyor",
                 "Install primary software tools",
                 "Create account on professional networks"
               ],
@@ -804,7 +806,7 @@
         },
         {
           "title": "Core Skills Development",
-          "objective": "Master essential skills for pasta operator",
+          "objective": "Master essential skills for mine surveyor",
           "duration_months": 4,
           "prerequisites": [],
           "milestones": [
@@ -821,78 +823,77 @@
           ],
           "children": [
             {
-              "title": "Act Reliably Proficiency",
-              "objective": "Develop proficiency in act reliably",
+              "title": "Create Gis Reports Proficiency",
+              "objective": "Develop proficiency in create gis reports",
               "duration_months": 2,
               "prerequisites": [],
               "milestones": [
-                "Complete act reliably course",
-                "Demonstrate act reliably usage",
-                "Pass act reliably quiz"
+                "Complete create gis reports course",
+                "Demonstrate create gis reports usage",
+                "Pass create gis reports quiz"
               ],
               "resources": [
-                "Act Reliably Resources"
+                "Create Gis Reports Resources"
               ],
               "tasks": [
-                "Practice act reliably fundamentals",
-                "Apply act reliably in small scenarios"
+                "Lead complex applied projects or supervised research using create gis reports"
               ],
               "children": []
             },
             {
-              "title": "Adhere To Organisational Guidelines Proficiency",
-              "objective": "Develop proficiency in adhere to organisational guidelines",
+              "title": "Create Thematic Maps Proficiency",
+              "objective": "Develop proficiency in create thematic maps",
               "duration_months": 2,
               "prerequisites": [],
               "milestones": [
-                "Complete adhere to organisational guidelines course",
-                "Demonstrate adhere to organisational guidelines usage",
-                "Pass adhere to organisational guidelines quiz"
+                "Complete create thematic maps course",
+                "Demonstrate create thematic maps usage",
+                "Pass create thematic maps quiz"
               ],
               "resources": [
-                "Adhere To Organisational Guidelines Resources"
+                "Create Thematic Maps Resources"
               ],
               "tasks": [
-                "Practice adhere to organisational guidelines fundamentals",
-                "Apply adhere to organisational guidelines in small scenarios"
+                "Practice create thematic maps fundamentals",
+                "Apply create thematic maps in small scenarios"
               ],
               "children": []
             },
             {
-              "title": "Adjust Drying Process To Goods Proficiency",
-              "objective": "Develop proficiency in adjust drying process to goods",
+              "title": "Delineate Mine Area Proficiency",
+              "objective": "Develop proficiency in delineate mine area",
               "duration_months": 2,
               "prerequisites": [],
               "milestones": [
-                "Complete adjust drying process to goods course",
-                "Demonstrate adjust drying process to goods usage",
-                "Pass adjust drying process to goods quiz"
+                "Complete delineate mine area course",
+                "Demonstrate delineate mine area usage",
+                "Pass delineate mine area quiz"
               ],
               "resources": [
-                "Adjust Drying Process To Goods Resources"
+                "Delineate Mine Area Resources"
               ],
               "tasks": [
-                "Practice adjust drying process to goods fundamentals",
-                "Apply adjust drying process to goods in small scenarios"
+                "Practice delineate mine area fundamentals",
+                "Apply delineate mine area in small scenarios"
               ],
               "children": []
             },
             {
-              "title": "Administer Ingredients In Food Production Proficiency",
-              "objective": "Develop proficiency in administer ingredients in food production",
+              "title": "Dimension Stone Proficiency",
+              "objective": "Develop proficiency in dimension stone",
               "duration_months": 2,
               "prerequisites": [],
               "milestones": [
-                "Complete administer ingredients in food production course",
-                "Demonstrate administer ingredients in food production usage",
-                "Pass administer ingredients in food production quiz"
+                "Complete dimension stone course",
+                "Demonstrate dimension stone usage",
+                "Pass dimension stone quiz"
               ],
               "resources": [
-                "Administer Ingredients In Food Production Resources"
+                "Dimension Stone Resources"
               ],
               "tasks": [
-                "Practice administer ingredients in food production fundamentals",
-                "Apply administer ingredients in food production in small scenarios"
+                "Practice dimension stone fundamentals",
+                "Apply dimension stone in small scenarios"
               ],
               "children": []
             }
@@ -920,8 +921,8 @@
               "objective": "Apply core skills in a realistic scenario",
               "duration_months": 2,
               "prerequisites": [
-                "act reliably",
-                "adhere to organisational guidelines"
+                "create gis reports",
+                "create thematic maps"
               ],
               "milestones": [
                 "Design project scope",
@@ -935,10 +936,10 @@
               "tasks": [
                 "Select a real-world problem to solve",
                 "Plan the solution",
-                "Publish or present your project work on a portfolio or site",
-                "Graduate a bachelor\u2019s degree or equivalent in a relevant discipline",
-                "Set short-term learning goals and review progress every month",
-                "Mentor junior peers and document advanced workflows"
+                "Intern or co-op with industry partners to build professional experience",
+                "Build a public portfolio showcasing projects related to mine surveyor",
+                "Lead complex applied projects or supervised research using create gis reports",
+                "Connect with professionals in the field and request informational interviews"
               ],
               "children": []
             },
@@ -947,9 +948,9 @@
               "objective": "Demonstrate comprehensive mastery",
               "duration_months": 2,
               "prerequisites": [
-                "act reliably",
-                "adhere to organisational guidelines",
-                "adjust drying process to goods"
+                "create gis reports",
+                "create thematic maps",
+                "delineate mine area"
               ],
               "milestones": [
                 "Complete complex project",
@@ -962,10 +963,10 @@
               "tasks": [
                 "Define advanced project requirements",
                 "Set short-term learning goals and review progress every month",
-                "Publish or present your project work on a portfolio or site",
-                "Target specialist or leadership roles and craft a research/experience summary",
-                "Graduate a bachelor\u2019s degree or equivalent in a relevant discipline",
-                "Mentor junior peers and document advanced workflows"
+                "Lead complex applied projects or supervised research using create gis reports",
+                "Connect with professionals in the field and request informational interviews",
+                "Build a public portfolio showcasing projects related to mine surveyor",
+                "Intern or co-op with industry partners to build professional experience"
               ],
               "children": []
             }
@@ -984,7 +985,7 @@
             "Industry Certifications"
           ],
           "tasks": [
-            "Research trending specializations in pasta operator",
+            "Research trending specializations in mine surveyor",
             "Select a niche"
           ],
           "children": [
@@ -993,8 +994,8 @@
               "objective": "Deep dive into a specific area",
               "duration_months": 2,
               "prerequisites": [
-                "act reliably",
-                "adhere to organisational guidelines"
+                "create gis reports",
+                "create thematic maps"
               ],
               "milestones": [
                 "Complete specialization course",
@@ -1005,10 +1006,10 @@
                 "Specialized Training"
               ],
               "tasks": [
-                "Target specialist or leadership roles and craft a research/experience summary",
-                "Publish or present your project work on a portfolio or site",
+                "Lead complex applied projects or supervised research using create gis reports",
+                "Build a public portfolio showcasing projects related to mine surveyor",
                 "Connect with professionals in the field and request informational interviews",
-                "Build a public portfolio showcasing projects related to pasta operator"
+                "Set short-term learning goals and review progress every month"
               ],
               "children": []
             }
@@ -1046,8 +1047,8 @@
                 "Resume Builder"
               ],
               "tasks": [
-                "Tailor resume for pasta operator",
-                "Highlight key skills: act reliably, adhere to organisational guidelines, adjust drying process to goods"
+                "Tailor resume for mine surveyor",
+                "Highlight key skills: create gis reports, create thematic maps, delineate mine area"
               ],
               "children": []
             },
@@ -1066,7 +1067,7 @@
                 "Networking Events"
               ],
               "tasks": [
-                "Identify top companies for pasta operator",
+                "Identify top companies for mine surveyor",
                 "Prepare for interviews"
               ],
               "children": []

@@ -112,9 +112,11 @@ def _derive_skills_from_quiz(answers: List[Dict[str, Any]]) -> List[str]:
 
 def _serialize_nested_steps(step):
     """Helper to recursively serialize RoadmapStep objects including children."""
-    serialized_step = step.__dict__
+    serialized_step = step.__dict__.copy()
     if 'children' in serialized_step and serialized_step['children']:
         serialized_step['children'] = [_serialize_nested_steps(s) for s in serialized_step['children']]
+    if 'tasks' in serialized_step and serialized_step['tasks']:
+        serialized_step['tasks'] = [t.__dict__ if hasattr(t, '__dict__') else t for t in serialized_step['tasks']]
     return serialized_step
 
 
@@ -123,19 +125,25 @@ def _plot_roadmaps(roadmaps: List[Dict[str, Any]], output_dir: Path) -> List[str
     image_urls: List[str] = []
 
     def enumerate_nodes(steps: List[Dict[str, Any]]):
-        nodes = []  # (id, title, duration, depth, parent_id, milestones_count, tasks_count)
+        nodes = []  # (id, title, depth, parent_id, tasks_count)
         edges = []  # (parent_id, child_id)
         counter = {'i': 0}
 
         def walk(lst, depth, parent):
             for s in lst:
                 node_id = counter['i']; counter['i'] += 1
-                milestones_count = len(getattr(s, 'milestones', []))
-                tasks_count = len(getattr(s, 'tasks', []))
-                nodes.append((node_id, getattr(s, 'title', ''), int(getattr(s, 'duration_months', 1)), 
-                             depth, parent, milestones_count, tasks_count))
                 
-                children = getattr(s, 'children', [])
+                if isinstance(s, dict):
+                    title = s.get('title', '')
+                    tasks_count = len(s.get('tasks', []))
+                    children = s.get('children', [])
+                else:
+                    title = getattr(s, 'title', '')
+                    tasks_count = len(getattr(s, 'tasks', []))
+                    children = getattr(s, 'children', [])
+                    
+                nodes.append((node_id, title, depth, parent, tasks_count))
+                
                 if children:
                     for ch in children:
                         child_id = counter['i']
@@ -149,7 +157,7 @@ def _plot_roadmaps(roadmaps: List[Dict[str, Any]], output_dir: Path) -> List[str
         # Assign x by preorder index, y by depth (top to bottom)
         positions = {}
         x = 0
-        for node_id, title, dur, depth, parent, milestones_count, tasks_count in nodes:
+        for node_id, title, depth, parent, tasks_count in nodes:
             positions[node_id] = (x, -depth)
             x += 1
         return positions
@@ -167,7 +175,7 @@ def _plot_roadmaps(roadmaps: List[Dict[str, Any]], output_dir: Path) -> List[str
                 ax.plot([x1, x2], [y1, y2], color="#94a3b8", linewidth=2, zorder=1, alpha=0.7)
         
         # draw nodes as boxes with enhanced information
-        for node_id, label, dur, depth, parent, milestones_count, tasks_count in nodes:
+        for node_id, label, depth, parent, tasks_count in nodes:
             x, y = positions[node_id]
             w, h = 1.4, 1.0
             
@@ -183,27 +191,18 @@ def _plot_roadmaps(roadmaps: List[Dict[str, Any]], output_dir: Path) -> List[str
             
             # Node title (truncate if too long)
             display_label = label[:20] + "..." if len(label) > 20 else label
-            ax.text(x, y + 0.25, display_label, color="white", fontsize=9, 
+            ax.text(x, y + 0.15, display_label, color="white", fontsize=9, 
                    ha="center", va="center", zorder=3, fontweight='bold')
-            
-            # Duration
-            ax.text(x, y + 0.05, f"{dur} mo", color="#e0e7ff", fontsize=8, 
-                   ha="center", va="center", zorder=3, fontweight='bold')
-            
-            # Milestones count
-            if milestones_count > 0:
-                ax.text(x - 0.4, y - 0.2, f"🎯{milestones_count}", color="#10b981", 
-                       fontsize=8, ha="center", va="center", zorder=3, fontweight='bold')
             
             # Tasks count
             if tasks_count > 0:
-                ax.text(x + 0.4, y - 0.2, f"📝{tasks_count}", color="#f59e0b", 
+                ax.text(x, y - 0.2, f"📝{tasks_count}", color="#f59e0b", 
                        fontsize=8, ha="center", va="center", zorder=3, fontweight='bold')
             
             # Add depth indicator
             depth_icons = ["📋", "🎯", "✅", "🔧", "🚀"]
             icon = depth_icons[min(depth, len(depth_icons)-1)]
-            ax.text(x, y - 0.35, icon, fontsize=10, ha="center", va="center", zorder=3)
+            ax.text(x, y - 0.5, icon, fontsize=10, ha="center", va="center", zorder=3)
         
         # Add comprehensive legend
         legend_elements = [
@@ -216,8 +215,6 @@ def _plot_roadmaps(roadmaps: List[Dict[str, Any]], output_dir: Path) -> List[str
         
         # Add info legend
         info_legend = [
-            plt.Line2D([0], [0], marker='o', color='w', markerfacecolor='#10b981', 
-                      markersize=8, label='🎯 Milestones'),
             plt.Line2D([0], [0], marker='o', color='w', markerfacecolor='#f59e0b', 
                       markersize=8, label='📝 Tasks'),
             plt.Line2D([0], [0], marker='o', color='w', markerfacecolor='#6b7280', 
@@ -225,7 +222,7 @@ def _plot_roadmaps(roadmaps: List[Dict[str, Any]], output_dir: Path) -> List[str
             plt.Line2D([0], [0], marker='o', color='w', markerfacecolor='#6b7280', 
                       markersize=8, label='🎯 Sub-steps'),
             plt.Line2D([0], [0], marker='o', color='w', markerfacecolor='#6b7280', 
-                      markersize=8, label='✅ Tasks')
+                      markersize=8, label='✅ Verification')
         ]
         
         # Create two legends
@@ -239,7 +236,7 @@ def _plot_roadmaps(roadmaps: List[Dict[str, Any]], output_dir: Path) -> List[str
         nodes, edges = enumerate_nodes(r['steps'])
         positions = layout_topdown(nodes)
         width = max(12, len(nodes) * 1.0)
-        height = max(8, (max((d for _,_,_,d,_,_,_ in nodes), default=0) + 1) * 2.0)
+        height = max(8, (max((d for _,_,d,_,_ in nodes), default=0) + 1) * 2.0)
         fig, ax = plt.subplots(figsize=(width, height))
         draw_tree(ax, nodes, edges, positions, f"{r['path_title']} — {r['focus']}")
         plt.tight_layout()
