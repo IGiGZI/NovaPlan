@@ -59,11 +59,11 @@
           "next": "Q_PERS3_HS_ANALYTICAL_OUTDOOR"
         },
         {
-          "label": "Remote or flexible \u2014 I work best independently",
+          "label": "Remote or flexible — I work best independently",
           "next": "Q_PERS3_HS_ANALYTICAL_REMOTE"
         },
         {
-          "label": "Mixed \u2014 I want variety in my environment",
+          "label": "Mixed — I want variety in my environment",
           "next": "Q_PERS3_HS_ANALYTICAL_MIXED"
         }
       ]
@@ -74,15 +74,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Primarily financial \u2014 I want to maximise earnings",
+          "label": "Primarily financial — I want to maximise earnings",
           "next": "Q_PERS4_HS_ANALYTICAL_INDOOR_FIN"
         },
         {
-          "label": "Balanced \u2014 good pay and meaningful work",
+          "label": "Balanced — good pay and meaningful work",
           "next": "Q_PERS4_HS_ANALYTICAL_INDOOR_BAL"
         },
         {
-          "label": "Fulfillment first \u2014 purpose matters more than pay",
+          "label": "Fulfillment first — purpose matters more than pay",
           "next": "Q_PERS4_HS_ANALYTICAL_INDOOR_FUL"
         }
       ]
@@ -93,7 +93,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_HS_ANALYTICAL_INDOOR_FIN_SOLO"
         },
         {
@@ -105,7 +105,7 @@
           "next": "Q_PERS5_HS_ANALYTICAL_INDOOR_FIN_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_HS_ANALYTICAL_INDOOR_FIN_CLIENT"
         }
       ]
@@ -208,7 +208,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_HS_ANALYTICAL_INDOOR_BAL_SOLO"
         },
         {
@@ -220,7 +220,7 @@
           "next": "Q_PERS5_HS_ANALYTICAL_INDOOR_BAL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_HS_ANALYTICAL_INDOOR_BAL_CLIENT"
         }
       ]
@@ -323,7 +323,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_HS_ANALYTICAL_INDOOR_FUL_SOLO"
         },
         {
@@ -335,7 +335,7 @@
           "next": "Q_PERS5_HS_ANALYTICAL_INDOOR_FUL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_HS_ANALYTICAL_INDOOR_FUL_CLIENT"
         }
       ]
@@ -438,15 +438,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Primarily financial \u2014 I want to maximise earnings",
+          "label": "Primarily financial — I want to maximise earnings",
           "next": "Q_PERS4_HS_ANALYTICAL_OUTDOOR_FIN"
         },
         {
-          "label": "Balanced \u2014 good pay and meaningful work",
+          "label": "Balanced — good pay and meaningful work",
           "next": "Q_PERS4_HS_ANALYTICAL_OUTDOOR_BAL"
         },
         {
-          "label": "Fulfillment first \u2014 purpose matters more than pay",
+          "label": "Fulfillment first — purpose matters more than pay",
           "next": "Q_PERS4_HS_ANALYTICAL_OUTDOOR_FUL"
         }
       ]
@@ -457,7 +457,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_HS_ANALYTICAL_OUTDOOR_FIN_SOLO"
         },
         {
@@ -469,7 +469,7 @@
           "next": "Q_PERS5_HS_ANALYTICAL_OUTDOOR_FIN_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_HS_ANALYTICAL_OUTDOOR_FIN_CLIENT"
         }
       ]
@@ -572,7 +572,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_HS_ANALYTICAL_OUTDOOR_BAL_SOLO"
         },
         {
@@ -584,7 +584,7 @@
           "next": "Q_PERS5_HS_ANALYTICAL_OUTDOOR_BAL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_HS_ANALYTICAL_OUTDOOR_BAL_CLIENT"
         }
       ]
@@ -687,7 +687,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_HS_ANALYTICAL_OUTDOOR_FUL_SOLO"
         },
         {
@@ -699,7 +699,7 @@
           "next": "Q_PERS5_HS_ANALYTICAL_OUTDOOR_FUL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_HS_ANALYTICAL_OUTDOOR_FUL_CLIENT"
         }
       ]
@@ -802,15 +802,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Primarily financial \u2014 I want to maximise earnings",
+          "label": "Primarily financial — I want to maximise earnings",
           "next": "Q_PERS4_HS_ANALYTICAL_REMOTE_FIN"
         },
         {
-          "label": "Balanced \u2014 good pay and meaningful work",
+          "label": "Balanced — good pay and meaningful work",
           "next": "Q_PERS4_HS_ANALYTICAL_REMOTE_BAL"
         },
         {
-          "label": "Fulfillment first \u2014 purpose matters more than pay",
+          "label": "Fulfillment first — purpose matters more than pay",
           "next": "Q_PERS4_HS_ANALYTICAL_REMOTE_FUL"
         }
       ]
@@ -821,7 +821,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_HS_ANALYTICAL_REMOTE_FIN_SOLO"
         },
         {
@@ -833,7 +833,7 @@
           "next": "Q_PERS5_HS_ANALYTICAL_REMOTE_FIN_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_HS_ANALYTICAL_REMOTE_FIN_CLIENT"
         }
       ]
@@ -936,7 +936,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_HS_ANALYTICAL_REMOTE_BAL_SOLO"
         },
         {
@@ -948,7 +948,7 @@
           "next": "Q_PERS5_HS_ANALYTICAL_REMOTE_BAL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_HS_ANALYTICAL_REMOTE_BAL_CLIENT"
         }
       ]
@@ -1051,7 +1051,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_HS_ANALYTICAL_REMOTE_FUL_SOLO"
         },
         {
@@ -1063,7 +1063,7 @@
           "next": "Q_PERS5_HS_ANALYTICAL_REMOTE_FUL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_HS_ANALYTICAL_REMOTE_FUL_CLIENT"
         }
       ]
@@ -1166,15 +1166,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Primarily financial \u2014 I want to maximise earnings",
+          "label": "Primarily financial — I want to maximise earnings",
           "next": "Q_PERS4_HS_ANALYTICAL_MIXED_FIN"
         },
         {
-          "label": "Balanced \u2014 good pay and meaningful work",
+          "label": "Balanced — good pay and meaningful work",
           "next": "Q_PERS4_HS_ANALYTICAL_MIXED_BAL"
         },
         {
-          "label": "Fulfillment first \u2014 purpose matters more than pay",
+          "label": "Fulfillment first — purpose matters more than pay",
           "next": "Q_PERS4_HS_ANALYTICAL_MIXED_FUL"
         }
       ]
@@ -1185,7 +1185,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_HS_ANALYTICAL_MIXED_FIN_SOLO"
         },
         {
@@ -1197,7 +1197,7 @@
           "next": "Q_PERS5_HS_ANALYTICAL_MIXED_FIN_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_HS_ANALYTICAL_MIXED_FIN_CLIENT"
         }
       ]
@@ -1300,7 +1300,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_HS_ANALYTICAL_MIXED_BAL_SOLO"
         },
         {
@@ -1312,7 +1312,7 @@
           "next": "Q_PERS5_HS_ANALYTICAL_MIXED_BAL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_HS_ANALYTICAL_MIXED_BAL_CLIENT"
         }
       ]
@@ -1415,7 +1415,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_HS_ANALYTICAL_MIXED_FUL_SOLO"
         },
         {
@@ -1427,7 +1427,7 @@
           "next": "Q_PERS5_HS_ANALYTICAL_MIXED_FUL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_HS_ANALYTICAL_MIXED_FUL_CLIENT"
         }
       ]
@@ -1538,11 +1538,11 @@
           "next": "Q_PERS3_HS_CREATIVE_OUTDOOR"
         },
         {
-          "label": "Remote or flexible \u2014 I work best independently",
+          "label": "Remote or flexible — I work best independently",
           "next": "Q_PERS3_HS_CREATIVE_REMOTE"
         },
         {
-          "label": "Mixed \u2014 I want variety in my environment",
+          "label": "Mixed — I want variety in my environment",
           "next": "Q_PERS3_HS_CREATIVE_MIXED"
         }
       ]
@@ -1553,15 +1553,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Primarily financial \u2014 I want to maximise earnings",
+          "label": "Primarily financial — I want to maximise earnings",
           "next": "Q_PERS4_HS_CREATIVE_INDOOR_FIN"
         },
         {
-          "label": "Balanced \u2014 good pay and meaningful work",
+          "label": "Balanced — good pay and meaningful work",
           "next": "Q_PERS4_HS_CREATIVE_INDOOR_BAL"
         },
         {
-          "label": "Fulfillment first \u2014 purpose matters more than pay",
+          "label": "Fulfillment first — purpose matters more than pay",
           "next": "Q_PERS4_HS_CREATIVE_INDOOR_FUL"
         }
       ]
@@ -1572,7 +1572,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_HS_CREATIVE_INDOOR_FIN_SOLO"
         },
         {
@@ -1584,7 +1584,7 @@
           "next": "Q_PERS5_HS_CREATIVE_INDOOR_FIN_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_HS_CREATIVE_INDOOR_FIN_CLIENT"
         }
       ]
@@ -1687,7 +1687,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_HS_CREATIVE_INDOOR_BAL_SOLO"
         },
         {
@@ -1699,7 +1699,7 @@
           "next": "Q_PERS5_HS_CREATIVE_INDOOR_BAL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_HS_CREATIVE_INDOOR_BAL_CLIENT"
         }
       ]
@@ -1802,7 +1802,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_HS_CREATIVE_INDOOR_FUL_SOLO"
         },
         {
@@ -1814,7 +1814,7 @@
           "next": "Q_PERS5_HS_CREATIVE_INDOOR_FUL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_HS_CREATIVE_INDOOR_FUL_CLIENT"
         }
       ]
@@ -1917,15 +1917,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Primarily financial \u2014 I want to maximise earnings",
+          "label": "Primarily financial — I want to maximise earnings",
           "next": "Q_PERS4_HS_CREATIVE_OUTDOOR_FIN"
         },
         {
-          "label": "Balanced \u2014 good pay and meaningful work",
+          "label": "Balanced — good pay and meaningful work",
           "next": "Q_PERS4_HS_CREATIVE_OUTDOOR_BAL"
         },
         {
-          "label": "Fulfillment first \u2014 purpose matters more than pay",
+          "label": "Fulfillment first — purpose matters more than pay",
           "next": "Q_PERS4_HS_CREATIVE_OUTDOOR_FUL"
         }
       ]
@@ -1936,7 +1936,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_HS_CREATIVE_OUTDOOR_FIN_SOLO"
         },
         {
@@ -1948,7 +1948,7 @@
           "next": "Q_PERS5_HS_CREATIVE_OUTDOOR_FIN_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_HS_CREATIVE_OUTDOOR_FIN_CLIENT"
         }
       ]
@@ -2051,7 +2051,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_HS_CREATIVE_OUTDOOR_BAL_SOLO"
         },
         {
@@ -2063,7 +2063,7 @@
           "next": "Q_PERS5_HS_CREATIVE_OUTDOOR_BAL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_HS_CREATIVE_OUTDOOR_BAL_CLIENT"
         }
       ]
@@ -2166,7 +2166,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_HS_CREATIVE_OUTDOOR_FUL_SOLO"
         },
         {
@@ -2178,7 +2178,7 @@
           "next": "Q_PERS5_HS_CREATIVE_OUTDOOR_FUL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_HS_CREATIVE_OUTDOOR_FUL_CLIENT"
         }
       ]
@@ -2281,15 +2281,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Primarily financial \u2014 I want to maximise earnings",
+          "label": "Primarily financial — I want to maximise earnings",
           "next": "Q_PERS4_HS_CREATIVE_REMOTE_FIN"
         },
         {
-          "label": "Balanced \u2014 good pay and meaningful work",
+          "label": "Balanced — good pay and meaningful work",
           "next": "Q_PERS4_HS_CREATIVE_REMOTE_BAL"
         },
         {
-          "label": "Fulfillment first \u2014 purpose matters more than pay",
+          "label": "Fulfillment first — purpose matters more than pay",
           "next": "Q_PERS4_HS_CREATIVE_REMOTE_FUL"
         }
       ]
@@ -2300,7 +2300,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_HS_CREATIVE_REMOTE_FIN_SOLO"
         },
         {
@@ -2312,7 +2312,7 @@
           "next": "Q_PERS5_HS_CREATIVE_REMOTE_FIN_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_HS_CREATIVE_REMOTE_FIN_CLIENT"
         }
       ]
@@ -2415,7 +2415,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_HS_CREATIVE_REMOTE_BAL_SOLO"
         },
         {
@@ -2427,7 +2427,7 @@
           "next": "Q_PERS5_HS_CREATIVE_REMOTE_BAL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_HS_CREATIVE_REMOTE_BAL_CLIENT"
         }
       ]
@@ -2530,7 +2530,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_HS_CREATIVE_REMOTE_FUL_SOLO"
         },
         {
@@ -2542,7 +2542,7 @@
           "next": "Q_PERS5_HS_CREATIVE_REMOTE_FUL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_HS_CREATIVE_REMOTE_FUL_CLIENT"
         }
       ]
@@ -2645,15 +2645,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Primarily financial \u2014 I want to maximise earnings",
+          "label": "Primarily financial — I want to maximise earnings",
           "next": "Q_PERS4_HS_CREATIVE_MIXED_FIN"
         },
         {
-          "label": "Balanced \u2014 good pay and meaningful work",
+          "label": "Balanced — good pay and meaningful work",
           "next": "Q_PERS4_HS_CREATIVE_MIXED_BAL"
         },
         {
-          "label": "Fulfillment first \u2014 purpose matters more than pay",
+          "label": "Fulfillment first — purpose matters more than pay",
           "next": "Q_PERS4_HS_CREATIVE_MIXED_FUL"
         }
       ]
@@ -2664,7 +2664,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_HS_CREATIVE_MIXED_FIN_SOLO"
         },
         {
@@ -2676,7 +2676,7 @@
           "next": "Q_PERS5_HS_CREATIVE_MIXED_FIN_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_HS_CREATIVE_MIXED_FIN_CLIENT"
         }
       ]
@@ -2779,7 +2779,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_HS_CREATIVE_MIXED_BAL_SOLO"
         },
         {
@@ -2791,7 +2791,7 @@
           "next": "Q_PERS5_HS_CREATIVE_MIXED_BAL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_HS_CREATIVE_MIXED_BAL_CLIENT"
         }
       ]
@@ -2894,7 +2894,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_HS_CREATIVE_MIXED_FUL_SOLO"
         },
         {
@@ -2906,7 +2906,7 @@
           "next": "Q_PERS5_HS_CREATIVE_MIXED_FUL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_HS_CREATIVE_MIXED_FUL_CLIENT"
         }
       ]
@@ -3017,11 +3017,11 @@
           "next": "Q_PERS3_HS_PEOPLE_OUTDOOR"
         },
         {
-          "label": "Remote or flexible \u2014 I work best independently",
+          "label": "Remote or flexible — I work best independently",
           "next": "Q_PERS3_HS_PEOPLE_REMOTE"
         },
         {
-          "label": "Mixed \u2014 I want variety in my environment",
+          "label": "Mixed — I want variety in my environment",
           "next": "Q_PERS3_HS_PEOPLE_MIXED"
         }
       ]
@@ -3032,15 +3032,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Primarily financial \u2014 I want to maximise earnings",
+          "label": "Primarily financial — I want to maximise earnings",
           "next": "Q_PERS4_HS_PEOPLE_INDOOR_FIN"
         },
         {
-          "label": "Balanced \u2014 good pay and meaningful work",
+          "label": "Balanced — good pay and meaningful work",
           "next": "Q_PERS4_HS_PEOPLE_INDOOR_BAL"
         },
         {
-          "label": "Fulfillment first \u2014 purpose matters more than pay",
+          "label": "Fulfillment first — purpose matters more than pay",
           "next": "Q_PERS4_HS_PEOPLE_INDOOR_FUL"
         }
       ]
@@ -3051,7 +3051,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_HS_PEOPLE_INDOOR_FIN_SOLO"
         },
         {
@@ -3063,7 +3063,7 @@
           "next": "Q_PERS5_HS_PEOPLE_INDOOR_FIN_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_HS_PEOPLE_INDOOR_FIN_CLIENT"
         }
       ]
@@ -3166,7 +3166,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_HS_PEOPLE_INDOOR_BAL_SOLO"
         },
         {
@@ -3178,7 +3178,7 @@
           "next": "Q_PERS5_HS_PEOPLE_INDOOR_BAL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_HS_PEOPLE_INDOOR_BAL_CLIENT"
         }
       ]
@@ -3281,7 +3281,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_HS_PEOPLE_INDOOR_FUL_SOLO"
         },
         {
@@ -3293,7 +3293,7 @@
           "next": "Q_PERS5_HS_PEOPLE_INDOOR_FUL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_HS_PEOPLE_INDOOR_FUL_CLIENT"
         }
       ]
@@ -3396,15 +3396,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Primarily financial \u2014 I want to maximise earnings",
+          "label": "Primarily financial — I want to maximise earnings",
           "next": "Q_PERS4_HS_PEOPLE_OUTDOOR_FIN"
         },
         {
-          "label": "Balanced \u2014 good pay and meaningful work",
+          "label": "Balanced — good pay and meaningful work",
           "next": "Q_PERS4_HS_PEOPLE_OUTDOOR_BAL"
         },
         {
-          "label": "Fulfillment first \u2014 purpose matters more than pay",
+          "label": "Fulfillment first — purpose matters more than pay",
           "next": "Q_PERS4_HS_PEOPLE_OUTDOOR_FUL"
         }
       ]
@@ -3415,7 +3415,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_HS_PEOPLE_OUTDOOR_FIN_SOLO"
         },
         {
@@ -3427,7 +3427,7 @@
           "next": "Q_PERS5_HS_PEOPLE_OUTDOOR_FIN_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_HS_PEOPLE_OUTDOOR_FIN_CLIENT"
         }
       ]
@@ -3530,7 +3530,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_HS_PEOPLE_OUTDOOR_BAL_SOLO"
         },
         {
@@ -3542,7 +3542,7 @@
           "next": "Q_PERS5_HS_PEOPLE_OUTDOOR_BAL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_HS_PEOPLE_OUTDOOR_BAL_CLIENT"
         }
       ]
@@ -3645,7 +3645,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_HS_PEOPLE_OUTDOOR_FUL_SOLO"
         },
         {
@@ -3657,7 +3657,7 @@
           "next": "Q_PERS5_HS_PEOPLE_OUTDOOR_FUL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_HS_PEOPLE_OUTDOOR_FUL_CLIENT"
         }
       ]
@@ -3760,15 +3760,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Primarily financial \u2014 I want to maximise earnings",
+          "label": "Primarily financial — I want to maximise earnings",
           "next": "Q_PERS4_HS_PEOPLE_REMOTE_FIN"
         },
         {
-          "label": "Balanced \u2014 good pay and meaningful work",
+          "label": "Balanced — good pay and meaningful work",
           "next": "Q_PERS4_HS_PEOPLE_REMOTE_BAL"
         },
         {
-          "label": "Fulfillment first \u2014 purpose matters more than pay",
+          "label": "Fulfillment first — purpose matters more than pay",
           "next": "Q_PERS4_HS_PEOPLE_REMOTE_FUL"
         }
       ]
@@ -3779,7 +3779,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_HS_PEOPLE_REMOTE_FIN_SOLO"
         },
         {
@@ -3791,7 +3791,7 @@
           "next": "Q_PERS5_HS_PEOPLE_REMOTE_FIN_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_HS_PEOPLE_REMOTE_FIN_CLIENT"
         }
       ]
@@ -3894,7 +3894,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_HS_PEOPLE_REMOTE_BAL_SOLO"
         },
         {
@@ -3906,7 +3906,7 @@
           "next": "Q_PERS5_HS_PEOPLE_REMOTE_BAL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_HS_PEOPLE_REMOTE_BAL_CLIENT"
         }
       ]
@@ -4009,7 +4009,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_HS_PEOPLE_REMOTE_FUL_SOLO"
         },
         {
@@ -4021,7 +4021,7 @@
           "next": "Q_PERS5_HS_PEOPLE_REMOTE_FUL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_HS_PEOPLE_REMOTE_FUL_CLIENT"
         }
       ]
@@ -4124,15 +4124,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Primarily financial \u2014 I want to maximise earnings",
+          "label": "Primarily financial — I want to maximise earnings",
           "next": "Q_PERS4_HS_PEOPLE_MIXED_FIN"
         },
         {
-          "label": "Balanced \u2014 good pay and meaningful work",
+          "label": "Balanced — good pay and meaningful work",
           "next": "Q_PERS4_HS_PEOPLE_MIXED_BAL"
         },
         {
-          "label": "Fulfillment first \u2014 purpose matters more than pay",
+          "label": "Fulfillment first — purpose matters more than pay",
           "next": "Q_PERS4_HS_PEOPLE_MIXED_FUL"
         }
       ]
@@ -4143,7 +4143,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_HS_PEOPLE_MIXED_FIN_SOLO"
         },
         {
@@ -4155,7 +4155,7 @@
           "next": "Q_PERS5_HS_PEOPLE_MIXED_FIN_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_HS_PEOPLE_MIXED_FIN_CLIENT"
         }
       ]
@@ -4258,7 +4258,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_HS_PEOPLE_MIXED_BAL_SOLO"
         },
         {
@@ -4270,7 +4270,7 @@
           "next": "Q_PERS5_HS_PEOPLE_MIXED_BAL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_HS_PEOPLE_MIXED_BAL_CLIENT"
         }
       ]
@@ -4373,7 +4373,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_HS_PEOPLE_MIXED_FUL_SOLO"
         },
         {
@@ -4385,7 +4385,7 @@
           "next": "Q_PERS5_HS_PEOPLE_MIXED_FUL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_HS_PEOPLE_MIXED_FUL_CLIENT"
         }
       ]
@@ -4496,11 +4496,11 @@
           "next": "Q_PERS3_HS_LEADER_OUTDOOR"
         },
         {
-          "label": "Remote or flexible \u2014 I work best independently",
+          "label": "Remote or flexible — I work best independently",
           "next": "Q_PERS3_HS_LEADER_REMOTE"
         },
         {
-          "label": "Mixed \u2014 I want variety in my environment",
+          "label": "Mixed — I want variety in my environment",
           "next": "Q_PERS3_HS_LEADER_MIXED"
         }
       ]
@@ -4511,15 +4511,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Primarily financial \u2014 I want to maximise earnings",
+          "label": "Primarily financial — I want to maximise earnings",
           "next": "Q_PERS4_HS_LEADER_INDOOR_FIN"
         },
         {
-          "label": "Balanced \u2014 good pay and meaningful work",
+          "label": "Balanced — good pay and meaningful work",
           "next": "Q_PERS4_HS_LEADER_INDOOR_BAL"
         },
         {
-          "label": "Fulfillment first \u2014 purpose matters more than pay",
+          "label": "Fulfillment first — purpose matters more than pay",
           "next": "Q_PERS4_HS_LEADER_INDOOR_FUL"
         }
       ]
@@ -4530,7 +4530,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_HS_LEADER_INDOOR_FIN_SOLO"
         },
         {
@@ -4542,7 +4542,7 @@
           "next": "Q_PERS5_HS_LEADER_INDOOR_FIN_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_HS_LEADER_INDOOR_FIN_CLIENT"
         }
       ]
@@ -4645,7 +4645,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_HS_LEADER_INDOOR_BAL_SOLO"
         },
         {
@@ -4657,7 +4657,7 @@
           "next": "Q_PERS5_HS_LEADER_INDOOR_BAL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_HS_LEADER_INDOOR_BAL_CLIENT"
         }
       ]
@@ -4760,7 +4760,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_HS_LEADER_INDOOR_FUL_SOLO"
         },
         {
@@ -4772,7 +4772,7 @@
           "next": "Q_PERS5_HS_LEADER_INDOOR_FUL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_HS_LEADER_INDOOR_FUL_CLIENT"
         }
       ]
@@ -4875,15 +4875,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Primarily financial \u2014 I want to maximise earnings",
+          "label": "Primarily financial — I want to maximise earnings",
           "next": "Q_PERS4_HS_LEADER_OUTDOOR_FIN"
         },
         {
-          "label": "Balanced \u2014 good pay and meaningful work",
+          "label": "Balanced — good pay and meaningful work",
           "next": "Q_PERS4_HS_LEADER_OUTDOOR_BAL"
         },
         {
-          "label": "Fulfillment first \u2014 purpose matters more than pay",
+          "label": "Fulfillment first — purpose matters more than pay",
           "next": "Q_PERS4_HS_LEADER_OUTDOOR_FUL"
         }
       ]
@@ -4894,7 +4894,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_HS_LEADER_OUTDOOR_FIN_SOLO"
         },
         {
@@ -4906,7 +4906,7 @@
           "next": "Q_PERS5_HS_LEADER_OUTDOOR_FIN_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_HS_LEADER_OUTDOOR_FIN_CLIENT"
         }
       ]
@@ -5009,7 +5009,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_HS_LEADER_OUTDOOR_BAL_SOLO"
         },
         {
@@ -5021,7 +5021,7 @@
           "next": "Q_PERS5_HS_LEADER_OUTDOOR_BAL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_HS_LEADER_OUTDOOR_BAL_CLIENT"
         }
       ]
@@ -5124,7 +5124,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_HS_LEADER_OUTDOOR_FUL_SOLO"
         },
         {
@@ -5136,7 +5136,7 @@
           "next": "Q_PERS5_HS_LEADER_OUTDOOR_FUL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_HS_LEADER_OUTDOOR_FUL_CLIENT"
         }
       ]
@@ -5239,15 +5239,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Primarily financial \u2014 I want to maximise earnings",
+          "label": "Primarily financial — I want to maximise earnings",
           "next": "Q_PERS4_HS_LEADER_REMOTE_FIN"
         },
         {
-          "label": "Balanced \u2014 good pay and meaningful work",
+          "label": "Balanced — good pay and meaningful work",
           "next": "Q_PERS4_HS_LEADER_REMOTE_BAL"
         },
         {
-          "label": "Fulfillment first \u2014 purpose matters more than pay",
+          "label": "Fulfillment first — purpose matters more than pay",
           "next": "Q_PERS4_HS_LEADER_REMOTE_FUL"
         }
       ]
@@ -5258,7 +5258,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_HS_LEADER_REMOTE_FIN_SOLO"
         },
         {
@@ -5270,7 +5270,7 @@
           "next": "Q_PERS5_HS_LEADER_REMOTE_FIN_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_HS_LEADER_REMOTE_FIN_CLIENT"
         }
       ]
@@ -5373,7 +5373,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_HS_LEADER_REMOTE_BAL_SOLO"
         },
         {
@@ -5385,7 +5385,7 @@
           "next": "Q_PERS5_HS_LEADER_REMOTE_BAL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_HS_LEADER_REMOTE_BAL_CLIENT"
         }
       ]
@@ -5488,7 +5488,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_HS_LEADER_REMOTE_FUL_SOLO"
         },
         {
@@ -5500,7 +5500,7 @@
           "next": "Q_PERS5_HS_LEADER_REMOTE_FUL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_HS_LEADER_REMOTE_FUL_CLIENT"
         }
       ]
@@ -5603,15 +5603,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Primarily financial \u2014 I want to maximise earnings",
+          "label": "Primarily financial — I want to maximise earnings",
           "next": "Q_PERS4_HS_LEADER_MIXED_FIN"
         },
         {
-          "label": "Balanced \u2014 good pay and meaningful work",
+          "label": "Balanced — good pay and meaningful work",
           "next": "Q_PERS4_HS_LEADER_MIXED_BAL"
         },
         {
-          "label": "Fulfillment first \u2014 purpose matters more than pay",
+          "label": "Fulfillment first — purpose matters more than pay",
           "next": "Q_PERS4_HS_LEADER_MIXED_FUL"
         }
       ]
@@ -5622,7 +5622,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_HS_LEADER_MIXED_FIN_SOLO"
         },
         {
@@ -5634,7 +5634,7 @@
           "next": "Q_PERS5_HS_LEADER_MIXED_FIN_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_HS_LEADER_MIXED_FIN_CLIENT"
         }
       ]
@@ -5737,7 +5737,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_HS_LEADER_MIXED_BAL_SOLO"
         },
         {
@@ -5749,7 +5749,7 @@
           "next": "Q_PERS5_HS_LEADER_MIXED_BAL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_HS_LEADER_MIXED_BAL_CLIENT"
         }
       ]
@@ -5852,7 +5852,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_HS_LEADER_MIXED_FUL_SOLO"
         },
         {
@@ -5864,7 +5864,7 @@
           "next": "Q_PERS5_HS_LEADER_MIXED_FUL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_HS_LEADER_MIXED_FUL_CLIENT"
         }
       ]
@@ -5998,11 +5998,11 @@
           "next": "Q_PERS3_UG_ANALYTICAL_OUTDOOR"
         },
         {
-          "label": "Remote or flexible \u2014 I work best independently",
+          "label": "Remote or flexible — I work best independently",
           "next": "Q_PERS3_UG_ANALYTICAL_REMOTE"
         },
         {
-          "label": "Mixed \u2014 I want variety in my environment",
+          "label": "Mixed — I want variety in my environment",
           "next": "Q_PERS3_UG_ANALYTICAL_MIXED"
         }
       ]
@@ -6013,15 +6013,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Primarily financial \u2014 I want to maximise earnings",
+          "label": "Primarily financial — I want to maximise earnings",
           "next": "Q_PERS4_UG_ANALYTICAL_INDOOR_FIN"
         },
         {
-          "label": "Balanced \u2014 good pay and meaningful work",
+          "label": "Balanced — good pay and meaningful work",
           "next": "Q_PERS4_UG_ANALYTICAL_INDOOR_BAL"
         },
         {
-          "label": "Fulfillment first \u2014 purpose matters more than pay",
+          "label": "Fulfillment first — purpose matters more than pay",
           "next": "Q_PERS4_UG_ANALYTICAL_INDOOR_FUL"
         }
       ]
@@ -6032,7 +6032,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_UG_ANALYTICAL_INDOOR_FIN_SOLO"
         },
         {
@@ -6044,7 +6044,7 @@
           "next": "Q_PERS5_UG_ANALYTICAL_INDOOR_FIN_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_UG_ANALYTICAL_INDOOR_FIN_CLIENT"
         }
       ]
@@ -6147,7 +6147,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_UG_ANALYTICAL_INDOOR_BAL_SOLO"
         },
         {
@@ -6159,7 +6159,7 @@
           "next": "Q_PERS5_UG_ANALYTICAL_INDOOR_BAL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_UG_ANALYTICAL_INDOOR_BAL_CLIENT"
         }
       ]
@@ -6262,7 +6262,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_UG_ANALYTICAL_INDOOR_FUL_SOLO"
         },
         {
@@ -6274,7 +6274,7 @@
           "next": "Q_PERS5_UG_ANALYTICAL_INDOOR_FUL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_UG_ANALYTICAL_INDOOR_FUL_CLIENT"
         }
       ]
@@ -6377,15 +6377,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Primarily financial \u2014 I want to maximise earnings",
+          "label": "Primarily financial — I want to maximise earnings",
           "next": "Q_PERS4_UG_ANALYTICAL_OUTDOOR_FIN"
         },
         {
-          "label": "Balanced \u2014 good pay and meaningful work",
+          "label": "Balanced — good pay and meaningful work",
           "next": "Q_PERS4_UG_ANALYTICAL_OUTDOOR_BAL"
         },
         {
-          "label": "Fulfillment first \u2014 purpose matters more than pay",
+          "label": "Fulfillment first — purpose matters more than pay",
           "next": "Q_PERS4_UG_ANALYTICAL_OUTDOOR_FUL"
         }
       ]
@@ -6396,7 +6396,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_UG_ANALYTICAL_OUTDOOR_FIN_SOLO"
         },
         {
@@ -6408,7 +6408,7 @@
           "next": "Q_PERS5_UG_ANALYTICAL_OUTDOOR_FIN_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_UG_ANALYTICAL_OUTDOOR_FIN_CLIENT"
         }
       ]
@@ -6511,7 +6511,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_UG_ANALYTICAL_OUTDOOR_BAL_SOLO"
         },
         {
@@ -6523,7 +6523,7 @@
           "next": "Q_PERS5_UG_ANALYTICAL_OUTDOOR_BAL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_UG_ANALYTICAL_OUTDOOR_BAL_CLIENT"
         }
       ]
@@ -6626,7 +6626,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_UG_ANALYTICAL_OUTDOOR_FUL_SOLO"
         },
         {
@@ -6638,7 +6638,7 @@
           "next": "Q_PERS5_UG_ANALYTICAL_OUTDOOR_FUL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_UG_ANALYTICAL_OUTDOOR_FUL_CLIENT"
         }
       ]
@@ -6741,15 +6741,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Primarily financial \u2014 I want to maximise earnings",
+          "label": "Primarily financial — I want to maximise earnings",
           "next": "Q_PERS4_UG_ANALYTICAL_REMOTE_FIN"
         },
         {
-          "label": "Balanced \u2014 good pay and meaningful work",
+          "label": "Balanced — good pay and meaningful work",
           "next": "Q_PERS4_UG_ANALYTICAL_REMOTE_BAL"
         },
         {
-          "label": "Fulfillment first \u2014 purpose matters more than pay",
+          "label": "Fulfillment first — purpose matters more than pay",
           "next": "Q_PERS4_UG_ANALYTICAL_REMOTE_FUL"
         }
       ]
@@ -6760,7 +6760,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_UG_ANALYTICAL_REMOTE_FIN_SOLO"
         },
         {
@@ -6772,7 +6772,7 @@
           "next": "Q_PERS5_UG_ANALYTICAL_REMOTE_FIN_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_UG_ANALYTICAL_REMOTE_FIN_CLIENT"
         }
       ]
@@ -6875,7 +6875,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_UG_ANALYTICAL_REMOTE_BAL_SOLO"
         },
         {
@@ -6887,7 +6887,7 @@
           "next": "Q_PERS5_UG_ANALYTICAL_REMOTE_BAL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_UG_ANALYTICAL_REMOTE_BAL_CLIENT"
         }
       ]
@@ -6990,7 +6990,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_UG_ANALYTICAL_REMOTE_FUL_SOLO"
         },
         {
@@ -7002,7 +7002,7 @@
           "next": "Q_PERS5_UG_ANALYTICAL_REMOTE_FUL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_UG_ANALYTICAL_REMOTE_FUL_CLIENT"
         }
       ]
@@ -7105,15 +7105,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Primarily financial \u2014 I want to maximise earnings",
+          "label": "Primarily financial — I want to maximise earnings",
           "next": "Q_PERS4_UG_ANALYTICAL_MIXED_FIN"
         },
         {
-          "label": "Balanced \u2014 good pay and meaningful work",
+          "label": "Balanced — good pay and meaningful work",
           "next": "Q_PERS4_UG_ANALYTICAL_MIXED_BAL"
         },
         {
-          "label": "Fulfillment first \u2014 purpose matters more than pay",
+          "label": "Fulfillment first — purpose matters more than pay",
           "next": "Q_PERS4_UG_ANALYTICAL_MIXED_FUL"
         }
       ]
@@ -7124,7 +7124,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_UG_ANALYTICAL_MIXED_FIN_SOLO"
         },
         {
@@ -7136,7 +7136,7 @@
           "next": "Q_PERS5_UG_ANALYTICAL_MIXED_FIN_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_UG_ANALYTICAL_MIXED_FIN_CLIENT"
         }
       ]
@@ -7239,7 +7239,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_UG_ANALYTICAL_MIXED_BAL_SOLO"
         },
         {
@@ -7251,7 +7251,7 @@
           "next": "Q_PERS5_UG_ANALYTICAL_MIXED_BAL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_UG_ANALYTICAL_MIXED_BAL_CLIENT"
         }
       ]
@@ -7354,7 +7354,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_UG_ANALYTICAL_MIXED_FUL_SOLO"
         },
         {
@@ -7366,7 +7366,7 @@
           "next": "Q_PERS5_UG_ANALYTICAL_MIXED_FUL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_UG_ANALYTICAL_MIXED_FUL_CLIENT"
         }
       ]
@@ -7477,11 +7477,11 @@
           "next": "Q_PERS3_UG_CREATIVE_OUTDOOR"
         },
         {
-          "label": "Remote or flexible \u2014 I work best independently",
+          "label": "Remote or flexible — I work best independently",
           "next": "Q_PERS3_UG_CREATIVE_REMOTE"
         },
         {
-          "label": "Mixed \u2014 I want variety in my environment",
+          "label": "Mixed — I want variety in my environment",
           "next": "Q_PERS3_UG_CREATIVE_MIXED"
         }
       ]
@@ -7492,15 +7492,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Primarily financial \u2014 I want to maximise earnings",
+          "label": "Primarily financial — I want to maximise earnings",
           "next": "Q_PERS4_UG_CREATIVE_INDOOR_FIN"
         },
         {
-          "label": "Balanced \u2014 good pay and meaningful work",
+          "label": "Balanced — good pay and meaningful work",
           "next": "Q_PERS4_UG_CREATIVE_INDOOR_BAL"
         },
         {
-          "label": "Fulfillment first \u2014 purpose matters more than pay",
+          "label": "Fulfillment first — purpose matters more than pay",
           "next": "Q_PERS4_UG_CREATIVE_INDOOR_FUL"
         }
       ]
@@ -7511,7 +7511,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_UG_CREATIVE_INDOOR_FIN_SOLO"
         },
         {
@@ -7523,7 +7523,7 @@
           "next": "Q_PERS5_UG_CREATIVE_INDOOR_FIN_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_UG_CREATIVE_INDOOR_FIN_CLIENT"
         }
       ]
@@ -7626,7 +7626,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_UG_CREATIVE_INDOOR_BAL_SOLO"
         },
         {
@@ -7638,7 +7638,7 @@
           "next": "Q_PERS5_UG_CREATIVE_INDOOR_BAL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_UG_CREATIVE_INDOOR_BAL_CLIENT"
         }
       ]
@@ -7741,7 +7741,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_UG_CREATIVE_INDOOR_FUL_SOLO"
         },
         {
@@ -7753,7 +7753,7 @@
           "next": "Q_PERS5_UG_CREATIVE_INDOOR_FUL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_UG_CREATIVE_INDOOR_FUL_CLIENT"
         }
       ]
@@ -7856,15 +7856,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Primarily financial \u2014 I want to maximise earnings",
+          "label": "Primarily financial — I want to maximise earnings",
           "next": "Q_PERS4_UG_CREATIVE_OUTDOOR_FIN"
         },
         {
-          "label": "Balanced \u2014 good pay and meaningful work",
+          "label": "Balanced — good pay and meaningful work",
           "next": "Q_PERS4_UG_CREATIVE_OUTDOOR_BAL"
         },
         {
-          "label": "Fulfillment first \u2014 purpose matters more than pay",
+          "label": "Fulfillment first — purpose matters more than pay",
           "next": "Q_PERS4_UG_CREATIVE_OUTDOOR_FUL"
         }
       ]
@@ -7875,7 +7875,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_UG_CREATIVE_OUTDOOR_FIN_SOLO"
         },
         {
@@ -7887,7 +7887,7 @@
           "next": "Q_PERS5_UG_CREATIVE_OUTDOOR_FIN_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_UG_CREATIVE_OUTDOOR_FIN_CLIENT"
         }
       ]
@@ -7990,7 +7990,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_UG_CREATIVE_OUTDOOR_BAL_SOLO"
         },
         {
@@ -8002,7 +8002,7 @@
           "next": "Q_PERS5_UG_CREATIVE_OUTDOOR_BAL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_UG_CREATIVE_OUTDOOR_BAL_CLIENT"
         }
       ]
@@ -8105,7 +8105,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_UG_CREATIVE_OUTDOOR_FUL_SOLO"
         },
         {
@@ -8117,7 +8117,7 @@
           "next": "Q_PERS5_UG_CREATIVE_OUTDOOR_FUL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_UG_CREATIVE_OUTDOOR_FUL_CLIENT"
         }
       ]
@@ -8220,15 +8220,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Primarily financial \u2014 I want to maximise earnings",
+          "label": "Primarily financial — I want to maximise earnings",
           "next": "Q_PERS4_UG_CREATIVE_REMOTE_FIN"
         },
         {
-          "label": "Balanced \u2014 good pay and meaningful work",
+          "label": "Balanced — good pay and meaningful work",
           "next": "Q_PERS4_UG_CREATIVE_REMOTE_BAL"
         },
         {
-          "label": "Fulfillment first \u2014 purpose matters more than pay",
+          "label": "Fulfillment first — purpose matters more than pay",
           "next": "Q_PERS4_UG_CREATIVE_REMOTE_FUL"
         }
       ]
@@ -8239,7 +8239,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_UG_CREATIVE_REMOTE_FIN_SOLO"
         },
         {
@@ -8251,7 +8251,7 @@
           "next": "Q_PERS5_UG_CREATIVE_REMOTE_FIN_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_UG_CREATIVE_REMOTE_FIN_CLIENT"
         }
       ]
@@ -8354,7 +8354,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_UG_CREATIVE_REMOTE_BAL_SOLO"
         },
         {
@@ -8366,7 +8366,7 @@
           "next": "Q_PERS5_UG_CREATIVE_REMOTE_BAL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_UG_CREATIVE_REMOTE_BAL_CLIENT"
         }
       ]
@@ -8469,7 +8469,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_UG_CREATIVE_REMOTE_FUL_SOLO"
         },
         {
@@ -8481,7 +8481,7 @@
           "next": "Q_PERS5_UG_CREATIVE_REMOTE_FUL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_UG_CREATIVE_REMOTE_FUL_CLIENT"
         }
       ]
@@ -8584,15 +8584,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Primarily financial \u2014 I want to maximise earnings",
+          "label": "Primarily financial — I want to maximise earnings",
           "next": "Q_PERS4_UG_CREATIVE_MIXED_FIN"
         },
         {
-          "label": "Balanced \u2014 good pay and meaningful work",
+          "label": "Balanced — good pay and meaningful work",
           "next": "Q_PERS4_UG_CREATIVE_MIXED_BAL"
         },
         {
-          "label": "Fulfillment first \u2014 purpose matters more than pay",
+          "label": "Fulfillment first — purpose matters more than pay",
           "next": "Q_PERS4_UG_CREATIVE_MIXED_FUL"
         }
       ]
@@ -8603,7 +8603,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_UG_CREATIVE_MIXED_FIN_SOLO"
         },
         {
@@ -8615,7 +8615,7 @@
           "next": "Q_PERS5_UG_CREATIVE_MIXED_FIN_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_UG_CREATIVE_MIXED_FIN_CLIENT"
         }
       ]
@@ -8718,7 +8718,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_UG_CREATIVE_MIXED_BAL_SOLO"
         },
         {
@@ -8730,7 +8730,7 @@
           "next": "Q_PERS5_UG_CREATIVE_MIXED_BAL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_UG_CREATIVE_MIXED_BAL_CLIENT"
         }
       ]
@@ -8833,7 +8833,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_UG_CREATIVE_MIXED_FUL_SOLO"
         },
         {
@@ -8845,7 +8845,7 @@
           "next": "Q_PERS5_UG_CREATIVE_MIXED_FUL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_UG_CREATIVE_MIXED_FUL_CLIENT"
         }
       ]
@@ -8956,11 +8956,11 @@
           "next": "Q_PERS3_UG_PEOPLE_OUTDOOR"
         },
         {
-          "label": "Remote or flexible \u2014 I work best independently",
+          "label": "Remote or flexible — I work best independently",
           "next": "Q_PERS3_UG_PEOPLE_REMOTE"
         },
         {
-          "label": "Mixed \u2014 I want variety in my environment",
+          "label": "Mixed — I want variety in my environment",
           "next": "Q_PERS3_UG_PEOPLE_MIXED"
         }
       ]
@@ -8971,15 +8971,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Primarily financial \u2014 I want to maximise earnings",
+          "label": "Primarily financial — I want to maximise earnings",
           "next": "Q_PERS4_UG_PEOPLE_INDOOR_FIN"
         },
         {
-          "label": "Balanced \u2014 good pay and meaningful work",
+          "label": "Balanced — good pay and meaningful work",
           "next": "Q_PERS4_UG_PEOPLE_INDOOR_BAL"
         },
         {
-          "label": "Fulfillment first \u2014 purpose matters more than pay",
+          "label": "Fulfillment first — purpose matters more than pay",
           "next": "Q_PERS4_UG_PEOPLE_INDOOR_FUL"
         }
       ]
@@ -8990,7 +8990,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_UG_PEOPLE_INDOOR_FIN_SOLO"
         },
         {
@@ -9002,7 +9002,7 @@
           "next": "Q_PERS5_UG_PEOPLE_INDOOR_FIN_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_UG_PEOPLE_INDOOR_FIN_CLIENT"
         }
       ]
@@ -9105,7 +9105,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_UG_PEOPLE_INDOOR_BAL_SOLO"
         },
         {
@@ -9117,7 +9117,7 @@
           "next": "Q_PERS5_UG_PEOPLE_INDOOR_BAL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_UG_PEOPLE_INDOOR_BAL_CLIENT"
         }
       ]
@@ -9220,7 +9220,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_UG_PEOPLE_INDOOR_FUL_SOLO"
         },
         {
@@ -9232,7 +9232,7 @@
           "next": "Q_PERS5_UG_PEOPLE_INDOOR_FUL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_UG_PEOPLE_INDOOR_FUL_CLIENT"
         }
       ]
@@ -9335,15 +9335,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Primarily financial \u2014 I want to maximise earnings",
+          "label": "Primarily financial — I want to maximise earnings",
           "next": "Q_PERS4_UG_PEOPLE_OUTDOOR_FIN"
         },
         {
-          "label": "Balanced \u2014 good pay and meaningful work",
+          "label": "Balanced — good pay and meaningful work",
           "next": "Q_PERS4_UG_PEOPLE_OUTDOOR_BAL"
         },
         {
-          "label": "Fulfillment first \u2014 purpose matters more than pay",
+          "label": "Fulfillment first — purpose matters more than pay",
           "next": "Q_PERS4_UG_PEOPLE_OUTDOOR_FUL"
         }
       ]
@@ -9354,7 +9354,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_UG_PEOPLE_OUTDOOR_FIN_SOLO"
         },
         {
@@ -9366,7 +9366,7 @@
           "next": "Q_PERS5_UG_PEOPLE_OUTDOOR_FIN_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_UG_PEOPLE_OUTDOOR_FIN_CLIENT"
         }
       ]
@@ -9469,7 +9469,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_UG_PEOPLE_OUTDOOR_BAL_SOLO"
         },
         {
@@ -9481,7 +9481,7 @@
           "next": "Q_PERS5_UG_PEOPLE_OUTDOOR_BAL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_UG_PEOPLE_OUTDOOR_BAL_CLIENT"
         }
       ]
@@ -9584,7 +9584,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_UG_PEOPLE_OUTDOOR_FUL_SOLO"
         },
         {
@@ -9596,7 +9596,7 @@
           "next": "Q_PERS5_UG_PEOPLE_OUTDOOR_FUL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_UG_PEOPLE_OUTDOOR_FUL_CLIENT"
         }
       ]
@@ -9699,15 +9699,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Primarily financial \u2014 I want to maximise earnings",
+          "label": "Primarily financial — I want to maximise earnings",
           "next": "Q_PERS4_UG_PEOPLE_REMOTE_FIN"
         },
         {
-          "label": "Balanced \u2014 good pay and meaningful work",
+          "label": "Balanced — good pay and meaningful work",
           "next": "Q_PERS4_UG_PEOPLE_REMOTE_BAL"
         },
         {
-          "label": "Fulfillment first \u2014 purpose matters more than pay",
+          "label": "Fulfillment first — purpose matters more than pay",
           "next": "Q_PERS4_UG_PEOPLE_REMOTE_FUL"
         }
       ]
@@ -9718,7 +9718,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_UG_PEOPLE_REMOTE_FIN_SOLO"
         },
         {
@@ -9730,7 +9730,7 @@
           "next": "Q_PERS5_UG_PEOPLE_REMOTE_FIN_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_UG_PEOPLE_REMOTE_FIN_CLIENT"
         }
       ]
@@ -9833,7 +9833,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_UG_PEOPLE_REMOTE_BAL_SOLO"
         },
         {
@@ -9845,7 +9845,7 @@
           "next": "Q_PERS5_UG_PEOPLE_REMOTE_BAL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_UG_PEOPLE_REMOTE_BAL_CLIENT"
         }
       ]
@@ -9948,7 +9948,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_UG_PEOPLE_REMOTE_FUL_SOLO"
         },
         {
@@ -9960,7 +9960,7 @@
           "next": "Q_PERS5_UG_PEOPLE_REMOTE_FUL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_UG_PEOPLE_REMOTE_FUL_CLIENT"
         }
       ]
@@ -10063,15 +10063,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Primarily financial \u2014 I want to maximise earnings",
+          "label": "Primarily financial — I want to maximise earnings",
           "next": "Q_PERS4_UG_PEOPLE_MIXED_FIN"
         },
         {
-          "label": "Balanced \u2014 good pay and meaningful work",
+          "label": "Balanced — good pay and meaningful work",
           "next": "Q_PERS4_UG_PEOPLE_MIXED_BAL"
         },
         {
-          "label": "Fulfillment first \u2014 purpose matters more than pay",
+          "label": "Fulfillment first — purpose matters more than pay",
           "next": "Q_PERS4_UG_PEOPLE_MIXED_FUL"
         }
       ]
@@ -10082,7 +10082,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_UG_PEOPLE_MIXED_FIN_SOLO"
         },
         {
@@ -10094,7 +10094,7 @@
           "next": "Q_PERS5_UG_PEOPLE_MIXED_FIN_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_UG_PEOPLE_MIXED_FIN_CLIENT"
         }
       ]
@@ -10197,7 +10197,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_UG_PEOPLE_MIXED_BAL_SOLO"
         },
         {
@@ -10209,7 +10209,7 @@
           "next": "Q_PERS5_UG_PEOPLE_MIXED_BAL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_UG_PEOPLE_MIXED_BAL_CLIENT"
         }
       ]
@@ -10312,7 +10312,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_UG_PEOPLE_MIXED_FUL_SOLO"
         },
         {
@@ -10324,7 +10324,7 @@
           "next": "Q_PERS5_UG_PEOPLE_MIXED_FUL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_UG_PEOPLE_MIXED_FUL_CLIENT"
         }
       ]
@@ -10435,11 +10435,11 @@
           "next": "Q_PERS3_UG_LEADER_OUTDOOR"
         },
         {
-          "label": "Remote or flexible \u2014 I work best independently",
+          "label": "Remote or flexible — I work best independently",
           "next": "Q_PERS3_UG_LEADER_REMOTE"
         },
         {
-          "label": "Mixed \u2014 I want variety in my environment",
+          "label": "Mixed — I want variety in my environment",
           "next": "Q_PERS3_UG_LEADER_MIXED"
         }
       ]
@@ -10450,15 +10450,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Primarily financial \u2014 I want to maximise earnings",
+          "label": "Primarily financial — I want to maximise earnings",
           "next": "Q_PERS4_UG_LEADER_INDOOR_FIN"
         },
         {
-          "label": "Balanced \u2014 good pay and meaningful work",
+          "label": "Balanced — good pay and meaningful work",
           "next": "Q_PERS4_UG_LEADER_INDOOR_BAL"
         },
         {
-          "label": "Fulfillment first \u2014 purpose matters more than pay",
+          "label": "Fulfillment first — purpose matters more than pay",
           "next": "Q_PERS4_UG_LEADER_INDOOR_FUL"
         }
       ]
@@ -10469,7 +10469,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_UG_LEADER_INDOOR_FIN_SOLO"
         },
         {
@@ -10481,7 +10481,7 @@
           "next": "Q_PERS5_UG_LEADER_INDOOR_FIN_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_UG_LEADER_INDOOR_FIN_CLIENT"
         }
       ]
@@ -10584,7 +10584,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_UG_LEADER_INDOOR_BAL_SOLO"
         },
         {
@@ -10596,7 +10596,7 @@
           "next": "Q_PERS5_UG_LEADER_INDOOR_BAL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_UG_LEADER_INDOOR_BAL_CLIENT"
         }
       ]
@@ -10699,7 +10699,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_UG_LEADER_INDOOR_FUL_SOLO"
         },
         {
@@ -10711,7 +10711,7 @@
           "next": "Q_PERS5_UG_LEADER_INDOOR_FUL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_UG_LEADER_INDOOR_FUL_CLIENT"
         }
       ]
@@ -10814,15 +10814,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Primarily financial \u2014 I want to maximise earnings",
+          "label": "Primarily financial — I want to maximise earnings",
           "next": "Q_PERS4_UG_LEADER_OUTDOOR_FIN"
         },
         {
-          "label": "Balanced \u2014 good pay and meaningful work",
+          "label": "Balanced — good pay and meaningful work",
           "next": "Q_PERS4_UG_LEADER_OUTDOOR_BAL"
         },
         {
-          "label": "Fulfillment first \u2014 purpose matters more than pay",
+          "label": "Fulfillment first — purpose matters more than pay",
           "next": "Q_PERS4_UG_LEADER_OUTDOOR_FUL"
         }
       ]
@@ -10833,7 +10833,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_UG_LEADER_OUTDOOR_FIN_SOLO"
         },
         {
@@ -10845,7 +10845,7 @@
           "next": "Q_PERS5_UG_LEADER_OUTDOOR_FIN_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_UG_LEADER_OUTDOOR_FIN_CLIENT"
         }
       ]
@@ -10948,7 +10948,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_UG_LEADER_OUTDOOR_BAL_SOLO"
         },
         {
@@ -10960,7 +10960,7 @@
           "next": "Q_PERS5_UG_LEADER_OUTDOOR_BAL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_UG_LEADER_OUTDOOR_BAL_CLIENT"
         }
       ]
@@ -11063,7 +11063,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_UG_LEADER_OUTDOOR_FUL_SOLO"
         },
         {
@@ -11075,7 +11075,7 @@
           "next": "Q_PERS5_UG_LEADER_OUTDOOR_FUL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_UG_LEADER_OUTDOOR_FUL_CLIENT"
         }
       ]
@@ -11178,15 +11178,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Primarily financial \u2014 I want to maximise earnings",
+          "label": "Primarily financial — I want to maximise earnings",
           "next": "Q_PERS4_UG_LEADER_REMOTE_FIN"
         },
         {
-          "label": "Balanced \u2014 good pay and meaningful work",
+          "label": "Balanced — good pay and meaningful work",
           "next": "Q_PERS4_UG_LEADER_REMOTE_BAL"
         },
         {
-          "label": "Fulfillment first \u2014 purpose matters more than pay",
+          "label": "Fulfillment first — purpose matters more than pay",
           "next": "Q_PERS4_UG_LEADER_REMOTE_FUL"
         }
       ]
@@ -11197,7 +11197,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_UG_LEADER_REMOTE_FIN_SOLO"
         },
         {
@@ -11209,7 +11209,7 @@
           "next": "Q_PERS5_UG_LEADER_REMOTE_FIN_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_UG_LEADER_REMOTE_FIN_CLIENT"
         }
       ]
@@ -11312,7 +11312,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_UG_LEADER_REMOTE_BAL_SOLO"
         },
         {
@@ -11324,7 +11324,7 @@
           "next": "Q_PERS5_UG_LEADER_REMOTE_BAL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_UG_LEADER_REMOTE_BAL_CLIENT"
         }
       ]
@@ -11427,7 +11427,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_UG_LEADER_REMOTE_FUL_SOLO"
         },
         {
@@ -11439,7 +11439,7 @@
           "next": "Q_PERS5_UG_LEADER_REMOTE_FUL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_UG_LEADER_REMOTE_FUL_CLIENT"
         }
       ]
@@ -11542,15 +11542,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Primarily financial \u2014 I want to maximise earnings",
+          "label": "Primarily financial — I want to maximise earnings",
           "next": "Q_PERS4_UG_LEADER_MIXED_FIN"
         },
         {
-          "label": "Balanced \u2014 good pay and meaningful work",
+          "label": "Balanced — good pay and meaningful work",
           "next": "Q_PERS4_UG_LEADER_MIXED_BAL"
         },
         {
-          "label": "Fulfillment first \u2014 purpose matters more than pay",
+          "label": "Fulfillment first — purpose matters more than pay",
           "next": "Q_PERS4_UG_LEADER_MIXED_FUL"
         }
       ]
@@ -11561,7 +11561,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_UG_LEADER_MIXED_FIN_SOLO"
         },
         {
@@ -11573,7 +11573,7 @@
           "next": "Q_PERS5_UG_LEADER_MIXED_FIN_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_UG_LEADER_MIXED_FIN_CLIENT"
         }
       ]
@@ -11676,7 +11676,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_UG_LEADER_MIXED_BAL_SOLO"
         },
         {
@@ -11688,7 +11688,7 @@
           "next": "Q_PERS5_UG_LEADER_MIXED_BAL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_UG_LEADER_MIXED_BAL_CLIENT"
         }
       ]
@@ -11791,7 +11791,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_UG_LEADER_MIXED_FUL_SOLO"
         },
         {
@@ -11803,7 +11803,7 @@
           "next": "Q_PERS5_UG_LEADER_MIXED_FUL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_UG_LEADER_MIXED_FUL_CLIENT"
         }
       ]
@@ -11937,11 +11937,11 @@
           "next": "Q_PERS3_GR_ANALYTICAL_OUTDOOR"
         },
         {
-          "label": "Remote or flexible \u2014 I work best independently",
+          "label": "Remote or flexible — I work best independently",
           "next": "Q_PERS3_GR_ANALYTICAL_REMOTE"
         },
         {
-          "label": "Mixed \u2014 I want variety in my environment",
+          "label": "Mixed — I want variety in my environment",
           "next": "Q_PERS3_GR_ANALYTICAL_MIXED"
         }
       ]
@@ -11952,15 +11952,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Primarily financial \u2014 I want to maximise earnings",
+          "label": "Primarily financial — I want to maximise earnings",
           "next": "Q_PERS4_GR_ANALYTICAL_INDOOR_FIN"
         },
         {
-          "label": "Balanced \u2014 good pay and meaningful work",
+          "label": "Balanced — good pay and meaningful work",
           "next": "Q_PERS4_GR_ANALYTICAL_INDOOR_BAL"
         },
         {
-          "label": "Fulfillment first \u2014 purpose matters more than pay",
+          "label": "Fulfillment first — purpose matters more than pay",
           "next": "Q_PERS4_GR_ANALYTICAL_INDOOR_FUL"
         }
       ]
@@ -11971,7 +11971,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_GR_ANALYTICAL_INDOOR_FIN_SOLO"
         },
         {
@@ -11983,7 +11983,7 @@
           "next": "Q_PERS5_GR_ANALYTICAL_INDOOR_FIN_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_GR_ANALYTICAL_INDOOR_FIN_CLIENT"
         }
       ]
@@ -12086,7 +12086,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_GR_ANALYTICAL_INDOOR_BAL_SOLO"
         },
         {
@@ -12098,7 +12098,7 @@
           "next": "Q_PERS5_GR_ANALYTICAL_INDOOR_BAL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_GR_ANALYTICAL_INDOOR_BAL_CLIENT"
         }
       ]
@@ -12201,7 +12201,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_GR_ANALYTICAL_INDOOR_FUL_SOLO"
         },
         {
@@ -12213,7 +12213,7 @@
           "next": "Q_PERS5_GR_ANALYTICAL_INDOOR_FUL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_GR_ANALYTICAL_INDOOR_FUL_CLIENT"
         }
       ]
@@ -12316,15 +12316,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Primarily financial \u2014 I want to maximise earnings",
+          "label": "Primarily financial — I want to maximise earnings",
           "next": "Q_PERS4_GR_ANALYTICAL_OUTDOOR_FIN"
         },
         {
-          "label": "Balanced \u2014 good pay and meaningful work",
+          "label": "Balanced — good pay and meaningful work",
           "next": "Q_PERS4_GR_ANALYTICAL_OUTDOOR_BAL"
         },
         {
-          "label": "Fulfillment first \u2014 purpose matters more than pay",
+          "label": "Fulfillment first — purpose matters more than pay",
           "next": "Q_PERS4_GR_ANALYTICAL_OUTDOOR_FUL"
         }
       ]
@@ -12335,7 +12335,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_GR_ANALYTICAL_OUTDOOR_FIN_SOLO"
         },
         {
@@ -12347,7 +12347,7 @@
           "next": "Q_PERS5_GR_ANALYTICAL_OUTDOOR_FIN_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_GR_ANALYTICAL_OUTDOOR_FIN_CLIENT"
         }
       ]
@@ -12450,7 +12450,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_GR_ANALYTICAL_OUTDOOR_BAL_SOLO"
         },
         {
@@ -12462,7 +12462,7 @@
           "next": "Q_PERS5_GR_ANALYTICAL_OUTDOOR_BAL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_GR_ANALYTICAL_OUTDOOR_BAL_CLIENT"
         }
       ]
@@ -12565,7 +12565,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_GR_ANALYTICAL_OUTDOOR_FUL_SOLO"
         },
         {
@@ -12577,7 +12577,7 @@
           "next": "Q_PERS5_GR_ANALYTICAL_OUTDOOR_FUL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_GR_ANALYTICAL_OUTDOOR_FUL_CLIENT"
         }
       ]
@@ -12680,15 +12680,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Primarily financial \u2014 I want to maximise earnings",
+          "label": "Primarily financial — I want to maximise earnings",
           "next": "Q_PERS4_GR_ANALYTICAL_REMOTE_FIN"
         },
         {
-          "label": "Balanced \u2014 good pay and meaningful work",
+          "label": "Balanced — good pay and meaningful work",
           "next": "Q_PERS4_GR_ANALYTICAL_REMOTE_BAL"
         },
         {
-          "label": "Fulfillment first \u2014 purpose matters more than pay",
+          "label": "Fulfillment first — purpose matters more than pay",
           "next": "Q_PERS4_GR_ANALYTICAL_REMOTE_FUL"
         }
       ]
@@ -12699,7 +12699,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_GR_ANALYTICAL_REMOTE_FIN_SOLO"
         },
         {
@@ -12711,7 +12711,7 @@
           "next": "Q_PERS5_GR_ANALYTICAL_REMOTE_FIN_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_GR_ANALYTICAL_REMOTE_FIN_CLIENT"
         }
       ]
@@ -12814,7 +12814,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_GR_ANALYTICAL_REMOTE_BAL_SOLO"
         },
         {
@@ -12826,7 +12826,7 @@
           "next": "Q_PERS5_GR_ANALYTICAL_REMOTE_BAL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_GR_ANALYTICAL_REMOTE_BAL_CLIENT"
         }
       ]
@@ -12929,7 +12929,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_GR_ANALYTICAL_REMOTE_FUL_SOLO"
         },
         {
@@ -12941,7 +12941,7 @@
           "next": "Q_PERS5_GR_ANALYTICAL_REMOTE_FUL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_GR_ANALYTICAL_REMOTE_FUL_CLIENT"
         }
       ]
@@ -13044,15 +13044,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Primarily financial \u2014 I want to maximise earnings",
+          "label": "Primarily financial — I want to maximise earnings",
           "next": "Q_PERS4_GR_ANALYTICAL_MIXED_FIN"
         },
         {
-          "label": "Balanced \u2014 good pay and meaningful work",
+          "label": "Balanced — good pay and meaningful work",
           "next": "Q_PERS4_GR_ANALYTICAL_MIXED_BAL"
         },
         {
-          "label": "Fulfillment first \u2014 purpose matters more than pay",
+          "label": "Fulfillment first — purpose matters more than pay",
           "next": "Q_PERS4_GR_ANALYTICAL_MIXED_FUL"
         }
       ]
@@ -13063,7 +13063,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_GR_ANALYTICAL_MIXED_FIN_SOLO"
         },
         {
@@ -13075,7 +13075,7 @@
           "next": "Q_PERS5_GR_ANALYTICAL_MIXED_FIN_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_GR_ANALYTICAL_MIXED_FIN_CLIENT"
         }
       ]
@@ -13178,7 +13178,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_GR_ANALYTICAL_MIXED_BAL_SOLO"
         },
         {
@@ -13190,7 +13190,7 @@
           "next": "Q_PERS5_GR_ANALYTICAL_MIXED_BAL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_GR_ANALYTICAL_MIXED_BAL_CLIENT"
         }
       ]
@@ -13293,7 +13293,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_GR_ANALYTICAL_MIXED_FUL_SOLO"
         },
         {
@@ -13305,7 +13305,7 @@
           "next": "Q_PERS5_GR_ANALYTICAL_MIXED_FUL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_GR_ANALYTICAL_MIXED_FUL_CLIENT"
         }
       ]
@@ -13416,11 +13416,11 @@
           "next": "Q_PERS3_GR_CREATIVE_OUTDOOR"
         },
         {
-          "label": "Remote or flexible \u2014 I work best independently",
+          "label": "Remote or flexible — I work best independently",
           "next": "Q_PERS3_GR_CREATIVE_REMOTE"
         },
         {
-          "label": "Mixed \u2014 I want variety in my environment",
+          "label": "Mixed — I want variety in my environment",
           "next": "Q_PERS3_GR_CREATIVE_MIXED"
         }
       ]
@@ -13431,15 +13431,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Primarily financial \u2014 I want to maximise earnings",
+          "label": "Primarily financial — I want to maximise earnings",
           "next": "Q_PERS4_GR_CREATIVE_INDOOR_FIN"
         },
         {
-          "label": "Balanced \u2014 good pay and meaningful work",
+          "label": "Balanced — good pay and meaningful work",
           "next": "Q_PERS4_GR_CREATIVE_INDOOR_BAL"
         },
         {
-          "label": "Fulfillment first \u2014 purpose matters more than pay",
+          "label": "Fulfillment first — purpose matters more than pay",
           "next": "Q_PERS4_GR_CREATIVE_INDOOR_FUL"
         }
       ]
@@ -13450,7 +13450,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_GR_CREATIVE_INDOOR_FIN_SOLO"
         },
         {
@@ -13462,7 +13462,7 @@
           "next": "Q_PERS5_GR_CREATIVE_INDOOR_FIN_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_GR_CREATIVE_INDOOR_FIN_CLIENT"
         }
       ]
@@ -13565,7 +13565,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_GR_CREATIVE_INDOOR_BAL_SOLO"
         },
         {
@@ -13577,7 +13577,7 @@
           "next": "Q_PERS5_GR_CREATIVE_INDOOR_BAL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_GR_CREATIVE_INDOOR_BAL_CLIENT"
         }
       ]
@@ -13680,7 +13680,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_GR_CREATIVE_INDOOR_FUL_SOLO"
         },
         {
@@ -13692,7 +13692,7 @@
           "next": "Q_PERS5_GR_CREATIVE_INDOOR_FUL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_GR_CREATIVE_INDOOR_FUL_CLIENT"
         }
       ]
@@ -13795,15 +13795,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Primarily financial \u2014 I want to maximise earnings",
+          "label": "Primarily financial — I want to maximise earnings",
           "next": "Q_PERS4_GR_CREATIVE_OUTDOOR_FIN"
         },
         {
-          "label": "Balanced \u2014 good pay and meaningful work",
+          "label": "Balanced — good pay and meaningful work",
           "next": "Q_PERS4_GR_CREATIVE_OUTDOOR_BAL"
         },
         {
-          "label": "Fulfillment first \u2014 purpose matters more than pay",
+          "label": "Fulfillment first — purpose matters more than pay",
           "next": "Q_PERS4_GR_CREATIVE_OUTDOOR_FUL"
         }
       ]
@@ -13814,7 +13814,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_GR_CREATIVE_OUTDOOR_FIN_SOLO"
         },
         {
@@ -13826,7 +13826,7 @@
           "next": "Q_PERS5_GR_CREATIVE_OUTDOOR_FIN_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_GR_CREATIVE_OUTDOOR_FIN_CLIENT"
         }
       ]
@@ -13929,7 +13929,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_GR_CREATIVE_OUTDOOR_BAL_SOLO"
         },
         {
@@ -13941,7 +13941,7 @@
           "next": "Q_PERS5_GR_CREATIVE_OUTDOOR_BAL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_GR_CREATIVE_OUTDOOR_BAL_CLIENT"
         }
       ]
@@ -14044,7 +14044,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_GR_CREATIVE_OUTDOOR_FUL_SOLO"
         },
         {
@@ -14056,7 +14056,7 @@
           "next": "Q_PERS5_GR_CREATIVE_OUTDOOR_FUL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_GR_CREATIVE_OUTDOOR_FUL_CLIENT"
         }
       ]
@@ -14159,15 +14159,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Primarily financial \u2014 I want to maximise earnings",
+          "label": "Primarily financial — I want to maximise earnings",
           "next": "Q_PERS4_GR_CREATIVE_REMOTE_FIN"
         },
         {
-          "label": "Balanced \u2014 good pay and meaningful work",
+          "label": "Balanced — good pay and meaningful work",
           "next": "Q_PERS4_GR_CREATIVE_REMOTE_BAL"
         },
         {
-          "label": "Fulfillment first \u2014 purpose matters more than pay",
+          "label": "Fulfillment first — purpose matters more than pay",
           "next": "Q_PERS4_GR_CREATIVE_REMOTE_FUL"
         }
       ]
@@ -14178,7 +14178,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_GR_CREATIVE_REMOTE_FIN_SOLO"
         },
         {
@@ -14190,7 +14190,7 @@
           "next": "Q_PERS5_GR_CREATIVE_REMOTE_FIN_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_GR_CREATIVE_REMOTE_FIN_CLIENT"
         }
       ]
@@ -14293,7 +14293,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_GR_CREATIVE_REMOTE_BAL_SOLO"
         },
         {
@@ -14305,7 +14305,7 @@
           "next": "Q_PERS5_GR_CREATIVE_REMOTE_BAL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_GR_CREATIVE_REMOTE_BAL_CLIENT"
         }
       ]
@@ -14408,7 +14408,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_GR_CREATIVE_REMOTE_FUL_SOLO"
         },
         {
@@ -14420,7 +14420,7 @@
           "next": "Q_PERS5_GR_CREATIVE_REMOTE_FUL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_GR_CREATIVE_REMOTE_FUL_CLIENT"
         }
       ]
@@ -14523,15 +14523,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Primarily financial \u2014 I want to maximise earnings",
+          "label": "Primarily financial — I want to maximise earnings",
           "next": "Q_PERS4_GR_CREATIVE_MIXED_FIN"
         },
         {
-          "label": "Balanced \u2014 good pay and meaningful work",
+          "label": "Balanced — good pay and meaningful work",
           "next": "Q_PERS4_GR_CREATIVE_MIXED_BAL"
         },
         {
-          "label": "Fulfillment first \u2014 purpose matters more than pay",
+          "label": "Fulfillment first — purpose matters more than pay",
           "next": "Q_PERS4_GR_CREATIVE_MIXED_FUL"
         }
       ]
@@ -14542,7 +14542,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_GR_CREATIVE_MIXED_FIN_SOLO"
         },
         {
@@ -14554,7 +14554,7 @@
           "next": "Q_PERS5_GR_CREATIVE_MIXED_FIN_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_GR_CREATIVE_MIXED_FIN_CLIENT"
         }
       ]
@@ -14657,7 +14657,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_GR_CREATIVE_MIXED_BAL_SOLO"
         },
         {
@@ -14669,7 +14669,7 @@
           "next": "Q_PERS5_GR_CREATIVE_MIXED_BAL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_GR_CREATIVE_MIXED_BAL_CLIENT"
         }
       ]
@@ -14772,7 +14772,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_GR_CREATIVE_MIXED_FUL_SOLO"
         },
         {
@@ -14784,7 +14784,7 @@
           "next": "Q_PERS5_GR_CREATIVE_MIXED_FUL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_GR_CREATIVE_MIXED_FUL_CLIENT"
         }
       ]
@@ -14895,11 +14895,11 @@
           "next": "Q_PERS3_GR_PEOPLE_OUTDOOR"
         },
         {
-          "label": "Remote or flexible \u2014 I work best independently",
+          "label": "Remote or flexible — I work best independently",
           "next": "Q_PERS3_GR_PEOPLE_REMOTE"
         },
         {
-          "label": "Mixed \u2014 I want variety in my environment",
+          "label": "Mixed — I want variety in my environment",
           "next": "Q_PERS3_GR_PEOPLE_MIXED"
         }
       ]
@@ -14910,15 +14910,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Primarily financial \u2014 I want to maximise earnings",
+          "label": "Primarily financial — I want to maximise earnings",
           "next": "Q_PERS4_GR_PEOPLE_INDOOR_FIN"
         },
         {
-          "label": "Balanced \u2014 good pay and meaningful work",
+          "label": "Balanced — good pay and meaningful work",
           "next": "Q_PERS4_GR_PEOPLE_INDOOR_BAL"
         },
         {
-          "label": "Fulfillment first \u2014 purpose matters more than pay",
+          "label": "Fulfillment first — purpose matters more than pay",
           "next": "Q_PERS4_GR_PEOPLE_INDOOR_FUL"
         }
       ]
@@ -14929,7 +14929,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_GR_PEOPLE_INDOOR_FIN_SOLO"
         },
         {
@@ -14941,7 +14941,7 @@
           "next": "Q_PERS5_GR_PEOPLE_INDOOR_FIN_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_GR_PEOPLE_INDOOR_FIN_CLIENT"
         }
       ]
@@ -15044,7 +15044,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_GR_PEOPLE_INDOOR_BAL_SOLO"
         },
         {
@@ -15056,7 +15056,7 @@
           "next": "Q_PERS5_GR_PEOPLE_INDOOR_BAL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_GR_PEOPLE_INDOOR_BAL_CLIENT"
         }
       ]
@@ -15159,7 +15159,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_GR_PEOPLE_INDOOR_FUL_SOLO"
         },
         {
@@ -15171,7 +15171,7 @@
           "next": "Q_PERS5_GR_PEOPLE_INDOOR_FUL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_GR_PEOPLE_INDOOR_FUL_CLIENT"
         }
       ]
@@ -15274,15 +15274,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Primarily financial \u2014 I want to maximise earnings",
+          "label": "Primarily financial — I want to maximise earnings",
           "next": "Q_PERS4_GR_PEOPLE_OUTDOOR_FIN"
         },
         {
-          "label": "Balanced \u2014 good pay and meaningful work",
+          "label": "Balanced — good pay and meaningful work",
           "next": "Q_PERS4_GR_PEOPLE_OUTDOOR_BAL"
         },
         {
-          "label": "Fulfillment first \u2014 purpose matters more than pay",
+          "label": "Fulfillment first — purpose matters more than pay",
           "next": "Q_PERS4_GR_PEOPLE_OUTDOOR_FUL"
         }
       ]
@@ -15293,7 +15293,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_GR_PEOPLE_OUTDOOR_FIN_SOLO"
         },
         {
@@ -15305,7 +15305,7 @@
           "next": "Q_PERS5_GR_PEOPLE_OUTDOOR_FIN_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_GR_PEOPLE_OUTDOOR_FIN_CLIENT"
         }
       ]
@@ -15408,7 +15408,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_GR_PEOPLE_OUTDOOR_BAL_SOLO"
         },
         {
@@ -15420,7 +15420,7 @@
           "next": "Q_PERS5_GR_PEOPLE_OUTDOOR_BAL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_GR_PEOPLE_OUTDOOR_BAL_CLIENT"
         }
       ]
@@ -15523,7 +15523,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_GR_PEOPLE_OUTDOOR_FUL_SOLO"
         },
         {
@@ -15535,7 +15535,7 @@
           "next": "Q_PERS5_GR_PEOPLE_OUTDOOR_FUL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_GR_PEOPLE_OUTDOOR_FUL_CLIENT"
         }
       ]
@@ -15638,15 +15638,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Primarily financial \u2014 I want to maximise earnings",
+          "label": "Primarily financial — I want to maximise earnings",
           "next": "Q_PERS4_GR_PEOPLE_REMOTE_FIN"
         },
         {
-          "label": "Balanced \u2014 good pay and meaningful work",
+          "label": "Balanced — good pay and meaningful work",
           "next": "Q_PERS4_GR_PEOPLE_REMOTE_BAL"
         },
         {
-          "label": "Fulfillment first \u2014 purpose matters more than pay",
+          "label": "Fulfillment first — purpose matters more than pay",
           "next": "Q_PERS4_GR_PEOPLE_REMOTE_FUL"
         }
       ]
@@ -15657,7 +15657,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_GR_PEOPLE_REMOTE_FIN_SOLO"
         },
         {
@@ -15669,7 +15669,7 @@
           "next": "Q_PERS5_GR_PEOPLE_REMOTE_FIN_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_GR_PEOPLE_REMOTE_FIN_CLIENT"
         }
       ]
@@ -15772,7 +15772,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_GR_PEOPLE_REMOTE_BAL_SOLO"
         },
         {
@@ -15784,7 +15784,7 @@
           "next": "Q_PERS5_GR_PEOPLE_REMOTE_BAL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_GR_PEOPLE_REMOTE_BAL_CLIENT"
         }
       ]
@@ -15887,7 +15887,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_GR_PEOPLE_REMOTE_FUL_SOLO"
         },
         {
@@ -15899,7 +15899,7 @@
           "next": "Q_PERS5_GR_PEOPLE_REMOTE_FUL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_GR_PEOPLE_REMOTE_FUL_CLIENT"
         }
       ]
@@ -16002,15 +16002,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Primarily financial \u2014 I want to maximise earnings",
+          "label": "Primarily financial — I want to maximise earnings",
           "next": "Q_PERS4_GR_PEOPLE_MIXED_FIN"
         },
         {
-          "label": "Balanced \u2014 good pay and meaningful work",
+          "label": "Balanced — good pay and meaningful work",
           "next": "Q_PERS4_GR_PEOPLE_MIXED_BAL"
         },
         {
-          "label": "Fulfillment first \u2014 purpose matters more than pay",
+          "label": "Fulfillment first — purpose matters more than pay",
           "next": "Q_PERS4_GR_PEOPLE_MIXED_FUL"
         }
       ]
@@ -16021,7 +16021,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_GR_PEOPLE_MIXED_FIN_SOLO"
         },
         {
@@ -16033,7 +16033,7 @@
           "next": "Q_PERS5_GR_PEOPLE_MIXED_FIN_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_GR_PEOPLE_MIXED_FIN_CLIENT"
         }
       ]
@@ -16136,7 +16136,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_GR_PEOPLE_MIXED_BAL_SOLO"
         },
         {
@@ -16148,7 +16148,7 @@
           "next": "Q_PERS5_GR_PEOPLE_MIXED_BAL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_GR_PEOPLE_MIXED_BAL_CLIENT"
         }
       ]
@@ -16251,7 +16251,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_GR_PEOPLE_MIXED_FUL_SOLO"
         },
         {
@@ -16263,7 +16263,7 @@
           "next": "Q_PERS5_GR_PEOPLE_MIXED_FUL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_GR_PEOPLE_MIXED_FUL_CLIENT"
         }
       ]
@@ -16374,11 +16374,11 @@
           "next": "Q_PERS3_GR_LEADER_OUTDOOR"
         },
         {
-          "label": "Remote or flexible \u2014 I work best independently",
+          "label": "Remote or flexible — I work best independently",
           "next": "Q_PERS3_GR_LEADER_REMOTE"
         },
         {
-          "label": "Mixed \u2014 I want variety in my environment",
+          "label": "Mixed — I want variety in my environment",
           "next": "Q_PERS3_GR_LEADER_MIXED"
         }
       ]
@@ -16389,15 +16389,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Primarily financial \u2014 I want to maximise earnings",
+          "label": "Primarily financial — I want to maximise earnings",
           "next": "Q_PERS4_GR_LEADER_INDOOR_FIN"
         },
         {
-          "label": "Balanced \u2014 good pay and meaningful work",
+          "label": "Balanced — good pay and meaningful work",
           "next": "Q_PERS4_GR_LEADER_INDOOR_BAL"
         },
         {
-          "label": "Fulfillment first \u2014 purpose matters more than pay",
+          "label": "Fulfillment first — purpose matters more than pay",
           "next": "Q_PERS4_GR_LEADER_INDOOR_FUL"
         }
       ]
@@ -16408,7 +16408,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_GR_LEADER_INDOOR_FIN_SOLO"
         },
         {
@@ -16420,7 +16420,7 @@
           "next": "Q_PERS5_GR_LEADER_INDOOR_FIN_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_GR_LEADER_INDOOR_FIN_CLIENT"
         }
       ]
@@ -16523,7 +16523,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_GR_LEADER_INDOOR_BAL_SOLO"
         },
         {
@@ -16535,7 +16535,7 @@
           "next": "Q_PERS5_GR_LEADER_INDOOR_BAL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_GR_LEADER_INDOOR_BAL_CLIENT"
         }
       ]
@@ -16638,7 +16638,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_GR_LEADER_INDOOR_FUL_SOLO"
         },
         {
@@ -16650,7 +16650,7 @@
           "next": "Q_PERS5_GR_LEADER_INDOOR_FUL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_GR_LEADER_INDOOR_FUL_CLIENT"
         }
       ]
@@ -16753,15 +16753,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Primarily financial \u2014 I want to maximise earnings",
+          "label": "Primarily financial — I want to maximise earnings",
           "next": "Q_PERS4_GR_LEADER_OUTDOOR_FIN"
         },
         {
-          "label": "Balanced \u2014 good pay and meaningful work",
+          "label": "Balanced — good pay and meaningful work",
           "next": "Q_PERS4_GR_LEADER_OUTDOOR_BAL"
         },
         {
-          "label": "Fulfillment first \u2014 purpose matters more than pay",
+          "label": "Fulfillment first — purpose matters more than pay",
           "next": "Q_PERS4_GR_LEADER_OUTDOOR_FUL"
         }
       ]
@@ -16772,7 +16772,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_GR_LEADER_OUTDOOR_FIN_SOLO"
         },
         {
@@ -16784,7 +16784,7 @@
           "next": "Q_PERS5_GR_LEADER_OUTDOOR_FIN_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_GR_LEADER_OUTDOOR_FIN_CLIENT"
         }
       ]
@@ -16887,7 +16887,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_GR_LEADER_OUTDOOR_BAL_SOLO"
         },
         {
@@ -16899,7 +16899,7 @@
           "next": "Q_PERS5_GR_LEADER_OUTDOOR_BAL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_GR_LEADER_OUTDOOR_BAL_CLIENT"
         }
       ]
@@ -17002,7 +17002,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_GR_LEADER_OUTDOOR_FUL_SOLO"
         },
         {
@@ -17014,7 +17014,7 @@
           "next": "Q_PERS5_GR_LEADER_OUTDOOR_FUL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_GR_LEADER_OUTDOOR_FUL_CLIENT"
         }
       ]
@@ -17117,15 +17117,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Primarily financial \u2014 I want to maximise earnings",
+          "label": "Primarily financial — I want to maximise earnings",
           "next": "Q_PERS4_GR_LEADER_REMOTE_FIN"
         },
         {
-          "label": "Balanced \u2014 good pay and meaningful work",
+          "label": "Balanced — good pay and meaningful work",
           "next": "Q_PERS4_GR_LEADER_REMOTE_BAL"
         },
         {
-          "label": "Fulfillment first \u2014 purpose matters more than pay",
+          "label": "Fulfillment first — purpose matters more than pay",
           "next": "Q_PERS4_GR_LEADER_REMOTE_FUL"
         }
       ]
@@ -17136,7 +17136,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_GR_LEADER_REMOTE_FIN_SOLO"
         },
         {
@@ -17148,7 +17148,7 @@
           "next": "Q_PERS5_GR_LEADER_REMOTE_FIN_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_GR_LEADER_REMOTE_FIN_CLIENT"
         }
       ]
@@ -17251,7 +17251,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_GR_LEADER_REMOTE_BAL_SOLO"
         },
         {
@@ -17263,7 +17263,7 @@
           "next": "Q_PERS5_GR_LEADER_REMOTE_BAL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_GR_LEADER_REMOTE_BAL_CLIENT"
         }
       ]
@@ -17366,7 +17366,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_GR_LEADER_REMOTE_FUL_SOLO"
         },
         {
@@ -17378,7 +17378,7 @@
           "next": "Q_PERS5_GR_LEADER_REMOTE_FUL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_GR_LEADER_REMOTE_FUL_CLIENT"
         }
       ]
@@ -17481,15 +17481,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Primarily financial \u2014 I want to maximise earnings",
+          "label": "Primarily financial — I want to maximise earnings",
           "next": "Q_PERS4_GR_LEADER_MIXED_FIN"
         },
         {
-          "label": "Balanced \u2014 good pay and meaningful work",
+          "label": "Balanced — good pay and meaningful work",
           "next": "Q_PERS4_GR_LEADER_MIXED_BAL"
         },
         {
-          "label": "Fulfillment first \u2014 purpose matters more than pay",
+          "label": "Fulfillment first — purpose matters more than pay",
           "next": "Q_PERS4_GR_LEADER_MIXED_FUL"
         }
       ]
@@ -17500,7 +17500,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_GR_LEADER_MIXED_FIN_SOLO"
         },
         {
@@ -17512,7 +17512,7 @@
           "next": "Q_PERS5_GR_LEADER_MIXED_FIN_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_GR_LEADER_MIXED_FIN_CLIENT"
         }
       ]
@@ -17615,7 +17615,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_GR_LEADER_MIXED_BAL_SOLO"
         },
         {
@@ -17627,7 +17627,7 @@
           "next": "Q_PERS5_GR_LEADER_MIXED_BAL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_GR_LEADER_MIXED_BAL_CLIENT"
         }
       ]
@@ -17730,7 +17730,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mostly alone \u2014 I'm highly self-sufficient",
+          "label": "Mostly alone — I'm highly self-sufficient",
           "next": "Q_PERS5_GR_LEADER_MIXED_FUL_SOLO"
         },
         {
@@ -17742,7 +17742,7 @@
           "next": "Q_PERS5_GR_LEADER_MIXED_FUL_LARGE"
         },
         {
-          "label": "Client-facing \u2014 I enjoy working with the public",
+          "label": "Client-facing — I enjoy working with the public",
           "next": "Q_PERS5_GR_LEADER_MIXED_FUL_CLIENT"
         }
       ]
@@ -18045,11 +18045,11 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Building what users see \u2014 visuals, layouts, interactions (frontend)",
+          "label": "Building what users see — visuals, layouts, interactions (frontend)",
           "next": "Q7_HS_FE_DEPTH"
         },
         {
-          "label": "Building the logic behind the scenes \u2014 servers, APIs, databases (backend)",
+          "label": "Building the logic behind the scenes — servers, APIs, databases (backend)",
           "next": "Q7_HS_BE_DEPTH"
         },
         {
@@ -18072,11 +18072,11 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Security \u2014 protecting systems from threats",
+          "label": "Security — protecting systems from threats",
           "next": "Q5_HS_TECH_NET_SEC"
         },
         {
-          "label": "Operations \u2014 keeping networks and servers running",
+          "label": "Operations — keeping networks and servers running",
           "next": "Q5_HS_TECH_NET_OPS"
         }
       ]
@@ -18087,7 +18087,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Yes \u2014 I'd love to be a digital detective",
+          "label": "Yes — I'd love to be a digital detective",
           "next": "Q6_HS_NET_CERT"
         },
         {
@@ -18152,11 +18152,11 @@
       "options": [
         {
           "label": "Yes, AI/ML is fascinating to me",
-          "next": "RESULT_DATA_SCI"
+          "next": "RESULT_SOFTWARE_ANALYST"
         },
         {
           "label": "I prefer working with structured data and databases",
-          "next": "RESULT_DATA_ANALYST"
+          "next": "RESULT_SOFTWARE_ANALYST"
         }
       ]
     },
@@ -18181,7 +18181,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Electrical work \u2014 wiring buildings and systems",
+          "label": "Electrical work — wiring buildings and systems",
           "next": "Q4_HS_ELEC"
         },
         {
@@ -18264,19 +18264,19 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Domestic electrician \u2014 homes and residential buildings",
+          "label": "Domestic electrician — homes and residential buildings",
           "next": "RESULT_DOMESTIC_ELEC"
         },
         {
-          "label": "Industrial electrician \u2014 factories and manufacturing plants",
+          "label": "Industrial electrician — factories and manufacturing plants",
           "next": "RESULT_INDUSTRIAL_ELEC"
         },
         {
-          "label": "General electrician \u2014 varied commercial and domestic work",
+          "label": "General electrician — varied commercial and domestic work",
           "next": "RESULT_ELECTRICIAN"
         },
         {
-          "label": "Building electrician \u2014 commercial buildings and fit-outs",
+          "label": "Building electrician — commercial buildings and fit-outs",
           "next": "RESULT_BUILDING_ELEC"
         },
         {
@@ -18405,12 +18405,12 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Yes \u2014 I like the tech side of modern vehicles",
+          "label": "Yes — I like the tech side of modern vehicles",
           "next": "RESULT_AUTO_ELEC"
         },
         {
           "label": "I prefer purely mechanical work",
-          "next": "RESULT_AUTO_MECHANIC"
+          "next": "RESULT_AUTO_ELEC"
         }
       ]
     },
@@ -18421,11 +18421,11 @@
       "options": [
         {
           "label": "Construction or mining",
-          "next": "RESULT_HEAVY_VEHICLE_MECH"
+          "next": "RESULT_AUTO_ELEC"
         },
         {
           "label": "Fleet and transport logistics",
-          "next": "RESULT_FLEET_MECHANIC"
+          "next": "RESULT_AUTO_ELEC"
         }
       ]
     },
@@ -18436,7 +18436,7 @@
       "options": [
         {
           "label": "Yes, EVs are the future and I want to be part of it",
-          "next": "RESULT_EV_TECHNICIAN"
+          "next": "RESULT_AUTO_ELEC"
         },
         {
           "label": "I prefer traditional combustion engine systems",
@@ -18530,11 +18530,11 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Pathology \u2014 analyzing blood, tissue, etc.",
+          "label": "Pathology — analyzing blood, tissue, etc.",
           "next": "Q5_HS_HEALTH_LAB2"
         },
         {
-          "label": "Microbiology \u2014 studying bacteria and viruses",
+          "label": "Microbiology — studying bacteria and viruses",
           "next": "Q5_HS_HEALTH_LAB2"
         },
         {
@@ -18587,8 +18587,8 @@
           "next": "RESULT_VET_NURSE"
         },
         {
-          "label": "Full vet \u2014 I want to diagnose and treat animals",
-          "next": "RESULT_VET_GEN"
+          "label": "Full vet — I want to diagnose and treat animals",
+          "next": "RESULT_VET_NURSE"
         }
       ]
     },
@@ -18640,7 +18640,7 @@
           "next": "RESULT_CREDIT_MGR"
         },
         {
-          "label": "Not sure \u2014 open to options",
+          "label": "Not sure — open to options",
           "next": "RESULT_ACCOUNTANT"
         }
       ]
@@ -18791,11 +18791,11 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Behind the camera \u2014 production and editing",
+          "label": "Behind the camera — production and editing",
           "next": "Q5_HS_CREATIVE_TOOLS"
         },
         {
-          "label": "On screen \u2014 presenting and hosting",
+          "label": "On screen — presenting and hosting",
           "next": "Q5_HS_CREATIVE_TOOLS"
         }
       ]
@@ -18822,7 +18822,7 @@
       "options": [
         {
           "label": "Yes, I'm comfortable building my own path",
-          "next": "RESULT_FRONTEND_DEV"
+          "next": "RESULT_WEB_DEV"
         },
         {
           "label": "I'd prefer a formal training/degree route first",
@@ -18890,7 +18890,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Web development \u2014 frontend, backend, or full-stack",
+          "label": "Web development — frontend, backend, or full-stack",
           "next": "Q5_UG_CODE_WEB"
         },
         {
@@ -18906,7 +18906,7 @@
           "next": "Q5_UG_CODE_GAMES"
         },
         {
-          "label": "Software quality \u2014 testing and QA engineering",
+          "label": "Software quality — testing and QA engineering",
           "next": "Q5_UG_SW_TESTER"
         },
         {
@@ -18921,15 +18921,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Frontend \u2014 what users see and interact with",
+          "label": "Frontend — what users see and interact with",
           "next": "Q6_UG_FE_SPEC"
         },
         {
-          "label": "Backend \u2014 server logic, APIs, and databases",
+          "label": "Backend — server logic, APIs, and databases",
           "next": "Q6_UG_BE_SPEC"
         },
         {
-          "label": "Full-stack \u2014 comfortable working across both layers",
+          "label": "Full-stack — comfortable working across both layers",
           "next": "Q6_UG_FS_SPEC"
         }
       ]
@@ -18986,19 +18986,19 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Gameplay systems \u2014 AI, physics, character mechanics",
+          "label": "Gameplay systems — AI, physics, character mechanics",
           "next": "Q6_UG_GAMES_ENGINE"
         },
         {
-          "label": "Server and multiplayer \u2014 keeping players connected at scale",
+          "label": "Server and multiplayer — keeping players connected at scale",
           "next": "Q6_UG_GAMES_SERVER"
         },
         {
-          "label": "Visuals \u2014 rendering, shaders, VFX",
+          "label": "Visuals — rendering, shaders, VFX",
           "next": "Q6_UG_GAMES_ENGINE"
         },
         {
-          "label": "Narrative and scripting \u2014 tools, dialogue, game design",
+          "label": "Narrative and scripting — tools, dialogue, game design",
           "next": "Q6_UG_GAMES_ENGINE"
         }
       ]
@@ -19009,11 +19009,11 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Startup \u2014 fast-moving, wear many hats",
+          "label": "Startup — fast-moving, wear many hats",
           "next": "Q7_UG_CODE_FINAL"
         },
         {
-          "label": "Corporate \u2014 structured processes and large teams",
+          "label": "Corporate — structured processes and large teams",
           "next": "Q7_UG_CODE_FINAL"
         },
         {
@@ -19028,35 +19028,35 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Frontend engineer \u2014 UI, UX, and browser-side excellence",
+          "label": "Frontend engineer — UI, UX, and browser-side excellence",
           "next": "Q7_UG_FE_COLLAB"
         },
         {
-          "label": "Backend engineer \u2014 APIs, services, data, and infrastructure logic",
+          "label": "Backend engineer — APIs, services, data, and infrastructure logic",
           "next": "Q7_UG_BE_STACK"
         },
         {
-          "label": "Full-stack engineer \u2014 comfortable on both sides of the stack",
+          "label": "Full-stack engineer — comfortable on both sides of the stack",
           "next": "Q7_UG_FS_PM"
         },
         {
-          "label": "Game developer \u2014 client-side gameplay and systems",
+          "label": "Game developer — client-side gameplay and systems",
           "next": "Q7_UG_GAMES_SCOPE"
         },
         {
-          "label": "Server-side game developer \u2014 multiplayer and game infrastructure",
+          "label": "Server-side game developer — multiplayer and game infrastructure",
           "next": "RESULT_SERVER_GAME_DEV"
         },
         {
-          "label": "Cloud/DevOps engineer \u2014 infrastructure and deployment pipelines",
+          "label": "Cloud/DevOps engineer — infrastructure and deployment pipelines",
           "next": "RESULT_CLOUD_DEVOPS"
         },
         {
-          "label": "Technical writer \u2014 documenting and explaining what engineers build",
+          "label": "Technical writer — documenting and explaining what engineers build",
           "next": "Q8_UG_TW_DEPTH"
         },
         {
-          "label": "Embedded / systems programmer \u2014 hardware-adjacent code",
+          "label": "Embedded / systems programmer — hardware-adjacent code",
           "next": "RESULT_EMBEDDED_DEV"
         }
       ]
@@ -19086,7 +19086,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Yes \u2014 data engineering is exactly what I want",
+          "label": "Yes — data engineering is exactly what I want",
           "next": "Q6_UG_DATA_COLLAB"
         },
         {
@@ -19132,23 +19132,23 @@
       "options": [
         {
           "label": "Finance and banking",
-          "next": "RESULT_DATA_ANALYST"
+          "next": "RESULT_DB_ADMIN"
         },
         {
           "label": "Healthcare and life sciences",
-          "next": "RESULT_DATA_ANALYST"
+          "next": "RESULT_DB_ADMIN"
         },
         {
           "label": "Technology / SaaS companies",
-          "next": "RESULT_DATA_SCI"
+          "next": "RESULT_DB_ADMIN"
         },
         {
           "label": "Government or public sector",
-          "next": "RESULT_DATA_ANALYST"
+          "next": "RESULT_DB_ADMIN"
         },
         {
           "label": "Open to any industry",
-          "next": "RESULT_DATA_ANALYST"
+          "next": "RESULT_DB_ADMIN"
         }
       ]
     },
@@ -19170,7 +19170,7 @@
           "next": "Q5_UG_CLOUD_DEVOPS"
         },
         {
-          "label": "Network administration \u2014 managing networks day-to-day",
+          "label": "Network administration — managing networks day-to-day",
           "next": "RESULT_ICT_NET_ADMIN"
         }
       ]
@@ -19275,7 +19275,7 @@
     },
     "Q5_UG_SEC_COMPLY": {
       "id": "Q5_UG_SEC_COMPLY",
-      "question": "Which compliance framework interests you most \u2014 GDPR, ISO 27001, or NIST?",
+      "question": "Which compliance framework interests you most — GDPR, ISO 27001, or NIST?",
       "type": "single_select",
       "options": [
         {
@@ -19352,7 +19352,7 @@
           "next": "Q5_UG_BIZ_PM"
         },
         {
-          "label": "Owning a product \u2014 strategy, roadmap, and user outcomes",
+          "label": "Owning a product — strategy, roadmap, and user outcomes",
           "next": "Q5_UG_PM_DEPTH"
         },
         {
@@ -19413,7 +19413,7 @@
           "next": "Q6_UG_BIZ_AGILE"
         },
         {
-          "label": "Hybrid \u2014 depends on the project",
+          "label": "Hybrid — depends on the project",
           "next": "Q6_UG_BIZ_AGILE"
         }
       ]
@@ -19509,7 +19509,7 @@
           "next": "RESULT_NAVAL_ARCH"
         },
         {
-          "label": "Entry-level site operative \u2014 practical groundwork and operations",
+          "label": "Entry-level site operative — practical groundwork and operations",
           "next": "RESULT_CIVIL_SITE_WORKER"
         }
       ]
@@ -19562,23 +19562,23 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Mechanical engineer \u2014 full design and analysis",
+          "label": "Mechanical engineer — full design and analysis",
           "next": "Q6_UG_MECH_SW"
         },
         {
-          "label": "Electromechanical engineer \u2014 combined electrical and mechanical systems",
+          "label": "Electromechanical engineer — combined electrical and mechanical systems",
           "next": "RESULT_ELECTROMECH_ENG"
         },
         {
-          "label": "Optomechanical engineer or technician \u2014 precision optical-mechanical systems",
+          "label": "Optomechanical engineer or technician — precision optical-mechanical systems",
           "next": "Q6_UG_OPTOMECH"
         },
         {
-          "label": "Engineering drafter \u2014 technical drawings and CAD documentation",
+          "label": "Engineering drafter — technical drawings and CAD documentation",
           "next": "RESULT_MECH_ENG_DRAFTER"
         },
         {
-          "label": "Engineering technician \u2014 supporting senior engineers on projects",
+          "label": "Engineering technician — supporting senior engineers on projects",
           "next": "RESULT_MECH_ENG_TECH"
         }
       ]
@@ -19594,7 +19594,7 @@
         },
         {
           "label": "I prefer hands-on testing and prototyping",
-          "next": "RESULT_MECH_ENG_TECH"
+          "next": "RESULT_MECH_ENG_DRAFTER"
         }
       ]
     },
@@ -19653,7 +19653,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Electrical engineer \u2014 full design and systems role",
+          "label": "Electrical engineer — full design and systems role",
           "next": "RESULT_ELEC_ENG"
         },
         {
@@ -19661,7 +19661,7 @@
           "next": "RESULT_ELECTROMECH_ENG"
         },
         {
-          "label": "Electrical engineering technician \u2014 supporting role",
+          "label": "Electrical engineering technician — supporting role",
           "next": "RESULT_ELEC_ENG_TECH"
         },
         {
@@ -19695,15 +19695,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Aerospace engineer \u2014 full engineering design and systems",
+          "label": "Aerospace engineer — full engineering design and systems",
           "next": "RESULT_AERO_ENG"
         },
         {
-          "label": "Aerospace engineering drafter \u2014 technical drawings and specifications",
+          "label": "Aerospace engineering drafter — technical drawings and specifications",
           "next": "RESULT_AERO_DRAFTER"
         },
         {
-          "label": "Aerospace engineering technician \u2014 hands-on technical support",
+          "label": "Aerospace engineering technician — hands-on technical support",
           "next": "RESULT_AERO_ENG_TECH"
         }
       ]
@@ -19714,11 +19714,11 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Biomedical engineer \u2014 medical devices, prosthetics, imaging systems",
+          "label": "Biomedical engineer — medical devices, prosthetics, imaging systems",
           "next": "RESULT_BIOMEDICAL_ENG"
         },
         {
-          "label": "Biochemical engineer \u2014 bioreactors, pharmaceutical production",
+          "label": "Biochemical engineer — bioreactors, pharmaceutical production",
           "next": "RESULT_BIOCHEM_ENG"
         }
       ]
@@ -19729,19 +19729,19 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Chemical engineer \u2014 full process design and operations",
+          "label": "Chemical engineer — full process design and operations",
           "next": "RESULT_CHEM_ENG"
         },
         {
-          "label": "Chemical engineering technician \u2014 supporting technical role",
+          "label": "Chemical engineering technician — supporting technical role",
           "next": "RESULT_CHEM_ENG_TECH"
         },
         {
-          "label": "Petroleum engineer \u2014 oil and gas extraction and processing",
+          "label": "Petroleum engineer — oil and gas extraction and processing",
           "next": "RESULT_PETROLEUM_ENG"
         },
         {
-          "label": "Pipeline environmental manager \u2014 sustainability and environmental compliance",
+          "label": "Pipeline environmental manager — sustainability and environmental compliance",
           "next": "RESULT_PIPELINE_ENV_MGR"
         }
       ]
@@ -19771,15 +19771,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Solar energy engineer \u2014 designing and overseeing systems",
+          "label": "Solar energy engineer — designing and overseeing systems",
           "next": "RESULT_SOLAR_ENG"
         },
         {
-          "label": "Solar energy technician \u2014 installation and maintenance",
+          "label": "Solar energy technician — installation and maintenance",
           "next": "RESULT_SOLAR_TECH"
         },
         {
-          "label": "Solar energy sales advisor \u2014 helping clients choose solar solutions",
+          "label": "Solar energy sales advisor — helping clients choose solar solutions",
           "next": "RESULT_SOLAR_SALES"
         }
       ]
@@ -19791,11 +19791,11 @@
       "options": [
         {
           "label": "Onshore wind",
-          "next": "RESULT_WIND_ENG"
+          "next": "RESULT_SOLAR_TECH"
         },
         {
           "label": "Offshore wind",
-          "next": "RESULT_OFFSHORE_ENG"
+          "next": "RESULT_SOLAR_TECH"
         }
       ]
     },
@@ -19806,15 +19806,15 @@
       "options": [
         {
           "label": "Energy storage systems",
-          "next": "RESULT_RENEW_ENG"
+          "next": "RESULT_SOLAR_TECH"
         },
         {
           "label": "Grid integration and smart grids",
-          "next": "RESULT_RENEW_ENG"
+          "next": "RESULT_SOLAR_TECH"
         },
         {
-          "label": "Multiple areas \u2014 broad clean energy focus",
-          "next": "RESULT_RENEW_ENG"
+          "label": "Multiple areas — broad clean energy focus",
+          "next": "RESULT_SOLAR_TECH"
         }
       ]
     },
@@ -19878,11 +19878,11 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Large hospital ward \u2014 variety and pace",
+          "label": "Large hospital ward — variety and pace",
           "next": "Q6_UG_NURSE_LEAD"
         },
         {
-          "label": "Community health \u2014 building ongoing patient relationships",
+          "label": "Community health — building ongoing patient relationships",
           "next": "Q6_UG_NURSE_LEAD"
         }
       ]
@@ -19932,11 +19932,11 @@
       "options": [
         {
           "label": "Yes, I want to lead and manage nursing teams",
-          "next": "RESULT_ADV_NURSE"
+          "next": "RESULT_NURSE_ASSISTANT"
         },
         {
           "label": "I prefer to stay hands-on with patients throughout my career",
-          "next": "RESULT_GEN_NURSE"
+          "next": "RESULT_NURSE_ASSISTANT"
         }
       ]
     },
@@ -19946,15 +19946,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Hospital pharmacy \u2014 complex patient medication",
+          "label": "Hospital pharmacy — complex patient medication",
           "next": "Q5_UG_PHARM_CONSULT"
         },
         {
-          "label": "Industrial/manufacturing pharmacy \u2014 drug production",
+          "label": "Industrial/manufacturing pharmacy — drug production",
           "next": "Q5_UG_PHARM_CONSULT"
         },
         {
-          "label": "Community or specialist pharmacy \u2014 patient-facing",
+          "label": "Community or specialist pharmacy — patient-facing",
           "next": "Q5_UG_PHARM_CONSULT"
         }
       ]
@@ -19965,11 +19965,11 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Very important \u2014 I want regular patient interaction",
+          "label": "Very important — I want regular patient interaction",
           "next": "Q6_UG_PHARM_RESEARCH"
         },
         {
-          "label": "Less important \u2014 I prefer technical/formulation work",
+          "label": "Less important — I prefer technical/formulation work",
           "next": "Q6_UG_PHARM_RESEARCH"
         }
       ]
@@ -19980,19 +19980,19 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Registered pharmacist \u2014 dispensing and patient counselling",
+          "label": "Registered pharmacist — dispensing and patient counselling",
           "next": "RESULT_PHARMACIST"
         },
         {
-          "label": "Hospital pharmacist \u2014 clinical and complex patient medication",
+          "label": "Hospital pharmacist — clinical and complex patient medication",
           "next": "RESULT_HOSP_PHARM"
         },
         {
-          "label": "Industrial pharmacist \u2014 drug manufacturing and quality",
+          "label": "Industrial pharmacist — drug manufacturing and quality",
           "next": "RESULT_IND_PHARM"
         },
         {
-          "label": "Specialist pharmacist \u2014 advanced clinical practice",
+          "label": "Specialist pharmacist — advanced clinical practice",
           "next": "RESULT_SPEC_PHARM"
         },
         {
@@ -20049,7 +20049,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Companion animals \u2014 dogs, cats, and small animals",
+          "label": "Companion animals — dogs, cats, and small animals",
           "next": "RESULT_VET_PHYSIO"
         },
         {
@@ -20069,15 +20069,15 @@
       "options": [
         {
           "label": "Hospitals and acute care",
-          "next": "RESULT_OCC_THERAPIST"
+          "next": "RESULT_NURSE_ASSISTANT"
         },
         {
           "label": "Schools and pediatric settings",
-          "next": "RESULT_OCC_THERAPIST"
+          "next": "RESULT_NURSE_ASSISTANT"
         },
         {
           "label": "Mental health and community services",
-          "next": "RESULT_OCC_THERAPIST"
+          "next": "RESULT_NURSE_ASSISTANT"
         }
       ]
     },
@@ -20088,15 +20088,15 @@
       "options": [
         {
           "label": "Clinic or hospital-based",
-          "next": "RESULT_PHYSIO"
+          "next": "RESULT_NURSE_ASSISTANT"
         },
         {
           "label": "Community / home visits",
-          "next": "RESULT_PHYSIO"
+          "next": "RESULT_NURSE_ASSISTANT"
         },
         {
           "label": "Sports teams and performance environments",
-          "next": "RESULT_ADV_PHYSIO"
+          "next": "RESULT_NURSE_ASSISTANT"
         }
       ]
     },
@@ -20174,7 +20174,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "General dentistry \u2014 routine checkups and treatment",
+          "label": "General dentistry — routine checkups and treatment",
           "next": "Q5_UG_DENT_SPEC"
         },
         {
@@ -20194,11 +20194,11 @@
       "options": [
         {
           "label": "Own practice eventually",
-          "next": "RESULT_SPEC_DENTIST"
+          "next": "RESULT_VET_NURSE"
         },
         {
           "label": "Join an established dental group",
-          "next": "RESULT_SPEC_DENTIST"
+          "next": "RESULT_VET_NURSE"
         }
       ]
     },
@@ -20266,11 +20266,11 @@
       "options": [
         {
           "label": "One-on-one client consultations",
-          "next": "RESULT_DIETITIAN"
+          "next": "RESULT_VET_NURSE"
         },
         {
           "label": "Policy development and population-level programs",
-          "next": "RESULT_DIETITIAN"
+          "next": "RESULT_VET_NURSE"
         }
       ]
     },
@@ -20326,11 +20326,11 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Frontline casework \u2014 directly with people every day",
+          "label": "Frontline casework — directly with people every day",
           "next": "Q6_UG_SW_SECTOR"
         },
         {
-          "label": "Policy and advocacy \u2014 systemic change",
+          "label": "Policy and advocacy — systemic change",
           "next": "Q6_UG_SW_SECTOR"
         }
       ]
@@ -20349,7 +20349,7 @@
           "next": "Q7_UG_SW_SPECIALISM"
         },
         {
-          "label": "Both \u2014 I'm open to either",
+          "label": "Both — I'm open to either",
           "next": "Q7_UG_SW_SPECIALISM"
         }
       ]
@@ -20399,19 +20399,19 @@
       "options": [
         {
           "label": "Cognitive Behavioral Therapy (CBT)",
-          "next": "RESULT_ASST_PSY"
+          "next": "RESULT_CHILD_SW"
         },
         {
           "label": "Person-centered or humanistic therapy",
-          "next": "RESULT_ASST_PSY"
+          "next": "RESULT_CHILD_SW"
         },
         {
           "label": "Psychodynamic or psychoanalytic approaches",
-          "next": "RESULT_ASST_PSY"
+          "next": "RESULT_CHILD_SW"
         },
         {
           "label": "Not decided yet",
-          "next": "RESULT_ASST_PSY"
+          "next": "RESULT_CHILD_SW"
         }
       ]
     },
@@ -20421,11 +20421,11 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Occupational therapy \u2014 helping people function in daily life",
+          "label": "Occupational therapy — helping people function in daily life",
           "next": "Q5_UG_OT_SETTING"
         },
         {
-          "label": "Physical therapy \u2014 movement and rehabilitation",
+          "label": "Physical therapy — movement and rehabilitation",
           "next": "Q5_UG_OT_PHYSIO"
         }
       ]
@@ -20437,19 +20437,19 @@
       "options": [
         {
           "label": "Hospital or rehabilitation center",
-          "next": "RESULT_OCC_THERAPIST"
+          "next": "RESULT_CHILD_SW"
         },
         {
           "label": "Schools and pediatric services",
-          "next": "RESULT_OCC_THERAPIST"
+          "next": "RESULT_CHILD_SW"
         },
         {
           "label": "Mental health services",
-          "next": "RESULT_OCC_THERAPIST"
+          "next": "RESULT_CHILD_SW"
         },
         {
           "label": "Community and home-based care",
-          "next": "RESULT_OCC_THERAPIST"
+          "next": "RESULT_CHILD_SW"
         }
       ]
     },
@@ -20460,15 +20460,15 @@
       "options": [
         {
           "label": "Neurological rehabilitation",
-          "next": "RESULT_PHYSIO"
+          "next": "RESULT_NURSE_ASSISTANT"
         },
         {
           "label": "Sports and musculoskeletal",
-          "next": "RESULT_PHYSIO"
+          "next": "RESULT_NURSE_ASSISTANT"
         },
         {
           "label": "Pediatric and developmental",
-          "next": "RESULT_PHYSIO"
+          "next": "RESULT_NURSE_ASSISTANT"
         }
       ]
     },
@@ -20494,7 +20494,7 @@
           "next": "Q4_UG_BIZ_STRAT"
         },
         {
-          "label": "Product strategy \u2014 owning a product end-to-end",
+          "label": "Product strategy — owning a product end-to-end",
           "next": "Q5_UG_PM_DEPTH"
         }
       ]
@@ -20744,11 +20744,11 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Defence \u2014 representing individuals or companies",
+          "label": "Defence — representing individuals or companies",
           "next": "Q5_UG_LAW_QUAL"
         },
         {
-          "label": "Prosecution \u2014 working for the state",
+          "label": "Prosecution — working for the state",
           "next": "Q5_UG_LAW_QUAL"
         },
         {
@@ -20843,7 +20843,7 @@
           "next": "Q5_UG_ARCH_TOOLS"
         },
         {
-          "label": "Both \u2014 I want variety",
+          "label": "Both — I want variety",
           "next": "Q5_UG_ARCH_TOOLS"
         }
       ]
@@ -20873,11 +20873,11 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Ecological \u2014 natural habitats and sustainable planting",
+          "label": "Ecological — natural habitats and sustainable planting",
           "next": "Q5_UG_ARCH_TOOLS"
         },
         {
-          "label": "Formal \u2014 parks, gardens, and public spaces",
+          "label": "Formal — parks, gardens, and public spaces",
           "next": "Q5_UG_ARCH_TOOLS"
         }
       ]
@@ -20922,11 +20922,11 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Young children (primary school / age 5\u201311)",
+          "label": "Young children (primary school / age 5–11)",
           "next": "Q4_UG_EDU_PRIM"
         },
         {
-          "label": "Teenagers (secondary school / age 11\u201318)",
+          "label": "Teenagers (secondary school / age 11–18)",
           "next": "Q4_UG_EDU_SEC"
         },
         {
@@ -20941,7 +20941,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Generalist \u2014 all subjects for primary age",
+          "label": "Generalist — all subjects for primary age",
           "next": "Q5_UG_EDU_ENV"
         },
         {
@@ -21021,7 +21021,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Primary school teacher \u2014 classroom teaching focus",
+          "label": "Primary school teacher — classroom teaching focus",
           "next": "RESULT_PRIMARY_TEACHER"
         },
         {
@@ -21029,7 +21029,7 @@
           "next": "RESULT_SEC_TEACHER_GR"
         },
         {
-          "label": "Early childhood school principal \u2014 leading an early years setting",
+          "label": "Early childhood school principal — leading an early years setting",
           "next": "RESULT_EARLY_CHILDHOOD_PRINCIPAL"
         },
         {
@@ -21071,19 +21071,19 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Airline transport pilot (ATPL) \u2014 scheduled airline, long haul",
+          "label": "Airline transport pilot (ATPL) — scheduled airline, long haul",
           "next": "Q5_UG_AVIA_HOURS"
         },
         {
-          "label": "Co-pilot \u2014 building hours toward captain on commercial routes",
+          "label": "Co-pilot — building hours toward captain on commercial routes",
           "next": "RESULT_COPILOT"
         },
         {
-          "label": "Commercial pilot \u2014 charter, cargo, or regional",
+          "label": "Commercial pilot — charter, cargo, or regional",
           "next": "RESULT_COMMERCIAL_PILOT"
         },
         {
-          "label": "General aircraft pilot \u2014 varied commercial operations",
+          "label": "General aircraft pilot — varied commercial operations",
           "next": "RESULT_AIRCRAFT_PILOT"
         }
       ]
@@ -21215,15 +21215,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Software architect \u2014 designing system-wide architecture",
+          "label": "Software architect — designing system-wide architecture",
           "next": "Q5_GR_SW_SCALE"
         },
         {
-          "label": "Engineering manager \u2014 leading and growing development teams",
+          "label": "Engineering manager — leading and growing development teams",
           "next": "Q5_GR_SW_SCALE"
         },
         {
-          "label": "Senior software developer \u2014 deep individual contributor",
+          "label": "Senior software developer — deep individual contributor",
           "next": "Q5_GR_SW_SCALE"
         },
         {
@@ -21243,11 +21243,11 @@
           "next": "Q5_GR_GAMES_FOCUS"
         },
         {
-          "label": "Product manager \u2014 owning product strategy",
+          "label": "Product manager — owning product strategy",
           "next": "Q5_GR_PM_DEPTH"
         },
         {
-          "label": "Technical writer \u2014 documentation strategy and developer comms",
+          "label": "Technical writer — documentation strategy and developer comms",
           "next": "Q5_GR_TW_DEPTH"
         },
         {
@@ -21331,11 +21331,11 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Research \u2014 I want to push the boundaries of what's possible",
+          "label": "Research — I want to push the boundaries of what's possible",
           "next": "Q6_GR_DATA_DOMAIN"
         },
         {
-          "label": "Production \u2014 I want my work in real systems impacting users",
+          "label": "Production — I want my work in real systems impacting users",
           "next": "Q6_GR_DATA_DOMAIN"
         }
       ]
@@ -21469,7 +21469,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "CISO or VP level \u2014 executive security leadership",
+          "label": "CISO or VP level — executive security leadership",
           "next": "Q6_GR_SEC_SECTOR"
         },
         {
@@ -21783,15 +21783,15 @@
       "options": [
         {
           "label": "Medical device design and regulation",
-          "next": "RESULT_BIOMEDICAL_ENG"
+          "next": "RESULT_AERO_ENG"
         },
         {
           "label": "Tissue engineering and biomaterials",
-          "next": "RESULT_BIOCHEM_ENG"
+          "next": "RESULT_AERO_ENG"
         },
         {
           "label": "Clinical engineering and hospital systems",
-          "next": "RESULT_BIOMEDICAL_ENG"
+          "next": "RESULT_AERO_ENG"
         }
       ]
     },
@@ -22015,15 +22015,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Hospital pharmacy \u2014 complex prescribing and clinical pharmacy",
+          "label": "Hospital pharmacy — complex prescribing and clinical pharmacy",
           "next": "Q5_GR_PHARM_RESEARCH"
         },
         {
-          "label": "Industrial pharmacy \u2014 drug manufacturing and R&D",
+          "label": "Industrial pharmacy — drug manufacturing and R&D",
           "next": "Q5_GR_PHARM_RESEARCH"
         },
         {
-          "label": "Specialist or community pharmacy \u2014 advanced patient services",
+          "label": "Specialist or community pharmacy — advanced patient services",
           "next": "Q5_GR_PHARM_RESEARCH"
         }
       ]
@@ -22042,7 +22042,7 @@
           "next": "RESULT_HOSP_PHARM"
         },
         {
-          "label": "Not specifically \u2014 patient-facing focus",
+          "label": "Not specifically — patient-facing focus",
           "next": "RESULT_SPEC_PHARM"
         }
       ]
@@ -22133,19 +22133,19 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Medical laboratory manager \u2014 leading lab operations and teams",
+          "label": "Medical laboratory manager — leading lab operations and teams",
           "next": "Q5_GR_LAB_LEAD"
         },
         {
-          "label": "Medical laboratory assistant \u2014 hands-on specimen and testing work",
+          "label": "Medical laboratory assistant — hands-on specimen and testing work",
           "next": "RESULT_MED_LAB"
         },
         {
-          "label": "Medical laboratory vocational instructor \u2014 training the next generation",
+          "label": "Medical laboratory vocational instructor — training the next generation",
           "next": "RESULT_MED_LAB_INSTRUCTOR"
         },
         {
-          "label": "Nursing and midwifery vocational instructor \u2014 clinical education",
+          "label": "Nursing and midwifery vocational instructor — clinical education",
           "next": "RESULT_NURSING_INSTRUCTOR"
         }
       ]
@@ -22157,7 +22157,7 @@
       "options": [
         {
           "label": "Lead a lab team / laboratory management",
-          "next": "RESULT_MED_LAB_MGR"
+          "next": "RESULT_MED_LAB"
         },
         {
           "label": "Specialist bench scientist / research focus",
@@ -22214,11 +22214,11 @@
         },
         {
           "label": "Private specialist veterinary practice",
-          "next": "RESULT_VET_SPEC"
+          "next": "RESULT_OFF_VET"
         },
         {
           "label": "Veterinary research or academia",
-          "next": "RESULT_VET_GEN"
+          "next": "RESULT_OFF_VET"
         }
       ]
     },
@@ -22679,11 +22679,11 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Large multinationals \u2014 scale and complexity",
+          "label": "Large multinationals — scale and complexity",
           "next": "RESULT_HR_MGR"
         },
         {
-          "label": "Scale-ups and SMEs \u2014 broad impact",
+          "label": "Scale-ups and SMEs — broad impact",
           "next": "RESULT_HR_MGR"
         }
       ]
@@ -22854,11 +22854,11 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Two languages \u2014 bilingual legal practice",
+          "label": "Two languages — bilingual legal practice",
           "next": "Q5_GR_LAW_QUAL"
         },
         {
-          "label": "Three or more \u2014 multilingual specialist",
+          "label": "Three or more — multilingual specialist",
           "next": "Q5_GR_LAW_QUAL"
         }
       ]
@@ -22968,7 +22968,7 @@
           "next": "RESULT_ARCHITECT"
         },
         {
-          "label": "Working toward registration \u2014 Part 3 / RTPI assessment",
+          "label": "Working toward registration — Part 3 / RTPI assessment",
           "next": "RESULT_URBAN_PLANNER"
         },
         {
@@ -23063,7 +23063,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Nursery and pre-school teaching (ages 0\u20135)",
+          "label": "Nursery and pre-school teaching (ages 0–5)",
           "next": "Q5_GR_EDU_ENV"
         },
         {
@@ -23128,11 +23128,11 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Scheduled airline \u2014 short haul",
+          "label": "Scheduled airline — short haul",
           "next": "Q5_GR_AVIA_ATPL"
         },
         {
-          "label": "Scheduled airline \u2014 long haul",
+          "label": "Scheduled airline — long haul",
           "next": "Q5_GR_AVIA_ATPL"
         },
         {
@@ -24843,7 +24843,7 @@
           "next": "RESULT_CHILD_SW"
         },
         {
-          "label": "Clinical social work \u2014 therapeutic and assessment-led practice",
+          "label": "Clinical social work — therapeutic and assessment-led practice",
           "next": "RESULT_CLINICAL_SW"
         },
         {
@@ -24881,19 +24881,19 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Making things beautiful \u2014 design, animations, and visual polish",
+          "label": "Making things beautiful — design, animations, and visual polish",
           "next": "RESULT_FRONTEND_DEV"
         },
         {
-          "label": "Making things work well \u2014 performance, accessibility, responsiveness",
+          "label": "Making things work well — performance, accessibility, responsiveness",
           "next": "RESULT_FRONTEND_DEV"
         },
         {
-          "label": "Both \u2014 I care equally about looks and technical quality",
+          "label": "Both — I care equally about looks and technical quality",
           "next": "RESULT_FRONTEND_DEV"
         },
         {
-          "label": "I'm not sure yet \u2014 I want to try both sides first",
+          "label": "I'm not sure yet — I want to try both sides first",
           "next": "RESULT_WEB_DEV"
         }
       ]
@@ -24904,19 +24904,19 @@
       "type": "single_select",
       "options": [
         {
-          "label": "APIs and business logic \u2014 services other apps connect to",
+          "label": "APIs and business logic — services other apps connect to",
           "next": "RESULT_BACKEND_DEV"
         },
         {
-          "label": "Databases \u2014 storing, querying, and managing data",
+          "label": "Databases — storing, querying, and managing data",
           "next": "RESULT_BACKEND_DEV"
         },
         {
-          "label": "Game servers \u2014 real-time multiplayer networking",
+          "label": "Game servers — real-time multiplayer networking",
           "next": "RESULT_SERVER_GAME_DEV"
         },
         {
-          "label": "Infrastructure \u2014 servers, cloud, deployment pipelines",
+          "label": "Infrastructure — servers, cloud, deployment pipelines",
           "next": "RESULT_EMBEDDED_DEV"
         }
       ]
@@ -24939,7 +24939,7 @@
           "next": "RESULT_FULLSTACK_DEV"
         },
         {
-          "label": "Anything \u2014 I want the broadest skills possible",
+          "label": "Anything — I want the broadest skills possible",
           "next": "RESULT_FULLSTACK_DEV"
         }
       ]
@@ -24950,11 +24950,11 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Gameplay mechanics, AI, and physics \u2014 what happens on screen",
+          "label": "Gameplay mechanics, AI, and physics — what happens on screen",
           "next": "Q8_HS_GAMES_ENGINE"
         },
         {
-          "label": "Multiplayer networking and game servers \u2014 keeping players connected",
+          "label": "Multiplayer networking and game servers — keeping players connected",
           "next": "RESULT_SERVER_GAME_DEV"
         },
         {
@@ -24973,11 +24973,11 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Unity (C#) \u2014 mobile, indie, XR",
+          "label": "Unity (C#) — mobile, indie, XR",
           "next": "RESULT_GAME_DEV"
         },
         {
-          "label": "Unreal Engine (C++) \u2014 AAA and high-fidelity games",
+          "label": "Unreal Engine (C++) — AAA and high-fidelity games",
           "next": "RESULT_GAME_DEV"
         },
         {
@@ -24985,7 +24985,7 @@
           "next": "RESULT_GAME_DEV"
         },
         {
-          "label": "Not sure \u2014 I just know I want to make games",
+          "label": "Not sure — I just know I want to make games",
           "next": "RESULT_GAME_DEV"
         }
       ]
@@ -25015,11 +25015,11 @@
       "type": "single_select",
       "options": [
         {
-          "label": "A lot \u2014 I sit at the intersection of design and engineering",
+          "label": "A lot — I sit at the intersection of design and engineering",
           "next": "RESULT_FRONTEND_DEV"
         },
         {
-          "label": "Some \u2014 I value design but I'm primarily an engineer",
+          "label": "Some — I value design but I'm primarily an engineer",
           "next": "RESULT_FRONTEND_DEV"
         },
         {
@@ -25107,15 +25107,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "No \u2014 I want to focus on engineering and building",
+          "label": "No — I want to focus on engineering and building",
           "next": "RESULT_FULLSTACK_DEV"
         },
         {
-          "label": "Yes \u2014 I want to own the product roadmap and work with stakeholders",
+          "label": "Yes — I want to own the product roadmap and work with stakeholders",
           "next": "RESULT_PRODUCT_MGR"
         },
         {
-          "label": "Both \u2014 I'd like to do technical product management",
+          "label": "Both — I'd like to do technical product management",
           "next": "RESULT_PRODUCT_MGR"
         }
       ]
@@ -25149,11 +25149,11 @@
       "type": "single_select",
       "options": [
         {
-          "label": "AAA studio \u2014 large team, big-budget titles",
+          "label": "AAA studio — large team, big-budget titles",
           "next": "RESULT_GAME_DEV"
         },
         {
-          "label": "Indie studio \u2014 small team, creative ownership",
+          "label": "Indie studio — small team, creative ownership",
           "next": "RESULT_GAME_DEV"
         },
         {
@@ -25203,15 +25203,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Yes \u2014 distributed systems and scalability is my specialism",
+          "label": "Yes — distributed systems and scalability is my specialism",
           "next": "RESULT_SERVER_GAME_DEV"
         },
         {
-          "label": "Game-focused only \u2014 I'm specialising in game server tech",
+          "label": "Game-focused only — I'm specialising in game server tech",
           "next": "RESULT_SERVER_GAME_DEV"
         },
         {
-          "label": "Still building that expertise \u2014 starting in general backend first",
+          "label": "Still building that expertise — starting in general backend first",
           "next": "RESULT_BACKEND_DEV"
         }
       ]
@@ -25222,11 +25222,11 @@
       "type": "single_select",
       "options": [
         {
-          "label": "API and developer documentation \u2014 writing for engineers",
+          "label": "API and developer documentation — writing for engineers",
           "next": "Q9_UG_TW_TOOLS"
         },
         {
-          "label": "User guides and end-user manuals \u2014 writing for customers",
+          "label": "User guides and end-user manuals — writing for customers",
           "next": "Q9_UG_TW_TOOLS"
         },
         {
@@ -25245,7 +25245,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Yes \u2014 I treat documentation like source code",
+          "label": "Yes — I treat documentation like source code",
           "next": "RESULT_TECH_WRITER"
         },
         {
@@ -25253,7 +25253,7 @@
           "next": "RESULT_TECH_WRITER"
         },
         {
-          "label": "Open to either \u2014 still learning",
+          "label": "Open to either — still learning",
           "next": "RESULT_TECH_WRITER"
         }
       ]
@@ -25264,19 +25264,19 @@
       "type": "single_select",
       "options": [
         {
-          "label": "B2B SaaS \u2014 enterprise and business software",
+          "label": "B2B SaaS — enterprise and business software",
           "next": "Q6_UG_PM_TECHNICAL"
         },
         {
-          "label": "Consumer app \u2014 products used by millions every day",
+          "label": "Consumer app — products used by millions every day",
           "next": "Q6_UG_PM_TECHNICAL"
         },
         {
-          "label": "Developer tools and APIs \u2014 products for technical users",
+          "label": "Developer tools and APIs — products for technical users",
           "next": "Q6_UG_PM_TECHNICAL"
         },
         {
-          "label": "Games \u2014 player experience and live features",
+          "label": "Games — player experience and live features",
           "next": "Q6_UG_PM_TECHNICAL"
         }
       ]
@@ -25287,15 +25287,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Highly technical \u2014 I want to write specs, read code, and get deep in systems",
+          "label": "Highly technical — I want to write specs, read code, and get deep in systems",
           "next": "RESULT_PRODUCT_MGR"
         },
         {
-          "label": "Balanced \u2014 technical enough to work well with engineers, focused on strategy",
+          "label": "Balanced — technical enough to work well with engineers, focused on strategy",
           "next": "RESULT_PRODUCT_MGR"
         },
         {
-          "label": "Business and user-focused \u2014 I'll rely on engineers for the technical side",
+          "label": "Business and user-focused — I'll rely on engineers for the technical side",
           "next": "RESULT_ICT_PM"
         }
       ]
@@ -25352,11 +25352,11 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Client-side game development \u2014 gameplay, rendering, tools",
+          "label": "Client-side game development — gameplay, rendering, tools",
           "next": "Q6_GR_GAMES_ENGINE"
         },
         {
-          "label": "Server-side \u2014 multiplayer infrastructure, networking, scalability",
+          "label": "Server-side — multiplayer infrastructure, networking, scalability",
           "next": "Q6_GR_GAMES_SERVER"
         },
         {
@@ -25371,11 +25371,11 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Unreal Engine (C++) \u2014 AAA or high-fidelity",
+          "label": "Unreal Engine (C++) — AAA or high-fidelity",
           "next": "RESULT_GAME_DEV"
         },
         {
-          "label": "Unity (C#) \u2014 indie, mobile, or XR focus",
+          "label": "Unity (C#) — indie, mobile, or XR focus",
           "next": "RESULT_GAME_DEV"
         },
         {
@@ -25417,19 +25417,19 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Senior PM / Group PM \u2014 leading a product area or multiple PMs",
+          "label": "Senior PM / Group PM — leading a product area or multiple PMs",
           "next": "Q6_GR_PM_STYLE"
         },
         {
-          "label": "Technical PM \u2014 embedded deeply with engineering on complex systems",
+          "label": "Technical PM — embedded deeply with engineering on complex systems",
           "next": "Q6_GR_PM_STYLE"
         },
         {
-          "label": "Platform PM \u2014 internal developer-facing products",
+          "label": "Platform PM — internal developer-facing products",
           "next": "Q6_GR_PM_STYLE"
         },
         {
-          "label": "Growth PM \u2014 using data and experiments to scale products",
+          "label": "Growth PM — using data and experiments to scale products",
           "next": "Q6_GR_PM_STYLE"
         }
       ]
@@ -25440,15 +25440,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "CPO or VP of Product \u2014 executive product leadership",
+          "label": "CPO or VP of Product — executive product leadership",
           "next": "RESULT_PRODUCT_MGR"
         },
         {
-          "label": "Principal PM / Staff PM \u2014 deep domain expert",
+          "label": "Principal PM / Staff PM — deep domain expert",
           "next": "RESULT_PRODUCT_MGR"
         },
         {
-          "label": "Founder / entrepreneur \u2014 owning my own product company",
+          "label": "Founder / entrepreneur — owning my own product company",
           "next": "RESULT_PRODUCT_MGR"
         },
         {
@@ -25463,11 +25463,11 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Staff / principal technical writer \u2014 docs strategy for an entire org",
+          "label": "Staff / principal technical writer — docs strategy for an entire org",
           "next": "Q6_GR_TW_DOMAIN"
         },
         {
-          "label": "Developer relations (DevRel) \u2014 docs, tutorials, and community",
+          "label": "Developer relations (DevRel) — docs, tutorials, and community",
           "next": "Q6_GR_TW_DOMAIN"
         },
         {
@@ -25509,15 +25509,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Outdoor / on-site \u2014 construction, oil and gas, infrastructure",
+          "label": "Outdoor / on-site — construction, oil and gas, infrastructure",
           "next": "Q7_HS_WELD_PIPELINE"
         },
         {
-          "label": "Workshop / factory \u2014 manufacturing and fabrication",
+          "label": "Workshop / factory — manufacturing and fabrication",
           "next": "RESULT_WELDER_BASIC"
         },
         {
-          "label": "Spot welding \u2014 production line welding in a factory",
+          "label": "Spot welding — production line welding in a factory",
           "next": "RESULT_SPOT_WELDER"
         }
       ]
@@ -25528,7 +25528,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Pipeline welding \u2014 oil, gas, and utility pipelines",
+          "label": "Pipeline welding — oil, gas, and utility pipelines",
           "next": "RESULT_PIPELINE_WELDER"
         },
         {
@@ -25543,15 +25543,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Laser beam welding \u2014 aerospace, medical, or micro-electronics",
+          "label": "Laser beam welding — aerospace, medical, or micro-electronics",
           "next": "RESULT_LASER_WELDER"
         },
         {
-          "label": "Electron beam welding \u2014 vacuum-based ultra-precision joining",
+          "label": "Electron beam welding — vacuum-based ultra-precision joining",
           "next": "RESULT_ELECTRON_WELDER"
         },
         {
-          "label": "Spot welding \u2014 resistance welding in automotive / manufacturing",
+          "label": "Spot welding — resistance welding in automotive / manufacturing",
           "next": "RESULT_SPOT_WELDER"
         }
       ]
@@ -25562,15 +25562,15 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Full civil engineering design \u2014 structural analysis and project delivery",
+          "label": "Full civil engineering design — structural analysis and project delivery",
           "next": "RESULT_CIVIL_ENG"
         },
         {
-          "label": "Architectural CAD drafting \u2014 technical drawings and BIM models",
+          "label": "Architectural CAD drafting — technical drawings and BIM models",
           "next": "RESULT_ARCH_CAD"
         },
         {
-          "label": "Civil engineering technician \u2014 supporting senior engineers",
+          "label": "Civil engineering technician — supporting senior engineers",
           "next": "RESULT_CIVIL_ENG_TECH"
         }
       ]
@@ -25619,7 +25619,7 @@
       "type": "single_select",
       "options": [
         {
-          "label": "Pure QA specialist \u2014 testing is my career",
+          "label": "Pure QA specialist — testing is my career",
           "next": "RESULT_SW_TESTER"
         },
         {
@@ -25627,7 +25627,7 @@
           "next": "RESULT_SOFTWARE_ANALYST"
         },
         {
-          "label": "SDET (Software Development Engineer in Test) \u2014 code and test equally",
+          "label": "SDET (Software Development Engineer in Test) — code and test equally",
           "next": "RESULT_SW_TESTER"
         }
       ]
@@ -25762,42 +25762,6 @@
           "next": "RESULT_CONST_WHOLESALE"
         }
       ]
-    },
-    "RESULT_HEAVY_VEHICLE_MECH": {
-      "id": "RESULT_HEAVY_VEHICLE_MECH",
-      "type": "result",
-      "careers": [
-        "heavy vehicle mechanic"
-      ],
-      "category": "Automotive & Mechanical Trades",
-      "education_min": "High School / Vocational"
-    },
-    "RESULT_FLEET_MECHANIC": {
-      "id": "RESULT_FLEET_MECHANIC",
-      "type": "result",
-      "careers": [
-        "fleet mechanic / diesel technician"
-      ],
-      "category": "Automotive & Mechanical Trades",
-      "education_min": "High School / Vocational"
-    },
-    "RESULT_AUTO_MECHANIC": {
-      "id": "RESULT_AUTO_MECHANIC",
-      "type": "result",
-      "careers": [
-        "automotive mechanic"
-      ],
-      "category": "Automotive & Mechanical Trades",
-      "education_min": "High School / Vocational"
-    },
-    "RESULT_EV_TECHNICIAN": {
-      "id": "RESULT_EV_TECHNICIAN",
-      "type": "result",
-      "careers": [
-        "electric vehicle (EV) technician"
-      ],
-      "category": "Automotive & Mechanical Trades",
-      "education_min": "High School / Vocational"
     }
   }
 }
