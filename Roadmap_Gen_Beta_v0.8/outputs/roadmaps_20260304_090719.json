@@ -1,0 +1,381 @@
+{
+  "input": {
+    "answers": [],
+    "careers": [
+      "data scientist"
+    ],
+    "category": "Data & Artificial Intelligence",
+    "user_summary": ""
+  },
+  "derived_skills": [],
+  "chosen_career": "data scientist",
+  "roadmaps": [
+    {
+      "path_title": "data scientist",
+      "focus": "Depth",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "milestones": [
+            {
+              "title": "Certification",
+              "description": "(Optional) Complete an online certificate, bootcamp, or structured course in data scientist to build a strong learning foundation"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Data Science Professional Certificate Programs on Coursera",
+              "url": "https://www.coursera.org/search?query=data+science+professional+certificate"
+            },
+            {
+              "title": "Data Science & Machine Learning Bootcamps on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=data+science+bootcamp"
+            },
+            {
+              "title": "Data Science Professional Certificate Programs on edX",
+              "url": "https://www.edx.org/search?q=data+science+professional+certificate"
+            },
+            {
+              "title": "Google Data Analytics and Advanced Data Analytics Professional Certificates",
+              "url": "https://grow.google/certificates/#data-analytics"
+            },
+            {
+              "title": "Data Analysis with Python Certification on freeCodeCamp",
+              "url": "https://www.freecodecamp.org/learn/data-analysis-with-python/"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Core Skill Learning",
+              "description": "Learn the fundamentals: build a solid foundation in python (pandas, numpy, scikit-learn), machine learning algorithms, and statistical modelling \u2014 these are the essential building blocks for a data scientist"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Data Science, Python, and Machine Learning Fundamentals Courses on Coursera",
+              "url": "https://www.coursera.org/search?query=data%20science%20python%20machine%20learning%20fundamentals"
+            },
+            {
+              "title": "Python Libraries for Data Science Tutorials on freeCodeCamp (Pandas, NumPy, Scikit-learn)",
+              "url": "https://www.freecodecamp.org/news/search?query=python%20pandas%20numpy%20scikit-learn"
+            },
+            {
+              "title": "Machine Learning Algorithms & Statistical Modeling Courses on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=machine%20learning%20algorithms%20statistical%20modeling"
+            },
+            {
+              "title": "SQL and Database Fundamentals on Khan Academy",
+              "url": "https://www.khanacademy.org/search?q=sql"
+            },
+            {
+              "title": "Practical Data Science Projects and Tutorials on YouTube (Python, Pandas, Scikit-learn, Matplotlib)",
+              "url": "https://www.youtube.com/results?search_query=data+science+project+python+pandas+matplotlib+scikit-learn"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Intermediate / Advanced Skills",
+              "description": "Deepen your expertise by developing intermediate-to-advanced skills in data visualisation, sql and databases, and feature engineering, applying them through exercises and case studies"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Advanced Python Data Visualization Courses on Coursera",
+              "url": "https://www.coursera.org/search?query=data%20visualization%20python%20advanced"
+            },
+            {
+              "title": "Advanced SQL and Database Tutorials on freeCodeCamp",
+              "url": "https://www.freecodecamp.org/news/tag/sql/"
+            },
+            {
+              "title": "Advanced Feature Engineering for Machine Learning Courses on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=feature%20engineering%20machine%20learning%20advanced"
+            },
+            {
+              "title": "Advanced Data Science Programs and Courses on edX (covering SQL, Visualization, Feature Engineering)",
+              "url": "https://www.edx.org/search?q=data%20science%20advanced%20sql%20visualization%20feature%20engineering"
+            },
+            {
+              "title": "YouTube Tutorials: Advanced Python Data Visualization Techniques",
+              "url": "https://www.youtube.com/results?search_query=advanced+data+visualization+python+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Hands-on Practice",
+              "description": "Gain hands-on experience by completing data analysis projects, research studies, or analytical reports using real-world datasets \u2014 focus on applying python (pandas, numpy, scikit-learn), and machine learning algorithms in realistic scenarios"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Coursera Search: Data Science & Machine Learning Projects with Python",
+              "url": "https://www.coursera.org/search?query=data%20science%20projects%20python%20machine%20learning"
+            },
+            {
+              "title": "Udemy Search: Real-World Data Science & ML Projects with Python",
+              "url": "https://www.udemy.com/courses/search/?q=data%20science%20real-world%20projects%20python%20machine%20learning"
+            },
+            {
+              "title": "edX Search: Hands-on Data Science & ML Projects",
+              "url": "https://www.edx.org/search?q=data%20science%20projects%20python%20machine%20learning"
+            },
+            {
+              "title": "YouTube Search: Data Science Project Tutorials (Python)",
+              "url": "https://www.youtube.com/results?search_query=data%20science%20project%20tutorial%20python"
+            },
+            {
+              "title": "GitHub Search: Data Science Projects with Python",
+              "url": "https://github.com/search?q=data%20science%20projects%20python&type=repositories"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Portfolio Building",
+              "description": "Build a portfolio of analytical projects: publish notebooks on Kaggle or GitHub, create data visualizations, and document your methodology and findings"
+            }
+          ],
+          "resources": [
+            {
+              "title": "data scientist Portfolio Building on Coursera",
+              "url": "https://www.coursera.org/search?query=data+scientist+python+pandas,+numpy,+scikit-learn"
+            },
+            {
+              "title": "data scientist Portfolio Building on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=data+scientist+python+pandas,+numpy,+scikit-learn"
+            },
+            {
+              "title": "data scientist Portfolio Building on YouTube",
+              "url": "https://www.youtube.com/results?search_query=data+scientist+python+pandas,+numpy,+scikit-learn+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "CV / Profile Building",
+              "description": "Prepare your professional profile: craft a targeted CV/resume highlighting your data scientist skills, optimize your LinkedIn profile, and gather references or endorsements from mentors, instructors, or past collaborators"
+            }
+          ],
+          "resources": [
+            {
+              "title": "data scientist CV / Profile Building on Coursera",
+              "url": "https://www.coursera.org/search?query=data+scientist+python+pandas,+numpy,+scikit-learn"
+            },
+            {
+              "title": "data scientist CV / Profile Building on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=data+scientist+python+pandas,+numpy,+scikit-learn"
+            },
+            {
+              "title": "data scientist CV / Profile Building on YouTube",
+              "url": "https://www.youtube.com/results?search_query=data+scientist+python+pandas,+numpy,+scikit-learn+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Job Application / Freelancing",
+              "description": "Apply for data scientist positions through job boards, company career pages, professional networks, and industry-specific platforms \u2014 tailor each application and prepare to discuss your hands-on experience and portfolio in interviews"
+            }
+          ],
+          "resources": [
+            {
+              "title": "data scientist jobs on Wuzzuf",
+              "url": "https://wuzzuf.net/search/jobs/?q=data+scientist&a=hpb"
+            },
+            {
+              "title": "data scientist jobs on Forasna",
+              "url": "https://www.forasna.com/jobs/search/data-scientist"
+            },
+            {
+              "title": "data scientist jobs on LinkedIn",
+              "url": "https://www.linkedin.com/jobs/search/?keywords=data+scientist&location=Egypt"
+            },
+            {
+              "title": "data scientist jobs on Bayt.com",
+              "url": "https://www.bayt.com/en/egypt/jobs/data-scientist-jobs/"
+            },
+            {
+              "title": "data scientist jobs on Indeed Egypt",
+              "url": "https://eg.indeed.com/jobs?q=data+scientist"
+            },
+            {
+              "title": "data scientist freelance jobs on Upwork",
+              "url": "https://www.upwork.com/freelance-jobs/data-scientist/"
+            },
+            {
+              "title": "data scientist services on Fiverr",
+              "url": "https://www.fiverr.com/search/gigs?query=data+scientist"
+            },
+            {
+              "title": "data scientist projects on Mostaql",
+              "url": "https://mostaql.com/projects?keyword=data+scientist"
+            },
+            {
+              "title": "Khamsat - Arabic Micro Services",
+              "url": "https://khamsat.com/"
+            },
+            {
+              "title": "data scientist freelance on Toptal",
+              "url": "https://www.toptal.com/"
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "path_title": "data scientist",
+      "focus": "Fast-Entry",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "milestones": [
+            {
+              "title": "Foundation & Core Skills",
+              "description": "(Optional) Complete an online certificate, bootcamp, or structured course in data scientist to build a strong learning foundation\n\nThen: Learn the fundamentals: build a solid foundation in python (pandas, numpy, scikit-learn), machine learning algorithms, and statistical modelling \u2014 these are the essential building blocks for a data scientist"
+            }
+          ],
+          "resources": [
+            {
+              "title": "data scientist certification on Coursera",
+              "url": "https://www.coursera.org/search?query=data+scientist+certificate"
+            },
+            {
+              "title": "data scientist certification on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=data+scientist+certificate"
+            },
+            {
+              "title": "data scientist courses on edX",
+              "url": "https://www.edx.org/search?q=data+scientist"
+            },
+            {
+              "title": "Google Certificates related to data scientist",
+              "url": "https://grow.google/certificates/"
+            },
+            {
+              "title": "data scientist certification guide on YouTube",
+              "url": "https://www.youtube.com/results?search_query=data+scientist+certification+guide"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Skill Building & Practice",
+              "description": "Deepen your expertise by developing intermediate-to-advanced skills in data visualisation, sql and databases, and feature engineering, applying them through exercises and case studies\n\nThen: Gain hands-on experience by completing data analysis projects, research studies, or analytical reports using real-world datasets \u2014 focus on applying python (pandas, numpy, scikit-learn), and machine learning algorithms in realistic scenarios"
+            }
+          ],
+          "resources": [
+            {
+              "title": "data scientist Skill Building & Practice on Coursera",
+              "url": "https://www.coursera.org/search?query=data+scientist+python+pandas,+numpy,+scikit-learn"
+            },
+            {
+              "title": "data scientist Skill Building & Practice on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=data+scientist+python+pandas,+numpy,+scikit-learn"
+            },
+            {
+              "title": "data scientist Skill Building & Practice on YouTube",
+              "url": "https://www.youtube.com/results?search_query=data+scientist+python+pandas,+numpy,+scikit-learn+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Portfolio & Professional Profile",
+              "description": "Build a portfolio of analytical projects: publish notebooks on Kaggle or GitHub, create data visualizations, and document your methodology and findings\n\nThen: Prepare your professional profile: craft a targeted CV/resume highlighting your data scientist skills, optimize your LinkedIn profile, and gather references or endorsements from mentors, instructors, or past collaborators"
+            }
+          ],
+          "resources": [
+            {
+              "title": "data scientist Portfolio & Professional Profile on Coursera",
+              "url": "https://www.coursera.org/search?query=data+scientist+python+pandas,+numpy,+scikit-learn"
+            },
+            {
+              "title": "data scientist Portfolio & Professional Profile on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=data+scientist+python+pandas,+numpy,+scikit-learn"
+            },
+            {
+              "title": "data scientist Portfolio & Professional Profile on YouTube",
+              "url": "https://www.youtube.com/results?search_query=data+scientist+python+pandas,+numpy,+scikit-learn+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Job Application / Freelancing",
+              "description": "Apply for data scientist positions through job boards, company career pages, professional networks, and industry-specific platforms \u2014 tailor each application and prepare to discuss your hands-on experience and portfolio in interviews"
+            }
+          ],
+          "resources": [
+            {
+              "title": "data scientist jobs on Wuzzuf",
+              "url": "https://wuzzuf.net/search/jobs/?q=data+scientist&a=hpb"
+            },
+            {
+              "title": "data scientist jobs on Forasna",
+              "url": "https://www.forasna.com/jobs/search/data-scientist"
+            },
+            {
+              "title": "data scientist jobs on LinkedIn",
+              "url": "https://www.linkedin.com/jobs/search/?keywords=data+scientist&location=Egypt"
+            },
+            {
+              "title": "data scientist jobs on Bayt.com",
+              "url": "https://www.bayt.com/en/egypt/jobs/data-scientist-jobs/"
+            },
+            {
+              "title": "data scientist jobs on Indeed Egypt",
+              "url": "https://eg.indeed.com/jobs?q=data+scientist"
+            },
+            {
+              "title": "data scientist freelance jobs on Upwork",
+              "url": "https://www.upwork.com/freelance-jobs/data-scientist/"
+            },
+            {
+              "title": "data scientist services on Fiverr",
+              "url": "https://www.fiverr.com/search/gigs?query=data+scientist"
+            },
+            {
+              "title": "data scientist projects on Mostaql",
+              "url": "https://mostaql.com/projects?keyword=data+scientist"
+            },
+            {
+              "title": "Khamsat - Arabic Micro Services",
+              "url": "https://khamsat.com/"
+            },
+            {
+              "title": "data scientist freelance on Toptal",
+              "url": "https://www.toptal.com/"
+            }
+          ],
+          "children": []
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/static/roadmaps/roadmap_1.png",
+    "/static/roadmaps/roadmap_2.png"
+  ]
+}

@@ -1,0 +1,434 @@
+{
+  "input": {
+    "answers": [
+      {
+        "questionId": "Q_EDU",
+        "label": "I'm in university or have a Bachelor's degree"
+      },
+      {
+        "questionId": "Q_GENDER",
+        "label": "Male"
+      },
+      {
+        "questionId": "Q_IMPACT",
+        "label": "Creating technology \u2014 writing code, building apps, or working with AI"
+      },
+      {
+        "questionId": "Q_TECH_TYPE",
+        "label": "Building websites and web apps"
+      },
+      {
+        "questionId": "Q_FOCUS_TECH",
+        "label": "Both \u2014 full-stack work touching users and systems"
+      }
+    ],
+    "careers": [
+      "web developer"
+    ],
+    "category": "Programming & Software Development",
+    "user_summary": ""
+  },
+  "derived_skills": [],
+  "chosen_career": "web developer",
+  "roadmaps": [
+    {
+      "path_title": "web developer",
+      "focus": "Depth",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "milestones": [
+            {
+              "title": "Certification",
+              "description": "(Optional) Complete an online certificate, bootcamp, or structured course in web developer to build a strong learning foundation"
+            }
+          ],
+          "resources": [
+            {
+              "title": "web developer certification on Coursera",
+              "url": "https://www.coursera.org/search?query=web+developer+certificate"
+            },
+            {
+              "title": "web developer certification on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=web+developer+certificate"
+            },
+            {
+              "title": "web developer courses on edX",
+              "url": "https://www.edx.org/search?q=web+developer"
+            },
+            {
+              "title": "Google Certificates related to web developer",
+              "url": "https://grow.google/certificates/"
+            },
+            {
+              "title": "web developer certification guide on YouTube",
+              "url": "https://www.youtube.com/results?search_query=web+developer+certification+guide"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Core Skill Learning",
+              "description": "Learn the fundamentals: build a solid foundation in html, css, and javascript \u2014 these are the essential building blocks for a web developer"
+            }
+          ],
+          "resources": [
+            {
+              "title": "freeCodeCamp Responsive Web Design Certification",
+              "url": "https://www.freecodecamp.org/learn/responsive-web-design/"
+            },
+            {
+              "title": "MDN Web Docs - Learn Web Development",
+              "url": "https://developer.mozilla.org/en-US/docs/Web"
+            },
+            {
+              "title": "W3Schools HTML, CSS, JavaScript Tutorials",
+              "url": "https://www.w3schools.com/"
+            },
+            {
+              "title": "YouTube Search: HTML CSS JavaScript Tutorial for Beginners",
+              "url": "https://www.youtube.com/results?search_query=html+css+javascript+tutorial+for+beginners"
+            },
+            {
+              "title": "Coursera Search: Web Development Fundamentals",
+              "url": "https://www.coursera.org/search?query=web+development+fundamentals"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Intermediate / Advanced Skills",
+              "description": "Deepen your expertise by developing intermediate-to-advanced skills in responsive web design, react or vue.js, and version control (git), applying them through exercises and case studies"
+            }
+          ],
+          "resources": [
+            {
+              "title": "MDN Web Docs Search: Responsive Web Design",
+              "url": "https://developer.mozilla.org/en-US/search?q=responsive+web+design"
+            },
+            {
+              "title": "freeCodeCamp: Front End Development Libraries (Includes React)",
+              "url": "https://www.freecodecamp.org/learn/front-end-development-libraries/"
+            },
+            {
+              "title": "YouTube Search: Advanced Git Tutorial",
+              "url": "https://www.youtube.com/results?search_query=advanced+git+tutorial"
+            },
+            {
+              "title": "Coursera Search: React and Responsive Web Development",
+              "url": "https://www.coursera.org/search?query=react+responsive+web+development"
+            },
+            {
+              "title": "Udemy Search: Vue.js Advanced Responsive",
+              "url": "https://www.udemy.com/courses/search/?q=vue.js%20advanced%20responsive"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Hands-on Practice",
+              "description": "Gain hands-on experience by completing software projects, open-source contributions, or technical prototypes \u2014 focus on applying html, and css in realistic scenarios"
+            }
+          ],
+          "resources": [
+            {
+              "title": "freeCodeCamp Learning Platform (Certifications for Web Development)",
+              "url": "https://www.freecodecamp.org/learn"
+            },
+            {
+              "title": "MDN Web Docs: Getting Started with the Web (HTML, CSS, JavaScript)",
+              "url": "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web"
+            },
+            {
+              "title": "YouTube Search: Web Development Projects (HTML, CSS, Responsive)",
+              "url": "https://www.youtube.com/results?search_query=web+development+projects+html+css+responsive"
+            },
+            {
+              "title": "W3Schools Online Web Tutorials (HTML, CSS, JavaScript)",
+              "url": "https://www.w3schools.com/"
+            },
+            {
+              "title": "GitHub Topics: Frontend Development (Project Repositories)",
+              "url": "https://github.com/topics/frontend-development"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Portfolio Building",
+              "description": "Build a professional portfolio: publish your best projects on GitHub, create a personal website showcasing your work, and document your process and results"
+            }
+          ],
+          "resources": [
+            {
+              "title": "freeCodeCamp: Responsive Web Design Certification",
+              "url": "https://www.freecodecamp.org/learn/responsive-web-design/"
+            },
+            {
+              "title": "MDN Web Docs: Learn Web Development",
+              "url": "https://developer.mozilla.org/en-US/docs/Learn"
+            },
+            {
+              "title": "GitHub Docs: Getting Started with Version Control",
+              "url": "https://docs.github.com/en"
+            },
+            {
+              "title": "YouTube Search: React and Vue.js Project Tutorials",
+              "url": "https://www.youtube.com/results?search_query=react+vue.js+web+development+projects"
+            },
+            {
+              "title": "Coursera Search: Web Developer Portfolio Courses",
+              "url": "https://www.coursera.org/search?query=web+developer+portfolio"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "CV / Profile Building",
+              "description": "Prepare your professional profile: craft a targeted CV/resume highlighting your web developer skills, optimize your LinkedIn profile, and gather references or endorsements from mentors, instructors, or past collaborators"
+            }
+          ],
+          "resources": [
+            {
+              "title": "freeCodeCamp Learning Path for Web Developers",
+              "url": "https://www.freecodecamp.org/learn/"
+            },
+            {
+              "title": "MDN Web Docs - Learn Web Development",
+              "url": "https://developer.mozilla.org/en-US/docs/Learn"
+            },
+            {
+              "title": "Coursera Search Results: Front-End Web Developer Courses",
+              "url": "https://www.coursera.org/search?query=front+end+web+developer"
+            },
+            {
+              "title": "Udemy Search Results: Web Development Bootcamp Courses",
+              "url": "https://www.udemy.com/courses/search/?q=web%20development%20bootcamp"
+            },
+            {
+              "title": "YouTube Search Results: Learn Git and GitHub Tutorials",
+              "url": "https://www.youtube.com/results?search_query=learn+git+github+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Job Application / Freelancing",
+              "description": "Apply for web developer positions on job boards, company career pages, and freelance platforms (Upwork, Fiverr, Toptal) \u2014 tailor each application to the role and be ready to showcase your portfolio in interviews"
+            }
+          ],
+          "resources": [
+            {
+              "title": "web developer jobs on Wuzzuf",
+              "url": "https://wuzzuf.net/search/jobs/?q=web+developer&a=hpb"
+            },
+            {
+              "title": "web developer jobs on Forasna",
+              "url": "https://www.forasna.com/jobs/search/web-developer"
+            },
+            {
+              "title": "web developer jobs on LinkedIn",
+              "url": "https://www.linkedin.com/jobs/search/?keywords=web+developer&location=Egypt"
+            },
+            {
+              "title": "web developer jobs on Bayt.com",
+              "url": "https://www.bayt.com/en/egypt/jobs/web-developer-jobs/"
+            },
+            {
+              "title": "web developer jobs on Indeed Egypt",
+              "url": "https://eg.indeed.com/jobs?q=web+developer"
+            },
+            {
+              "title": "web developer freelance jobs on Upwork",
+              "url": "https://www.upwork.com/freelance-jobs/web-developer/"
+            },
+            {
+              "title": "web developer services on Fiverr",
+              "url": "https://www.fiverr.com/search/gigs?query=web+developer"
+            },
+            {
+              "title": "web developer projects on Mostaql",
+              "url": "https://mostaql.com/projects?keyword=web+developer"
+            },
+            {
+              "title": "Khamsat - Arabic Micro Services",
+              "url": "https://khamsat.com/"
+            },
+            {
+              "title": "web developer freelance on Toptal",
+              "url": "https://www.toptal.com/"
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "path_title": "web developer",
+      "focus": "Fast-Entry",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "milestones": [
+            {
+              "title": "Foundation & Core Skills",
+              "description": "(Optional) Complete an online certificate, bootcamp, or structured course in web developer to build a strong learning foundation\n\nThen: Learn the fundamentals: build a solid foundation in html, css, and javascript \u2014 these are the essential building blocks for a web developer"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Web Developer Professional Certificates on Coursera",
+              "url": "https://www.coursera.org/search?query=web+developer+professional+certificate"
+            },
+            {
+              "title": "Web Developer Bootcamps on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=web+developer+bootcamp"
+            },
+            {
+              "title": "Full Stack Web Development Programs on edX",
+              "url": "https://www.edx.org/search?q=full+stack+web+development+program"
+            },
+            {
+              "title": "freeCodeCamp Web Development Certifications",
+              "url": "https://www.freecodecamp.org/learn/"
+            },
+            {
+              "title": "Khan Academy Computer Programming Curriculum (HTML, CSS, JS)",
+              "url": "https://www.khanacademy.org/computing/computer-programming"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Skill Building & Practice",
+              "description": "Deepen your expertise by developing intermediate-to-advanced skills in responsive web design, react or vue.js, and version control (git), applying them through exercises and case studies\n\nThen: Gain hands-on experience by completing software projects, open-source contributions, or technical prototypes \u2014 focus on applying html, and css in realistic scenarios"
+            }
+          ],
+          "resources": [
+            {
+              "title": "FreeCodeCamp Responsive Web Design Certification",
+              "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/"
+            },
+            {
+              "title": "MDN Web Docs - JavaScript Guide and Tutorials",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+            },
+            {
+              "title": "Udemy Search for React and Vue.js Courses",
+              "url": "https://www.udemy.com/courses/search/?q=react%20vue%20js"
+            },
+            {
+              "title": "YouTube Search for Git and GitHub Tutorials",
+              "url": "https://www.youtube.com/results?search_query=git+github+tutorial"
+            },
+            {
+              "title": "Coursera Search for Web Development Specializations",
+              "url": "https://www.coursera.org/search?query=web%20development%20specialization"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Portfolio & Professional Profile",
+              "description": "Build a professional portfolio: publish your best projects on GitHub, create a personal website showcasing your work, and document your process and results\n\nThen: Prepare your professional profile: craft a targeted CV/resume highlighting your web developer skills, optimize your LinkedIn profile, and gather references or endorsements from mentors, instructors, or past collaborators"
+            }
+          ],
+          "resources": [
+            {
+              "title": "freeCodeCamp Responsive Web Design Certification",
+              "url": "https://www.freecodecamp.org/learn/responsive-web-design/"
+            },
+            {
+              "title": "Udemy Search: React JS Development Courses",
+              "url": "https://www.udemy.com/courses/search/?q=react%20js"
+            },
+            {
+              "title": "Coursera Search: Git and GitHub for Version Control",
+              "url": "https://www.coursera.org/search?query=git%20github"
+            },
+            {
+              "title": "MDN Web Docs: Web Technologies Overview",
+              "url": "https://developer.mozilla.org/en-US/docs/Web"
+            },
+            {
+              "title": "YouTube Search: Web Developer Portfolio Project Tutorials",
+              "url": "https://www.youtube.com/results?search_query=web+developer+portfolio+project+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Job Application / Freelancing",
+              "description": "Apply for web developer positions on job boards, company career pages, and freelance platforms (Upwork, Fiverr, Toptal) \u2014 tailor each application to the role and be ready to showcase your portfolio in interviews"
+            }
+          ],
+          "resources": [
+            {
+              "title": "web developer jobs on Wuzzuf",
+              "url": "https://wuzzuf.net/search/jobs/?q=web+developer&a=hpb"
+            },
+            {
+              "title": "web developer jobs on Forasna",
+              "url": "https://www.forasna.com/jobs/search/web-developer"
+            },
+            {
+              "title": "web developer jobs on LinkedIn",
+              "url": "https://www.linkedin.com/jobs/search/?keywords=web+developer&location=Egypt"
+            },
+            {
+              "title": "web developer jobs on Bayt.com",
+              "url": "https://www.bayt.com/en/egypt/jobs/web-developer-jobs/"
+            },
+            {
+              "title": "web developer jobs on Indeed Egypt",
+              "url": "https://eg.indeed.com/jobs?q=web+developer"
+            },
+            {
+              "title": "web developer freelance jobs on Upwork",
+              "url": "https://www.upwork.com/freelance-jobs/web-developer/"
+            },
+            {
+              "title": "web developer services on Fiverr",
+              "url": "https://www.fiverr.com/search/gigs?query=web+developer"
+            },
+            {
+              "title": "web developer projects on Mostaql",
+              "url": "https://mostaql.com/projects?keyword=web+developer"
+            },
+            {
+              "title": "Khamsat - Arabic Micro Services",
+              "url": "https://khamsat.com/"
+            },
+            {
+              "title": "web developer freelance on Toptal",
+              "url": "https://www.toptal.com/"
+            }
+          ],
+          "children": []
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/static/roadmaps/roadmap_1.png",
+    "/static/roadmaps/roadmap_2.png"
+  ]
+}

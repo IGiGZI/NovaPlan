@@ -1,0 +1,401 @@
+{
+  "input": {
+    "answers": [],
+    "careers": [
+      "data analyst"
+    ],
+    "category": "Data & Artificial Intelligence",
+    "user_summary": ""
+  },
+  "derived_skills": [],
+  "chosen_career": "data analyst",
+  "roadmaps": [
+    {
+      "path_title": "data analyst",
+      "focus": "Depth",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "milestones": [
+            {
+              "title": "Certification",
+              "description": "(Optional) Complete an online certificate, bootcamp, or structured course in data analyst to build a strong learning foundation"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Google Data Analytics Professional Certificate",
+              "url": "https://grow.google/certificates/data-analytics/"
+            },
+            {
+              "title": "Data Analyst Certificates and Specializations on Coursera",
+              "url": "https://www.coursera.org/search?query=data+analyst+certificate"
+            },
+            {
+              "title": "Data Analyst Courses on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=data+analyst"
+            },
+            {
+              "title": "Data Analyst Programs and Courses on edX",
+              "url": "https://www.edx.org/search?q=data+analyst"
+            },
+            {
+              "title": "FreeCodeCamp Data Analysis with Python Certification",
+              "url": "https://www.freecodecamp.org/learn/data-analysis-with-python/"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Core Skill Learning",
+              "description": "Learn the fundamentals: build a solid foundation in sql, data visualisation (tableau, power bi), and excel and spreadsheet analysis \u2014 these are the essential building blocks for a data analyst"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Data Analytics Professional Certificates (Coursera)",
+              "url": "https://www.coursera.org/search?query=data+analytics+professional+certificate"
+            },
+            {
+              "title": "SQL Tutorial (W3Schools)",
+              "url": "https://www.w3schools.com/sql/default.asp"
+            },
+            {
+              "title": "Data Visualization with Tableau & Power BI Courses (Udemy)",
+              "url": "https://www.udemy.com/courses/search/?q=tableau%20power%20bi%20for%20data%20analysts"
+            },
+            {
+              "title": "Excel Data Analysis Tutorials (YouTube)",
+              "url": "https://www.youtube.com/results?search_query=excel+data+analysis+tutorial+for+beginners"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Intermediate / Advanced Skills",
+              "description": "Deepen your expertise by developing intermediate-to-advanced skills in python or r for analysis, statistical analysis, and data cleaning and preparation, applying them through exercises and case studies"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Python for Data Analysis, Statistics, and Data Cleaning Courses",
+              "url": "https://www.coursera.org/search?query=python%20data%20analysis%20statistics%20cleaning"
+            },
+            {
+              "title": "Advanced Data Analysis and Statistical Methods Courses (Python/R)",
+              "url": "https://www.edx.org/search?q=advanced%20data%20analysis%20statistics"
+            },
+            {
+              "title": "Practical Data Cleaning and Preparation Techniques (Python/R) Tutorials",
+              "url": "https://www.youtube.com/results?search_query=advanced+data+cleaning+preparation+python+r"
+            },
+            {
+              "title": "Pandas Official Documentation for Intermediate Data Wrangling and Analysis",
+              "url": "https://pandas.pydata.org/pandas-docs/stable/"
+            },
+            {
+              "title": "GitHub Repositories for Applied Statistical Analysis and Data Cleaning Projects",
+              "url": "https://github.com/search?q=applied+statistical+analysis+data+cleaning+python+r+projects&type=repositories"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Hands-on Practice",
+              "description": "Gain hands-on experience by completing data analysis projects, research studies, or analytical reports using real-world datasets \u2014 focus on applying sql, and data visualisation (tableau, power bi) in realistic scenarios"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Coursera Search for Data Analyst Project-Based Learning",
+              "url": "https://www.coursera.org/search?query=data+analyst+projects"
+            },
+            {
+              "title": "Udemy Search for Real-World Data Analyst Projects",
+              "url": "https://www.udemy.com/courses/search/?q=data+analyst+real+world+projects"
+            },
+            {
+              "title": "YouTube Search for End-to-End Data Analyst Project Tutorials (SQL, Tableau, Power BI)",
+              "url": "https://www.youtube.com/results?search_query=data+analyst+end+to+end+project+tutorial+sql+tableau+power+bi"
+            },
+            {
+              "title": "edX Search for Data Analysis Programs with Project Focus",
+              "url": "https://www.edx.org/search?q=data+analysis+projects"
+            },
+            {
+              "title": "GitHub Topics for Data Analysis Projects and Real-World Datasets",
+              "url": "https://github.com/topics/data-analysis-projects"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Portfolio Building",
+              "description": "Build a portfolio of analytical projects: publish notebooks on Kaggle or GitHub, create data visualizations, and document your methodology and findings"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Coursera Search: Data Analyst Portfolio & Project Courses",
+              "url": "https://www.coursera.org/search?query=data%20analyst%20portfolio%20projects"
+            },
+            {
+              "title": "Udemy Search: End-to-End Data Analysis Projects",
+              "url": "https://www.udemy.com/courses/search/?src=ukw&q=end+to+end+data+analysis+projects"
+            },
+            {
+              "title": "YouTube Search: Data Analyst Project Walkthroughs",
+              "url": "https://www.youtube.com/results?search_query=data+analyst+project+walkthrough"
+            },
+            {
+              "title": "GitHub Search: Data Analyst Project Repositories (for inspiration)",
+              "url": "https://github.com/search?q=data+analyst+projects&type=repositories"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "CV / Profile Building",
+              "description": "Prepare your professional profile: craft a targeted CV/resume highlighting your data analyst skills, optimize your LinkedIn profile, and gather references or endorsements from mentors, instructors, or past collaborators"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Data Analyst Professional Certificates and Specializations (Coursera)",
+              "url": "https://www.coursera.org/search?query=data%20analyst%20professional%20certificate"
+            },
+            {
+              "title": "SQL Tutorial for Data Analysis (W3Schools)",
+              "url": "https://www.w3schools.com/sql/"
+            },
+            {
+              "title": "Python for Data Analysis Specializations (Coursera)",
+              "url": "https://www.coursera.org/search?query=python%20for%20data%20analysis%20specialization"
+            },
+            {
+              "title": "Tableau and Power BI Data Visualization Tutorials (YouTube)",
+              "url": "https://www.youtube.com/results?search_query=tableau+power+bi+data+visualization+tutorial"
+            },
+            {
+              "title": "Excel and Statistical Analysis Courses for Data Analysts (Coursera)",
+              "url": "https://www.coursera.org/search?query=excel%20statistical%20analysis%20data%20analyst"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Job Application / Freelancing",
+              "description": "Apply for data analyst positions through job boards, company career pages, professional networks, and industry-specific platforms \u2014 tailor each application and prepare to discuss your hands-on experience and portfolio in interviews"
+            }
+          ],
+          "resources": [
+            {
+              "title": "data analyst jobs on Wuzzuf",
+              "url": "https://wuzzuf.net/search/jobs/?q=data+analyst&a=hpb"
+            },
+            {
+              "title": "data analyst jobs on Forasna",
+              "url": "https://www.forasna.com/jobs/search/data-analyst"
+            },
+            {
+              "title": "data analyst jobs on LinkedIn",
+              "url": "https://www.linkedin.com/jobs/search/?keywords=data+analyst&location=Egypt"
+            },
+            {
+              "title": "data analyst jobs on Bayt.com",
+              "url": "https://www.bayt.com/en/egypt/jobs/data-analyst-jobs/"
+            },
+            {
+              "title": "data analyst jobs on Indeed Egypt",
+              "url": "https://eg.indeed.com/jobs?q=data+analyst"
+            },
+            {
+              "title": "data analyst freelance jobs on Upwork",
+              "url": "https://www.upwork.com/freelance-jobs/data-analyst/"
+            },
+            {
+              "title": "data analyst services on Fiverr",
+              "url": "https://www.fiverr.com/search/gigs?query=data+analyst"
+            },
+            {
+              "title": "data analyst projects on Mostaql",
+              "url": "https://mostaql.com/projects?keyword=data+analyst"
+            },
+            {
+              "title": "Khamsat - Arabic Micro Services",
+              "url": "https://khamsat.com/"
+            },
+            {
+              "title": "data analyst freelance on Toptal",
+              "url": "https://www.toptal.com/"
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "path_title": "data analyst",
+      "focus": "Fast-Entry",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "milestones": [
+            {
+              "title": "Foundation & Core Skills",
+              "description": "(Optional) Complete an online certificate, bootcamp, or structured course in data analyst to build a strong learning foundation\n\nThen: Learn the fundamentals: build a solid foundation in sql, data visualisation (tableau, power bi), and excel and spreadsheet analysis \u2014 these are the essential building blocks for a data analyst"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Google Data Analytics Professional Certificate (via Google Certificates)",
+              "url": "https://grow.google/certificates/"
+            },
+            {
+              "title": "IBM Data Analyst Professional Certificate (Coursera Search)",
+              "url": "https://www.coursera.org/search?query=data+analyst+professional+certificate"
+            },
+            {
+              "title": "Microsoft Power BI Data Analyst Professional Certificate (edX Search)",
+              "url": "https://www.edx.org/search?q=data+analyst+professional+certificate"
+            },
+            {
+              "title": "FreeCodeCamp Data Analysis with Python Certification",
+              "url": "https://www.freecodecamp.org/learn/"
+            },
+            {
+              "title": "Udemy Data Analyst Bootcamps & Courses",
+              "url": "https://www.udemy.com/courses/search/?q=data+analyst+bootcamp"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Skill Building & Practice",
+              "description": "Deepen your expertise by developing intermediate-to-advanced skills in python or r for analysis, statistical analysis, and data cleaning and preparation, applying them through exercises and case studies\n\nThen: Gain hands-on experience by completing data analysis projects, research studies, or analytical reports using real-world datasets \u2014 focus on applying sql, and data visualisation (tableau, power bi) in realistic scenarios"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Google Data Analytics Professional Certificate",
+              "url": "https://www.coursera.org/professional-certificates/google-data-analytics"
+            },
+            {
+              "title": "IBM Data Analyst Professional Certificate",
+              "url": "https://www.coursera.org/professional-certificates/ibm-data-analyst"
+            },
+            {
+              "title": "freeCodeCamp Data Analysis with Python Certification",
+              "url": "https://www.freecodecamp.org/learn/data-analysis-with-python/"
+            },
+            {
+              "title": "W3Schools SQL Tutorial",
+              "url": "https://www.w3schools.com/sql/default.asp"
+            },
+            {
+              "title": "Alex The Analyst YouTube Channel (SQL, Tableau, Power BI, Excel Projects)",
+              "url": "https://www.youtube.com/@AlexTheAnalyst"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Portfolio & Professional Profile",
+              "description": "Build a portfolio of analytical projects: publish notebooks on Kaggle or GitHub, create data visualizations, and document your methodology and findings\n\nThen: Prepare your professional profile: craft a targeted CV/resume highlighting your data analyst skills, optimize your LinkedIn profile, and gather references or endorsements from mentors, instructors, or past collaborators"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Coursera Search: Data Analyst Portfolio Building & Specializations",
+              "url": "https://www.coursera.org/search?query=data%20analyst%20portfolio%20projects"
+            },
+            {
+              "title": "Udemy Search: Hands-on Data Analyst Projects with SQL, Python, Excel",
+              "url": "https://www.udemy.com/courses/search/?q=data%20analyst%20portfolio%20projects%20sql%20python%20excel"
+            },
+            {
+              "title": "YouTube Search: Data Visualization Projects (Tableau, Power BI) for Portfolios",
+              "url": "https://www.youtube.com/results?search_query=data+analyst+tableau+power+bi+portfolio+projects"
+            },
+            {
+              "title": "GitHub Search: Data Analyst Portfolio Project Repositories (Python/R, Data Cleaning, Statistics)",
+              "url": "https://github.com/search?q=data+analyst+portfolio+projects+python+r+data+cleaning+statistics&type=repositories"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Job Application / Freelancing",
+              "description": "Apply for data analyst positions through job boards, company career pages, professional networks, and industry-specific platforms \u2014 tailor each application and prepare to discuss your hands-on experience and portfolio in interviews"
+            }
+          ],
+          "resources": [
+            {
+              "title": "data analyst jobs on Wuzzuf",
+              "url": "https://wuzzuf.net/search/jobs/?q=data+analyst&a=hpb"
+            },
+            {
+              "title": "data analyst jobs on Forasna",
+              "url": "https://www.forasna.com/jobs/search/data-analyst"
+            },
+            {
+              "title": "data analyst jobs on LinkedIn",
+              "url": "https://www.linkedin.com/jobs/search/?keywords=data+analyst&location=Egypt"
+            },
+            {
+              "title": "data analyst jobs on Bayt.com",
+              "url": "https://www.bayt.com/en/egypt/jobs/data-analyst-jobs/"
+            },
+            {
+              "title": "data analyst jobs on Indeed Egypt",
+              "url": "https://eg.indeed.com/jobs?q=data+analyst"
+            },
+            {
+              "title": "data analyst freelance jobs on Upwork",
+              "url": "https://www.upwork.com/freelance-jobs/data-analyst/"
+            },
+            {
+              "title": "data analyst services on Fiverr",
+              "url": "https://www.fiverr.com/search/gigs?query=data+analyst"
+            },
+            {
+              "title": "data analyst projects on Mostaql",
+              "url": "https://mostaql.com/projects?keyword=data+analyst"
+            },
+            {
+              "title": "Khamsat - Arabic Micro Services",
+              "url": "https://khamsat.com/"
+            },
+            {
+              "title": "data analyst freelance on Toptal",
+              "url": "https://www.toptal.com/"
+            }
+          ],
+          "children": []
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/static/roadmaps/roadmap_1.png",
+    "/static/roadmaps/roadmap_2.png"
+  ]
+}
