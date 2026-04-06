@@ -1,0 +1,369 @@
+{
+  "input": {
+    "answers": [
+      {
+        "questionId": "Q1",
+        "label": "High School Student / No degree yet"
+      },
+      {
+        "questionId": "Q_ENV_HS",
+        "label": "Office / desk-based work"
+      },
+      {
+        "questionId": "Q_PERS_HS_OFFICE",
+        "label": "I like solving problems & thinking analytically"
+      },
+      {
+        "questionId": "Q_FOCUS_HS_OFFICE_ANALYTICAL",
+        "label": "Data analysis, AI, or machine learning"
+      },
+      {
+        "questionId": "Q_HS_OFFICE_ANALYTICAL_OA_DATA_TECH_CAT",
+        "label": "Data & Artificial Intelligence"
+      },
+      {
+        "questionId": "Q_HS_OFFICE_ANALYTICAL_OA_DATA_TECH_DATA_ARTIFICIAL_INTELLIGE_AREA",
+        "label": "Data Analysis & Engineering"
+      },
+      {
+        "questionId": "Q_HS_OFFICE_ANALYTICAL_OA_DATA_TECH_DATA_ARTIFICIAL_INTELLIGE_DATA_ANALYSIS_ENGINE_PICK",
+        "label": "Data Engineer"
+      }
+    ],
+    "careers": [
+      "data engineer"
+    ],
+    "category": "Data & Artificial Intelligence"
+  },
+  "derived_skills": [],
+  "chosen_career": "data engineer",
+  "roadmaps": [
+    {
+      "path_title": "data engineer",
+      "focus": "Depth",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "milestones": [
+            {
+              "title": "Certification",
+              "description": "(Optional) Complete an online certificate, bootcamp, or structured course in data engineer to build a strong learning foundation"
+            }
+          ],
+          "resources": [
+            {
+              "title": "data engineer \u2014 Certification courses on Coursera",
+              "url": "https://www.coursera.org/search?query=data+engineer+Certification"
+            },
+            {
+              "title": "data engineer \u2014 Certification courses on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=data+engineer+Certification"
+            },
+            {
+              "title": "data engineer \u2014 Certification tutorials on YouTube",
+              "url": "https://www.youtube.com/results?search_query=data+engineer+Certification+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Core Skill Learning",
+              "description": "Learn the fundamentals: build a solid foundation in python and sql, etl/elt pipeline development, and data warehousing (snowflake, bigquery, redshift) \u2014 these are the essential building blocks for a data engineer"
+            }
+          ],
+          "resources": [
+            {
+              "title": "data engineer \u2014 Core Skill Learning courses on Coursera",
+              "url": "https://www.coursera.org/search?query=data+engineer+Core+Skill+Learning"
+            },
+            {
+              "title": "data engineer \u2014 Core Skill Learning courses on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=data+engineer+Core+Skill+Learning"
+            },
+            {
+              "title": "data engineer \u2014 Core Skill Learning tutorials on YouTube",
+              "url": "https://www.youtube.com/results?search_query=data+engineer+Core+Skill+Learning+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Intermediate / Advanced Skills",
+              "description": "Deepen your expertise by developing intermediate-to-advanced skills in apache spark and hadoop, cloud platforms (aws, azure, gcp), and data modelling, applying them through exercises and case studies"
+            }
+          ],
+          "resources": [
+            {
+              "title": "data engineer \u2014 Intermediate / Advanced Skills courses on Coursera",
+              "url": "https://www.coursera.org/search?query=data+engineer+Intermediate+/+Advanced+Skills"
+            },
+            {
+              "title": "data engineer \u2014 Intermediate / Advanced Skills courses on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=data+engineer+Intermediate+/+Advanced+Skills"
+            },
+            {
+              "title": "data engineer \u2014 Intermediate / Advanced Skills tutorials on YouTube",
+              "url": "https://www.youtube.com/results?search_query=data+engineer+Intermediate+/+Advanced+Skills+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Hands-on Practice",
+              "description": "Gain hands-on experience by completing software projects, open-source contributions, or technical prototypes \u2014 focus on applying python and sql, and etl/elt pipeline development in realistic scenarios"
+            }
+          ],
+          "resources": [
+            {
+              "title": "data engineer \u2014 Hands-on Practice courses on Coursera",
+              "url": "https://www.coursera.org/search?query=data+engineer+Hands-on+Practice"
+            },
+            {
+              "title": "data engineer \u2014 Hands-on Practice courses on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=data+engineer+Hands-on+Practice"
+            },
+            {
+              "title": "data engineer \u2014 Hands-on Practice tutorials on YouTube",
+              "url": "https://www.youtube.com/results?search_query=data+engineer+Hands-on+Practice+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Portfolio Building",
+              "description": "Build a professional portfolio: publish your best projects on GitHub, create a personal website showcasing your work, and document your process and results"
+            }
+          ],
+          "resources": [
+            {
+              "title": "data engineer \u2014 Portfolio Building courses on Coursera",
+              "url": "https://www.coursera.org/search?query=data+engineer+Portfolio+Building"
+            },
+            {
+              "title": "data engineer \u2014 Portfolio Building courses on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=data+engineer+Portfolio+Building"
+            },
+            {
+              "title": "data engineer \u2014 Portfolio Building tutorials on YouTube",
+              "url": "https://www.youtube.com/results?search_query=data+engineer+Portfolio+Building+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "CV / Profile Building",
+              "description": "Prepare your professional profile: craft a targeted CV/resume highlighting your data engineer skills, optimize your LinkedIn profile, and gather references or endorsements from mentors, instructors, or past collaborators"
+            }
+          ],
+          "resources": [
+            {
+              "title": "data engineer \u2014 CV / Profile Building courses on Coursera",
+              "url": "https://www.coursera.org/search?query=data+engineer+CV+/+Profile+Building"
+            },
+            {
+              "title": "data engineer \u2014 CV / Profile Building courses on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=data+engineer+CV+/+Profile+Building"
+            },
+            {
+              "title": "data engineer \u2014 CV / Profile Building tutorials on YouTube",
+              "url": "https://www.youtube.com/results?search_query=data+engineer+CV+/+Profile+Building+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Job Application / Freelancing",
+              "description": "Apply for data engineer positions through job boards, company career pages, professional networks, and industry-specific platforms \u2014 tailor each application and prepare to discuss your hands-on experience and portfolio in interviews"
+            }
+          ],
+          "resources": [
+            {
+              "title": "data engineer jobs on Wuzzuf",
+              "url": "https://wuzzuf.net/search/jobs/?q=data+engineer&a=hpb"
+            },
+            {
+              "title": "data engineer jobs on Forasna",
+              "url": "https://www.forasna.com/jobs/search/data-engineer"
+            },
+            {
+              "title": "data engineer jobs on LinkedIn",
+              "url": "https://www.linkedin.com/jobs/search/?keywords=data+engineer&location=Egypt"
+            },
+            {
+              "title": "data engineer jobs on Bayt.com",
+              "url": "https://www.bayt.com/en/egypt/jobs/data-engineer-jobs/"
+            },
+            {
+              "title": "data engineer jobs on Indeed Egypt",
+              "url": "https://eg.indeed.com/jobs?q=data+engineer"
+            },
+            {
+              "title": "data engineer freelance jobs on Upwork",
+              "url": "https://www.upwork.com/freelance-jobs/data-engineer/"
+            },
+            {
+              "title": "data engineer services on Fiverr",
+              "url": "https://www.fiverr.com/search/gigs?query=data+engineer"
+            },
+            {
+              "title": "data engineer projects on Mostaql",
+              "url": "https://mostaql.com/projects?keyword=data+engineer"
+            },
+            {
+              "title": "Khamsat - Arabic Micro Services",
+              "url": "https://khamsat.com/"
+            },
+            {
+              "title": "data engineer freelance on Toptal",
+              "url": "https://www.toptal.com/"
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "path_title": "data engineer",
+      "focus": "Fast-Entry",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "milestones": [
+            {
+              "title": "Foundation & Core Skills",
+              "description": "(Optional) Complete an online certificate, bootcamp, or structured course in data engineer to build a strong learning foundation\n\nThen: Learn the fundamentals: build a solid foundation in python and sql, etl/elt pipeline development, and data warehousing (snowflake, bigquery, redshift) \u2014 these are the essential building blocks for a data engineer"
+            }
+          ],
+          "resources": [
+            {
+              "title": "data engineer \u2014 Foundation & Core Skills courses on Coursera",
+              "url": "https://www.coursera.org/search?query=data+engineer+Foundation+&+Core+Skills"
+            },
+            {
+              "title": "data engineer \u2014 Foundation & Core Skills courses on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=data+engineer+Foundation+&+Core+Skills"
+            },
+            {
+              "title": "data engineer \u2014 Foundation & Core Skills tutorials on YouTube",
+              "url": "https://www.youtube.com/results?search_query=data+engineer+Foundation+&+Core+Skills+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Skill Building & Practice",
+              "description": "Deepen your expertise by developing intermediate-to-advanced skills in apache spark and hadoop, cloud platforms (aws, azure, gcp), and data modelling, applying them through exercises and case studies\n\nThen: Gain hands-on experience by completing software projects, open-source contributions, or technical prototypes \u2014 focus on applying python and sql, and etl/elt pipeline development in realistic scenarios"
+            }
+          ],
+          "resources": [
+            {
+              "title": "data engineer \u2014 Skill Building & Practice courses on Coursera",
+              "url": "https://www.coursera.org/search?query=data+engineer+Skill+Building+&+Practice"
+            },
+            {
+              "title": "data engineer \u2014 Skill Building & Practice courses on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=data+engineer+Skill+Building+&+Practice"
+            },
+            {
+              "title": "data engineer \u2014 Skill Building & Practice tutorials on YouTube",
+              "url": "https://www.youtube.com/results?search_query=data+engineer+Skill+Building+&+Practice+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Portfolio & Professional Profile",
+              "description": "Build a professional portfolio: publish your best projects on GitHub, create a personal website showcasing your work, and document your process and results\n\nThen: Prepare your professional profile: craft a targeted CV/resume highlighting your data engineer skills, optimize your LinkedIn profile, and gather references or endorsements from mentors, instructors, or past collaborators"
+            }
+          ],
+          "resources": [
+            {
+              "title": "data engineer \u2014 Portfolio & Professional Profile courses on Coursera",
+              "url": "https://www.coursera.org/search?query=data+engineer+Portfolio+&+Professional+Profile"
+            },
+            {
+              "title": "data engineer \u2014 Portfolio & Professional Profile courses on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=data+engineer+Portfolio+&+Professional+Profile"
+            },
+            {
+              "title": "data engineer \u2014 Portfolio & Professional Profile tutorials on YouTube",
+              "url": "https://www.youtube.com/results?search_query=data+engineer+Portfolio+&+Professional+Profile+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Job Application / Freelancing",
+              "description": "Apply for data engineer positions through job boards, company career pages, professional networks, and industry-specific platforms \u2014 tailor each application and prepare to discuss your hands-on experience and portfolio in interviews"
+            }
+          ],
+          "resources": [
+            {
+              "title": "data engineer jobs on Wuzzuf",
+              "url": "https://wuzzuf.net/search/jobs/?q=data+engineer&a=hpb"
+            },
+            {
+              "title": "data engineer jobs on Forasna",
+              "url": "https://www.forasna.com/jobs/search/data-engineer"
+            },
+            {
+              "title": "data engineer jobs on LinkedIn",
+              "url": "https://www.linkedin.com/jobs/search/?keywords=data+engineer&location=Egypt"
+            },
+            {
+              "title": "data engineer jobs on Bayt.com",
+              "url": "https://www.bayt.com/en/egypt/jobs/data-engineer-jobs/"
+            },
+            {
+              "title": "data engineer jobs on Indeed Egypt",
+              "url": "https://eg.indeed.com/jobs?q=data+engineer"
+            },
+            {
+              "title": "data engineer freelance jobs on Upwork",
+              "url": "https://www.upwork.com/freelance-jobs/data-engineer/"
+            },
+            {
+              "title": "data engineer services on Fiverr",
+              "url": "https://www.fiverr.com/search/gigs?query=data+engineer"
+            },
+            {
+              "title": "data engineer projects on Mostaql",
+              "url": "https://mostaql.com/projects?keyword=data+engineer"
+            },
+            {
+              "title": "Khamsat - Arabic Micro Services",
+              "url": "https://khamsat.com/"
+            },
+            {
+              "title": "data engineer freelance on Toptal",
+              "url": "https://www.toptal.com/"
+            }
+          ],
+          "children": []
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/static/roadmaps/roadmap_1.png",
+    "/static/roadmaps/roadmap_2.png"
+  ]
+}

@@ -1,0 +1,366 @@
+{
+  "input": {
+    "answers": [
+      {
+        "questionId": "Q_EDU",
+        "label": "I haven't started university yet"
+      },
+      {
+        "questionId": "Q_GENDER",
+        "label": "Female"
+      },
+      {
+        "questionId": "Q_IMPACT",
+        "label": "Building physical things \u2014 structures, machines, systems"
+      },
+      {
+        "questionId": "Q_BUILD_TYPE",
+        "label": "Creating technical drawings and blueprints"
+      },
+      {
+        "questionId": "Q_STYLE_ENGINEERING",
+        "label": "Analytical \u2014 I like logic, data, and figuring out how things work"
+      }
+    ],
+    "careers": [
+      "financial analyst"
+    ],
+    "category": "Finance & Accounting",
+    "user_summary": ""
+  },
+  "derived_skills": [],
+  "chosen_career": "financial analyst",
+  "roadmaps": [
+    {
+      "path_title": "financial analyst",
+      "focus": "Depth",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "milestones": [
+            {
+              "title": "Certification",
+              "description": "(Optional) Complete an online certificate, bootcamp, or structured course in financial analyst to build a strong learning foundation"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Google Data Analytics Professional Certificate",
+              "url": "https://grow.google/certificates/data-analytics/"
+            },
+            {
+              "title": "Financial Modeling Specialization (Wharton, University of Pennsylvania) on Coursera",
+              "url": "https://www.coursera.org/specializations/financial-modeling"
+            },
+            {
+              "title": "Investment Management Specialization (University of Geneva) on Coursera",
+              "url": "https://www.coursera.org/specializations/investment-management"
+            },
+            {
+              "title": "Python for Financial Analysis and Algorithmic Trading on Udemy",
+              "url": "https://www.udemy.com/course/python-for-financial-analysis-and-algorithmic-trading/"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Core Skill Learning",
+              "description": "Learn the fundamentals: build a solid foundation in financial modelling and forecasting, financial statement analysis, and valuation techniques (dcf, comparables) \u2014 these are the essential building blocks for a financial analyst"
+            }
+          ],
+          "resources": [
+            {
+              "title": "financial analyst \u2014 Core Skill Learning courses on Coursera",
+              "url": "https://www.coursera.org/search?query=financial+analyst+Core+Skill+Learning"
+            },
+            {
+              "title": "financial analyst \u2014 Core Skill Learning courses on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=financial+analyst+Core+Skill+Learning"
+            },
+            {
+              "title": "financial analyst \u2014 Core Skill Learning tutorials on YouTube",
+              "url": "https://www.youtube.com/results?search_query=financial+analyst+Core+Skill+Learning+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Intermediate / Advanced Skills",
+              "description": "Deepen your expertise by developing intermediate-to-advanced skills in data analysis (excel, python), investment research, and budget analysis, applying them through exercises and case studies"
+            }
+          ],
+          "resources": [
+            {
+              "title": "financial analyst \u2014 Intermediate / Advanced Skills courses on Coursera",
+              "url": "https://www.coursera.org/search?query=financial+analyst+Intermediate+/+Advanced+Skills"
+            },
+            {
+              "title": "financial analyst \u2014 Intermediate / Advanced Skills courses on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=financial+analyst+Intermediate+/+Advanced+Skills"
+            },
+            {
+              "title": "financial analyst \u2014 Intermediate / Advanced Skills tutorials on YouTube",
+              "url": "https://www.youtube.com/results?search_query=financial+analyst+Intermediate+/+Advanced+Skills+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Hands-on Practice",
+              "description": "Gain hands-on experience by completing data analysis projects, research studies, or analytical reports using real-world datasets \u2014 focus on applying financial modelling and forecasting, and financial statement analysis in realistic scenarios"
+            }
+          ],
+          "resources": [
+            {
+              "title": "financial analyst \u2014 Hands-on Practice courses on Coursera",
+              "url": "https://www.coursera.org/search?query=financial+analyst+Hands-on+Practice"
+            },
+            {
+              "title": "financial analyst \u2014 Hands-on Practice courses on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=financial+analyst+Hands-on+Practice"
+            },
+            {
+              "title": "financial analyst \u2014 Hands-on Practice tutorials on YouTube",
+              "url": "https://www.youtube.com/results?search_query=financial+analyst+Hands-on+Practice+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Portfolio Building",
+              "description": "Build a portfolio of analytical projects: publish notebooks on Kaggle or GitHub, create data visualizations, and document your methodology and findings"
+            }
+          ],
+          "resources": [
+            {
+              "title": "financial analyst \u2014 Portfolio Building courses on Coursera",
+              "url": "https://www.coursera.org/search?query=financial+analyst+Portfolio+Building"
+            },
+            {
+              "title": "financial analyst \u2014 Portfolio Building courses on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=financial+analyst+Portfolio+Building"
+            },
+            {
+              "title": "financial analyst \u2014 Portfolio Building tutorials on YouTube",
+              "url": "https://www.youtube.com/results?search_query=financial+analyst+Portfolio+Building+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "CV / Profile Building",
+              "description": "Prepare your professional profile: craft a targeted CV/resume highlighting your financial analyst skills, optimize your LinkedIn profile, and gather references or endorsements from mentors, instructors, or past collaborators"
+            }
+          ],
+          "resources": [
+            {
+              "title": "financial analyst \u2014 CV / Profile Building courses on Coursera",
+              "url": "https://www.coursera.org/search?query=financial+analyst+CV+/+Profile+Building"
+            },
+            {
+              "title": "financial analyst \u2014 CV / Profile Building courses on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=financial+analyst+CV+/+Profile+Building"
+            },
+            {
+              "title": "financial analyst \u2014 CV / Profile Building tutorials on YouTube",
+              "url": "https://www.youtube.com/results?search_query=financial+analyst+CV+/+Profile+Building+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Job Application / Freelancing",
+              "description": "Apply for financial analyst positions through job boards, company career pages, professional networks, and industry-specific platforms \u2014 tailor each application and prepare to discuss your hands-on experience and portfolio in interviews"
+            }
+          ],
+          "resources": [
+            {
+              "title": "financial analyst jobs on Wuzzuf",
+              "url": "https://wuzzuf.net/search/jobs/?q=financial+analyst&a=hpb"
+            },
+            {
+              "title": "financial analyst jobs on Forasna",
+              "url": "https://www.forasna.com/jobs/search/financial-analyst"
+            },
+            {
+              "title": "financial analyst jobs on LinkedIn",
+              "url": "https://www.linkedin.com/jobs/search/?keywords=financial+analyst&location=Egypt"
+            },
+            {
+              "title": "financial analyst jobs on Bayt.com",
+              "url": "https://www.bayt.com/en/egypt/jobs/financial-analyst-jobs/"
+            },
+            {
+              "title": "financial analyst jobs on Indeed Egypt",
+              "url": "https://eg.indeed.com/jobs?q=financial+analyst"
+            },
+            {
+              "title": "financial analyst freelance jobs on Upwork",
+              "url": "https://www.upwork.com/freelance-jobs/financial-analyst/"
+            },
+            {
+              "title": "financial analyst services on Fiverr",
+              "url": "https://www.fiverr.com/search/gigs?query=financial+analyst"
+            },
+            {
+              "title": "financial analyst projects on Mostaql",
+              "url": "https://mostaql.com/projects?keyword=financial+analyst"
+            },
+            {
+              "title": "Khamsat - Arabic Micro Services",
+              "url": "https://khamsat.com/"
+            },
+            {
+              "title": "financial analyst freelance on Toptal",
+              "url": "https://www.toptal.com/"
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "path_title": "financial analyst",
+      "focus": "Fast-Entry",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "milestones": [
+            {
+              "title": "Foundation & Core Skills",
+              "description": "(Optional) Complete an online certificate, bootcamp, or structured course in financial analyst to build a strong learning foundation\n\nThen: Learn the fundamentals: build a solid foundation in financial modelling and forecasting, financial statement analysis, and valuation techniques (dcf, comparables) \u2014 these are the essential building blocks for a financial analyst"
+            }
+          ],
+          "resources": [
+            {
+              "title": "financial analyst \u2014 Foundation & Core Skills courses on Coursera",
+              "url": "https://www.coursera.org/search?query=financial+analyst+Foundation+&+Core+Skills"
+            },
+            {
+              "title": "financial analyst \u2014 Foundation & Core Skills courses on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=financial+analyst+Foundation+&+Core+Skills"
+            },
+            {
+              "title": "financial analyst \u2014 Foundation & Core Skills tutorials on YouTube",
+              "url": "https://www.youtube.com/results?search_query=financial+analyst+Foundation+&+Core+Skills+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Skill Building & Practice",
+              "description": "Deepen your expertise by developing intermediate-to-advanced skills in data analysis (excel, python), investment research, and budget analysis, applying them through exercises and case studies\n\nThen: Gain hands-on experience by completing data analysis projects, research studies, or analytical reports using real-world datasets \u2014 focus on applying financial modelling and forecasting, and financial statement analysis in realistic scenarios"
+            }
+          ],
+          "resources": [
+            {
+              "title": "financial analyst \u2014 Skill Building & Practice courses on Coursera",
+              "url": "https://www.coursera.org/search?query=financial+analyst+Skill+Building+&+Practice"
+            },
+            {
+              "title": "financial analyst \u2014 Skill Building & Practice courses on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=financial+analyst+Skill+Building+&+Practice"
+            },
+            {
+              "title": "financial analyst \u2014 Skill Building & Practice tutorials on YouTube",
+              "url": "https://www.youtube.com/results?search_query=financial+analyst+Skill+Building+&+Practice+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Portfolio & Professional Profile",
+              "description": "Build a portfolio of analytical projects: publish notebooks on Kaggle or GitHub, create data visualizations, and document your methodology and findings\n\nThen: Prepare your professional profile: craft a targeted CV/resume highlighting your financial analyst skills, optimize your LinkedIn profile, and gather references or endorsements from mentors, instructors, or past collaborators"
+            }
+          ],
+          "resources": [
+            {
+              "title": "financial analyst \u2014 Portfolio & Professional Profile courses on Coursera",
+              "url": "https://www.coursera.org/search?query=financial+analyst+Portfolio+&+Professional+Profile"
+            },
+            {
+              "title": "financial analyst \u2014 Portfolio & Professional Profile courses on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=financial+analyst+Portfolio+&+Professional+Profile"
+            },
+            {
+              "title": "financial analyst \u2014 Portfolio & Professional Profile tutorials on YouTube",
+              "url": "https://www.youtube.com/results?search_query=financial+analyst+Portfolio+&+Professional+Profile+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Job Application / Freelancing",
+              "description": "Apply for financial analyst positions through job boards, company career pages, professional networks, and industry-specific platforms \u2014 tailor each application and prepare to discuss your hands-on experience and portfolio in interviews"
+            }
+          ],
+          "resources": [
+            {
+              "title": "financial analyst jobs on Wuzzuf",
+              "url": "https://wuzzuf.net/search/jobs/?q=financial+analyst&a=hpb"
+            },
+            {
+              "title": "financial analyst jobs on Forasna",
+              "url": "https://www.forasna.com/jobs/search/financial-analyst"
+            },
+            {
+              "title": "financial analyst jobs on LinkedIn",
+              "url": "https://www.linkedin.com/jobs/search/?keywords=financial+analyst&location=Egypt"
+            },
+            {
+              "title": "financial analyst jobs on Bayt.com",
+              "url": "https://www.bayt.com/en/egypt/jobs/financial-analyst-jobs/"
+            },
+            {
+              "title": "financial analyst jobs on Indeed Egypt",
+              "url": "https://eg.indeed.com/jobs?q=financial+analyst"
+            },
+            {
+              "title": "financial analyst freelance jobs on Upwork",
+              "url": "https://www.upwork.com/freelance-jobs/financial-analyst/"
+            },
+            {
+              "title": "financial analyst services on Fiverr",
+              "url": "https://www.fiverr.com/search/gigs?query=financial+analyst"
+            },
+            {
+              "title": "financial analyst projects on Mostaql",
+              "url": "https://mostaql.com/projects?keyword=financial+analyst"
+            },
+            {
+              "title": "Khamsat - Arabic Micro Services",
+              "url": "https://khamsat.com/"
+            },
+            {
+              "title": "financial analyst freelance on Toptal",
+              "url": "https://www.toptal.com/"
+            }
+          ],
+          "children": []
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/static/roadmaps/roadmap_1.png",
+    "/static/roadmaps/roadmap_2.png"
+  ]
+}

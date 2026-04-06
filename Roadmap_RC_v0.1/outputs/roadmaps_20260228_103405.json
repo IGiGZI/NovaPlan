@@ -1,0 +1,191 @@
+{
+  "input": {
+    "answers": [
+      {
+        "questionId": "Q1",
+        "label": "High School Student / No degree yet"
+      },
+      {
+        "questionId": "Q_PERS1_HS",
+        "label": "I like solving complex problems and thinking analytically"
+      },
+      {
+        "questionId": "Q_ENV_HS_ANALYTICAL",
+        "label": "Office / desk-based, mostly indoors"
+      },
+      {
+        "questionId": "Q_MOT_HS_ANALYTICAL_INDOOR",
+        "label": "Balanced \u2014 good pay and meaningful work"
+      },
+      {
+        "questionId": "Q_DOMAIN_HS",
+        "label": "Technology & Computing"
+      },
+      {
+        "questionId": "Q_HS_TECH_CAT",
+        "label": "Programming & Software Development"
+      },
+      {
+        "questionId": "Q_HS_TECH_PROGRAMMING_SOFTWARE_DEVE_AREA",
+        "label": "Game Development"
+      },
+      {
+        "questionId": "Q_HS_TECH_PROGRAMMING_SOFTWARE_DEVE_GAME_DEVELOPMENT_PICK",
+        "label": "Game Developer"
+      }
+    ],
+    "careers": [
+      "game developer"
+    ],
+    "category": "Programming & Software Development"
+  },
+  "derived_skills": [],
+  "chosen_career": "game developer",
+  "roadmaps": [
+    {
+      "path_title": "game developer",
+      "focus": "Depth",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "milestones": [
+            {
+              "title": "Certification",
+              "description": "(Optional) Complete an online certificate, bootcamp, or structured course in game developer to build a strong learning foundation"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Unity Certified Programmer Exam Preparation and Certification",
+              "url": "https://learn.unity.com/course/unity-certified-programmer-exam-preparation"
+            },
+            {
+              "title": "Unreal Engine Learning Library (Official Courses and Learning Paths)",
+              "url": "https://dev.epicgames.com/en-US/training"
+            },
+            {
+              "title": "Game Design and Development Specialization by Michigan State University (Coursera)",
+              "url": "https://www.coursera.org/specializations/game-design"
+            },
+            {
+              "title": "Professional Certificate in Game Development MicroBachelors Program by NYU Tandon (edX)",
+              "url": "https://www.edx.org/microbachelors/nyu-tandon-game-development"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Core Skill Learning",
+              "description": "Learn the fundamentals: build a solid foundation in c++ or c# programming, game engines (unity, unreal engine), and 3d math and physics \u2014 these are the essential building blocks for a game developer"
+            }
+          ],
+          "resources": [],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Intermediate / Advanced Skills",
+              "description": "Deepen your expertise by developing intermediate-to-advanced skills in gameplay programming, graphics rendering, and version control (git, perforce), applying them through exercises and case studies"
+            }
+          ],
+          "resources": [],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Hands-on Practice",
+              "description": "Gain hands-on experience by completing software projects, open-source contributions, or technical prototypes \u2014 focus on applying c++ or c# programming, and game engines (unity, unreal engine) in realistic scenarios"
+            }
+          ],
+          "resources": [],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Portfolio Building",
+              "description": "Build a professional portfolio: publish your best projects on GitHub, create a personal website showcasing your work, and document your process and results"
+            }
+          ],
+          "resources": [],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "CV / Profile Building",
+              "description": "Prepare your professional profile: craft a targeted CV/resume highlighting your game developer skills, optimize your LinkedIn profile, and gather references or endorsements from mentors, instructors, or past collaborators"
+            }
+          ],
+          "resources": [],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Job Application / Freelancing",
+              "description": "Apply for game developer positions on job boards, company career pages, and freelance platforms (Upwork, Fiverr, Toptal) \u2014 tailor each application to the role and be ready to showcase your portfolio in interviews"
+            }
+          ],
+          "resources": [],
+          "children": []
+        }
+      ]
+    },
+    {
+      "path_title": "game developer",
+      "focus": "Fast-Entry",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "milestones": [
+            {
+              "title": "Foundation & Core Skills",
+              "description": "(Optional) Complete an online certificate, bootcamp, or structured course in game developer to build a strong learning foundation\n\nThen: Learn the fundamentals: build a solid foundation in c++ or c# programming, game engines (unity, unreal engine), and 3d math and physics \u2014 these are the essential building blocks for a game developer"
+            }
+          ],
+          "resources": [],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Skill Building & Practice",
+              "description": "Deepen your expertise by developing intermediate-to-advanced skills in gameplay programming, graphics rendering, and version control (git, perforce), applying them through exercises and case studies\n\nThen: Gain hands-on experience by completing software projects, open-source contributions, or technical prototypes \u2014 focus on applying c++ or c# programming, and game engines (unity, unreal engine) in realistic scenarios"
+            }
+          ],
+          "resources": [],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Portfolio & Professional Profile",
+              "description": "Build a professional portfolio: publish your best projects on GitHub, create a personal website showcasing your work, and document your process and results\n\nThen: Prepare your professional profile: craft a targeted CV/resume highlighting your game developer skills, optimize your LinkedIn profile, and gather references or endorsements from mentors, instructors, or past collaborators"
+            }
+          ],
+          "resources": [],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Job Application / Freelancing",
+              "description": "Apply for game developer positions on job boards, company career pages, and freelance platforms (Upwork, Fiverr, Toptal) \u2014 tailor each application to the role and be ready to showcase your portfolio in interviews"
+            }
+          ],
+          "resources": [],
+          "children": []
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/static/roadmaps/roadmap_1.png",
+    "/static/roadmaps/roadmap_2.png"
+  ]
+}

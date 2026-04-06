@@ -1,0 +1,369 @@
+{
+  "input": {
+    "answers": [
+      {
+        "questionId": "Q_EDU",
+        "label": "I have a Master's degree or higher"
+      },
+      {
+        "questionId": "Q_ENV",
+        "label": "Outdoors, on-site, or working with my hands"
+      },
+      {
+        "questionId": "Q_HANDSON",
+        "label": "I like physical, hands-on work \u2014 building, fixing, operating"
+      },
+      {
+        "questionId": "Q_STYLE",
+        "label": "A mix of both depending on the task"
+      },
+      {
+        "questionId": "Q_IMPACT",
+        "label": "Operating vehicles \u2014 planes, drones, ships"
+      },
+      {
+        "questionId": "Q_SUBFIELD",
+        "label": "Flying helicopters"
+      }
+    ],
+    "careers": [
+      "helicopter pilot"
+    ],
+    "category": "Aviation & Piloting"
+  },
+  "derived_skills": [],
+  "chosen_career": "helicopter pilot",
+  "roadmaps": [
+    {
+      "path_title": "helicopter pilot",
+      "focus": "Depth",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "milestones": [
+            {
+              "title": "Degree / Formal Education",
+              "description": "Enroll in and complete a recognised diploma or degree at a specialised academy or institute relevant to helicopter pilot"
+            }
+          ],
+          "resources": [
+            {
+              "title": "National Academy for Aviation Technology (NAAT)",
+              "url": "https://naat.edu.eg/"
+            },
+            {
+              "title": "Egyptian Civil Aviation Authority (ECAA)",
+              "url": "https://ecaa.gov.eg/"
+            },
+            {
+              "title": "Arab Academy for Science, Technology & Maritime Transport (AASTMT)",
+              "url": "https://www.aast.edu/"
+            },
+            {
+              "title": "EgyptAir Training Center",
+              "url": "https://training.egyptair.com/"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Core Skill Learning",
+              "description": "Learn the fundamentals: build a solid foundation in helicopter flight manoeuvres, navigation and flight planning, and meteorology for helicopter operations \u2014 these are the essential building blocks for a helicopter pilot"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Egyptian Aviation Academy - Pilot Training Programs",
+              "url": "https://eaa.com.eg/"
+            },
+            {
+              "title": "ICAO Official Website - International Aviation Standards and Resources",
+              "url": "https://www.icao.int/pages/default.aspx"
+            },
+            {
+              "title": "Udemy - Online Courses for Aviation Fundamentals and Pilot Training",
+              "url": "https://www.udemy.com/courses/search/?q=private+pilot+license"
+            },
+            {
+              "title": "FAA Aviation Handbooks & Manuals (Pilot's Handbook of Aeronautical Knowledge, etc.)",
+              "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/"
+            },
+            {
+              "title": "YouTube - Aviation Fundamentals & Pilot Training Tutorials",
+              "url": "https://www.youtube.com/results?search_query=aviation+fundamentals"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Intermediate / Advanced Skills",
+              "description": "Deepen your expertise by developing intermediate-to-advanced skills in helicopter systems knowledge, radio communication, and autorotation and emergency procedures, applying them through exercises and case studies"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Coursera Search for Advanced Aviation & Safety Courses",
+              "url": "https://www.coursera.org/search?query=aviation+safety"
+            },
+            {
+              "title": "Egyptian Civil Aviation Academy (ECAA) Official Website",
+              "url": "https://www.ecaacairo.info/"
+            },
+            {
+              "title": "Air Go Aviation Academy (Egypt)",
+              "url": "https://airgoacademy.com/"
+            },
+            {
+              "title": "International Civil Aviation Organization (ICAO) Official Website",
+              "url": "https://www.icao.int/"
+            },
+            {
+              "title": "Udemy Search for Instrument Flight & Advanced Aviation",
+              "url": "https://www.udemy.com/courses/search/?q=instrument+flight+rules+advanced+aviation"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Hands-on Practice",
+              "description": "Gain hands-on experience by completing supervised driving or operating sessions, route planning, and practical navigation exercises \u2014 focus on applying helicopter flight manoeuvres, and navigation and flight planning in realistic scenarios"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Egyptian Civil Aviation Authority (ECAA) - Regulations & Approved Organizations",
+              "url": "http://www.civilaviation.gov.eg/"
+            },
+            {
+              "title": "EgyptAir Training Academy - Aviation Flight & Simulator Training",
+              "url": "https://www.egyptairtraining.com/"
+            },
+            {
+              "title": "FAA Aviation Handbooks & Manuals (Global Reference)",
+              "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation"
+            },
+            {
+              "title": "Udemy - Online Courses for Helicopter Pilot & Aviation Fundamentals",
+              "url": "https://www.udemy.com/courses/search/?q=helicopter+pilot+training"
+            },
+            {
+              "title": "YouTube - Helicopter Flight Training & Practical Tutorials",
+              "url": "https://www.youtube.com/results?search_query=helicopter+pilot+training"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Portfolio Building",
+              "description": "Build a professional portfolio showcasing your best work, completed projects, certifications, and any measurable achievements related to helicopter pilot"
+            }
+          ],
+          "resources": [
+            {
+              "title": "helicopter pilot \u2014 Portfolio Building courses on Coursera",
+              "url": "https://www.coursera.org/search?query=helicopter+pilot+Portfolio+Building"
+            },
+            {
+              "title": "helicopter pilot \u2014 Portfolio Building courses on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=helicopter+pilot+Portfolio+Building"
+            },
+            {
+              "title": "helicopter pilot \u2014 Portfolio Building tutorials on YouTube",
+              "url": "https://www.youtube.com/results?search_query=helicopter+pilot+Portfolio+Building+tutorial"
+            },
+            {
+              "title": "helicopter pilot training in Egypt",
+              "url": "https://www.google.com/search?q=helicopter+pilot+Portfolio+Building+training+egypt"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "CV / Profile Building",
+              "description": "Prepare your professional profile: craft a targeted CV/resume highlighting your helicopter pilot skills, optimize your LinkedIn profile, and gather references or endorsements from mentors, instructors, or past collaborators"
+            }
+          ],
+          "resources": [
+            {
+              "title": "helicopter pilot \u2014 CV / Profile Building courses on Coursera",
+              "url": "https://www.coursera.org/search?query=helicopter+pilot+CV+/+Profile+Building"
+            },
+            {
+              "title": "helicopter pilot \u2014 CV / Profile Building courses on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=helicopter+pilot+CV+/+Profile+Building"
+            },
+            {
+              "title": "helicopter pilot \u2014 CV / Profile Building tutorials on YouTube",
+              "url": "https://www.youtube.com/results?search_query=helicopter+pilot+CV+/+Profile+Building+tutorial"
+            },
+            {
+              "title": "helicopter pilot training in Egypt",
+              "url": "https://www.google.com/search?q=helicopter+pilot+CV+/+Profile+Building+training+egypt"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Job Application",
+              "description": "Apply for helicopter pilot positions through job boards, company career pages, professional networks, and industry-specific platforms \u2014 tailor each application and prepare to discuss your hands-on experience and portfolio in interviews"
+            }
+          ],
+          "resources": [
+            {
+              "title": "helicopter pilot jobs on Wuzzuf",
+              "url": "https://wuzzuf.net/search/jobs/?q=helicopter+pilot&a=hpb"
+            },
+            {
+              "title": "helicopter pilot jobs on Forasna",
+              "url": "https://www.forasna.com/jobs/search/helicopter-pilot"
+            },
+            {
+              "title": "helicopter pilot jobs on LinkedIn",
+              "url": "https://www.linkedin.com/jobs/search/?keywords=helicopter+pilot&location=Egypt"
+            },
+            {
+              "title": "helicopter pilot jobs on Bayt.com",
+              "url": "https://www.bayt.com/en/egypt/jobs/helicopter-pilot-jobs/"
+            },
+            {
+              "title": "helicopter pilot jobs on Indeed Egypt",
+              "url": "https://eg.indeed.com/jobs?q=helicopter+pilot"
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "path_title": "helicopter pilot",
+      "focus": "Fast-Entry",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "milestones": [
+            {
+              "title": "Foundation & Core Skills",
+              "description": "Enroll in and complete a recognised diploma or degree at a specialised academy or institute relevant to helicopter pilot\n\nThen: Learn the fundamentals: build a solid foundation in helicopter flight manoeuvres, navigation and flight planning, and meteorology for helicopter operations \u2014 these are the essential building blocks for a helicopter pilot"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Egyptian Aviation Academy",
+              "url": "https://eaa.gov.eg/"
+            },
+            {
+              "title": "Arab Academy for Science & Technology \u2014 Maritime & Transport",
+              "url": "https://aast.edu/en/"
+            },
+            {
+              "title": "Egyptian Civil Aviation Authority",
+              "url": "https://www.civilaviation.gov.eg/"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Skill Building & Practice",
+              "description": "Deepen your expertise by developing intermediate-to-advanced skills in helicopter systems knowledge, radio communication, and autorotation and emergency procedures, applying them through exercises and case studies\n\nThen: Gain hands-on experience by completing supervised driving or operating sessions, route planning, and practical navigation exercises \u2014 focus on applying helicopter flight manoeuvres, and navigation and flight planning in realistic scenarios"
+            }
+          ],
+          "resources": [
+            {
+              "title": "helicopter pilot \u2014 Skill Building & Practice courses on Coursera",
+              "url": "https://www.coursera.org/search?query=helicopter+pilot+Skill+Building+&+Practice"
+            },
+            {
+              "title": "helicopter pilot \u2014 Skill Building & Practice courses on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=helicopter+pilot+Skill+Building+&+Practice"
+            },
+            {
+              "title": "helicopter pilot \u2014 Skill Building & Practice tutorials on YouTube",
+              "url": "https://www.youtube.com/results?search_query=helicopter+pilot+Skill+Building+&+Practice+tutorial"
+            },
+            {
+              "title": "helicopter pilot training in Egypt",
+              "url": "https://www.google.com/search?q=helicopter+pilot+Skill+Building+&+Practice+training+egypt"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Portfolio & Professional Profile",
+              "description": "Build a professional portfolio showcasing your best work, completed projects, certifications, and any measurable achievements related to helicopter pilot\n\nThen: Prepare your professional profile: craft a targeted CV/resume highlighting your helicopter pilot skills, optimize your LinkedIn profile, and gather references or endorsements from mentors, instructors, or past collaborators"
+            }
+          ],
+          "resources": [
+            {
+              "title": "helicopter pilot \u2014 Portfolio & Professional Profile courses on Coursera",
+              "url": "https://www.coursera.org/search?query=helicopter+pilot+Portfolio+&+Professional+Profile"
+            },
+            {
+              "title": "helicopter pilot \u2014 Portfolio & Professional Profile courses on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=helicopter+pilot+Portfolio+&+Professional+Profile"
+            },
+            {
+              "title": "helicopter pilot \u2014 Portfolio & Professional Profile tutorials on YouTube",
+              "url": "https://www.youtube.com/results?search_query=helicopter+pilot+Portfolio+&+Professional+Profile+tutorial"
+            },
+            {
+              "title": "helicopter pilot training in Egypt",
+              "url": "https://www.google.com/search?q=helicopter+pilot+Portfolio+&+Professional+Profile+training+egypt"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Job Application",
+              "description": "Apply for helicopter pilot positions through job boards, company career pages, professional networks, and industry-specific platforms \u2014 tailor each application and prepare to discuss your hands-on experience and portfolio in interviews"
+            }
+          ],
+          "resources": [
+            {
+              "title": "helicopter pilot jobs on Wuzzuf",
+              "url": "https://wuzzuf.net/search/jobs/?q=helicopter+pilot&a=hpb"
+            },
+            {
+              "title": "helicopter pilot jobs on Forasna",
+              "url": "https://www.forasna.com/jobs/search/helicopter-pilot"
+            },
+            {
+              "title": "helicopter pilot jobs on LinkedIn",
+              "url": "https://www.linkedin.com/jobs/search/?keywords=helicopter+pilot&location=Egypt"
+            },
+            {
+              "title": "helicopter pilot jobs on Bayt.com",
+              "url": "https://www.bayt.com/en/egypt/jobs/helicopter-pilot-jobs/"
+            },
+            {
+              "title": "helicopter pilot jobs on Indeed Egypt",
+              "url": "https://eg.indeed.com/jobs?q=helicopter+pilot"
+            }
+          ],
+          "children": []
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/static/roadmaps/roadmap_1.png",
+    "/static/roadmaps/roadmap_2.png"
+  ]
+}

@@ -35,7 +35,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "creating_technology"
+        "impact": "creating_technology",
+        "experience_level": "any"
       }
     },
     {
@@ -67,7 +68,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "creating_technology"
+        "impact": "creating_technology",
+        "experience_level": "any"
       }
     },
     {
@@ -99,7 +101,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "creating_technology"
+        "impact": "creating_technology",
+        "experience_level": "any"
       }
     },
     {
@@ -132,7 +135,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "creating_technology"
+        "impact": "creating_technology",
+        "experience_level": "any"
       }
     },
     {
@@ -164,7 +168,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "creating_technology"
+        "impact": "creating_technology",
+        "experience_level": "any"
       }
     },
     {
@@ -197,7 +202,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "creating_technology"
+        "impact": "creating_technology",
+        "experience_level": "any"
       }
     },
     {
@@ -230,7 +236,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "creating_technology"
+        "impact": "creating_technology",
+        "experience_level": "any"
       }
     },
     {
@@ -262,7 +269,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "creating_technology"
+        "impact": "creating_technology",
+        "experience_level": "any"
       }
     },
     {
@@ -295,7 +303,8 @@
         "risk_tolerance": "stable",
         "pace": "steady",
         "hands_on": "thinking",
-        "impact": "creating_technology"
+        "impact": "creating_technology",
+        "experience_level": "any"
       }
     },
     {
@@ -327,7 +336,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "creating_technology"
+        "impact": "creating_technology",
+        "experience_level": "any"
       }
     },
     {
@@ -360,7 +370,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "creating_technology"
+        "impact": "creating_technology",
+        "experience_level": "any"
       }
     },
     {
@@ -393,8 +404,136 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "creating_technology"
-      }
+        "impact": "creating_technology",
+        "experience_level": "any"
+      },
+      "sub_fields": [
+        {
+          "name": "Cloud Engineer",
+          "description": "Builds and manages cloud infrastructure using AWS, Azure, or GCP services.",
+          "languages": [
+            {
+              "name": "AWS",
+              "link": "https://www.coursera.org/search?query=aws+cloud+engineer",
+              "description": "Amazon Web Services — the largest cloud platform. Offers 200+ services for compute, storage, databases, and AI. Most job postings require AWS."
+            },
+            {
+              "name": "Azure",
+              "link": "https://www.coursera.org/search?query=azure+cloud+engineer",
+              "description": "Microsoft's cloud platform. Strong in enterprise, hybrid cloud, and .NET integration. Growing fast in the Middle East market."
+            },
+            {
+              "name": "Google Cloud",
+              "link": "https://www.coursera.org/search?query=google+cloud+platform+engineer",
+              "description": "Google Cloud Platform (GCP) — excels in data analytics, AI/ML services, and Kubernetes. Strong BigQuery and Vertex AI offerings."
+            },
+            {
+              "name": "Terraform",
+              "link": "https://www.udemy.com/courses/search/?q=terraform+infrastructure+as+code",
+              "description": "Infrastructure as Code tool by HashiCorp. Define cloud resources in code, version control your infrastructure, and deploy consistently."
+            }
+          ]
+        },
+        {
+          "name": "DevOps Engineer",
+          "description": "Automates software build, test, and deployment pipelines to enable rapid and reliable delivery.",
+          "languages": [
+            {
+              "name": "Docker",
+              "link": "https://www.udemy.com/courses/search/?q=docker+devops",
+              "description": "Container platform that packages apps with dependencies. Essential for modern development — consistent environments from dev to production."
+            },
+            {
+              "name": "Kubernetes",
+              "link": "https://www.coursera.org/search?query=kubernetes+devops",
+              "description": "Container orchestration system by Google. Manages deployment, scaling, and operations of containerized applications at scale."
+            },
+            {
+              "name": "Jenkins",
+              "link": "https://www.udemy.com/courses/search/?q=jenkins+ci+cd+devops",
+              "description": "Open-source CI/CD automation server. Automates building, testing, and deploying code. Widely used in enterprise DevOps pipelines."
+            },
+            {
+              "name": "GitHub Actions",
+              "link": "https://www.udemy.com/courses/search/?q=github+actions+ci+cd",
+              "description": "CI/CD built into GitHub. Automate workflows directly from your repo — build, test, deploy. Free for public repos."
+            }
+          ]
+        },
+        {
+          "name": "Site Reliability Engineer",
+          "description": "Ensures systems are reliable, scalable, and performant through monitoring, automation, and incident response.",
+          "languages": [
+            {
+              "name": "Python",
+              "link": "https://www.coursera.org/search?query=python+site+reliability+engineering",
+              "description": "Versatile and beginner-friendly. Excels in data science, automation, web backends (Django/Flask), and AI/ML. Egypt's most in-demand language."
+            },
+            {
+              "name": "Go",
+              "link": "https://www.udemy.com/courses/search/?q=golang+sre",
+              "description": "Google's language built for speed and simplicity. Ideal for cloud infrastructure, microservices, and high-performance backends."
+            },
+            {
+              "name": "Prometheus / Grafana",
+              "link": "https://www.udemy.com/courses/search/?q=prometheus+grafana+monitoring",
+              "description": "Monitoring stack — Prometheus collects metrics, Grafana visualizes them. Industry standard for infrastructure and application observability."
+            },
+            {
+              "name": "Ansible",
+              "link": "https://www.udemy.com/courses/search/?q=ansible+automation",
+              "description": "Agentless automation tool for IT infrastructure. Simple YAML-based playbooks for configuration management and app deployment."
+            }
+          ]
+        },
+        {
+          "name": "Network Administrator",
+          "description": "Configures and maintains computer networks, routers, switches, and firewalls.",
+          "languages": [
+            {
+              "name": "Cisco (CCNA)",
+              "link": "https://www.coursera.org/search?query=cisco+ccna+networking",
+              "description": "Cisco certification and networking fundamentals. Covers routing, switching, network security, and is the gold standard for network careers."
+            },
+            {
+              "name": "Python (Netmiko)",
+              "link": "https://www.udemy.com/courses/search/?q=python+network+automation",
+              "description": "Network automation library. Automates SSH connections to network devices (Cisco, Juniper) for configuration and monitoring."
+            },
+            {
+              "name": "Wireshark",
+              "link": "https://www.udemy.com/courses/search/?q=wireshark+network+analysis",
+              "description": "Network protocol analyzer. Capture and inspect network traffic in real-time. Essential tool for network troubleshooting and security analysis."
+            }
+          ]
+        },
+        {
+          "name": "Systems Administrator",
+          "description": "Manages and maintains servers, operating systems, and IT infrastructure to ensure uptime and performance.",
+          "languages": [
+            {
+              "name": "Linux",
+              "link": "https://www.coursera.org/search?query=linux+system+administration",
+              "description": "The operating system of the internet. Powers 90%+ of servers. Essential for DevOps, cloud, cybersecurity, and system administration."
+            },
+            {
+              "name": "Windows Server",
+              "link": "https://www.udemy.com/courses/search/?q=windows+server+administration",
+              "description": "Microsoft's server OS for enterprise environments. Active Directory, Group Policy, and business-critical Windows infrastructure."
+            },
+            {
+              "name": "PowerShell",
+              "link": "https://www.udemy.com/courses/search/?q=powershell+scripting",
+              "description": "Microsoft's automation framework. Script Windows administration, Azure management, and cross-platform system tasks."
+            },
+            {
+              "name": "Bash",
+              "link": "https://www.udemy.com/courses/search/?q=bash+shell+scripting",
+              "description": "Unix shell scripting language. Automate Linux/macOS tasks, write deployment scripts, and manage servers efficiently."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": 12,
@@ -425,8 +564,136 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "creating_technology"
-      }
+        "impact": "creating_technology",
+        "experience_level": "any"
+      },
+      "sub_fields": [
+        {
+          "name": "Cloud Engineer",
+          "description": "Builds and manages cloud infrastructure using AWS, Azure, or GCP services.",
+          "languages": [
+            {
+              "name": "AWS",
+              "link": "https://www.coursera.org/search?query=aws+cloud+engineer",
+              "description": "Amazon Web Services — the largest cloud platform. Offers 200+ services for compute, storage, databases, and AI. Most job postings require AWS."
+            },
+            {
+              "name": "Azure",
+              "link": "https://www.coursera.org/search?query=azure+cloud+engineer",
+              "description": "Microsoft's cloud platform. Strong in enterprise, hybrid cloud, and .NET integration. Growing fast in the Middle East market."
+            },
+            {
+              "name": "Google Cloud",
+              "link": "https://www.coursera.org/search?query=google+cloud+platform+engineer",
+              "description": "Google Cloud Platform (GCP) — excels in data analytics, AI/ML services, and Kubernetes. Strong BigQuery and Vertex AI offerings."
+            },
+            {
+              "name": "Terraform",
+              "link": "https://www.udemy.com/courses/search/?q=terraform+infrastructure+as+code",
+              "description": "Infrastructure as Code tool by HashiCorp. Define cloud resources in code, version control your infrastructure, and deploy consistently."
+            }
+          ]
+        },
+        {
+          "name": "DevOps Engineer",
+          "description": "Automates software build, test, and deployment pipelines to enable rapid and reliable delivery.",
+          "languages": [
+            {
+              "name": "Docker",
+              "link": "https://www.udemy.com/courses/search/?q=docker+devops",
+              "description": "Container platform that packages apps with dependencies. Essential for modern development — consistent environments from dev to production."
+            },
+            {
+              "name": "Kubernetes",
+              "link": "https://www.coursera.org/search?query=kubernetes+devops",
+              "description": "Container orchestration system by Google. Manages deployment, scaling, and operations of containerized applications at scale."
+            },
+            {
+              "name": "Jenkins",
+              "link": "https://www.udemy.com/courses/search/?q=jenkins+ci+cd+devops",
+              "description": "Open-source CI/CD automation server. Automates building, testing, and deploying code. Widely used in enterprise DevOps pipelines."
+            },
+            {
+              "name": "GitHub Actions",
+              "link": "https://www.udemy.com/courses/search/?q=github+actions+ci+cd",
+              "description": "CI/CD built into GitHub. Automate workflows directly from your repo — build, test, deploy. Free for public repos."
+            }
+          ]
+        },
+        {
+          "name": "Site Reliability Engineer",
+          "description": "Ensures systems are reliable, scalable, and performant through monitoring, automation, and incident response.",
+          "languages": [
+            {
+              "name": "Python",
+              "link": "https://www.coursera.org/search?query=python+site+reliability+engineering",
+              "description": "Versatile and beginner-friendly. Excels in data science, automation, web backends (Django/Flask), and AI/ML. Egypt's most in-demand language."
+            },
+            {
+              "name": "Go",
+              "link": "https://www.udemy.com/courses/search/?q=golang+sre",
+              "description": "Google's language built for speed and simplicity. Ideal for cloud infrastructure, microservices, and high-performance backends."
+            },
+            {
+              "name": "Prometheus / Grafana",
+              "link": "https://www.udemy.com/courses/search/?q=prometheus+grafana+monitoring",
+              "description": "Monitoring stack — Prometheus collects metrics, Grafana visualizes them. Industry standard for infrastructure and application observability."
+            },
+            {
+              "name": "Ansible",
+              "link": "https://www.udemy.com/courses/search/?q=ansible+automation",
+              "description": "Agentless automation tool for IT infrastructure. Simple YAML-based playbooks for configuration management and app deployment."
+            }
+          ]
+        },
+        {
+          "name": "Network Administrator",
+          "description": "Configures and maintains computer networks, routers, switches, and firewalls.",
+          "languages": [
+            {
+              "name": "Cisco (CCNA)",
+              "link": "https://www.coursera.org/search?query=cisco+ccna+networking",
+              "description": "Cisco certification and networking fundamentals. Covers routing, switching, network security, and is the gold standard for network careers."
+            },
+            {
+              "name": "Python (Netmiko)",
+              "link": "https://www.udemy.com/courses/search/?q=python+network+automation",
+              "description": "Network automation library. Automates SSH connections to network devices (Cisco, Juniper) for configuration and monitoring."
+            },
+            {
+              "name": "Wireshark",
+              "link": "https://www.udemy.com/courses/search/?q=wireshark+network+analysis",
+              "description": "Network protocol analyzer. Capture and inspect network traffic in real-time. Essential tool for network troubleshooting and security analysis."
+            }
+          ]
+        },
+        {
+          "name": "Systems Administrator",
+          "description": "Manages and maintains servers, operating systems, and IT infrastructure to ensure uptime and performance.",
+          "languages": [
+            {
+              "name": "Linux",
+              "link": "https://www.coursera.org/search?query=linux+system+administration",
+              "description": "The operating system of the internet. Powers 90%+ of servers. Essential for DevOps, cloud, cybersecurity, and system administration."
+            },
+            {
+              "name": "Windows Server",
+              "link": "https://www.udemy.com/courses/search/?q=windows+server+administration",
+              "description": "Microsoft's server OS for enterprise environments. Active Directory, Group Policy, and business-critical Windows infrastructure."
+            },
+            {
+              "name": "PowerShell",
+              "link": "https://www.udemy.com/courses/search/?q=powershell+scripting",
+              "description": "Microsoft's automation framework. Script Windows administration, Azure management, and cross-platform system tasks."
+            },
+            {
+              "name": "Bash",
+              "link": "https://www.udemy.com/courses/search/?q=bash+shell+scripting",
+              "description": "Unix shell scripting language. Automate Linux/macOS tasks, write deployment scripts, and manage servers efficiently."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": 13,
@@ -457,7 +724,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "creating_technology"
+        "impact": "creating_technology",
+        "experience_level": "any"
       }
     },
     {
@@ -490,7 +758,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "creating_technology"
+        "impact": "creating_technology",
+        "experience_level": "any"
       }
     },
     {
@@ -524,7 +793,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "creating_technology"
+        "impact": "creating_technology",
+        "experience_level": "any"
       }
     },
     {
@@ -557,8 +827,172 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "creating_technology"
-      }
+        "impact": "creating_technology",
+        "experience_level": "any"
+      },
+      "sub_fields": [
+        {
+          "name": "Backend Developer",
+          "description": "Builds server-side logic, APIs, databases, and business logic that power applications behind the scenes.",
+          "languages": [
+            {
+              "name": "Java",
+              "link": "https://www.coursera.org/search?query=java+backend+development",
+              "description": "Enterprise-grade language dominant in large-scale backend systems, Android apps, and banking software. Known for stability and vast ecosystem."
+            },
+            {
+              "name": "Python",
+              "link": "https://www.udemy.com/courses/search/?q=python+backend+development",
+              "description": "Versatile and beginner-friendly. Excels in data science, automation, web backends (Django/Flask), and AI/ML. Egypt's most in-demand language."
+            },
+            {
+              "name": "Node.js",
+              "link": "https://www.coursera.org/search?query=node.js+backend+development",
+              "description": "JavaScript runtime for backend development. Great for real-time apps, APIs, and full-stack JS projects. Fast and lightweight."
+            },
+            {
+              "name": "Go",
+              "link": "https://www.udemy.com/courses/search/?q=golang+backend+development",
+              "description": "Google's language built for speed and simplicity. Ideal for cloud infrastructure, microservices, and high-performance backends."
+            },
+            {
+              "name": "C# / .NET",
+              "link": "https://www.coursera.org/search?query=c+sharp+.net+backend",
+              "description": "Microsoft's flagship. Best for enterprise apps, Windows desktop software, game development (Unity), and Azure cloud services."
+            }
+          ]
+        },
+        {
+          "name": "Frontend Developer",
+          "description": "Creates user interfaces and interactive experiences using HTML, CSS, JavaScript, and modern frameworks.",
+          "languages": [
+            {
+              "name": "JavaScript",
+              "link": "https://www.udemy.com/courses/search/?q=javascript+frontend+development",
+              "description": "The language of the web. Powers every browser and is essential for interactive frontends, SPAs, and modern web apps."
+            },
+            {
+              "name": "TypeScript",
+              "link": "https://www.udemy.com/courses/search/?q=typescript+frontend",
+              "description": "JavaScript with types. Reduces bugs in large codebases and is the industry standard for professional frontend and full-stack projects."
+            },
+            {
+              "name": "React",
+              "link": "https://www.coursera.org/search?query=react+frontend+development",
+              "description": "Facebook's UI library. Component-based, huge ecosystem, and the most popular frontend framework. Used by Meta, Netflix, and Airbnb."
+            },
+            {
+              "name": "Vue.js",
+              "link": "https://www.udemy.com/courses/search/?q=vue.js+frontend",
+              "description": "Progressive JavaScript framework. Gentle learning curve, great docs, and perfect for both small projects and large SPAs."
+            },
+            {
+              "name": "Angular",
+              "link": "https://www.coursera.org/search?query=angular+frontend+development",
+              "description": "Google's enterprise frontend framework. Full-featured with TypeScript, RxJS, and dependency injection. Best for large corporate apps."
+            }
+          ]
+        },
+        {
+          "name": "Full Stack Developer",
+          "description": "Works across both frontend and backend, handling the entire web application stack from UI to database.",
+          "languages": [
+            {
+              "name": "JavaScript / Node.js",
+              "link": "https://www.udemy.com/courses/search/?q=full+stack+javascript+node",
+              "description": "Full-stack JavaScript — use one language for frontend and backend. Fast development, huge npm ecosystem, and real-time capabilities."
+            },
+            {
+              "name": "Python / Django",
+              "link": "https://www.coursera.org/search?query=python+django+full+stack",
+              "description": "Python backend with Django framework. Rapid development, built-in admin, ORM, and security features. Great for startups and MVPs."
+            },
+            {
+              "name": "Java / Spring Boot",
+              "link": "https://www.udemy.com/courses/search/?q=java+spring+boot+full+stack",
+              "description": "Enterprise Java with Spring Boot. Auto-configuration, microservices-ready, and the backbone of corporate backend systems worldwide."
+            },
+            {
+              "name": "TypeScript / Next.js",
+              "link": "https://www.udemy.com/courses/search/?q=nextjs+full+stack+typescript",
+              "description": "Full-stack TypeScript with Next.js (React). Server-side rendering, API routes, and the modern standard for production React apps."
+            }
+          ]
+        },
+        {
+          "name": "Mobile Developer",
+          "description": "Designs and builds applications for Android and iOS devices using native or cross-platform frameworks.",
+          "languages": [
+            {
+              "name": "Kotlin (Android)",
+              "link": "https://www.coursera.org/search?query=kotlin+android+development",
+              "description": "Modern language for Android development. Officially recommended by Google, concise syntax, and fully interoperable with Java."
+            },
+            {
+              "name": "Swift (iOS)",
+              "link": "https://www.udemy.com/courses/search/?q=swift+ios+development",
+              "description": "Apple's language for iOS, macOS, and watchOS apps. Fast, safe, and the only choice for native Apple development."
+            },
+            {
+              "name": "Flutter / Dart",
+              "link": "https://www.udemy.com/courses/search/?q=flutter+dart+mobile+development",
+              "description": "Google's cross-platform UI toolkit. Build beautiful native apps for mobile, web, and desktop from a single Dart codebase."
+            },
+            {
+              "name": "React Native",
+              "link": "https://www.coursera.org/search?query=react+native+mobile+development",
+              "description": "Build native mobile apps using React and JavaScript. Share code between iOS and Android while keeping native performance."
+            }
+          ]
+        },
+        {
+          "name": "Game Developer",
+          "description": "Creates video games using game engines, managing gameplay mechanics, rendering, physics, and player interaction.",
+          "languages": [
+            {
+              "name": "C# (Unity)",
+              "link": "https://www.udemy.com/courses/search/?q=unity+c+sharp+game+development",
+              "description": "Unity game engine uses C#. The most popular engine for indie games, mobile games, VR/AR, and interactive experiences."
+            },
+            {
+              "name": "C++ (Unreal Engine)",
+              "link": "https://www.udemy.com/courses/search/?q=unreal+engine+c+++game+development",
+              "description": "Unreal Engine uses C++. Industry standard for AAA games, photorealistic graphics, and high-end game development."
+            },
+            {
+              "name": "GDScript (Godot)",
+              "link": "https://www.udemy.com/courses/search/?q=godot+game+development",
+              "description": "Godot engine's built-in language. Lightweight, open-source, and perfect for 2D games and indie developers on a budget."
+            }
+          ]
+        },
+        {
+          "name": "Embedded Systems Developer",
+          "description": "Programs microcontrollers and firmware for hardware devices, IoT products, and real-time systems.",
+          "languages": [
+            {
+              "name": "C",
+              "link": "https://www.coursera.org/search?query=c+programming+embedded+systems",
+              "description": "Low-level systems language. Used in operating systems, embedded devices, IoT, and performance-critical software. The foundation of computing."
+            },
+            {
+              "name": "C++",
+              "link": "https://www.udemy.com/courses/search/?q=c+++embedded+systems",
+              "description": "Powerful systems language used in game engines, real-time systems, robotics, and high-frequency trading. Steeper learning curve but maximum control."
+            },
+            {
+              "name": "Rust",
+              "link": "https://www.udemy.com/courses/search/?q=rust+programming+embedded",
+              "description": "Modern systems language focusing on safety and performance. Growing fast in embedded systems, WebAssembly, and secure infrastructure."
+            },
+            {
+              "name": "MicroPython",
+              "link": "https://www.udemy.com/courses/search/?q=micropython+embedded",
+              "description": "Python for microcontrollers. Run Python on tiny hardware like ESP32 and Raspberry Pi Pico for IoT and embedded projects."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": 17,
@@ -589,7 +1023,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "creating_technology"
+        "impact": "creating_technology",
+        "experience_level": "any"
       }
     },
     {
@@ -622,7 +1057,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "creating_technology"
+        "impact": "creating_technology",
+        "experience_level": "any"
       }
     },
     {
@@ -653,7 +1089,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "leading_teams"
+        "impact": "leading_teams",
+        "experience_level": "any"
       }
     },
     {
@@ -684,7 +1121,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "leading_teams"
+        "impact": "leading_teams",
+        "experience_level": "any"
       }
     },
     {
@@ -715,7 +1153,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "creating_technology"
+        "impact": "creating_technology",
+        "experience_level": "any"
       }
     },
     {
@@ -746,7 +1185,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "leading_teams"
+        "impact": "leading_teams",
+        "experience_level": "any"
       }
     },
     {
@@ -778,7 +1218,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "creating_technology"
+        "impact": "creating_technology",
+        "experience_level": "any"
       }
     },
     {
@@ -810,7 +1251,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "leading_teams"
+        "impact": "leading_teams",
+        "experience_level": "any"
       }
     },
     {
@@ -843,7 +1285,8 @@
         "risk_tolerance": "stable",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "creating_technology"
+        "impact": "creating_technology",
+        "experience_level": "any"
       }
     },
     {
@@ -875,7 +1318,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "creating_technology"
+        "impact": "creating_technology",
+        "experience_level": "any"
       }
     },
     {
@@ -907,7 +1351,8 @@
         "risk_tolerance": "stable",
         "pace": "steady",
         "hands_on": "thinking",
-        "impact": "creating_technology"
+        "impact": "creating_technology",
+        "experience_level": "any"
       }
     },
     {
@@ -940,8 +1385,152 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "creating_technology"
-      }
+        "impact": "creating_technology",
+        "experience_level": "any"
+      },
+      "sub_fields": [
+        {
+          "name": "Data Analyst",
+          "description": "Transforms raw data into actionable insights using SQL, visualization tools, and statistical analysis.",
+          "languages": [
+            {
+              "name": "Python (Pandas)",
+              "link": "https://www.coursera.org/search?query=python+pandas+data+analysis",
+              "description": "Python's data manipulation library. Essential for cleaning, transforming, and analyzing datasets. The backbone of data analysis workflows."
+            },
+            {
+              "name": "SQL",
+              "link": "https://www.coursera.org/search?query=sql+data+analysis",
+              "description": "Structured Query Language — the universal database language. Essential for every data role. Query, filter, join, and analyze data in any database."
+            },
+            {
+              "name": "R",
+              "link": "https://www.coursera.org/search?query=r+programming+data+analysis",
+              "description": "Statistical computing language. Best for academic research, biostatistics, and advanced data visualization. Strong in scientific communities."
+            },
+            {
+              "name": "Tableau",
+              "link": "https://www.coursera.org/search?query=tableau+data+visualization",
+              "description": "Leading data visualization platform. Create interactive dashboards and charts with drag-and-drop. Popular in business intelligence roles."
+            },
+            {
+              "name": "Power BI",
+              "link": "https://www.udemy.com/courses/search/?q=power+bi+data+analysis",
+              "description": "Microsoft's BI tool. Integrates with Excel and Azure. Great for creating reports, dashboards, and data-driven insights in enterprise settings."
+            }
+          ]
+        },
+        {
+          "name": "Data Engineer",
+          "description": "Builds and maintains the infrastructure for data generation, storage, and processing at scale.",
+          "languages": [
+            {
+              "name": "Python",
+              "link": "https://www.coursera.org/search?query=python+data+engineering",
+              "description": "Versatile and beginner-friendly. Excels in data science, automation, web backends (Django/Flask), and AI/ML. Egypt's most in-demand language."
+            },
+            {
+              "name": "SQL",
+              "link": "https://www.udemy.com/courses/search/?q=sql+data+engineering",
+              "description": "Structured Query Language — the universal database language. Essential for every data role. Query, filter, join, and analyze data in any database."
+            },
+            {
+              "name": "Apache Spark",
+              "link": "https://www.coursera.org/search?query=apache+spark+data+engineering",
+              "description": "Big data processing engine. Handle massive datasets with in-memory computing. Essential for data engineering at scale."
+            },
+            {
+              "name": "Scala",
+              "link": "https://www.coursera.org/search?query=scala+data+engineering",
+              "description": "JVM language combining functional and object-oriented programming. Popular in big data (Apache Spark) and high-scale distributed systems."
+            }
+          ]
+        },
+        {
+          "name": "Machine Learning Engineer",
+          "description": "Designs, trains, and deploys machine learning models into production systems.",
+          "languages": [
+            {
+              "name": "Python (TensorFlow)",
+              "link": "https://www.coursera.org/search?query=tensorflow+machine+learning",
+              "description": "Google's deep learning framework. Industry standard for production ML models, neural networks, and large-scale AI deployments."
+            },
+            {
+              "name": "Python (PyTorch)",
+              "link": "https://www.udemy.com/courses/search/?q=pytorch+machine+learning",
+              "description": "Facebook's deep learning framework. Preferred by researchers for its flexibility and intuitive design. Dominant in AI research and NLP."
+            },
+            {
+              "name": "Python (scikit-learn)",
+              "link": "https://www.coursera.org/search?query=scikit+learn+machine+learning",
+              "description": "Machine learning library for classical algorithms. Perfect for classification, regression, clustering, and getting started with ML."
+            }
+          ]
+        },
+        {
+          "name": "AI Research Scientist",
+          "description": "Advances the state of the art in AI through novel research in deep learning, NLP, computer vision, and more.",
+          "languages": [
+            {
+              "name": "Python (PyTorch)",
+              "link": "https://www.udemy.com/courses/search/?q=pytorch+deep+learning+research",
+              "description": "Facebook's deep learning framework. Preferred by researchers for its flexibility and intuitive design. Dominant in AI research and NLP."
+            },
+            {
+              "name": "Python (JAX)",
+              "link": "https://www.coursera.org/search?query=jax+deep+learning",
+              "description": "Google's high-performance ML library. Best for cutting-edge research, custom neural architectures, and GPU/TPU-accelerated computing."
+            },
+            {
+              "name": "Python (Hugging Face)",
+              "link": "https://www.coursera.org/search?query=hugging+face+nlp+transformers",
+              "description": "The go-to library for NLP and transformer models (BERT, GPT). Makes state-of-the-art AI accessible with pre-trained models."
+            }
+          ]
+        },
+        {
+          "name": "NLP Engineer",
+          "description": "Builds systems that understand, interpret, and generate human language — chatbots, translation, text mining.",
+          "languages": [
+            {
+              "name": "Python (spaCy)",
+              "link": "https://www.udemy.com/courses/search/?q=spacy+nlp+python",
+              "description": "Industrial-strength NLP library. Fast and production-ready for text processing, named entity recognition, and language understanding."
+            },
+            {
+              "name": "Python (Hugging Face)",
+              "link": "https://www.coursera.org/search?query=hugging+face+nlp",
+              "description": "The go-to library for NLP and transformer models (BERT, GPT). Makes state-of-the-art AI accessible with pre-trained models."
+            },
+            {
+              "name": "Python (NLTK)",
+              "link": "https://www.udemy.com/courses/search/?q=nltk+natural+language+processing",
+              "description": "Natural Language Toolkit for learning NLP fundamentals. Great for education and prototyping text analysis pipelines."
+            }
+          ]
+        },
+        {
+          "name": "Computer Vision Engineer",
+          "description": "Develops systems that interpret and analyze visual information from images and video using deep learning.",
+          "languages": [
+            {
+              "name": "Python (OpenCV)",
+              "link": "https://www.udemy.com/courses/search/?q=opencv+computer+vision",
+              "description": "Computer vision library for image/video processing. Used in face detection, object tracking, augmented reality, and autonomous systems."
+            },
+            {
+              "name": "Python (PyTorch Vision)",
+              "link": "https://www.coursera.org/search?query=pytorch+computer+vision",
+              "description": "PyTorch's computer vision toolkit. Pre-trained models for image classification, object detection, and segmentation tasks."
+            },
+            {
+              "name": "Python (TensorFlow)",
+              "link": "https://www.coursera.org/search?query=tensorflow+computer+vision",
+              "description": "Google's deep learning framework. Industry standard for production ML models, neural networks, and large-scale AI deployments."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": 29,
@@ -972,8 +1561,152 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "creating_technology"
-      }
+        "impact": "creating_technology",
+        "experience_level": "any"
+      },
+      "sub_fields": [
+        {
+          "name": "Data Analyst",
+          "description": "Transforms raw data into actionable insights using SQL, visualization tools, and statistical analysis.",
+          "languages": [
+            {
+              "name": "Python (Pandas)",
+              "link": "https://www.coursera.org/search?query=python+pandas+data+analysis",
+              "description": "Python's data manipulation library. Essential for cleaning, transforming, and analyzing datasets. The backbone of data analysis workflows."
+            },
+            {
+              "name": "SQL",
+              "link": "https://www.coursera.org/search?query=sql+data+analysis",
+              "description": "Structured Query Language — the universal database language. Essential for every data role. Query, filter, join, and analyze data in any database."
+            },
+            {
+              "name": "R",
+              "link": "https://www.coursera.org/search?query=r+programming+data+analysis",
+              "description": "Statistical computing language. Best for academic research, biostatistics, and advanced data visualization. Strong in scientific communities."
+            },
+            {
+              "name": "Tableau",
+              "link": "https://www.coursera.org/search?query=tableau+data+visualization",
+              "description": "Leading data visualization platform. Create interactive dashboards and charts with drag-and-drop. Popular in business intelligence roles."
+            },
+            {
+              "name": "Power BI",
+              "link": "https://www.udemy.com/courses/search/?q=power+bi+data+analysis",
+              "description": "Microsoft's BI tool. Integrates with Excel and Azure. Great for creating reports, dashboards, and data-driven insights in enterprise settings."
+            }
+          ]
+        },
+        {
+          "name": "Data Engineer",
+          "description": "Builds and maintains the infrastructure for data generation, storage, and processing at scale.",
+          "languages": [
+            {
+              "name": "Python",
+              "link": "https://www.coursera.org/search?query=python+data+engineering",
+              "description": "Versatile and beginner-friendly. Excels in data science, automation, web backends (Django/Flask), and AI/ML. Egypt's most in-demand language."
+            },
+            {
+              "name": "SQL",
+              "link": "https://www.udemy.com/courses/search/?q=sql+data+engineering",
+              "description": "Structured Query Language — the universal database language. Essential for every data role. Query, filter, join, and analyze data in any database."
+            },
+            {
+              "name": "Apache Spark",
+              "link": "https://www.coursera.org/search?query=apache+spark+data+engineering",
+              "description": "Big data processing engine. Handle massive datasets with in-memory computing. Essential for data engineering at scale."
+            },
+            {
+              "name": "Scala",
+              "link": "https://www.coursera.org/search?query=scala+data+engineering",
+              "description": "JVM language combining functional and object-oriented programming. Popular in big data (Apache Spark) and high-scale distributed systems."
+            }
+          ]
+        },
+        {
+          "name": "Machine Learning Engineer",
+          "description": "Designs, trains, and deploys machine learning models into production systems.",
+          "languages": [
+            {
+              "name": "Python (TensorFlow)",
+              "link": "https://www.coursera.org/search?query=tensorflow+machine+learning",
+              "description": "Google's deep learning framework. Industry standard for production ML models, neural networks, and large-scale AI deployments."
+            },
+            {
+              "name": "Python (PyTorch)",
+              "link": "https://www.udemy.com/courses/search/?q=pytorch+machine+learning",
+              "description": "Facebook's deep learning framework. Preferred by researchers for its flexibility and intuitive design. Dominant in AI research and NLP."
+            },
+            {
+              "name": "Python (scikit-learn)",
+              "link": "https://www.coursera.org/search?query=scikit+learn+machine+learning",
+              "description": "Machine learning library for classical algorithms. Perfect for classification, regression, clustering, and getting started with ML."
+            }
+          ]
+        },
+        {
+          "name": "AI Research Scientist",
+          "description": "Advances the state of the art in AI through novel research in deep learning, NLP, computer vision, and more.",
+          "languages": [
+            {
+              "name": "Python (PyTorch)",
+              "link": "https://www.udemy.com/courses/search/?q=pytorch+deep+learning+research",
+              "description": "Facebook's deep learning framework. Preferred by researchers for its flexibility and intuitive design. Dominant in AI research and NLP."
+            },
+            {
+              "name": "Python (JAX)",
+              "link": "https://www.coursera.org/search?query=jax+deep+learning",
+              "description": "Google's high-performance ML library. Best for cutting-edge research, custom neural architectures, and GPU/TPU-accelerated computing."
+            },
+            {
+              "name": "Python (Hugging Face)",
+              "link": "https://www.coursera.org/search?query=hugging+face+nlp+transformers",
+              "description": "The go-to library for NLP and transformer models (BERT, GPT). Makes state-of-the-art AI accessible with pre-trained models."
+            }
+          ]
+        },
+        {
+          "name": "NLP Engineer",
+          "description": "Builds systems that understand, interpret, and generate human language — chatbots, translation, text mining.",
+          "languages": [
+            {
+              "name": "Python (spaCy)",
+              "link": "https://www.udemy.com/courses/search/?q=spacy+nlp+python",
+              "description": "Industrial-strength NLP library. Fast and production-ready for text processing, named entity recognition, and language understanding."
+            },
+            {
+              "name": "Python (Hugging Face)",
+              "link": "https://www.coursera.org/search?query=hugging+face+nlp",
+              "description": "The go-to library for NLP and transformer models (BERT, GPT). Makes state-of-the-art AI accessible with pre-trained models."
+            },
+            {
+              "name": "Python (NLTK)",
+              "link": "https://www.udemy.com/courses/search/?q=nltk+natural+language+processing",
+              "description": "Natural Language Toolkit for learning NLP fundamentals. Great for education and prototyping text analysis pipelines."
+            }
+          ]
+        },
+        {
+          "name": "Computer Vision Engineer",
+          "description": "Develops systems that interpret and analyze visual information from images and video using deep learning.",
+          "languages": [
+            {
+              "name": "Python (OpenCV)",
+              "link": "https://www.udemy.com/courses/search/?q=opencv+computer+vision",
+              "description": "Computer vision library for image/video processing. Used in face detection, object tracking, augmented reality, and autonomous systems."
+            },
+            {
+              "name": "Python (PyTorch Vision)",
+              "link": "https://www.coursera.org/search?query=pytorch+computer+vision",
+              "description": "PyTorch's computer vision toolkit. Pre-trained models for image classification, object detection, and segmentation tasks."
+            },
+            {
+              "name": "Python (TensorFlow)",
+              "link": "https://www.coursera.org/search?query=tensorflow+computer+vision",
+              "description": "Google's deep learning framework. Industry standard for production ML models, neural networks, and large-scale AI deployments."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": 30,
@@ -1005,8 +1738,136 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "creating_technology"
-      }
+        "impact": "creating_technology",
+        "experience_level": "any"
+      },
+      "sub_fields": [
+        {
+          "name": "Cloud Engineer",
+          "description": "Builds and manages cloud infrastructure using AWS, Azure, or GCP services.",
+          "languages": [
+            {
+              "name": "AWS",
+              "link": "https://www.coursera.org/search?query=aws+cloud+engineer",
+              "description": "Amazon Web Services — the largest cloud platform. Offers 200+ services for compute, storage, databases, and AI. Most job postings require AWS."
+            },
+            {
+              "name": "Azure",
+              "link": "https://www.coursera.org/search?query=azure+cloud+engineer",
+              "description": "Microsoft's cloud platform. Strong in enterprise, hybrid cloud, and .NET integration. Growing fast in the Middle East market."
+            },
+            {
+              "name": "Google Cloud",
+              "link": "https://www.coursera.org/search?query=google+cloud+platform+engineer",
+              "description": "Google Cloud Platform (GCP) — excels in data analytics, AI/ML services, and Kubernetes. Strong BigQuery and Vertex AI offerings."
+            },
+            {
+              "name": "Terraform",
+              "link": "https://www.udemy.com/courses/search/?q=terraform+infrastructure+as+code",
+              "description": "Infrastructure as Code tool by HashiCorp. Define cloud resources in code, version control your infrastructure, and deploy consistently."
+            }
+          ]
+        },
+        {
+          "name": "DevOps Engineer",
+          "description": "Automates software build, test, and deployment pipelines to enable rapid and reliable delivery.",
+          "languages": [
+            {
+              "name": "Docker",
+              "link": "https://www.udemy.com/courses/search/?q=docker+devops",
+              "description": "Container platform that packages apps with dependencies. Essential for modern development — consistent environments from dev to production."
+            },
+            {
+              "name": "Kubernetes",
+              "link": "https://www.coursera.org/search?query=kubernetes+devops",
+              "description": "Container orchestration system by Google. Manages deployment, scaling, and operations of containerized applications at scale."
+            },
+            {
+              "name": "Jenkins",
+              "link": "https://www.udemy.com/courses/search/?q=jenkins+ci+cd+devops",
+              "description": "Open-source CI/CD automation server. Automates building, testing, and deploying code. Widely used in enterprise DevOps pipelines."
+            },
+            {
+              "name": "GitHub Actions",
+              "link": "https://www.udemy.com/courses/search/?q=github+actions+ci+cd",
+              "description": "CI/CD built into GitHub. Automate workflows directly from your repo — build, test, deploy. Free for public repos."
+            }
+          ]
+        },
+        {
+          "name": "Site Reliability Engineer",
+          "description": "Ensures systems are reliable, scalable, and performant through monitoring, automation, and incident response.",
+          "languages": [
+            {
+              "name": "Python",
+              "link": "https://www.coursera.org/search?query=python+site+reliability+engineering",
+              "description": "Versatile and beginner-friendly. Excels in data science, automation, web backends (Django/Flask), and AI/ML. Egypt's most in-demand language."
+            },
+            {
+              "name": "Go",
+              "link": "https://www.udemy.com/courses/search/?q=golang+sre",
+              "description": "Google's language built for speed and simplicity. Ideal for cloud infrastructure, microservices, and high-performance backends."
+            },
+            {
+              "name": "Prometheus / Grafana",
+              "link": "https://www.udemy.com/courses/search/?q=prometheus+grafana+monitoring",
+              "description": "Monitoring stack — Prometheus collects metrics, Grafana visualizes them. Industry standard for infrastructure and application observability."
+            },
+            {
+              "name": "Ansible",
+              "link": "https://www.udemy.com/courses/search/?q=ansible+automation",
+              "description": "Agentless automation tool for IT infrastructure. Simple YAML-based playbooks for configuration management and app deployment."
+            }
+          ]
+        },
+        {
+          "name": "Network Administrator",
+          "description": "Configures and maintains computer networks, routers, switches, and firewalls.",
+          "languages": [
+            {
+              "name": "Cisco (CCNA)",
+              "link": "https://www.coursera.org/search?query=cisco+ccna+networking",
+              "description": "Cisco certification and networking fundamentals. Covers routing, switching, network security, and is the gold standard for network careers."
+            },
+            {
+              "name": "Python (Netmiko)",
+              "link": "https://www.udemy.com/courses/search/?q=python+network+automation",
+              "description": "Network automation library. Automates SSH connections to network devices (Cisco, Juniper) for configuration and monitoring."
+            },
+            {
+              "name": "Wireshark",
+              "link": "https://www.udemy.com/courses/search/?q=wireshark+network+analysis",
+              "description": "Network protocol analyzer. Capture and inspect network traffic in real-time. Essential tool for network troubleshooting and security analysis."
+            }
+          ]
+        },
+        {
+          "name": "Systems Administrator",
+          "description": "Manages and maintains servers, operating systems, and IT infrastructure to ensure uptime and performance.",
+          "languages": [
+            {
+              "name": "Linux",
+              "link": "https://www.coursera.org/search?query=linux+system+administration",
+              "description": "The operating system of the internet. Powers 90%+ of servers. Essential for DevOps, cloud, cybersecurity, and system administration."
+            },
+            {
+              "name": "Windows Server",
+              "link": "https://www.udemy.com/courses/search/?q=windows+server+administration",
+              "description": "Microsoft's server OS for enterprise environments. Active Directory, Group Policy, and business-critical Windows infrastructure."
+            },
+            {
+              "name": "PowerShell",
+              "link": "https://www.udemy.com/courses/search/?q=powershell+scripting",
+              "description": "Microsoft's automation framework. Script Windows administration, Azure management, and cross-platform system tasks."
+            },
+            {
+              "name": "Bash",
+              "link": "https://www.udemy.com/courses/search/?q=bash+shell+scripting",
+              "description": "Unix shell scripting language. Automate Linux/macOS tasks, write deployment scripts, and manage servers efficiently."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": 31,
@@ -1038,7 +1899,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "leading_teams"
+        "impact": "leading_teams",
+        "experience_level": "any"
       }
     },
     {
@@ -1071,7 +1933,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "creating_technology"
+        "impact": "creating_technology",
+        "experience_level": "any"
       }
     },
     {
@@ -1103,7 +1966,8 @@
         "risk_tolerance": "stable",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "creating_technology"
+        "impact": "creating_technology",
+        "experience_level": "any"
       }
     },
     {
@@ -1136,7 +2000,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "creating_technology"
+        "impact": "creating_technology",
+        "experience_level": "any"
       }
     },
     {
@@ -1170,7 +2035,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "creating_technology"
+        "impact": "creating_technology",
+        "experience_level": "any"
       }
     },
     {
@@ -1204,7 +2070,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "creating_technology"
+        "impact": "creating_technology",
+        "experience_level": "any"
       }
     },
     {
@@ -1237,7 +2104,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "leading_teams"
+        "impact": "leading_teams",
+        "experience_level": "any"
       }
     },
     {
@@ -1270,7 +2138,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "leading_teams"
+        "impact": "leading_teams",
+        "experience_level": "any"
       }
     },
     {
@@ -1303,7 +2172,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "leading_teams"
+        "impact": "leading_teams",
+        "experience_level": "any"
       }
     },
     {
@@ -1335,7 +2205,8 @@
         "risk_tolerance": "stable",
         "pace": "steady",
         "hands_on": "thinking",
-        "impact": "creating_technology"
+        "impact": "creating_technology",
+        "experience_level": "any"
       }
     },
     {
@@ -1369,8 +2240,152 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "leading_teams"
-      }
+        "impact": "leading_teams",
+        "experience_level": "any"
+      },
+      "sub_fields": [
+        {
+          "name": "Penetration Tester",
+          "description": "Simulates cyberattacks to find vulnerabilities in systems, networks, and applications before real attackers do.",
+          "languages": [
+            {
+              "name": "Python",
+              "link": "https://www.udemy.com/courses/search/?q=python+penetration+testing",
+              "description": "Versatile and beginner-friendly. Excels in data science, automation, web backends (Django/Flask), and AI/ML. Egypt's most in-demand language."
+            },
+            {
+              "name": "Kali Linux",
+              "link": "https://www.udemy.com/courses/search/?q=kali+linux+penetration+testing",
+              "description": "Penetration testing Linux distro. Comes pre-loaded with 600+ security tools for ethical hacking, forensics, and vulnerability assessment."
+            },
+            {
+              "name": "Burp Suite",
+              "link": "https://www.udemy.com/courses/search/?q=burp+suite+web+hacking",
+              "description": "Web application security testing tool. Intercept, modify, and analyze HTTP traffic to find vulnerabilities like XSS and SQL injection."
+            },
+            {
+              "name": "Metasploit",
+              "link": "https://www.udemy.com/courses/search/?q=metasploit+penetration+testing",
+              "description": "Penetration testing framework. Develop and execute exploit code against remote targets. The most widely used pen testing tool."
+            }
+          ]
+        },
+        {
+          "name": "SOC Analyst",
+          "description": "Monitors security alerts, investigates incidents, and responds to threats in a Security Operations Center.",
+          "languages": [
+            {
+              "name": "Splunk (SIEM)",
+              "link": "https://www.udemy.com/courses/search/?q=splunk+siem+soc+analyst",
+              "description": "Security Information and Event Management platform. Collect, analyze, and visualize security logs for threat detection and incident response."
+            },
+            {
+              "name": "Python",
+              "link": "https://www.coursera.org/search?query=python+cybersecurity",
+              "description": "Versatile and beginner-friendly. Excels in data science, automation, web backends (Django/Flask), and AI/ML. Egypt's most in-demand language."
+            },
+            {
+              "name": "Wireshark",
+              "link": "https://www.udemy.com/courses/search/?q=wireshark+security+analysis",
+              "description": "Network protocol analyzer. Capture and inspect network traffic in real-time. Essential tool for network troubleshooting and security analysis."
+            },
+            {
+              "name": "ELK Stack",
+              "link": "https://www.udemy.com/courses/search/?q=elk+stack+security+monitoring",
+              "description": "Elasticsearch, Logstash, Kibana — open-source log management and analytics. Popular alternative to Splunk for security monitoring."
+            }
+          ]
+        },
+        {
+          "name": "Security Engineer",
+          "description": "Designs and implements security systems, firewalls, and encryption protocols to protect infrastructure.",
+          "languages": [
+            {
+              "name": "Python",
+              "link": "https://www.coursera.org/search?query=python+security+engineering",
+              "description": "Versatile and beginner-friendly. Excels in data science, automation, web backends (Django/Flask), and AI/ML. Egypt's most in-demand language."
+            },
+            {
+              "name": "Go",
+              "link": "https://www.udemy.com/courses/search/?q=golang+security",
+              "description": "Google's language built for speed and simplicity. Ideal for cloud infrastructure, microservices, and high-performance backends."
+            },
+            {
+              "name": "Terraform (IaC Security)",
+              "link": "https://www.udemy.com/courses/search/?q=terraform+security+infrastructure",
+              "description": "Applying security policies to Infrastructure as Code. Scan Terraform configs for misconfigurations before deployment."
+            },
+            {
+              "name": "AWS Security",
+              "link": "https://www.coursera.org/search?query=aws+security+engineering",
+              "description": "AWS security services — IAM, GuardDuty, Security Hub, WAF. Protect cloud workloads and meet compliance requirements on AWS."
+            }
+          ]
+        },
+        {
+          "name": "Digital Forensics Analyst",
+          "description": "Investigates cyber incidents by analyzing digital evidence from compromised systems and networks.",
+          "languages": [
+            {
+              "name": "Python",
+              "link": "https://www.udemy.com/courses/search/?q=python+digital+forensics",
+              "description": "Versatile and beginner-friendly. Excels in data science, automation, web backends (Django/Flask), and AI/ML. Egypt's most in-demand language."
+            },
+            {
+              "name": "Autopsy / Sleuth Kit",
+              "link": "https://www.udemy.com/courses/search/?q=autopsy+digital+forensics",
+              "description": "Open-source digital forensics platform. Analyze disk images, recover deleted files, and investigate cyber incidents."
+            },
+            {
+              "name": "Volatility",
+              "link": "https://www.udemy.com/courses/search/?q=volatility+memory+forensics",
+              "description": "Memory forensics framework. Analyze RAM dumps to find malware, rootkits, and hidden processes in compromised systems."
+            }
+          ]
+        },
+        {
+          "name": "Threat Intelligence Analyst",
+          "description": "Collects and analyzes cyber threat data to predict, identify, and mitigate potential security threats.",
+          "languages": [
+            {
+              "name": "MITRE ATT&CK",
+              "link": "https://www.coursera.org/search?query=mitre+attack+threat+intelligence",
+              "description": "Threat intelligence knowledge base. Maps real-world adversary tactics and techniques. Essential for threat hunting and SOC operations."
+            },
+            {
+              "name": "Python",
+              "link": "https://www.udemy.com/courses/search/?q=python+threat+intelligence",
+              "description": "Versatile and beginner-friendly. Excels in data science, automation, web backends (Django/Flask), and AI/ML. Egypt's most in-demand language."
+            },
+            {
+              "name": "OSINT Tools",
+              "link": "https://www.udemy.com/courses/search/?q=osint+open+source+intelligence",
+              "description": "Open Source Intelligence gathering tools. Collect publicly available data for threat intelligence, investigations, and reconnaissance."
+            }
+          ]
+        },
+        {
+          "name": "GRC / Compliance Analyst",
+          "description": "Ensures organizations comply with cybersecurity regulations, standards (ISO 27001, NIST, SOC 2), and risk frameworks.",
+          "languages": [
+            {
+              "name": "ISO 27001",
+              "link": "https://www.udemy.com/courses/search/?q=iso+27001+information+security",
+              "description": "International information security standard. Framework for establishing, implementing, and maintaining an information security management system."
+            },
+            {
+              "name": "NIST Framework",
+              "link": "https://www.coursera.org/search?query=nist+cybersecurity+framework",
+              "description": "US cybersecurity framework. Provides standards and guidelines for managing cybersecurity risk. Widely adopted globally."
+            },
+            {
+              "name": "SOC 2",
+              "link": "https://www.udemy.com/courses/search/?q=soc+2+compliance+audit",
+              "description": "Service Organization Control 2 compliance. Auditing standard for cloud service providers ensuring security, availability, and privacy."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": 42,
@@ -1402,7 +2417,8 @@
         "risk_tolerance": "stable",
         "pace": "steady",
         "hands_on": "thinking",
-        "impact": "solving_problems"
+        "impact": "solving_problems",
+        "experience_level": "any"
       }
     },
     {
@@ -1434,7 +2450,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "solving_problems"
+        "impact": "solving_problems",
+        "experience_level": "any"
       }
     },
     {
@@ -1465,7 +2482,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "leading_teams"
+        "impact": "leading_teams",
+        "experience_level": "any"
       }
     },
     {
@@ -1498,7 +2516,8 @@
         "risk_tolerance": "stable",
         "pace": "steady",
         "hands_on": "thinking",
-        "impact": "solving_problems"
+        "impact": "solving_problems",
+        "experience_level": "any"
       }
     },
     {
@@ -1529,7 +2548,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -1561,7 +2581,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -1592,7 +2613,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -1624,7 +2646,8 @@
         "risk_tolerance": "stable",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -1655,7 +2678,8 @@
         "risk_tolerance": "stable",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -1687,7 +2711,8 @@
         "risk_tolerance": "moderate",
         "pace": "steady",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -1719,7 +2744,8 @@
         "risk_tolerance": "moderate",
         "pace": "steady",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -1751,7 +2777,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -1782,7 +2809,8 @@
         "risk_tolerance": "dynamic",
         "pace": "fast",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -1814,7 +2842,8 @@
         "risk_tolerance": "stable",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -1845,7 +2874,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -1875,7 +2905,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -1907,7 +2938,8 @@
         "risk_tolerance": "moderate",
         "pace": "steady",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -1938,7 +2970,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -1968,7 +3001,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -1999,7 +3033,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -2029,7 +3064,8 @@
         "risk_tolerance": "stable",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -2059,7 +3095,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -2089,7 +3126,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -2121,7 +3159,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -2152,7 +3191,8 @@
         "risk_tolerance": "stable",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -2183,7 +3223,8 @@
         "risk_tolerance": "stable",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -2213,7 +3254,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -2244,7 +3286,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -2276,7 +3319,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -2305,7 +3349,8 @@
         "risk_tolerance": "dynamic",
         "pace": "fast",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -2336,7 +3381,8 @@
         "risk_tolerance": "dynamic",
         "pace": "fast",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -2366,7 +3412,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -2396,7 +3443,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -2427,7 +3475,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -2457,7 +3506,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -2487,7 +3537,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -2518,7 +3569,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -2548,7 +3600,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -2578,7 +3631,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -2608,7 +3662,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -2638,7 +3693,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -2668,7 +3724,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -2698,7 +3755,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -2730,7 +3788,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -2760,7 +3819,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -2791,7 +3851,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -2821,7 +3882,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -2852,7 +3914,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -2882,7 +3945,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -2913,7 +3977,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -2944,7 +4009,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -2975,7 +4041,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -3006,7 +4073,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -3035,7 +4103,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -3067,7 +4136,8 @@
         "risk_tolerance": "stable",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -3098,7 +4168,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -3129,7 +4200,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -3159,7 +4231,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -3190,7 +4263,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -3220,7 +4294,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -3251,7 +4326,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -3282,7 +4358,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "helping_individuals"
+        "impact": "helping_individuals",
+        "experience_level": "any"
       }
     },
     {
@@ -3313,7 +4390,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "hands_on",
-        "impact": "building_things"
+        "impact": "building_things",
+        "experience_level": "any"
       }
     },
     {
@@ -3344,7 +4422,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "building_things"
+        "impact": "building_things",
+        "experience_level": "any"
       }
     },
     {
@@ -3377,7 +4456,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "building_things"
+        "impact": "building_things",
+        "experience_level": "any"
       }
     },
     {
@@ -3409,7 +4489,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "building_things"
+        "impact": "building_things",
+        "experience_level": "any"
       }
     },
     {
@@ -3439,7 +4520,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "leading_teams"
+        "impact": "leading_teams",
+        "experience_level": "any"
       }
     },
     {
@@ -3470,7 +4552,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "building_things"
+        "impact": "building_things",
+        "experience_level": "any"
       }
     },
     {
@@ -3500,7 +4583,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "leading_teams"
+        "impact": "leading_teams",
+        "experience_level": "any"
       }
     },
     {
@@ -3531,7 +4615,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "building_things"
+        "impact": "building_things",
+        "experience_level": "any"
       }
     },
     {
@@ -3561,7 +4646,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "leading_teams"
+        "impact": "leading_teams",
+        "experience_level": "any"
       }
     },
     {
@@ -3591,7 +4677,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "building_things"
+        "impact": "building_things",
+        "experience_level": "any"
       }
     },
     {
@@ -3622,7 +4709,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "building_things"
+        "impact": "building_things",
+        "experience_level": "any"
       }
     },
     {
@@ -3654,7 +4742,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "leading_teams"
+        "impact": "leading_teams",
+        "experience_level": "any"
       }
     },
     {
@@ -3686,7 +4775,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "hands_on",
-        "impact": "building_things"
+        "impact": "building_things",
+        "experience_level": "any"
       }
     },
     {
@@ -3719,7 +4809,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "hands_on",
-        "impact": "building_things"
+        "impact": "building_things",
+        "experience_level": "any"
       }
     },
     {
@@ -3750,7 +4841,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "hands_on",
-        "impact": "building_things"
+        "impact": "building_things",
+        "experience_level": "any"
       }
     },
     {
@@ -3782,7 +4874,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "building_things"
+        "impact": "building_things",
+        "experience_level": "any"
       }
     },
     {
@@ -3813,7 +4906,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "hands_on",
-        "impact": "building_things"
+        "impact": "building_things",
+        "experience_level": "any"
       }
     },
     {
@@ -3844,7 +4938,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "hands_on",
-        "impact": "building_things"
+        "impact": "building_things",
+        "experience_level": "any"
       }
     },
     {
@@ -3875,7 +4970,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "building_things"
+        "impact": "building_things",
+        "experience_level": "any"
       }
     },
     {
@@ -3905,7 +5001,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "hands_on",
-        "impact": "building_things"
+        "impact": "building_things",
+        "experience_level": "any"
       }
     },
     {
@@ -3936,7 +5033,8 @@
         "risk_tolerance": "dynamic",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "building_things"
+        "impact": "building_things",
+        "experience_level": "any"
       }
     },
     {
@@ -3967,7 +5065,8 @@
         "risk_tolerance": "dynamic",
         "pace": "flexible",
         "hands_on": "hands_on",
-        "impact": "building_things"
+        "impact": "building_things",
+        "experience_level": "any"
       }
     },
     {
@@ -3998,7 +5097,8 @@
         "risk_tolerance": "dynamic",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "building_things"
+        "impact": "building_things",
+        "experience_level": "any"
       }
     },
     {
@@ -4029,7 +5129,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "building_things"
+        "impact": "building_things",
+        "experience_level": "any"
       }
     },
     {
@@ -4060,7 +5161,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "building_things"
+        "impact": "building_things",
+        "experience_level": "any"
       }
     },
     {
@@ -4091,7 +5193,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "hands_on",
-        "impact": "building_things"
+        "impact": "building_things",
+        "experience_level": "any"
       }
     },
     {
@@ -4123,7 +5226,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "building_things"
+        "impact": "building_things",
+        "experience_level": "any"
       }
     },
     {
@@ -4155,7 +5259,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "building_things"
+        "impact": "building_things",
+        "experience_level": "any"
       }
     },
     {
@@ -4187,7 +5292,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "building_things"
+        "impact": "building_things",
+        "experience_level": "any"
       }
     },
     {
@@ -4219,7 +5325,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "building_things"
+        "impact": "building_things",
+        "experience_level": "any"
       }
     },
     {
@@ -4250,7 +5357,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "building_things"
+        "impact": "building_things",
+        "experience_level": "any"
       }
     },
     {
@@ -4281,7 +5389,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "leading_teams"
+        "impact": "leading_teams",
+        "experience_level": "any"
       }
     },
     {
@@ -4312,7 +5421,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "building_things"
+        "impact": "building_things",
+        "experience_level": "any"
       }
     },
     {
@@ -4342,7 +5452,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "building_things"
+        "impact": "building_things",
+        "experience_level": "any"
       }
     },
     {
@@ -4373,7 +5484,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "building_things"
+        "impact": "building_things",
+        "experience_level": "any"
       }
     },
     {
@@ -4404,7 +5516,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "building_things"
+        "impact": "building_things",
+        "experience_level": "any"
       }
     },
     {
@@ -4435,7 +5548,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "building_things"
+        "impact": "building_things",
+        "experience_level": "any"
       }
     },
     {
@@ -4466,7 +5580,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "building_things"
+        "impact": "building_things",
+        "experience_level": "any"
       }
     },
     {
@@ -4497,7 +5612,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "building_things"
+        "impact": "building_things",
+        "experience_level": "any"
       }
     },
     {
@@ -4528,7 +5644,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "building_things"
+        "impact": "building_things",
+        "experience_level": "any"
       }
     },
     {
@@ -4558,7 +5675,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "building_things"
+        "impact": "building_things",
+        "experience_level": "any"
       }
     },
     {
@@ -4589,7 +5707,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "building_things"
+        "impact": "building_things",
+        "experience_level": "any"
       }
     },
     {
@@ -4621,7 +5740,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "building_things"
+        "impact": "building_things",
+        "experience_level": "any"
       }
     },
     {
@@ -4651,7 +5771,8 @@
         "risk_tolerance": "dynamic",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "building_things"
+        "impact": "building_things",
+        "experience_level": "any"
       }
     },
     {
@@ -4682,7 +5803,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "building_things"
+        "impact": "building_things",
+        "experience_level": "any"
       }
     },
     {
@@ -4713,7 +5835,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "building_things"
+        "impact": "building_things",
+        "experience_level": "any"
       }
     },
     {
@@ -4744,7 +5867,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "building_things"
+        "impact": "building_things",
+        "experience_level": "any"
       }
     },
     {
@@ -4775,7 +5899,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "building_things"
+        "impact": "building_things",
+        "experience_level": "any"
       }
     },
     {
@@ -4806,7 +5931,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "building_things"
+        "impact": "building_things",
+        "experience_level": "any"
       }
     },
     {
@@ -4838,7 +5964,8 @@
         "risk_tolerance": "stable",
         "pace": "steady",
         "hands_on": "thinking",
-        "impact": "building_things"
+        "impact": "building_things",
+        "experience_level": "any"
       }
     },
     {
@@ -4869,7 +5996,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "hands_on",
-        "impact": "fixing_things"
+        "impact": "fixing_things",
+        "experience_level": "any"
       }
     },
     {
@@ -4900,7 +6028,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "hands_on",
-        "impact": "fixing_things"
+        "impact": "fixing_things",
+        "experience_level": "any"
       }
     },
     {
@@ -4931,7 +6060,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "hands_on",
-        "impact": "fixing_things"
+        "impact": "fixing_things",
+        "experience_level": "any"
       }
     },
     {
@@ -4962,7 +6092,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "hands_on",
-        "impact": "fixing_things"
+        "impact": "fixing_things",
+        "experience_level": "any"
       }
     },
     {
@@ -4994,7 +6125,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "hands_on",
-        "impact": "fixing_things"
+        "impact": "fixing_things",
+        "experience_level": "any"
       }
     },
     {
@@ -5025,7 +6157,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "hands_on",
-        "impact": "fixing_things"
+        "impact": "fixing_things",
+        "experience_level": "any"
       }
     },
     {
@@ -5056,7 +6189,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "hands_on",
-        "impact": "fixing_things"
+        "impact": "fixing_things",
+        "experience_level": "any"
       }
     },
     {
@@ -5087,7 +6221,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "hands_on",
-        "impact": "fixing_things"
+        "impact": "fixing_things",
+        "experience_level": "any"
       }
     },
     {
@@ -5118,7 +6253,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "hands_on",
-        "impact": "fixing_things"
+        "impact": "fixing_things",
+        "experience_level": "any"
       }
     },
     {
@@ -5149,7 +6285,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "hands_on",
-        "impact": "fixing_things"
+        "impact": "fixing_things",
+        "experience_level": "any"
       }
     },
     {
@@ -5180,7 +6317,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "hands_on",
-        "impact": "fixing_things"
+        "impact": "fixing_things",
+        "experience_level": "any"
       }
     },
     {
@@ -5211,7 +6349,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "hands_on",
-        "impact": "fixing_things"
+        "impact": "fixing_things",
+        "experience_level": "any"
       }
     },
     {
@@ -5242,7 +6381,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "hands_on",
-        "impact": "fixing_things"
+        "impact": "fixing_things",
+        "experience_level": "any"
       }
     },
     {
@@ -5273,7 +6413,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "hands_on",
-        "impact": "fixing_things"
+        "impact": "fixing_things",
+        "experience_level": "any"
       }
     },
     {
@@ -5304,7 +6445,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "hands_on",
-        "impact": "fixing_things"
+        "impact": "fixing_things",
+        "experience_level": "any"
       }
     },
     {
@@ -5335,7 +6477,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "hands_on",
-        "impact": "fixing_things"
+        "impact": "fixing_things",
+        "experience_level": "any"
       }
     },
     {
@@ -5366,7 +6509,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "hands_on",
-        "impact": "fixing_things"
+        "impact": "fixing_things",
+        "experience_level": "any"
       }
     },
     {
@@ -5397,7 +6541,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "hands_on",
-        "impact": "fixing_things"
+        "impact": "fixing_things",
+        "experience_level": "any"
       }
     },
     {
@@ -5430,7 +6575,8 @@
         "risk_tolerance": "dynamic",
         "pace": "fast",
         "hands_on": "hands_on",
-        "impact": "operating_vehicles"
+        "impact": "operating_vehicles",
+        "experience_level": "any"
       }
     },
     {
@@ -5461,7 +6607,8 @@
         "risk_tolerance": "dynamic",
         "pace": "fast",
         "hands_on": "hands_on",
-        "impact": "operating_vehicles"
+        "impact": "operating_vehicles",
+        "experience_level": "any"
       }
     },
     {
@@ -5494,7 +6641,8 @@
         "risk_tolerance": "dynamic",
         "pace": "fast",
         "hands_on": "hands_on",
-        "impact": "operating_vehicles"
+        "impact": "operating_vehicles",
+        "experience_level": "any"
       }
     },
     {
@@ -5525,7 +6673,8 @@
         "risk_tolerance": "dynamic",
         "pace": "fast",
         "hands_on": "hands_on",
-        "impact": "operating_vehicles"
+        "impact": "operating_vehicles",
+        "experience_level": "any"
       }
     },
     {
@@ -5556,7 +6705,8 @@
         "risk_tolerance": "dynamic",
         "pace": "fast",
         "hands_on": "hands_on",
-        "impact": "operating_vehicles"
+        "impact": "operating_vehicles",
+        "experience_level": "any"
       }
     },
     {
@@ -5587,7 +6737,8 @@
         "risk_tolerance": "dynamic",
         "pace": "fast",
         "hands_on": "hands_on",
-        "impact": "operating_vehicles"
+        "impact": "operating_vehicles",
+        "experience_level": "any"
       }
     },
     {
@@ -5618,7 +6769,8 @@
         "risk_tolerance": "dynamic",
         "pace": "fast",
         "hands_on": "hands_on",
-        "impact": "operating_vehicles"
+        "impact": "operating_vehicles",
+        "experience_level": "any"
       }
     },
     {
@@ -5649,7 +6801,8 @@
         "risk_tolerance": "dynamic",
         "pace": "fast",
         "hands_on": "hands_on",
-        "impact": "operating_vehicles"
+        "impact": "operating_vehicles",
+        "experience_level": "any"
       }
     },
     {
@@ -5680,7 +6833,8 @@
         "risk_tolerance": "dynamic",
         "pace": "fast",
         "hands_on": "hands_on",
-        "impact": "operating_vehicles"
+        "impact": "operating_vehicles",
+        "experience_level": "any"
       }
     },
     {
@@ -5711,7 +6865,8 @@
         "risk_tolerance": "dynamic",
         "pace": "fast",
         "hands_on": "hands_on",
-        "impact": "operating_vehicles"
+        "impact": "operating_vehicles",
+        "experience_level": "any"
       }
     },
     {
@@ -5742,7 +6897,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "teaching_others"
+        "impact": "teaching_others",
+        "experience_level": "any"
       }
     },
     {
@@ -5773,7 +6929,8 @@
         "risk_tolerance": "moderate",
         "pace": "fast",
         "hands_on": "both",
-        "impact": "operating_vehicles"
+        "impact": "operating_vehicles",
+        "experience_level": "any"
       }
     },
     {
@@ -5803,7 +6960,8 @@
         "risk_tolerance": "dynamic",
         "pace": "fast",
         "hands_on": "hands_on",
-        "impact": "operating_vehicles"
+        "impact": "operating_vehicles",
+        "experience_level": "any"
       }
     },
     {
@@ -5833,7 +6991,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "operating_vehicles"
+        "impact": "operating_vehicles",
+        "experience_level": "any"
       }
     },
     {
@@ -5863,7 +7022,8 @@
         "risk_tolerance": "dynamic",
         "pace": "fast",
         "hands_on": "hands_on",
-        "impact": "operating_vehicles"
+        "impact": "operating_vehicles",
+        "experience_level": "any"
       }
     },
     {
@@ -5893,7 +7053,8 @@
         "risk_tolerance": "dynamic",
         "pace": "fast",
         "hands_on": "hands_on",
-        "impact": "operating_vehicles"
+        "impact": "operating_vehicles",
+        "experience_level": "any"
       }
     },
     {
@@ -5923,7 +7084,8 @@
         "risk_tolerance": "dynamic",
         "pace": "fast",
         "hands_on": "hands_on",
-        "impact": "operating_vehicles"
+        "impact": "operating_vehicles",
+        "experience_level": "any"
       }
     },
     {
@@ -5953,7 +7115,8 @@
         "risk_tolerance": "dynamic",
         "pace": "fast",
         "hands_on": "hands_on",
-        "impact": "operating_vehicles"
+        "impact": "operating_vehicles",
+        "experience_level": "any"
       }
     },
     {
@@ -5983,7 +7146,8 @@
         "risk_tolerance": "dynamic",
         "pace": "fast",
         "hands_on": "hands_on",
-        "impact": "operating_vehicles"
+        "impact": "operating_vehicles",
+        "experience_level": "any"
       }
     },
     {
@@ -6013,7 +7177,8 @@
         "risk_tolerance": "dynamic",
         "pace": "fast",
         "hands_on": "hands_on",
-        "impact": "operating_vehicles"
+        "impact": "operating_vehicles",
+        "experience_level": "any"
       }
     },
     {
@@ -6043,7 +7208,8 @@
         "risk_tolerance": "dynamic",
         "pace": "fast",
         "hands_on": "hands_on",
-        "impact": "operating_vehicles"
+        "impact": "operating_vehicles",
+        "experience_level": "any"
       }
     },
     {
@@ -6073,7 +7239,8 @@
         "risk_tolerance": "dynamic",
         "pace": "fast",
         "hands_on": "hands_on",
-        "impact": "operating_vehicles"
+        "impact": "operating_vehicles",
+        "experience_level": "any"
       }
     },
     {
@@ -6103,7 +7270,8 @@
         "risk_tolerance": "dynamic",
         "pace": "fast",
         "hands_on": "hands_on",
-        "impact": "operating_vehicles"
+        "impact": "operating_vehicles",
+        "experience_level": "any"
       }
     },
     {
@@ -6133,7 +7301,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "operating_vehicles"
+        "impact": "operating_vehicles",
+        "experience_level": "any"
       }
     },
     {
@@ -6164,7 +7333,8 @@
         "risk_tolerance": "stable",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "teaching_others"
+        "impact": "teaching_others",
+        "experience_level": "any"
       }
     },
     {
@@ -6197,7 +7367,8 @@
         "risk_tolerance": "stable",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "teaching_others"
+        "impact": "teaching_others",
+        "experience_level": "any"
       }
     },
     {
@@ -6228,7 +7399,8 @@
         "risk_tolerance": "stable",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "teaching_others"
+        "impact": "teaching_others",
+        "experience_level": "any"
       }
     },
     {
@@ -6260,7 +7432,8 @@
         "risk_tolerance": "stable",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "teaching_others"
+        "impact": "teaching_others",
+        "experience_level": "any"
       }
     },
     {
@@ -6292,7 +7465,8 @@
         "risk_tolerance": "stable",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "teaching_others"
+        "impact": "teaching_others",
+        "experience_level": "any"
       }
     },
     {
@@ -6323,7 +7497,8 @@
         "risk_tolerance": "stable",
         "pace": "flexible",
         "hands_on": "both",
-        "impact": "teaching_others"
+        "impact": "teaching_others",
+        "experience_level": "any"
       }
     },
     {
@@ -6356,7 +7531,8 @@
         "risk_tolerance": "stable",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "teaching_others"
+        "impact": "teaching_others",
+        "experience_level": "any"
       }
     },
     {
@@ -6388,7 +7564,8 @@
         "risk_tolerance": "stable",
         "pace": "steady",
         "hands_on": "thinking",
-        "impact": "solving_problems"
+        "impact": "solving_problems",
+        "experience_level": "any"
       }
     },
     {
@@ -6419,7 +7596,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "leading_teams"
+        "impact": "leading_teams",
+        "experience_level": "any"
       }
     },
     {
@@ -6450,7 +7628,8 @@
         "risk_tolerance": "stable",
         "pace": "steady",
         "hands_on": "thinking",
-        "impact": "solving_problems"
+        "impact": "solving_problems",
+        "experience_level": "any"
       }
     },
     {
@@ -6483,7 +7662,8 @@
         "risk_tolerance": "stable",
         "pace": "steady",
         "hands_on": "thinking",
-        "impact": "solving_problems"
+        "impact": "solving_problems",
+        "experience_level": "any"
       }
     },
     {
@@ -6514,7 +7694,8 @@
         "risk_tolerance": "stable",
         "pace": "steady",
         "hands_on": "thinking",
-        "impact": "solving_problems"
+        "impact": "solving_problems",
+        "experience_level": "any"
       }
     },
     {
@@ -6545,7 +7726,8 @@
         "risk_tolerance": "stable",
         "pace": "steady",
         "hands_on": "thinking",
-        "impact": "solving_problems"
+        "impact": "solving_problems",
+        "experience_level": "any"
       }
     },
     {
@@ -6575,7 +7757,8 @@
         "risk_tolerance": "stable",
         "pace": "steady",
         "hands_on": "thinking",
-        "impact": "solving_problems"
+        "impact": "solving_problems",
+        "experience_level": "any"
       }
     },
     {
@@ -6605,7 +7788,8 @@
         "risk_tolerance": "stable",
         "pace": "steady",
         "hands_on": "thinking",
-        "impact": "solving_problems"
+        "impact": "solving_problems",
+        "experience_level": "any"
       }
     },
     {
@@ -6635,7 +7819,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "solving_problems"
+        "impact": "solving_problems",
+        "experience_level": "any"
       }
     },
     {
@@ -6666,7 +7851,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "solving_problems"
+        "impact": "solving_problems",
+        "experience_level": "any"
       }
     },
     {
@@ -6696,7 +7882,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "solving_problems"
+        "impact": "solving_problems",
+        "experience_level": "any"
       }
     },
     {
@@ -6729,7 +7916,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "solving_problems"
+        "impact": "solving_problems",
+        "experience_level": "any"
       }
     },
     {
@@ -6760,7 +7948,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "leading_teams"
+        "impact": "leading_teams",
+        "experience_level": "any"
       }
     },
     {
@@ -6793,7 +7982,8 @@
         "risk_tolerance": "stable",
         "pace": "steady",
         "hands_on": "thinking",
-        "impact": "solving_problems"
+        "impact": "solving_problems",
+        "experience_level": "any"
       }
     },
     {
@@ -6824,7 +8014,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "leading_teams"
+        "impact": "leading_teams",
+        "experience_level": "any"
       }
     },
     {
@@ -6855,7 +8046,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "leading_teams"
+        "impact": "leading_teams",
+        "experience_level": "any"
       }
     },
     {
@@ -6888,7 +8080,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "leading_teams"
+        "impact": "leading_teams",
+        "experience_level": "any"
       }
     },
     {
@@ -6920,7 +8113,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "leading_teams"
+        "impact": "leading_teams",
+        "experience_level": "any"
       }
     },
     {
@@ -6953,7 +8147,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "solving_problems"
+        "impact": "solving_problems",
+        "experience_level": "any"
       }
     },
     {
@@ -6985,7 +8180,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "leading_teams"
+        "impact": "leading_teams",
+        "experience_level": "any"
       }
     },
     {
@@ -7017,7 +8213,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "solving_problems"
+        "impact": "solving_problems",
+        "experience_level": "any"
       }
     },
     {
@@ -7049,7 +8246,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "leading_teams"
+        "impact": "leading_teams",
+        "experience_level": "any"
       }
     },
     {
@@ -7081,7 +8279,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "solving_problems"
+        "impact": "solving_problems",
+        "experience_level": "any"
       }
     },
     {
@@ -7112,7 +8311,8 @@
         "risk_tolerance": "stable",
         "pace": "steady",
         "hands_on": "thinking",
-        "impact": "solving_problems"
+        "impact": "solving_problems",
+        "experience_level": "any"
       }
     },
     {
@@ -7144,7 +8344,8 @@
         "risk_tolerance": "stable",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "solving_problems"
+        "impact": "solving_problems",
+        "experience_level": "any"
       }
     },
     {
@@ -7173,7 +8374,8 @@
         "risk_tolerance": "stable",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "solving_problems"
+        "impact": "solving_problems",
+        "experience_level": "any"
       }
     },
     {
@@ -7203,7 +8405,8 @@
         "risk_tolerance": "stable",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "solving_problems"
+        "impact": "solving_problems",
+        "experience_level": "any"
       }
     },
     {
@@ -7232,7 +8435,8 @@
         "risk_tolerance": "stable",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "solving_problems"
+        "impact": "solving_problems",
+        "experience_level": "any"
       }
     },
     {
@@ -7263,7 +8467,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "building_things"
+        "impact": "building_things",
+        "experience_level": "any"
       }
     },
     {
@@ -7294,7 +8499,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "building_things"
+        "impact": "building_things",
+        "experience_level": "any"
       }
     },
     {
@@ -7324,7 +8530,8 @@
         "risk_tolerance": "moderate",
         "pace": "flexible",
         "hands_on": "thinking",
-        "impact": "building_things"
+        "impact": "building_things",
+        "experience_level": "any"
       }
     },
     {
@@ -7354,8 +8561,375 @@
         "risk_tolerance": "stable",
         "pace": "steady",
         "hands_on": "both",
-        "impact": "building_things"
+        "impact": "building_things",
+        "experience_level": "any"
       }
+    },
+    {
+      "career": "API developer",
+      "category": "Programming & Software Development",
+      "education_min": "Associate / Diploma",
+      "learning_path": "self-study",
+      "tags": {
+        "education_tracks": [
+          "HS",
+          "UG",
+          "GR"
+        ],
+        "gender": "any",
+        "field": "tech",
+        "sub_field": "web_apps",
+        "environments": [
+          "remote",
+          "office"
+        ],
+        "personalities": [
+          "analytical",
+          "creative"
+        ],
+        "social_orientation": "data_machines",
+        "work_style": "independent",
+        "growth_focus": "flexible",
+        "risk_tolerance": "moderate",
+        "pace": "flexible",
+        "hands_on": "thinking",
+        "impact": "creating_technology",
+        "experience_level": "any"
+      },
+      "id": 235,
+      "label": "Api Developer — works with restful api design, graphql, api gateway management"
+    },
+    {
+      "career": "WordPress / CMS developer",
+      "category": "Programming & Software Development",
+      "education_min": "Associate / Diploma",
+      "learning_path": "self-study",
+      "tags": {
+        "education_tracks": [
+          "HS",
+          "UG",
+          "GR"
+        ],
+        "gender": "any",
+        "field": "tech",
+        "sub_field": "web_apps",
+        "environments": [
+          "remote",
+          "office"
+        ],
+        "personalities": [
+          "creative"
+        ],
+        "social_orientation": "balanced",
+        "work_style": "independent",
+        "growth_focus": "flexible",
+        "risk_tolerance": "moderate",
+        "pace": "flexible",
+        "hands_on": "thinking",
+        "impact": "creating_technology",
+        "experience_level": "any"
+      },
+      "id": 236,
+      "label": "Wordpress / Cms Developer — works with wordpress theme development, php programming, html, css, javascript"
+    },
+    {
+      "career": "ERP developer",
+      "category": "Programming & Software Development",
+      "education_min": "Associate / Diploma",
+      "learning_path": "self-study",
+      "tags": {
+        "education_tracks": [
+          "HS",
+          "UG",
+          "GR"
+        ],
+        "gender": "any",
+        "field": "tech",
+        "sub_field": "software_general",
+        "environments": [
+          "remote",
+          "office"
+        ],
+        "personalities": [
+          "analytical"
+        ],
+        "social_orientation": "data_machines",
+        "work_style": "mixed",
+        "growth_focus": "flexible",
+        "risk_tolerance": "stable",
+        "pace": "steady",
+        "hands_on": "thinking",
+        "impact": "creating_technology",
+        "experience_level": "any"
+      },
+      "id": 237,
+      "label": "Erp Developer — works with erp systems (sap, oracle, odoo), abap programming (sap), sql and database management"
+    },
+    {
+      "career": "business intelligence analyst",
+      "category": "Data & Artificial Intelligence",
+      "education_min": "Associate / Diploma",
+      "learning_path": "self-study",
+      "tags": {
+        "education_tracks": [
+          "HS",
+          "UG",
+          "GR"
+        ],
+        "gender": "any",
+        "field": "tech",
+        "sub_field": "data_management",
+        "environments": [
+          "remote",
+          "office"
+        ],
+        "personalities": [
+          "analytical"
+        ],
+        "social_orientation": "data_machines",
+        "work_style": "mixed",
+        "growth_focus": "flexible",
+        "risk_tolerance": "stable",
+        "pace": "steady",
+        "hands_on": "thinking",
+        "impact": "creating_technology",
+        "experience_level": "any"
+      },
+      "id": 238,
+      "label": "Business Intelligence Analyst — works with sql and data querying, data visualization (power bi, tableau), etl processes"
+    },
+    {
+      "career": "NLP engineer",
+      "category": "Data & Artificial Intelligence",
+      "education_min": "Bachelor's Degree",
+      "learning_path": "self-study",
+      "tags": {
+        "education_tracks": [
+          "UG",
+          "GR"
+        ],
+        "gender": "any",
+        "field": "tech",
+        "sub_field": "ai_ml",
+        "environments": [
+          "remote",
+          "office"
+        ],
+        "personalities": [
+          "analytical",
+          "creative"
+        ],
+        "social_orientation": "data_machines",
+        "work_style": "independent",
+        "growth_focus": "high_growth",
+        "risk_tolerance": "moderate",
+        "pace": "flexible",
+        "hands_on": "thinking",
+        "impact": "creating_technology",
+        "experience_level": "any"
+      },
+      "id": 239,
+      "label": "Nlp Engineer — works with python programming, natural language processing (nltk, spacy), transformer models (bert, gpt)"
+    },
+    {
+      "career": "computer vision engineer",
+      "category": "Data & Artificial Intelligence",
+      "education_min": "Bachelor's Degree",
+      "learning_path": "self-study",
+      "tags": {
+        "education_tracks": [
+          "UG",
+          "GR"
+        ],
+        "gender": "any",
+        "field": "tech",
+        "sub_field": "ai_ml",
+        "environments": [
+          "remote",
+          "office"
+        ],
+        "personalities": [
+          "analytical",
+          "creative"
+        ],
+        "social_orientation": "data_machines",
+        "work_style": "independent",
+        "growth_focus": "high_growth",
+        "risk_tolerance": "moderate",
+        "pace": "flexible",
+        "hands_on": "thinking",
+        "impact": "creating_technology",
+        "experience_level": "any"
+      },
+      "id": 240,
+      "label": "Computer Vision Engineer — works with python programming, opencv, deep learning (cnn, yolo, rcnn)"
+    },
+    {
+      "career": "platform engineer",
+      "category": "Cloud & IT Infrastructure",
+      "education_min": "Associate / Diploma",
+      "learning_path": "self-study",
+      "tags": {
+        "education_tracks": [
+          "HS",
+          "UG",
+          "GR"
+        ],
+        "gender": "any",
+        "field": "tech",
+        "sub_field": "cloud",
+        "environments": [
+          "remote",
+          "office"
+        ],
+        "personalities": [
+          "analytical",
+          "creative"
+        ],
+        "social_orientation": "data_machines",
+        "work_style": "independent",
+        "growth_focus": "high_growth",
+        "risk_tolerance": "moderate",
+        "pace": "flexible",
+        "hands_on": "thinking",
+        "impact": "creating_technology",
+        "experience_level": "any"
+      },
+      "id": 241,
+      "label": "Platform Engineer — works with kubernetes and container orchestration, infrastructure as code (terraform, pulumi), ci/cd pipeline design"
+    },
+    {
+      "career": "cloud security specialist",
+      "category": "Cloud & IT Infrastructure",
+      "education_min": "Associate / Diploma",
+      "learning_path": "self-study",
+      "tags": {
+        "education_tracks": [
+          "HS",
+          "UG",
+          "GR"
+        ],
+        "gender": "any",
+        "field": "tech",
+        "sub_field": "cloud",
+        "environments": [
+          "remote",
+          "office"
+        ],
+        "personalities": [
+          "analytical"
+        ],
+        "social_orientation": "data_machines",
+        "work_style": "mixed",
+        "growth_focus": "high_growth",
+        "risk_tolerance": "moderate",
+        "pace": "flexible",
+        "hands_on": "thinking",
+        "impact": "creating_technology",
+        "experience_level": "any"
+      },
+      "id": 242,
+      "label": "Cloud Security Specialist — works with cloud security architecture, identity and access management (iam), cloud compliance (soc 2, iso 27001)"
+    },
+    {
+      "career": "threat intelligence analyst",
+      "category": "Cybersecurity & IT Auditing",
+      "education_min": "Associate / Diploma",
+      "learning_path": "self-study",
+      "tags": {
+        "education_tracks": [
+          "HS",
+          "UG",
+          "GR"
+        ],
+        "gender": "any",
+        "field": "tech",
+        "sub_field": "cybersecurity",
+        "environments": [
+          "remote",
+          "office"
+        ],
+        "personalities": [
+          "analytical"
+        ],
+        "social_orientation": "data_machines",
+        "work_style": "mixed",
+        "growth_focus": "high_growth",
+        "risk_tolerance": "moderate",
+        "pace": "flexible",
+        "hands_on": "thinking",
+        "impact": "creating_technology",
+        "experience_level": "any"
+      },
+      "id": 243,
+      "label": "Threat Intelligence Analyst — works with threat intelligence frameworks (mitre att&ck), osint (open source intelligence), malware analysis basics"
+    },
+    {
+      "career": "application security engineer",
+      "category": "Cybersecurity & IT Auditing",
+      "education_min": "Associate / Diploma",
+      "learning_path": "self-study",
+      "tags": {
+        "education_tracks": [
+          "HS",
+          "UG",
+          "GR"
+        ],
+        "gender": "any",
+        "field": "tech",
+        "sub_field": "cybersecurity",
+        "environments": [
+          "remote",
+          "office"
+        ],
+        "personalities": [
+          "analytical",
+          "creative"
+        ],
+        "social_orientation": "data_machines",
+        "work_style": "independent",
+        "growth_focus": "high_growth",
+        "risk_tolerance": "moderate",
+        "pace": "flexible",
+        "hands_on": "thinking",
+        "impact": "creating_technology",
+        "experience_level": "any"
+      },
+      "id": 244,
+      "label": "Application Security Engineer — works with secure coding practices, owasp top 10, static application security testing (sast)"
+    },
+    {
+      "career": "GRC analyst",
+      "category": "Cybersecurity & IT Auditing",
+      "education_min": "Associate / Diploma",
+      "learning_path": "self-study",
+      "tags": {
+        "education_tracks": [
+          "HS",
+          "UG",
+          "GR"
+        ],
+        "gender": "any",
+        "field": "tech",
+        "sub_field": "cybersecurity",
+        "environments": [
+          "remote",
+          "office"
+        ],
+        "personalities": [
+          "analytical"
+        ],
+        "social_orientation": "balanced",
+        "work_style": "mixed",
+        "growth_focus": "flexible",
+        "risk_tolerance": "stable",
+        "pace": "steady",
+        "hands_on": "thinking",
+        "impact": "creating_technology",
+        "experience_level": "any"
+      },
+      "id": 245,
+      "label": "Grc Analyst — works with governance, risk, and compliance frameworks, iso 27001 implementation, nist cybersecurity framework"
     }
   ],
   "questions": [
@@ -7527,7 +9101,8 @@
           "label": "Animal therapy and rehabilitation",
           "value": "animal_therapy"
         }
-      ]
+      ],
+      "next": {}
     },
     {
       "id": "Q_ENV_HEALTH",
@@ -7682,7 +9257,8 @@
           "label": "Writing technical documentation",
           "value": "writing"
         }
-      ]
+      ],
+      "next": {}
     },
     {
       "id": "Q_ENV_TECH",
@@ -7877,7 +9453,8 @@
           "label": "Technical drawings and blueprints",
           "value": "drafting"
         }
-      ]
+      ],
+      "next": {}
     },
     {
       "id": "Q_ENV_ENGINEERING",
@@ -8032,7 +9609,8 @@
           "label": "Mining or offshore engineering",
           "value": "mining_offshore"
         }
-      ]
+      ],
+      "next": {}
     },
     {
       "id": "Q_ENV_TRADES",
@@ -8163,7 +9741,8 @@
           "label": "Teaching flying or coordinating flights",
           "value": "flight_support"
         }
-      ]
+      ],
+      "next": {}
     },
     {
       "id": "Q_ENV_AVIATION",
@@ -8282,7 +9861,8 @@
           "label": "Students with special needs",
           "value": "special_education"
         }
-      ]
+      ],
+      "next": {}
     },
     {
       "id": "Q_ENV_EDUCATION",
@@ -8425,7 +10005,8 @@
           "label": "Translating legal documents",
           "value": "legal_linguistics"
         }
-      ]
+      ],
+      "next": {}
     },
     {
       "id": "Q_ENV_FINANCE",
@@ -8552,7 +10133,8 @@
           "label": "Construction and engineering projects",
           "value": "construction_mgmt"
         }
-      ]
+      ],
+      "next": {}
     },
     {
       "id": "Q_ENV_BUSINESS",
@@ -8888,7 +10470,8 @@
       "filter_key": "sub_field",
       "filter_type": "equals",
       "dynamic_options": true,
-      "all_options": []
+      "all_options": [],
+      "next": {}
     }
   ],
   "sub_field_labels": {

@@ -209,6 +209,11 @@ function Fetching() {
 	const [userSummary, setUserSummary] = useState("");
 	const [showSummaryInput, setShowSummaryInput] = useState(false);
 
+	// Sub-field and language selection state
+	const [selectedSubField, setSelectedSubField] = useState(null);
+	const [selectedLanguage, setSelectedLanguage] = useState(null);
+	const [experienceLevel, setExperienceLevel] = useState(""); // beginner | intermediate | pro
+
 	// NLP "Tell us about yourself" state
 	const [showAboutMe, setShowAboutMe] = useState(false);
 	const [aboutMeText, setAboutMeText] = useState("");
@@ -292,6 +297,9 @@ function Fetching() {
 		setReachedResult(false);
 		setResultCareers([]);
 		setSelectedCareer(null);
+		setSelectedSubField(null);
+		setSelectedLanguage(null);
+		setExperienceLevel("");
 		setResult(null);
 		setError("");
 		setShowSummaryInput(false);
@@ -299,6 +307,9 @@ function Fetching() {
 
 	const handleSubmit = async () => {
 		if (!selectedCareer) return;
+		// For careers with sub_fields, require both sub-field and level
+		const hasSubFields = selectedCareer.sub_fields && selectedCareer.sub_fields.length > 0;
+		if (hasSubFields && (!selectedSubField || !experienceLevel)) return;
 
 		setError("");
 		setLoading(true);
@@ -316,6 +327,9 @@ function Fetching() {
 					careers: [selectedCareer.career],
 					category: selectedCareer.category,
 					user_summary: userSummary || "",
+					experience_level: experienceLevel || "",
+					sub_field: selectedSubField?.name || "",
+					selected_language: selectedLanguage?.name || "",
 				}),
 			});
 			if (!res.ok) throw new Error("Failed to generate roadmaps");
@@ -339,6 +353,9 @@ function Fetching() {
 		setReachedResult(false);
 		setResultCareers([]);
 		setSelectedCareer(null);
+		setSelectedSubField(null);
+		setSelectedLanguage(null);
+		setExperienceLevel("");
 		setResult(null);
 		setError("");
 		setUserSummary("");
@@ -599,6 +616,109 @@ function Fetching() {
 								))}
 							</div>
 
+							{/* Sub-field selection — shown when a career with sub_fields is selected */}
+							{selectedCareer?.sub_fields && selectedCareer.sub_fields.length > 0 && (
+								<div className="space-y-4">
+									<div>
+										<p className="text-sm text-pink-400 font-medium mb-1 uppercase tracking-widest">
+											🎯 Choose a Specialization
+										</p>
+										<p className="text-gray-400 text-sm">
+											Narrow your roadmap to a specific sub-field for more targeted resources:
+										</p>
+									</div>
+									<div className="grid gap-3">
+										{selectedCareer.sub_fields.map((sf, idx) => (
+											<div key={idx}>
+												<button
+													onClick={() => {
+														setSelectedSubField(selectedSubField?.name === sf.name ? null : sf);
+														setSelectedLanguage(null);
+														setExperienceLevel(""); // Reset level when changing sub-field
+													}}
+													className={`w-full text-left rounded-lg px-4 py-3 border transition-all duration-150 ${
+														selectedSubField?.name === sf.name
+															? "border-pink-500 ring-2 ring-pink-500 bg-linear-to-r from-pink-600/30 to-purple-500/30"
+															: "border-purple-500/20 hover:border-pink-400/50 bg-purple-900/10"
+													}`}
+												>
+													<div className="font-semibold text-gray-100">{sf.name}</div>
+													<div className="text-sm text-gray-400 mt-1">{sf.description}</div>
+												</button>
+
+												{/* Language/Tool links — shown when this sub-field is selected */}
+												{selectedSubField?.name === sf.name && sf.languages && sf.languages.length > 0 && (
+													<div className="ml-4 mt-2 space-y-2">
+														<p className="text-xs text-purple-400 font-medium uppercase tracking-wide">📚 Languages & Tools</p>
+														<div className="grid gap-2">
+															{sf.languages.map((lang, lIdx) => (
+																<a
+																	key={lIdx}
+																	href={lang.link}
+																	target="_blank"
+																	rel="noopener noreferrer"
+																	className="block rounded-lg px-4 py-3 border border-pink-500/20 bg-purple-900/10 hover:bg-pink-500/10 hover:border-pink-400/40 transition-all group"
+																>
+																	<div className="flex items-center justify-between">
+																		<span className="font-semibold text-sm text-pink-300 group-hover:text-pink-200">🔗 {lang.name}</span>
+																		<span className="text-xs text-gray-500 group-hover:text-gray-400">View courses →</span>
+																	</div>
+																	{lang.description && (
+																		<p className="text-xs text-gray-400 mt-1 leading-relaxed">{lang.description}</p>
+																	)}
+																</a>
+															))}
+														</div>
+													</div>
+												)}
+											</div>
+										))}
+									</div>
+								</div>
+							)}
+
+							{/* Level assessment — shown after a sub-field is selected */}
+							{selectedSubField && (
+								<div className="space-y-3">
+									<div>
+										<p className="text-sm text-purple-400 font-medium mb-1 uppercase tracking-widest">
+											📊 What's Your Experience Level?
+										</p>
+										<p className="text-gray-400 text-sm">
+											This determines the depth and type of resources in your roadmap:
+										</p>
+									</div>
+									<div className="grid grid-cols-3 gap-3">
+										{[
+											{ value: "beginner", emoji: "🌱", label: "Beginner", desc: "Just starting out" },
+											{ value: "intermediate", emoji: "🔧", label: "Intermediate", desc: "Can build projects" },
+											{ value: "pro", emoji: "🚀", label: "Pro", desc: "Deep expertise" },
+										].map((lvl) => (
+											<button
+												key={lvl.value}
+												onClick={() => setExperienceLevel(lvl.value)}
+												className={`text-center rounded-lg px-3 py-4 border transition-all duration-150 ${
+													experienceLevel === lvl.value
+														? "border-purple-500 ring-2 ring-purple-500 bg-linear-to-r from-purple-600/30 to-pink-500/30 shadow-lg shadow-purple-500/30"
+														: "border-purple-500/20 hover:border-purple-400/50 bg-purple-900/10"
+												}`}
+											>
+												<div className="text-2xl mb-1">{lvl.emoji}</div>
+												<div className="font-semibold text-gray-100 text-sm">{lvl.label}</div>
+												<div className="text-xs text-gray-400 mt-0.5">{lvl.desc}</div>
+											</button>
+										))}
+									</div>
+									{experienceLevel && (
+										<p className="text-sm text-gray-400">
+											{experienceLevel === "beginner" && "You'll get a comprehensive step-by-step roadmap with beginner-friendly resources."}
+											{experienceLevel === "intermediate" && "You'll get a full roadmap with intermediate-level, project-based resources."}
+											{experienceLevel === "pro" && "You'll get an accelerated roadmap focused on advanced topics and fast job-readiness."}
+										</p>
+									)}
+								</div>
+							)}
+
 							{error && (
 								<p className="text-red-400 font-medium">
 									{error}
@@ -614,7 +734,7 @@ function Fetching() {
 								</button>
 								<button
 									onClick={handleSubmit}
-									disabled={loading || !selectedCareer}
+									disabled={loading || !selectedCareer || (selectedCareer?.sub_fields?.length > 0 && (!selectedSubField || !experienceLevel))}
 									className="specialBtnGradient rounded-full px-8 py-3 text-white font-semibold shadow-lg shadow-purple-500/50 disabled:opacity-60 disabled:cursor-not-allowed hover:scale-105 transition-transform"
 								>
 									{loading

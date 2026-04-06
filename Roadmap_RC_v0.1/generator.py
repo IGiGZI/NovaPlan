@@ -1,0 +1,382 @@
+import json
+import random
+from typing import List, Dict, Any
+from datetime import datetime
+from pathlib import Path
+import matplotlib.pyplot as plt
+from embeddings_index import build_skill_index, query_skill
+from data_ingest import DATA_DIR, load_esco_occupations_and_skills, load_onet_skills_and_tasks
+from rapidfuzz import process, fuzz
+
+CAREERS_JSON = Path('data') / 'categorized_careers_by_education.json'
+
+
+def _load_career_dataset(path: Path) -> List[Dict[str, Any]]:
+    """
+    Load and flatten the categorized_careers_by_education.json structure into
+    a flat list of career dicts that the generator can work with.
+    Handles the careers_by_learning_path structure (self_study / university).
+    Falls back gracefully if the file is missing or malformed.
+    """
+    if not path.exists():
+        return []
+
+    try:
+        text = path.read_text(encoding='utf-8').strip()
+        if not text:
+            return []
+        raw = json.loads(text)
+    except Exception:
+        return []
+
+    flat: List[Dict[str, Any]] = []
+    if isinstance(raw, list):
+        for category_block in raw:
+            category_name = category_block.get('category')
+            careers_by_lp = category_block.get('careers_by_learning_path') or {}
+            for lp_type in ['self_study', 'university']:
+                for c in careers_by_lp.get(lp_type, []):
+                    item = dict(c)
+                    item.setdefault('category', category_name)
+                    item.setdefault('learning_path', lp_type)
+                    flat.append(item)
+    return flat
+
+
+CAREER_DATASET = _load_career_dataset(CAREERS_JSON)
+
+if not CAREER_DATASET:
+    # Minimal fallback if the categorized dataset is missing or invalid
+    CAREER_DATASET = [
+        {"career": "Data Analyst", "skills": ["python", "sql", "data visualization", "pandas"], "education": ["bachelor's"], "description": "Analyze data."},
+        {"career": "Frontend Developer", "skills": ["javascript", "react", "html", "css"], "education": ["bootcamp", "self-taught"], "description": "Build web UI."}
+    ]
+
+if CAREER_DATASET:
+    SKILL_VOCAB = sorted({s.lower() for c in CAREER_DATASET for s in c.get('skills', [])})
+else:
+    SKILL_VOCAB = []
+
+# Build index lazily on first request to avoid blocking app startup
+from embeddings_index import EMBED_DIR
+
+
+def normalize_skills(raw_skills: List[str]) -> List[str]:
+    # Use embedding nearest neighbor first, fallback to fuzzy matching
+    normalized = []
+    for s in raw_skills:
+        s = s.strip()
+        # query embeddings
+        try:
+            nn, d = query_skill(s, k=1)
+            if d[0] > 0.6:
+                normalized.append(nn[0])
+                continue
+        except Exception:
+            pass
+        # fallback fuzzy
+        best = process.extractOne(s, SKILL_VOCAB, scorer=fuzz.token_sort_ratio)
+        normalized.append(best[0] if best else s.lower())
+    # dedupe
+    seen = []
+    for x in normalized:
+        if x not in seen:
+            seen.append(x)
+    return seen
+
+
+from generator_core import generate_distinct_roadmaps as core_generator
+
+
+def _derive_skills_from_quiz(answers: List[Dict[str, Any]]) -> List[str]:
+    """
+    Derive skills directly from the question tree answers.
+    The current question flow already narrows down to specific careers and
+    categories (passed in from the frontend), so we don't rely on legacy
+    A/B/C/D letter types anymore. For now we return an empty list here and
+    let the selected careers' own skill lists drive the roadmap.
+    """
+    return []
+
+
+def _serialize_nested_steps(step):
+    """Helper to recursively serialize RoadmapStep objects including children."""
+    serialized_step = step.__dict__.copy()
+    if 'children' in serialized_step and serialized_step['children']:
+        serialized_step['children'] = [_serialize_nested_steps(s) for s in serialized_step['children']]
+    if 'milestones' in serialized_step and serialized_step['milestones']:
+        serialized_step['milestones'] = [m.__dict__ if hasattr(m, '__dict__') else m for m in serialized_step['milestones']]
+    if 'resources' in serialized_step and serialized_step['resources']:
+        serialized_step['resources'] = [r.__dict__ if hasattr(r, '__dict__') else r for r in serialized_step['resources']]
+    return serialized_step
+
+
+def _plot_roadmaps(roadmaps: List[Dict[str, Any]], output_dir: Path) -> List[str]:
+    output_dir.mkdir(parents=True, exist_ok=True)
+    image_urls: List[str] = []
+
+    def enumerate_nodes(steps: List[Dict[str, Any]]):
+        nodes = []  # (id, title, depth, parent_id, tasks_count)
+        edges = []  # (parent_id, child_id)
+        counter = {'i': 0}
+
+        def walk(lst, depth, parent):
+            for s in lst:
+                node_id = counter['i']; counter['i'] += 1
+                
+                if isinstance(s, dict):
+                    milestones = s.get('milestones', [])
+                    title = milestones[0].get('title', 'Step') if milestones else s.get('title', 'Step')
+                    milestones_count = len(milestones)
+                    children = s.get('children', [])
+                else:
+                    milestones = getattr(s, 'milestones', [])
+                    title = milestones[0].title if milestones else getattr(s, 'title', 'Step')
+                    milestones_count = len(milestones)
+                    children = getattr(s, 'children', [])
+                    
+                nodes.append((node_id, title, depth, parent, milestones_count))
+                
+                if children:
+                    for ch in children:
+                        child_id = counter['i']
+                        edges.append((node_id, child_id))
+                        walk([ch], depth + 1, node_id)
+                
+        walk(steps, 0, None)
+        return nodes, edges
+
+    def layout_topdown(nodes):
+        # Assign x by preorder index, y by depth (top to bottom)
+        positions = {}
+        x = 0
+        for node_id, title, depth, parent, tasks_count in nodes:
+            positions[node_id] = (x, -depth)
+            x += 1
+        return positions
+
+    def draw_tree(ax, nodes, edges, positions, title):
+        ax.set_title(title, fontsize=14, fontweight='bold', pad=20)
+        ax.set_xlim(-1, max(pos[0] for pos in positions.values()) + 1)
+        ax.set_ylim(min(pos[1] for pos in positions.values()) - 1, 1)
+        
+        # draw edges
+        for p, c in edges:
+            if p in positions and c in positions:
+                x1, y1 = positions[p]
+                x2, y2 = positions[c]
+                ax.plot([x1, x2], [y1, y2], color="#94a3b8", linewidth=2, zorder=1, alpha=0.7)
+        
+        # draw nodes as boxes with enhanced information
+        for node_id, label, depth, parent, milestones_count in nodes:
+            x, y = positions[node_id]
+            w, h = 1.4, 1.0
+            
+            # Color based on depth
+            colors = ['#3b82f6', '#10b981', '#f59e0b', '#ef4444', '#8b5cf6', '#ec4899', '#06b6d4']
+            color = colors[min(depth, len(colors)-1)]
+            
+            # Main node rectangle
+            rect = plt.Rectangle((x - w/2, y - h/2), w, h, 
+                               facecolor=color, alpha=0.9, 
+                               edgecolor='#1e40af', linewidth=2, zorder=2)
+            ax.add_patch(rect)
+            
+            # Node title (truncate if too long)
+            display_label = label[:20] + "..." if len(label) > 20 else label
+            ax.text(x, y + 0.15, display_label, color="white", fontsize=9, 
+                   ha="center", va="center", zorder=3, fontweight='bold')
+            
+            # Milestones count
+            if milestones_count > 0:
+                ax.text(x, y - 0.2, f"🎯{milestones_count}", color="#f59e0b", 
+                       fontsize=8, ha="center", va="center", zorder=3, fontweight='bold')
+            
+            # Add depth indicator
+            depth_icons = ["📋", "🎯", "✅", "🔧", "🚀"]
+            icon = depth_icons[min(depth, len(depth_icons)-1)]
+            ax.text(x, y - 0.5, icon, fontsize=10, ha="center", va="center", zorder=3)
+        
+        # Add comprehensive legend
+        legend_elements = [
+            plt.Rectangle((0,0),1,1, facecolor='#3b82f6', alpha=0.9, label='Certification / Degree'),
+            plt.Rectangle((0,0),1,1, facecolor='#10b981', alpha=0.9, label='Core Skills'),
+            plt.Rectangle((0,0),1,1, facecolor='#f59e0b', alpha=0.9, label='Advanced Skills'),
+            plt.Rectangle((0,0),1,1, facecolor='#ef4444', alpha=0.9, label='Hands-on Practice'),
+            plt.Rectangle((0,0),1,1, facecolor='#8b5cf6', alpha=0.9, label='Portfolio'),
+            plt.Rectangle((0,0),1,1, facecolor='#ec4899', alpha=0.9, label='CV / Profile'),
+            plt.Rectangle((0,0),1,1, facecolor='#06b6d4', alpha=0.9, label='Job Application'),
+        ]
+        
+        # Add info legend
+        info_legend = [
+            plt.Line2D([0], [0], marker='o', color='w', markerfacecolor='#f59e0b', 
+                      markersize=8, label='🎯 Milestones'),
+            plt.Line2D([0], [0], marker='o', color='w', markerfacecolor='#6b7280', 
+                      markersize=8, label='📋 Phases'),
+        ]
+        
+        # Create two legends
+        legend1 = ax.legend(handles=legend_elements, loc='upper left', fontsize=7, title='Phase Colors')
+        ax.add_artist(legend1)
+        ax.legend(handles=info_legend, loc='upper right', fontsize=7, title='Information')
+        
+        ax.axis('off')
+
+    for idx, r in enumerate(roadmaps):
+        nodes, edges = enumerate_nodes(r['steps'])
+        positions = layout_topdown(nodes)
+        width = max(12, len(nodes) * 1.0)
+        height = max(8, (max((d for _,_,d,_,_ in nodes), default=0) + 1) * 2.0)
+        fig, ax = plt.subplots(figsize=(width, height))
+        draw_tree(ax, nodes, edges, positions, f"{r['path_title']} — {r['focus']}")
+        plt.tight_layout()
+        fname = output_dir / f"roadmap_{idx+1}.png"
+        fig.savefig(fname, dpi=150)
+        plt.close(fig)
+        image_urls.append(f"/static/roadmaps/{fname.name}")
+    return image_urls
+
+
+def _get_category_bonus(career_skills: List[str], user_answers: List[Dict[str, Any]]) -> float:
+    """
+    Legacy helper previously used A/B/C/D answer types.
+    The question tree now directly encodes category and careers,
+    so we don't add any extra letter-based bonus.
+    """
+    return 0.0
+
+
+def generate_roadmaps_for_user(user_input: Dict[str,Any]) -> Dict[str,Any]:
+    # Accept either explicit skills or derive from quiz answers
+    provided_skills = user_input.get('skills', [])
+    answers = user_input.get('answers', [])
+    derived_skills = _derive_skills_from_quiz(answers)
+    skills = normalize_skills(provided_skills + derived_skills)
+    preferred_careers = [c.lower() for c in user_input.get('careers', []) if isinstance(c, str)]
+    preferred_category = (user_input.get('category') or '').lower()
+    education = user_input.get('education','')
+    summary = user_input.get('summary','')
+    user_summary = user_input.get('user_summary', '')
+    # Combine both summary fields for keyword matching
+    combined_summary = f"{summary} {user_summary}".strip().lower()
+    # ensure embedding index exists
+    try:
+        if not (EMBED_DIR / 'skill_index.faiss').exists():
+            build_skill_index(SKILL_VOCAB)
+    except Exception:
+        # continue without embeddings if building fails; fuzzy fallback will still work
+        pass
+    # restrict to careers aligned with the question tree result if provided
+    candidate_careers = []
+    for c in CAREER_DATASET:
+        name = str(c.get('career', '')).lower()
+        category = str(c.get('category', '')).lower()
+        if preferred_careers and name not in preferred_careers:
+            continue
+        if preferred_category and category != preferred_category:
+            continue
+        candidate_careers.append(c)
+
+    if not candidate_careers:
+        candidate_careers = CAREER_DATASET
+
+    # retrieve top career using embedding-aware scoring
+    scored = []
+    for c in candidate_careers:
+        cskills = [s.lower() for s in c.get('skills', [])]
+        
+        # 1. Exact/Fuzzy Overlap Score
+        overlap = 0
+        for us in skills:
+            # Direct match
+            if us in cskills:
+                overlap += 1
+            else:
+                # Partial match check
+                for cs in cskills:
+                    if us in cs or cs in us:
+                        overlap += 0.5
+                        break
+        
+        base_score = overlap / max(1, len(cskills) or 1)
+        
+        # 2. Keyword Bonus from Summary
+        kw_bonus = 0.2 if any(k in combined_summary for k in cskills[:5]) else 0
+        
+        # 3. Category Bonus
+        cat_bonus = _get_category_bonus(cskills, answers)
+        
+        total_score = base_score + kw_bonus + cat_bonus
+        scored.append((c, total_score))
+        
+    # Sort by score desc, then randomize slightly for ties to avoid static "Bid Manager"
+    scored.sort(key=lambda x: x[1], reverse=True)
+    
+    # If top scores are 0 or very low, pick from top 10 randomly to give variety
+    if scored and scored[0][1] < 0.1:
+        top_candidates = scored[:20]
+        top = random.choice(top_candidates)[0]
+    else:
+        # If we have good matches, take the best one
+        top = scored[0][0] if scored else CAREER_DATASET[0]
+
+    roadmaps = core_generator({**user_input, 'skills': skills}, top)
+    out = {
+        'input': user_input,
+        'derived_skills': skills,
+        'chosen_career': top['career'],
+        'roadmaps': [r.__dict__ for r in roadmaps]
+    }
+    # serialize RoadmapStep dataclasses inner lists
+    for r in out['roadmaps']:
+        r['steps'] = [_serialize_nested_steps(s) for s in r['steps']]
+    # save visualizations to static folder
+    static_dir = Path('static') / 'roadmaps'
+    image_urls = _plot_roadmaps(out['roadmaps'], static_dir)
+    out['images'] = image_urls
+    # save files
+    with open('generated_roadmaps_output.json','w',encoding='utf-8') as f:
+        json.dump(out, f, indent=2)
+    outputs_dir = Path('outputs')
+    outputs_dir.mkdir(exist_ok=True)
+    ts = datetime.utcnow().strftime('%Y%m%d_%H%M%S')
+    with open(outputs_dir / f'roadmaps_{ts}.json','w',encoding='utf-8') as f:
+        json.dump(out, f, indent=2)
+    return out
+
+
+def suggest_career_from_summary(user_summary: str) -> list[dict]:
+    """Use sentence embeddings to find careers matching a user's self-description.
+    
+    The user describes themselves (interests, hobbies, personality, skills)
+    and this function returns the top matching careers via semantic similarity.
+    """
+    from embeddings_index import build_career_index, query_career, EMBED_DIR
+
+    # Build the career index if it doesn't exist yet
+    career_index_path = EMBED_DIR / 'career_index.faiss'
+    if not career_index_path.exists():
+        build_career_index(CAREER_DATASET)
+
+    # Query the career index with the user's self-description
+    results = query_career(user_summary, k=5)
+
+    # Map career IDs back to full career info
+    career_map = {c.get('career', '').lower(): c for c in CAREER_DATASET}
+    suggestions = []
+    for r in results:
+        # Find the career in the dataset by matching the text
+        # The career_id from the index corresponds to the order in CAREER_DATASET
+        career_id = r['career_id']
+        if career_id < len(CAREER_DATASET):
+            career = CAREER_DATASET[career_id]
+            suggestions.append({
+                'career': career.get('career', ''),
+                'category': career.get('category', ''),
+                'education_min': career.get('education_min', ''),
+                'score': r['score'],
+            })
+
+    return suggestions
+

@@ -1,0 +1,301 @@
+{
+  "input": {
+    "answers": [
+      {
+        "questionId": "Q_EDU",
+        "label": "I haven't started university yet"
+      },
+      {
+        "questionId": "Q_GENDER",
+        "label": "Male"
+      },
+      {
+        "questionId": "Q_IMPACT",
+        "label": "Creating technology \u2014 writing code, building apps, or working with AI"
+      },
+      {
+        "questionId": "Q_TECH_TYPE",
+        "label": "General software development and architecture"
+      },
+      {
+        "questionId": "Q_PACE_TECH",
+        "label": "Deep solo work \u2014 headphones on, shipping features and fixing bugs"
+      },
+      {
+        "questionId": "Q_STYLE_TECH",
+        "label": "Creating \u2014 designing interfaces, building new features from scratch"
+      }
+    ],
+    "careers": [
+      "software developer"
+    ],
+    "category": "Programming & Software Development",
+    "user_summary": "",
+    "experience_level": "beginner",
+    "sub_field": "Backend Developer",
+    "selected_language": ""
+  },
+  "derived_skills": [],
+  "chosen_career": "software developer",
+  "roadmaps": [
+    {
+      "path_title": "Backend Developer \u2014 software developer",
+      "focus": "Beginner \u2014 Full Roadmap",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "milestones": [
+            {
+              "title": "Certification",
+              "description": "(Optional) Complete an online certificate, bootcamp, or structured course in software developer to build a strong learning foundation"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Java courses \u2014 Backend Developer",
+              "url": "https://www.coursera.org/search?query=java+backend+development"
+            },
+            {
+              "title": "Python courses \u2014 Backend Developer",
+              "url": "https://www.udemy.com/courses/search/?q=python+backend+development"
+            },
+            {
+              "title": "Node.js courses \u2014 Backend Developer",
+              "url": "https://www.coursera.org/search?query=node.js+backend+development"
+            },
+            {
+              "title": "Go courses \u2014 Backend Developer",
+              "url": "https://www.udemy.com/courses/search/?q=golang+backend+development"
+            },
+            {
+              "title": "C# / .NET courses \u2014 Backend Developer",
+              "url": "https://www.coursera.org/search?query=c+sharp+.net+backend"
+            },
+            {
+              "title": "Backend Developer Professional Certificates on Coursera",
+              "url": "https://www.coursera.org/search?query=backend%20developer%20professional%20certificate%20beginner"
+            },
+            {
+              "title": "Beginner Backend Developer Bootcamps & Courses on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=backend%20developer%20bootcamp%20beginner"
+            },
+            {
+              "title": "Software Developer Professional Certificates on edX",
+              "url": "https://www.edx.org/search?q=software%20developer%20professional%20certificate%20beginner"
+            },
+            {
+              "title": "freeCodeCamp Backend Development and APIs Certification",
+              "url": "https://www.freecodecamp.org/learn/"
+            },
+            {
+              "title": "Google Professional Certificates (e.g., IT Automation with Python)",
+              "url": "https://grow.google/certificates/"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Core Skill Learning",
+              "description": "Learn the fundamentals: build a solid foundation in programming (python, java, or c++), data structures and algorithms, and version control (git) \u2014 these are the essential building blocks for a software developer"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Beginner Python Programming Tutorials and Courses",
+              "url": "https://www.freecodecamp.org/news/search/?query=python+programming+beginner+fundamentals"
+            },
+            {
+              "title": "Data Structures and Algorithms Tutorials for Beginners",
+              "url": "https://www.geeksforgeeks.org/data-structures/"
+            },
+            {
+              "title": "Beginner Git and Version Control Tutorials",
+              "url": "https://www.freecodecamp.org/news/search/?query=git+version+control+beginner+fundamentals"
+            },
+            {
+              "title": "Introductory Backend Development Courses and Specializations",
+              "url": "https://www.coursera.org/search?query=backend+developer+fundamentals+beginner"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Intermediate / Advanced Skills",
+              "description": "Deepen your expertise by developing intermediate-to-advanced skills in restful api development, database management (sql), and debugging and troubleshooting, applying them through exercises and case studies"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Beginner's Guide to REST API Development Tutorials",
+              "url": "https://www.youtube.com/results?search_query=REST+API+development+tutorial+for+beginners"
+            },
+            {
+              "title": "SQL Database Management Fundamentals for Beginners",
+              "url": "https://www.youtube.com/results?search_query=SQL+database+management+beginner+tutorial"
+            },
+            {
+              "title": "Introduction to Software Debugging and Troubleshooting",
+              "url": "https://www.youtube.com/results?search_query=software+debugging+tutorial+for+beginners"
+            },
+            {
+              "title": "Beginner Backend Developer Learning Paths and Courses",
+              "url": "https://www.coursera.org/search?query=backend+developer+beginner"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Hands-on Practice",
+              "description": "Gain hands-on experience by completing software projects, open-source contributions, or technical prototypes \u2014 focus on applying programming (python, java, or c++), and data structures and algorithms in realistic scenarios"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Beginner Python Backend Project Tutorials",
+              "url": "https://www.youtube.com/results?search_query=python+backend+project+tutorial+beginner"
+            },
+            {
+              "title": "Beginner Data Structures and Algorithms Courses with Practical Application",
+              "url": "https://www.coursera.org/search?query=data+structures+algorithms+beginner+course"
+            },
+            {
+              "title": "Git and GitHub Project Tutorials for Beginners",
+              "url": "https://www.freecodecamp.org/news/search?query=git+github+tutorial+project+beginner"
+            },
+            {
+              "title": "RESTful API Development Project Tutorials for Python Beginners",
+              "url": "https://www.udemy.com/courses/search/?q=restful%20api%20development%20project%20tutorial%20python%20beginner"
+            },
+            {
+              "title": "SQL Database Project Tutorials for Beginners",
+              "url": "https://www.youtube.com/results?search_query=sql+database+project+tutorial+beginner"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Portfolio Building",
+              "description": "Build a professional portfolio: publish your best projects on GitHub, create a personal website showcasing your work, and document your process and results"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Beginner Python Backend Development Tutorials (YouTube Search)",
+              "url": "https://www.youtube.com/results?search_query=python+backend+development+beginner+tutorial"
+            },
+            {
+              "title": "Git and GitHub for Beginners (freeCodeCamp Search)",
+              "url": "https://www.freecodecamp.org/news/search/?query=git+github+beginner+tutorial"
+            },
+            {
+              "title": "SQL Database Fundamentals Courses (Coursera Search)",
+              "url": "https://www.coursera.org/search?query=sql+beginner+fundamentals"
+            },
+            {
+              "title": "Data Structures and Algorithms Introduction (GeeksforGeeks Search)",
+              "url": "https://www.geeksforgeeks.org/search/?s=data+structures+algorithms+beginner"
+            },
+            {
+              "title": "REST API Development Beginner Projects (Udemy Search)",
+              "url": "https://www.udemy.com/courses/search/?q=rest+api+development+beginner+project"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "CV / Profile Building",
+              "description": "Prepare your professional profile: craft a targeted CV/resume highlighting your software developer skills, optimize your LinkedIn profile, and gather references or endorsements from mentors, instructors, or past collaborators"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Backend Developer Fundamentals & Beginner Roadmaps on Coursera",
+              "url": "https://www.coursera.org/search?query=backend%20developer%20beginner%20fundamentals"
+            },
+            {
+              "title": "Python Programming Basics and Introduction for Developers",
+              "url": "https://www.w3schools.com/python/default.asp"
+            },
+            {
+              "title": "Data Structures and Algorithms for Beginners",
+              "url": "https://www.geeksforgeeks.org/data-structures/"
+            },
+            {
+              "title": "SQL Database Management Fundamentals Tutorial",
+              "url": "https://www.w3schools.com/sql/default.asp"
+            },
+            {
+              "title": "Git and Version Control Beginner Tutorial & Crash Course",
+              "url": "https://www.youtube.com/results?search_query=git+version+control+beginner+tutorial+crash+course"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Job Application / Freelancing",
+              "description": "Apply for software developer positions on job boards, company career pages, and freelance platforms (Upwork, Fiverr, Toptal) \u2014 tailor each application to the role and be ready to showcase your portfolio in interviews"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Backend Developer (software developer) jobs on Wuzzuf",
+              "url": "https://wuzzuf.net/search/jobs/?q=Backend+Developer+(software+developer)&a=hpb"
+            },
+            {
+              "title": "Backend Developer (software developer) jobs on Forasna",
+              "url": "https://www.forasna.com/jobs/search/Backend-Developer-(software-developer)"
+            },
+            {
+              "title": "Backend Developer (software developer) jobs on LinkedIn",
+              "url": "https://www.linkedin.com/jobs/search/?keywords=Backend+Developer+(software+developer)&location=Egypt"
+            },
+            {
+              "title": "Backend Developer (software developer) jobs on Bayt.com",
+              "url": "https://www.bayt.com/en/egypt/jobs/Backend-Developer-(software-developer)-jobs/"
+            },
+            {
+              "title": "Backend Developer (software developer) jobs on Indeed Egypt",
+              "url": "https://eg.indeed.com/jobs?q=Backend+Developer+(software+developer)"
+            },
+            {
+              "title": "Backend Developer (software developer) freelance jobs on Upwork",
+              "url": "https://www.upwork.com/freelance-jobs/Backend-Developer-(software-developer)/"
+            },
+            {
+              "title": "Backend Developer (software developer) services on Fiverr",
+              "url": "https://www.fiverr.com/search/gigs?query=Backend+Developer+(software+developer)"
+            },
+            {
+              "title": "Backend Developer (software developer) projects on Mostaql",
+              "url": "https://mostaql.com/projects?keyword=Backend+Developer+(software+developer)"
+            },
+            {
+              "title": "Khamsat - Arabic Micro Services",
+              "url": "https://khamsat.com/"
+            },
+            {
+              "title": "Backend Developer (software developer) freelance on Toptal",
+              "url": "https://www.toptal.com/"
+            }
+          ],
+          "children": []
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/static/roadmaps/roadmap_1.png"
+  ]
+}
