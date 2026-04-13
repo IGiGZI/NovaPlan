@@ -26,7 +26,7 @@ services:
     ports:
       - "5173:5173"
     environment:
-      - VITE_PYTHON_API_URL=http://python-ai:8000
+      - VITE_PYTHON_API_URL=http://roadmap_ai:8000
     depends_on:
       - roadmap_ai
       - backend
