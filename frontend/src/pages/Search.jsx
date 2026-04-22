@@ -1,6 +1,5 @@
 import { useState, useMemo, useRef, useEffect } from "react";
 import { Link } from "react-router";
-import careersData from "../../../Roadmap_Gen_Beta_v0.8/data/categorized_careers_by_education.json";
 import MainNav from "../components/MainNav";
 
 // Flatten all careers from the JSON into a searchable list
@@ -14,6 +13,7 @@ function flattenCareers(data) {
 					career: careerObj.career,
 					category,
 					skills: careerObj.skills ?? [],
+					sub_fields: careerObj.sub_fields ?? [],
 				});
 			}
 		}
@@ -37,7 +37,11 @@ function buildCategoryMap(data) {
 			for (const careerObj of careerList) {
 				if (!seen.has(careerObj.career)) {
 					seen.add(careerObj.career);
-					careers.push({ career: careerObj.career, skills: careerObj.skills ?? [] });
+					careers.push({
+						career: careerObj.career,
+						skills: careerObj.skills ?? [],
+						sub_fields: careerObj.sub_fields ?? [],
+					});
 				}
 			}
 		}
@@ -46,9 +50,6 @@ function buildCategoryMap(data) {
 	return map;
 }
 
-const ALL_CAREERS = flattenCareers(careersData);
-const CATEGORY_MAP = buildCategoryMap(careersData);
-const ALL_CATEGORIES = Object.keys(CATEGORY_MAP);
 
 // Icon map for categories
 const CATEGORY_ICONS = {
@@ -74,7 +75,43 @@ const CATEGORY_ICONS = {
 	"Architecture & Urban Planning": "🏛️",
 };
 
+const TECH_ENG_CATEGORIES = new Set([
+	"Programming & Software Development",
+	"Data & Artificial Intelligence",
+	"Cloud & IT Infrastructure",
+	"Cybersecurity & IT Auditing",
+	"ICT & Business Technology",
+	"Engineering - Civil & Construction",
+	"Engineering - Mechanical & Electrical",
+	"Engineering - Aerospace & Transportation"
+]);
+
+function isTechOrEngineering(category) {
+	return TECH_ENG_CATEGORIES.has(category);
+}
+
 function Search() {
+	const [allCareers, setAllCareers] = useState([]);
+	const [categoryMap, setCategoryMap] = useState({});
+	const [allCategories, setAllCategories] = useState([]);
+	const [dataLoading, setDataLoading] = useState(true);
+
+	useEffect(() => {
+		fetch("/api/careers_data")
+			.then((res) => res.json())
+			.then((data) => {
+				setAllCareers(flattenCareers(data));
+				const map = buildCategoryMap(data);
+				setCategoryMap(map);
+				setAllCategories(Object.keys(map));
+				setDataLoading(false);
+			})
+			.catch((err) => {
+				console.error("Failed to load careers dataset:", err);
+				setDataLoading(false);
+			});
+	}, []);
+
 	const [query, setQuery] = useState("");
 	const [selected, setSelected] = useState(null);
 	const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -88,15 +125,20 @@ function Search() {
 	const [activeCategory, setActiveCategory] = useState(null);
 	const categoryRef = useRef(null);
 
+	// Sub-field and level state
+	const [selectedSubField, setSelectedSubField] = useState(null);
+	const [selectedLanguage, setSelectedLanguage] = useState(null);
+	const [experienceLevel, setExperienceLevel] = useState("");
+
 	const filtered = useMemo(() => {
 		if (!query.trim()) return [];
 		const q = query.toLowerCase();
-		return ALL_CAREERS.filter(
+		return allCareers.filter(
 			(c) =>
 				c.career.toLowerCase().includes(q) ||
 				c.category.toLowerCase().includes(q)
 		).slice(0, 12);
-	}, [query]);
+	}, [query, allCareers]);
 
 	useEffect(() => {
 		function handleClick(e) {
@@ -134,10 +176,21 @@ function Search() {
 		setDropdownOpen(false);
 		setResult(null);
 		setError("");
+		setSelectedSubField(null);
+		setSelectedLanguage(null);
+		setExperienceLevel("");
 	};
 
 	const handleGenerate = async () => {
 		if (!selected) return;
+		const hasSubFields = selected.sub_fields && selected.sub_fields.length > 0;
+		const isTechEng = isTechOrEngineering(selected.category);
+		const needsLevel = hasSubFields ? !!selectedSubField : isTechEng;
+
+		if (hasSubFields && !selectedSubField) return;
+		if (selectedSubField?.languages?.length > 0 && !selectedLanguage) return;
+		if (needsLevel && !experienceLevel) return;
+
 		setError("");
 		setLoading(true);
 		setResult(null);
@@ -151,6 +204,9 @@ function Search() {
 					careers: [selected.career],
 					category: selected.category,
 					user_summary: "",
+					experience_level: experienceLevel || "",
+					sub_field: selectedSubField?.name || "",
+					selected_language: selectedLanguage?.name || "",
 				}),
 			});
 			if (!res.ok) throw new Error("Failed to generate roadmap");
@@ -169,6 +225,9 @@ function Search() {
 		setSelected(null);
 		setResult(null);
 		setError("");
+		setSelectedSubField(null);
+		setSelectedLanguage(null);
+		setExperienceLevel("");
 		inputRef.current?.focus();
 	};
 
@@ -181,11 +240,14 @@ function Search() {
 		setQuery(careerObj.career);
 		setResult(null);
 		setError("");
+		setSelectedSubField(null);
+		setSelectedLanguage(null);
+		setExperienceLevel("");
 		// Scroll back up to the search area smoothly
 		window.scrollTo({ top: 0, behavior: "smooth" });
 	};
 
-	const categoryCareers = activeCategory ? CATEGORY_MAP[activeCategory] : [];
+	const categoryCareers = activeCategory ? categoryMap[activeCategory] : [];
 
 	return (
 		<main className="min-h-screen">
@@ -207,8 +269,16 @@ function Search() {
 				</p>
 			</header>
 
+			{dataLoading && (
+				<div className="flex justify-center items-center h-48">
+					<div className="text-lg text-purple-400 animate-pulse bg-purple-900/20 px-8 py-4 rounded-full border border-purple-500/30">
+						Loading career dataset...
+					</div>
+				</div>
+			)}
+
 			{/* Search + selected card — hide once result is shown */}
-			{!result && (
+			{!dataLoading && !result && (
 				<div className="max-w-2xl mx-auto px-4 pb-12">
 					<div className="relative">
 						<div className="relative flex items-center bg-black/30 backdrop-blur-sm border border-purple-500/30 rounded-xl shadow-lg shadow-purple-500/10 focus-within:border-purple-400 focus-within:ring-2 focus-within:ring-purple-500/30 transition-all">
@@ -306,11 +376,128 @@ function Search() {
 								</div>
 							)}
 
+							{/* Sub-field selection — for careers with sub_fields */}
+							{selected.sub_fields && selected.sub_fields.length > 0 && (
+								<div className="space-y-4 pt-2">
+									<div>
+										<p className="text-sm text-pink-400 font-medium mb-1 uppercase tracking-widest">
+											🎯 Choose a Specialization
+										</p>
+										<p className="text-gray-400 text-sm">
+											Narrow your roadmap to a specific sub-field:
+										</p>
+									</div>
+									<div className="grid gap-3">
+										{selected.sub_fields.map((sf, idx) => (
+											<div key={idx}>
+												<button
+													onClick={() => {
+														setSelectedSubField(selectedSubField?.name === sf.name ? null : sf);
+														setSelectedLanguage(null);
+														setExperienceLevel("");
+													}}
+													className={`w-full text-left rounded-lg px-4 py-3 border transition-all duration-150 ${selectedSubField?.name === sf.name
+														? "border-pink-500 ring-2 ring-pink-500 bg-linear-to-r from-pink-600/30 to-purple-500/30"
+														: "border-purple-500/20 hover:border-pink-400/50 bg-purple-900/10"
+														}`}
+												>
+													<div className="font-semibold text-gray-100">{sf.name}</div>
+													<div className="text-sm text-gray-400 mt-1">{sf.description}</div>
+												</button>
+
+												{/* Language/Tool links */}
+												{selectedSubField?.name === sf.name && sf.languages && sf.languages.length > 0 && (
+													<div className="ml-4 mt-2 space-y-2">
+														<p className="text-xs text-purple-400 font-medium uppercase tracking-wide">📚 Select a Language & Tool</p>
+														<div className="grid gap-2">
+															{sf.languages.map((lang, lIdx) => (
+																<div
+																	key={lIdx}
+																	onClick={(e) => {
+																		e.stopPropagation();
+																		setSelectedLanguage(lang);
+																	}}
+																	className={`cursor-pointer block rounded-lg px-4 py-3 border transition-all group ${
+																		selectedLanguage?.name === lang.name
+																			? "border-pink-500 bg-pink-500/20 ring-1 ring-pink-500"
+																			: "border-pink-500/20 bg-purple-900/10 hover:bg-pink-500/10 hover:border-pink-400/40"
+																	}`}
+																>
+																	<div className="flex items-center justify-between">
+																		<span className={`font-semibold text-sm ${selectedLanguage?.name === lang.name ? "text-pink-200" : "text-pink-300 group-hover:text-pink-200"}`}>
+																			{selectedLanguage?.name === lang.name ? "✅ " : "🔗 "}{lang.name}
+																		</span>
+																		<a
+																			href={lang.link}
+																			target="_blank"
+																			rel="noopener noreferrer"
+																			onClick={(e) => e.stopPropagation()}
+																			className="text-xs text-blue-400 hover:text-blue-300 hover:underline z-10 relative"
+																		>
+																			View courses →
+																		</a>
+																	</div>
+																	{lang.description && (
+																		<p className="text-xs text-gray-400 mt-1 leading-relaxed">{lang.description}</p>
+																	)}
+																</div>
+															))}
+														</div>
+													</div>
+												)}
+											</div>
+										))}
+									</div>
+								</div>
+							)}
+
+							{/* Level picker — conditionally shown based on category or subfield */}
+							{((selected.sub_fields && selected.sub_fields.length > 0 && selectedSubField) || 
+							  (!(selected.sub_fields && selected.sub_fields.length > 0) && isTechOrEngineering(selected.category))) && (
+								<div className="space-y-3 pt-2">
+									<div>
+										<p className="text-sm text-purple-400 font-medium mb-1 uppercase tracking-widest">
+											📊 What's Your Experience Level?
+										</p>
+										<p className="text-gray-400 text-sm">
+											This determines the depth and type of resources in your roadmap:
+										</p>
+									</div>
+									<div className="grid grid-cols-3 gap-3">
+										{[
+											{ value: "beginner", emoji: "🌱", label: "Beginner", desc: "Just starting out" },
+											{ value: "intermediate", emoji: "🔧", label: "Intermediate", desc: "Can build projects" },
+											{ value: "pro", emoji: "🚀", label: "Pro", desc: "Deep expertise" },
+										].map((lvl) => (
+											<button
+												key={lvl.value}
+												onClick={() => setExperienceLevel(lvl.value)}
+												className={`text-center rounded-lg px-3 py-4 border transition-all duration-150 ${experienceLevel === lvl.value
+													? "border-purple-500 ring-2 ring-purple-500 bg-linear-to-r from-purple-600/30 to-pink-500/30 shadow-lg shadow-purple-500/30"
+													: "border-purple-500/20 hover:border-purple-400/50 bg-purple-900/10"
+													}`}
+											>
+												<div className="text-2xl mb-1">{lvl.emoji}</div>
+												<div className="font-semibold text-gray-100 text-sm">{lvl.label}</div>
+												<div className="text-xs text-gray-400 mt-0.5">{lvl.desc}</div>
+											</button>
+										))}
+									</div>
+									{experienceLevel && (
+										<p className="text-sm text-gray-400">
+											{experienceLevel === "beginner" && "You'll get a comprehensive step-by-step roadmap with beginner-friendly resources."}
+											{experienceLevel === "intermediate" && "You'll get a full roadmap with intermediate-level, project-based resources."}
+											{experienceLevel === "pro" && "You'll get an accelerated roadmap focused on advanced topics and fast job-readiness."}
+										</p>
+									)}
+								</div>
+							)}
+
 							{error && <p className="text-red-400 text-sm font-medium">{error}</p>}
 
 							<button
 								onClick={handleGenerate}
-								disabled={loading}
+								disabled={loading || (selected.sub_fields && selected.sub_fields.length > 0 && !selectedSubField) || (selectedSubField?.languages?.length > 0 && !selectedLanguage) || (((selected.sub_fields && selected.sub_fields.length > 0 && selectedSubField) || isTechOrEngineering(selected.category)) && !experienceLevel)}
 								className="specialBtnGradient rounded-full px-8 py-3 text-white font-semibold shadow-lg shadow-purple-500/50 disabled:opacity-60 disabled:cursor-not-allowed hover:scale-105 transition-transform"
 							>
 								{loading ? "Generating..." : "Generate Roadmap"}
@@ -321,7 +508,7 @@ function Search() {
 			)}
 
 			{/* ── Category Browsing Section ── */}
-			{!result && (
+			{!dataLoading && !result && (
 				<section className="max-w-5xl mx-auto px-4 pb-20">
 					{/* Divider */}
 					<div className="flex items-center gap-4 mb-8">
@@ -334,7 +521,7 @@ function Search() {
 
 					{/* Category buttons grid */}
 					<div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 mb-10">
-						{ALL_CATEGORIES.map((category) => {
+						{allCategories.map((category) => {
 							const isActive = activeCategory === category;
 							return (
 								<button
@@ -351,9 +538,8 @@ function Search() {
 								>
 									<span className="text-2xl">{CATEGORY_ICONS[category] ?? "📁"}</span>
 									<span
-										className={`text-xs font-medium leading-tight transition-colors ${
-											isActive ? "text-purple-300" : "text-gray-400 group-hover:text-gray-200"
-										}`}
+										className={`text-xs font-medium leading-tight transition-colors ${isActive ? "text-purple-300" : "text-gray-400 group-hover:text-gray-200"
+											}`}
 									>
 										{category}
 									</span>
@@ -361,11 +547,10 @@ function Search() {
 										<span className="absolute -top-1.5 -right-1.5 w-3 h-3 rounded-full bg-purple-400 shadow-sm shadow-purple-400/50"></span>
 									)}
 									<span
-										className={`text-xs transition-colors ${
-											isActive ? "text-purple-400" : "text-gray-600 group-hover:text-gray-500"
-										}`}
+										className={`text-xs transition-colors ${isActive ? "text-purple-400" : "text-gray-600 group-hover:text-gray-500"
+											}`}
 									>
-										{CATEGORY_MAP[category].length} careers
+										{categoryMap[category].length} careers
 									</span>
 								</button>
 							);
@@ -404,9 +589,16 @@ function Search() {
 										className="group text-left bg-black/20 border border-purple-500/20 rounded-xl p-4 hover:border-purple-400/50 hover:bg-purple-500/10 transition-all duration-200 hover:shadow-lg hover:shadow-purple-500/10"
 									>
 										<div className="flex items-start justify-between gap-2">
-											<h4 className="text-sm font-semibold text-gray-200 group-hover:text-white capitalize leading-snug">
-												{careerObj.career}
-											</h4>
+											<div>
+												<h4 className="text-sm font-semibold text-gray-200 group-hover:text-white capitalize leading-snug">
+													{careerObj.career}
+												</h4>
+												{careerObj.sub_fields && careerObj.sub_fields.length > 0 && (
+													<span className="text-xs text-pink-400/70 mt-0.5 block">
+														🎯 {careerObj.sub_fields.length} specializations
+													</span>
+												)}
+											</div>
 											<svg
 												className="w-4 h-4 text-purple-500/40 group-hover:text-purple-400 shrink-0 mt-0.5 transition-colors"
 												fill="none"

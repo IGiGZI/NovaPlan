@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+requests
+pandas
+sentence-transformers
+faiss-cpu
+matplotlib
+python-multipart
+jinja2
+rapidfuzz
+google-genai
+weave
+numpy

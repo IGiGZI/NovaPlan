@@ -17,13 +17,13 @@ app.use('/api/auth', authRoutes);
 
 const startPythonAI = () => {
     const pythonProcess = spawn('py', [
-        '-m', 'uvicorn', 
-        'app:app', 
-        '--host', '127.0.0.1', 
+        '-m', 'uvicorn',
+        'app:app',
+        '--host', '127.0.0.1',
         '--port', '8000'
     ], {
 
-        cwd: path.join(__dirname, '../roadmap_gen_alpha_v0.4') 
+        cwd: path.join(__dirname, '../Roadmap_RC_v0.1')
     });
 
     pythonProcess.stdout.on('data', (data) => {
@@ -38,7 +38,11 @@ const startPythonAI = () => {
 mongoose.connect(process.env.MONGO_URI)
     .then(() => {
         console.log("Connected to MongoDB");
-        startPythonAI();
+        if (process.env.SPAWN_PYTHON !== 'false') {
+            startPythonAI();
+        } else {
+            console.log("Skipping Python AI spawn (SPAWN_PYTHON is false)");
+        }
     })
     .catch((err) => console.log(err));
 

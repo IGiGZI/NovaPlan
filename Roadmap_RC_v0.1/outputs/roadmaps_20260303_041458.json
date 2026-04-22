@@ -1,0 +1,394 @@
+{
+  "input": {
+    "answers": [
+      {
+        "questionId": "Q_EDU",
+        "label": "I have a Master's degree or higher"
+      },
+      {
+        "questionId": "Q_GENDER",
+        "label": "Male"
+      },
+      {
+        "questionId": "Q_IMPACT",
+        "label": "Creating technology \u2014 writing code, building apps, or working with AI"
+      },
+      {
+        "questionId": "Q_TECH_TYPE",
+        "label": "General software development and architecture"
+      },
+      {
+        "questionId": "Q_WORKSTYLE_TECH",
+        "label": "A mix of both depending on the task"
+      },
+      {
+        "questionId": "Q_FOCUS_TECH",
+        "label": "With data, machines, and technology"
+      },
+      {
+        "questionId": "Q_STYLE_TECH",
+        "label": "Analytical \u2014 I like logic, data, and figuring out how things work"
+      }
+    ],
+    "careers": [
+      "software developer"
+    ],
+    "category": "Programming & Software Development",
+    "user_summary": ""
+  },
+  "derived_skills": [],
+  "chosen_career": "software developer",
+  "roadmaps": [
+    {
+      "path_title": "software developer",
+      "focus": "Depth",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "milestones": [
+            {
+              "title": "Certification",
+              "description": "(Optional) Complete an online certificate, bootcamp, or structured course in software developer to build a strong learning foundation"
+            }
+          ],
+          "resources": [
+            {
+              "title": "AWS Cloud Solutions Architect Professional Certificate on Coursera",
+              "url": "https://www.coursera.org/professional-certificates/aws-cloud-solutions-architect"
+            },
+            {
+              "title": "Google IT Automation with Python Professional Certificate",
+              "url": "https://grow.google/certificates/it-automation-python/"
+            },
+            {
+              "title": "freeCodeCamp Back End Development and APIs Certification",
+              "url": "https://www.freecodecamp.org/learn/back-end-development-and-apis/"
+            },
+            {
+              "title": "Google Advanced Data Analytics Professional Certificate",
+              "url": "https://grow.google/certificates/advanced-data-analytics/"
+            },
+            {
+              "title": "IBM Cloud Native Microservices Architecture Professional Certificate on edX",
+              "url": "https://www.edx.org/professional-certificate/ibm-cloud-native-microservices-architecture"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Core Skill Learning",
+              "description": "Learn the fundamentals: build a solid foundation in programming (python, java, or c++), data structures and algorithms, and version control (git) \u2014 these are the essential building blocks for a software developer"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Python for Everybody Specialization",
+              "url": "https://www.coursera.org/specializations/python"
+            },
+            {
+              "title": "Data Structures & Algorithms Tutorials",
+              "url": "https://www.geeksforgeeks.org/data-structures/"
+            },
+            {
+              "title": "Version Control with Git & GitHub",
+              "url": "https://www.freecodecamp.org/learn/version-control/"
+            },
+            {
+              "title": "MDN Web Docs (HTML, CSS, JavaScript Fundamentals)",
+              "url": "https://developer.mozilla.org/en-US/docs/Web"
+            },
+            {
+              "title": "W3Schools SQL Tutorial",
+              "url": "https://www.w3schools.com/sql/"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Intermediate / Advanced Skills",
+              "description": "Deepen your expertise by developing intermediate-to-advanced skills in restful api development, database management (sql), and debugging and troubleshooting, applying them through exercises and case studies"
+            }
+          ],
+          "resources": [
+            {
+              "title": "software developer \u2014 Intermediate / Advanced Skills courses on Coursera",
+              "url": "https://www.coursera.org/search?query=software+developer"
+            },
+            {
+              "title": "software developer \u2014 Intermediate / Advanced Skills courses on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=software+developer"
+            },
+            {
+              "title": "software developer \u2014 Intermediate / Advanced Skills tutorials on YouTube",
+              "url": "https://www.youtube.com/results?search_query=software+developer+Intermediate+/+Advanced+Skills+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Hands-on Practice",
+              "description": "Gain hands-on experience by completing software projects, open-source contributions, or technical prototypes \u2014 focus on applying programming (python, java, or c++), and data structures and algorithms in realistic scenarios"
+            }
+          ],
+          "resources": [
+            {
+              "title": "software developer \u2014 Hands-on Practice courses on Coursera",
+              "url": "https://www.coursera.org/search?query=software+developer"
+            },
+            {
+              "title": "software developer \u2014 Hands-on Practice courses on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=software+developer"
+            },
+            {
+              "title": "software developer \u2014 Hands-on Practice tutorials on YouTube",
+              "url": "https://www.youtube.com/results?search_query=software+developer+Hands-on+Practice+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Portfolio Building",
+              "description": "Build a professional portfolio: publish your best projects on GitHub, create a personal website showcasing your work, and document your process and results"
+            }
+          ],
+          "resources": [
+            {
+              "title": "software developer \u2014 Portfolio Building courses on Coursera",
+              "url": "https://www.coursera.org/search?query=software+developer"
+            },
+            {
+              "title": "software developer \u2014 Portfolio Building courses on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=software+developer"
+            },
+            {
+              "title": "software developer \u2014 Portfolio Building tutorials on YouTube",
+              "url": "https://www.youtube.com/results?search_query=software+developer+Portfolio+Building+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "CV / Profile Building",
+              "description": "Prepare your professional profile: craft a targeted CV/resume highlighting your software developer skills, optimize your LinkedIn profile, and gather references or endorsements from mentors, instructors, or past collaborators"
+            }
+          ],
+          "resources": [
+            {
+              "title": "software developer \u2014 CV / Profile Building courses on Coursera",
+              "url": "https://www.coursera.org/search?query=software+developer"
+            },
+            {
+              "title": "software developer \u2014 CV / Profile Building courses on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=software+developer"
+            },
+            {
+              "title": "software developer \u2014 CV / Profile Building tutorials on YouTube",
+              "url": "https://www.youtube.com/results?search_query=software+developer+CV+/+Profile+Building+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Job Application / Freelancing",
+              "description": "Apply for software developer positions on job boards, company career pages, and freelance platforms (Upwork, Fiverr, Toptal) \u2014 tailor each application to the role and be ready to showcase your portfolio in interviews"
+            }
+          ],
+          "resources": [
+            {
+              "title": "software developer jobs on Wuzzuf",
+              "url": "https://wuzzuf.net/search/jobs/?q=software+developer&a=hpb"
+            },
+            {
+              "title": "software developer jobs on Forasna",
+              "url": "https://www.forasna.com/jobs/search/software-developer"
+            },
+            {
+              "title": "software developer jobs on LinkedIn",
+              "url": "https://www.linkedin.com/jobs/search/?keywords=software+developer&location=Egypt"
+            },
+            {
+              "title": "software developer jobs on Bayt.com",
+              "url": "https://www.bayt.com/en/egypt/jobs/software-developer-jobs/"
+            },
+            {
+              "title": "software developer jobs on Indeed Egypt",
+              "url": "https://eg.indeed.com/jobs?q=software+developer"
+            },
+            {
+              "title": "software developer freelance jobs on Upwork",
+              "url": "https://www.upwork.com/freelance-jobs/software-developer/"
+            },
+            {
+              "title": "software developer services on Fiverr",
+              "url": "https://www.fiverr.com/search/gigs?query=software+developer"
+            },
+            {
+              "title": "software developer projects on Mostaql",
+              "url": "https://mostaql.com/projects?keyword=software+developer"
+            },
+            {
+              "title": "Khamsat - Arabic Micro Services",
+              "url": "https://khamsat.com/"
+            },
+            {
+              "title": "software developer freelance on Toptal",
+              "url": "https://www.toptal.com/"
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "path_title": "software developer",
+      "focus": "Fast-Entry",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "milestones": [
+            {
+              "title": "Foundation & Core Skills",
+              "description": "(Optional) Complete an online certificate, bootcamp, or structured course in software developer to build a strong learning foundation\n\nThen: Learn the fundamentals: build a solid foundation in programming (python, java, or c++), data structures and algorithms, and version control (git) \u2014 these are the essential building blocks for a software developer"
+            }
+          ],
+          "resources": [
+            {
+              "title": "software developer certification on Coursera",
+              "url": "https://www.coursera.org/search?query=software+developer+certificate"
+            },
+            {
+              "title": "software developer certification on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=software+developer+certificate"
+            },
+            {
+              "title": "software developer courses on edX",
+              "url": "https://www.edx.org/search?q=software+developer"
+            },
+            {
+              "title": "Google Certificates related to software developer",
+              "url": "https://grow.google/certificates/"
+            },
+            {
+              "title": "software developer certification guide on YouTube",
+              "url": "https://www.youtube.com/results?search_query=software+developer+certification+guide"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Skill Building & Practice",
+              "description": "Deepen your expertise by developing intermediate-to-advanced skills in restful api development, database management (sql), and debugging and troubleshooting, applying them through exercises and case studies\n\nThen: Gain hands-on experience by completing software projects, open-source contributions, or technical prototypes \u2014 focus on applying programming (python, java, or c++), and data structures and algorithms in realistic scenarios"
+            }
+          ],
+          "resources": [
+            {
+              "title": "software developer \u2014 Skill Building & Practice courses on Coursera",
+              "url": "https://www.coursera.org/search?query=software+developer"
+            },
+            {
+              "title": "software developer \u2014 Skill Building & Practice courses on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=software+developer"
+            },
+            {
+              "title": "software developer \u2014 Skill Building & Practice tutorials on YouTube",
+              "url": "https://www.youtube.com/results?search_query=software+developer+Skill+Building+&+Practice+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Portfolio & Professional Profile",
+              "description": "Build a professional portfolio: publish your best projects on GitHub, create a personal website showcasing your work, and document your process and results\n\nThen: Prepare your professional profile: craft a targeted CV/resume highlighting your software developer skills, optimize your LinkedIn profile, and gather references or endorsements from mentors, instructors, or past collaborators"
+            }
+          ],
+          "resources": [
+            {
+              "title": "software developer \u2014 Portfolio & Professional Profile courses on Coursera",
+              "url": "https://www.coursera.org/search?query=software+developer"
+            },
+            {
+              "title": "software developer \u2014 Portfolio & Professional Profile courses on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=software+developer"
+            },
+            {
+              "title": "software developer \u2014 Portfolio & Professional Profile tutorials on YouTube",
+              "url": "https://www.youtube.com/results?search_query=software+developer+Portfolio+&+Professional+Profile+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Job Application / Freelancing",
+              "description": "Apply for software developer positions on job boards, company career pages, and freelance platforms (Upwork, Fiverr, Toptal) \u2014 tailor each application to the role and be ready to showcase your portfolio in interviews"
+            }
+          ],
+          "resources": [
+            {
+              "title": "software developer jobs on Wuzzuf",
+              "url": "https://wuzzuf.net/search/jobs/?q=software+developer&a=hpb"
+            },
+            {
+              "title": "software developer jobs on Forasna",
+              "url": "https://www.forasna.com/jobs/search/software-developer"
+            },
+            {
+              "title": "software developer jobs on LinkedIn",
+              "url": "https://www.linkedin.com/jobs/search/?keywords=software+developer&location=Egypt"
+            },
+            {
+              "title": "software developer jobs on Bayt.com",
+              "url": "https://www.bayt.com/en/egypt/jobs/software-developer-jobs/"
+            },
+            {
+              "title": "software developer jobs on Indeed Egypt",
+              "url": "https://eg.indeed.com/jobs?q=software+developer"
+            },
+            {
+              "title": "software developer freelance jobs on Upwork",
+              "url": "https://www.upwork.com/freelance-jobs/software-developer/"
+            },
+            {
+              "title": "software developer services on Fiverr",
+              "url": "https://www.fiverr.com/search/gigs?query=software+developer"
+            },
+            {
+              "title": "software developer projects on Mostaql",
+              "url": "https://mostaql.com/projects?keyword=software+developer"
+            },
+            {
+              "title": "Khamsat - Arabic Micro Services",
+              "url": "https://khamsat.com/"
+            },
+            {
+              "title": "software developer freelance on Toptal",
+              "url": "https://www.toptal.com/"
+            }
+          ],
+          "children": []
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/static/roadmaps/roadmap_1.png",
+    "/static/roadmaps/roadmap_2.png"
+  ]
+}

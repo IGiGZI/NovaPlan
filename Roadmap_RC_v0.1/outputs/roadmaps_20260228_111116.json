@@ -1,0 +1,195 @@
+{
+  "input": {
+    "answers": [
+      {
+        "questionId": "Q1",
+        "label": "High School Student / No degree yet"
+      },
+      {
+        "questionId": "Q_ENV_HS",
+        "label": "Office / desk-based work"
+      },
+      {
+        "questionId": "Q_PERS_HS_OFFICE",
+        "label": "I like solving problems & thinking analytically"
+      },
+      {
+        "questionId": "Q_FOCUS_HS_OFFICE_ANALYTICAL",
+        "label": "I'm not sure \u2014 show me all options"
+      },
+      {
+        "questionId": "Q_DOMAIN_HS_OFFICE_ANALYTICAL_ALL",
+        "label": "Technology & Computing"
+      },
+      {
+        "questionId": "Q_HS_OFFICE_ANALYTICAL_ALL_TECH_CAT",
+        "label": "Programming & Software Development"
+      },
+      {
+        "questionId": "Q_HS_OFFICE_ANALYTICAL_ALL_TECH_PROGRAMMING_SOFTWARE_DEVE_AREA",
+        "label": "Cloud & DevOps"
+      },
+      {
+        "questionId": "Q_HS_OFFICE_ANALYTICAL_ALL_TECH_PROGRAMMING_SOFTWARE_DEVE_CLOUD_DEVOPS_PICK",
+        "label": "Cloud Devops Engineer"
+      }
+    ],
+    "careers": [
+      "cloud DevOps engineer"
+    ],
+    "category": "Programming & Software Development"
+  },
+  "derived_skills": [],
+  "chosen_career": "cloud DevOps engineer",
+  "roadmaps": [
+    {
+      "path_title": "cloud DevOps engineer",
+      "focus": "Depth",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "milestones": [
+            {
+              "title": "Certification",
+              "description": "(Optional) Complete an online certificate, bootcamp, or structured course in cloud DevOps engineer to build a strong learning foundation"
+            }
+          ],
+          "resources": [],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Core Skill Learning",
+              "description": "Learn the fundamentals: build a solid foundation in ci/cd pipeline implementation (jenkins, github actions), containerisation (docker, kubernetes), and infrastructure as code (terraform, ansible) \u2014 these are the essential building blocks for a cloud DevOps engineer"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Introduction to Linux by The Linux Foundation",
+              "url": "https://www.edx.org/course/introduction-to-linux"
+            },
+            {
+              "title": "Pro Git Book (Official Documentation)",
+              "url": "https://git-scm.com/book/en/v2"
+            },
+            {
+              "title": "Automate the Boring Stuff with Python",
+              "url": "https://automatetheboringstuff.com/"
+            },
+            {
+              "title": "AWS Cloud Practitioner Essentials (Free Digital Course)",
+              "url": "https://aws.amazon.com/training/digital/aws-cloud-practitioner-essentials/"
+            },
+            {
+              "title": "The Bits and Bytes of Computer Networking (Google IT Support Certificate)",
+              "url": "https://www.coursera.org/learn/computer-networking"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Intermediate / Advanced Skills",
+              "description": "Deepen your expertise by developing intermediate-to-advanced skills in cloud platforms (aws, azure, gcp), monitoring and alerting (prometheus, grafana), and scripting (bash, python), applying them through exercises and case studies"
+            }
+          ],
+          "resources": [],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Hands-on Practice",
+              "description": "Gain hands-on experience by completing software projects, open-source contributions, or technical prototypes \u2014 focus on applying ci/cd pipeline implementation (jenkins, github actions), and containerisation (docker, kubernetes) in realistic scenarios"
+            }
+          ],
+          "resources": [],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Portfolio Building",
+              "description": "Build a professional portfolio: publish your best projects on GitHub, create a personal website showcasing your work, and document your process and results"
+            }
+          ],
+          "resources": [],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "CV / Profile Building",
+              "description": "Prepare your professional profile: craft a targeted CV/resume highlighting your cloud DevOps engineer skills, optimize your LinkedIn profile, and gather references or endorsements from mentors, instructors, or past collaborators"
+            }
+          ],
+          "resources": [],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Job Application / Freelancing",
+              "description": "Apply for cloud DevOps engineer positions through job boards, company career pages, professional networks, and industry-specific platforms \u2014 tailor each application and prepare to discuss your hands-on experience and portfolio in interviews"
+            }
+          ],
+          "resources": [],
+          "children": []
+        }
+      ]
+    },
+    {
+      "path_title": "cloud DevOps engineer",
+      "focus": "Fast-Entry",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "milestones": [
+            {
+              "title": "Foundation & Core Skills",
+              "description": "(Optional) Complete an online certificate, bootcamp, or structured course in cloud DevOps engineer to build a strong learning foundation\n\nThen: Learn the fundamentals: build a solid foundation in ci/cd pipeline implementation (jenkins, github actions), containerisation (docker, kubernetes), and infrastructure as code (terraform, ansible) \u2014 these are the essential building blocks for a cloud DevOps engineer"
+            }
+          ],
+          "resources": [],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Skill Building & Practice",
+              "description": "Deepen your expertise by developing intermediate-to-advanced skills in cloud platforms (aws, azure, gcp), monitoring and alerting (prometheus, grafana), and scripting (bash, python), applying them through exercises and case studies\n\nThen: Gain hands-on experience by completing software projects, open-source contributions, or technical prototypes \u2014 focus on applying ci/cd pipeline implementation (jenkins, github actions), and containerisation (docker, kubernetes) in realistic scenarios"
+            }
+          ],
+          "resources": [],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Portfolio & Professional Profile",
+              "description": "Build a professional portfolio: publish your best projects on GitHub, create a personal website showcasing your work, and document your process and results\n\nThen: Prepare your professional profile: craft a targeted CV/resume highlighting your cloud DevOps engineer skills, optimize your LinkedIn profile, and gather references or endorsements from mentors, instructors, or past collaborators"
+            }
+          ],
+          "resources": [],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Job Application / Freelancing",
+              "description": "Apply for cloud DevOps engineer positions through job boards, company career pages, professional networks, and industry-specific platforms \u2014 tailor each application and prepare to discuss your hands-on experience and portfolio in interviews"
+            }
+          ],
+          "resources": [],
+          "children": []
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/static/roadmaps/roadmap_1.png",
+    "/static/roadmaps/roadmap_2.png"
+  ]
+}

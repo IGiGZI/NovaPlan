@@ -1,0 +1,887 @@
+{
+  "input": {
+    "answers": [
+      {
+        "questionId": "Q1",
+        "label": "High School Student / No degree yet"
+      },
+      {
+        "questionId": "Q_PERS1_HS",
+        "label": "I like creating, designing, or making things"
+      },
+      {
+        "questionId": "Q_PERS2_HS_CREATIVE",
+        "label": "Remote or flexible \u2014 I work best independently"
+      },
+      {
+        "questionId": "Q_PERS3_HS_CREATIVE_REMOTE",
+        "label": "Balanced \u2014 good pay and meaningful work"
+      },
+      {
+        "questionId": "Q_PERS4_HS_CREATIVE_REMOTE_BAL",
+        "label": "Large collaborative organization"
+      },
+      {
+        "questionId": "Q_PERS5_HS_CREATIVE_REMOTE_BAL_LARGE",
+        "label": "Public sector / government / non-profit"
+      },
+      {
+        "questionId": "Q_DOMAIN_HS",
+        "label": "Business or Entrepreneurship"
+      },
+      {
+        "questionId": "Q3_HS_BIZ",
+        "label": "Marketing and selling"
+      },
+      {
+        "questionId": "Q4_HS_BIZ_MKT",
+        "label": "Creative advertising and campaigns"
+      },
+      {
+        "questionId": "Q5_HS_BIZ_MKT",
+        "label": "Yes, data-driven marketing excites me"
+      }
+    ],
+    "careers": [
+      "business analyst"
+    ],
+    "category": "Business, Management & HR"
+  },
+  "derived_skills": [],
+  "chosen_career": "business analyst",
+  "roadmaps": [
+    {
+      "path_title": "business analyst",
+      "focus": "Depth",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "title": "Foundations",
+          "objective": "Build essential groundwork for your career",
+          "prerequisites": [],
+          "resources": [
+            "Standard Industry Tools"
+          ],
+          "tasks": [
+            {
+              "title": "(Earn a cbap)",
+              "description": "Earn a CBAP certification (Certified Business Analysis Professional) to strengthen your credentials"
+            }
+          ],
+          "children": [
+            {
+              "title": "Industry Fundamentals",
+              "objective": "Understand the core concepts of business analyst",
+              "prerequisites": [],
+              "resources": [
+                "Online Courses",
+                "Industry Glossaries",
+                "Career Guides"
+              ],
+              "tasks": [
+                {
+                  "title": "(A master's degree)",
+                  "description": "Complete a master's degree in business analysis, management, or information systems"
+                },
+                {
+                  "title": "(Process modeling)",
+                  "description": "Develop skills in process modeling, stakeholder requirements gathering, and solution design"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Tools & Environment",
+              "objective": "Set up your professional workspace",
+              "prerequisites": [],
+              "resources": [
+                "Official Documentation",
+                "Community Forums"
+              ],
+              "tasks": [
+                {
+                  "title": "(Learn business analysis)",
+                  "description": "Learn business analysis methodologies (BABOK, Agile BA, Lean process improvement)"
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Core Skills Development",
+          "objective": "Master essential skills for business analyst",
+          "prerequisites": [],
+          "resources": [
+            "Online Learning Platforms"
+          ],
+          "tasks": [
+            {
+              "title": "(Core skills 1)",
+              "description": "Master core skills 1"
+            }
+          ],
+          "children": [
+            {
+              "title": "Requirements Gathering And Documentation Proficiency",
+              "objective": "Develop proficiency in requirements gathering and documentation",
+              "prerequisites": [],
+              "resources": [
+                "Requirements Gathering And Documentation Resources"
+              ],
+              "tasks": [
+                {
+                  "title": "(End-to-end analysis projects)",
+                  "description": "Complete end-to-end analysis projects documenting processes, gaps, and proposed solutions"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Process Mapping And Analysis Proficiency",
+              "objective": "Develop proficiency in process mapping and analysis",
+              "prerequisites": [],
+              "resources": [
+                "Process Mapping And Analysis Resources"
+              ],
+              "tasks": [
+                {
+                  "title": "(Communication skills for)",
+                  "description": "Build communication skills for translating complex business problems into clear requirements"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Stakeholder Management Proficiency",
+              "objective": "Develop proficiency in stakeholder management",
+              "prerequisites": [],
+              "resources": [
+                "Stakeholder Management Resources"
+              ],
+              "tasks": [
+                {
+                  "title": "(For business analyst)",
+                  "description": "Apply for business analyst roles in consultancy, banking, healthcare, or technology sectors"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Gap Analysis Proficiency",
+              "objective": "Develop proficiency in gap analysis",
+              "prerequisites": [],
+              "resources": [
+                "Gap Analysis Resources"
+              ],
+              "tasks": [
+                {
+                  "title": "(Gap analysis 1)",
+                  "description": "Practice gap analysis 1"
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Practical Application",
+          "objective": "Gain hands-on experience through projects or simulations",
+          "prerequisites": [],
+          "resources": [
+            "Portfolio Platform"
+          ],
+          "tasks": [
+            {
+              "title": "(Portfolio 1)",
+              "description": "Build portfolio 1"
+            }
+          ],
+          "children": [
+            {
+              "title": "Applied Practice Project",
+              "objective": "Apply core skills in a realistic scenario",
+              "prerequisites": [
+                "requirements gathering and documentation",
+                "process mapping and analysis"
+              ],
+              "resources": [
+                "Project Management Tools",
+                "Documentation Tools"
+              ],
+              "tasks": [
+                {
+                  "title": "(Core skills 1)",
+                  "description": "Apply core skills 1"
+                },
+                {
+                  "title": "(Core skills 2)",
+                  "description": "Apply core skills 2"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Advanced Capstone",
+              "objective": "Demonstrate comprehensive mastery",
+              "prerequisites": [
+                "requirements gathering and documentation",
+                "process mapping and analysis",
+                "stakeholder management"
+              ],
+              "resources": [
+                "Advanced Tools"
+              ],
+              "tasks": [
+                {
+                  "title": "(Mastery 1)",
+                  "description": "Demonstrate mastery 1"
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Specialization",
+          "objective": "Develop expertise in specific areas",
+          "prerequisites": [],
+          "resources": [
+            "Industry Certifications"
+          ],
+          "tasks": [
+            {
+              "title": "(Specialization 1)",
+              "description": "Choose specialization 1"
+            }
+          ],
+          "children": [
+            {
+              "title": "Specialization Track",
+              "objective": "Deep dive into a specific area",
+              "prerequisites": [
+                "requirements gathering and documentation",
+                "process mapping and analysis"
+              ],
+              "resources": [
+                "Specialized Training"
+              ],
+              "tasks": [
+                {
+                  "title": "(Advanced topic 1)",
+                  "description": "Study advanced topic 1"
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Career Launch",
+          "objective": "Land your first role in the field",
+          "prerequisites": [],
+          "resources": [
+            "Job Search Platforms"
+          ],
+          "tasks": [
+            {
+              "title": "(Job offer 1)",
+              "description": "Secure job offer 1"
+            }
+          ],
+          "children": [
+            {
+              "title": "Professional Branding",
+              "objective": "Create compelling professional presence",
+              "prerequisites": [],
+              "resources": [
+                "LinkedIn",
+                "Resume Builder"
+              ],
+              "tasks": [
+                {
+                  "title": "(Professional branding 1)",
+                  "description": "Professional Branding 1"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Job Search Strategy",
+              "objective": "Execute systematic job search",
+              "prerequisites": [],
+              "resources": [
+                "Job Boards",
+                "Networking Events"
+              ],
+              "tasks": [
+                {
+                  "title": "(Job search strategy)",
+                  "description": "Job Search Strategy 1"
+                }
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path_title": "business analyst",
+      "focus": "Fast-Entry",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "title": "Foundations",
+          "objective": "Build essential groundwork for your career",
+          "prerequisites": [],
+          "resources": [
+            "Standard Industry Tools"
+          ],
+          "tasks": [
+            {
+              "title": "(Earn a cbap)",
+              "description": "Earn a CBAP certification (Certified Business Analysis Professional) to strengthen your credentials"
+            }
+          ],
+          "children": [
+            {
+              "title": "Industry Fundamentals",
+              "objective": "Understand the core concepts of business analyst",
+              "prerequisites": [],
+              "resources": [
+                "Online Courses",
+                "Industry Glossaries",
+                "Career Guides"
+              ],
+              "tasks": [
+                {
+                  "title": "(A master's degree)",
+                  "description": "Complete a master's degree in business analysis, management, or information systems"
+                },
+                {
+                  "title": "(Process modeling)",
+                  "description": "Develop skills in process modeling, stakeholder requirements gathering, and solution design"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Tools & Environment",
+              "objective": "Set up your professional workspace",
+              "prerequisites": [],
+              "resources": [
+                "Official Documentation",
+                "Community Forums"
+              ],
+              "tasks": [
+                {
+                  "title": "(Learn business analysis)",
+                  "description": "Learn business analysis methodologies (BABOK, Agile BA, Lean process improvement)"
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Core Skills Development",
+          "objective": "Master essential skills for business analyst",
+          "prerequisites": [],
+          "resources": [
+            "Online Learning Platforms"
+          ],
+          "tasks": [
+            {
+              "title": "(Core skills 1)",
+              "description": "Master core skills 1"
+            }
+          ],
+          "children": [
+            {
+              "title": "Requirements Gathering And Documentation Proficiency",
+              "objective": "Develop proficiency in requirements gathering and documentation",
+              "prerequisites": [],
+              "resources": [
+                "Requirements Gathering And Documentation Resources"
+              ],
+              "tasks": [
+                {
+                  "title": "(End-to-end analysis projects)",
+                  "description": "Complete end-to-end analysis projects documenting processes, gaps, and proposed solutions"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Process Mapping And Analysis Proficiency",
+              "objective": "Develop proficiency in process mapping and analysis",
+              "prerequisites": [],
+              "resources": [
+                "Process Mapping And Analysis Resources"
+              ],
+              "tasks": [
+                {
+                  "title": "(Communication skills for)",
+                  "description": "Build communication skills for translating complex business problems into clear requirements"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Stakeholder Management Proficiency",
+              "objective": "Develop proficiency in stakeholder management",
+              "prerequisites": [],
+              "resources": [
+                "Stakeholder Management Resources"
+              ],
+              "tasks": [
+                {
+                  "title": "(For business analyst)",
+                  "description": "Apply for business analyst roles in consultancy, banking, healthcare, or technology sectors"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Gap Analysis Proficiency",
+              "objective": "Develop proficiency in gap analysis",
+              "prerequisites": [],
+              "resources": [
+                "Gap Analysis Resources"
+              ],
+              "tasks": [
+                {
+                  "title": "(Gap analysis 1)",
+                  "description": "Practice gap analysis 1"
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Practical Application",
+          "objective": "Gain hands-on experience through projects or simulations",
+          "prerequisites": [],
+          "resources": [
+            "Portfolio Platform"
+          ],
+          "tasks": [
+            {
+              "title": "(Portfolio 1)",
+              "description": "Build portfolio 1"
+            }
+          ],
+          "children": [
+            {
+              "title": "Applied Practice Project",
+              "objective": "Apply core skills in a realistic scenario",
+              "prerequisites": [
+                "requirements gathering and documentation",
+                "process mapping and analysis"
+              ],
+              "resources": [
+                "Project Management Tools",
+                "Documentation Tools"
+              ],
+              "tasks": [
+                {
+                  "title": "(Core skills 1)",
+                  "description": "Apply core skills 1"
+                },
+                {
+                  "title": "(Core skills 2)",
+                  "description": "Apply core skills 2"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Advanced Capstone",
+              "objective": "Demonstrate comprehensive mastery",
+              "prerequisites": [
+                "requirements gathering and documentation",
+                "process mapping and analysis",
+                "stakeholder management"
+              ],
+              "resources": [
+                "Advanced Tools"
+              ],
+              "tasks": [
+                {
+                  "title": "(Mastery 1)",
+                  "description": "Demonstrate mastery 1"
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Specialization",
+          "objective": "Develop expertise in specific areas",
+          "prerequisites": [],
+          "resources": [
+            "Industry Certifications"
+          ],
+          "tasks": [
+            {
+              "title": "(Specialization 1)",
+              "description": "Choose specialization 1"
+            }
+          ],
+          "children": [
+            {
+              "title": "Specialization Track",
+              "objective": "Deep dive into a specific area",
+              "prerequisites": [
+                "requirements gathering and documentation",
+                "process mapping and analysis"
+              ],
+              "resources": [
+                "Specialized Training"
+              ],
+              "tasks": [
+                {
+                  "title": "(Advanced topic 1)",
+                  "description": "Study advanced topic 1"
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Career Launch",
+          "objective": "Land your first role in the field",
+          "prerequisites": [],
+          "resources": [
+            "Job Search Platforms"
+          ],
+          "tasks": [
+            {
+              "title": "(Job offer 1)",
+              "description": "Secure job offer 1"
+            }
+          ],
+          "children": [
+            {
+              "title": "Professional Branding",
+              "objective": "Create compelling professional presence",
+              "prerequisites": [],
+              "resources": [
+                "LinkedIn",
+                "Resume Builder"
+              ],
+              "tasks": [
+                {
+                  "title": "(Professional branding 1)",
+                  "description": "Professional Branding 1"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Job Search Strategy",
+              "objective": "Execute systematic job search",
+              "prerequisites": [],
+              "resources": [
+                "Job Boards",
+                "Networking Events"
+              ],
+              "tasks": [
+                {
+                  "title": "(Job search strategy)",
+                  "description": "Job Search Strategy 1"
+                }
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path_title": "business analyst",
+      "focus": "Transition",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "title": "Foundations",
+          "objective": "Build essential groundwork for your career",
+          "prerequisites": [],
+          "resources": [
+            "Standard Industry Tools"
+          ],
+          "tasks": [
+            {
+              "title": "(Earn a cbap)",
+              "description": "Earn a CBAP certification (Certified Business Analysis Professional) to strengthen your credentials"
+            }
+          ],
+          "children": [
+            {
+              "title": "Industry Fundamentals",
+              "objective": "Understand the core concepts of business analyst",
+              "prerequisites": [],
+              "resources": [
+                "Online Courses",
+                "Industry Glossaries",
+                "Career Guides"
+              ],
+              "tasks": [
+                {
+                  "title": "(A master's degree)",
+                  "description": "Complete a master's degree in business analysis, management, or information systems"
+                },
+                {
+                  "title": "(Process modeling)",
+                  "description": "Develop skills in process modeling, stakeholder requirements gathering, and solution design"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Tools & Environment",
+              "objective": "Set up your professional workspace",
+              "prerequisites": [],
+              "resources": [
+                "Official Documentation",
+                "Community Forums"
+              ],
+              "tasks": [
+                {
+                  "title": "(Learn business analysis)",
+                  "description": "Learn business analysis methodologies (BABOK, Agile BA, Lean process improvement)"
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Core Skills Development",
+          "objective": "Master essential skills for business analyst",
+          "prerequisites": [],
+          "resources": [
+            "Online Learning Platforms"
+          ],
+          "tasks": [
+            {
+              "title": "(Core skills 1)",
+              "description": "Master core skills 1"
+            }
+          ],
+          "children": [
+            {
+              "title": "Requirements Gathering And Documentation Proficiency",
+              "objective": "Develop proficiency in requirements gathering and documentation",
+              "prerequisites": [],
+              "resources": [
+                "Requirements Gathering And Documentation Resources"
+              ],
+              "tasks": [
+                {
+                  "title": "(End-to-end analysis projects)",
+                  "description": "Complete end-to-end analysis projects documenting processes, gaps, and proposed solutions"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Process Mapping And Analysis Proficiency",
+              "objective": "Develop proficiency in process mapping and analysis",
+              "prerequisites": [],
+              "resources": [
+                "Process Mapping And Analysis Resources"
+              ],
+              "tasks": [
+                {
+                  "title": "(Communication skills for)",
+                  "description": "Build communication skills for translating complex business problems into clear requirements"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Stakeholder Management Proficiency",
+              "objective": "Develop proficiency in stakeholder management",
+              "prerequisites": [],
+              "resources": [
+                "Stakeholder Management Resources"
+              ],
+              "tasks": [
+                {
+                  "title": "(For business analyst)",
+                  "description": "Apply for business analyst roles in consultancy, banking, healthcare, or technology sectors"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Gap Analysis Proficiency",
+              "objective": "Develop proficiency in gap analysis",
+              "prerequisites": [],
+              "resources": [
+                "Gap Analysis Resources"
+              ],
+              "tasks": [
+                {
+                  "title": "(Gap analysis 1)",
+                  "description": "Practice gap analysis 1"
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Practical Application",
+          "objective": "Gain hands-on experience through projects or simulations",
+          "prerequisites": [],
+          "resources": [
+            "Portfolio Platform"
+          ],
+          "tasks": [
+            {
+              "title": "(Portfolio 1)",
+              "description": "Build portfolio 1"
+            }
+          ],
+          "children": [
+            {
+              "title": "Applied Practice Project",
+              "objective": "Apply core skills in a realistic scenario",
+              "prerequisites": [
+                "requirements gathering and documentation",
+                "process mapping and analysis"
+              ],
+              "resources": [
+                "Project Management Tools",
+                "Documentation Tools"
+              ],
+              "tasks": [
+                {
+                  "title": "(Core skills 1)",
+                  "description": "Apply core skills 1"
+                },
+                {
+                  "title": "(Core skills 2)",
+                  "description": "Apply core skills 2"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Advanced Capstone",
+              "objective": "Demonstrate comprehensive mastery",
+              "prerequisites": [
+                "requirements gathering and documentation",
+                "process mapping and analysis",
+                "stakeholder management"
+              ],
+              "resources": [
+                "Advanced Tools"
+              ],
+              "tasks": [
+                {
+                  "title": "(Mastery 1)",
+                  "description": "Demonstrate mastery 1"
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Specialization",
+          "objective": "Develop expertise in specific areas",
+          "prerequisites": [],
+          "resources": [
+            "Industry Certifications"
+          ],
+          "tasks": [
+            {
+              "title": "(Specialization 1)",
+              "description": "Choose specialization 1"
+            }
+          ],
+          "children": [
+            {
+              "title": "Specialization Track",
+              "objective": "Deep dive into a specific area",
+              "prerequisites": [
+                "requirements gathering and documentation",
+                "process mapping and analysis"
+              ],
+              "resources": [
+                "Specialized Training"
+              ],
+              "tasks": [
+                {
+                  "title": "(Advanced topic 1)",
+                  "description": "Study advanced topic 1"
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Career Launch",
+          "objective": "Land your first role in the field",
+          "prerequisites": [],
+          "resources": [
+            "Job Search Platforms"
+          ],
+          "tasks": [
+            {
+              "title": "(Job offer 1)",
+              "description": "Secure job offer 1"
+            }
+          ],
+          "children": [
+            {
+              "title": "Professional Branding",
+              "objective": "Create compelling professional presence",
+              "prerequisites": [],
+              "resources": [
+                "LinkedIn",
+                "Resume Builder"
+              ],
+              "tasks": [
+                {
+                  "title": "(Professional branding 1)",
+                  "description": "Professional Branding 1"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Job Search Strategy",
+              "objective": "Execute systematic job search",
+              "prerequisites": [],
+              "resources": [
+                "Job Boards",
+                "Networking Events"
+              ],
+              "tasks": [
+                {
+                  "title": "(Job search strategy)",
+                  "description": "Job Search Strategy 1"
+                }
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/static/roadmaps/roadmap_1.png",
+    "/static/roadmaps/roadmap_2.png",
+    "/static/roadmaps/roadmap_3.png"
+  ]
+}

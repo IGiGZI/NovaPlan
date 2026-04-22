@@ -1,0 +1,429 @@
+{
+  "input": {
+    "answers": [
+      {
+        "questionId": "Q1",
+        "label": "High School Student / No degree yet"
+      },
+      {
+        "questionId": "Q_ENV_HS",
+        "label": "Office / desk-based work"
+      },
+      {
+        "questionId": "Q_PERS_HS_OFFICE",
+        "label": "I like solving problems & thinking analytically"
+      },
+      {
+        "questionId": "Q_FOCUS_HS_OFFICE_ANALYTICAL",
+        "label": "Data analysis, AI, or machine learning"
+      },
+      {
+        "questionId": "Q_HS_OFFICE_ANALYTICAL_OA_DATA_TECH_CAT",
+        "label": "Programming & Software Development"
+      },
+      {
+        "questionId": "Q_HS_OFFICE_ANALYTICAL_OA_DATA_TECH_PROGRAMMING_SOFTWARE_DEVE_AREA",
+        "label": "Backend & Full Stack"
+      },
+      {
+        "questionId": "Q_HS_OFFICE_ANALYTICAL_OA_DATA_TECH_PROGRAMMING_SOFTWARE_DEVE_BACKEND_FULL_STACK_PICK",
+        "label": "Full Stack Developer"
+      }
+    ],
+    "careers": [
+      "full stack developer"
+    ],
+    "category": "Programming & Software Development"
+  },
+  "derived_skills": [],
+  "chosen_career": "full stack developer",
+  "roadmaps": [
+    {
+      "path_title": "full stack developer",
+      "focus": "Depth",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "milestones": [
+            {
+              "title": "Certification",
+              "description": "(Optional) Complete an online certificate, bootcamp, or structured course in full stack developer to build a strong learning foundation"
+            }
+          ],
+          "resources": [
+            {
+              "title": "freeCodeCamp Full Stack Curriculum (Multiple Certifications)",
+              "url": "https://www.freecodecamp.org/learn/"
+            },
+            {
+              "title": "IBM Full Stack Cloud Developer Professional Certificate on Coursera",
+              "url": "https://www.coursera.org/professional-certificates/ibm-full-stack-cloud-developer"
+            },
+            {
+              "title": "The Complete 2024 Web Development Bootcamp (Angela Yu) on Udemy",
+              "url": "https://www.udemy.com/course/the-complete-web-development-bootcamp/"
+            },
+            {
+              "title": "Professional Certificate in Full Stack Web Development (HKUST) on edX",
+              "url": "https://www.edx.org/certificates/professional-certificate/hkustx-full-stack-web-development"
+            },
+            {
+              "title": "Google Cloud Associate Cloud Engineer Professional Certificate",
+              "url": "https://grow.google/certificates/cloud-engineer/"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Core Skill Learning",
+              "description": "Learn the fundamentals: build a solid foundation in frontend frameworks (react, vue.js, angular), backend frameworks (node.js, django, spring boot), and database management (sql and nosql) \u2014 these are the essential building blocks for a full stack developer"
+            }
+          ],
+          "resources": [
+            {
+              "title": "freeCodeCamp Responsive Web Design Certification",
+              "url": "https://www.freecodecamp.org/learn/responsive-web-design/"
+            },
+            {
+              "title": "MDN Web Docs: JavaScript Guide",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+            },
+            {
+              "title": "Coursera: Python for Everybody Specialization (University of Michigan)",
+              "url": "https://www.coursera.org/specializations/python"
+            },
+            {
+              "title": "W3Schools SQL Tutorial",
+              "url": "https://www.w3schools.com/sql/"
+            },
+            {
+              "title": "GitHub Git Handbook",
+              "url": "https://guides.github.com/introduction/git-handbook/"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Intermediate / Advanced Skills",
+              "description": "Deepen your expertise by developing intermediate-to-advanced skills in api development and integration, version control (git), and cloud infrastructure and deployment, applying them through exercises and case studies"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Advanced React Development & Performance Optimization",
+              "url": "https://www.udemy.com/topic/react-advanced/"
+            },
+            {
+              "title": "Cloud Computing Fundamentals (AWS/Azure/GCP Learning Paths)",
+              "url": "https://www.coursera.org/search?query=cloud%20computing"
+            },
+            {
+              "title": "DevOps, Docker, and Kubernetes Introduction",
+              "url": "https://www.freecodecamp.org/news/tag/devops/"
+            },
+            {
+              "title": "System Design Primer (Scalability & Architecture)",
+              "url": "https://github.com/donnemartin/system-design-primer"
+            },
+            {
+              "title": "Advanced Database Management Systems and Optimization",
+              "url": "https://www.geeksforgeeks.org/dbms/"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Hands-on Practice",
+              "description": "Gain hands-on experience by completing software projects, open-source contributions, or technical prototypes \u2014 focus on applying frontend frameworks (react, vue.js, angular), and backend frameworks (node.js, django, spring boot) in realistic scenarios"
+            }
+          ],
+          "resources": [
+            {
+              "title": "freeCodeCamp - Build Projects to Earn Certificates",
+              "url": "https://www.freecodecamp.org/learn/"
+            },
+            {
+              "title": "MDN Web Docs - Web Development Learning Paths and Tutorials",
+              "url": "https://developer.mozilla.org/en-US/docs/Web"
+            },
+            {
+              "title": "Udemy - Search for Full-Stack Project Courses",
+              "url": "https://www.udemy.com/courses/search/?q=full%20stack%20project"
+            },
+            {
+              "title": "GitHub - MERN Stack Topic (Project Boilerplates & Examples)",
+              "url": "https://github.com/topics/mern-stack"
+            },
+            {
+              "title": "Traversy Media - Full-Stack Development Project Tutorials (YouTube)",
+              "url": "https://www.youtube.com/@TraversyMedia"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Portfolio Building",
+              "description": "Build a professional portfolio: publish your best projects on GitHub, create a personal website showcasing your work, and document your process and results"
+            }
+          ],
+          "resources": [
+            {
+              "title": "freeCodeCamp: Responsive Web Design Certification (includes Portfolio Project)",
+              "url": "https://www.freecodecamp.org/learn/responsive-web-design/"
+            },
+            {
+              "title": "Udemy: Search for 'Full Stack Projects' (Course Ideas)",
+              "url": "https://www.udemy.com/courses/search/?q=full+stack+projects"
+            },
+            {
+              "title": "GitHub Topics: Portfolio Website (Project Inspiration & Examples)",
+              "url": "https://github.com/topics/portfolio-website"
+            },
+            {
+              "title": "Traversy Media YouTube Channel (Full Stack Project Builds)",
+              "url": "https://www.youtube.com/@TraversyMedia"
+            },
+            {
+              "title": "MDN Web Docs: Learn Web Development (Foundational Project Knowledge)",
+              "url": "https://developer.mozilla.org/en-US/docs/Web"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "CV / Profile Building",
+              "description": "Prepare your professional profile: craft a targeted CV/resume highlighting your full stack developer skills, optimize your LinkedIn profile, and gather references or endorsements from mentors, instructors, or past collaborators"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Professional Resume & CV Writing",
+              "url": "https://www.udemy.com/courses/search/?src=ukw&q=resume+writing"
+            },
+            {
+              "title": "Building a Standout Developer Portfolio",
+              "url": "https://www.youtube.com/results?search_query=developer+portfolio+tutorial"
+            },
+            {
+              "title": "Optimizing Your GitHub Profile and Project READMEs",
+              "url": "https://docs.github.com/en/repositories/creating-and-managing-repositories/about-readmes"
+            },
+            {
+              "title": "LinkedIn Profile Optimization for Tech Professionals",
+              "url": "https://www.coursera.org/browse/career-development"
+            },
+            {
+              "title": "Crafting an Effective Developer Cover Letter",
+              "url": "https://www.freecodecamp.org/news/tag/cover-letter/"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Job Application / Freelancing",
+              "description": "Apply for full stack developer positions on job boards, company career pages, and freelance platforms (Upwork, Fiverr, Toptal) \u2014 tailor each application to the role and be ready to showcase your portfolio in interviews"
+            }
+          ],
+          "resources": [
+            {
+              "title": "full stack developer jobs on Wuzzuf",
+              "url": "https://wuzzuf.net/search/jobs/?q=full+stack+developer&a=hpb"
+            },
+            {
+              "title": "full stack developer jobs on Forasna",
+              "url": "https://www.forasna.com/jobs/search/full-stack-developer"
+            },
+            {
+              "title": "full stack developer jobs on LinkedIn",
+              "url": "https://www.linkedin.com/jobs/search/?keywords=full+stack+developer&location=Egypt"
+            },
+            {
+              "title": "full stack developer jobs on Bayt.com",
+              "url": "https://www.bayt.com/en/egypt/jobs/full-stack-developer-jobs/"
+            },
+            {
+              "title": "full stack developer jobs on Indeed Egypt",
+              "url": "https://eg.indeed.com/jobs?q=full+stack+developer"
+            },
+            {
+              "title": "full stack developer freelance jobs on Upwork",
+              "url": "https://www.upwork.com/freelance-jobs/full-stack-developer/"
+            },
+            {
+              "title": "full stack developer services on Fiverr",
+              "url": "https://www.fiverr.com/search/gigs?query=full+stack+developer"
+            },
+            {
+              "title": "full stack developer projects on Mostaql",
+              "url": "https://mostaql.com/projects?keyword=full+stack+developer"
+            },
+            {
+              "title": "Khamsat - Arabic Micro Services",
+              "url": "https://khamsat.com/"
+            },
+            {
+              "title": "full stack developer freelance on Toptal",
+              "url": "https://www.toptal.com/"
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "path_title": "full stack developer",
+      "focus": "Fast-Entry",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "milestones": [
+            {
+              "title": "Foundation & Core Skills",
+              "description": "(Optional) Complete an online certificate, bootcamp, or structured course in full stack developer to build a strong learning foundation\n\nThen: Learn the fundamentals: build a solid foundation in frontend frameworks (react, vue.js, angular), backend frameworks (node.js, django, spring boot), and database management (sql and nosql) \u2014 these are the essential building blocks for a full stack developer"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Responsive Web Design Certification (freeCodeCamp)",
+              "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/"
+            },
+            {
+              "title": "Google IT Automation with Python Professional Certificate (Coursera)",
+              "url": "https://www.coursera.org/professional-certificates/google-it-automation-python"
+            },
+            {
+              "title": "The Complete JavaScript Course From Zero to Expert! (Udemy)",
+              "url": "https://www.udemy.com/courses/search/?q=the+complete+javascript+course+from+zero+to+expert"
+            },
+            {
+              "title": "Introduction to Computer Science (Khan Academy)",
+              "url": "https://www.khanacademy.org/computing/computer-science"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Skill Building & Practice",
+              "description": "Deepen your expertise by developing intermediate-to-advanced skills in api development and integration, version control (git), and cloud infrastructure and deployment, applying them through exercises and case studies\n\nThen: Gain hands-on experience by completing software projects, open-source contributions, or technical prototypes \u2014 focus on applying frontend frameworks (react, vue.js, angular), and backend frameworks (node.js, django, spring boot) in realistic scenarios"
+            }
+          ],
+          "resources": [
+            {
+              "title": "MDN Web Docs (HTML, CSS, JavaScript, Web Concepts)",
+              "url": "https://developer.mozilla.org/en-US/"
+            },
+            {
+              "title": "freeCodeCamp Full-Stack Development Curriculum",
+              "url": "https://www.freecodecamp.org/learn/"
+            },
+            {
+              "title": "Udemy - Web Development Course Category",
+              "url": "https://www.udemy.com/courses/development/web-development/"
+            },
+            {
+              "title": "GitHub Guides (Learn Git and GitHub)",
+              "url": "https://docs.github.com/en/get-started/guides"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Portfolio & Professional Profile",
+              "description": "Build a professional portfolio: publish your best projects on GitHub, create a personal website showcasing your work, and document your process and results\n\nThen: Prepare your professional profile: craft a targeted CV/resume highlighting your full stack developer skills, optimize your LinkedIn profile, and gather references or endorsements from mentors, instructors, or past collaborators"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Build a Personal Portfolio Website (freeCodeCamp)",
+              "url": "https://www.freecodecamp.org/learn/responsive-web-design/"
+            },
+            {
+              "title": "Master Git and GitHub for Project Showcase",
+              "url": "https://lab.github.com/"
+            },
+            {
+              "title": "Optimize Your Professional Profile (LinkedIn & Networking)",
+              "url": "https://www.coursera.org/search?query=linkedin"
+            },
+            {
+              "title": "Developer Resume and Interview Preparation Guide",
+              "url": "https://www.geeksforgeeks.org/search/?q=developer%20resume"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Job Application / Freelancing",
+              "description": "Apply for full stack developer positions on job boards, company career pages, and freelance platforms (Upwork, Fiverr, Toptal) \u2014 tailor each application to the role and be ready to showcase your portfolio in interviews"
+            }
+          ],
+          "resources": [
+            {
+              "title": "full stack developer jobs on Wuzzuf",
+              "url": "https://wuzzuf.net/search/jobs/?q=full+stack+developer&a=hpb"
+            },
+            {
+              "title": "full stack developer jobs on Forasna",
+              "url": "https://www.forasna.com/jobs/search/full-stack-developer"
+            },
+            {
+              "title": "full stack developer jobs on LinkedIn",
+              "url": "https://www.linkedin.com/jobs/search/?keywords=full+stack+developer&location=Egypt"
+            },
+            {
+              "title": "full stack developer jobs on Bayt.com",
+              "url": "https://www.bayt.com/en/egypt/jobs/full-stack-developer-jobs/"
+            },
+            {
+              "title": "full stack developer jobs on Indeed Egypt",
+              "url": "https://eg.indeed.com/jobs?q=full+stack+developer"
+            },
+            {
+              "title": "full stack developer freelance jobs on Upwork",
+              "url": "https://www.upwork.com/freelance-jobs/full-stack-developer/"
+            },
+            {
+              "title": "full stack developer services on Fiverr",
+              "url": "https://www.fiverr.com/search/gigs?query=full+stack+developer"
+            },
+            {
+              "title": "full stack developer projects on Mostaql",
+              "url": "https://mostaql.com/projects?keyword=full+stack+developer"
+            },
+            {
+              "title": "Khamsat - Arabic Micro Services",
+              "url": "https://khamsat.com/"
+            },
+            {
+              "title": "full stack developer freelance on Toptal",
+              "url": "https://www.toptal.com/"
+            }
+          ],
+          "children": []
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/static/roadmaps/roadmap_1.png",
+    "/static/roadmaps/roadmap_2.png"
+  ]
+}

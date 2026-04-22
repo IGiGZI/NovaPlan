@@ -1,0 +1,321 @@
+{
+  "input": {
+    "answers": [
+      {
+        "questionId": "Q1",
+        "label": "Graduate (Master's or higher)"
+      },
+      {
+        "questionId": "Q_ENV_GR",
+        "label": "Office / desk-based work"
+      },
+      {
+        "questionId": "Q_PERS_GR_OFFICE",
+        "label": "I like helping, teaching, or supporting people"
+      },
+      {
+        "questionId": "Q_FOCUS_GR_OFFICE_PEOPLE",
+        "label": "Law, compliance, or policy work"
+      },
+      {
+        "questionId": "Q_GR_OFFICE_PEOPLE_OP_LEGAL_LEGAL_LEGAL_PICK",
+        "label": "Lawyer"
+      }
+    ],
+    "careers": [
+      "lawyer"
+    ],
+    "category": "Legal"
+  },
+  "derived_skills": [],
+  "chosen_career": "lawyer",
+  "roadmaps": [
+    {
+      "path_title": "lawyer",
+      "focus": "Depth",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "milestones": [
+            {
+              "title": "Degree / Formal Education",
+              "description": "Enroll in and complete a master's degree relevant to lawyer (focus on coursework covering legal research and analysis, and contract drafting and review)"
+            }
+          ],
+          "resources": [
+            {
+              "title": "lawyer \u2014 Degree / Formal Education courses on Coursera",
+              "url": "https://www.coursera.org/search?query=lawyer+Degree+/+Formal+Education"
+            },
+            {
+              "title": "lawyer \u2014 Degree / Formal Education courses on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=lawyer+Degree+/+Formal+Education"
+            },
+            {
+              "title": "lawyer \u2014 Degree / Formal Education tutorials on YouTube",
+              "url": "https://www.youtube.com/results?search_query=lawyer+Degree+/+Formal+Education+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Core Skill Learning",
+              "description": "Learn the fundamentals: build a solid foundation in legal research and analysis, contract drafting and review, and client counselling \u2014 these are the essential building blocks for a lawyer"
+            }
+          ],
+          "resources": [
+            {
+              "title": "lawyer \u2014 Core Skill Learning courses on Coursera",
+              "url": "https://www.coursera.org/search?query=lawyer+Core+Skill+Learning"
+            },
+            {
+              "title": "lawyer \u2014 Core Skill Learning courses on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=lawyer+Core+Skill+Learning"
+            },
+            {
+              "title": "lawyer \u2014 Core Skill Learning tutorials on YouTube",
+              "url": "https://www.youtube.com/results?search_query=lawyer+Core+Skill+Learning+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Intermediate / Advanced Skills",
+              "description": "Deepen your expertise by developing intermediate-to-advanced skills in litigation and court representation, negotiation and dispute resolution, and legal documentation, applying them through exercises and case studies"
+            }
+          ],
+          "resources": [
+            {
+              "title": "lawyer \u2014 Intermediate / Advanced Skills courses on Coursera",
+              "url": "https://www.coursera.org/search?query=lawyer+Intermediate+/+Advanced+Skills"
+            },
+            {
+              "title": "lawyer \u2014 Intermediate / Advanced Skills courses on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=lawyer+Intermediate+/+Advanced+Skills"
+            },
+            {
+              "title": "lawyer \u2014 Intermediate / Advanced Skills tutorials on YouTube",
+              "url": "https://www.youtube.com/results?search_query=lawyer+Intermediate+/+Advanced+Skills+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Hands-on Practice",
+              "description": "Gain hands-on experience by completing mock trials, legal research assignments, or case study analyses \u2014 focus on applying legal research and analysis, and contract drafting and review in realistic scenarios"
+            }
+          ],
+          "resources": [
+            {
+              "title": "lawyer \u2014 Hands-on Practice courses on Coursera",
+              "url": "https://www.coursera.org/search?query=lawyer+Hands-on+Practice"
+            },
+            {
+              "title": "lawyer \u2014 Hands-on Practice courses on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=lawyer+Hands-on+Practice"
+            },
+            {
+              "title": "lawyer \u2014 Hands-on Practice tutorials on YouTube",
+              "url": "https://www.youtube.com/results?search_query=lawyer+Hands-on+Practice+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Portfolio Building",
+              "description": "Build a professional portfolio showcasing your best work, completed projects, certifications, and any measurable achievements related to lawyer"
+            }
+          ],
+          "resources": [
+            {
+              "title": "lawyer \u2014 Portfolio Building courses on Coursera",
+              "url": "https://www.coursera.org/search?query=lawyer+Portfolio+Building"
+            },
+            {
+              "title": "lawyer \u2014 Portfolio Building courses on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=lawyer+Portfolio+Building"
+            },
+            {
+              "title": "lawyer \u2014 Portfolio Building tutorials on YouTube",
+              "url": "https://www.youtube.com/results?search_query=lawyer+Portfolio+Building+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "CV / Profile Building",
+              "description": "Prepare your professional profile: craft a targeted CV/resume highlighting your lawyer skills, optimize your LinkedIn profile, and gather references or endorsements from mentors, instructors, or past collaborators"
+            }
+          ],
+          "resources": [
+            {
+              "title": "lawyer \u2014 CV / Profile Building courses on Coursera",
+              "url": "https://www.coursera.org/search?query=lawyer+CV+/+Profile+Building"
+            },
+            {
+              "title": "lawyer \u2014 CV / Profile Building courses on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=lawyer+CV+/+Profile+Building"
+            },
+            {
+              "title": "lawyer \u2014 CV / Profile Building tutorials on YouTube",
+              "url": "https://www.youtube.com/results?search_query=lawyer+CV+/+Profile+Building+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Job Application",
+              "description": "Apply for lawyer positions through job boards, company career pages, professional networks, and industry-specific platforms \u2014 tailor each application and prepare to discuss your hands-on experience and portfolio in interviews"
+            }
+          ],
+          "resources": [
+            {
+              "title": "lawyer jobs on Wuzzuf",
+              "url": "https://wuzzuf.net/search/jobs/?q=lawyer&a=hpb"
+            },
+            {
+              "title": "lawyer jobs on Forasna",
+              "url": "https://www.forasna.com/jobs/search/lawyer"
+            },
+            {
+              "title": "lawyer jobs on LinkedIn",
+              "url": "https://www.linkedin.com/jobs/search/?keywords=lawyer&location=Egypt"
+            },
+            {
+              "title": "lawyer jobs on Bayt.com",
+              "url": "https://www.bayt.com/en/egypt/jobs/lawyer-jobs/"
+            },
+            {
+              "title": "lawyer jobs on Indeed Egypt",
+              "url": "https://eg.indeed.com/jobs?q=lawyer"
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "path_title": "lawyer",
+      "focus": "Fast-Entry",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "milestones": [
+            {
+              "title": "Foundation & Core Skills",
+              "description": "Enroll in and complete a master's degree relevant to lawyer (focus on coursework covering legal research and analysis, and contract drafting and review)\n\nThen: Learn the fundamentals: build a solid foundation in legal research and analysis, contract drafting and review, and client counselling \u2014 these are the essential building blocks for a lawyer"
+            }
+          ],
+          "resources": [
+            {
+              "title": "lawyer \u2014 Foundation & Core Skills courses on Coursera",
+              "url": "https://www.coursera.org/search?query=lawyer+Foundation+&+Core+Skills"
+            },
+            {
+              "title": "lawyer \u2014 Foundation & Core Skills courses on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=lawyer+Foundation+&+Core+Skills"
+            },
+            {
+              "title": "lawyer \u2014 Foundation & Core Skills tutorials on YouTube",
+              "url": "https://www.youtube.com/results?search_query=lawyer+Foundation+&+Core+Skills+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Skill Building & Practice",
+              "description": "Deepen your expertise by developing intermediate-to-advanced skills in litigation and court representation, negotiation and dispute resolution, and legal documentation, applying them through exercises and case studies\n\nThen: Gain hands-on experience by completing mock trials, legal research assignments, or case study analyses \u2014 focus on applying legal research and analysis, and contract drafting and review in realistic scenarios"
+            }
+          ],
+          "resources": [
+            {
+              "title": "lawyer \u2014 Skill Building & Practice courses on Coursera",
+              "url": "https://www.coursera.org/search?query=lawyer+Skill+Building+&+Practice"
+            },
+            {
+              "title": "lawyer \u2014 Skill Building & Practice courses on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=lawyer+Skill+Building+&+Practice"
+            },
+            {
+              "title": "lawyer \u2014 Skill Building & Practice tutorials on YouTube",
+              "url": "https://www.youtube.com/results?search_query=lawyer+Skill+Building+&+Practice+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Portfolio & Professional Profile",
+              "description": "Build a professional portfolio showcasing your best work, completed projects, certifications, and any measurable achievements related to lawyer\n\nThen: Prepare your professional profile: craft a targeted CV/resume highlighting your lawyer skills, optimize your LinkedIn profile, and gather references or endorsements from mentors, instructors, or past collaborators"
+            }
+          ],
+          "resources": [
+            {
+              "title": "lawyer \u2014 Portfolio & Professional Profile courses on Coursera",
+              "url": "https://www.coursera.org/search?query=lawyer+Portfolio+&+Professional+Profile"
+            },
+            {
+              "title": "lawyer \u2014 Portfolio & Professional Profile courses on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=lawyer+Portfolio+&+Professional+Profile"
+            },
+            {
+              "title": "lawyer \u2014 Portfolio & Professional Profile tutorials on YouTube",
+              "url": "https://www.youtube.com/results?search_query=lawyer+Portfolio+&+Professional+Profile+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Job Application",
+              "description": "Apply for lawyer positions through job boards, company career pages, professional networks, and industry-specific platforms \u2014 tailor each application and prepare to discuss your hands-on experience and portfolio in interviews"
+            }
+          ],
+          "resources": [
+            {
+              "title": "lawyer jobs on Wuzzuf",
+              "url": "https://wuzzuf.net/search/jobs/?q=lawyer&a=hpb"
+            },
+            {
+              "title": "lawyer jobs on Forasna",
+              "url": "https://www.forasna.com/jobs/search/lawyer"
+            },
+            {
+              "title": "lawyer jobs on LinkedIn",
+              "url": "https://www.linkedin.com/jobs/search/?keywords=lawyer&location=Egypt"
+            },
+            {
+              "title": "lawyer jobs on Bayt.com",
+              "url": "https://www.bayt.com/en/egypt/jobs/lawyer-jobs/"
+            },
+            {
+              "title": "lawyer jobs on Indeed Egypt",
+              "url": "https://eg.indeed.com/jobs?q=lawyer"
+            }
+          ],
+          "children": []
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/static/roadmaps/roadmap_1.png",
+    "/static/roadmaps/roadmap_2.png"
+  ]
+}
