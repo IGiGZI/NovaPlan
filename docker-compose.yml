@@ -15,11 +15,21 @@ services:
       - SPAWN_PYTHON=false
     depends_on:
       - database
+    develop:
+      watch:
+        - path: ./backend
+          action: sync
+          target: /app
 
   roadmap_ai:
     build: ./Roadmap_RC_v0.1
     ports:
       - "8000:8000"
+    develop:
+      watch:
+        - path: ./Roadmap_RC_v0.1
+          action: sync
+          target: /app
 
   frontend:
     build: ./frontend
@@ -30,6 +40,11 @@ services:
     depends_on:
       - roadmap_ai
       - backend
+    develop:
+      watch:
+        - path: ./frontend
+          action: sync
+          target: /app
 
 volumes:
   mongo_data:
