@@ -11,7 +11,7 @@ import os
 os.environ["WANDB_API_KEY"] = "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"
 weave.init(project_name="NovaPlan-Gemini-Tracing")
 
-GEMINI_API_KEY = "AIzaSyDNu5VjMve4esuPlwmYOUNlOlgE9pg9jY4"
+GEMINI_API_KEY = ""
 client = genai.Client(api_key=GEMINI_API_KEY)
 
 # Simple in-memory cache to avoid duplicate gemini calls for the same resource query
