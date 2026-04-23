@@ -1,10 +1,10 @@
-# Updated Files:
+# 🗃️ Updated Files:
 
 ### - generator_core.py
 ### - Search.jsx
 ### - Fetching.jsx
 
-# Update Logs:
+# ✅ Update Logs:
 
 - Gemini API key now lasts for two roadmaps (lessened the load on the pro/fast-entry roadmap resource generation).
 
