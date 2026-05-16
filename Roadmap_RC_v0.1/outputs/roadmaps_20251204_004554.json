@@ -1,0 +1,1092 @@
+{
+  "input": {
+    "answers": [
+      {
+        "type": "D"
+      },
+      {
+        "type": "D"
+      },
+      {
+        "type": "D"
+      }
+    ],
+    "summary": "I like leading teams and organizing projects.",
+    "education": "Bachelor's",
+    "skills": []
+  },
+  "derived_skills": [
+    "project management",
+    "contraindications",
+    "plan tiling",
+    "clean ships",
+    "apply strategic thinking",
+    "design management",
+    "fertigation",
+    "work in teams"
+  ],
+  "chosen_career": "building information modelling consultant",
+  "roadmaps": [
+    {
+      "path_title": "building information modelling consultant",
+      "focus": "Depth",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "title": "Foundations",
+          "objective": "Build essential groundwork for your career",
+          "duration_months": 1,
+          "prerequisites": [],
+          "milestones": [
+            "Complete foundation modules",
+            "Set up workspace"
+          ],
+          "resources": [
+            "Standard Industry Tools"
+          ],
+          "tasks": [
+            "Set up your learning workspace",
+            "Create a study schedule",
+            "Join relevant online communities"
+          ],
+          "children": [
+            {
+              "title": "Industry Fundamentals",
+              "objective": "Understand the core concepts of building information modelling consultant",
+              "duration_months": 1,
+              "prerequisites": [],
+              "milestones": [
+                "Complete introductory course",
+                "Learn industry terminology",
+                "Understand role responsibilities"
+              ],
+              "resources": [
+                "Online Courses",
+                "Industry Glossaries",
+                "Career Guides"
+              ],
+              "tasks": [
+                "Graduate a bachelor\u2019s degree or equivalent in a relevant discipline",
+                "Mentor junior peers and document advanced workflows",
+                "Build a public portfolio showcasing projects related to building information modelling consultant",
+                "Publish or present your project work on a portfolio or site",
+                "Set short-term learning goals and review progress every month"
+              ],
+              "children": []
+            },
+            {
+              "title": "Tools & Environment",
+              "objective": "Set up your professional workspace",
+              "duration_months": 1,
+              "prerequisites": [],
+              "milestones": [
+                "Install necessary software",
+                "Configure development/work environment",
+                "Join professional communities"
+              ],
+              "resources": [
+                "Official Documentation",
+                "Community Forums"
+              ],
+              "tasks": [
+                "Research standard tools for building information modelling consultant",
+                "Install primary software tools",
+                "Create account on professional networks"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Core Skills Development",
+          "objective": "Master essential skills for building information modelling consultant",
+          "duration_months": 5,
+          "prerequisites": [
+            "project management"
+          ],
+          "milestones": [
+            "Complete all core skill modules",
+            "Pass skill assessments"
+          ],
+          "resources": [
+            "Online Learning Platforms"
+          ],
+          "tasks": [
+            "Create a skills tracking spreadsheet",
+            "Set up practice projects",
+            "Find a mentor"
+          ],
+          "children": [
+            {
+              "title": "Analyse Business Requirements Proficiency",
+              "objective": "Develop proficiency in analyse business requirements",
+              "duration_months": 2,
+              "prerequisites": [
+                "project management"
+              ],
+              "milestones": [
+                "Complete analyse business requirements course",
+                "Demonstrate analyse business requirements usage",
+                "Pass analyse business requirements quiz"
+              ],
+              "resources": [
+                "Analyse Business Requirements Resources"
+              ],
+              "tasks": [
+                "Practice analyse business requirements fundamentals",
+                "Apply analyse business requirements in small scenarios"
+              ],
+              "children": []
+            },
+            {
+              "title": "Building Information Modelling Proficiency",
+              "objective": "Develop proficiency in building information modelling",
+              "duration_months": 2,
+              "prerequisites": [],
+              "milestones": [
+                "Complete building information modelling course",
+                "Demonstrate building information modelling usage",
+                "Pass building information modelling quiz"
+              ],
+              "resources": [
+                "Building Information Modelling Resources"
+              ],
+              "tasks": [
+                "Undertake advanced coursework or a master\u2019s specialization relevant to building information modelling consultant",
+                "Build a public portfolio showcasing projects related to building information modelling consultant"
+              ],
+              "children": []
+            },
+            {
+              "title": "Business Analysis Proficiency",
+              "objective": "Develop proficiency in business analysis",
+              "duration_months": 2,
+              "prerequisites": [],
+              "milestones": [
+                "Complete business analysis course",
+                "Demonstrate business analysis usage",
+                "Pass business analysis quiz"
+              ],
+              "resources": [
+                "Business Analysis Resources"
+              ],
+              "tasks": [
+                "Practice business analysis fundamentals",
+                "Apply business analysis in small scenarios"
+              ],
+              "children": []
+            },
+            {
+              "title": "Business Ict Systems Proficiency",
+              "objective": "Develop proficiency in business ict systems",
+              "duration_months": 2,
+              "prerequisites": [],
+              "milestones": [
+                "Complete business ict systems course",
+                "Demonstrate business ict systems usage",
+                "Pass business ict systems quiz"
+              ],
+              "resources": [
+                "Business Ict Systems Resources"
+              ],
+              "tasks": [
+                "Practice business ict systems fundamentals",
+                "Apply business ict systems in small scenarios"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Practical Application",
+          "objective": "Gain hands-on experience through projects or simulations",
+          "duration_months": 2,
+          "prerequisites": [
+            "project management"
+          ],
+          "milestones": [
+            "Complete 2 major projects",
+            "Build portfolio"
+          ],
+          "resources": [
+            "Portfolio Platform"
+          ],
+          "tasks": [
+            "Research industry standard projects",
+            "Document process and outcomes"
+          ],
+          "children": [
+            {
+              "title": "Applied Practice Project",
+              "objective": "Apply core skills in a realistic scenario",
+              "duration_months": 2,
+              "prerequisites": [
+                "project management",
+                "analyse business requirements",
+                "building information modelling"
+              ],
+              "milestones": [
+                "Design project scope",
+                "Implement core features",
+                "Document results"
+              ],
+              "resources": [
+                "Project Management Tools",
+                "Documentation Tools"
+              ],
+              "tasks": [
+                "Select a real-world problem to solve",
+                "Plan the solution",
+                "Connect with professionals in the field and request informational interviews",
+                "Publish or present your project work on a portfolio or site",
+                "Mentor junior peers and document advanced workflows",
+                "Graduate a bachelor\u2019s degree or equivalent in a relevant discipline"
+              ],
+              "children": []
+            },
+            {
+              "title": "Advanced Capstone",
+              "objective": "Demonstrate comprehensive mastery",
+              "duration_months": 2,
+              "prerequisites": [
+                "project management",
+                "analyse business requirements",
+                "building information modelling",
+                "business analysis"
+              ],
+              "milestones": [
+                "Complete complex project",
+                "Peer review",
+                "Final presentation"
+              ],
+              "resources": [
+                "Advanced Tools"
+              ],
+              "tasks": [
+                "Define advanced project requirements",
+                "Set short-term learning goals and review progress every month",
+                "Build a public portfolio showcasing projects related to building information modelling consultant",
+                "Mentor junior peers and document advanced workflows",
+                "Undertake advanced coursework or a master\u2019s specialization relevant to building information modelling consultant",
+                "Publish or present your project work on a portfolio or site"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Specialization",
+          "objective": "Develop expertise in specific areas",
+          "duration_months": 2,
+          "prerequisites": [],
+          "milestones": [
+            "Choose specialization",
+            "Achieve advanced competency"
+          ],
+          "resources": [
+            "Industry Certifications"
+          ],
+          "tasks": [
+            "Research trending specializations in building information modelling consultant",
+            "Select a niche"
+          ],
+          "children": [
+            {
+              "title": "Specialization Track",
+              "objective": "Deep dive into a specific area",
+              "duration_months": 2,
+              "prerequisites": [
+                "project management",
+                "analyse business requirements",
+                "building information modelling"
+              ],
+              "milestones": [
+                "Complete specialization course",
+                "Advanced certification",
+                "Master advanced concepts"
+              ],
+              "resources": [
+                "Specialized Training"
+              ],
+              "tasks": [
+                "Publish or present your project work on a portfolio or site",
+                "Connect with professionals in the field and request informational interviews",
+                "Set short-term learning goals and review progress every month",
+                "Undertake advanced coursework or a master\u2019s specialization relevant to building information modelling consultant"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Career Launch",
+          "objective": "Land your first role in the field",
+          "duration_months": 2,
+          "prerequisites": [],
+          "milestones": [
+            "Complete branding",
+            "Secure job offer"
+          ],
+          "resources": [
+            "Job Search Platforms"
+          ],
+          "tasks": [
+            "Develop job search strategy",
+            "Practice interview questions"
+          ],
+          "children": [
+            {
+              "title": "Professional Branding",
+              "objective": "Create compelling professional presence",
+              "duration_months": 1,
+              "prerequisites": [],
+              "milestones": [
+                "Update resume",
+                "Optimize professional profile",
+                "Build portfolio"
+              ],
+              "resources": [
+                "LinkedIn",
+                "Resume Builder"
+              ],
+              "tasks": [
+                "Tailor resume for building information modelling consultant",
+                "Highlight key skills: analyse business requirements, building information modelling, business analysis"
+              ],
+              "children": []
+            },
+            {
+              "title": "Job Search Strategy",
+              "objective": "Execute systematic job search",
+              "duration_months": 1,
+              "prerequisites": [],
+              "milestones": [
+                "Apply to positions",
+                "Network",
+                "Interview prep"
+              ],
+              "resources": [
+                "Job Boards",
+                "Networking Events"
+              ],
+              "tasks": [
+                "Identify top companies for building information modelling consultant",
+                "Prepare for interviews"
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path_title": "building information modelling consultant",
+      "focus": "Fast-Entry",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "title": "Foundations",
+          "objective": "Build essential groundwork for your career",
+          "duration_months": 1,
+          "prerequisites": [],
+          "milestones": [
+            "Complete foundation modules",
+            "Set up workspace"
+          ],
+          "resources": [
+            "Standard Industry Tools"
+          ],
+          "tasks": [
+            "Set up your learning workspace",
+            "Create a study schedule",
+            "Join relevant online communities"
+          ],
+          "children": [
+            {
+              "title": "Industry Fundamentals",
+              "objective": "Understand the core concepts of building information modelling consultant",
+              "duration_months": 1,
+              "prerequisites": [],
+              "milestones": [
+                "Complete introductory course",
+                "Learn industry terminology",
+                "Understand role responsibilities"
+              ],
+              "resources": [
+                "Online Courses",
+                "Industry Glossaries",
+                "Career Guides"
+              ],
+              "tasks": [
+                "Connect with professionals in the field and request informational interviews",
+                "Undertake advanced coursework or a master\u2019s specialization relevant to building information modelling consultant",
+                "Mentor junior peers and document advanced workflows",
+                "Publish or present your project work on a portfolio or site",
+                "Build a public portfolio showcasing projects related to building information modelling consultant"
+              ],
+              "children": []
+            },
+            {
+              "title": "Tools & Environment",
+              "objective": "Set up your professional workspace",
+              "duration_months": 1,
+              "prerequisites": [],
+              "milestones": [
+                "Install necessary software",
+                "Configure development/work environment",
+                "Join professional communities"
+              ],
+              "resources": [
+                "Official Documentation",
+                "Community Forums"
+              ],
+              "tasks": [
+                "Research standard tools for building information modelling consultant",
+                "Install primary software tools",
+                "Create account on professional networks"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Core Skills Development",
+          "objective": "Master essential skills for building information modelling consultant",
+          "duration_months": 4,
+          "prerequisites": [
+            "project management"
+          ],
+          "milestones": [
+            "Complete all core skill modules",
+            "Pass skill assessments"
+          ],
+          "resources": [
+            "Online Learning Platforms"
+          ],
+          "tasks": [
+            "Create a skills tracking spreadsheet",
+            "Set up practice projects",
+            "Find a mentor"
+          ],
+          "children": [
+            {
+              "title": "Analyse Business Requirements Proficiency",
+              "objective": "Develop proficiency in analyse business requirements",
+              "duration_months": 2,
+              "prerequisites": [
+                "project management"
+              ],
+              "milestones": [
+                "Complete analyse business requirements course",
+                "Demonstrate analyse business requirements usage",
+                "Pass analyse business requirements quiz"
+              ],
+              "resources": [
+                "Analyse Business Requirements Resources"
+              ],
+              "tasks": [
+                "Practice analyse business requirements fundamentals",
+                "Apply analyse business requirements in small scenarios"
+              ],
+              "children": []
+            },
+            {
+              "title": "Building Information Modelling Proficiency",
+              "objective": "Develop proficiency in building information modelling",
+              "duration_months": 2,
+              "prerequisites": [],
+              "milestones": [
+                "Complete building information modelling course",
+                "Demonstrate building information modelling usage",
+                "Pass building information modelling quiz"
+              ],
+              "resources": [
+                "Building Information Modelling Resources"
+              ],
+              "tasks": [
+                "Undertake advanced coursework or a master\u2019s specialization relevant to building information modelling consultant",
+                "Build a public portfolio showcasing projects related to building information modelling consultant"
+              ],
+              "children": []
+            },
+            {
+              "title": "Business Analysis Proficiency",
+              "objective": "Develop proficiency in business analysis",
+              "duration_months": 2,
+              "prerequisites": [],
+              "milestones": [
+                "Complete business analysis course",
+                "Demonstrate business analysis usage",
+                "Pass business analysis quiz"
+              ],
+              "resources": [
+                "Business Analysis Resources"
+              ],
+              "tasks": [
+                "Practice business analysis fundamentals",
+                "Apply business analysis in small scenarios"
+              ],
+              "children": []
+            },
+            {
+              "title": "Business Ict Systems Proficiency",
+              "objective": "Develop proficiency in business ict systems",
+              "duration_months": 2,
+              "prerequisites": [],
+              "milestones": [
+                "Complete business ict systems course",
+                "Demonstrate business ict systems usage",
+                "Pass business ict systems quiz"
+              ],
+              "resources": [
+                "Business Ict Systems Resources"
+              ],
+              "tasks": [
+                "Practice business ict systems fundamentals",
+                "Apply business ict systems in small scenarios"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Practical Application",
+          "objective": "Gain hands-on experience through projects or simulations",
+          "duration_months": 3,
+          "prerequisites": [
+            "project management"
+          ],
+          "milestones": [
+            "Complete 2 major projects",
+            "Build portfolio"
+          ],
+          "resources": [
+            "Portfolio Platform"
+          ],
+          "tasks": [
+            "Research industry standard projects",
+            "Document process and outcomes"
+          ],
+          "children": [
+            {
+              "title": "Applied Practice Project",
+              "objective": "Apply core skills in a realistic scenario",
+              "duration_months": 2,
+              "prerequisites": [
+                "project management",
+                "analyse business requirements",
+                "building information modelling"
+              ],
+              "milestones": [
+                "Design project scope",
+                "Implement core features",
+                "Document results"
+              ],
+              "resources": [
+                "Project Management Tools",
+                "Documentation Tools"
+              ],
+              "tasks": [
+                "Select a real-world problem to solve",
+                "Plan the solution",
+                "Publish or present your project work on a portfolio or site",
+                "Graduate a bachelor\u2019s degree or equivalent in a relevant discipline",
+                "Undertake advanced coursework or a master\u2019s specialization relevant to building information modelling consultant",
+                "Build a public portfolio showcasing projects related to building information modelling consultant"
+              ],
+              "children": []
+            },
+            {
+              "title": "Advanced Capstone",
+              "objective": "Demonstrate comprehensive mastery",
+              "duration_months": 2,
+              "prerequisites": [
+                "project management",
+                "analyse business requirements",
+                "building information modelling",
+                "business analysis"
+              ],
+              "milestones": [
+                "Complete complex project",
+                "Peer review",
+                "Final presentation"
+              ],
+              "resources": [
+                "Advanced Tools"
+              ],
+              "tasks": [
+                "Define advanced project requirements",
+                "Build a public portfolio showcasing projects related to building information modelling consultant",
+                "Publish or present your project work on a portfolio or site",
+                "Graduate a bachelor\u2019s degree or equivalent in a relevant discipline",
+                "Set short-term learning goals and review progress every month",
+                "Mentor junior peers and document advanced workflows"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Specialization",
+          "objective": "Develop expertise in specific areas",
+          "duration_months": 2,
+          "prerequisites": [],
+          "milestones": [
+            "Choose specialization",
+            "Achieve advanced competency"
+          ],
+          "resources": [
+            "Industry Certifications"
+          ],
+          "tasks": [
+            "Research trending specializations in building information modelling consultant",
+            "Select a niche"
+          ],
+          "children": [
+            {
+              "title": "Specialization Track",
+              "objective": "Deep dive into a specific area",
+              "duration_months": 2,
+              "prerequisites": [
+                "project management",
+                "analyse business requirements",
+                "building information modelling"
+              ],
+              "milestones": [
+                "Complete specialization course",
+                "Advanced certification",
+                "Master advanced concepts"
+              ],
+              "resources": [
+                "Specialized Training"
+              ],
+              "tasks": [
+                "Undertake advanced coursework or a master\u2019s specialization relevant to building information modelling consultant",
+                "Publish or present your project work on a portfolio or site",
+                "Graduate a bachelor\u2019s degree or equivalent in a relevant discipline",
+                "Connect with professionals in the field and request informational interviews"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Career Launch",
+          "objective": "Land your first role in the field",
+          "duration_months": 2,
+          "prerequisites": [],
+          "milestones": [
+            "Complete branding",
+            "Secure job offer"
+          ],
+          "resources": [
+            "Job Search Platforms"
+          ],
+          "tasks": [
+            "Develop job search strategy",
+            "Practice interview questions"
+          ],
+          "children": [
+            {
+              "title": "Professional Branding",
+              "objective": "Create compelling professional presence",
+              "duration_months": 1,
+              "prerequisites": [],
+              "milestones": [
+                "Update resume",
+                "Optimize professional profile",
+                "Build portfolio"
+              ],
+              "resources": [
+                "LinkedIn",
+                "Resume Builder"
+              ],
+              "tasks": [
+                "Tailor resume for building information modelling consultant",
+                "Highlight key skills: analyse business requirements, building information modelling, business analysis"
+              ],
+              "children": []
+            },
+            {
+              "title": "Job Search Strategy",
+              "objective": "Execute systematic job search",
+              "duration_months": 1,
+              "prerequisites": [],
+              "milestones": [
+                "Apply to positions",
+                "Network",
+                "Interview prep"
+              ],
+              "resources": [
+                "Job Boards",
+                "Networking Events"
+              ],
+              "tasks": [
+                "Identify top companies for building information modelling consultant",
+                "Prepare for interviews"
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path_title": "building information modelling consultant",
+      "focus": "Transition",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "title": "Foundations",
+          "objective": "Build essential groundwork for your career",
+          "duration_months": 1,
+          "prerequisites": [],
+          "milestones": [
+            "Complete foundation modules",
+            "Set up workspace"
+          ],
+          "resources": [
+            "Standard Industry Tools"
+          ],
+          "tasks": [
+            "Set up your learning workspace",
+            "Create a study schedule",
+            "Join relevant online communities"
+          ],
+          "children": [
+            {
+              "title": "Industry Fundamentals",
+              "objective": "Understand the core concepts of building information modelling consultant",
+              "duration_months": 1,
+              "prerequisites": [],
+              "milestones": [
+                "Complete introductory course",
+                "Learn industry terminology",
+                "Understand role responsibilities"
+              ],
+              "resources": [
+                "Online Courses",
+                "Industry Glossaries",
+                "Career Guides"
+              ],
+              "tasks": [
+                "Connect with professionals in the field and request informational interviews",
+                "Mentor junior peers and document advanced workflows",
+                "Publish or present your project work on a portfolio or site",
+                "Build a public portfolio showcasing projects related to building information modelling consultant",
+                "Undertake advanced coursework or a master\u2019s specialization relevant to building information modelling consultant"
+              ],
+              "children": []
+            },
+            {
+              "title": "Tools & Environment",
+              "objective": "Set up your professional workspace",
+              "duration_months": 1,
+              "prerequisites": [],
+              "milestones": [
+                "Install necessary software",
+                "Configure development/work environment",
+                "Join professional communities"
+              ],
+              "resources": [
+                "Official Documentation",
+                "Community Forums"
+              ],
+              "tasks": [
+                "Research standard tools for building information modelling consultant",
+                "Install primary software tools",
+                "Create account on professional networks"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Core Skills Development",
+          "objective": "Master essential skills for building information modelling consultant",
+          "duration_months": 4,
+          "prerequisites": [
+            "project management"
+          ],
+          "milestones": [
+            "Complete all core skill modules",
+            "Pass skill assessments"
+          ],
+          "resources": [
+            "Online Learning Platforms"
+          ],
+          "tasks": [
+            "Create a skills tracking spreadsheet",
+            "Set up practice projects",
+            "Find a mentor"
+          ],
+          "children": [
+            {
+              "title": "Analyse Business Requirements Proficiency",
+              "objective": "Develop proficiency in analyse business requirements",
+              "duration_months": 2,
+              "prerequisites": [
+                "project management"
+              ],
+              "milestones": [
+                "Complete analyse business requirements course",
+                "Demonstrate analyse business requirements usage",
+                "Pass analyse business requirements quiz"
+              ],
+              "resources": [
+                "Analyse Business Requirements Resources"
+              ],
+              "tasks": [
+                "Practice analyse business requirements fundamentals",
+                "Apply analyse business requirements in small scenarios"
+              ],
+              "children": []
+            },
+            {
+              "title": "Building Information Modelling Proficiency",
+              "objective": "Develop proficiency in building information modelling",
+              "duration_months": 2,
+              "prerequisites": [],
+              "milestones": [
+                "Complete building information modelling course",
+                "Demonstrate building information modelling usage",
+                "Pass building information modelling quiz"
+              ],
+              "resources": [
+                "Building Information Modelling Resources"
+              ],
+              "tasks": [
+                "Undertake advanced coursework or a master\u2019s specialization relevant to building information modelling consultant",
+                "Build a public portfolio showcasing projects related to building information modelling consultant"
+              ],
+              "children": []
+            },
+            {
+              "title": "Business Analysis Proficiency",
+              "objective": "Develop proficiency in business analysis",
+              "duration_months": 2,
+              "prerequisites": [],
+              "milestones": [
+                "Complete business analysis course",
+                "Demonstrate business analysis usage",
+                "Pass business analysis quiz"
+              ],
+              "resources": [
+                "Business Analysis Resources"
+              ],
+              "tasks": [
+                "Practice business analysis fundamentals",
+                "Apply business analysis in small scenarios"
+              ],
+              "children": []
+            },
+            {
+              "title": "Business Ict Systems Proficiency",
+              "objective": "Develop proficiency in business ict systems",
+              "duration_months": 2,
+              "prerequisites": [],
+              "milestones": [
+                "Complete business ict systems course",
+                "Demonstrate business ict systems usage",
+                "Pass business ict systems quiz"
+              ],
+              "resources": [
+                "Business Ict Systems Resources"
+              ],
+              "tasks": [
+                "Practice business ict systems fundamentals",
+                "Apply business ict systems in small scenarios"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Practical Application",
+          "objective": "Gain hands-on experience through projects or simulations",
+          "duration_months": 2,
+          "prerequisites": [
+            "project management"
+          ],
+          "milestones": [
+            "Complete 2 major projects",
+            "Build portfolio"
+          ],
+          "resources": [
+            "Portfolio Platform"
+          ],
+          "tasks": [
+            "Research industry standard projects",
+            "Document process and outcomes"
+          ],
+          "children": [
+            {
+              "title": "Applied Practice Project",
+              "objective": "Apply core skills in a realistic scenario",
+              "duration_months": 2,
+              "prerequisites": [
+                "project management",
+                "analyse business requirements",
+                "building information modelling"
+              ],
+              "milestones": [
+                "Design project scope",
+                "Implement core features",
+                "Document results"
+              ],
+              "resources": [
+                "Project Management Tools",
+                "Documentation Tools"
+              ],
+              "tasks": [
+                "Select a real-world problem to solve",
+                "Plan the solution",
+                "Mentor junior peers and document advanced workflows",
+                "Undertake advanced coursework or a master\u2019s specialization relevant to building information modelling consultant",
+                "Build a public portfolio showcasing projects related to building information modelling consultant",
+                "Set short-term learning goals and review progress every month"
+              ],
+              "children": []
+            },
+            {
+              "title": "Advanced Capstone",
+              "objective": "Demonstrate comprehensive mastery",
+              "duration_months": 2,
+              "prerequisites": [
+                "project management",
+                "analyse business requirements",
+                "building information modelling",
+                "business analysis"
+              ],
+              "milestones": [
+                "Complete complex project",
+                "Peer review",
+                "Final presentation"
+              ],
+              "resources": [
+                "Advanced Tools"
+              ],
+              "tasks": [
+                "Define advanced project requirements",
+                "Undertake advanced coursework or a master\u2019s specialization relevant to building information modelling consultant",
+                "Mentor junior peers and document advanced workflows",
+                "Publish or present your project work on a portfolio or site",
+                "Set short-term learning goals and review progress every month",
+                "Connect with professionals in the field and request informational interviews"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Specialization",
+          "objective": "Develop expertise in specific areas",
+          "duration_months": 2,
+          "prerequisites": [],
+          "milestones": [
+            "Choose specialization",
+            "Achieve advanced competency"
+          ],
+          "resources": [
+            "Industry Certifications"
+          ],
+          "tasks": [
+            "Research trending specializations in building information modelling consultant",
+            "Select a niche"
+          ],
+          "children": [
+            {
+              "title": "Specialization Track",
+              "objective": "Deep dive into a specific area",
+              "duration_months": 2,
+              "prerequisites": [
+                "project management",
+                "analyse business requirements",
+                "building information modelling"
+              ],
+              "milestones": [
+                "Complete specialization course",
+                "Advanced certification",
+                "Master advanced concepts"
+              ],
+              "resources": [
+                "Specialized Training"
+              ],
+              "tasks": [
+                "Mentor junior peers and document advanced workflows",
+                "Set short-term learning goals and review progress every month",
+                "Build a public portfolio showcasing projects related to building information modelling consultant",
+                "Undertake advanced coursework or a master\u2019s specialization relevant to building information modelling consultant"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Career Launch",
+          "objective": "Land your first role in the field",
+          "duration_months": 3,
+          "prerequisites": [],
+          "milestones": [
+            "Complete branding",
+            "Secure job offer"
+          ],
+          "resources": [
+            "Job Search Platforms"
+          ],
+          "tasks": [
+            "Develop job search strategy",
+            "Practice interview questions"
+          ],
+          "children": [
+            {
+              "title": "Professional Branding",
+              "objective": "Create compelling professional presence",
+              "duration_months": 1,
+              "prerequisites": [],
+              "milestones": [
+                "Update resume",
+                "Optimize professional profile",
+                "Build portfolio"
+              ],
+              "resources": [
+                "LinkedIn",
+                "Resume Builder"
+              ],
+              "tasks": [
+                "Tailor resume for building information modelling consultant",
+                "Highlight key skills: analyse business requirements, building information modelling, business analysis"
+              ],
+              "children": []
+            },
+            {
+              "title": "Job Search Strategy",
+              "objective": "Execute systematic job search",
+              "duration_months": 1,
+              "prerequisites": [],
+              "milestones": [
+                "Apply to positions",
+                "Network",
+                "Interview prep"
+              ],
+              "resources": [
+                "Job Boards",
+                "Networking Events"
+              ],
+              "tasks": [
+                "Identify top companies for building information modelling consultant",
+                "Prepare for interviews"
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/static/roadmaps/roadmap_1.png",
+    "/static/roadmaps/roadmap_2.png",
+    "/static/roadmaps/roadmap_3.png"
+  ]
+}

@@ -1,0 +1,422 @@
+{
+  "input": {
+    "answers": [
+      {
+        "questionId": "Q_EDU",
+        "label": "I'm in university or have a Bachelor's degree"
+      },
+      {
+        "questionId": "Q_GENDER",
+        "label": "Female"
+      },
+      {
+        "questionId": "Q_IMPACT",
+        "label": "Creating technology \u2014 writing code, building apps, or working with AI"
+      },
+      {
+        "questionId": "Q_TECH_TYPE",
+        "label": "Teaching computers to learn (AI and machine learning)"
+      },
+      {
+        "questionId": "Q_STYLE_TECH",
+        "label": "Creative \u2014 I like designing, building, and making things look great"
+      }
+    ],
+    "careers": [
+      "software developer"
+    ],
+    "category": "Programming & Software Development",
+    "user_summary": ""
+  },
+  "derived_skills": [],
+  "chosen_career": "software developer",
+  "roadmaps": [
+    {
+      "path_title": "software developer",
+      "focus": "Depth",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "milestones": [
+            {
+              "title": "Certification",
+              "description": "(Optional) Complete an online certificate, bootcamp, or structured course in software developer to build a strong learning foundation"
+            }
+          ],
+          "resources": [
+            {
+              "title": "IBM Full Stack Software Developer Professional Certificate",
+              "url": "https://www.coursera.org/professional-certificates/ibm-full-stack-cloud-developer"
+            },
+            {
+              "title": "Meta Back-End Developer Professional Certificate",
+              "url": "https://www.coursera.org/professional-certificates/meta-back-end-developer"
+            },
+            {
+              "title": "The Complete 2024 Web Development Bootcamp",
+              "url": "https://www.udemy.com/course/the-complete-web-development-bootcamp/"
+            },
+            {
+              "title": "Full Stack Web Developer Professional Certificate (HKUST)",
+              "url": "https://www.edx.org/certificates/professional-certificate/hkust-full-stack-web-developer"
+            },
+            {
+              "title": "freeCodeCamp Back End Development and APIs Certification",
+              "url": "https://www.freecodecamp.org/learn/back-end-development-and-apis/"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Core Skill Learning",
+              "description": "Learn the fundamentals: build a solid foundation in programming (python, java, or c++), data structures and algorithms, and version control (git) \u2014 these are the essential building blocks for a software developer"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Python for Everybody Specialization",
+              "url": "https://www.coursera.org/specializations/python"
+            },
+            {
+              "title": "Data Structures and Algorithms Specialization",
+              "url": "https://www.coursera.org/specializations/data-structures-algorithms"
+            },
+            {
+              "title": "Version Control with Git",
+              "url": "https://www.coursera.org/learn/version-control-git"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Intermediate / Advanced Skills",
+              "description": "Deepen your expertise by developing intermediate-to-advanced skills in restful api development, database management (sql), and debugging and troubleshooting, applying them through exercises and case studies"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Udemy - REST API Development Courses",
+              "url": "https://www.udemy.com/courses/search/?q=rest%20api%20development"
+            },
+            {
+              "title": "Coursera - Advanced SQL Courses",
+              "url": "https://www.coursera.org/search?query=advanced%20sql"
+            },
+            {
+              "title": "Debugging Python in VS Code (Official Documentation)",
+              "url": "https://code.visualstudio.com/docs/python/debugging"
+            },
+            {
+              "title": "Coursera - Backend Development Specialization",
+              "url": "https://www.coursera.org/specializations/backend-development"
+            },
+            {
+              "title": "freeCodeCamp - SQL Tutorials and Articles",
+              "url": "https://www.freecodecamp.org/news/tag/sql/"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Hands-on Practice",
+              "description": "Gain hands-on experience by completing software projects, open-source contributions, or technical prototypes \u2014 focus on applying programming (python, java, or c++), and data structures and algorithms in realistic scenarios"
+            }
+          ],
+          "resources": [
+            {
+              "title": "freeCodeCamp.org - Learn to code for free",
+              "url": "https://www.freecodecamp.org/"
+            },
+            {
+              "title": "Algorithms, Part I (Coursera by Princeton University)",
+              "url": "https://www.coursera.org/learn/algorithms-part1"
+            },
+            {
+              "title": "Git Handbook (GitHub Guides)",
+              "url": "https://guides.github.com/introduction/git-handbook/"
+            },
+            {
+              "title": "Python REST APIs with Flask, SQL Alchemy, and PostgreSQL (Full Course) - freeCodeCamp.org",
+              "url": "https://www.youtube.com/watch?v=QwQ-Lg0_f1w"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Portfolio Building",
+              "description": "Build a professional portfolio: publish your best projects on GitHub, create a personal website showcasing your work, and document your process and results"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Git and GitHub for Developers",
+              "url": "https://www.freecodecamp.org/news/learn-git-and-github-course/"
+            },
+            {
+              "title": "Data Structures and Algorithms (GeeksforGeeks)",
+              "url": "https://www.geeksforgeeks.org/data-structures/"
+            },
+            {
+              "title": "Backend Development and APIs Certification (freeCodeCamp)",
+              "url": "https://www.freecodecamp.org/learn/back-end-development-and-apis/"
+            },
+            {
+              "title": "Creating a GitHub Pages Site",
+              "url": "https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site"
+            },
+            {
+              "title": "SQL Tutorial (W3Schools)",
+              "url": "https://www.w3schools.com/sql/"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "CV / Profile Building",
+              "description": "Prepare your professional profile: craft a targeted CV/resume highlighting your software developer skills, optimize your LinkedIn profile, and gather references or endorsements from mentors, instructors, or past collaborators"
+            }
+          ],
+          "resources": [
+            {
+              "title": "freeCodeCamp.org Developer Certification Learning Paths",
+              "url": "https://www.freecodecamp.org/learn/"
+            },
+            {
+              "title": "Atlassian Git Tutorials",
+              "url": "https://www.atlassian.com/git/tutorials"
+            },
+            {
+              "title": "GeeksforGeeks Data Structures & Algorithms Tutorial",
+              "url": "https://www.geeksforgeeks.org/data-structures/"
+            },
+            {
+              "title": "W3Schools SQL Tutorial",
+              "url": "https://www.w3schools.com/sql/"
+            },
+            {
+              "title": "Mozilla Developer Network (MDN) Web Docs - Learn Web Development",
+              "url": "https://developer.mozilla.org/en-US/docs/Web"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Job Application / Freelancing",
+              "description": "Apply for software developer positions on job boards, company career pages, and freelance platforms (Upwork, Fiverr, Toptal) \u2014 tailor each application to the role and be ready to showcase your portfolio in interviews"
+            }
+          ],
+          "resources": [
+            {
+              "title": "software developer jobs on Wuzzuf",
+              "url": "https://wuzzuf.net/search/jobs/?q=software+developer&a=hpb"
+            },
+            {
+              "title": "software developer jobs on Forasna",
+              "url": "https://www.forasna.com/jobs/search/software-developer"
+            },
+            {
+              "title": "software developer jobs on LinkedIn",
+              "url": "https://www.linkedin.com/jobs/search/?keywords=software+developer&location=Egypt"
+            },
+            {
+              "title": "software developer jobs on Bayt.com",
+              "url": "https://www.bayt.com/en/egypt/jobs/software-developer-jobs/"
+            },
+            {
+              "title": "software developer jobs on Indeed Egypt",
+              "url": "https://eg.indeed.com/jobs?q=software+developer"
+            },
+            {
+              "title": "software developer freelance jobs on Upwork",
+              "url": "https://www.upwork.com/freelance-jobs/software-developer/"
+            },
+            {
+              "title": "software developer services on Fiverr",
+              "url": "https://www.fiverr.com/search/gigs?query=software+developer"
+            },
+            {
+              "title": "software developer projects on Mostaql",
+              "url": "https://mostaql.com/projects?keyword=software+developer"
+            },
+            {
+              "title": "Khamsat - Arabic Micro Services",
+              "url": "https://khamsat.com/"
+            },
+            {
+              "title": "software developer freelance on Toptal",
+              "url": "https://www.toptal.com/"
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "path_title": "software developer",
+      "focus": "Fast-Entry",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "milestones": [
+            {
+              "title": "Foundation & Core Skills",
+              "description": "(Optional) Complete an online certificate, bootcamp, or structured course in software developer to build a strong learning foundation\n\nThen: Learn the fundamentals: build a solid foundation in programming (python, java, or c++), data structures and algorithms, and version control (git) \u2014 these are the essential building blocks for a software developer"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Google IT Automation with Python Professional Certificate",
+              "url": "https://www.coursera.org/professional-certificates/google-it-automation-python"
+            },
+            {
+              "title": "IBM Full Stack Software Developer Professional Certificate",
+              "url": "https://www.coursera.org/professional-certificates/ibm-full-stack-software-developer"
+            },
+            {
+              "title": "freeCodeCamp Back End Development and APIs Certification",
+              "url": "https://www.freecodecamp.org/learn/back-end-development-and-apis/"
+            },
+            {
+              "title": "Meta Back-End Developer Professional Certificate",
+              "url": "https://www.coursera.org/professional-certificates/meta-back-end-developer"
+            },
+            {
+              "title": "Algorithms and Data Structures Specialization by Princeton University",
+              "url": "https://www.coursera.org/specializations/algorithms"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Skill Building & Practice",
+              "description": "Deepen your expertise by developing intermediate-to-advanced skills in restful api development, database management (sql), and debugging and troubleshooting, applying them through exercises and case studies\n\nThen: Gain hands-on experience by completing software projects, open-source contributions, or technical prototypes \u2014 focus on applying programming (python, java, or c++), and data structures and algorithms in realistic scenarios"
+            }
+          ],
+          "resources": [
+            {
+              "title": "REST API Development Courses",
+              "url": "https://www.coursera.org/search?query=REST%20API%20development"
+            },
+            {
+              "title": "Relational Database (SQL) Course",
+              "url": "https://www.freecodecamp.org/learn/relational-database/"
+            },
+            {
+              "title": "Data Structures & Algorithms Tutorials",
+              "url": "https://www.geeksforgeeks.org/data-structures/"
+            },
+            {
+              "title": "Git Handbook",
+              "url": "https://guides.github.com/introduction/git-handbook/"
+            },
+            {
+              "title": "Python Backend Development Courses",
+              "url": "https://www.udemy.com/courses/search/?q=python%20backend%20development"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Portfolio & Professional Profile",
+              "description": "Build a professional portfolio: publish your best projects on GitHub, create a personal website showcasing your work, and document your process and results\n\nThen: Prepare your professional profile: craft a targeted CV/resume highlighting your software developer skills, optimize your LinkedIn profile, and gather references or endorsements from mentors, instructors, or past collaborators"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Python for Everybody Specialization",
+              "url": "https://www.coursera.org/specializations/python"
+            },
+            {
+              "title": "Data Structures and Algorithms Tutorials",
+              "url": "https://www.geeksforgeeks.org/data-structures/"
+            },
+            {
+              "title": "Git Tutorials (by Atlassian)",
+              "url": "https://www.atlassian.com/git/tutorials"
+            },
+            {
+              "title": "Backend Development and APIs Certification",
+              "url": "https://www.freecodecamp.org/learn/back-end-development-and-apis/"
+            },
+            {
+              "title": "SQL Tutorial (W3Schools)",
+              "url": "https://www.w3schools.com/sql/"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Job Application / Freelancing",
+              "description": "Apply for software developer positions on job boards, company career pages, and freelance platforms (Upwork, Fiverr, Toptal) \u2014 tailor each application to the role and be ready to showcase your portfolio in interviews"
+            }
+          ],
+          "resources": [
+            {
+              "title": "software developer jobs on Wuzzuf",
+              "url": "https://wuzzuf.net/search/jobs/?q=software+developer&a=hpb"
+            },
+            {
+              "title": "software developer jobs on Forasna",
+              "url": "https://www.forasna.com/jobs/search/software-developer"
+            },
+            {
+              "title": "software developer jobs on LinkedIn",
+              "url": "https://www.linkedin.com/jobs/search/?keywords=software+developer&location=Egypt"
+            },
+            {
+              "title": "software developer jobs on Bayt.com",
+              "url": "https://www.bayt.com/en/egypt/jobs/software-developer-jobs/"
+            },
+            {
+              "title": "software developer jobs on Indeed Egypt",
+              "url": "https://eg.indeed.com/jobs?q=software+developer"
+            },
+            {
+              "title": "software developer freelance jobs on Upwork",
+              "url": "https://www.upwork.com/freelance-jobs/software-developer/"
+            },
+            {
+              "title": "software developer services on Fiverr",
+              "url": "https://www.fiverr.com/search/gigs?query=software+developer"
+            },
+            {
+              "title": "software developer projects on Mostaql",
+              "url": "https://mostaql.com/projects?keyword=software+developer"
+            },
+            {
+              "title": "Khamsat - Arabic Micro Services",
+              "url": "https://khamsat.com/"
+            },
+            {
+              "title": "software developer freelance on Toptal",
+              "url": "https://www.toptal.com/"
+            }
+          ],
+          "children": []
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/static/roadmaps/roadmap_1.png",
+    "/static/roadmaps/roadmap_2.png"
+  ]
+}

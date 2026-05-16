@@ -1,0 +1,468 @@
+{
+  "input": {
+    "answers": [
+      {
+        "questionId": "Q1",
+        "label": "High School Student / No degree yet"
+      },
+      {
+        "questionId": "Q_PERS1_HS",
+        "label": "I like solving complex problems and thinking analytically"
+      },
+      {
+        "questionId": "Q_ENV_HS_ANALYTICAL",
+        "label": "Office / desk-based, mostly indoors"
+      },
+      {
+        "questionId": "Q_MOT_HS_ANALYTICAL_INDOOR",
+        "label": "Primarily financial \u2014 I want to maximise earnings"
+      },
+      {
+        "questionId": "Q_DOMAIN_HS",
+        "label": "Technology & Computing"
+      },
+      {
+        "questionId": "Q_HS_TECH_CAT",
+        "label": "Data & Artificial Intelligence"
+      },
+      {
+        "questionId": "Q_HS_TECH_DATA_ARTIFICIAL_INTELLIGE_AREA",
+        "label": "Data Analysis & Engineering"
+      },
+      {
+        "questionId": "Q_HS_TECH_DATA_ARTIFICIAL_INTELLIGE_DATA_ANALYSIS_ENGINE_PICK",
+        "label": "Data Engineer"
+      }
+    ],
+    "careers": [
+      "data engineer"
+    ],
+    "category": "Data & Artificial Intelligence"
+  },
+  "derived_skills": [],
+  "chosen_career": "data engineer",
+  "roadmaps": [
+    {
+      "path_title": "data engineer",
+      "focus": "Depth",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "milestones": [
+            {
+              "title": "Certification",
+              "description": "(Optional) Complete an online certificate, bootcamp, or structured course in data engineer to build a strong learning foundation"
+            }
+          ],
+          "resources": [
+            {
+              "title": "IBM Data Engineering Professional Certificate on Coursera",
+              "url": "https://www.coursera.org/professional-certificates/ibm-data-engineer"
+            },
+            {
+              "title": "Preparing for the Google Cloud Professional Data Engineer Exam Specialization on Coursera",
+              "url": "https://www.coursera.org/specializations/preparing-for-google-cloud-professional-data-engineer-exam"
+            },
+            {
+              "title": "AWS Certified Data Engineer - Associate (DE-A) Ultimate Prep Course on Udemy",
+              "url": "https://www.udemy.com/course/aws-certified-data-engineer-associate-ultimate-prep/"
+            },
+            {
+              "title": "Microsoft Azure Data Engineer Associate Professional Certificate on edX",
+              "url": "https://www.edx.org/professional-certificate/microsoft-azure-data-engineer-associate"
+            },
+            {
+              "title": "Databricks Certified Data Engineer Associate Certification",
+              "url": "https://www.databricks.com/learn/certification/data-engineer-associate"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Core Skill Learning",
+              "description": "Learn the fundamentals: build a solid foundation in python and sql, etl/elt pipeline development, and data warehousing (snowflake, bigquery, redshift) \u2014 these are the essential building blocks for a data engineer"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Mode Analytics SQL Tutorial",
+              "url": "https://learn.mode.com/sql/"
+            },
+            {
+              "title": "Python Data Science Handbook by Jake VanderPlas",
+              "url": "https://jakevdp.github.io/PythonDataScienceHandbook/"
+            },
+            {
+              "title": "Data Warehouse Concepts, Design, and Data Integration (Coursera)",
+              "url": "https://www.coursera.org/learn/data-warehouse-concepts-design"
+            },
+            {
+              "title": "AWS Cloud Practitioner Essentials (Official AWS Training)",
+              "url": "https://aws.amazon.com/training/digital/aws-cloud-practitioner-essentials/"
+            },
+            {
+              "title": "Apache Spark Programming with Python (Databricks Academy)",
+              "url": "https://www.databricks.com/learn/training/academy/spark-programming-with-python"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Intermediate / Advanced Skills",
+              "description": "Deepen your expertise by developing intermediate-to-advanced skills in apache spark and hadoop, cloud platforms (aws, azure, gcp), and data modelling, applying them through exercises and case studies"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Delta Lake Documentation & Tutorials",
+              "url": "https://docs.delta.io/latest/index.html"
+            },
+            {
+              "title": "Google Cloud Professional Data Engineer Specialization (Coursera)",
+              "url": "https://www.coursera.org/specializations/preparing-for-google-cloud-professional-data-engineer-exam"
+            },
+            {
+              "title": "Confluent Developer Tutorials: Apache Kafka and Streaming Applications",
+              "url": "https://developer.confluent.io/tutorials/"
+            },
+            {
+              "title": "Apache Airflow Documentation: Advanced DAG Authoring & Production Deployment",
+              "url": "https://airflow.apache.org/docs/apache-airflow/stable/authoring-and-scheduling/index.html"
+            },
+            {
+              "title": "Snowflake University: Data Engineering and Data Warehousing Courses",
+              "url": "https://learn.snowflake.com/en/courses/data-engineer/"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Hands-on Practice",
+              "description": "Gain hands-on experience by completing software projects, open-source contributions, or technical prototypes \u2014 focus on applying python and sql, and etl/elt pipeline development in realistic scenarios"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Databricks Academy - Data Engineering Learning Plan",
+              "url": "https://www.databricks.com/resources/databricks-academy"
+            },
+            {
+              "title": "Apache Airflow Official Documentation & Tutorials",
+              "url": "https://airflow.apache.org/docs/apache-airflow/stable/index.html"
+            },
+            {
+              "title": "dbt Learn - Fundamentals Course",
+              "url": "https://www.getdbt.com/learn/"
+            },
+            {
+              "title": "AWS Glue Developer Guide and Examples",
+              "url": "https://docs.aws.amazon.com/glue/latest/dg/what-is-glue.html"
+            },
+            {
+              "title": "Preparing for Google Cloud Certification: Cloud Data Engineer Professional Certificate",
+              "url": "https://www.coursera.org/professional-certificates/gcp-data-engineer"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Portfolio Building",
+              "description": "Build a professional portfolio: publish your best projects on GitHub, create a personal website showcasing your work, and document your process and results"
+            }
+          ],
+          "resources": [
+            {
+              "title": "DataTalks.Club Data Engineering Zoomcamp (Free Course)",
+              "url": "https://github.com/DataTalksClub/data-engineering-zoomcamp"
+            },
+            {
+              "title": "How to Showcase Your Data Engineering Projects on GitHub Effectively",
+              "url": "https://www.dataquest.io/blog/how-to-showcase-data-science-projects-on-github/"
+            },
+            {
+              "title": "AWS Well-Architected Labs: Data Lake and Data Mesh Foundation",
+              "url": "https://www.wellarchitectedlabs.com/analytics/200_data_lake_and_data_mesh/"
+            },
+            {
+              "title": "Data Project Documentation Best Practices (Towards Data Science)",
+              "url": "https://towardsdatascience.com/data-project-documentation-best-practices-281b37492c60"
+            },
+            {
+              "title": "Build a Data Lake with Cloud Storage and Dataproc (Google Cloud Tutorial)",
+              "url": "https://cloud.google.com/data-engineering/docs/tutorials/data-lake-cloud-storage-dataproc"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "CV / Profile Building",
+              "description": "Prepare your professional profile: craft a targeted CV/resume highlighting your data engineer skills, optimize your LinkedIn profile, and gather references or endorsements from mentors, instructors, or past collaborators"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Writing a Compelling Tech Resume (LinkedIn Learning)",
+              "url": "https://www.linkedin.com/learning/writing-a-compelling-tech-resume"
+            },
+            {
+              "title": "Optimizing Your LinkedIn Profile (LinkedIn Learning)",
+              "url": "https://www.linkedin.com/learning/optimizing-your-linkedin-profile-2"
+            },
+            {
+              "title": "Google Career Certificates: Interviewing and Resume Writing in English (Coursera)",
+              "url": "https://www.coursera.org/learn/interviewing-resume-writing-in-english"
+            },
+            {
+              "title": "How to Build a Data Science Portfolio (No Experience Necessary) - freeCodeCamp",
+              "url": "https://www.freecodecamp.org/news/how-to-build-a-data-science-portfolio-no-experience-necessary/"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Job Application / Freelancing",
+              "description": "Apply for data engineer positions through job boards, company career pages, professional networks, and industry-specific platforms \u2014 tailor each application and prepare to discuss your hands-on experience and portfolio in interviews"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Wuzzuf - Data Engineer Jobs in Egypt",
+              "url": "https://wuzzuf.net/jobs/p/Data-Engineer-Jobs-in-Egypt"
+            },
+            {
+              "title": "Forasna - Data Engineer Jobs in Egypt",
+              "url": "https://forasna.com/en/jobs/data-engineer-jobs-in-egypt"
+            },
+            {
+              "title": "LinkedIn - Data Engineer Jobs in Egypt",
+              "url": "https://www.linkedin.com/jobs/search?keywords=Data%20Engineer&location=Egypt&geoId=103360481"
+            },
+            {
+              "title": "Bayt.com - Data Engineer Jobs in Egypt",
+              "url": "https://www.bayt.com/en/egypt/jobs/data-engineer-jobs/"
+            },
+            {
+              "title": "Upwork - Data Engineering Jobs",
+              "url": "https://www.upwork.com/nx/jobs/search/?q=data%20engineer"
+            },
+            {
+              "title": "Fiverr - Data Engineering Gigs",
+              "url": "https://www.fiverr.com/search/gigs?query=data%20engineer"
+            },
+            {
+              "title": "Toptal - Data Engineering Opportunities",
+              "url": "https://www.toptal.com/data-engineer"
+            },
+            {
+              "title": "Mostaql - Data Engineering Projects (\u0645\u0633\u062a\u0642\u0644 - \u0645\u0634\u0627\u0631\u064a\u0639 \u0647\u0646\u062f\u0633\u0629 \u0628\u064a\u0627\u0646\u0627\u062a)",
+              "url": "https://mostaql.com/projects?search=\u0647\u0646\u062f\u0633\u0629+\u0627\u0644\u0628\u064a\u0627\u0646\u0627\u062a"
+            },
+            {
+              "title": "Khamsat - Data Engineering Services (\u062e\u0645\u0633\u0627\u062a - \u062e\u062f\u0645\u0627\u062a \u0647\u0646\u062f\u0633\u0629 \u0628\u064a\u0627\u0646\u0627\u062a)",
+              "url": "https://khamsat.com/search?query=\u0647\u0646\u062f\u0633\u0629%20\u0627\u0644\u0628\u064a\u0627\u0646\u0627\u062a"
+            },
+            {
+              "title": "LinkedIn Group: Egypt Data Science & AI Community",
+              "url": "https://www.linkedin.com/groups/8549495/"
+            },
+            {
+              "title": "LinkedIn Group: Egyptian Tech Community",
+              "url": "https://www.linkedin.com/groups/3790114/"
+            },
+            {
+              "title": "Facebook Group: Data Science & AI Egypt",
+              "url": "https://www.facebook.com/groups/DataScience.AI.Egypt"
+            },
+            {
+              "title": "Facebook Group: Tech Community Egypt",
+              "url": "https://www.facebook.com/groups/techcommunityegypt"
+            },
+            {
+              "title": "Meetup - Data Science Egypt (Cairo)",
+              "url": "https://www.meetup.com/find/?location=eg--cairo&keywords=data%20science"
+            },
+            {
+              "title": "Meetup - AWS User Group Egypt",
+              "url": "https://www.meetup.com/aws-ug-egypt/"
+            },
+            {
+              "title": "Meetup - Azure Egypt User Group",
+              "url": "https://www.meetup.com/azure-egypt-user-group/"
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "path_title": "data engineer",
+      "focus": "Fast-Entry",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "milestones": [
+            {
+              "title": "Foundation & Core Skills",
+              "description": "(Optional) Complete an online certificate, bootcamp, or structured course in data engineer to build a strong learning foundation\n\nThen: Learn the fundamentals: build a solid foundation in python and sql, etl/elt pipeline development, and data warehousing (snowflake, bigquery, redshift) \u2014 these are the essential building blocks for a data engineer"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Google Data Analytics Professional Certificate on Coursera",
+              "url": "https://www.coursera.org/professional-certificates/google-data-analytics"
+            },
+            {
+              "title": "Python for Everybody Specialization on Coursera (University of Michigan)",
+              "url": "https://www.coursera.org/specializations/python"
+            },
+            {
+              "title": "The Complete SQL Bootcamp 2023: Go from Zero to Hero on Udemy",
+              "url": "https://www.udemy.com/course/the-complete-sql-bootcamp/"
+            },
+            {
+              "title": "AWS Cloud Practitioner Essentials (Self-Paced Digital Training)",
+              "url": "https://aws.amazon.com/training/digital/aws-cloud-practitioner-essentials/"
+            },
+            {
+              "title": "IBM Data Engineering Professional Certificate on Coursera",
+              "url": "https://www.coursera.org/professional-certificates/ibm-data-engineering"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Skill Building & Practice",
+              "description": "Deepen your expertise by developing intermediate-to-advanced skills in apache spark and hadoop, cloud platforms (aws, azure, gcp), and data modelling, applying them through exercises and case studies\n\nThen: Gain hands-on experience by completing software projects, open-source contributions, or technical prototypes \u2014 focus on applying python and sql, and etl/elt pipeline development in realistic scenarios"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Databricks Academy: Apache Spark Developer Certification (Python)",
+              "url": "https://academy.databricks.com/courses/spark-developer-python-certification"
+            },
+            {
+              "title": "Google Cloud Professional Data Engineer Certification Learning Path",
+              "url": "https://cloud.google.com/learn/certification/data-engineer"
+            },
+            {
+              "title": "Apache Kafka Official Documentation",
+              "url": "https://kafka.apache.org/documentation/"
+            },
+            {
+              "title": "AWS Certified Data Analytics \u2013 Specialty Learning Path",
+              "url": "https://aws.amazon.com/certification/certified-data-analytics-specialty/"
+            },
+            {
+              "title": "Data Engineering Zoomcamp by DataTalks.Club",
+              "url": "https://datatalks.club/courses/data-engineering-zoomcamp/"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Portfolio & Professional Profile",
+              "description": "Build a professional portfolio: publish your best projects on GitHub, create a personal website showcasing your work, and document your process and results\n\nThen: Prepare your professional profile: craft a targeted CV/resume highlighting your data engineer skills, optimize your LinkedIn profile, and gather references or endorsements from mentors, instructors, or past collaborators"
+            }
+          ],
+          "resources": [],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Job Application / Freelancing",
+              "description": "Apply for data engineer positions through job boards, company career pages, professional networks, and industry-specific platforms \u2014 tailor each application and prepare to discuss your hands-on experience and portfolio in interviews"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Wuzzuf - Data Engineer Jobs in Egypt",
+              "url": "https://wuzzuf.net/jobs/p/Data-Engineer-Jobs-in-Egypt"
+            },
+            {
+              "title": "Forasna - Data Engineer Jobs in Egypt",
+              "url": "https://forasna.com/en/jobs/data-engineer-jobs-in-egypt"
+            },
+            {
+              "title": "LinkedIn - Data Engineer Jobs in Egypt",
+              "url": "https://www.linkedin.com/jobs/search?keywords=Data%20Engineer&location=Egypt&geoId=103360481"
+            },
+            {
+              "title": "Bayt.com - Data Engineer Jobs in Egypt",
+              "url": "https://www.bayt.com/en/egypt/jobs/data-engineer-jobs/"
+            },
+            {
+              "title": "Upwork - Data Engineering Jobs",
+              "url": "https://www.upwork.com/nx/jobs/search/?q=data%20engineer"
+            },
+            {
+              "title": "Fiverr - Data Engineering Gigs",
+              "url": "https://www.fiverr.com/search/gigs?query=data%20engineer"
+            },
+            {
+              "title": "Toptal - Data Engineering Opportunities",
+              "url": "https://www.toptal.com/data-engineer"
+            },
+            {
+              "title": "Mostaql - Data Engineering Projects (\u0645\u0633\u062a\u0642\u0644 - \u0645\u0634\u0627\u0631\u064a\u0639 \u0647\u0646\u062f\u0633\u0629 \u0628\u064a\u0627\u0646\u0627\u062a)",
+              "url": "https://mostaql.com/projects?search=\u0647\u0646\u062f\u0633\u0629+\u0627\u0644\u0628\u064a\u0627\u0646\u0627\u062a"
+            },
+            {
+              "title": "Khamsat - Data Engineering Services (\u062e\u0645\u0633\u0627\u062a - \u062e\u062f\u0645\u0627\u062a \u0647\u0646\u062f\u0633\u0629 \u0628\u064a\u0627\u0646\u0627\u062a)",
+              "url": "https://khamsat.com/search?query=\u0647\u0646\u062f\u0633\u0629%20\u0627\u0644\u0628\u064a\u0627\u0646\u0627\u062a"
+            },
+            {
+              "title": "LinkedIn Group: Egypt Data Science & AI Community",
+              "url": "https://www.linkedin.com/groups/8549495/"
+            },
+            {
+              "title": "LinkedIn Group: Egyptian Tech Community",
+              "url": "https://www.linkedin.com/groups/3790114/"
+            },
+            {
+              "title": "Facebook Group: Data Science & AI Egypt",
+              "url": "https://www.facebook.com/groups/DataScience.AI.Egypt"
+            },
+            {
+              "title": "Facebook Group: Tech Community Egypt",
+              "url": "https://www.facebook.com/groups/techcommunityegypt"
+            },
+            {
+              "title": "Meetup - Data Science Egypt (Cairo)",
+              "url": "https://www.meetup.com/find/?location=eg--cairo&keywords=data%20science"
+            },
+            {
+              "title": "Meetup - AWS User Group Egypt",
+              "url": "https://www.meetup.com/aws-ug-egypt/"
+            },
+            {
+              "title": "Meetup - Azure Egypt User Group",
+              "url": "https://www.meetup.com/azure-egypt-user-group/"
+            }
+          ],
+          "children": []
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/static/roadmaps/roadmap_1.png",
+    "/static/roadmaps/roadmap_2.png"
+  ]
+}

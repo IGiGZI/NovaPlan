@@ -1,0 +1,224 @@
+{
+  "input": {
+    "answers": [],
+    "careers": [
+      "web / HTML5 game developer"
+    ],
+    "category": "Programming & Software Development",
+    "user_summary": "",
+    "experience_level": "beginner",
+    "selected_language": "React",
+    "prefer_paid": false
+  },
+  "derived_skills": [],
+  "chosen_career": "web / HTML5 game developer",
+  "roadmaps": [
+    {
+      "path_title": "web / HTML5 game developer",
+      "focus": "Beginner \u2014 Full Roadmap",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "milestones": [
+            {
+              "title": "Certification",
+              "description": "(Optional) Complete an online certificate, bootcamp, or structured course in web / HTML5 game developer to build a strong learning foundation"
+            }
+          ],
+          "resources": [
+            {
+              "title": "web / HTML5 game developer certification on Coursera",
+              "url": "https://www.coursera.org/search?query=web+/+HTML5+game+developer+certificate"
+            },
+            {
+              "title": "web / HTML5 game developer certification on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=web+/+HTML5+game+developer+certificate"
+            },
+            {
+              "title": "web / HTML5 game developer courses on edX",
+              "url": "https://www.edx.org/search?q=web+/+HTML5+game+developer"
+            },
+            {
+              "title": "Google Certificates related to web / HTML5 game developer",
+              "url": "https://grow.google/certificates/"
+            },
+            {
+              "title": "web / HTML5 game developer certification guide on YouTube",
+              "url": "https://www.youtube.com/results?search_query=web+/+HTML5+game+developer+certification+guide"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Core Skill Learning",
+              "description": "Learn the fundamentals: build a solid foundation in HTML5, CSS3, and JavaScript, game frameworks (Phaser, PixiJS, BabylonJS), and WebGL and canvas rendering \u2014 these are the essential building blocks for a web / HTML5 game developer"
+            }
+          ],
+          "resources": [
+            {
+              "title": "web / HTML5 game developer Core Skill Learning on Coursera",
+              "url": "https://www.coursera.org/search?query=web+/+HTML5+game+developer+HTML5,+CSS3,+and+JavaScript"
+            },
+            {
+              "title": "web / HTML5 game developer Core Skill Learning on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=web+/+HTML5+game+developer+HTML5,+CSS3,+and+JavaScript"
+            },
+            {
+              "title": "web / HTML5 game developer Core Skill Learning on YouTube",
+              "url": "https://www.youtube.com/results?search_query=web+/+HTML5+game+developer+HTML5,+CSS3,+and+JavaScript+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Intermediate / Advanced Skills",
+              "description": "Deepen your expertise by developing intermediate-to-advanced skills in game loop and state machine design, physics engines (Matter.js, Planck.js), and asset management and sprite animation, applying them through exercises and case studies"
+            }
+          ],
+          "resources": [
+            {
+              "title": "web / HTML5 game developer Intermediate / Advanced Skills on Coursera",
+              "url": "https://www.coursera.org/search?query=web+/+HTML5+game+developer+HTML5,+CSS3,+and+JavaScript"
+            },
+            {
+              "title": "web / HTML5 game developer Intermediate / Advanced Skills on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=web+/+HTML5+game+developer+HTML5,+CSS3,+and+JavaScript"
+            },
+            {
+              "title": "web / HTML5 game developer Intermediate / Advanced Skills on YouTube",
+              "url": "https://www.youtube.com/results?search_query=web+/+HTML5+game+developer+HTML5,+CSS3,+and+JavaScript+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Hands-on Practice",
+              "description": "Gain hands-on experience by completing software projects, open-source contributions, or technical prototypes \u2014 focus on applying HTML5, CSS3, and JavaScript, and game frameworks (Phaser, PixiJS, BabylonJS) in realistic scenarios"
+            }
+          ],
+          "resources": [
+            {
+              "title": "web / HTML5 game developer Hands-on Practice on Coursera",
+              "url": "https://www.coursera.org/search?query=web+/+HTML5+game+developer+HTML5,+CSS3,+and+JavaScript"
+            },
+            {
+              "title": "web / HTML5 game developer Hands-on Practice on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=web+/+HTML5+game+developer+HTML5,+CSS3,+and+JavaScript"
+            },
+            {
+              "title": "web / HTML5 game developer Hands-on Practice on YouTube",
+              "url": "https://www.youtube.com/results?search_query=web+/+HTML5+game+developer+HTML5,+CSS3,+and+JavaScript+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Portfolio Building",
+              "description": "Build a professional portfolio: publish your best projects on GitHub, create a personal website showcasing your work, and document your process and results"
+            }
+          ],
+          "resources": [
+            {
+              "title": "web / HTML5 game developer Portfolio Building on Coursera",
+              "url": "https://www.coursera.org/search?query=web+/+HTML5+game+developer+HTML5,+CSS3,+and+JavaScript"
+            },
+            {
+              "title": "web / HTML5 game developer Portfolio Building on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=web+/+HTML5+game+developer+HTML5,+CSS3,+and+JavaScript"
+            },
+            {
+              "title": "web / HTML5 game developer Portfolio Building on YouTube",
+              "url": "https://www.youtube.com/results?search_query=web+/+HTML5+game+developer+HTML5,+CSS3,+and+JavaScript+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "CV / Profile Building",
+              "description": "Prepare your professional profile: craft a targeted CV/resume highlighting your web / HTML5 game developer skills, optimize your LinkedIn profile, and gather references or endorsements from mentors, instructors, or past collaborators"
+            }
+          ],
+          "resources": [
+            {
+              "title": "web / HTML5 game developer CV / Profile Building on Coursera",
+              "url": "https://www.coursera.org/search?query=web+/+HTML5+game+developer+HTML5,+CSS3,+and+JavaScript"
+            },
+            {
+              "title": "web / HTML5 game developer CV / Profile Building on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=web+/+HTML5+game+developer+HTML5,+CSS3,+and+JavaScript"
+            },
+            {
+              "title": "web / HTML5 game developer CV / Profile Building on YouTube",
+              "url": "https://www.youtube.com/results?search_query=web+/+HTML5+game+developer+HTML5,+CSS3,+and+JavaScript+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Job Application / Freelancing",
+              "description": "Apply for web / HTML5 game developer positions on job boards, company career pages, and freelance platforms (Upwork, Fiverr, Toptal) \u2014 tailor each application to the role and be ready to showcase your portfolio in interviews"
+            }
+          ],
+          "resources": [
+            {
+              "title": "web / HTML5 game developer jobs on Wuzzuf",
+              "url": "https://wuzzuf.net/search/jobs/?q=web+/+HTML5+game+developer&a=hpb"
+            },
+            {
+              "title": "web / HTML5 game developer jobs on Forasna",
+              "url": "https://www.forasna.com/jobs/search/web-/-HTML5-game-developer"
+            },
+            {
+              "title": "web / HTML5 game developer jobs on LinkedIn",
+              "url": "https://www.linkedin.com/jobs/search/?keywords=web+/+HTML5+game+developer&location=Egypt"
+            },
+            {
+              "title": "web / HTML5 game developer jobs on Bayt.com",
+              "url": "https://www.bayt.com/en/egypt/jobs/web-/-HTML5-game-developer-jobs/"
+            },
+            {
+              "title": "web / HTML5 game developer jobs on Indeed Egypt",
+              "url": "https://eg.indeed.com/jobs?q=web+/+HTML5+game+developer"
+            },
+            {
+              "title": "web / HTML5 game developer freelance jobs on Upwork",
+              "url": "https://www.upwork.com/freelance-jobs/web-/-HTML5-game-developer/"
+            },
+            {
+              "title": "web / HTML5 game developer services on Fiverr",
+              "url": "https://www.fiverr.com/search/gigs?query=web+/+HTML5+game+developer"
+            },
+            {
+              "title": "web / HTML5 game developer projects on Mostaql",
+              "url": "https://mostaql.com/projects?keyword=web+/+HTML5+game+developer"
+            },
+            {
+              "title": "Khamsat - Arabic Micro Services",
+              "url": "https://khamsat.com/"
+            },
+            {
+              "title": "web / HTML5 game developer freelance on Toptal",
+              "url": "https://www.toptal.com/"
+            }
+          ],
+          "children": []
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/static/roadmaps/roadmap_1.png"
+  ]
+}

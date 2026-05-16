@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+:root {
+	--primary-bg-color: #0a0a1a;
+  --primary-purpleColor: #af47f2;
+  --primary-text-color: #939aa8;
+
+	background-color: #0a0a1a;
+
+	font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+
+	color-scheme: light dark;
+	color: rgba(255, 255, 255, 0.87);
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.react-flow__node {
+  color: #111;
+}
+
+
+.specialBtnGradient {
+	background: #af47f2;
+	background: linear-gradient(
+		90deg,
+		rgba(175, 71, 242, 1) 0%,
+		rgba(208, 52, 155, 1) 50%,
+		rgba(0, 210, 241, 1) 100%
+	);
+  transition: 0.3s ease ;
+  cursor: pointer;
+}
+
+.specialBtnGradient:hover {
+	transform: scale(1.05);
+
+}

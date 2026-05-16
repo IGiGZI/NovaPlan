@@ -1,0 +1,421 @@
+{
+  "input": {
+    "answers": [
+      {
+        "questionId": "Q_EDU",
+        "label": "I haven't started university yet"
+      },
+      {
+        "questionId": "Q_ENV",
+        "label": "At a desk \u2014 in an office or from home"
+      },
+      {
+        "questionId": "Q_STYLE",
+        "label": "Mostly on my own \u2014 I focus better independently"
+      },
+      {
+        "questionId": "Q_IMPACT",
+        "label": "Creating technology \u2014 code, apps, AI"
+      },
+      {
+        "questionId": "Q_PACE",
+        "label": "Steady and methodical \u2014 I like planning carefully"
+      },
+      {
+        "questionId": "Q_SUBFIELD",
+        "label": "General software development and architecture"
+      }
+    ],
+    "careers": [
+      "software analyst"
+    ],
+    "category": "Programming & Software Development"
+  },
+  "derived_skills": [],
+  "chosen_career": "software analyst",
+  "roadmaps": [
+    {
+      "path_title": "software analyst",
+      "focus": "Depth",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "milestones": [
+            {
+              "title": "Certification",
+              "description": "(Optional) Complete an online certificate, bootcamp, or structured course in software analyst to build a strong learning foundation"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Google Data Analytics Professional Certificate on Coursera",
+              "url": "https://www.coursera.org/professional-certificates/google-data-analytics"
+            },
+            {
+              "title": "Business Analysis Professional Certificate (University of Toronto) on Coursera",
+              "url": "https://www.coursera.org/professional-certificates/business-analysis"
+            },
+            {
+              "title": "The Complete SQL Bootcamp 2024: Go from Zero to Hero on Udemy",
+              "url": "https://www.udemy.com/course/the-complete-sql-bootcamp-go-from-zero-to-hero/"
+            },
+            {
+              "title": "Agile Crash Course: Agile Project Management; Agile Delivery; Scrum on Udemy",
+              "url": "https://www.udemy.com/course/agile-crash-course/"
+            },
+            {
+              "title": "AWS Cloud Practitioner Essentials (Amazon Web Services) on Coursera",
+              "url": "https://www.coursera.org/learn/aws-cloud-practitioner-essentials"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Core Skill Learning",
+              "description": "Learn the fundamentals: build a solid foundation in requirements gathering, business process analysis, and use case documentation \u2014 these are the essential building blocks for a software analyst"
+            }
+          ],
+          "resources": [
+            {
+              "title": "W3Schools SQL Tutorial",
+              "url": "https://www.w3schools.com/sql/default.asp"
+            },
+            {
+              "title": "freeCodeCamp Scientific Computing with Python Certification",
+              "url": "https://www.freecodecamp.org/learn/scientific-computing-with-python/"
+            },
+            {
+              "title": "Udemy Courses on Microsoft Excel",
+              "url": "https://www.udemy.com/topic/microsoft-excel/"
+            },
+            {
+              "title": "Coursera Courses on Business Analysis",
+              "url": "https://www.coursera.org/courses?query=business%20analysis"
+            },
+            {
+              "title": "edX Courses on Agile Software Development",
+              "url": "https://www.edx.org/search?q=agile%20software%20development"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Intermediate / Advanced Skills",
+              "description": "Deepen your expertise by developing intermediate-to-advanced skills in agile and scrum methodologies, uml diagrams, and stakeholder communication, applying them through exercises and case studies"
+            }
+          ],
+          "resources": [
+            {
+              "title": "IBM Data Analyst Professional Certificate (Coursera)",
+              "url": "https://www.coursera.org/professional-certificates/ibm-data-analyst"
+            },
+            {
+              "title": "Python for Data Analysis and Automation (Udemy Topic)",
+              "url": "https://www.udemy.com/topic/python/"
+            },
+            {
+              "title": "Business Intelligence Tools and Advanced Analytics (Udemy Topic)",
+              "url": "https://www.udemy.com/topic/business-intelligence/"
+            },
+            {
+              "title": "AWS Training and Certification for Data Analytics",
+              "url": "https://aws.amazon.com/training/"
+            },
+            {
+              "title": "Scientific Computing with Python Certification (freeCodeCamp)",
+              "url": "https://www.freecodecamp.org/learn/scientific-computing-with-python/"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Hands-on Practice",
+              "description": "Gain hands-on experience by completing data analysis projects, research studies, or analytical reports using real-world datasets \u2014 focus on applying requirements gathering, and business process analysis in realistic scenarios"
+            }
+          ],
+          "resources": [
+            {
+              "title": "SQL Tutorial for Beginners (Interactive)",
+              "url": "https://www.w3schools.com/sql/"
+            },
+            {
+              "title": "Pandas Official Documentation & User Guide",
+              "url": "https://pandas.pydata.org/docs/"
+            },
+            {
+              "title": "Atlassian Jira Software Documentation & Tutorials",
+              "url": "https://support.atlassian.com/jira-software/"
+            },
+            {
+              "title": "Tableau Public Learning Resources & Tutorials",
+              "url": "https://public.tableau.com/en-us/s/resources"
+            },
+            {
+              "title": "Unified Modeling Language (UML) Complete Guide",
+              "url": "https://www.geeksforgeeks.org/unified-modeling-language-uml-complete-guide/"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Portfolio Building",
+              "description": "Build a portfolio of analytical projects: publish notebooks on Kaggle or GitHub, create data visualizations, and document your methodology and findings"
+            }
+          ],
+          "resources": [
+            {
+              "title": "GitHub for Hosting and Showcasing Software Projects",
+              "url": "https://github.com/"
+            },
+            {
+              "title": "Coursera Data Science & Analytics Learning Path",
+              "url": "https://www.coursera.org/browse/data-science"
+            },
+            {
+              "title": "freeCodeCamp Data Analysis with Python Certification",
+              "url": "https://www.freecodecamp.org/learn/data-analysis-with-python/"
+            },
+            {
+              "title": "GeeksforGeeks - Data Science Project Ideas and Tutorials",
+              "url": "https://www.geeksforgeeks.org/data-science-projects/"
+            },
+            {
+              "title": "freeCodeCamp.org YouTube Channel (Project-Based Tutorials)",
+              "url": "https://www.youtube.com/@freecodecamp"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "CV / Profile Building",
+              "description": "Prepare your professional profile: craft a targeted CV/resume highlighting your software analyst skills, optimize your LinkedIn profile, and gather references or endorsements from mentors, instructors, or past collaborators"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Coursera: Professional Resume and CV Writing Courses",
+              "url": "https://www.coursera.org/search?query=resume%20writing"
+            },
+            {
+              "title": "Udemy: LinkedIn Profile Optimization Courses",
+              "url": "https://www.udemy.com/courses/search/?q=linkedin%20profile%20optimization"
+            },
+            {
+              "title": "GitHub Docs: Getting Started with Git and GitHub (for Project Portfolios)",
+              "url": "https://docs.github.com/en/get-started/getting-started-with-git-and-github"
+            },
+            {
+              "title": "GeeksforGeeks: Career Advice and Interview Preparation",
+              "url": "https://www.geeksforgeeks.org/career-advice/"
+            },
+            {
+              "title": "YouTube: Career Advice and Job Interview Preparation",
+              "url": "https://www.youtube.com/results?search_query=career+advice"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Job Application / Freelancing",
+              "description": "Apply for software analyst positions through job boards, company career pages, professional networks, and industry-specific platforms \u2014 tailor each application and prepare to discuss your hands-on experience and portfolio in interviews"
+            }
+          ],
+          "resources": [
+            {
+              "title": "software analyst jobs on Wuzzuf",
+              "url": "https://wuzzuf.net/search/jobs/?q=software+analyst&a=hpb"
+            },
+            {
+              "title": "software analyst jobs on Forasna",
+              "url": "https://www.forasna.com/jobs/search/software-analyst"
+            },
+            {
+              "title": "software analyst jobs on LinkedIn",
+              "url": "https://www.linkedin.com/jobs/search/?keywords=software+analyst&location=Egypt"
+            },
+            {
+              "title": "software analyst jobs on Bayt.com",
+              "url": "https://www.bayt.com/en/egypt/jobs/software-analyst-jobs/"
+            },
+            {
+              "title": "software analyst jobs on Indeed Egypt",
+              "url": "https://eg.indeed.com/jobs?q=software+analyst"
+            },
+            {
+              "title": "software analyst freelance jobs on Upwork",
+              "url": "https://www.upwork.com/freelance-jobs/software-analyst/"
+            },
+            {
+              "title": "software analyst services on Fiverr",
+              "url": "https://www.fiverr.com/search/gigs?query=software+analyst"
+            },
+            {
+              "title": "software analyst projects on Mostaql",
+              "url": "https://mostaql.com/projects?keyword=software+analyst"
+            },
+            {
+              "title": "Khamsat - Arabic Micro Services",
+              "url": "https://khamsat.com/"
+            },
+            {
+              "title": "software analyst freelance on Toptal",
+              "url": "https://www.toptal.com/"
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "path_title": "software analyst",
+      "focus": "Fast-Entry",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "milestones": [
+            {
+              "title": "Foundation & Core Skills",
+              "description": "(Optional) Complete an online certificate, bootcamp, or structured course in software analyst to build a strong learning foundation\n\nThen: Learn the fundamentals: build a solid foundation in requirements gathering, business process analysis, and use case documentation \u2014 these are the essential building blocks for a software analyst"
+            }
+          ],
+          "resources": [
+            {
+              "title": "software analyst \u2014 Foundation & Core Skills courses on Coursera",
+              "url": "https://www.coursera.org/search?query=software+analyst+Foundation+&+Core+Skills"
+            },
+            {
+              "title": "software analyst \u2014 Foundation & Core Skills courses on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=software+analyst+Foundation+&+Core+Skills"
+            },
+            {
+              "title": "software analyst \u2014 Foundation & Core Skills tutorials on YouTube",
+              "url": "https://www.youtube.com/results?search_query=software+analyst+Foundation+&+Core+Skills+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Skill Building & Practice",
+              "description": "Deepen your expertise by developing intermediate-to-advanced skills in agile and scrum methodologies, uml diagrams, and stakeholder communication, applying them through exercises and case studies\n\nThen: Gain hands-on experience by completing data analysis projects, research studies, or analytical reports using real-world datasets \u2014 focus on applying requirements gathering, and business process analysis in realistic scenarios"
+            }
+          ],
+          "resources": [
+            {
+              "title": "software analyst \u2014 Skill Building & Practice courses on Coursera",
+              "url": "https://www.coursera.org/search?query=software+analyst+Skill+Building+&+Practice"
+            },
+            {
+              "title": "software analyst \u2014 Skill Building & Practice courses on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=software+analyst+Skill+Building+&+Practice"
+            },
+            {
+              "title": "software analyst \u2014 Skill Building & Practice tutorials on YouTube",
+              "url": "https://www.youtube.com/results?search_query=software+analyst+Skill+Building+&+Practice+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Portfolio & Professional Profile",
+              "description": "Build a portfolio of analytical projects: publish notebooks on Kaggle or GitHub, create data visualizations, and document your methodology and findings\n\nThen: Prepare your professional profile: craft a targeted CV/resume highlighting your software analyst skills, optimize your LinkedIn profile, and gather references or endorsements from mentors, instructors, or past collaborators"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Udemy: Career Development & Personal Branding Courses",
+              "url": "https://www.udemy.com/courses/personal-development/career-development/"
+            },
+            {
+              "title": "YouTube: How to Build a Professional GitHub Profile & Portfolio (Search)",
+              "url": "https://www.youtube.com/results?search_query=build+professional+github+portfolio"
+            },
+            {
+              "title": "GeeksforGeeks: Comprehensive Interview Preparation Tutorials",
+              "url": "https://www.geeksforgeeks.org/prepare-for-interview/"
+            },
+            {
+              "title": "freeCodeCamp: Build a Personal Portfolio Website (Responsive Web Design Certification)",
+              "url": "https://www.freecodecamp.org/learn/responsive-web-design/"
+            },
+            {
+              "title": "Coursera: Enhance Professional Skills & Networking Courses (Search)",
+              "url": "https://www.coursera.org/courses?query=professional+networking"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Job Application / Freelancing",
+              "description": "Apply for software analyst positions through job boards, company career pages, professional networks, and industry-specific platforms \u2014 tailor each application and prepare to discuss your hands-on experience and portfolio in interviews"
+            }
+          ],
+          "resources": [
+            {
+              "title": "software analyst jobs on Wuzzuf",
+              "url": "https://wuzzuf.net/search/jobs/?q=software+analyst&a=hpb"
+            },
+            {
+              "title": "software analyst jobs on Forasna",
+              "url": "https://www.forasna.com/jobs/search/software-analyst"
+            },
+            {
+              "title": "software analyst jobs on LinkedIn",
+              "url": "https://www.linkedin.com/jobs/search/?keywords=software+analyst&location=Egypt"
+            },
+            {
+              "title": "software analyst jobs on Bayt.com",
+              "url": "https://www.bayt.com/en/egypt/jobs/software-analyst-jobs/"
+            },
+            {
+              "title": "software analyst jobs on Indeed Egypt",
+              "url": "https://eg.indeed.com/jobs?q=software+analyst"
+            },
+            {
+              "title": "software analyst freelance jobs on Upwork",
+              "url": "https://www.upwork.com/freelance-jobs/software-analyst/"
+            },
+            {
+              "title": "software analyst services on Fiverr",
+              "url": "https://www.fiverr.com/search/gigs?query=software+analyst"
+            },
+            {
+              "title": "software analyst projects on Mostaql",
+              "url": "https://mostaql.com/projects?keyword=software+analyst"
+            },
+            {
+              "title": "Khamsat - Arabic Micro Services",
+              "url": "https://khamsat.com/"
+            },
+            {
+              "title": "software analyst freelance on Toptal",
+              "url": "https://www.toptal.com/"
+            }
+          ],
+          "children": []
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/static/roadmaps/roadmap_1.png",
+    "/static/roadmaps/roadmap_2.png"
+  ]
+}

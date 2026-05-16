@@ -1,0 +1,1441 @@
+{
+  "input": {
+    "answers": [
+      {
+        "questionId": "Q1",
+        "label": "Graduate (Master's or higher)"
+      },
+      {
+        "questionId": "Q_PERS1_GR",
+        "label": "I like solving complex problems and thinking analytically"
+      },
+      {
+        "questionId": "Q_PERS2_GR_ANALYTICAL",
+        "label": "Outdoors or on-site (field, site, lab, clinic)"
+      },
+      {
+        "questionId": "Q_PERS3_GR_ANALYTICAL_OUTDOOR",
+        "label": "Balanced \u2014 good pay and meaningful work"
+      },
+      {
+        "questionId": "Q_PERS4_GR_ANALYTICAL_OUTDOOR_BAL",
+        "label": "Small close-knit team"
+      },
+      {
+        "questionId": "Q_PERS5_GR_ANALYTICAL_OUTDOOR_BAL_SMALL",
+        "label": "Open to anything"
+      },
+      {
+        "questionId": "Q_DOMAIN_GR",
+        "label": "Aviation & Transportation"
+      },
+      {
+        "questionId": "Q3_GR_AVIA",
+        "label": "Private or general aviation"
+      },
+      {
+        "questionId": "Q4_GR_AVIA_PRIV",
+        "label": "Recreational flying and flight instruction"
+      }
+    ],
+    "careers": [
+      "flight instructor"
+    ],
+    "category": "Aviation & Piloting"
+  },
+  "derived_skills": [],
+  "chosen_career": "flight instructor",
+  "roadmaps": [
+    {
+      "path_title": "flight instructor",
+      "focus": "Depth",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "title": "Foundations",
+          "objective": "Build essential groundwork for your career",
+          "prerequisites": [],
+          "resources": [
+            {
+              "title": "Search: Standard Industry Tools",
+              "url": "https://www.google.com/search?q=Standard%20Industry%20Tools%20flight%20instructor%20tutorial%20course%20certificate"
+            }
+          ],
+          "milestones": [
+            {
+              "title": "Complete Foundations",
+              "description": "Achieve the objective 'Build essential groundwork for your career' by completing tasks such as: (Examiner-assessed flight tests)."
+            }
+          ],
+          "tasks": [
+            {
+              "title": "(Examiner-assessed flight tests)",
+              "description": "Complete examiner-assessed flight tests and oral examinations for your instructor rating"
+            }
+          ],
+          "children": [
+            {
+              "title": "Industry Fundamentals",
+              "objective": "Understand the core concepts of flight instructor",
+              "prerequisites": [],
+              "resources": [
+                {
+                  "title": "King Schools Flight Instructor Written Exam Course",
+                  "url": "https://www.kingschools.com/private-pilot/flight-instructor-courses/flight-instructor-written-exam-course"
+                },
+                {
+                  "title": "Sporty's Flight Instructor Written Test Prep",
+                  "url": "https://www.sportys.com/flight-instructor-written-test-prep.html"
+                },
+                {
+                  "title": "FAASTeam Online Training Courses",
+                  "url": "https://www.faasafety.gov/gslac/ALC/course_list.aspx"
+                },
+                {
+                  "title": "FAA Pilot's Handbook of Aeronautical Knowledge (PHAK) Glossary",
+                  "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak/media/phak_glossary.pdf"
+                },
+                {
+                  "title": "FAA Aeronautical Information Manual (AIM) Glossary",
+                  "url": "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap10_section_1.html"
+                },
+                {
+                  "title": "Skybrary Aviation Glossary",
+                  "url": "https://skybrary.aero/glossary"
+                },
+                {
+                  "title": "AOPA Pilot Career Center",
+                  "url": "https://www.aopa.org/training-and-safety/pilot-resources/pilot-career-center"
+                },
+                {
+                  "title": "Becoming a Certified Flight Instructor (CFI) Guide by Epic Flight Academy",
+                  "url": "https://epicflightacademy.com/how-to-become-a-flight-instructor/"
+                },
+                {
+                  "title": "ATP Flight School - Flight Instructor Career Path",
+                  "url": "https://atpflightschool.com/pilot-career/cfi-jobs.html"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Industry Fundamentals",
+                  "description": "Achieve the objective 'Understand the core concepts of flight instructor' by completing tasks such as: (Earn a commercial), (A flight instructor)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "(Earn a commercial)",
+                  "description": "Earn a Commercial Pilot License (CPL) or equivalent and accumulate sufficient flight hours"
+                },
+                {
+                  "title": "(A flight instructor)",
+                  "description": "Complete a Flight Instructor (FI) or CFI certificate course covering instructional technique"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Tools & Environment",
+              "objective": "Set up your professional workspace",
+              "prerequisites": [],
+              "resources": [
+                {
+                  "title": "Search: Official Documentation",
+                  "url": "https://www.google.com/search?q=Official%20Documentation%20flight%20instructor%20tutorial%20course%20certificate"
+                },
+                {
+                  "title": "Search: Community Forums",
+                  "url": "https://www.google.com/search?q=Community%20Forums%20flight%20instructor%20tutorial%20course%20certificate"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Tools & Environment",
+                  "description": "Achieve the objective 'Set up your professional workspace' by completing tasks such as: (Learn adult learning)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "(Learn adult learning)",
+                  "description": "Learn adult learning theory, lesson planning, and how to teach flight skills progressively"
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Core Skills Development",
+          "objective": "Master essential skills for flight instructor",
+          "prerequisites": [],
+          "resources": [
+            {
+              "title": "Search: Online Learning Platforms",
+              "url": "https://www.google.com/search?q=Online%20Learning%20Platforms%20flight%20instructor%20tutorial%20course%20certificate"
+            }
+          ],
+          "milestones": [
+            {
+              "title": "Complete Core Skills Development",
+              "description": "Achieve the objective 'Master essential skills for flight instructor' by completing tasks such as: (Core skills 1)."
+            }
+          ],
+          "tasks": [
+            {
+              "title": "(Core skills 1)",
+              "description": "Master core skills 1"
+            }
+          ],
+          "children": [
+            {
+              "title": "Flight Instructor Certificate (Cfi / Fi) Proficiency",
+              "objective": "Develop proficiency in flight instructor certificate (cfi / fi)",
+              "prerequisites": [],
+              "resources": [
+                {
+                  "title": "Search: Flight Instructor Certificate (Cfi / Fi) Resources",
+                  "url": "https://www.google.com/search?q=Flight%20Instructor%20Certificate%20%28Cfi%20/%20Fi%29%20Resources%20flight%20instructor%20tutorial%20course%20certificate"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Flight Instructor Certificate (Cfi / Fi) Proficiency",
+                  "description": "Achieve the objective 'Develop proficiency in flight instructor certificate (cfi / fi)' by completing tasks such as: (Experience teaching student)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "(Experience teaching student)",
+                  "description": "Build experience teaching student pilots through solo, cross-country, and instrument stages"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Instructional Techniques And Adult Learning Principles Proficiency",
+              "objective": "Develop proficiency in instructional techniques and adult learning principles",
+              "prerequisites": [],
+              "resources": [
+                {
+                  "title": "Search: Instructional Techniques And Adult Learning Principles Resources",
+                  "url": "https://www.google.com/search?q=Instructional%20Techniques%20And%20Adult%20Learning%20Principles%20Resources%20flight%20instructor%20tutorial%20course%20certificate"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Instructional Techniques And Adult Learning Principles Proficiency",
+                  "description": "Achieve the objective 'Develop proficiency in instructional techniques and adult learning principles' by completing tasks such as: (Develop a training)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "(Develop a training)",
+                  "description": "Develop a training portfolio and structured lesson plans for PPL and CPL syllabuses"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Lesson Plan Development For Flight Training Proficiency",
+              "objective": "Develop proficiency in lesson plan development for flight training",
+              "prerequisites": [],
+              "resources": [
+                {
+                  "title": "Search: Lesson Plan Development For Flight Training Resources",
+                  "url": "https://www.google.com/search?q=Lesson%20Plan%20Development%20For%20Flight%20Training%20Resources%20flight%20instructor%20tutorial%20course%20certificate"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Lesson Plan Development For Flight Training Proficiency",
+                  "description": "Achieve the objective 'Develop proficiency in lesson plan development for flight training' by completing tasks such as: (For flight instructor)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "(For flight instructor)",
+                  "description": "Apply for flight instructor roles at flying schools, aviation academies, or airline cadet programs"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Assessment And Debriefing Skills Proficiency",
+              "objective": "Develop proficiency in assessment and debriefing skills",
+              "prerequisites": [],
+              "resources": [
+                {
+                  "title": "Search: Assessment And Debriefing Skills Resources",
+                  "url": "https://www.google.com/search?q=Assessment%20And%20Debriefing%20Skills%20Resources%20flight%20instructor%20tutorial%20course%20certificate"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Assessment And Debriefing Skills Proficiency",
+                  "description": "Achieve the objective 'Develop proficiency in assessment and debriefing skills' by completing tasks such as: (Assessment and debriefing)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "(Assessment and debriefing)",
+                  "description": "Practice assessment and debriefing skills 1"
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Practical Application",
+          "objective": "Gain hands-on experience through projects or simulations",
+          "prerequisites": [],
+          "resources": [
+            {
+              "title": "Search: Portfolio Platform",
+              "url": "https://www.google.com/search?q=Portfolio%20Platform%20flight%20instructor%20tutorial%20course%20certificate"
+            }
+          ],
+          "milestones": [
+            {
+              "title": "Complete Practical Application",
+              "description": "Achieve the objective 'Gain hands-on experience through projects or simulations' by completing tasks such as: (Portfolio 1)."
+            }
+          ],
+          "tasks": [
+            {
+              "title": "(Portfolio 1)",
+              "description": "Build portfolio 1"
+            }
+          ],
+          "children": [
+            {
+              "title": "Applied Practice Project",
+              "objective": "Apply core skills in a realistic scenario",
+              "prerequisites": [
+                "flight instructor certificate (cfi / fi)",
+                "instructional techniques and adult learning principles"
+              ],
+              "resources": [
+                {
+                  "title": "Search: Project Management Tools",
+                  "url": "https://www.google.com/search?q=Project%20Management%20Tools%20flight%20instructor%20tutorial%20course%20certificate"
+                },
+                {
+                  "title": "Search: Documentation Tools",
+                  "url": "https://www.google.com/search?q=Documentation%20Tools%20flight%20instructor%20tutorial%20course%20certificate"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Applied Practice Project",
+                  "description": "Achieve the objective 'Apply core skills in a realistic scenario' by completing tasks such as: (Core skills 1), (Core skills 2)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "(Core skills 1)",
+                  "description": "Apply core skills 1"
+                },
+                {
+                  "title": "(Core skills 2)",
+                  "description": "Apply core skills 2"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Advanced Capstone",
+              "objective": "Demonstrate comprehensive mastery",
+              "prerequisites": [
+                "flight instructor certificate (cfi / fi)",
+                "instructional techniques and adult learning principles",
+                "lesson plan development for flight training"
+              ],
+              "resources": [
+                {
+                  "title": "Search: Advanced Tools",
+                  "url": "https://www.google.com/search?q=Advanced%20Tools%20flight%20instructor%20tutorial%20course%20certificate"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Advanced Capstone",
+                  "description": "Achieve the objective 'Demonstrate comprehensive mastery' by completing tasks such as: (Mastery 1)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "(Mastery 1)",
+                  "description": "Demonstrate mastery 1"
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Specialization",
+          "objective": "Develop expertise in specific areas",
+          "prerequisites": [],
+          "resources": [
+            {
+              "title": "Search: Industry Certifications",
+              "url": "https://www.google.com/search?q=Industry%20Certifications%20flight%20instructor%20tutorial%20course%20certificate"
+            }
+          ],
+          "milestones": [
+            {
+              "title": "Complete Specialization",
+              "description": "Achieve the objective 'Develop expertise in specific areas' by completing tasks such as: (Specialization 1)."
+            }
+          ],
+          "tasks": [
+            {
+              "title": "(Specialization 1)",
+              "description": "Choose specialization 1"
+            }
+          ],
+          "children": [
+            {
+              "title": "Specialization Track",
+              "objective": "Deep dive into a specific area",
+              "prerequisites": [
+                "flight instructor certificate (cfi / fi)",
+                "instructional techniques and adult learning principles"
+              ],
+              "resources": [
+                {
+                  "title": "Search: Specialized Training",
+                  "url": "https://www.google.com/search?q=Specialized%20Training%20flight%20instructor%20tutorial%20course%20certificate"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Specialization Track",
+                  "description": "Achieve the objective 'Deep dive into a specific area' by completing tasks such as: (Advanced topic 1)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "(Advanced topic 1)",
+                  "description": "Study advanced topic 1"
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Career Launch",
+          "objective": "Land your first role in the field",
+          "prerequisites": [],
+          "resources": [
+            {
+              "title": "Search: Job Search Platforms",
+              "url": "https://www.google.com/search?q=Job%20Search%20Platforms%20flight%20instructor%20tutorial%20course%20certificate"
+            }
+          ],
+          "milestones": [
+            {
+              "title": "Complete Career Launch",
+              "description": "Achieve the objective 'Land your first role in the field' by completing tasks such as: (Job offer 1)."
+            }
+          ],
+          "tasks": [
+            {
+              "title": "(Job offer 1)",
+              "description": "Secure job offer 1"
+            }
+          ],
+          "children": [
+            {
+              "title": "Professional Branding",
+              "objective": "Create compelling professional presence",
+              "prerequisites": [],
+              "resources": [
+                {
+                  "title": "Search: LinkedIn",
+                  "url": "https://www.google.com/search?q=LinkedIn%20flight%20instructor%20tutorial%20course%20certificate"
+                },
+                {
+                  "title": "Search: Resume Builder",
+                  "url": "https://www.google.com/search?q=Resume%20Builder%20flight%20instructor%20tutorial%20course%20certificate"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Professional Branding",
+                  "description": "Achieve the objective 'Create compelling professional presence' by completing tasks such as: (Professional branding 1)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "(Professional branding 1)",
+                  "description": "Professional Branding 1"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Job Search Strategy",
+              "objective": "Execute systematic job search",
+              "prerequisites": [],
+              "resources": [
+                {
+                  "title": "Search: Job Boards",
+                  "url": "https://www.google.com/search?q=Job%20Boards%20flight%20instructor%20tutorial%20course%20certificate"
+                },
+                {
+                  "title": "Search: Networking Events",
+                  "url": "https://www.google.com/search?q=Networking%20Events%20flight%20instructor%20tutorial%20course%20certificate"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Job Search Strategy",
+                  "description": "Achieve the objective 'Execute systematic job search' by completing tasks such as: (Job search strategy)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "(Job search strategy)",
+                  "description": "Job Search Strategy 1"
+                }
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path_title": "flight instructor",
+      "focus": "Fast-Entry",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "title": "Foundations",
+          "objective": "Build essential groundwork for your career",
+          "prerequisites": [],
+          "resources": [
+            {
+              "title": "Search: Standard Industry Tools",
+              "url": "https://www.google.com/search?q=Standard%20Industry%20Tools%20flight%20instructor%20tutorial%20course%20certificate"
+            }
+          ],
+          "milestones": [
+            {
+              "title": "Complete Foundations",
+              "description": "Achieve the objective 'Build essential groundwork for your career' by completing tasks such as: (Examiner-assessed flight tests)."
+            }
+          ],
+          "tasks": [
+            {
+              "title": "(Examiner-assessed flight tests)",
+              "description": "Complete examiner-assessed flight tests and oral examinations for your instructor rating"
+            }
+          ],
+          "children": [
+            {
+              "title": "Industry Fundamentals",
+              "objective": "Understand the core concepts of flight instructor",
+              "prerequisites": [],
+              "resources": [
+                {
+                  "title": "King Schools Flight Instructor Written Exam Course",
+                  "url": "https://www.kingschools.com/private-pilot/flight-instructor-courses/flight-instructor-written-exam-course"
+                },
+                {
+                  "title": "Sporty's Flight Instructor Written Test Prep",
+                  "url": "https://www.sportys.com/flight-instructor-written-test-prep.html"
+                },
+                {
+                  "title": "FAASTeam Online Training Courses",
+                  "url": "https://www.faasafety.gov/gslac/ALC/course_list.aspx"
+                },
+                {
+                  "title": "FAA Pilot's Handbook of Aeronautical Knowledge (PHAK) Glossary",
+                  "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak/media/phak_glossary.pdf"
+                },
+                {
+                  "title": "FAA Aeronautical Information Manual (AIM) Glossary",
+                  "url": "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap10_section_1.html"
+                },
+                {
+                  "title": "Skybrary Aviation Glossary",
+                  "url": "https://skybrary.aero/glossary"
+                },
+                {
+                  "title": "AOPA Pilot Career Center",
+                  "url": "https://www.aopa.org/training-and-safety/pilot-resources/pilot-career-center"
+                },
+                {
+                  "title": "Becoming a Certified Flight Instructor (CFI) Guide by Epic Flight Academy",
+                  "url": "https://epicflightacademy.com/how-to-become-a-flight-instructor/"
+                },
+                {
+                  "title": "ATP Flight School - Flight Instructor Career Path",
+                  "url": "https://atpflightschool.com/pilot-career/cfi-jobs.html"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Industry Fundamentals",
+                  "description": "Achieve the objective 'Understand the core concepts of flight instructor' by completing tasks such as: (Earn a commercial), (A flight instructor)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "(Earn a commercial)",
+                  "description": "Earn a Commercial Pilot License (CPL) or equivalent and accumulate sufficient flight hours"
+                },
+                {
+                  "title": "(A flight instructor)",
+                  "description": "Complete a Flight Instructor (FI) or CFI certificate course covering instructional technique"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Tools & Environment",
+              "objective": "Set up your professional workspace",
+              "prerequisites": [],
+              "resources": [
+                {
+                  "title": "Search: Official Documentation",
+                  "url": "https://www.google.com/search?q=Official%20Documentation%20flight%20instructor%20tutorial%20course%20certificate"
+                },
+                {
+                  "title": "Search: Community Forums",
+                  "url": "https://www.google.com/search?q=Community%20Forums%20flight%20instructor%20tutorial%20course%20certificate"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Tools & Environment",
+                  "description": "Achieve the objective 'Set up your professional workspace' by completing tasks such as: (Learn adult learning)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "(Learn adult learning)",
+                  "description": "Learn adult learning theory, lesson planning, and how to teach flight skills progressively"
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Core Skills Development",
+          "objective": "Master essential skills for flight instructor",
+          "prerequisites": [],
+          "resources": [
+            {
+              "title": "Search: Online Learning Platforms",
+              "url": "https://www.google.com/search?q=Online%20Learning%20Platforms%20flight%20instructor%20tutorial%20course%20certificate"
+            }
+          ],
+          "milestones": [
+            {
+              "title": "Complete Core Skills Development",
+              "description": "Achieve the objective 'Master essential skills for flight instructor' by completing tasks such as: (Core skills 1)."
+            }
+          ],
+          "tasks": [
+            {
+              "title": "(Core skills 1)",
+              "description": "Master core skills 1"
+            }
+          ],
+          "children": [
+            {
+              "title": "Flight Instructor Certificate (Cfi / Fi) Proficiency",
+              "objective": "Develop proficiency in flight instructor certificate (cfi / fi)",
+              "prerequisites": [],
+              "resources": [
+                {
+                  "title": "Search: Flight Instructor Certificate (Cfi / Fi) Resources",
+                  "url": "https://www.google.com/search?q=Flight%20Instructor%20Certificate%20%28Cfi%20/%20Fi%29%20Resources%20flight%20instructor%20tutorial%20course%20certificate"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Flight Instructor Certificate (Cfi / Fi) Proficiency",
+                  "description": "Achieve the objective 'Develop proficiency in flight instructor certificate (cfi / fi)' by completing tasks such as: (Experience teaching student)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "(Experience teaching student)",
+                  "description": "Build experience teaching student pilots through solo, cross-country, and instrument stages"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Instructional Techniques And Adult Learning Principles Proficiency",
+              "objective": "Develop proficiency in instructional techniques and adult learning principles",
+              "prerequisites": [],
+              "resources": [
+                {
+                  "title": "Search: Instructional Techniques And Adult Learning Principles Resources",
+                  "url": "https://www.google.com/search?q=Instructional%20Techniques%20And%20Adult%20Learning%20Principles%20Resources%20flight%20instructor%20tutorial%20course%20certificate"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Instructional Techniques And Adult Learning Principles Proficiency",
+                  "description": "Achieve the objective 'Develop proficiency in instructional techniques and adult learning principles' by completing tasks such as: (Develop a training)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "(Develop a training)",
+                  "description": "Develop a training portfolio and structured lesson plans for PPL and CPL syllabuses"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Lesson Plan Development For Flight Training Proficiency",
+              "objective": "Develop proficiency in lesson plan development for flight training",
+              "prerequisites": [],
+              "resources": [
+                {
+                  "title": "Search: Lesson Plan Development For Flight Training Resources",
+                  "url": "https://www.google.com/search?q=Lesson%20Plan%20Development%20For%20Flight%20Training%20Resources%20flight%20instructor%20tutorial%20course%20certificate"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Lesson Plan Development For Flight Training Proficiency",
+                  "description": "Achieve the objective 'Develop proficiency in lesson plan development for flight training' by completing tasks such as: (For flight instructor)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "(For flight instructor)",
+                  "description": "Apply for flight instructor roles at flying schools, aviation academies, or airline cadet programs"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Assessment And Debriefing Skills Proficiency",
+              "objective": "Develop proficiency in assessment and debriefing skills",
+              "prerequisites": [],
+              "resources": [
+                {
+                  "title": "Search: Assessment And Debriefing Skills Resources",
+                  "url": "https://www.google.com/search?q=Assessment%20And%20Debriefing%20Skills%20Resources%20flight%20instructor%20tutorial%20course%20certificate"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Assessment And Debriefing Skills Proficiency",
+                  "description": "Achieve the objective 'Develop proficiency in assessment and debriefing skills' by completing tasks such as: (Assessment and debriefing)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "(Assessment and debriefing)",
+                  "description": "Practice assessment and debriefing skills 1"
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Practical Application",
+          "objective": "Gain hands-on experience through projects or simulations",
+          "prerequisites": [],
+          "resources": [
+            {
+              "title": "Search: Portfolio Platform",
+              "url": "https://www.google.com/search?q=Portfolio%20Platform%20flight%20instructor%20tutorial%20course%20certificate"
+            }
+          ],
+          "milestones": [
+            {
+              "title": "Complete Practical Application",
+              "description": "Achieve the objective 'Gain hands-on experience through projects or simulations' by completing tasks such as: (Portfolio 1)."
+            }
+          ],
+          "tasks": [
+            {
+              "title": "(Portfolio 1)",
+              "description": "Build portfolio 1"
+            }
+          ],
+          "children": [
+            {
+              "title": "Applied Practice Project",
+              "objective": "Apply core skills in a realistic scenario",
+              "prerequisites": [
+                "flight instructor certificate (cfi / fi)",
+                "instructional techniques and adult learning principles"
+              ],
+              "resources": [
+                {
+                  "title": "Search: Project Management Tools",
+                  "url": "https://www.google.com/search?q=Project%20Management%20Tools%20flight%20instructor%20tutorial%20course%20certificate"
+                },
+                {
+                  "title": "Search: Documentation Tools",
+                  "url": "https://www.google.com/search?q=Documentation%20Tools%20flight%20instructor%20tutorial%20course%20certificate"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Applied Practice Project",
+                  "description": "Achieve the objective 'Apply core skills in a realistic scenario' by completing tasks such as: (Core skills 1), (Core skills 2)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "(Core skills 1)",
+                  "description": "Apply core skills 1"
+                },
+                {
+                  "title": "(Core skills 2)",
+                  "description": "Apply core skills 2"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Advanced Capstone",
+              "objective": "Demonstrate comprehensive mastery",
+              "prerequisites": [
+                "flight instructor certificate (cfi / fi)",
+                "instructional techniques and adult learning principles",
+                "lesson plan development for flight training"
+              ],
+              "resources": [
+                {
+                  "title": "Search: Advanced Tools",
+                  "url": "https://www.google.com/search?q=Advanced%20Tools%20flight%20instructor%20tutorial%20course%20certificate"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Advanced Capstone",
+                  "description": "Achieve the objective 'Demonstrate comprehensive mastery' by completing tasks such as: (Mastery 1)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "(Mastery 1)",
+                  "description": "Demonstrate mastery 1"
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Specialization",
+          "objective": "Develop expertise in specific areas",
+          "prerequisites": [],
+          "resources": [
+            {
+              "title": "Search: Industry Certifications",
+              "url": "https://www.google.com/search?q=Industry%20Certifications%20flight%20instructor%20tutorial%20course%20certificate"
+            }
+          ],
+          "milestones": [
+            {
+              "title": "Complete Specialization",
+              "description": "Achieve the objective 'Develop expertise in specific areas' by completing tasks such as: (Specialization 1)."
+            }
+          ],
+          "tasks": [
+            {
+              "title": "(Specialization 1)",
+              "description": "Choose specialization 1"
+            }
+          ],
+          "children": [
+            {
+              "title": "Specialization Track",
+              "objective": "Deep dive into a specific area",
+              "prerequisites": [
+                "flight instructor certificate (cfi / fi)",
+                "instructional techniques and adult learning principles"
+              ],
+              "resources": [
+                {
+                  "title": "Search: Specialized Training",
+                  "url": "https://www.google.com/search?q=Specialized%20Training%20flight%20instructor%20tutorial%20course%20certificate"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Specialization Track",
+                  "description": "Achieve the objective 'Deep dive into a specific area' by completing tasks such as: (Advanced topic 1)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "(Advanced topic 1)",
+                  "description": "Study advanced topic 1"
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Career Launch",
+          "objective": "Land your first role in the field",
+          "prerequisites": [],
+          "resources": [
+            {
+              "title": "Search: Job Search Platforms",
+              "url": "https://www.google.com/search?q=Job%20Search%20Platforms%20flight%20instructor%20tutorial%20course%20certificate"
+            }
+          ],
+          "milestones": [
+            {
+              "title": "Complete Career Launch",
+              "description": "Achieve the objective 'Land your first role in the field' by completing tasks such as: (Job offer 1)."
+            }
+          ],
+          "tasks": [
+            {
+              "title": "(Job offer 1)",
+              "description": "Secure job offer 1"
+            }
+          ],
+          "children": [
+            {
+              "title": "Professional Branding",
+              "objective": "Create compelling professional presence",
+              "prerequisites": [],
+              "resources": [
+                {
+                  "title": "Search: LinkedIn",
+                  "url": "https://www.google.com/search?q=LinkedIn%20flight%20instructor%20tutorial%20course%20certificate"
+                },
+                {
+                  "title": "Search: Resume Builder",
+                  "url": "https://www.google.com/search?q=Resume%20Builder%20flight%20instructor%20tutorial%20course%20certificate"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Professional Branding",
+                  "description": "Achieve the objective 'Create compelling professional presence' by completing tasks such as: (Professional branding 1)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "(Professional branding 1)",
+                  "description": "Professional Branding 1"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Job Search Strategy",
+              "objective": "Execute systematic job search",
+              "prerequisites": [],
+              "resources": [
+                {
+                  "title": "Search: Job Boards",
+                  "url": "https://www.google.com/search?q=Job%20Boards%20flight%20instructor%20tutorial%20course%20certificate"
+                },
+                {
+                  "title": "Search: Networking Events",
+                  "url": "https://www.google.com/search?q=Networking%20Events%20flight%20instructor%20tutorial%20course%20certificate"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Job Search Strategy",
+                  "description": "Achieve the objective 'Execute systematic job search' by completing tasks such as: (Job search strategy)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "(Job search strategy)",
+                  "description": "Job Search Strategy 1"
+                }
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path_title": "flight instructor",
+      "focus": "Transition",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "title": "Foundations",
+          "objective": "Build essential groundwork for your career",
+          "prerequisites": [],
+          "resources": [
+            {
+              "title": "Search: Standard Industry Tools",
+              "url": "https://www.google.com/search?q=Standard%20Industry%20Tools%20flight%20instructor%20tutorial%20course%20certificate"
+            }
+          ],
+          "milestones": [
+            {
+              "title": "Complete Foundations",
+              "description": "Achieve the objective 'Build essential groundwork for your career' by completing tasks such as: (Examiner-assessed flight tests)."
+            }
+          ],
+          "tasks": [
+            {
+              "title": "(Examiner-assessed flight tests)",
+              "description": "Complete examiner-assessed flight tests and oral examinations for your instructor rating"
+            }
+          ],
+          "children": [
+            {
+              "title": "Industry Fundamentals",
+              "objective": "Understand the core concepts of flight instructor",
+              "prerequisites": [],
+              "resources": [
+                {
+                  "title": "King Schools Flight Instructor Written Exam Course",
+                  "url": "https://www.kingschools.com/private-pilot/flight-instructor-courses/flight-instructor-written-exam-course"
+                },
+                {
+                  "title": "Sporty's Flight Instructor Written Test Prep",
+                  "url": "https://www.sportys.com/flight-instructor-written-test-prep.html"
+                },
+                {
+                  "title": "FAASTeam Online Training Courses",
+                  "url": "https://www.faasafety.gov/gslac/ALC/course_list.aspx"
+                },
+                {
+                  "title": "FAA Pilot's Handbook of Aeronautical Knowledge (PHAK) Glossary",
+                  "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak/media/phak_glossary.pdf"
+                },
+                {
+                  "title": "FAA Aeronautical Information Manual (AIM) Glossary",
+                  "url": "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap10_section_1.html"
+                },
+                {
+                  "title": "Skybrary Aviation Glossary",
+                  "url": "https://skybrary.aero/glossary"
+                },
+                {
+                  "title": "AOPA Pilot Career Center",
+                  "url": "https://www.aopa.org/training-and-safety/pilot-resources/pilot-career-center"
+                },
+                {
+                  "title": "Becoming a Certified Flight Instructor (CFI) Guide by Epic Flight Academy",
+                  "url": "https://epicflightacademy.com/how-to-become-a-flight-instructor/"
+                },
+                {
+                  "title": "ATP Flight School - Flight Instructor Career Path",
+                  "url": "https://atpflightschool.com/pilot-career/cfi-jobs.html"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Industry Fundamentals",
+                  "description": "Achieve the objective 'Understand the core concepts of flight instructor' by completing tasks such as: (Earn a commercial), (A flight instructor)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "(Earn a commercial)",
+                  "description": "Earn a Commercial Pilot License (CPL) or equivalent and accumulate sufficient flight hours"
+                },
+                {
+                  "title": "(A flight instructor)",
+                  "description": "Complete a Flight Instructor (FI) or CFI certificate course covering instructional technique"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Tools & Environment",
+              "objective": "Set up your professional workspace",
+              "prerequisites": [],
+              "resources": [
+                {
+                  "title": "Search: Official Documentation",
+                  "url": "https://www.google.com/search?q=Official%20Documentation%20flight%20instructor%20tutorial%20course%20certificate"
+                },
+                {
+                  "title": "Search: Community Forums",
+                  "url": "https://www.google.com/search?q=Community%20Forums%20flight%20instructor%20tutorial%20course%20certificate"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Tools & Environment",
+                  "description": "Achieve the objective 'Set up your professional workspace' by completing tasks such as: (Learn adult learning)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "(Learn adult learning)",
+                  "description": "Learn adult learning theory, lesson planning, and how to teach flight skills progressively"
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Core Skills Development",
+          "objective": "Master essential skills for flight instructor",
+          "prerequisites": [],
+          "resources": [
+            {
+              "title": "Search: Online Learning Platforms",
+              "url": "https://www.google.com/search?q=Online%20Learning%20Platforms%20flight%20instructor%20tutorial%20course%20certificate"
+            }
+          ],
+          "milestones": [
+            {
+              "title": "Complete Core Skills Development",
+              "description": "Achieve the objective 'Master essential skills for flight instructor' by completing tasks such as: (Core skills 1)."
+            }
+          ],
+          "tasks": [
+            {
+              "title": "(Core skills 1)",
+              "description": "Master core skills 1"
+            }
+          ],
+          "children": [
+            {
+              "title": "Flight Instructor Certificate (Cfi / Fi) Proficiency",
+              "objective": "Develop proficiency in flight instructor certificate (cfi / fi)",
+              "prerequisites": [],
+              "resources": [
+                {
+                  "title": "Search: Flight Instructor Certificate (Cfi / Fi) Resources",
+                  "url": "https://www.google.com/search?q=Flight%20Instructor%20Certificate%20%28Cfi%20/%20Fi%29%20Resources%20flight%20instructor%20tutorial%20course%20certificate"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Flight Instructor Certificate (Cfi / Fi) Proficiency",
+                  "description": "Achieve the objective 'Develop proficiency in flight instructor certificate (cfi / fi)' by completing tasks such as: (Experience teaching student)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "(Experience teaching student)",
+                  "description": "Build experience teaching student pilots through solo, cross-country, and instrument stages"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Instructional Techniques And Adult Learning Principles Proficiency",
+              "objective": "Develop proficiency in instructional techniques and adult learning principles",
+              "prerequisites": [],
+              "resources": [
+                {
+                  "title": "Search: Instructional Techniques And Adult Learning Principles Resources",
+                  "url": "https://www.google.com/search?q=Instructional%20Techniques%20And%20Adult%20Learning%20Principles%20Resources%20flight%20instructor%20tutorial%20course%20certificate"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Instructional Techniques And Adult Learning Principles Proficiency",
+                  "description": "Achieve the objective 'Develop proficiency in instructional techniques and adult learning principles' by completing tasks such as: (Develop a training)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "(Develop a training)",
+                  "description": "Develop a training portfolio and structured lesson plans for PPL and CPL syllabuses"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Lesson Plan Development For Flight Training Proficiency",
+              "objective": "Develop proficiency in lesson plan development for flight training",
+              "prerequisites": [],
+              "resources": [
+                {
+                  "title": "Search: Lesson Plan Development For Flight Training Resources",
+                  "url": "https://www.google.com/search?q=Lesson%20Plan%20Development%20For%20Flight%20Training%20Resources%20flight%20instructor%20tutorial%20course%20certificate"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Lesson Plan Development For Flight Training Proficiency",
+                  "description": "Achieve the objective 'Develop proficiency in lesson plan development for flight training' by completing tasks such as: (For flight instructor)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "(For flight instructor)",
+                  "description": "Apply for flight instructor roles at flying schools, aviation academies, or airline cadet programs"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Assessment And Debriefing Skills Proficiency",
+              "objective": "Develop proficiency in assessment and debriefing skills",
+              "prerequisites": [],
+              "resources": [
+                {
+                  "title": "Search: Assessment And Debriefing Skills Resources",
+                  "url": "https://www.google.com/search?q=Assessment%20And%20Debriefing%20Skills%20Resources%20flight%20instructor%20tutorial%20course%20certificate"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Assessment And Debriefing Skills Proficiency",
+                  "description": "Achieve the objective 'Develop proficiency in assessment and debriefing skills' by completing tasks such as: (Assessment and debriefing)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "(Assessment and debriefing)",
+                  "description": "Practice assessment and debriefing skills 1"
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Practical Application",
+          "objective": "Gain hands-on experience through projects or simulations",
+          "prerequisites": [],
+          "resources": [
+            {
+              "title": "Search: Portfolio Platform",
+              "url": "https://www.google.com/search?q=Portfolio%20Platform%20flight%20instructor%20tutorial%20course%20certificate"
+            }
+          ],
+          "milestones": [
+            {
+              "title": "Complete Practical Application",
+              "description": "Achieve the objective 'Gain hands-on experience through projects or simulations' by completing tasks such as: (Portfolio 1)."
+            }
+          ],
+          "tasks": [
+            {
+              "title": "(Portfolio 1)",
+              "description": "Build portfolio 1"
+            }
+          ],
+          "children": [
+            {
+              "title": "Applied Practice Project",
+              "objective": "Apply core skills in a realistic scenario",
+              "prerequisites": [
+                "flight instructor certificate (cfi / fi)",
+                "instructional techniques and adult learning principles"
+              ],
+              "resources": [
+                {
+                  "title": "Search: Project Management Tools",
+                  "url": "https://www.google.com/search?q=Project%20Management%20Tools%20flight%20instructor%20tutorial%20course%20certificate"
+                },
+                {
+                  "title": "Search: Documentation Tools",
+                  "url": "https://www.google.com/search?q=Documentation%20Tools%20flight%20instructor%20tutorial%20course%20certificate"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Applied Practice Project",
+                  "description": "Achieve the objective 'Apply core skills in a realistic scenario' by completing tasks such as: (Core skills 1), (Core skills 2)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "(Core skills 1)",
+                  "description": "Apply core skills 1"
+                },
+                {
+                  "title": "(Core skills 2)",
+                  "description": "Apply core skills 2"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Advanced Capstone",
+              "objective": "Demonstrate comprehensive mastery",
+              "prerequisites": [
+                "flight instructor certificate (cfi / fi)",
+                "instructional techniques and adult learning principles",
+                "lesson plan development for flight training"
+              ],
+              "resources": [
+                {
+                  "title": "Search: Advanced Tools",
+                  "url": "https://www.google.com/search?q=Advanced%20Tools%20flight%20instructor%20tutorial%20course%20certificate"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Advanced Capstone",
+                  "description": "Achieve the objective 'Demonstrate comprehensive mastery' by completing tasks such as: (Mastery 1)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "(Mastery 1)",
+                  "description": "Demonstrate mastery 1"
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Specialization",
+          "objective": "Develop expertise in specific areas",
+          "prerequisites": [],
+          "resources": [
+            {
+              "title": "Search: Industry Certifications",
+              "url": "https://www.google.com/search?q=Industry%20Certifications%20flight%20instructor%20tutorial%20course%20certificate"
+            }
+          ],
+          "milestones": [
+            {
+              "title": "Complete Specialization",
+              "description": "Achieve the objective 'Develop expertise in specific areas' by completing tasks such as: (Specialization 1)."
+            }
+          ],
+          "tasks": [
+            {
+              "title": "(Specialization 1)",
+              "description": "Choose specialization 1"
+            }
+          ],
+          "children": [
+            {
+              "title": "Specialization Track",
+              "objective": "Deep dive into a specific area",
+              "prerequisites": [
+                "flight instructor certificate (cfi / fi)",
+                "instructional techniques and adult learning principles"
+              ],
+              "resources": [
+                {
+                  "title": "Search: Specialized Training",
+                  "url": "https://www.google.com/search?q=Specialized%20Training%20flight%20instructor%20tutorial%20course%20certificate"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Specialization Track",
+                  "description": "Achieve the objective 'Deep dive into a specific area' by completing tasks such as: (Advanced topic 1)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "(Advanced topic 1)",
+                  "description": "Study advanced topic 1"
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Career Launch",
+          "objective": "Land your first role in the field",
+          "prerequisites": [],
+          "resources": [
+            {
+              "title": "Search: Job Search Platforms",
+              "url": "https://www.google.com/search?q=Job%20Search%20Platforms%20flight%20instructor%20tutorial%20course%20certificate"
+            }
+          ],
+          "milestones": [
+            {
+              "title": "Complete Career Launch",
+              "description": "Achieve the objective 'Land your first role in the field' by completing tasks such as: (Job offer 1)."
+            }
+          ],
+          "tasks": [
+            {
+              "title": "(Job offer 1)",
+              "description": "Secure job offer 1"
+            }
+          ],
+          "children": [
+            {
+              "title": "Professional Branding",
+              "objective": "Create compelling professional presence",
+              "prerequisites": [],
+              "resources": [
+                {
+                  "title": "Search: LinkedIn",
+                  "url": "https://www.google.com/search?q=LinkedIn%20flight%20instructor%20tutorial%20course%20certificate"
+                },
+                {
+                  "title": "Search: Resume Builder",
+                  "url": "https://www.google.com/search?q=Resume%20Builder%20flight%20instructor%20tutorial%20course%20certificate"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Professional Branding",
+                  "description": "Achieve the objective 'Create compelling professional presence' by completing tasks such as: (Professional branding 1)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "(Professional branding 1)",
+                  "description": "Professional Branding 1"
+                }
+              ],
+              "children": []
+            },
+            {
+              "title": "Job Search Strategy",
+              "objective": "Execute systematic job search",
+              "prerequisites": [],
+              "resources": [
+                {
+                  "title": "Search: Job Boards",
+                  "url": "https://www.google.com/search?q=Job%20Boards%20flight%20instructor%20tutorial%20course%20certificate"
+                },
+                {
+                  "title": "Search: Networking Events",
+                  "url": "https://www.google.com/search?q=Networking%20Events%20flight%20instructor%20tutorial%20course%20certificate"
+                }
+              ],
+              "milestones": [
+                {
+                  "title": "Complete Job Search Strategy",
+                  "description": "Achieve the objective 'Execute systematic job search' by completing tasks such as: (Job search strategy)."
+                }
+              ],
+              "tasks": [
+                {
+                  "title": "(Job search strategy)",
+                  "description": "Job Search Strategy 1"
+                }
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/static/roadmaps/roadmap_1.png",
+    "/static/roadmaps/roadmap_2.png",
+    "/static/roadmaps/roadmap_3.png"
+  ]
+}

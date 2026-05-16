@@ -1,0 +1,301 @@
+{
+  "input": {
+    "answers": [
+      {
+        "questionId": "Q_EDU",
+        "label": "I haven't started university yet"
+      },
+      {
+        "questionId": "Q_GENDER",
+        "label": "Male"
+      },
+      {
+        "questionId": "Q_IMPACT",
+        "label": "Creating technology \u2014 writing code, building apps, or working with AI"
+      },
+      {
+        "questionId": "Q_TECH_TYPE",
+        "label": "General software development and architecture"
+      },
+      {
+        "questionId": "Q_PACE_TECH",
+        "label": "Deep solo work \u2014 headphones on, shipping features and fixing bugs"
+      },
+      {
+        "questionId": "Q_STYLE_TECH",
+        "label": "Creating \u2014 designing interfaces, building new features from scratch"
+      }
+    ],
+    "careers": [
+      "software developer"
+    ],
+    "category": "Programming & Software Development",
+    "user_summary": "",
+    "experience_level": "beginner",
+    "sub_field": "Game Developer",
+    "selected_language": ""
+  },
+  "derived_skills": [],
+  "chosen_career": "software developer",
+  "roadmaps": [
+    {
+      "path_title": "Game Developer \u2014 software developer",
+      "focus": "Beginner \u2014 Full Roadmap",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "milestones": [
+            {
+              "title": "Certification",
+              "description": "(Optional) Complete an online certificate, bootcamp, or structured course in software developer to build a strong learning foundation"
+            }
+          ],
+          "resources": [
+            {
+              "title": "C# (Unity) courses \u2014 Game Developer",
+              "url": "https://www.udemy.com/courses/search/?q=unity+c+sharp+game+development"
+            },
+            {
+              "title": "C++ (Unreal Engine) courses \u2014 Game Developer",
+              "url": "https://www.udemy.com/courses/search/?q=unreal+engine+c+++game+development"
+            },
+            {
+              "title": "GDScript (Godot) courses \u2014 Game Developer",
+              "url": "https://www.udemy.com/courses/search/?q=godot+game+development"
+            },
+            {
+              "title": "Game Developer Certificates on Coursera for Beginners",
+              "url": "https://www.coursera.org/search?query=game%20developer%20certificate%20beginner%20fundamentals"
+            },
+            {
+              "title": "Introductory Game Development Specializations on Coursera",
+              "url": "https://www.coursera.org/search?query=game%20development%20specialization%20introductory%20basics"
+            },
+            {
+              "title": "Beginner Game Developer Bootcamps on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=game%20developer%20bootcamp%20beginner%20crash%20course"
+            },
+            {
+              "title": "Learn Game Programming Fundamentals on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=learn%20game%20programming%20fundamentals%20beginner"
+            },
+            {
+              "title": "Professional Certificates in Game Development on edX",
+              "url": "https://www.edx.org/search?q=game%20development%20professional%20certificate%20beginner"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Core Skill Learning",
+              "description": "Learn the fundamentals: build a solid foundation in programming (python, java, or c++), data structures and algorithms, and version control (git) \u2014 these are the essential building blocks for a software developer"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Beginner C++ Game Development Tutorials on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=c%2B%2B%20game%20development%20beginner%20tutorial"
+            },
+            {
+              "title": "Introductory Data Structures and Algorithms Courses on Coursera",
+              "url": "https://www.coursera.org/search?query=data%20structures%20and%20algorithms%20beginner"
+            },
+            {
+              "title": "freeCodeCamp Git Version Control for Beginners Crash Course on YouTube",
+              "url": "https://www.youtube.com/results?search_query=freeCodeCamp+git+tutorial+for+beginners+crash+course"
+            },
+            {
+              "title": "freeCodeCamp Python Programming Fundamentals for Beginners on YouTube",
+              "url": "https://www.youtube.com/results?search_query=freeCodeCamp+python+for+beginners+crash+course"
+            },
+            {
+              "title": "GeeksforGeeks C++ Programming Basics Tutorial",
+              "url": "https://www.geeksforgeeks.org/cpp-tutorial/"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Intermediate / Advanced Skills",
+              "description": "Deepen your expertise by developing intermediate-to-advanced skills in restful api development, database management (sql), and debugging and troubleshooting, applying them through exercises and case studies"
+            }
+          ],
+          "resources": [
+            {
+              "title": "RESTful API Development for Beginners Search",
+              "url": "https://www.coursera.org/search?query=restful%20api%20development%20beginner%20fundamentals"
+            },
+            {
+              "title": "SQL Fundamentals for Beginners on Khan Academy",
+              "url": "https://www.khanacademy.org/computing/computer-programming/sql"
+            },
+            {
+              "title": "Debugging and Troubleshooting Beginner Tutorials on YouTube",
+              "url": "https://www.youtube.com/results?search_query=debugging+fundamentals+for+beginners+tutorial+crash+course"
+            },
+            {
+              "title": "Beginner Python Programming & Data Structures Tutorials on freeCodeCamp",
+              "url": "https://www.freecodecamp.org/news/search/?query=python%20data%20structures%20algorithms%20beginner%20tutorial"
+            },
+            {
+              "title": "Git and Version Control for Beginners Tutorials on YouTube",
+              "url": "https://www.youtube.com/results?search_query=git+version+control+beginner+tutorial+crash+course"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Hands-on Practice",
+              "description": "Gain hands-on experience by completing software projects, open-source contributions, or technical prototypes \u2014 focus on applying programming (python, java, or c++), and data structures and algorithms in realistic scenarios"
+            }
+          ],
+          "resources": [
+            {
+              "title": "FreeCodeCamp Python Game Development Tutorials",
+              "url": "https://www.freecodecamp.org/news/tag/python-game-development/"
+            },
+            {
+              "title": "Udemy Beginner C++ Game Development Project Courses",
+              "url": "https://www.udemy.com/courses/search/?q=beginner+c%2B%2B+game+development+project"
+            },
+            {
+              "title": "GeeksforGeeks Beginner Data Structures and Algorithms Tutorials",
+              "url": "https://www.geeksforgeeks.org/search?q=data+structures+algorithms+beginner+tutorial"
+            },
+            {
+              "title": "FreeCodeCamp Git and GitHub Beginner Tutorials",
+              "url": "https://www.freecodecamp.org/news/tag/git/"
+            },
+            {
+              "title": "YouTube Python Flask Game Backend Tutorial for Beginners",
+              "url": "https://www.youtube.com/results?search_query=python+flask+game+backend+tutorial+for+beginners"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Portfolio Building",
+              "description": "Build a professional portfolio: publish your best projects on GitHub, create a personal website showcasing your work, and document your process and results"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Beginner Game Development Courses for Portfolio Projects (Udemy)",
+              "url": "https://www.udemy.com/courses/search/?q=game%20development%20beginner%20portfolio%20projects&src=ukw"
+            },
+            {
+              "title": "Learn Git and GitHub for Project Portfolio Management (freeCodeCamp)",
+              "url": "https://www.freecodecamp.org/learn/search?query=git%20github%20beginner%20portfolio"
+            },
+            {
+              "title": "How to Build a Game Developer Portfolio Website (YouTube Tutorials)",
+              "url": "https://www.youtube.com/results?search_query=build+developer+portfolio+website+beginner+game+dev"
+            },
+            {
+              "title": "Python Game Development Projects for Beginners (Coursera)",
+              "url": "https://www.coursera.org/search?query=python%20game%20development%20beginner%20project"
+            },
+            {
+              "title": "Fundamentals of Debugging and Troubleshooting for Programmers (GeeksforGeeks)",
+              "url": "https://www.geeksforgeeks.org/search?q=debugging%20troubleshooting%20basics%20programming%20beginner"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "CV / Profile Building",
+              "description": "Prepare your professional profile: craft a targeted CV/resume highlighting your software developer skills, optimize your LinkedIn profile, and gather references or endorsements from mentors, instructors, or past collaborators"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Scientific Computing with Python (Python for Beginners) on freeCodeCamp",
+              "url": "https://www.freecodecamp.org/learn/scientific-computing-with-python/"
+            },
+            {
+              "title": "Beginner C++ for Game Development Tutorials on Coursera",
+              "url": "https://www.coursera.org/search?query=c%2B%2B%20game%20developer%20beginner%20tutorial%20fundamentals"
+            },
+            {
+              "title": "Git and GitHub for Beginners: Tutorials & Crash Courses (YouTube Search)",
+              "url": "https://www.youtube.com/results?search_query=git+for+beginners+crash+course+fundamentals"
+            },
+            {
+              "title": "Introduction to Data Structures (DSA Fundamentals) on GeeksforGeeks",
+              "url": "https://www.geeksforgeeks.org/data-structures/"
+            },
+            {
+              "title": "SQL Tutorial for Beginners (Database Fundamentals) on W3Schools",
+              "url": "https://www.w3schools.com/sql/"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Job Application / Freelancing",
+              "description": "Apply for software developer positions on job boards, company career pages, and freelance platforms (Upwork, Fiverr, Toptal) \u2014 tailor each application to the role and be ready to showcase your portfolio in interviews"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Game Developer (software developer) jobs on Wuzzuf",
+              "url": "https://wuzzuf.net/search/jobs/?q=Game+Developer+(software+developer)&a=hpb"
+            },
+            {
+              "title": "Game Developer (software developer) jobs on Forasna",
+              "url": "https://www.forasna.com/jobs/search/Game-Developer-(software-developer)"
+            },
+            {
+              "title": "Game Developer (software developer) jobs on LinkedIn",
+              "url": "https://www.linkedin.com/jobs/search/?keywords=Game+Developer+(software+developer)&location=Egypt"
+            },
+            {
+              "title": "Game Developer (software developer) jobs on Bayt.com",
+              "url": "https://www.bayt.com/en/egypt/jobs/Game-Developer-(software-developer)-jobs/"
+            },
+            {
+              "title": "Game Developer (software developer) jobs on Indeed Egypt",
+              "url": "https://eg.indeed.com/jobs?q=Game+Developer+(software+developer)"
+            },
+            {
+              "title": "Game Developer (software developer) freelance jobs on Upwork",
+              "url": "https://www.upwork.com/freelance-jobs/Game-Developer-(software-developer)/"
+            },
+            {
+              "title": "Game Developer (software developer) services on Fiverr",
+              "url": "https://www.fiverr.com/search/gigs?query=Game+Developer+(software+developer)"
+            },
+            {
+              "title": "Game Developer (software developer) projects on Mostaql",
+              "url": "https://mostaql.com/projects?keyword=Game+Developer+(software+developer)"
+            },
+            {
+              "title": "Khamsat - Arabic Micro Services",
+              "url": "https://khamsat.com/"
+            },
+            {
+              "title": "Game Developer (software developer) freelance on Toptal",
+              "url": "https://www.toptal.com/"
+            }
+          ],
+          "children": []
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/static/roadmaps/roadmap_1.png"
+  ]
+}

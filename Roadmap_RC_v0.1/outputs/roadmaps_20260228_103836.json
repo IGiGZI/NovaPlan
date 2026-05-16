@@ -1,0 +1,288 @@
+{
+  "input": {
+    "answers": [
+      {
+        "questionId": "Q1",
+        "label": "Undergraduate (studying for or completed a Bachelor's)"
+      },
+      {
+        "questionId": "Q_PERS1_UG",
+        "label": "I like creating, designing, or making things"
+      },
+      {
+        "questionId": "Q_ENV_UG_CREATIVE",
+        "label": "Office / desk-based, mostly indoors"
+      },
+      {
+        "questionId": "Q_MOT_UG_CREATIVE_INDOOR",
+        "label": "Balanced \u2014 good pay and meaningful work"
+      },
+      {
+        "questionId": "Q_DOMAIN_UG",
+        "label": "Aviation & Transportation"
+      },
+      {
+        "questionId": "Q_UG_AVIATION_AVIATION_PILOTING_AREA",
+        "label": "Commercial & Airline Piloting"
+      },
+      {
+        "questionId": "Q_UG_AVIATION_AVIATION_PILOTING_COMMERCIAL_AIRLINE_P_PICK",
+        "label": "Commercial Pilot"
+      }
+    ],
+    "careers": [
+      "commercial pilot"
+    ],
+    "category": "Aviation & Piloting"
+  },
+  "derived_skills": [],
+  "chosen_career": "commercial pilot",
+  "roadmaps": [
+    {
+      "path_title": "commercial pilot",
+      "focus": "Depth",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "milestones": [
+            {
+              "title": "Degree / Formal Education",
+              "description": "Enroll in and complete a bachelor's degree relevant to commercial pilot (focus on coursework covering cpl/ir licence operations, and vfr and ifr flight operations)"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Embry-Riddle Aeronautical University - Bachelor of Science in Aeronautical Science",
+              "url": "https://erau.edu/degrees/bachelor/aeronautical-science"
+            },
+            {
+              "title": "ATP Flight School - Airline Career Pilot Program (Part 141)",
+              "url": "https://atpflightschool.com/programs/airline-pilot-career-program.html"
+            },
+            {
+              "title": "Purdue University - Bachelor of Science in Professional Flight Technology",
+              "url": "https://polytechnic.purdue.edu/degrees/bs-professional-flight-technology"
+            },
+            {
+              "title": "University of North Dakota - Commercial Aviation Program (BS)",
+              "url": "https://und.edu/programs/commercial-aviation-bs/"
+            },
+            {
+              "title": "FAA Airman Certification Standards (ACS) & Practical Test Standards (PTS)",
+              "url": "https://www.faa.gov/training_testing/testing/acs"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Core Skill Learning",
+              "description": "Learn the fundamentals: build a solid foundation in cpl/ir licence operations, vfr and ifr flight operations, and aircraft systems knowledge \u2014 these are the essential building blocks for a commercial pilot"
+            }
+          ],
+          "resources": [
+            {
+              "title": "FAA Pilot's Handbook of Aeronautical Knowledge (PHAK)",
+              "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+            },
+            {
+              "title": "FAR/AIM (Federal Aviation Regulations/Aeronautical Information Manual) - ASA Edition",
+              "url": "https://asa2fly.com/far-aim/"
+            },
+            {
+              "title": "Sporty's Learn to Fly Course (Private Pilot Online Ground School)",
+              "url": "https://www.sportys.com/sporty-s-learn-to-fly-course.html"
+            },
+            {
+              "title": "King Schools Online Instrument Rating Ground School & Test Prep",
+              "url": "https://www.kingschools.com/aviation-courses/instrument-rating/instrument-rating-ground-school-and-test-prep"
+            },
+            {
+              "title": "NOAA Aviation Weather Center",
+              "url": "https://aviationweather.gov/"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Intermediate / Advanced Skills",
+              "description": "Deepen your expertise by developing intermediate-to-advanced skills in flight planning and fuel management, emergency procedures, and navigation and meteorology, applying them through exercises and case studies"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Multi-Crew Cooperation (MCC) & Jet Orientation Course (JOC)",
+              "url": "https://skyborne.com/courses/multi-crew-cooperation-jet-orientation-course/"
+            },
+            {
+              "title": "Airline Pilot Interview & Psychometric Preparation Course",
+              "url": "https://pilottraininghub.com/courses/airline-pilot-interview-preparation/"
+            },
+            {
+              "title": "Advanced Upset Prevention and Recovery Training (UPRT)",
+              "url": "https://www.flightsafety.com/training-programs/fixed-wing/uprt-upset-prevention-and-recovery-training/"
+            },
+            {
+              "title": "Aviation Risk and Safety Management Online Course (EASA Compliant)",
+              "url": "https://www.easa.europa.eu/en/training/course/aviation-risk-and-safety-management-online-course"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Hands-on Practice",
+              "description": "Gain hands-on experience by completing supervised driving or operating sessions, route planning, and practical navigation exercises \u2014 focus on applying cpl/ir licence operations, and vfr and ifr flight operations in realistic scenarios"
+            }
+          ],
+          "resources": [
+            {
+              "title": "X-Plane 12 Flight Simulator",
+              "url": "https://www.x-plane.com/"
+            },
+            {
+              "title": "Sporty's Commercial Pilot Test Prep Course & Checkride Prep",
+              "url": "https://www.sportys.com/commercial-pilot-test-prep-course-checkride-prep.html"
+            },
+            {
+              "title": "FAA Commercial Pilot Airman Certification Standards (ACS)",
+              "url": "https://www.faa.gov/training_testing/testing/acs/media/commercial_airplane_acs.pdf"
+            },
+            {
+              "title": "FAA Airplane Flying Handbook (AFH)",
+              "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Portfolio Building",
+              "description": "Build a professional portfolio showcasing your best work, completed projects, certifications, and any measurable achievements related to commercial pilot"
+            }
+          ],
+          "resources": [
+            {
+              "title": "LogTen Pro Professional Pilot Logbook App",
+              "url": "https://www.coradine.com/"
+            },
+            {
+              "title": "Pilot Career Center: Resume & Cover Letter Advice for Pilots",
+              "url": "https://www.pilotcareercenter.com/Career-Guide/Resume-Cover-Letters"
+            },
+            {
+              "title": "AviationInterviews.com Pilot Interview Preparation Resources",
+              "url": "https://www.aviationinterviews.com/"
+            },
+            {
+              "title": "FAA Airman Certificate and Rating Online Verification (Understand Employer Verification)",
+              "url": "https://www.faa.gov/licenses_certificates/airmen_certification/airman_verify"
+            },
+            {
+              "title": "AeroGuard Flight School: How Pilots Maximize Their LinkedIn Profiles",
+              "url": "https://aeroguardflightschool.com/blog/pilots-how-to-maximize-your-linkedin-profile/"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "CV / Profile Building",
+              "description": "Prepare your professional profile: craft a targeted CV/resume highlighting your commercial pilot skills, optimize your LinkedIn profile, and gather references or endorsements from mentors, instructors, or past collaborators"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Airline Pilot Club: Comprehensive Pilot CV Guide",
+              "url": "https://www.airlinepilotclub.com/resources/pilot-cv-guide/"
+            },
+            {
+              "title": "Optimizing Your LinkedIn Profile (LinkedIn Learning Course)",
+              "url": "https://www.linkedin.com/learning/optimizing-your-linkedin-profile-2/"
+            },
+            {
+              "title": "Resume, Cover Letter and LinkedIn Profile Optimization (Coursera Specialization)",
+              "url": "https://www.coursera.org/learn/resume-cover-letter-linkedin-optimization"
+            },
+            {
+              "title": "AviationInterviews.com: Pilot Interview Preparation Guide",
+              "url": "https://aviationinterviews.com/aviation-interview-prep-guide/"
+            },
+            {
+              "title": "Effective Business Writing (Coursera Course)",
+              "url": "https://www.coursera.org/learn/effective-business-writing"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Job Application",
+              "description": "Apply for commercial pilot positions through job boards, company career pages, professional networks, and industry-specific platforms \u2014 tailor each application and prepare to discuss your hands-on experience and portfolio in interviews"
+            }
+          ],
+          "resources": [],
+          "children": []
+        }
+      ]
+    },
+    {
+      "path_title": "commercial pilot",
+      "focus": "Fast-Entry",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "milestones": [
+            {
+              "title": "Foundation & Core Skills",
+              "description": "Enroll in and complete a bachelor's degree relevant to commercial pilot (focus on coursework covering cpl/ir licence operations, and vfr and ifr flight operations)\n\nThen: Learn the fundamentals: build a solid foundation in cpl/ir licence operations, vfr and ifr flight operations, and aircraft systems knowledge \u2014 these are the essential building blocks for a commercial pilot"
+            }
+          ],
+          "resources": [],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Skill Building & Practice",
+              "description": "Deepen your expertise by developing intermediate-to-advanced skills in flight planning and fuel management, emergency procedures, and navigation and meteorology, applying them through exercises and case studies\n\nThen: Gain hands-on experience by completing supervised driving or operating sessions, route planning, and practical navigation exercises \u2014 focus on applying cpl/ir licence operations, and vfr and ifr flight operations in realistic scenarios"
+            }
+          ],
+          "resources": [],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Portfolio & Professional Profile",
+              "description": "Build a professional portfolio showcasing your best work, completed projects, certifications, and any measurable achievements related to commercial pilot\n\nThen: Prepare your professional profile: craft a targeted CV/resume highlighting your commercial pilot skills, optimize your LinkedIn profile, and gather references or endorsements from mentors, instructors, or past collaborators"
+            }
+          ],
+          "resources": [],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Job Application",
+              "description": "Apply for commercial pilot positions through job boards, company career pages, professional networks, and industry-specific platforms \u2014 tailor each application and prepare to discuss your hands-on experience and portfolio in interviews"
+            }
+          ],
+          "resources": [],
+          "children": []
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/static/roadmaps/roadmap_1.png",
+    "/static/roadmaps/roadmap_2.png"
+  ]
+}

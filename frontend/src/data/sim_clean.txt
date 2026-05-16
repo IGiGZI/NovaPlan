@@ -1,0 +1,7 @@
+Path (Personalities=analytical):
+  - architectural CAD drafter (Category: Engineering - Civil & Construction)
+  - mechanical engineering drafter (Category: Engineering - Mechanical & Electrical)
+  - aerospace engineering drafter (Category: Engineering - Aerospace & Transportation)
+
+Path (Hands_on=thinking):
+  - architectural CAD drafter (Category: Engineering - Civil & Construction)

@@ -1,0 +1,429 @@
+{
+  "input": {
+    "answers": [
+      {
+        "questionId": "Q_EDU",
+        "label": "I have a Master's degree or higher"
+      },
+      {
+        "questionId": "Q_ENV",
+        "label": "Outdoors, on-site, or working with my hands"
+      },
+      {
+        "questionId": "Q_HANDSON",
+        "label": "I like physical, hands-on work \u2014 building, fixing, operating"
+      },
+      {
+        "questionId": "Q_STYLE",
+        "label": "A mix of both depending on the task"
+      },
+      {
+        "questionId": "Q_IMPACT",
+        "label": "Operating vehicles \u2014 planes, drones, ships"
+      },
+      {
+        "questionId": "Q_SUBFIELD",
+        "label": "Flying helicopters"
+      }
+    ],
+    "careers": [
+      "helicopter pilot"
+    ],
+    "category": "Aviation & Piloting"
+  },
+  "derived_skills": [],
+  "chosen_career": "helicopter pilot",
+  "roadmaps": [
+    {
+      "path_title": "helicopter pilot",
+      "focus": "Depth",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "milestones": [
+            {
+              "title": "Certification",
+              "description": "(Optional) Complete an online certificate, bootcamp, or structured course in helicopter pilot to build a strong learning foundation"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Google Project Management Professional Certificate on Coursera",
+              "url": "https://www.coursera.org/professional-certificates/google-project-management"
+            },
+            {
+              "title": "Google Data Analytics Professional Certificate on Coursera",
+              "url": "https://www.coursera.org/professional-certificates/google-data-analytics"
+            },
+            {
+              "title": "Supply Chain Management Specialization by Rutgers on Coursera",
+              "url": "https://www.coursera.org/specializations/supply-chain-management-rutgers"
+            },
+            {
+              "title": "Strategic Leadership and Management Specialization by University of Illinois on Coursera",
+              "url": "https://www.coursera.org/specializations/strategic-leadership-management"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Core Skill Learning",
+              "description": "Learn the fundamentals: build a solid foundation in helicopter flight manoeuvres, navigation and flight planning, and meteorology for helicopter operations \u2014 these are the essential building blocks for a helicopter pilot"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Aviation Fundamentals and Aerodynamics Courses (Udemy)",
+              "url": "https://www.udemy.com/topic/aviation/"
+            },
+            {
+              "title": "FAA Handbooks and Manuals (Aviation Knowledge & Weather)",
+              "url": "https://www.faa.gov/regulations_policies/handbooks_manuals"
+            },
+            {
+              "title": "Code of Federal Regulations (CFR) Title 14 - Aeronautics and Space",
+              "url": "https://www.ecfr.gov/current/title-14"
+            },
+            {
+              "title": "MzeroA Aviation Training (YouTube Channel)",
+              "url": "https://www.youtube.com/c/MzeroA"
+            },
+            {
+              "title": "Aviation Safety Courses (Udemy)",
+              "url": "https://www.udemy.com/topic/aviation-safety/"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Intermediate / Advanced Skills",
+              "description": "Deepen your expertise by developing intermediate-to-advanced skills in helicopter systems knowledge, radio communication, and autorotation and emergency procedures, applying them through exercises and case studies"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Advanced Aviation Meteorology Courses",
+              "url": "https://www.udemy.com/courses/search/?src=ukw&q=aviation+meteorology"
+            },
+            {
+              "title": "Aviation Safety and Human Factors Programs",
+              "url": "https://www.coursera.org/search?query=aviation%20safety"
+            },
+            {
+              "title": "Advanced Helicopter Aerodynamics and Flight Theory Tutorials",
+              "url": "https://www.youtube.com/results?search_query=advanced+helicopter+aerodynamics"
+            },
+            {
+              "title": "Instrument Flight Rules (IFR) Ground School Courses",
+              "url": "https://www.udemy.com/courses/search/?src=ukw&q=instrument+pilot+ground+school"
+            },
+            {
+              "title": "Crew Resource Management (CRM) in Aviation Programs",
+              "url": "https://www.edx.org/search?q=aviation%20crew%20resource%20management"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Hands-on Practice",
+              "description": "Gain hands-on experience by completing supervised driving or operating sessions, route planning, and practical navigation exercises \u2014 focus on applying helicopter flight manoeuvres, and navigation and flight planning in realistic scenarios"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Helicopter Flight Simulator Training & Tutorials (YouTube Search)",
+              "url": "https://www.youtube.com/results?search_query=helicopter+flight+simulator+training"
+            },
+            {
+              "title": "FAA Pilot's Handbook of Aeronautical Knowledge (PHAK)",
+              "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
+            },
+            {
+              "title": "FAA Aviation Weather Handbook (Practical Application)",
+              "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/aviation_weather_handbook"
+            },
+            {
+              "title": "Practical Helicopter Flight Training Demonstrations (YouTube Search)",
+              "url": "https://www.youtube.com/results?search_query=helicopter+flight+training+practical"
+            },
+            {
+              "title": "Aviation Radio Communication Courses (Udemy Search)",
+              "url": "https://www.udemy.com/courses/search/?src=ukw&q=aviation+radio+communication"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Portfolio Building",
+              "description": "Build a professional portfolio showcasing your best work, completed projects, certifications, and any measurable achievements related to helicopter pilot"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Mastering Interview Skills for Career Advancement",
+              "url": "https://www.udemy.com/topic/interview-skills/"
+            },
+            {
+              "title": "Optimizing Your LinkedIn Profile for Professional Growth",
+              "url": "https://www.udemy.com/topic/linkedin/"
+            },
+            {
+              "title": "Exploring Aviation Safety and Human Factors Concepts",
+              "url": "https://www.coursera.org/search?query=aviation%20safety"
+            },
+            {
+              "title": "Practical Flight Skills and Aviation Training Tutorials",
+              "url": "https://www.youtube.com/user/MzeroAFlightTraining"
+            },
+            {
+              "title": "Official FAA Pilot Resources and Regulations Documentation",
+              "url": "https://www.faa.gov/pilots"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "CV / Profile Building",
+              "description": "Prepare your professional profile: craft a targeted CV/resume highlighting your helicopter pilot skills, optimize your LinkedIn profile, and gather references or endorsements from mentors, instructors, or past collaborators"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Master Your Resume and Cover Letter Writing",
+              "url": "https://www.coursera.org/search?query=resume%20and%20cover%20letter"
+            },
+            {
+              "title": "Optimize Your LinkedIn Profile for Career Success",
+              "url": "https://www.udemy.com/courses/search/?q=linkedin%20profile%20optimization"
+            },
+            {
+              "title": "Essential Interview Skills for Job Seekers",
+              "url": "https://www.coursera.org/search?query=interview%20skills"
+            },
+            {
+              "title": "Professional Networking for Career Advancement",
+              "url": "https://www.udemy.com/courses/search/?q=professional%20networking"
+            },
+            {
+              "title": "Crafting a Strong Online Professional Presence",
+              "url": "https://www.youtube.com/results?search_query=build+professional+online+presence"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Job Application / Freelancing",
+              "description": "Apply for helicopter pilot positions through job boards, company career pages, professional networks, and industry-specific platforms \u2014 tailor each application and prepare to discuss your hands-on experience and portfolio in interviews"
+            }
+          ],
+          "resources": [
+            {
+              "title": "helicopter pilot jobs on Wuzzuf",
+              "url": "https://wuzzuf.net/search/jobs/?q=helicopter+pilot&a=hpb"
+            },
+            {
+              "title": "helicopter pilot jobs on Forasna",
+              "url": "https://www.forasna.com/jobs/search/helicopter-pilot"
+            },
+            {
+              "title": "helicopter pilot jobs on LinkedIn",
+              "url": "https://www.linkedin.com/jobs/search/?keywords=helicopter+pilot&location=Egypt"
+            },
+            {
+              "title": "helicopter pilot jobs on Bayt.com",
+              "url": "https://www.bayt.com/en/egypt/jobs/helicopter-pilot-jobs/"
+            },
+            {
+              "title": "helicopter pilot jobs on Indeed Egypt",
+              "url": "https://eg.indeed.com/jobs?q=helicopter+pilot"
+            },
+            {
+              "title": "helicopter pilot freelance jobs on Upwork",
+              "url": "https://www.upwork.com/freelance-jobs/helicopter-pilot/"
+            },
+            {
+              "title": "helicopter pilot services on Fiverr",
+              "url": "https://www.fiverr.com/search/gigs?query=helicopter+pilot"
+            },
+            {
+              "title": "helicopter pilot projects on Mostaql",
+              "url": "https://mostaql.com/projects?keyword=helicopter+pilot"
+            },
+            {
+              "title": "Khamsat - Arabic Micro Services",
+              "url": "https://khamsat.com/"
+            },
+            {
+              "title": "helicopter pilot freelance on Toptal",
+              "url": "https://www.toptal.com/"
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "path_title": "helicopter pilot",
+      "focus": "Fast-Entry",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "milestones": [
+            {
+              "title": "Foundation & Core Skills",
+              "description": "(Optional) Complete an online certificate, bootcamp, or structured course in helicopter pilot to build a strong learning foundation\n\nThen: Learn the fundamentals: build a solid foundation in helicopter flight manoeuvres, navigation and flight planning, and meteorology for helicopter operations \u2014 these are the essential building blocks for a helicopter pilot"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Google Data Analytics Professional Certificate on Coursera",
+              "url": "https://www.coursera.org/professional-certificates/google-data-analytics"
+            },
+            {
+              "title": "Google Project Management Professional Certificate on Coursera",
+              "url": "https://www.coursera.org/professional-certificates/google-project-management"
+            },
+            {
+              "title": "The Complete Python Pro Bootcamp for 2023 on Udemy",
+              "url": "https://www.udemy.com/course/100-days-of-code/"
+            },
+            {
+              "title": "Google IT Support Professional Certificate on Coursera",
+              "url": "https://www.coursera.org/professional-certificates/google-it-support"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Skill Building & Practice",
+              "description": "Deepen your expertise by developing intermediate-to-advanced skills in helicopter systems knowledge, radio communication, and autorotation and emergency procedures, applying them through exercises and case studies\n\nThen: Gain hands-on experience by completing supervised driving or operating sessions, route planning, and practical navigation exercises \u2014 focus on applying helicopter flight manoeuvres, and navigation and flight planning in realistic scenarios"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Aviation Ground School & Pilot Training Courses (Udemy Topic Page)",
+              "url": "https://www.udemy.com/topic/aviation/"
+            },
+            {
+              "title": "Federal Aviation Administration (FAA) Pilot Resources & Regulations",
+              "url": "https://www.faa.gov/pilots/"
+            },
+            {
+              "title": "MzeroA Flight Training YouTube Channel (Aviation Education)",
+              "url": "https://www.youtube.com/@MzeroA"
+            },
+            {
+              "title": "Meteorology for Pilots and Aviation Weather Courses (Udemy Topic Page)",
+              "url": "https://www.udemy.com/topic/meteorology/"
+            },
+            {
+              "title": "Aerospace Engineering & Aviation Fundamentals (edX Topic Page)",
+              "url": "https://www.edx.org/learn/aerospace-engineering"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Portfolio & Professional Profile",
+              "description": "Build a professional portfolio showcasing your best work, completed projects, certifications, and any measurable achievements related to helicopter pilot\n\nThen: Prepare your professional profile: craft a targeted CV/resume highlighting your helicopter pilot skills, optimize your LinkedIn profile, and gather references or endorsements from mentors, instructors, or past collaborators"
+            }
+          ],
+          "resources": [
+            {
+              "title": "LinkedIn Profile Optimization for Career Advancement",
+              "url": "https://www.udemy.com/courses/search/?src=ukw&q=linkedin+profile+optimization"
+            },
+            {
+              "title": "Effective Resume and Cover Letter Writing",
+              "url": "https://www.coursera.org/search?query=resume%20cover%20letter"
+            },
+            {
+              "title": "Mastering Interview Skills",
+              "url": "https://www.edx.org/search?q=interview%20skills"
+            },
+            {
+              "title": "Professional Communication and Networking Strategies",
+              "url": "https://www.coursera.org/search?query=professional%20communication"
+            },
+            {
+              "title": "Developing Your Professional Personal Brand",
+              "url": "https://www.udemy.com/courses/search/?q=personal%20branding"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Job Application / Freelancing",
+              "description": "Apply for helicopter pilot positions through job boards, company career pages, professional networks, and industry-specific platforms \u2014 tailor each application and prepare to discuss your hands-on experience and portfolio in interviews"
+            }
+          ],
+          "resources": [
+            {
+              "title": "helicopter pilot jobs on Wuzzuf",
+              "url": "https://wuzzuf.net/search/jobs/?q=helicopter+pilot&a=hpb"
+            },
+            {
+              "title": "helicopter pilot jobs on Forasna",
+              "url": "https://www.forasna.com/jobs/search/helicopter-pilot"
+            },
+            {
+              "title": "helicopter pilot jobs on LinkedIn",
+              "url": "https://www.linkedin.com/jobs/search/?keywords=helicopter+pilot&location=Egypt"
+            },
+            {
+              "title": "helicopter pilot jobs on Bayt.com",
+              "url": "https://www.bayt.com/en/egypt/jobs/helicopter-pilot-jobs/"
+            },
+            {
+              "title": "helicopter pilot jobs on Indeed Egypt",
+              "url": "https://eg.indeed.com/jobs?q=helicopter+pilot"
+            },
+            {
+              "title": "helicopter pilot freelance jobs on Upwork",
+              "url": "https://www.upwork.com/freelance-jobs/helicopter-pilot/"
+            },
+            {
+              "title": "helicopter pilot services on Fiverr",
+              "url": "https://www.fiverr.com/search/gigs?query=helicopter+pilot"
+            },
+            {
+              "title": "helicopter pilot projects on Mostaql",
+              "url": "https://mostaql.com/projects?keyword=helicopter+pilot"
+            },
+            {
+              "title": "Khamsat - Arabic Micro Services",
+              "url": "https://khamsat.com/"
+            },
+            {
+              "title": "helicopter pilot freelance on Toptal",
+              "url": "https://www.toptal.com/"
+            }
+          ],
+          "children": []
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/static/roadmaps/roadmap_1.png",
+    "/static/roadmaps/roadmap_2.png"
+  ]
+}

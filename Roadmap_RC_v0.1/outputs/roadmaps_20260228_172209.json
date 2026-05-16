@@ -1,0 +1,365 @@
+{
+  "input": {
+    "answers": [
+      {
+        "questionId": "Q1",
+        "label": "High School Student / No degree yet"
+      },
+      {
+        "questionId": "Q_ENV_HS",
+        "label": "Office / desk-based work"
+      },
+      {
+        "questionId": "Q_PERS_HS_OFFICE",
+        "label": "I like solving problems & thinking analytically"
+      },
+      {
+        "questionId": "Q_FOCUS_HS_OFFICE_ANALYTICAL",
+        "label": "Data analysis, AI, or machine learning"
+      },
+      {
+        "questionId": "Q_HS_OFFICE_ANALYTICAL_OA_DATA_TECH_CAT",
+        "label": "Data & Artificial Intelligence"
+      },
+      {
+        "questionId": "Q_HS_OFFICE_ANALYTICAL_OA_DATA_TECH_DATA_ARTIFICIAL_INTELLIGE_AREA",
+        "label": "Data Science & AI"
+      },
+      {
+        "questionId": "Q_HS_OFFICE_ANALYTICAL_OA_DATA_TECH_DATA_ARTIFICIAL_INTELLIGE_DATA_SCIENCE_AI_PICK",
+        "label": "Data Scientist"
+      }
+    ],
+    "careers": [
+      "data scientist"
+    ],
+    "category": "Data & Artificial Intelligence"
+  },
+  "derived_skills": [],
+  "chosen_career": "data scientist",
+  "roadmaps": [
+    {
+      "path_title": "data scientist",
+      "focus": "Depth",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "milestones": [
+            {
+              "title": "Certification",
+              "description": "(Optional) Complete an online certificate, bootcamp, or structured course in data scientist to build a strong learning foundation"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Google Data Analytics Professional Certificate on Coursera",
+              "url": "https://www.coursera.org/professional-certificates/google-data-analytics"
+            },
+            {
+              "title": "IBM Data Science Professional Certificate on Coursera",
+              "url": "https://www.coursera.org/professional-certificates/ibm-data-science-professional-certificate"
+            },
+            {
+              "title": "Professional Certificate in Data Science by HarvardX on edX",
+              "url": "https://www.edx.org/certificates/professional-certificate-in-data-science"
+            },
+            {
+              "title": "Microsoft Certified: Azure Data Scientist Associate",
+              "url": "https://learn.microsoft.com/en-us/certifications/azure-data-scientist/"
+            },
+            {
+              "title": "AWS Certified Machine Learning \u2013 Specialty",
+              "url": "https://aws.amazon.com/certification/certified-machine-learning-specialty/"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Core Skill Learning",
+              "description": "Learn the fundamentals: build a solid foundation in python (pandas, numpy, scikit-learn), machine learning algorithms, and statistical modelling \u2014 these are the essential building blocks for a data scientist"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Python for Everybody Specialization on Coursera",
+              "url": "https://www.coursera.org/specializations/python"
+            },
+            {
+              "title": "Machine Learning by Andrew Ng on Coursera",
+              "url": "https://www.coursera.org/learn/machine-learning"
+            },
+            {
+              "title": "SQL for Data Science on Coursera (IBM)",
+              "url": "https://www.coursera.org/learn/sql-for-data-science"
+            },
+            {
+              "title": "Scikit-learn User Guide and Documentation",
+              "url": "https://scikit-learn.org/stable/user_guide.html"
+            },
+            {
+              "title": "Khan Academy Statistics and Probability",
+              "url": "https://www.khanacademy.org/math/statistics-probability"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Intermediate / Advanced Skills",
+              "description": "Deepen your expertise by developing intermediate-to-advanced skills in data visualisation, sql and databases, and feature engineering, applying them through exercises and case studies"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Deep Learning Specialization by Andrew Ng",
+              "url": "https://www.coursera.org/specializations/deep-learning"
+            },
+            {
+              "title": "Machine Learning Engineering for Production (MLOps) Specialization",
+              "url": "https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops"
+            },
+            {
+              "title": "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow (GitHub repository for code examples)",
+              "url": "https://github.com/ageron/handson-ml3"
+            },
+            {
+              "title": "Google Cloud Professional Data Engineer Professional Certificate",
+              "url": "https://www.coursera.org/professional-certificates/google-cloud-data-engineer"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Hands-on Practice",
+              "description": "Gain hands-on experience by completing data analysis projects, research studies, or analytical reports using real-world datasets \u2014 focus on applying python (pandas, numpy, scikit-learn), and machine learning algorithms in realistic scenarios"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Kaggle Data Science Competitions and Datasets",
+              "url": "https://www.kaggle.com/"
+            },
+            {
+              "title": "IBM Data Science Professional Certificate on Coursera",
+              "url": "https://www.coursera.org/professional-certificates/ibm-data-science"
+            },
+            {
+              "title": "Fast.ai - Practical Deep Learning for Coders",
+              "url": "https://course.fast.ai/"
+            },
+            {
+              "title": "DataCamp Data Science Projects",
+              "url": "https://www.datacamp.com/projects"
+            },
+            {
+              "title": "Google Cloud Skills Boost - Data Scientist Learning Path",
+              "url": "https://www.cloudskillsboost.google/journeys/12"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Portfolio Building",
+              "description": "Build a portfolio of analytical projects: publish notebooks on Kaggle or GitHub, create data visualizations, and document your methodology and findings"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Kaggle: Real-world Datasets & Project Inspiration",
+              "url": "https://www.kaggle.com/"
+            },
+            {
+              "title": "GitHub: Version Control & Project Showcase for Data Scientists",
+              "url": "https://github.com/"
+            },
+            {
+              "title": "Streamlit Documentation: Create Interactive Data Apps",
+              "url": "https://docs.streamlit.io/"
+            },
+            {
+              "title": "freeCodeCamp: How to Build a Data Science Portfolio That Gets You Hired",
+              "url": "https://www.freecodecamp.org/news/how-to-build-a-data-science-portfolio-that-gets-you-hired/"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "CV / Profile Building",
+              "description": "Prepare your professional profile: craft a targeted CV/resume highlighting your data scientist skills, optimize your LinkedIn profile, and gather references or endorsements from mentors, instructors, or past collaborators"
+            }
+          ],
+          "resources": [
+            {
+              "title": "How to Write a Data Science Resume: A Guide with Examples by DataCamp",
+              "url": "https://www.datacamp.com/blog/how-to-write-a-data-science-resume"
+            },
+            {
+              "title": "How to Optimize Your LinkedIn Profile for Data Science Roles by Springboard",
+              "url": "https://www.springboard.com/blog/data-science/optimize-linkedin-data-science/"
+            },
+            {
+              "title": "The Ultimate Guide to Building a Data Science Portfolio (Towards Data Science)",
+              "url": "https://towardsdatascience.com/the-ultimate-guide-to-building-a-data-science-portfolio-fbf8f572793b"
+            },
+            {
+              "title": "How to Write a Resume (Grow with Google)",
+              "url": "https://grow.google/certificates/interview-warmup/how-to-write-a-resume/"
+            },
+            {
+              "title": "How to Write an ATS-Friendly Resume (The Muse)",
+              "url": "https://www.themuse.com/advice/how-to-write-an-ats-friendly-resume"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Job Application / Freelancing",
+              "description": "Apply for data scientist positions through job boards, company career pages, professional networks, and industry-specific platforms \u2014 tailor each application and prepare to discuss your hands-on experience and portfolio in interviews"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Search: data scientist Job Application / Freelancing resources",
+              "url": "https://www.google.com/search?q=data+scientist+Job+Application+/+Freelancing+resources"
+            },
+            {
+              "title": "Search: data scientist Job Application / Freelancing courses",
+              "url": "https://www.google.com/search?q=data+scientist+Job+Application+/+Freelancing+courses"
+            },
+            {
+              "title": "data scientist on Coursera",
+              "url": "https://www.coursera.org/search?query=data+scientist+Job+Application+/+Freelancing"
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "path_title": "data scientist",
+      "focus": "Fast-Entry",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "milestones": [
+            {
+              "title": "Foundation & Core Skills",
+              "description": "(Optional) Complete an online certificate, bootcamp, or structured course in data scientist to build a strong learning foundation\n\nThen: Learn the fundamentals: build a solid foundation in python (pandas, numpy, scikit-learn), machine learning algorithms, and statistical modelling \u2014 these are the essential building blocks for a data scientist"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Search: data scientist Foundation & Core Skills resources",
+              "url": "https://www.google.com/search?q=data+scientist+Foundation+&+Core+Skills+resources"
+            },
+            {
+              "title": "Search: data scientist Foundation & Core Skills courses",
+              "url": "https://www.google.com/search?q=data+scientist+Foundation+&+Core+Skills+courses"
+            },
+            {
+              "title": "data scientist on Coursera",
+              "url": "https://www.coursera.org/search?query=data+scientist+Foundation+&+Core+Skills"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Skill Building & Practice",
+              "description": "Deepen your expertise by developing intermediate-to-advanced skills in data visualisation, sql and databases, and feature engineering, applying them through exercises and case studies\n\nThen: Gain hands-on experience by completing data analysis projects, research studies, or analytical reports using real-world datasets \u2014 focus on applying python (pandas, numpy, scikit-learn), and machine learning algorithms in realistic scenarios"
+            }
+          ],
+          "resources": [
+            {
+              "title": "IBM Data Science Professional Certificate",
+              "url": "https://www.coursera.org/professional-certificates/ibm-data-science"
+            },
+            {
+              "title": "Kaggle Learn",
+              "url": "https://www.kaggle.com/learn"
+            },
+            {
+              "title": "fast.ai Practical Deep Learning for Coders",
+              "url": "https://course.fast.ai/"
+            },
+            {
+              "title": "Mode Analytics SQL Tutorial",
+              "url": "https://mode.com/sql-tutorial/"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Portfolio & Professional Profile",
+              "description": "Build a portfolio of analytical projects: publish notebooks on Kaggle or GitHub, create data visualizations, and document your methodology and findings\n\nThen: Prepare your professional profile: craft a targeted CV/resume highlighting your data scientist skills, optimize your LinkedIn profile, and gather references or endorsements from mentors, instructors, or past collaborators"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Ken Jee's Guide to Building a Data Science Portfolio",
+              "url": "https://kenjee.com/blog/how-to-build-a-data-science-portfolio"
+            },
+            {
+              "title": "Best Practices for Data Science Projects on GitHub",
+              "url": "https://towardsdatascience.com/best-practices-for-data-science-projects-on-github-dfa80a221434"
+            },
+            {
+              "title": "Optimize Your LinkedIn Profile as a Data Scientist",
+              "url": "https://www.datacamp.com/blog/linkedin-tips-for-data-scientists"
+            },
+            {
+              "title": "How to Create a Personal Portfolio Website with GitHub Pages and Jekyll",
+              "url": "https://www.freecodecamp.org/news/how-to-create-a-personal-portfolio-website-with-github-pages-and-jekyll/"
+            },
+            {
+              "title": "The Ultimate Guide to a Data Scientist Resume",
+              "url": "https://www.springboard.com/blog/data-science/data-scientist-resume-guide/"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Job Application / Freelancing",
+              "description": "Apply for data scientist positions through job boards, company career pages, professional networks, and industry-specific platforms \u2014 tailor each application and prepare to discuss your hands-on experience and portfolio in interviews"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Search: data scientist Job Application / Freelancing resources",
+              "url": "https://www.google.com/search?q=data+scientist+Job+Application+/+Freelancing+resources"
+            },
+            {
+              "title": "Search: data scientist Job Application / Freelancing courses",
+              "url": "https://www.google.com/search?q=data+scientist+Job+Application+/+Freelancing+courses"
+            },
+            {
+              "title": "data scientist on Coursera",
+              "url": "https://www.coursera.org/search?query=data+scientist+Job+Application+/+Freelancing"
+            }
+          ],
+          "children": []
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/static/roadmaps/roadmap_1.png",
+    "/static/roadmaps/roadmap_2.png"
+  ]
+}

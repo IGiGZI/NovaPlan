@@ -1,0 +1,245 @@
+{
+  "input": {
+    "answers": [],
+    "careers": [
+      "data engineer"
+    ],
+    "category": "Data & Artificial Intelligence",
+    "user_summary": "",
+    "experience_level": "beginner",
+    "sub_field": "",
+    "selected_language": "Python",
+    "prefer_paid": false
+  },
+  "derived_skills": [],
+  "chosen_career": "data engineer",
+  "roadmaps": [
+    {
+      "path_title": "data engineer",
+      "focus": "Beginner \u2014 Full Roadmap",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "milestones": [
+            {
+              "title": "Certification",
+              "description": "(Optional) Complete an online certificate, bootcamp, or structured course in data engineer to build a strong learning foundation"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Google Cloud Data Engineering Professional Certificate (Audit mode)",
+              "url": "https://www.coursera.org/professional-certificates/google-cloud-data-engineer"
+            },
+            {
+              "title": "IBM Data Engineering Professional Certificate (Audit mode)",
+              "url": "https://www.coursera.org/professional-certificates/ibm-data-engineering"
+            },
+            {
+              "title": "Data Engineering with Python Bootcamp - Krish Naik",
+              "url": "https://www.youtube.com/playlist?list=PLzjZkE1y6uGv_rQ_fQ7Y2B5Z8C3Z8V8C3"
+            },
+            {
+              "title": "Microsoft Certified: Azure Data Engineer Associate Learning Paths",
+              "url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-data-engineer/"
+            },
+            {
+              "title": "AWS Cloud for Data Engineers Learning Plan",
+              "url": "https://skillbuilder.aws/lp/256/aws-cloud-for-data-engineers-learning-plan"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Core Skill Learning",
+              "description": "Learn the fundamentals: build a solid foundation in python and sql, etl/elt pipeline development, and data warehousing (snowflake, bigquery, redshift) \u2014 these are the essential building blocks for a data engineer"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Learn Python - Full Course for Beginners",
+              "url": "https://www.youtube.com/watch?v=rfscVS0vtbw"
+            },
+            {
+              "title": "SQL Tutorial - Full Database Course for Beginners",
+              "url": "https://www.youtube.com/watch?v=qtK0S_g2x_U"
+            },
+            {
+              "title": "Introduction to Data Engineering (Coursera Audit)",
+              "url": "https://www.coursera.org/learn/introduction-to-data-engineering"
+            },
+            {
+              "title": "Google Cloud BigQuery & Data Studio Course - Build a Data Platform",
+              "url": "https://www.youtube.com/watch?v=J_jKjT21Q0s"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Intermediate / Advanced Skills",
+              "description": "Deepen your expertise by developing intermediate-to-advanced skills in apache spark and hadoop, cloud platforms (aws, azure, gcp), and data modelling, applying them through exercises and case studies"
+            }
+          ],
+          "resources": [
+            {
+              "title": "PySpark Tutorial for Beginners - Full Course (Python for Apache Spark)",
+              "url": "https://www.youtube.com/watch?v=k_l2N6yD1pQ"
+            },
+            {
+              "title": "Boto3 Tutorial \u2013 Getting Started with AWS S3 using Python",
+              "url": "https://www.geeksforgeeks.org/boto3-tutorial-getting-started-with-aws-s3-using-python/"
+            },
+            {
+              "title": "Data Modeling Explained For Beginners | What is Data Modeling?",
+              "url": "https://www.youtube.com/watch?v=rWlG-2y9eB8"
+            },
+            {
+              "title": "Perform Foundational Data, ML, and AI Tasks in Google Cloud (Coursera - Audit Mode)",
+              "url": "https://www.coursera.org/learn/gcp-data-ml-ai"
+            },
+            {
+              "title": "Hadoop Tutorial for Beginners",
+              "url": "https://www.geeksforgeeks.org/hadoop-tutorial/"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Hands-on Practice",
+              "description": "Gain hands-on experience by completing software projects, open-source contributions, or technical prototypes \u2014 focus on applying python and sql, and etl/elt pipeline development in realistic scenarios"
+            }
+          ],
+          "resources": [
+            {
+              "title": "BUILD A DATA PIPELINE (ETL PROJECT) - Python & SQL",
+              "url": "https://www.youtube.com/watch?v=F0fC1i9_4rY"
+            },
+            {
+              "title": "Relational Database (SQL) Certification (Beginner Fundamentals)",
+              "url": "https://www.freecodecamp.org/learn/relational-database/"
+            },
+            {
+              "title": "PySpark Tutorial | Introduction to PySpark (Beginner Basics)",
+              "url": "https://www.geeksforgeeks.org/pyspark-tutorial/"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Portfolio Building",
+              "description": "Build a professional portfolio: publish your best projects on GitHub, create a personal website showcasing your work, and document your process and results"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Python for Data Engineering - Crash Course",
+              "url": "https://www.youtube.com/watch?v=J_F7c8t437Y"
+            },
+            {
+              "title": "SQL Tutorial - Database Design (W3Schools)",
+              "url": "https://www.w3schools.com/sql/sql_databases.asp"
+            },
+            {
+              "title": "PySpark Crash Course (freeCodeCamp.org)",
+              "url": "https://www.youtube.com/watch?v=kYw-w8g0X7M"
+            },
+            {
+              "title": "How to Build a Data Engineering Portfolio (Alex the Analyst)",
+              "url": "https://www.youtube.com/watch?v=0hK2_bFw9yI"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "CV / Profile Building",
+              "description": "Prepare your professional profile: craft a targeted CV/resume highlighting your data engineer skills, optimize your LinkedIn profile, and gather references or endorsements from mentors, instructors, or past collaborators"
+            }
+          ],
+          "resources": [
+            {
+              "title": "How to Write a Data Engineer Resume (with no experience) | Entry Level Data Engineer",
+              "url": "https://www.youtube.com/watch?v=FqGg2j7aI_U"
+            },
+            {
+              "title": "How To Optimize Your LinkedIn Profile For Data Roles",
+              "url": "https://www.youtube.com/watch?v=3P7aR2c_h0I"
+            },
+            {
+              "title": "How to Build a Data Engineering Portfolio (Entry Level & Senior)",
+              "url": "https://www.youtube.com/watch?v=42z_v4W2u6M"
+            },
+            {
+              "title": "How to Get an Entry-Level Data Engineer Job \u2013 A Complete Guide",
+              "url": "https://www.freecodecamp.org/news/how-to-get-an-entry-level-data-engineer-job/"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Job Application / Freelancing",
+              "description": "Apply for data engineer positions through job boards, company career pages, professional networks, and industry-specific platforms \u2014 tailor each application and prepare to discuss your hands-on experience and portfolio in interviews"
+            }
+          ],
+          "resources": [
+            {
+              "title": "data engineer jobs on Wuzzuf",
+              "url": "https://wuzzuf.net/search/jobs/?q=data+engineer&a=hpb"
+            },
+            {
+              "title": "data engineer jobs on Forasna",
+              "url": "https://www.forasna.com/jobs/search/data-engineer"
+            },
+            {
+              "title": "data engineer jobs on LinkedIn",
+              "url": "https://www.linkedin.com/jobs/search/?keywords=data+engineer&location=Egypt"
+            },
+            {
+              "title": "data engineer jobs on Bayt.com",
+              "url": "https://www.bayt.com/en/egypt/jobs/data-engineer-jobs/"
+            },
+            {
+              "title": "data engineer jobs on Indeed Egypt",
+              "url": "https://eg.indeed.com/jobs?q=data+engineer"
+            },
+            {
+              "title": "data engineer freelance jobs on Upwork",
+              "url": "https://www.upwork.com/freelance-jobs/data-engineer/"
+            },
+            {
+              "title": "data engineer services on Fiverr",
+              "url": "https://www.fiverr.com/search/gigs?query=data+engineer"
+            },
+            {
+              "title": "data engineer projects on Mostaql",
+              "url": "https://mostaql.com/projects?keyword=data+engineer"
+            },
+            {
+              "title": "Khamsat - Arabic Micro Services",
+              "url": "https://khamsat.com/"
+            },
+            {
+              "title": "data engineer freelance on Toptal",
+              "url": "https://www.toptal.com/"
+            }
+          ],
+          "children": []
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/static/roadmaps/roadmap_1.png"
+  ]
+}

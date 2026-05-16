@@ -1,0 +1,281 @@
+{
+  "input": {
+    "answers": [
+      {
+        "questionId": "Q_EDU",
+        "label": "I haven't started university yet"
+      },
+      {
+        "questionId": "Q_GENDER",
+        "label": "Male"
+      },
+      {
+        "questionId": "Q_IMPACT",
+        "label": "Creating technology \u2014 writing code, building apps, or working with AI"
+      },
+      {
+        "questionId": "Q_TECH_TYPE",
+        "label": "General software development and architecture"
+      },
+      {
+        "questionId": "Q_PACE_TECH",
+        "label": "Deep solo work \u2014 headphones on, shipping features and fixing bugs"
+      },
+      {
+        "questionId": "Q_STYLE_TECH",
+        "label": "Creating \u2014 designing interfaces, building new features from scratch"
+      }
+    ],
+    "careers": [
+      "software analyst"
+    ],
+    "category": "Programming & Software Development",
+    "user_summary": "",
+    "experience_level": "",
+    "sub_field": "",
+    "selected_language": ""
+  },
+  "derived_skills": [],
+  "chosen_career": "software analyst",
+  "roadmaps": [
+    {
+      "path_title": "software analyst",
+      "focus": "Depth",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "milestones": [
+            {
+              "title": "Certification",
+              "description": "(Optional) Complete an online certificate, bootcamp, or structured course in software analyst to build a strong learning foundation"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Software Analyst Certificates & Specializations on Coursera",
+              "url": "https://www.coursera.org/search?query=software%20analyst%20certificate"
+            },
+            {
+              "title": "Business Analysis Certificates & Specializations on Coursera",
+              "url": "https://www.coursera.org/search?query=business%20analyst%20certificate"
+            },
+            {
+              "title": "Software Analyst Courses & Certifications on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=software%20analyst"
+            },
+            {
+              "title": "Professional Business Analysis and Requirements Courses on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=business%20analyst"
+            },
+            {
+              "title": "Business Analysis and IT Analyst Programs on edX",
+              "url": "https://www.edx.org/search?q=business%20analyst"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Core Skill Learning",
+              "description": "Learn the fundamentals: build a solid foundation in requirements gathering, business process analysis, and use case documentation \u2014 these are the essential building blocks for a software analyst"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Coursera Search for Business Analysis and Requirements Gathering",
+              "url": "https://www.coursera.org/search?query=business%20analysis%20requirements%20gathering"
+            },
+            {
+              "title": "Udemy Courses on Agile and Scrum Methodologies",
+              "url": "https://www.udemy.com/courses/search/?src=ukw&q=agile%20scrum%20methodology"
+            },
+            {
+              "title": "YouTube Tutorials for UML Diagrams and Use Cases",
+              "url": "https://www.youtube.com/results?search_query=uml%20diagrams%20use%20case%20tutorial"
+            },
+            {
+              "title": "edX Courses on Software Requirements Analysis",
+              "url": "https://www.edx.org/search?q=software%20requirements%20analysis"
+            },
+            {
+              "title": "GeeksforGeeks Articles on Software Requirements and Analysis",
+              "url": "https://www.geeksforgeeks.org/search?q=software%20requirements%20analysis"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Intermediate / Advanced Skills",
+              "description": "Deepen your expertise by developing intermediate-to-advanced skills in agile and scrum methodologies, uml diagrams, and stakeholder communication, applying them through exercises and case studies"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Agile and Scrum Methodologies for Business Analysts Learning Path",
+              "url": "https://www.coursera.org/search?query=agile%20scrum%20business%20analyst"
+            },
+            {
+              "title": "UML Diagrams Comprehensive Tutorials and Guides",
+              "url": "https://www.geeksforgeeks.org/search?q=uml%20tutorial"
+            },
+            {
+              "title": "Stakeholder Communication and Management for Analysts",
+              "url": "https://www.udemy.com/courses/search/?q=stakeholder%20communication%20business%20analyst"
+            },
+            {
+              "title": "Advanced Requirements Gathering and Business Process Analysis Courses",
+              "url": "https://www.coursera.org/search?query=advanced%20requirements%20gathering%20business%20process%20analysis"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Hands-on Practice",
+              "description": "Gain hands-on experience by completing data analysis projects, research studies, or analytical reports using real-world datasets \u2014 focus on applying requirements gathering, and business process analysis in realistic scenarios"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Courses on Requirements Gathering & Business Process Analysis",
+              "url": "https://www.coursera.org/search?query=business%20analysis%20requirements%20gathering"
+            },
+            {
+              "title": "Tutorials on Agile, Scrum, and Use Case Documentation for Business Analysts",
+              "url": "https://www.udemy.com/courses/search/?q=agile%20scrum%20business%20analyst%20use%20case"
+            },
+            {
+              "title": "UML Diagrams for Software Analysts Tutorials",
+              "url": "https://www.youtube.com/results?search_query=UML+diagrams+business+analyst+tutorial"
+            },
+            {
+              "title": "Resources for Stakeholder Communication in Business Analysis",
+              "url": "https://www.edx.org/search?q=stakeholder%20communication%20business%20analyst"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Portfolio Building",
+              "description": "Build a portfolio of analytical projects: publish notebooks on Kaggle or GitHub, create data visualizations, and document your methodology and findings"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Courses on Business Analysis Portfolio Projects",
+              "url": "https://www.coursera.org/search?query=business%20analysis%20portfolio%20projects"
+            },
+            {
+              "title": "Practical Agile Scrum Projects for Business Analysts",
+              "url": "https://www.udemy.com/courses/search/?q=agile%20scrum%20projects%20business%20analyst"
+            },
+            {
+              "title": "UML Diagrams and Business Analyst Project Tutorials",
+              "url": "https://www.youtube.com/results?search_query=UML+diagrams+business+analyst+project"
+            },
+            {
+              "title": "Requirements Engineering and Stakeholder Communication Projects",
+              "url": "https://www.edx.org/search?q=requirements%20engineering%20project%20stakeholder%20communication"
+            },
+            {
+              "title": "GitHub Repositories for Business Analyst Portfolio Examples",
+              "url": "https://github.com/search?q=business+analyst+portfolio+examples&type=repositories"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "CV / Profile Building",
+              "description": "Prepare your professional profile: craft a targeted CV/resume highlighting your software analyst skills, optimize your LinkedIn profile, and gather references or endorsements from mentors, instructors, or past collaborators"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Coursera Courses on Business Analysis and Requirements Gathering",
+              "url": "https://www.coursera.org/search?query=business%20analysis%20requirements%20gathering"
+            },
+            {
+              "title": "Udemy Courses on Agile, Scrum, and UML for Business Analysts",
+              "url": "https://www.udemy.com/courses/search/?q=agile%20scrum%20uml%20business%20analyst"
+            },
+            {
+              "title": "edX Programs on Business Analysis Professional Development",
+              "url": "https://www.edx.org/search?q=business%20analysis%20professional%20program"
+            },
+            {
+              "title": "YouTube Tutorials for Software Analyst Skills",
+              "url": "https://www.youtube.com/results?search_query=software%20analyst%20tutorial%20complete"
+            },
+            {
+              "title": "GeeksforGeeks Tutorials on UML Diagrams and SDLC Concepts",
+              "url": "https://www.geeksforgeeks.org/search?q=UML%20diagrams%20SDLC%20business%20analyst"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Job Application / Freelancing",
+              "description": "Apply for software analyst positions through job boards, company career pages, professional networks, and industry-specific platforms \u2014 tailor each application and prepare to discuss your hands-on experience and portfolio in interviews"
+            }
+          ],
+          "resources": [
+            {
+              "title": "software analyst jobs on Wuzzuf",
+              "url": "https://wuzzuf.net/search/jobs/?q=software+analyst&a=hpb"
+            },
+            {
+              "title": "software analyst jobs on Forasna",
+              "url": "https://www.forasna.com/jobs/search/software-analyst"
+            },
+            {
+              "title": "software analyst jobs on LinkedIn",
+              "url": "https://www.linkedin.com/jobs/search/?keywords=software+analyst&location=Egypt"
+            },
+            {
+              "title": "software analyst jobs on Bayt.com",
+              "url": "https://www.bayt.com/en/egypt/jobs/software-analyst-jobs/"
+            },
+            {
+              "title": "software analyst jobs on Indeed Egypt",
+              "url": "https://eg.indeed.com/jobs?q=software+analyst"
+            },
+            {
+              "title": "software analyst freelance jobs on Upwork",
+              "url": "https://www.upwork.com/freelance-jobs/software-analyst/"
+            },
+            {
+              "title": "software analyst services on Fiverr",
+              "url": "https://www.fiverr.com/search/gigs?query=software+analyst"
+            },
+            {
+              "title": "software analyst projects on Mostaql",
+              "url": "https://mostaql.com/projects?keyword=software+analyst"
+            },
+            {
+              "title": "Khamsat - Arabic Micro Services",
+              "url": "https://khamsat.com/"
+            },
+            {
+              "title": "software analyst freelance on Toptal",
+              "url": "https://www.toptal.com/"
+            }
+          ],
+          "children": []
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/static/roadmaps/roadmap_1.png"
+  ]
+}

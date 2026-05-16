@@ -1,0 +1,875 @@
+{
+  "input": {
+    "answers": [
+      {
+        "questionId": "Q1",
+        "label": "Undergraduate (studying for or completed a Bachelor's)"
+      },
+      {
+        "questionId": "Q_PERS1_UG",
+        "label": "I like creating, designing, or making things"
+      },
+      {
+        "questionId": "Q_PERS2_UG_CREATIVE",
+        "label": "Mixed \u2014 I want variety in my environment"
+      },
+      {
+        "questionId": "Q_PERS3_UG_CREATIVE_MIXED",
+        "label": "Balanced \u2014 good pay and meaningful work"
+      },
+      {
+        "questionId": "Q_PERS4_UG_CREATIVE_MIXED_BAL",
+        "label": "Client-facing \u2014 I enjoy working with the public"
+      },
+      {
+        "questionId": "Q_PERS5_UG_CREATIVE_MIXED_BAL_CLIENT",
+        "label": "Public sector / government / non-profit"
+      },
+      {
+        "questionId": "Q_DOMAIN_UG",
+        "label": "Business & Economics"
+      },
+      {
+        "questionId": "Q3_UG_BIZ",
+        "label": "Product strategy \u2014 owning a product end-to-end"
+      },
+      {
+        "questionId": "Q5_UG_PM_DEPTH",
+        "label": "Consumer app \u2014 products used by millions every day"
+      },
+      {
+        "questionId": "Q6_UG_PM_TECHNICAL",
+        "label": "Business and user-focused \u2014 I'll rely on engineers for the technical side"
+      }
+    ],
+    "careers": [
+      "ICT project manager"
+    ],
+    "category": "ICT & Business Technology"
+  },
+  "derived_skills": [],
+  "chosen_career": "ICT project manager",
+  "roadmaps": [
+    {
+      "path_title": "ICT project manager",
+      "focus": "Depth",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "title": "Foundations",
+          "objective": "Build essential groundwork for your career",
+          "prerequisites": [],
+          "milestones": [
+            "Build"
+          ],
+          "resources": [
+            "Standard Industry Tools"
+          ],
+          "tasks": [
+            "Build skills in stakeholder management, risk management, and change management"
+          ],
+          "children": [
+            {
+              "title": "Industry Fundamentals",
+              "objective": "Understand the core concepts of ICT project manager",
+              "prerequisites": [],
+              "milestones": [
+                "Complete",
+                "Earn"
+              ],
+              "resources": [
+                "Online Courses",
+                "Industry Glossaries",
+                "Career Guides"
+              ],
+              "tasks": [
+                "Complete a master's degree in project management, IT, or business administration",
+                "Earn a PMP (Project Management Professional) or PRINCE2 certification"
+              ],
+              "children": []
+            },
+            {
+              "title": "Tools & Environment",
+              "objective": "Set up your professional workspace",
+              "prerequisites": [],
+              "milestones": [
+                "Develop"
+              ],
+              "resources": [
+                "Official Documentation",
+                "Community Forums"
+              ],
+              "tasks": [
+                "Develop expertise in Agile, Scrum, and traditional waterfall project delivery methods"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Core Skills Development",
+          "objective": "Master essential skills for ICT project manager",
+          "prerequisites": [],
+          "milestones": [
+            "Master"
+          ],
+          "resources": [
+            "Online Learning Platforms"
+          ],
+          "tasks": [
+            "Master core skills 1"
+          ],
+          "children": [
+            {
+              "title": "It Project Management (Pmp, Prince2, Agile) Proficiency",
+              "objective": "Develop proficiency in it project management (pmp, prince2, agile)",
+              "prerequisites": [],
+              "milestones": [
+                "Lead"
+              ],
+              "resources": [
+                "It Project Management (Pmp, Prince2, Agile) Resources"
+              ],
+              "tasks": [
+                "Lead an end-to-end ICT project \u2014 from requirements gathering to go-live"
+              ],
+              "children": []
+            },
+            {
+              "title": "Project Planning And Scheduling Proficiency",
+              "objective": "Develop proficiency in project planning and scheduling",
+              "prerequisites": [],
+              "milestones": [
+                "Learn"
+              ],
+              "resources": [
+                "Project Planning And Scheduling Resources"
+              ],
+              "tasks": [
+                "Learn project management tools such as Jira, MS Project, or Asana"
+              ],
+              "children": []
+            },
+            {
+              "title": "Risk And Issue Management Proficiency",
+              "objective": "Develop proficiency in risk and issue management",
+              "prerequisites": [],
+              "milestones": [
+                "Apply"
+              ],
+              "resources": [
+                "Risk And Issue Management Resources"
+              ],
+              "tasks": [
+                "Apply for IT project manager roles in tech companies or enterprise organizations"
+              ],
+              "children": []
+            },
+            {
+              "title": "Budget Tracking Proficiency",
+              "objective": "Develop proficiency in budget tracking",
+              "prerequisites": [],
+              "milestones": [
+                "Practice"
+              ],
+              "resources": [
+                "Budget Tracking Resources"
+              ],
+              "tasks": [
+                "Practice budget tracking 1"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Practical Application",
+          "objective": "Gain hands-on experience through projects or simulations",
+          "prerequisites": [],
+          "milestones": [
+            "Build"
+          ],
+          "resources": [
+            "Portfolio Platform"
+          ],
+          "tasks": [
+            "Build portfolio 1"
+          ],
+          "children": [
+            {
+              "title": "Applied Practice Project",
+              "objective": "Apply core skills in a realistic scenario",
+              "prerequisites": [
+                "it project management (pmp, prince2, agile)",
+                "project planning and scheduling"
+              ],
+              "milestones": [
+                "Apply",
+                "Apply"
+              ],
+              "resources": [
+                "Project Management Tools",
+                "Documentation Tools"
+              ],
+              "tasks": [
+                "Apply core skills 1",
+                "Apply core skills 2"
+              ],
+              "children": []
+            },
+            {
+              "title": "Advanced Capstone",
+              "objective": "Demonstrate comprehensive mastery",
+              "prerequisites": [
+                "it project management (pmp, prince2, agile)",
+                "project planning and scheduling",
+                "risk and issue management"
+              ],
+              "milestones": [
+                "Demonstrate"
+              ],
+              "resources": [
+                "Advanced Tools"
+              ],
+              "tasks": [
+                "Demonstrate mastery 1"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Specialization",
+          "objective": "Develop expertise in specific areas",
+          "prerequisites": [],
+          "milestones": [
+            "Choose"
+          ],
+          "resources": [
+            "Industry Certifications"
+          ],
+          "tasks": [
+            "Choose specialization 1"
+          ],
+          "children": [
+            {
+              "title": "Specialization Track",
+              "objective": "Deep dive into a specific area",
+              "prerequisites": [
+                "it project management (pmp, prince2, agile)",
+                "project planning and scheduling"
+              ],
+              "milestones": [
+                "Study"
+              ],
+              "resources": [
+                "Specialized Training"
+              ],
+              "tasks": [
+                "Study advanced topic 1"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Career Launch",
+          "objective": "Land your first role in the field",
+          "prerequisites": [],
+          "milestones": [
+            "Secure"
+          ],
+          "resources": [
+            "Job Search Platforms"
+          ],
+          "tasks": [
+            "Secure job offer 1"
+          ],
+          "children": [
+            {
+              "title": "Professional Branding",
+              "objective": "Create compelling professional presence",
+              "prerequisites": [],
+              "milestones": [
+                "Professional"
+              ],
+              "resources": [
+                "LinkedIn",
+                "Resume Builder"
+              ],
+              "tasks": [
+                "Professional Branding 1"
+              ],
+              "children": []
+            },
+            {
+              "title": "Job Search Strategy",
+              "objective": "Execute systematic job search",
+              "prerequisites": [],
+              "milestones": [
+                "Job"
+              ],
+              "resources": [
+                "Job Boards",
+                "Networking Events"
+              ],
+              "tasks": [
+                "Job Search Strategy 1"
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path_title": "ICT project manager",
+      "focus": "Fast-Entry",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "title": "Foundations",
+          "objective": "Build essential groundwork for your career",
+          "prerequisites": [],
+          "milestones": [
+            "Build"
+          ],
+          "resources": [
+            "Standard Industry Tools"
+          ],
+          "tasks": [
+            "Build skills in stakeholder management, risk management, and change management"
+          ],
+          "children": [
+            {
+              "title": "Industry Fundamentals",
+              "objective": "Understand the core concepts of ICT project manager",
+              "prerequisites": [],
+              "milestones": [
+                "Complete",
+                "Earn"
+              ],
+              "resources": [
+                "Online Courses",
+                "Industry Glossaries",
+                "Career Guides"
+              ],
+              "tasks": [
+                "Complete a master's degree in project management, IT, or business administration",
+                "Earn a PMP (Project Management Professional) or PRINCE2 certification"
+              ],
+              "children": []
+            },
+            {
+              "title": "Tools & Environment",
+              "objective": "Set up your professional workspace",
+              "prerequisites": [],
+              "milestones": [
+                "Develop"
+              ],
+              "resources": [
+                "Official Documentation",
+                "Community Forums"
+              ],
+              "tasks": [
+                "Develop expertise in Agile, Scrum, and traditional waterfall project delivery methods"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Core Skills Development",
+          "objective": "Master essential skills for ICT project manager",
+          "prerequisites": [],
+          "milestones": [
+            "Master"
+          ],
+          "resources": [
+            "Online Learning Platforms"
+          ],
+          "tasks": [
+            "Master core skills 1"
+          ],
+          "children": [
+            {
+              "title": "It Project Management (Pmp, Prince2, Agile) Proficiency",
+              "objective": "Develop proficiency in it project management (pmp, prince2, agile)",
+              "prerequisites": [],
+              "milestones": [
+                "Lead"
+              ],
+              "resources": [
+                "It Project Management (Pmp, Prince2, Agile) Resources"
+              ],
+              "tasks": [
+                "Lead an end-to-end ICT project \u2014 from requirements gathering to go-live"
+              ],
+              "children": []
+            },
+            {
+              "title": "Project Planning And Scheduling Proficiency",
+              "objective": "Develop proficiency in project planning and scheduling",
+              "prerequisites": [],
+              "milestones": [
+                "Learn"
+              ],
+              "resources": [
+                "Project Planning And Scheduling Resources"
+              ],
+              "tasks": [
+                "Learn project management tools such as Jira, MS Project, or Asana"
+              ],
+              "children": []
+            },
+            {
+              "title": "Risk And Issue Management Proficiency",
+              "objective": "Develop proficiency in risk and issue management",
+              "prerequisites": [],
+              "milestones": [
+                "Apply"
+              ],
+              "resources": [
+                "Risk And Issue Management Resources"
+              ],
+              "tasks": [
+                "Apply for IT project manager roles in tech companies or enterprise organizations"
+              ],
+              "children": []
+            },
+            {
+              "title": "Budget Tracking Proficiency",
+              "objective": "Develop proficiency in budget tracking",
+              "prerequisites": [],
+              "milestones": [
+                "Practice"
+              ],
+              "resources": [
+                "Budget Tracking Resources"
+              ],
+              "tasks": [
+                "Practice budget tracking 1"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Practical Application",
+          "objective": "Gain hands-on experience through projects or simulations",
+          "prerequisites": [],
+          "milestones": [
+            "Build"
+          ],
+          "resources": [
+            "Portfolio Platform"
+          ],
+          "tasks": [
+            "Build portfolio 1"
+          ],
+          "children": [
+            {
+              "title": "Applied Practice Project",
+              "objective": "Apply core skills in a realistic scenario",
+              "prerequisites": [
+                "it project management (pmp, prince2, agile)",
+                "project planning and scheduling"
+              ],
+              "milestones": [
+                "Apply",
+                "Apply"
+              ],
+              "resources": [
+                "Project Management Tools",
+                "Documentation Tools"
+              ],
+              "tasks": [
+                "Apply core skills 1",
+                "Apply core skills 2"
+              ],
+              "children": []
+            },
+            {
+              "title": "Advanced Capstone",
+              "objective": "Demonstrate comprehensive mastery",
+              "prerequisites": [
+                "it project management (pmp, prince2, agile)",
+                "project planning and scheduling",
+                "risk and issue management"
+              ],
+              "milestones": [
+                "Demonstrate"
+              ],
+              "resources": [
+                "Advanced Tools"
+              ],
+              "tasks": [
+                "Demonstrate mastery 1"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Specialization",
+          "objective": "Develop expertise in specific areas",
+          "prerequisites": [],
+          "milestones": [
+            "Choose"
+          ],
+          "resources": [
+            "Industry Certifications"
+          ],
+          "tasks": [
+            "Choose specialization 1"
+          ],
+          "children": [
+            {
+              "title": "Specialization Track",
+              "objective": "Deep dive into a specific area",
+              "prerequisites": [
+                "it project management (pmp, prince2, agile)",
+                "project planning and scheduling"
+              ],
+              "milestones": [
+                "Study"
+              ],
+              "resources": [
+                "Specialized Training"
+              ],
+              "tasks": [
+                "Study advanced topic 1"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Career Launch",
+          "objective": "Land your first role in the field",
+          "prerequisites": [],
+          "milestones": [
+            "Secure"
+          ],
+          "resources": [
+            "Job Search Platforms"
+          ],
+          "tasks": [
+            "Secure job offer 1"
+          ],
+          "children": [
+            {
+              "title": "Professional Branding",
+              "objective": "Create compelling professional presence",
+              "prerequisites": [],
+              "milestones": [
+                "Professional"
+              ],
+              "resources": [
+                "LinkedIn",
+                "Resume Builder"
+              ],
+              "tasks": [
+                "Professional Branding 1"
+              ],
+              "children": []
+            },
+            {
+              "title": "Job Search Strategy",
+              "objective": "Execute systematic job search",
+              "prerequisites": [],
+              "milestones": [
+                "Job"
+              ],
+              "resources": [
+                "Job Boards",
+                "Networking Events"
+              ],
+              "tasks": [
+                "Job Search Strategy 1"
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path_title": "ICT project manager",
+      "focus": "Transition",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "title": "Foundations",
+          "objective": "Build essential groundwork for your career",
+          "prerequisites": [],
+          "milestones": [
+            "Build"
+          ],
+          "resources": [
+            "Standard Industry Tools"
+          ],
+          "tasks": [
+            "Build skills in stakeholder management, risk management, and change management"
+          ],
+          "children": [
+            {
+              "title": "Industry Fundamentals",
+              "objective": "Understand the core concepts of ICT project manager",
+              "prerequisites": [],
+              "milestones": [
+                "Complete",
+                "Earn"
+              ],
+              "resources": [
+                "Online Courses",
+                "Industry Glossaries",
+                "Career Guides"
+              ],
+              "tasks": [
+                "Complete a master's degree in project management, IT, or business administration",
+                "Earn a PMP (Project Management Professional) or PRINCE2 certification"
+              ],
+              "children": []
+            },
+            {
+              "title": "Tools & Environment",
+              "objective": "Set up your professional workspace",
+              "prerequisites": [],
+              "milestones": [
+                "Develop"
+              ],
+              "resources": [
+                "Official Documentation",
+                "Community Forums"
+              ],
+              "tasks": [
+                "Develop expertise in Agile, Scrum, and traditional waterfall project delivery methods"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Core Skills Development",
+          "objective": "Master essential skills for ICT project manager",
+          "prerequisites": [],
+          "milestones": [
+            "Master"
+          ],
+          "resources": [
+            "Online Learning Platforms"
+          ],
+          "tasks": [
+            "Master core skills 1"
+          ],
+          "children": [
+            {
+              "title": "It Project Management (Pmp, Prince2, Agile) Proficiency",
+              "objective": "Develop proficiency in it project management (pmp, prince2, agile)",
+              "prerequisites": [],
+              "milestones": [
+                "Lead"
+              ],
+              "resources": [
+                "It Project Management (Pmp, Prince2, Agile) Resources"
+              ],
+              "tasks": [
+                "Lead an end-to-end ICT project \u2014 from requirements gathering to go-live"
+              ],
+              "children": []
+            },
+            {
+              "title": "Project Planning And Scheduling Proficiency",
+              "objective": "Develop proficiency in project planning and scheduling",
+              "prerequisites": [],
+              "milestones": [
+                "Learn"
+              ],
+              "resources": [
+                "Project Planning And Scheduling Resources"
+              ],
+              "tasks": [
+                "Learn project management tools such as Jira, MS Project, or Asana"
+              ],
+              "children": []
+            },
+            {
+              "title": "Risk And Issue Management Proficiency",
+              "objective": "Develop proficiency in risk and issue management",
+              "prerequisites": [],
+              "milestones": [
+                "Apply"
+              ],
+              "resources": [
+                "Risk And Issue Management Resources"
+              ],
+              "tasks": [
+                "Apply for IT project manager roles in tech companies or enterprise organizations"
+              ],
+              "children": []
+            },
+            {
+              "title": "Budget Tracking Proficiency",
+              "objective": "Develop proficiency in budget tracking",
+              "prerequisites": [],
+              "milestones": [
+                "Practice"
+              ],
+              "resources": [
+                "Budget Tracking Resources"
+              ],
+              "tasks": [
+                "Practice budget tracking 1"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Practical Application",
+          "objective": "Gain hands-on experience through projects or simulations",
+          "prerequisites": [],
+          "milestones": [
+            "Build"
+          ],
+          "resources": [
+            "Portfolio Platform"
+          ],
+          "tasks": [
+            "Build portfolio 1"
+          ],
+          "children": [
+            {
+              "title": "Applied Practice Project",
+              "objective": "Apply core skills in a realistic scenario",
+              "prerequisites": [
+                "it project management (pmp, prince2, agile)",
+                "project planning and scheduling"
+              ],
+              "milestones": [
+                "Apply",
+                "Apply"
+              ],
+              "resources": [
+                "Project Management Tools",
+                "Documentation Tools"
+              ],
+              "tasks": [
+                "Apply core skills 1",
+                "Apply core skills 2"
+              ],
+              "children": []
+            },
+            {
+              "title": "Advanced Capstone",
+              "objective": "Demonstrate comprehensive mastery",
+              "prerequisites": [
+                "it project management (pmp, prince2, agile)",
+                "project planning and scheduling",
+                "risk and issue management"
+              ],
+              "milestones": [
+                "Demonstrate"
+              ],
+              "resources": [
+                "Advanced Tools"
+              ],
+              "tasks": [
+                "Demonstrate mastery 1"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Specialization",
+          "objective": "Develop expertise in specific areas",
+          "prerequisites": [],
+          "milestones": [
+            "Choose"
+          ],
+          "resources": [
+            "Industry Certifications"
+          ],
+          "tasks": [
+            "Choose specialization 1"
+          ],
+          "children": [
+            {
+              "title": "Specialization Track",
+              "objective": "Deep dive into a specific area",
+              "prerequisites": [
+                "it project management (pmp, prince2, agile)",
+                "project planning and scheduling"
+              ],
+              "milestones": [
+                "Study"
+              ],
+              "resources": [
+                "Specialized Training"
+              ],
+              "tasks": [
+                "Study advanced topic 1"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Career Launch",
+          "objective": "Land your first role in the field",
+          "prerequisites": [],
+          "milestones": [
+            "Secure"
+          ],
+          "resources": [
+            "Job Search Platforms"
+          ],
+          "tasks": [
+            "Secure job offer 1"
+          ],
+          "children": [
+            {
+              "title": "Professional Branding",
+              "objective": "Create compelling professional presence",
+              "prerequisites": [],
+              "milestones": [
+                "Professional"
+              ],
+              "resources": [
+                "LinkedIn",
+                "Resume Builder"
+              ],
+              "tasks": [
+                "Professional Branding 1"
+              ],
+              "children": []
+            },
+            {
+              "title": "Job Search Strategy",
+              "objective": "Execute systematic job search",
+              "prerequisites": [],
+              "milestones": [
+                "Job"
+              ],
+              "resources": [
+                "Job Boards",
+                "Networking Events"
+              ],
+              "tasks": [
+                "Job Search Strategy 1"
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/static/roadmaps/roadmap_1.png",
+    "/static/roadmaps/roadmap_2.png",
+    "/static/roadmaps/roadmap_3.png"
+  ]
+}

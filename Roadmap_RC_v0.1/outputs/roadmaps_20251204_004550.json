@@ -1,0 +1,1110 @@
+{
+  "input": {
+    "answers": [
+      {
+        "type": "A"
+      },
+      {
+        "type": "A"
+      },
+      {
+        "type": "A"
+      }
+    ],
+    "summary": "I love numbers and python.",
+    "education": "Bachelor's",
+    "skills": []
+  },
+  "derived_skills": [
+    "python",
+    "data analytics",
+    "sql",
+    "statistics",
+    "mathematics",
+    "logic",
+    "solve problems",
+    "machine learning"
+  ],
+  "chosen_career": "predictive maintenance expert",
+  "roadmaps": [
+    {
+      "path_title": "predictive maintenance expert",
+      "focus": "Depth",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "title": "Foundations",
+          "objective": "Build essential groundwork for your career",
+          "duration_months": 1,
+          "prerequisites": [],
+          "milestones": [
+            "Complete foundation modules",
+            "Set up workspace"
+          ],
+          "resources": [
+            "Standard Industry Tools"
+          ],
+          "tasks": [
+            "Set up your learning workspace",
+            "Create a study schedule",
+            "Join relevant online communities"
+          ],
+          "children": [
+            {
+              "title": "Industry Fundamentals",
+              "objective": "Understand the core concepts of predictive maintenance expert",
+              "duration_months": 1,
+              "prerequisites": [],
+              "milestones": [
+                "Complete introductory course",
+                "Learn industry terminology",
+                "Understand role responsibilities"
+              ],
+              "resources": [
+                "Online Courses",
+                "Industry Glossaries",
+                "Career Guides"
+              ],
+              "tasks": [
+                "Publish or present your project work on a portfolio or site",
+                "Mentor junior peers and document advanced workflows",
+                "Target specialist or leadership roles and craft a research/experience summary",
+                "Set short-term learning goals and review progress every month",
+                "Build a public portfolio showcasing projects related to predictive maintenance expert"
+              ],
+              "children": []
+            },
+            {
+              "title": "Tools & Environment",
+              "objective": "Set up your professional workspace",
+              "duration_months": 1,
+              "prerequisites": [],
+              "milestones": [
+                "Install necessary software",
+                "Configure development/work environment",
+                "Join professional communities"
+              ],
+              "resources": [
+                "Official Documentation",
+                "Community Forums"
+              ],
+              "tasks": [
+                "Research standard tools for predictive maintenance expert",
+                "Install primary software tools",
+                "Create account on professional networks"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Core Skills Development",
+          "objective": "Master essential skills for predictive maintenance expert",
+          "duration_months": 5,
+          "prerequisites": [
+            "mathematics",
+            "statistics"
+          ],
+          "milestones": [
+            "Complete all core skill modules",
+            "Pass skill assessments"
+          ],
+          "resources": [
+            "Online Learning Platforms"
+          ],
+          "tasks": [
+            "Create a skills tracking spreadsheet",
+            "Set up practice projects",
+            "Find a mentor"
+          ],
+          "children": [
+            {
+              "title": "Advise On Equipment Maintenance Proficiency",
+              "objective": "Develop proficiency in advise on equipment maintenance",
+              "duration_months": 2,
+              "prerequisites": [
+                "mathematics",
+                "statistics"
+              ],
+              "milestones": [
+                "Complete advise on equipment maintenance course",
+                "Demonstrate advise on equipment maintenance usage",
+                "Pass advise on equipment maintenance quiz"
+              ],
+              "resources": [
+                "Advise On Equipment Maintenance Resources"
+              ],
+              "tasks": [
+                "Practice advise on equipment maintenance fundamentals",
+                "Apply advise on equipment maintenance in small scenarios"
+              ],
+              "children": []
+            },
+            {
+              "title": "Analyse Big Data Proficiency",
+              "objective": "Develop proficiency in analyse big data",
+              "duration_months": 2,
+              "prerequisites": [],
+              "milestones": [
+                "Complete analyse big data course",
+                "Demonstrate analyse big data usage",
+                "Pass analyse big data quiz"
+              ],
+              "resources": [
+                "Analyse Big Data Resources"
+              ],
+              "tasks": [
+                "Practice analyse big data fundamentals",
+                "Apply analyse big data in small scenarios"
+              ],
+              "children": []
+            },
+            {
+              "title": "Apply Information Security Policies Proficiency",
+              "objective": "Develop proficiency in apply information security policies",
+              "duration_months": 2,
+              "prerequisites": [],
+              "milestones": [
+                "Complete apply information security policies course",
+                "Demonstrate apply information security policies usage",
+                "Pass apply information security policies quiz"
+              ],
+              "resources": [
+                "Apply Information Security Policies Resources"
+              ],
+              "tasks": [
+                "Practice apply information security policies fundamentals",
+                "Apply apply information security policies in small scenarios"
+              ],
+              "children": []
+            },
+            {
+              "title": "Apply Statistical Analysis Techniques Proficiency",
+              "objective": "Develop proficiency in apply statistical analysis techniques",
+              "duration_months": 2,
+              "prerequisites": [],
+              "milestones": [
+                "Complete apply statistical analysis techniques course",
+                "Demonstrate apply statistical analysis techniques usage",
+                "Pass apply statistical analysis techniques quiz"
+              ],
+              "resources": [
+                "Apply Statistical Analysis Techniques Resources"
+              ],
+              "tasks": [
+                "Practice apply statistical analysis techniques fundamentals",
+                "Apply apply statistical analysis techniques in small scenarios"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Practical Application",
+          "objective": "Gain hands-on experience through projects or simulations",
+          "duration_months": 2,
+          "prerequisites": [
+            "mathematics",
+            "statistics"
+          ],
+          "milestones": [
+            "Complete 2 major projects",
+            "Build portfolio"
+          ],
+          "resources": [
+            "Portfolio Platform"
+          ],
+          "tasks": [
+            "Research industry standard projects",
+            "Document process and outcomes"
+          ],
+          "children": [
+            {
+              "title": "Applied Practice Project",
+              "objective": "Apply core skills in a realistic scenario",
+              "duration_months": 2,
+              "prerequisites": [
+                "mathematics",
+                "statistics",
+                "advise on equipment maintenance",
+                "analyse big data"
+              ],
+              "milestones": [
+                "Design project scope",
+                "Implement core features",
+                "Document results"
+              ],
+              "resources": [
+                "Project Management Tools",
+                "Documentation Tools"
+              ],
+              "tasks": [
+                "Select a real-world problem to solve",
+                "Plan the solution",
+                "Connect with professionals in the field and request informational interviews",
+                "Build a public portfolio showcasing projects related to predictive maintenance expert",
+                "Lead a capstone or team project solving a realistic problem in predictive maintenance expert",
+                "Target specialist or leadership roles and craft a research/experience summary"
+              ],
+              "children": []
+            },
+            {
+              "title": "Advanced Capstone",
+              "objective": "Demonstrate comprehensive mastery",
+              "duration_months": 2,
+              "prerequisites": [
+                "mathematics",
+                "statistics",
+                "advise on equipment maintenance",
+                "analyse big data",
+                "apply information security policies"
+              ],
+              "milestones": [
+                "Complete complex project",
+                "Peer review",
+                "Final presentation"
+              ],
+              "resources": [
+                "Advanced Tools"
+              ],
+              "tasks": [
+                "Define advanced project requirements",
+                "Set short-term learning goals and review progress every month",
+                "Build a public portfolio showcasing projects related to predictive maintenance expert",
+                "Lead a capstone or team project solving a realistic problem in predictive maintenance expert",
+                "Mentor junior peers and document advanced workflows",
+                "Publish or present your project work on a portfolio or site"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Specialization",
+          "objective": "Develop expertise in specific areas",
+          "duration_months": 2,
+          "prerequisites": [],
+          "milestones": [
+            "Choose specialization",
+            "Achieve advanced competency"
+          ],
+          "resources": [
+            "Industry Certifications"
+          ],
+          "tasks": [
+            "Research trending specializations in predictive maintenance expert",
+            "Select a niche"
+          ],
+          "children": [
+            {
+              "title": "Specialization Track",
+              "objective": "Deep dive into a specific area",
+              "duration_months": 2,
+              "prerequisites": [
+                "mathematics",
+                "statistics",
+                "advise on equipment maintenance",
+                "analyse big data"
+              ],
+              "milestones": [
+                "Complete specialization course",
+                "Advanced certification",
+                "Master advanced concepts"
+              ],
+              "resources": [
+                "Specialized Training"
+              ],
+              "tasks": [
+                "Mentor junior peers and document advanced workflows",
+                "Target specialist or leadership roles and craft a research/experience summary",
+                "Connect with professionals in the field and request informational interviews",
+                "Set short-term learning goals and review progress every month"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Career Launch",
+          "objective": "Land your first role in the field",
+          "duration_months": 2,
+          "prerequisites": [],
+          "milestones": [
+            "Complete branding",
+            "Secure job offer"
+          ],
+          "resources": [
+            "Job Search Platforms"
+          ],
+          "tasks": [
+            "Develop job search strategy",
+            "Practice interview questions"
+          ],
+          "children": [
+            {
+              "title": "Professional Branding",
+              "objective": "Create compelling professional presence",
+              "duration_months": 1,
+              "prerequisites": [],
+              "milestones": [
+                "Update resume",
+                "Optimize professional profile",
+                "Build portfolio"
+              ],
+              "resources": [
+                "LinkedIn",
+                "Resume Builder"
+              ],
+              "tasks": [
+                "Tailor resume for predictive maintenance expert",
+                "Highlight key skills: advise on equipment maintenance, analyse big data, apply information security policies"
+              ],
+              "children": []
+            },
+            {
+              "title": "Job Search Strategy",
+              "objective": "Execute systematic job search",
+              "duration_months": 1,
+              "prerequisites": [],
+              "milestones": [
+                "Apply to positions",
+                "Network",
+                "Interview prep"
+              ],
+              "resources": [
+                "Job Boards",
+                "Networking Events"
+              ],
+              "tasks": [
+                "Identify top companies for predictive maintenance expert",
+                "Prepare for interviews"
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path_title": "predictive maintenance expert",
+      "focus": "Fast-Entry",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "title": "Foundations",
+          "objective": "Build essential groundwork for your career",
+          "duration_months": 1,
+          "prerequisites": [],
+          "milestones": [
+            "Complete foundation modules",
+            "Set up workspace"
+          ],
+          "resources": [
+            "Standard Industry Tools"
+          ],
+          "tasks": [
+            "Set up your learning workspace",
+            "Create a study schedule",
+            "Join relevant online communities"
+          ],
+          "children": [
+            {
+              "title": "Industry Fundamentals",
+              "objective": "Understand the core concepts of predictive maintenance expert",
+              "duration_months": 1,
+              "prerequisites": [],
+              "milestones": [
+                "Complete introductory course",
+                "Learn industry terminology",
+                "Understand role responsibilities"
+              ],
+              "resources": [
+                "Online Courses",
+                "Industry Glossaries",
+                "Career Guides"
+              ],
+              "tasks": [
+                "Set short-term learning goals and review progress every month",
+                "Target specialist or leadership roles and craft a research/experience summary",
+                "Connect with professionals in the field and request informational interviews",
+                "Build a public portfolio showcasing projects related to predictive maintenance expert",
+                "Mentor junior peers and document advanced workflows"
+              ],
+              "children": []
+            },
+            {
+              "title": "Tools & Environment",
+              "objective": "Set up your professional workspace",
+              "duration_months": 1,
+              "prerequisites": [],
+              "milestones": [
+                "Install necessary software",
+                "Configure development/work environment",
+                "Join professional communities"
+              ],
+              "resources": [
+                "Official Documentation",
+                "Community Forums"
+              ],
+              "tasks": [
+                "Research standard tools for predictive maintenance expert",
+                "Install primary software tools",
+                "Create account on professional networks"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Core Skills Development",
+          "objective": "Master essential skills for predictive maintenance expert",
+          "duration_months": 4,
+          "prerequisites": [
+            "mathematics",
+            "statistics"
+          ],
+          "milestones": [
+            "Complete all core skill modules",
+            "Pass skill assessments"
+          ],
+          "resources": [
+            "Online Learning Platforms"
+          ],
+          "tasks": [
+            "Create a skills tracking spreadsheet",
+            "Set up practice projects",
+            "Find a mentor"
+          ],
+          "children": [
+            {
+              "title": "Advise On Equipment Maintenance Proficiency",
+              "objective": "Develop proficiency in advise on equipment maintenance",
+              "duration_months": 2,
+              "prerequisites": [
+                "mathematics",
+                "statistics"
+              ],
+              "milestones": [
+                "Complete advise on equipment maintenance course",
+                "Demonstrate advise on equipment maintenance usage",
+                "Pass advise on equipment maintenance quiz"
+              ],
+              "resources": [
+                "Advise On Equipment Maintenance Resources"
+              ],
+              "tasks": [
+                "Practice advise on equipment maintenance fundamentals",
+                "Apply advise on equipment maintenance in small scenarios"
+              ],
+              "children": []
+            },
+            {
+              "title": "Analyse Big Data Proficiency",
+              "objective": "Develop proficiency in analyse big data",
+              "duration_months": 2,
+              "prerequisites": [],
+              "milestones": [
+                "Complete analyse big data course",
+                "Demonstrate analyse big data usage",
+                "Pass analyse big data quiz"
+              ],
+              "resources": [
+                "Analyse Big Data Resources"
+              ],
+              "tasks": [
+                "Practice analyse big data fundamentals",
+                "Apply analyse big data in small scenarios"
+              ],
+              "children": []
+            },
+            {
+              "title": "Apply Information Security Policies Proficiency",
+              "objective": "Develop proficiency in apply information security policies",
+              "duration_months": 2,
+              "prerequisites": [],
+              "milestones": [
+                "Complete apply information security policies course",
+                "Demonstrate apply information security policies usage",
+                "Pass apply information security policies quiz"
+              ],
+              "resources": [
+                "Apply Information Security Policies Resources"
+              ],
+              "tasks": [
+                "Practice apply information security policies fundamentals",
+                "Apply apply information security policies in small scenarios"
+              ],
+              "children": []
+            },
+            {
+              "title": "Apply Statistical Analysis Techniques Proficiency",
+              "objective": "Develop proficiency in apply statistical analysis techniques",
+              "duration_months": 2,
+              "prerequisites": [],
+              "milestones": [
+                "Complete apply statistical analysis techniques course",
+                "Demonstrate apply statistical analysis techniques usage",
+                "Pass apply statistical analysis techniques quiz"
+              ],
+              "resources": [
+                "Apply Statistical Analysis Techniques Resources"
+              ],
+              "tasks": [
+                "Practice apply statistical analysis techniques fundamentals",
+                "Apply apply statistical analysis techniques in small scenarios"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Practical Application",
+          "objective": "Gain hands-on experience through projects or simulations",
+          "duration_months": 3,
+          "prerequisites": [
+            "mathematics",
+            "statistics"
+          ],
+          "milestones": [
+            "Complete 2 major projects",
+            "Build portfolio"
+          ],
+          "resources": [
+            "Portfolio Platform"
+          ],
+          "tasks": [
+            "Research industry standard projects",
+            "Document process and outcomes"
+          ],
+          "children": [
+            {
+              "title": "Applied Practice Project",
+              "objective": "Apply core skills in a realistic scenario",
+              "duration_months": 2,
+              "prerequisites": [
+                "mathematics",
+                "statistics",
+                "advise on equipment maintenance",
+                "analyse big data"
+              ],
+              "milestones": [
+                "Design project scope",
+                "Implement core features",
+                "Document results"
+              ],
+              "resources": [
+                "Project Management Tools",
+                "Documentation Tools"
+              ],
+              "tasks": [
+                "Select a real-world problem to solve",
+                "Plan the solution",
+                "Lead a capstone or team project solving a realistic problem in predictive maintenance expert",
+                "Build a public portfolio showcasing projects related to predictive maintenance expert",
+                "Set short-term learning goals and review progress every month",
+                "Connect with professionals in the field and request informational interviews"
+              ],
+              "children": []
+            },
+            {
+              "title": "Advanced Capstone",
+              "objective": "Demonstrate comprehensive mastery",
+              "duration_months": 2,
+              "prerequisites": [
+                "mathematics",
+                "statistics",
+                "advise on equipment maintenance",
+                "analyse big data",
+                "apply information security policies"
+              ],
+              "milestones": [
+                "Complete complex project",
+                "Peer review",
+                "Final presentation"
+              ],
+              "resources": [
+                "Advanced Tools"
+              ],
+              "tasks": [
+                "Define advanced project requirements",
+                "Build a public portfolio showcasing projects related to predictive maintenance expert",
+                "Mentor junior peers and document advanced workflows",
+                "Lead a capstone or team project solving a realistic problem in predictive maintenance expert",
+                "Publish or present your project work on a portfolio or site",
+                "Connect with professionals in the field and request informational interviews"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Specialization",
+          "objective": "Develop expertise in specific areas",
+          "duration_months": 2,
+          "prerequisites": [],
+          "milestones": [
+            "Choose specialization",
+            "Achieve advanced competency"
+          ],
+          "resources": [
+            "Industry Certifications"
+          ],
+          "tasks": [
+            "Research trending specializations in predictive maintenance expert",
+            "Select a niche"
+          ],
+          "children": [
+            {
+              "title": "Specialization Track",
+              "objective": "Deep dive into a specific area",
+              "duration_months": 2,
+              "prerequisites": [
+                "mathematics",
+                "statistics",
+                "advise on equipment maintenance",
+                "analyse big data"
+              ],
+              "milestones": [
+                "Complete specialization course",
+                "Advanced certification",
+                "Master advanced concepts"
+              ],
+              "resources": [
+                "Specialized Training"
+              ],
+              "tasks": [
+                "Publish or present your project work on a portfolio or site",
+                "Mentor junior peers and document advanced workflows",
+                "Set short-term learning goals and review progress every month",
+                "Connect with professionals in the field and request informational interviews"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Career Launch",
+          "objective": "Land your first role in the field",
+          "duration_months": 2,
+          "prerequisites": [],
+          "milestones": [
+            "Complete branding",
+            "Secure job offer"
+          ],
+          "resources": [
+            "Job Search Platforms"
+          ],
+          "tasks": [
+            "Develop job search strategy",
+            "Practice interview questions"
+          ],
+          "children": [
+            {
+              "title": "Professional Branding",
+              "objective": "Create compelling professional presence",
+              "duration_months": 1,
+              "prerequisites": [],
+              "milestones": [
+                "Update resume",
+                "Optimize professional profile",
+                "Build portfolio"
+              ],
+              "resources": [
+                "LinkedIn",
+                "Resume Builder"
+              ],
+              "tasks": [
+                "Tailor resume for predictive maintenance expert",
+                "Highlight key skills: advise on equipment maintenance, analyse big data, apply information security policies"
+              ],
+              "children": []
+            },
+            {
+              "title": "Job Search Strategy",
+              "objective": "Execute systematic job search",
+              "duration_months": 1,
+              "prerequisites": [],
+              "milestones": [
+                "Apply to positions",
+                "Network",
+                "Interview prep"
+              ],
+              "resources": [
+                "Job Boards",
+                "Networking Events"
+              ],
+              "tasks": [
+                "Identify top companies for predictive maintenance expert",
+                "Prepare for interviews"
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path_title": "predictive maintenance expert",
+      "focus": "Transition",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "title": "Foundations",
+          "objective": "Build essential groundwork for your career",
+          "duration_months": 1,
+          "prerequisites": [],
+          "milestones": [
+            "Complete foundation modules",
+            "Set up workspace"
+          ],
+          "resources": [
+            "Standard Industry Tools"
+          ],
+          "tasks": [
+            "Set up your learning workspace",
+            "Create a study schedule",
+            "Join relevant online communities"
+          ],
+          "children": [
+            {
+              "title": "Industry Fundamentals",
+              "objective": "Understand the core concepts of predictive maintenance expert",
+              "duration_months": 1,
+              "prerequisites": [],
+              "milestones": [
+                "Complete introductory course",
+                "Learn industry terminology",
+                "Understand role responsibilities"
+              ],
+              "resources": [
+                "Online Courses",
+                "Industry Glossaries",
+                "Career Guides"
+              ],
+              "tasks": [
+                "Target specialist or leadership roles and craft a research/experience summary",
+                "Mentor junior peers and document advanced workflows",
+                "Publish or present your project work on a portfolio or site",
+                "Build a public portfolio showcasing projects related to predictive maintenance expert",
+                "Connect with professionals in the field and request informational interviews"
+              ],
+              "children": []
+            },
+            {
+              "title": "Tools & Environment",
+              "objective": "Set up your professional workspace",
+              "duration_months": 1,
+              "prerequisites": [],
+              "milestones": [
+                "Install necessary software",
+                "Configure development/work environment",
+                "Join professional communities"
+              ],
+              "resources": [
+                "Official Documentation",
+                "Community Forums"
+              ],
+              "tasks": [
+                "Research standard tools for predictive maintenance expert",
+                "Install primary software tools",
+                "Create account on professional networks"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Core Skills Development",
+          "objective": "Master essential skills for predictive maintenance expert",
+          "duration_months": 4,
+          "prerequisites": [
+            "mathematics",
+            "statistics"
+          ],
+          "milestones": [
+            "Complete all core skill modules",
+            "Pass skill assessments"
+          ],
+          "resources": [
+            "Online Learning Platforms"
+          ],
+          "tasks": [
+            "Create a skills tracking spreadsheet",
+            "Set up practice projects",
+            "Find a mentor"
+          ],
+          "children": [
+            {
+              "title": "Advise On Equipment Maintenance Proficiency",
+              "objective": "Develop proficiency in advise on equipment maintenance",
+              "duration_months": 2,
+              "prerequisites": [
+                "mathematics",
+                "statistics"
+              ],
+              "milestones": [
+                "Complete advise on equipment maintenance course",
+                "Demonstrate advise on equipment maintenance usage",
+                "Pass advise on equipment maintenance quiz"
+              ],
+              "resources": [
+                "Advise On Equipment Maintenance Resources"
+              ],
+              "tasks": [
+                "Practice advise on equipment maintenance fundamentals",
+                "Apply advise on equipment maintenance in small scenarios"
+              ],
+              "children": []
+            },
+            {
+              "title": "Analyse Big Data Proficiency",
+              "objective": "Develop proficiency in analyse big data",
+              "duration_months": 2,
+              "prerequisites": [],
+              "milestones": [
+                "Complete analyse big data course",
+                "Demonstrate analyse big data usage",
+                "Pass analyse big data quiz"
+              ],
+              "resources": [
+                "Analyse Big Data Resources"
+              ],
+              "tasks": [
+                "Practice analyse big data fundamentals",
+                "Apply analyse big data in small scenarios"
+              ],
+              "children": []
+            },
+            {
+              "title": "Apply Information Security Policies Proficiency",
+              "objective": "Develop proficiency in apply information security policies",
+              "duration_months": 2,
+              "prerequisites": [],
+              "milestones": [
+                "Complete apply information security policies course",
+                "Demonstrate apply information security policies usage",
+                "Pass apply information security policies quiz"
+              ],
+              "resources": [
+                "Apply Information Security Policies Resources"
+              ],
+              "tasks": [
+                "Practice apply information security policies fundamentals",
+                "Apply apply information security policies in small scenarios"
+              ],
+              "children": []
+            },
+            {
+              "title": "Apply Statistical Analysis Techniques Proficiency",
+              "objective": "Develop proficiency in apply statistical analysis techniques",
+              "duration_months": 2,
+              "prerequisites": [],
+              "milestones": [
+                "Complete apply statistical analysis techniques course",
+                "Demonstrate apply statistical analysis techniques usage",
+                "Pass apply statistical analysis techniques quiz"
+              ],
+              "resources": [
+                "Apply Statistical Analysis Techniques Resources"
+              ],
+              "tasks": [
+                "Practice apply statistical analysis techniques fundamentals",
+                "Apply apply statistical analysis techniques in small scenarios"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Practical Application",
+          "objective": "Gain hands-on experience through projects or simulations",
+          "duration_months": 2,
+          "prerequisites": [
+            "mathematics",
+            "statistics"
+          ],
+          "milestones": [
+            "Complete 2 major projects",
+            "Build portfolio"
+          ],
+          "resources": [
+            "Portfolio Platform"
+          ],
+          "tasks": [
+            "Research industry standard projects",
+            "Document process and outcomes"
+          ],
+          "children": [
+            {
+              "title": "Applied Practice Project",
+              "objective": "Apply core skills in a realistic scenario",
+              "duration_months": 2,
+              "prerequisites": [
+                "mathematics",
+                "statistics",
+                "advise on equipment maintenance",
+                "analyse big data"
+              ],
+              "milestones": [
+                "Design project scope",
+                "Implement core features",
+                "Document results"
+              ],
+              "resources": [
+                "Project Management Tools",
+                "Documentation Tools"
+              ],
+              "tasks": [
+                "Select a real-world problem to solve",
+                "Plan the solution",
+                "Publish or present your project work on a portfolio or site",
+                "Build a public portfolio showcasing projects related to predictive maintenance expert",
+                "Set short-term learning goals and review progress every month",
+                "Connect with professionals in the field and request informational interviews"
+              ],
+              "children": []
+            },
+            {
+              "title": "Advanced Capstone",
+              "objective": "Demonstrate comprehensive mastery",
+              "duration_months": 2,
+              "prerequisites": [
+                "mathematics",
+                "statistics",
+                "advise on equipment maintenance",
+                "analyse big data",
+                "apply information security policies"
+              ],
+              "milestones": [
+                "Complete complex project",
+                "Peer review",
+                "Final presentation"
+              ],
+              "resources": [
+                "Advanced Tools"
+              ],
+              "tasks": [
+                "Define advanced project requirements",
+                "Target specialist or leadership roles and craft a research/experience summary",
+                "Mentor junior peers and document advanced workflows",
+                "Set short-term learning goals and review progress every month",
+                "Publish or present your project work on a portfolio or site",
+                "Lead a capstone or team project solving a realistic problem in predictive maintenance expert"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Specialization",
+          "objective": "Develop expertise in specific areas",
+          "duration_months": 2,
+          "prerequisites": [],
+          "milestones": [
+            "Choose specialization",
+            "Achieve advanced competency"
+          ],
+          "resources": [
+            "Industry Certifications"
+          ],
+          "tasks": [
+            "Research trending specializations in predictive maintenance expert",
+            "Select a niche"
+          ],
+          "children": [
+            {
+              "title": "Specialization Track",
+              "objective": "Deep dive into a specific area",
+              "duration_months": 2,
+              "prerequisites": [
+                "mathematics",
+                "statistics",
+                "advise on equipment maintenance",
+                "analyse big data"
+              ],
+              "milestones": [
+                "Complete specialization course",
+                "Advanced certification",
+                "Master advanced concepts"
+              ],
+              "resources": [
+                "Specialized Training"
+              ],
+              "tasks": [
+                "Set short-term learning goals and review progress every month",
+                "Mentor junior peers and document advanced workflows",
+                "Lead a capstone or team project solving a realistic problem in predictive maintenance expert",
+                "Publish or present your project work on a portfolio or site"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "title": "Career Launch",
+          "objective": "Land your first role in the field",
+          "duration_months": 3,
+          "prerequisites": [],
+          "milestones": [
+            "Complete branding",
+            "Secure job offer"
+          ],
+          "resources": [
+            "Job Search Platforms"
+          ],
+          "tasks": [
+            "Develop job search strategy",
+            "Practice interview questions"
+          ],
+          "children": [
+            {
+              "title": "Professional Branding",
+              "objective": "Create compelling professional presence",
+              "duration_months": 1,
+              "prerequisites": [],
+              "milestones": [
+                "Update resume",
+                "Optimize professional profile",
+                "Build portfolio"
+              ],
+              "resources": [
+                "LinkedIn",
+                "Resume Builder"
+              ],
+              "tasks": [
+                "Tailor resume for predictive maintenance expert",
+                "Highlight key skills: advise on equipment maintenance, analyse big data, apply information security policies"
+              ],
+              "children": []
+            },
+            {
+              "title": "Job Search Strategy",
+              "objective": "Execute systematic job search",
+              "duration_months": 1,
+              "prerequisites": [],
+              "milestones": [
+                "Apply to positions",
+                "Network",
+                "Interview prep"
+              ],
+              "resources": [
+                "Job Boards",
+                "Networking Events"
+              ],
+              "tasks": [
+                "Identify top companies for predictive maintenance expert",
+                "Prepare for interviews"
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/static/roadmaps/roadmap_1.png",
+    "/static/roadmaps/roadmap_2.png",
+    "/static/roadmaps/roadmap_3.png"
+  ]
+}

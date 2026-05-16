@@ -1,0 +1,394 @@
+{
+  "input": {
+    "answers": [
+      {
+        "questionId": "Q_EDU",
+        "label": "I have a Master's degree or higher"
+      },
+      {
+        "questionId": "Q_GENDER",
+        "label": "Male"
+      },
+      {
+        "questionId": "Q_IMPACT",
+        "label": "Fixing, repairing, and maintaining things with my hands"
+      },
+      {
+        "questionId": "Q_FIX_TYPE",
+        "label": "Fixing electrical systems in cars"
+      },
+      {
+        "questionId": "Q_STYLE_TRADES",
+        "label": "Analytical \u2014 I like logic, data, and figuring out how things work"
+      }
+    ],
+    "careers": [
+      "sports nutritionist"
+    ],
+    "category": "Healthcare & Medicine",
+    "user_summary": ""
+  },
+  "derived_skills": [],
+  "chosen_career": "sports nutritionist",
+  "roadmaps": [
+    {
+      "path_title": "sports nutritionist",
+      "focus": "Depth",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "milestones": [
+            {
+              "title": "Degree / Formal Education",
+              "description": "Enroll in and complete a bachelor's degree relevant to sports nutritionist (focus on coursework covering sports nutrition science and physiology, and macro and micronutrient periodisation)"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Faculty of Home Economics - Helwan University (Department of Nutrition and Food Science)",
+              "url": "http://fhe.helwan.edu.eg/"
+            },
+            {
+              "title": "Faculty of Agriculture - Cairo University (Department of Food Science and Technology)",
+              "url": "http://agr.cu.edu.eg/"
+            },
+            {
+              "title": "Faculty of Agriculture - Alexandria University (Department of Food Science and Technology)",
+              "url": "http://agr.alexu.edu.eg/"
+            },
+            {
+              "title": "National Nutrition Institute (NNI) - Ministry of Health and Population",
+              "url": "https://www.nni.gov.eg/"
+            },
+            {
+              "title": "Faculty of Agriculture - Ain Shams University (Department of Food Science and Technology)",
+              "url": "http://agr.asu.edu.eg/"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Core Skill Learning",
+              "description": "Learn the fundamentals: build a solid foundation in sports nutrition science and physiology, macro and micronutrient periodisation, and supplement safety and anti-doping regulations (WADA) \u2014 these are the essential building blocks for a sports nutritionist"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Coursera: Sports Nutrition Courses",
+              "url": "https://www.coursera.org/search?query=sports%20nutrition"
+            },
+            {
+              "title": "Udemy: Sports Nutrition Certification & Courses",
+              "url": "https://www.udemy.com/courses/search/?src=ukw&q=sports%20nutrition"
+            },
+            {
+              "title": "World Anti-Doping Agency (WADA) Official Website",
+              "url": "https://www.wada-ama.org/"
+            },
+            {
+              "title": "National Institute of Nutrition (NIN) - Egypt",
+              "url": "http://www.nin.org.eg/"
+            },
+            {
+              "title": "International Society of Sports Nutrition (ISSN) Official Website",
+              "url": "https://www.issn.org/"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Intermediate / Advanced Skills",
+              "description": "Deepen your expertise by developing intermediate-to-advanced skills in body composition assessment, hydration strategy, and recovery nutrition protocols, applying them through exercises and case studies"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Coursera: Sports Nutrition Courses",
+              "url": "https://www.coursera.org/search?query=sports%20nutrition"
+            },
+            {
+              "title": "Udemy: Sports Nutrition & Related Skills Courses",
+              "url": "https://www.udemy.com/courses/search/?src=ukw&q=sports+nutrition"
+            },
+            {
+              "title": "Helwan University (Faculty of Physical Education)",
+              "url": "http://www.helwan.edu.eg/en/"
+            },
+            {
+              "title": "World Anti-Doping Agency (WADA) Official Website",
+              "url": "https://www.wada-ama.org/"
+            },
+            {
+              "title": "YouTube: Sports Nutrition, Hydration, & Recovery Tutorials",
+              "url": "https://www.youtube.com/results?search_query=sports+nutrition+hydration+recovery"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Hands-on Practice",
+              "description": "Gain hands-on experience by completing real-world projects, practical exercises, or volunteer/freelance work related to sports nutritionist \u2014 focus on applying sports nutrition science and physiology, and macro and micronutrient periodisation in realistic scenarios"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Coursera Search: Sports Nutrition Courses",
+              "url": "https://www.coursera.org/search?query=sports%20nutrition"
+            },
+            {
+              "title": "Udemy Search: Sports Nutrition Courses",
+              "url": "https://www.udemy.com/courses/search/?src=ukw&q=sports+nutrition"
+            },
+            {
+              "title": "National Institute of Nutrition (Egypt)",
+              "url": "http://www.nin.org.eg/"
+            },
+            {
+              "title": "American Fitness Network (AFN) Egypt - Sports Nutrition Specialist",
+              "url": "https://www.afn.com.eg/"
+            },
+            {
+              "title": "World Anti-Doping Agency (WADA) Official Website",
+              "url": "https://www.wada-ama.org/"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Portfolio Building",
+              "description": "Build a professional portfolio showcasing your best work, completed projects, certifications, and any measurable achievements related to sports nutritionist"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Coursera Search: Sports Nutrition Courses",
+              "url": "https://www.coursera.org/search?query=sports%20nutrition"
+            },
+            {
+              "title": "Udemy Search: Sports Nutrition Certifications & Courses",
+              "url": "https://www.udemy.com/courses/search/?q=sports%20nutrition"
+            },
+            {
+              "title": "World Anti-Doping Agency (WADA) Official Website",
+              "url": "https://www.wada-ama.org/"
+            },
+            {
+              "title": "Egyptian Academy of Sports Science (EASS)",
+              "url": "https://www.eass-eg.com/"
+            },
+            {
+              "title": "YouTube Search: Sports Nutrition Education & Tutorials",
+              "url": "https://www.youtube.com/results?search_query=sports+nutrition+education"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "CV / Profile Building",
+              "description": "Prepare your professional profile: craft a targeted CV/resume highlighting your sports nutritionist skills, optimize your LinkedIn profile, and gather references or endorsements from mentors, instructors, or past collaborators"
+            }
+          ],
+          "resources": [
+            {
+              "title": "EGYFIT: Sports Nutrition Specialist Courses",
+              "url": "https://egyfit.com/"
+            },
+            {
+              "title": "Rehab Academy: Sports Nutrition Diploma & Courses",
+              "url": "https://rehabacademy.com/"
+            },
+            {
+              "title": "Coursera: Sports Nutrition Courses & Specializations",
+              "url": "https://www.coursera.org/search?query=sports%20nutrition"
+            },
+            {
+              "title": "World Anti-Doping Agency (WADA) Official Website",
+              "url": "https://www.wada-ama.org/"
+            },
+            {
+              "title": "International Society of Sports Nutrition (ISSN)",
+              "url": "https://www.sportsnutritionsociety.org/"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Job Application",
+              "description": "Apply for sports nutritionist positions through job boards, company career pages, professional networks, and industry-specific platforms \u2014 tailor each application and prepare to discuss your hands-on experience and portfolio in interviews"
+            }
+          ],
+          "resources": [
+            {
+              "title": "sports nutritionist jobs on Wuzzuf",
+              "url": "https://wuzzuf.net/search/jobs/?q=sports+nutritionist&a=hpb"
+            },
+            {
+              "title": "sports nutritionist jobs on Forasna",
+              "url": "https://www.forasna.com/jobs/search/sports-nutritionist"
+            },
+            {
+              "title": "sports nutritionist jobs on LinkedIn",
+              "url": "https://www.linkedin.com/jobs/search/?keywords=sports+nutritionist&location=Egypt"
+            },
+            {
+              "title": "sports nutritionist jobs on Bayt.com",
+              "url": "https://www.bayt.com/en/egypt/jobs/sports-nutritionist-jobs/"
+            },
+            {
+              "title": "sports nutritionist jobs on Indeed Egypt",
+              "url": "https://eg.indeed.com/jobs?q=sports+nutritionist"
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "path_title": "sports nutritionist",
+      "focus": "Fast-Entry",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "milestones": [
+            {
+              "title": "Foundation & Core Skills",
+              "description": "Enroll in and complete a bachelor's degree relevant to sports nutritionist (focus on coursework covering sports nutrition science and physiology, and macro and micronutrient periodisation)\n\nThen: Learn the fundamentals: build a solid foundation in sports nutrition science and physiology, macro and micronutrient periodisation, and supplement safety and anti-doping regulations (WADA) \u2014 these are the essential building blocks for a sports nutritionist"
+            }
+          ],
+          "resources": [
+            {
+              "title": "College of Health Sciences - Bachelor of Science in Dietetics and Nutrition, Arab Academy for Science, Technology & Maritime Transport (AASTMT)",
+              "url": "https://www.aast.edu/en/colleges/health_sciences/bsc-in-dietetics-and-nutrition/"
+            },
+            {
+              "title": "Department of Food Sciences and Human Nutrition, Faculty of Home Economics - Helwan University",
+              "url": "https://www.helwan.edu.eg/faculty-of-home-economics/%d8%a7%d9%84%d8%a7%d9%82%d8%b3%d8%a7%d9%85-%d8%a7%d9%84%d8%b9%d9%84%d9%85%d9%8a%d8%a9/%d9%82%d8%b3%d9%85-%d8%a7%d9%84%d8%a7%d8%ba%d8%b0%d9%8a%d8%a9-%d9%88%d8%b9%d9%84%d9%88%d9%85-%d8%a7%d9%84%d8%a7%d8%b7%d8%b9%d9%85%d8%a9/"
+            },
+            {
+              "title": "Food Science and Nutrition Department, Faculty of Home Economics - Alexandria University",
+              "url": "http://he.alexu.edu.eg/index.php/en/departments/food-science-and-nutrition-department"
+            },
+            {
+              "title": "Professional Diplomas (including Sports Nutrition) - National Institute of Nutrition (NIN)",
+              "url": "https://www.nin.gov.eg/index.php/en/education-training/professional-diplomas"
+            },
+            {
+              "title": "Ministry of Youth and Sports - Egypt",
+              "url": "https://www.emys.gov.eg/"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Skill Building & Practice",
+              "description": "Deepen your expertise by developing intermediate-to-advanced skills in body composition assessment, hydration strategy, and recovery nutrition protocols, applying them through exercises and case studies\n\nThen: Gain hands-on experience by completing real-world projects, practical exercises, or volunteer/freelance work related to sports nutritionist \u2014 focus on applying sports nutrition science and physiology, and macro and micronutrient periodisation in realistic scenarios"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Coursera: Sports Nutrition Courses",
+              "url": "https://www.coursera.org/search?query=sports%20nutrition"
+            },
+            {
+              "title": "Udemy: Sports Nutrition & Performance Courses",
+              "url": "https://www.udemy.com/courses/search/?src=ukw&q=sports+nutrition"
+            },
+            {
+              "title": "The American University in Cairo (AUC) - Professional Development",
+              "url": "https://www.aucegypt.edu/"
+            },
+            {
+              "title": "World Anti-Doping Agency (WADA) - Official Website",
+              "url": "https://www.wada-ama.org/"
+            },
+            {
+              "title": "YouTube: Sports Nutrition Tutorials and Lectures",
+              "url": "https://www.youtube.com/results?search_query=sports+nutrition"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Portfolio & Professional Profile",
+              "description": "Build a professional portfolio showcasing your best work, completed projects, certifications, and any measurable achievements related to sports nutritionist\n\nThen: Prepare your professional profile: craft a targeted CV/resume highlighting your sports nutritionist skills, optimize your LinkedIn profile, and gather references or endorsements from mentors, instructors, or past collaborators"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Coursera: Sports Nutrition Courses",
+              "url": "https://www.coursera.org/search?query=sports%20nutrition"
+            },
+            {
+              "title": "Synergy Health & Fitness Academy (Nutrition Specialist Courses)",
+              "url": "https://synergyegypt.com/"
+            },
+            {
+              "title": "World Anti-Doping Agency (WADA) Official Website",
+              "url": "https://www.wada-ama.org/"
+            },
+            {
+              "title": "International Society of Sports Nutrition (ISSN)",
+              "url": "https://www.issn.org/"
+            },
+            {
+              "title": "LinkedIn Learning (Professional Development & Profile Optimization)",
+              "url": "https://www.linkedin.com/learning/"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Job Application",
+              "description": "Apply for sports nutritionist positions through job boards, company career pages, professional networks, and industry-specific platforms \u2014 tailor each application and prepare to discuss your hands-on experience and portfolio in interviews"
+            }
+          ],
+          "resources": [
+            {
+              "title": "sports nutritionist jobs on Wuzzuf",
+              "url": "https://wuzzuf.net/search/jobs/?q=sports+nutritionist&a=hpb"
+            },
+            {
+              "title": "sports nutritionist jobs on Forasna",
+              "url": "https://www.forasna.com/jobs/search/sports-nutritionist"
+            },
+            {
+              "title": "sports nutritionist jobs on LinkedIn",
+              "url": "https://www.linkedin.com/jobs/search/?keywords=sports+nutritionist&location=Egypt"
+            },
+            {
+              "title": "sports nutritionist jobs on Bayt.com",
+              "url": "https://www.bayt.com/en/egypt/jobs/sports-nutritionist-jobs/"
+            },
+            {
+              "title": "sports nutritionist jobs on Indeed Egypt",
+              "url": "https://eg.indeed.com/jobs?q=sports+nutritionist"
+            }
+          ],
+          "children": []
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/static/roadmaps/roadmap_1.png",
+    "/static/roadmaps/roadmap_2.png"
+  ]
+}

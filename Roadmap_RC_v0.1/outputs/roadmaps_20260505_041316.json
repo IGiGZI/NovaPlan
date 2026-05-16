@@ -1,0 +1,248 @@
+{
+  "input": {
+    "answers": [],
+    "careers": [
+      "data analyst"
+    ],
+    "category": "Data & Artificial Intelligence",
+    "user_summary": "",
+    "experience_level": "beginner",
+    "selected_language": "Python",
+    "prefer_paid": false
+  },
+  "derived_skills": [],
+  "chosen_career": "data analyst",
+  "roadmaps": [
+    {
+      "path_title": "data analyst",
+      "focus": "Beginner \u2014 Full Roadmap",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "milestones": [
+            {
+              "title": "Certification",
+              "description": "(Optional) Complete an online certificate, bootcamp, or structured course in data analyst to build a strong learning foundation"
+            }
+          ],
+          "resources": [
+            {
+              "title": "freeCodeCamp Data Analysis with Python Certification",
+              "url": "https://www.freecodecamp.org/learn/data-analysis/"
+            },
+            {
+              "title": "freeCodeCamp Relational Database Certification",
+              "url": "https://www.freecodecamp.org/learn/relational-database/"
+            },
+            {
+              "title": "Data Analysis with Python Course - NumPy, Pandas, Matplotlib, Seaborn (freeCodeCamp.org YouTube)",
+              "url": "https://www.youtube.com/watch?v=r-uOLxNr8FQ"
+            },
+            {
+              "title": "Data Analysis with Excel Course for Beginners (freeCodeCamp.org YouTube)",
+              "url": "https://www.youtube.com/watch?v=U3d4gQ2CqIA"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Core Skill Learning",
+              "description": "Learn the fundamentals: build a solid foundation in sql, data visualisation (tableau, power bi), and excel and spreadsheet analysis \u2014 these are the essential building blocks for a data analyst"
+            }
+          ],
+          "resources": [
+            {
+              "title": "SQL Tutorial - Full Database Course for Beginners",
+              "url": "https://www.youtube.com/watch?v=HXV3Ckiq_lM"
+            },
+            {
+              "title": "Excel Crash Course for Data Analysis - Free Full Tutorial",
+              "url": "https://www.youtube.com/watch?v=9B8W2D_hJ_4"
+            },
+            {
+              "title": "Tableau Tutorial for Beginners (Full Course in 10 Hours)",
+              "url": "https://www.youtube.com/watch?v=ddgQjN-nBqE"
+            },
+            {
+              "title": "Power BI Crash Course for Beginners - Tutorial on building your first report from scratch",
+              "url": "https://www.youtube.com/watch?v=rZz1bM0_dKk"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Intermediate / Advanced Skills",
+              "description": "Deepen your expertise by developing intermediate-to-advanced skills in python or r for analysis, statistical analysis, and data cleaning and preparation, applying them through exercises and case studies"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Data Analysis with Python - Full Course (NumPy, Pandas, Matplotlib, Seaborn)",
+              "url": "https://www.youtube.com/watch?v=r-uOLxNrNw8"
+            },
+            {
+              "title": "Applied Statistics with Python for Data Analysis (Coursera Audit)",
+              "url": "https://www.coursera.org/learn/applied-statistics-python"
+            },
+            {
+              "title": "Seaborn Official Gallery and Examples",
+              "url": "https://seaborn.pydata.org/examples/index.html"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Hands-on Practice",
+              "description": "Gain hands-on experience by completing data analysis projects, research studies, or analytical reports using real-world datasets \u2014 focus on applying sql, and data visualisation (tableau, power bi) in realistic scenarios"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Data Analyst SQL Project for Beginners (Portfolio Project)",
+              "url": "https://www.youtube.com/watch?v=8rO7ztF4NtM"
+            },
+            {
+              "title": "Data Analyst Portfolio Project: COVID-19 Dashboard in Tableau",
+              "url": "https://www.youtube.com/watch?v=qX3a26B6zL4"
+            },
+            {
+              "title": "Google Data Analytics Professional Certificate: Share Data Through the Art of Visualization (Coursera Audit)",
+              "url": "https://www.coursera.org/learn/data-visualization"
+            },
+            {
+              "title": "Complete Data Analyst Project - Excel & Power BI (End-to-End)",
+              "url": "https://www.youtube.com/watch?v=F_f2-s6975o"
+            },
+            {
+              "title": "FreeCodeCamp: Data Analysis with Python Projects - Demographic Data Analyzer",
+              "url": "https://www.freecodecamp.org/learn/data-analysis-with-python/data-analysis-with-python-projects/demographic-data-analyzer"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Portfolio Building",
+              "description": "Build a portfolio of analytical projects: publish notebooks on Kaggle or GitHub, create data visualizations, and document your methodology and findings"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Data Analysis with Python - Full Course for Beginners (Numpy, Pandas, Matplotlib, Seaborn)",
+              "url": "https://www.youtube.com/watch?v=r-uOLxNrNk8"
+            },
+            {
+              "title": "Relational Database (SQL) Crash Course - Full Course",
+              "url": "https://www.youtube.com/watch?v=ztNF6C-t6X4"
+            },
+            {
+              "title": "Tableau Tutorial for Beginners - Full Course",
+              "url": "https://www.youtube.com/watch?v=aHaT0Wbku58"
+            },
+            {
+              "title": "Excel for Data Analysis - Full Course",
+              "url": "https://www.youtube.com/watch?v=0kH_G3-eGDY"
+            },
+            {
+              "title": "How to Build a Data Analyst Portfolio (From Scratch)",
+              "url": "https://www.youtube.com/watch?v=jW9F6Fz0i2I"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "CV / Profile Building",
+              "description": "Prepare your professional profile: craft a targeted CV/resume highlighting your data analyst skills, optimize your LinkedIn profile, and gather references or endorsements from mentors, instructors, or past collaborators"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Data Analysis with Python - Full Course for Beginners (Numpy, Pandas, Matplotlib, Seaborn)",
+              "url": "https://www.youtube.com/watch?v=r-uOLxNrNw8"
+            },
+            {
+              "title": "SQL Tutorial (Beginner to Advanced)",
+              "url": "https://www.w3schools.com/sql/default.asp"
+            },
+            {
+              "title": "Excel Crash Course for Beginners - Learn Excel in 1 Hour",
+              "url": "https://www.youtube.com/watch?v=F0vP9g7oHfY"
+            },
+            {
+              "title": "Statistics and Probability for Data Science and Machine Learning - Full Course",
+              "url": "https://www.youtube.com/watch?v=Vd0S6gU_JXs"
+            },
+            {
+              "title": "Data Cleaning using Pandas in Python",
+              "url": "https://www.geeksforgeeks.org/data-cleaning-using-pandas-in-python/"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Job Application / Freelancing",
+              "description": "Apply for data analyst positions through job boards, company career pages, professional networks, and industry-specific platforms \u2014 tailor each application and prepare to discuss your hands-on experience and portfolio in interviews"
+            }
+          ],
+          "resources": [
+            {
+              "title": "data analyst jobs on Wuzzuf",
+              "url": "https://wuzzuf.net/search/jobs/?q=data+analyst&a=hpb"
+            },
+            {
+              "title": "data analyst jobs on Forasna",
+              "url": "https://www.forasna.com/jobs/search/data-analyst"
+            },
+            {
+              "title": "data analyst jobs on LinkedIn",
+              "url": "https://www.linkedin.com/jobs/search/?keywords=data+analyst&location=Egypt"
+            },
+            {
+              "title": "data analyst jobs on Bayt.com",
+              "url": "https://www.bayt.com/en/egypt/jobs/data-analyst-jobs/"
+            },
+            {
+              "title": "data analyst jobs on Indeed Egypt",
+              "url": "https://eg.indeed.com/jobs?q=data+analyst"
+            },
+            {
+              "title": "data analyst freelance jobs on Upwork",
+              "url": "https://www.upwork.com/freelance-jobs/data-analyst/"
+            },
+            {
+              "title": "data analyst services on Fiverr",
+              "url": "https://www.fiverr.com/search/gigs?query=data+analyst"
+            },
+            {
+              "title": "data analyst projects on Mostaql",
+              "url": "https://mostaql.com/projects?keyword=data+analyst"
+            },
+            {
+              "title": "Khamsat - Arabic Micro Services",
+              "url": "https://khamsat.com/"
+            },
+            {
+              "title": "data analyst freelance on Toptal",
+              "url": "https://www.toptal.com/"
+            }
+          ],
+          "children": []
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/static/roadmaps/roadmap_1.png"
+  ]
+}

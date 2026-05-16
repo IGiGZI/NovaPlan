@@ -1,0 +1,224 @@
+{
+  "input": {
+    "answers": [],
+    "careers": [
+      "software tester"
+    ],
+    "category": "Programming & Software Development",
+    "user_summary": "",
+    "experience_level": "beginner",
+    "selected_language": "Vue.js",
+    "prefer_paid": false
+  },
+  "derived_skills": [],
+  "chosen_career": "software tester",
+  "roadmaps": [
+    {
+      "path_title": "software tester",
+      "focus": "Beginner \u2014 Full Roadmap",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "milestones": [
+            {
+              "title": "Certification",
+              "description": "(Optional) Complete an online certificate, bootcamp, or structured course in software tester to build a strong learning foundation"
+            }
+          ],
+          "resources": [
+            {
+              "title": "software tester certification on Coursera",
+              "url": "https://www.coursera.org/search?query=software+tester+certificate"
+            },
+            {
+              "title": "software tester certification on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=software+tester+certificate"
+            },
+            {
+              "title": "software tester courses on edX",
+              "url": "https://www.edx.org/search?q=software+tester"
+            },
+            {
+              "title": "Google Certificates related to software tester",
+              "url": "https://grow.google/certificates/"
+            },
+            {
+              "title": "software tester certification guide on YouTube",
+              "url": "https://www.youtube.com/results?search_query=software+tester+certification+guide"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Core Skill Learning",
+              "description": "Learn the fundamentals: build a solid foundation in manual testing techniques, test case design and execution, and automated testing frameworks (selenium, pytest) \u2014 these are the essential building blocks for a software tester"
+            }
+          ],
+          "resources": [
+            {
+              "title": "software tester Core Skill Learning on Coursera",
+              "url": "https://www.coursera.org/search?query=software+tester+manual+testing+techniques"
+            },
+            {
+              "title": "software tester Core Skill Learning on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=software+tester+manual+testing+techniques"
+            },
+            {
+              "title": "software tester Core Skill Learning on YouTube",
+              "url": "https://www.youtube.com/results?search_query=software+tester+manual+testing+techniques+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Intermediate / Advanced Skills",
+              "description": "Deepen your expertise by developing intermediate-to-advanced skills in bug tracking tools (jira), regression testing, and api testing (postman), applying them through exercises and case studies"
+            }
+          ],
+          "resources": [
+            {
+              "title": "software tester Intermediate / Advanced Skills on Coursera",
+              "url": "https://www.coursera.org/search?query=software+tester+manual+testing+techniques"
+            },
+            {
+              "title": "software tester Intermediate / Advanced Skills on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=software+tester+manual+testing+techniques"
+            },
+            {
+              "title": "software tester Intermediate / Advanced Skills on YouTube",
+              "url": "https://www.youtube.com/results?search_query=software+tester+manual+testing+techniques+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Hands-on Practice",
+              "description": "Gain hands-on experience by completing real-world projects, practical exercises, or volunteer/freelance work related to software tester \u2014 focus on applying manual testing techniques, and test case design and execution in realistic scenarios"
+            }
+          ],
+          "resources": [
+            {
+              "title": "software tester Hands-on Practice on Coursera",
+              "url": "https://www.coursera.org/search?query=software+tester+manual+testing+techniques"
+            },
+            {
+              "title": "software tester Hands-on Practice on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=software+tester+manual+testing+techniques"
+            },
+            {
+              "title": "software tester Hands-on Practice on YouTube",
+              "url": "https://www.youtube.com/results?search_query=software+tester+manual+testing+techniques+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Portfolio Building",
+              "description": "Build a professional portfolio showcasing your best work, completed projects, certifications, and any measurable achievements related to software tester"
+            }
+          ],
+          "resources": [
+            {
+              "title": "software tester Portfolio Building on Coursera",
+              "url": "https://www.coursera.org/search?query=software+tester+manual+testing+techniques"
+            },
+            {
+              "title": "software tester Portfolio Building on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=software+tester+manual+testing+techniques"
+            },
+            {
+              "title": "software tester Portfolio Building on YouTube",
+              "url": "https://www.youtube.com/results?search_query=software+tester+manual+testing+techniques+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "CV / Profile Building",
+              "description": "Prepare your professional profile: craft a targeted CV/resume highlighting your software tester skills, optimize your LinkedIn profile, and gather references or endorsements from mentors, instructors, or past collaborators"
+            }
+          ],
+          "resources": [
+            {
+              "title": "software tester CV / Profile Building on Coursera",
+              "url": "https://www.coursera.org/search?query=software+tester+manual+testing+techniques"
+            },
+            {
+              "title": "software tester CV / Profile Building on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=software+tester+manual+testing+techniques"
+            },
+            {
+              "title": "software tester CV / Profile Building on YouTube",
+              "url": "https://www.youtube.com/results?search_query=software+tester+manual+testing+techniques+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Job Application / Freelancing",
+              "description": "Apply for software tester positions through job boards, company career pages, professional networks, and industry-specific platforms \u2014 tailor each application and prepare to discuss your hands-on experience and portfolio in interviews"
+            }
+          ],
+          "resources": [
+            {
+              "title": "software tester jobs on Wuzzuf",
+              "url": "https://wuzzuf.net/search/jobs/?q=software+tester&a=hpb"
+            },
+            {
+              "title": "software tester jobs on Forasna",
+              "url": "https://www.forasna.com/jobs/search/software-tester"
+            },
+            {
+              "title": "software tester jobs on LinkedIn",
+              "url": "https://www.linkedin.com/jobs/search/?keywords=software+tester&location=Egypt"
+            },
+            {
+              "title": "software tester jobs on Bayt.com",
+              "url": "https://www.bayt.com/en/egypt/jobs/software-tester-jobs/"
+            },
+            {
+              "title": "software tester jobs on Indeed Egypt",
+              "url": "https://eg.indeed.com/jobs?q=software+tester"
+            },
+            {
+              "title": "software tester freelance jobs on Upwork",
+              "url": "https://www.upwork.com/freelance-jobs/software-tester/"
+            },
+            {
+              "title": "software tester services on Fiverr",
+              "url": "https://www.fiverr.com/search/gigs?query=software+tester"
+            },
+            {
+              "title": "software tester projects on Mostaql",
+              "url": "https://mostaql.com/projects?keyword=software+tester"
+            },
+            {
+              "title": "Khamsat - Arabic Micro Services",
+              "url": "https://khamsat.com/"
+            },
+            {
+              "title": "software tester freelance on Toptal",
+              "url": "https://www.toptal.com/"
+            }
+          ],
+          "children": []
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/static/roadmaps/roadmap_1.png"
+  ]
+}

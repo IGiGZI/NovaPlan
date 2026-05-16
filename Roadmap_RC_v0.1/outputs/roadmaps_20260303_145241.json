@@ -1,0 +1,426 @@
+{
+  "input": {
+    "answers": [
+      {
+        "questionId": "Q_EDU",
+        "label": "I haven't started university yet"
+      },
+      {
+        "questionId": "Q_GENDER",
+        "label": "Male"
+      },
+      {
+        "questionId": "Q_IMPACT",
+        "label": "Fixing, repairing, and maintaining things with my hands"
+      },
+      {
+        "questionId": "Q_FIX_TYPE",
+        "label": "Fixing electrical systems in cars"
+      },
+      {
+        "questionId": "Q_STYLE_TRADES",
+        "label": "Analytical \u2014 I like logic, data, and figuring out how things work"
+      }
+    ],
+    "careers": [
+      "automotive electrician"
+    ],
+    "category": "Electrical Trades",
+    "user_summary": ""
+  },
+  "derived_skills": [],
+  "chosen_career": "automotive electrician",
+  "roadmaps": [
+    {
+      "path_title": "automotive electrician",
+      "focus": "Depth",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "milestones": [
+            {
+              "title": "Certification",
+              "description": "(Optional) Complete an online certificate, bootcamp, or structured course in automotive electrician to build a strong learning foundation"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Automotive Electrical System Training",
+              "url": "https://www.udemy.com/course/automotive-electrical-system-training/"
+            },
+            {
+              "title": "Automotive Electrical Course - Beginners to Intermediate",
+              "url": "https://www.udemy.com/course/automotive-electrical-course/"
+            },
+            {
+              "title": "EVs & Hybrids: Introduction to Electric & Hybrid Vehicles",
+              "url": "https://www.udemy.com/course/introduction-to-electric-hybrid-vehicles/"
+            },
+            {
+              "title": "Electric and Hybrid Vehicles Specialization",
+              "url": "https://www.coursera.org/specializations/electric-hybrid-vehicles"
+            },
+            {
+              "title": "Electric and Hybrid Vehicle Engineering Professional Certificate",
+              "url": "https://www.edx.org/professional-certificate/chalmersx-electric-hybrid-vehicle-engineering"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Core Skill Learning",
+              "description": "Learn the fundamentals: build a solid foundation in vehicle electrical system diagnosis, wiring loom installation and repair, and in-car entertainment and electronics installation \u2014 these are the essential building blocks for a automotive electrician"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Automotive Electrical System Diagnostics Training (Udemy)",
+              "url": "https://www.udemy.com/course/automotive-electrical-system-diagnostics/"
+            },
+            {
+              "title": "ScannerDanner - Automotive Diagnostic Videos (YouTube Channel)",
+              "url": "https://www.youtube.com/@ScannerDanner/"
+            },
+            {
+              "title": "How To Install Car Stereo & Car Alarm Systems (Udemy)",
+              "url": "https://www.udemy.com/course/how-to-install-car-stereo-car-alarm-systems/"
+            },
+            {
+              "title": "Automotive Electrical and Electronic Systems Training (Udemy)",
+              "url": "https://www.udemy.com/course/automotive-electrical-and-electronic-systems/"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Intermediate / Advanced Skills",
+              "description": "Deepen your expertise by developing intermediate-to-advanced skills in battery and charging system servicing, ecu diagnostics, and ev and hybrid vehicle electrical systems, applying them through exercises and case studies"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Udemy Course Search: Automotive Electrical System Advanced Diagnostics",
+              "url": "https://www.udemy.com/courses/search/?q=automotive%20electrical%20system%20advanced%20diagnostics"
+            },
+            {
+              "title": "Udemy Course Search: Hybrid and Electric Vehicle Technology Training",
+              "url": "https://www.udemy.com/courses/search/?q=hybrid%20and%20electric%20vehicle%20technology"
+            },
+            {
+              "title": "WeberAuto - Advanced Automotive Technology Explanations (YouTube Channel)",
+              "url": "https://www.youtube.com/@WeberAuto"
+            },
+            {
+              "title": "ScannerDanner - Real-World Automotive Electrical & ECU Diagnostics (YouTube Channel)",
+              "url": "https://www.youtube.com/@ScannerDanner"
+            },
+            {
+              "title": "Coursera: Electric Cars: Technology (Delft University of Technology)",
+              "url": "https://www.coursera.org/learn/electric-cars-technology"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Hands-on Practice",
+              "description": "Gain hands-on experience by completing hands-on repair jobs, maintenance projects, or workshop-based practical exercises \u2014 focus on applying vehicle electrical system diagnosis, and wiring loom installation and repair in realistic scenarios"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Automotive Electrical System Diagnosis & Repair Courses on Udemy",
+              "url": "https://www.udemy.com/courses/search/?src=ukw&q=automotive+electrical+system+diagnosis+and+repair"
+            },
+            {
+              "title": "ScannerDanner - Automotive Electrical Diagnostics (YouTube Channel)",
+              "url": "https://www.youtube.com/@ScannerDanner"
+            },
+            {
+              "title": "Professional Certificate in Electric & Hybrid Vehicles (edX)",
+              "url": "https://www.edx.org/professional-certificate/warwickx-electric-hybrid-vehicles"
+            },
+            {
+              "title": "South Main Auto Repair LLC - Real-World Automotive Diagnostics (YouTube Channel)",
+              "url": "https://www.youtube.com/@SouthMainAuto"
+            },
+            {
+              "title": "In-Car Entertainment & Aftermarket Electronics Installation Courses on Udemy",
+              "url": "https://www.udemy.com/courses/search/?src=ukw&q=in-car+entertainment+installation"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Portfolio Building",
+              "description": "Document your completed projects with photos, descriptions, and client feedback \u2014 create a simple portfolio or logbook showcasing certifications and hands-on work"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Automotive Electrical System Diagnostics & Repair Courses (Udemy Search)",
+              "url": "https://www.udemy.com/courses/search/?q=automotive+electrical+diagnosis+repair"
+            },
+            {
+              "title": "Electric Vehicle Fundamentals (IIT Delhi on Coursera)",
+              "url": "https://www.coursera.org/learn/electric-vehicle-fundamentals"
+            },
+            {
+              "title": "Automotive Electrical Diagnostics & Repair (ScannerDanner YouTube Channel)",
+              "url": "https://www.youtube.com/@ScannerDanner"
+            },
+            {
+              "title": "In-Car Entertainment & Custom Electronics Installation (Car Audio Fabrication YouTube Channel)",
+              "url": "https://www.youtube.com/@CarAudioFabrication"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "CV / Profile Building",
+              "description": "Prepare your professional profile: craft a targeted CV/resume highlighting your automotive electrician skills, optimize your LinkedIn profile, and gather references or endorsements from mentors, instructors, or past collaborators"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Automotive Electrical System: Diagnostics and Repair (Udemy)",
+              "url": "https://www.udemy.com/course/automotive-electrical-system-diagnostics-and-repair/"
+            },
+            {
+              "title": "Electric and Hybrid Vehicle Fundamentals Specialization (Coursera)",
+              "url": "https://www.coursera.org/specializations/electric-hybrid-vehicle-fundamentals"
+            },
+            {
+              "title": "ScannerDanner (YouTube Channel)",
+              "url": "https://www.youtube.com/@ScannerDanner"
+            },
+            {
+              "title": "Car Audio Fabrication (YouTube Channel)",
+              "url": "https://www.youtube.com/@CarAudioFabrication"
+            },
+            {
+              "title": "Automotive Technology - Electrical and Electronic Systems (Khan Academy)",
+              "url": "https://www.khanacademy.org/science/automotive-technology#electrical-electronic-systems"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Job Application / Freelancing",
+              "description": "Apply for automotive electrician positions through trade job boards, local businesses, staffing agencies, or apprenticeship programs \u2014 bring your certifications and documented experience to interviews"
+            }
+          ],
+          "resources": [
+            {
+              "title": "automotive electrician jobs on Wuzzuf",
+              "url": "https://wuzzuf.net/search/jobs/?q=automotive+electrician&a=hpb"
+            },
+            {
+              "title": "automotive electrician jobs on Forasna",
+              "url": "https://www.forasna.com/jobs/search/automotive-electrician"
+            },
+            {
+              "title": "automotive electrician jobs on LinkedIn",
+              "url": "https://www.linkedin.com/jobs/search/?keywords=automotive+electrician&location=Egypt"
+            },
+            {
+              "title": "automotive electrician jobs on Bayt.com",
+              "url": "https://www.bayt.com/en/egypt/jobs/automotive-electrician-jobs/"
+            },
+            {
+              "title": "automotive electrician jobs on Indeed Egypt",
+              "url": "https://eg.indeed.com/jobs?q=automotive+electrician"
+            },
+            {
+              "title": "automotive electrician freelance jobs on Upwork",
+              "url": "https://www.upwork.com/freelance-jobs/automotive-electrician/"
+            },
+            {
+              "title": "automotive electrician services on Fiverr",
+              "url": "https://www.fiverr.com/search/gigs?query=automotive+electrician"
+            },
+            {
+              "title": "automotive electrician projects on Mostaql",
+              "url": "https://mostaql.com/projects?keyword=automotive+electrician"
+            },
+            {
+              "title": "Khamsat - Arabic Micro Services",
+              "url": "https://khamsat.com/"
+            },
+            {
+              "title": "automotive electrician freelance on Toptal",
+              "url": "https://www.toptal.com/"
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "path_title": "automotive electrician",
+      "focus": "Fast-Entry",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "milestones": [
+            {
+              "title": "Foundation & Core Skills",
+              "description": "(Optional) Complete an online certificate, bootcamp, or structured course in automotive electrician to build a strong learning foundation\n\nThen: Learn the fundamentals: build a solid foundation in vehicle electrical system diagnosis, wiring loom installation and repair, and in-car entertainment and electronics installation \u2014 these are the essential building blocks for a automotive electrician"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Automotive Electrical Systems: Diagnosis, Repair and Troubleshooting",
+              "url": "https://www.udemy.com/course/automotive-electrical-systems-diagnosis-repair-and-troubleshooting/"
+            },
+            {
+              "title": "How to Diagnose Car Electrical Systems - From Beginner to Pro",
+              "url": "https://www.udemy.com/course/how-to-diagnose-car-electrical-systems-from-beginner-to-pro/"
+            },
+            {
+              "title": "Hybrid and Electric Vehicles - From Basic to Advanced",
+              "url": "https://www.udemy.com/course/hybrid-and-electric-vehicles-from-basic-to-advanced/"
+            },
+            {
+              "title": "Electric Cars: Technology (TU Delft)",
+              "url": "https://www.coursera.org/learn/electric-cars-technology"
+            },
+            {
+              "title": "Automotive Electrical Training Playlist (ProDemand Training)",
+              "url": "https://www.youtube.com/playlist?list=PL_JzQJ5d5Q6_p_w_h_z_k_q_r_v_x_t_y_"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Skill Building & Practice",
+              "description": "Deepen your expertise by developing intermediate-to-advanced skills in battery and charging system servicing, ecu diagnostics, and ev and hybrid vehicle electrical systems, applying them through exercises and case studies\n\nThen: Gain hands-on experience by completing hands-on repair jobs, maintenance projects, or workshop-based practical exercises \u2014 focus on applying vehicle electrical system diagnosis, and wiring loom installation and repair in realistic scenarios"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Hybrid and Electric Vehicle Technology for Beginners",
+              "url": "https://www.udemy.com/course/hybrid-and-electric-vehicle-technology-for-beginners/"
+            },
+            {
+              "title": "Automotive Electrical System \u2013 Diagnosis and Repair Part 1",
+              "url": "https://www.udemy.com/course/automotive-electrical-system-diagnosis-and-repair-part-1/"
+            },
+            {
+              "title": "Automotive Scan Tool Diagnostics Training Course",
+              "url": "https://www.udemy.com/course/automotive-scan-tool-diagnostics-training-course/"
+            },
+            {
+              "title": "Mastering Automotive Wiring & Electrical Systems",
+              "url": "https://www.udemy.com/course/mastering-automotive-wiring-electrical-systems/"
+            },
+            {
+              "title": "ScannerDanner - Automotive Diagnostics & Repair (YouTube Channel)",
+              "url": "https://www.youtube.com/@ScannerDanner"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Portfolio & Professional Profile",
+              "description": "Document your completed projects with photos, descriptions, and client feedback \u2014 create a simple portfolio or logbook showcasing certifications and hands-on work\n\nThen: Prepare your professional profile: craft a targeted CV/resume highlighting your automotive electrician skills, optimize your LinkedIn profile, and gather references or endorsements from mentors, instructors, or past collaborators"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Automotive Electrical System Fundamentals & Diagnosis (Udemy Search)",
+              "url": "https://www.udemy.com/courses/search/?q=automotive+electrical+system+diagnosis"
+            },
+            {
+              "title": "Electric & Hybrid Vehicle Technology Training (Udemy Search)",
+              "url": "https://www.udemy.com/courses/search/?q=electric+hybrid+vehicle+technology"
+            },
+            {
+              "title": "ScannerDanner (YouTube Channel - Automotive Diagnostics)",
+              "url": "https://www.youtube.com/@ScannerDanner707"
+            },
+            {
+              "title": "Automotive Wiring, Repair & Installation (Udemy Search)",
+              "url": "https://www.udemy.com/courses/search/?q=automotive+wiring+repair"
+            },
+            {
+              "title": "South Main Auto Repair (YouTube Channel - Practical Automotive Repair)",
+              "url": "https://www.youtube.com/@SouthMainAuto"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Job Application / Freelancing",
+              "description": "Apply for automotive electrician positions through trade job boards, local businesses, staffing agencies, or apprenticeship programs \u2014 bring your certifications and documented experience to interviews"
+            }
+          ],
+          "resources": [
+            {
+              "title": "automotive electrician jobs on Wuzzuf",
+              "url": "https://wuzzuf.net/search/jobs/?q=automotive+electrician&a=hpb"
+            },
+            {
+              "title": "automotive electrician jobs on Forasna",
+              "url": "https://www.forasna.com/jobs/search/automotive-electrician"
+            },
+            {
+              "title": "automotive electrician jobs on LinkedIn",
+              "url": "https://www.linkedin.com/jobs/search/?keywords=automotive+electrician&location=Egypt"
+            },
+            {
+              "title": "automotive electrician jobs on Bayt.com",
+              "url": "https://www.bayt.com/en/egypt/jobs/automotive-electrician-jobs/"
+            },
+            {
+              "title": "automotive electrician jobs on Indeed Egypt",
+              "url": "https://eg.indeed.com/jobs?q=automotive+electrician"
+            },
+            {
+              "title": "automotive electrician freelance jobs on Upwork",
+              "url": "https://www.upwork.com/freelance-jobs/automotive-electrician/"
+            },
+            {
+              "title": "automotive electrician services on Fiverr",
+              "url": "https://www.fiverr.com/search/gigs?query=automotive+electrician"
+            },
+            {
+              "title": "automotive electrician projects on Mostaql",
+              "url": "https://mostaql.com/projects?keyword=automotive+electrician"
+            },
+            {
+              "title": "Khamsat - Arabic Micro Services",
+              "url": "https://khamsat.com/"
+            },
+            {
+              "title": "automotive electrician freelance on Toptal",
+              "url": "https://www.toptal.com/"
+            }
+          ],
+          "children": []
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/static/roadmaps/roadmap_1.png",
+    "/static/roadmaps/roadmap_2.png"
+  ]
+}
