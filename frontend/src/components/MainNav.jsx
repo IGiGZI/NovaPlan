@@ -54,9 +54,9 @@ function MainNav() {
 
 					{user ? (
 						<>
-							<span className="text-purple-400 font-semibold">
+							<Link to="/profile" className="text-purple-400 font-semibold">
 								{user.username}
-							</span>
+							</Link>
 
 							<button
 								onClick={handleLogout}

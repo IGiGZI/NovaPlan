@@ -1,5 +1,7 @@
 import { useState, useMemo, useRef, useEffect } from "react";
 import { Link, useLocation } from "react-router";
+// add useAuth to your imports at the top of the file
+import { useAuth } from "../contexts/AuthContext"; // adjust path as needed
 import MainNav from "../components/MainNav";
 
 // Flatten all careers from the JSON into a searchable list
@@ -30,7 +32,7 @@ function flattenCareers(data) {
 	});
 }
 
-// Build a map of category → careers (deduplicated)
+// Build a map of category -> careers (deduplicated)
 function buildCategoryMap(data) {
 	const map = {};
 	for (const categoryObj of data) {
@@ -105,6 +107,8 @@ function Search() {
 	const [tiobeData, setTiobeData] = useState({});
 	const [tiobeAwards, setTiobeAwards] = useState({});
 
+	const { user } = useAuth();
+
 	const DOC_LINKS = {
 		python: "https://docs.python.org/3/",
 		java: "https://docs.oracle.com/en/java/",
@@ -164,7 +168,6 @@ function Search() {
 		if (name === "flutter") name = "dart";
 		const years = tiobeAwards[name];
 		if (years && years.length > 0) {
-			// Get most recent year or all years
 			return `Best in ${years[0]}`;
 		}
 		return null;
@@ -179,8 +182,6 @@ function Search() {
 	const [skillSearch, setSkillSearch] = useState("");
 	const [selectedSkills, setSelectedSkills] = useState([]);
 
-	// Extracted options for dropdowns (now dynamically computed via useMemo below)
-
 	useEffect(() => {
 		fetch("/api/careers_data")
 			.then((res) => res.json())
@@ -193,7 +194,6 @@ function Search() {
 
 				setDataLoading(false);
 
-				// Parse category from URL after loading data
 				const searchParams = new URLSearchParams(location.search);
 				const categoryParam = searchParams.get("category");
 				if (categoryParam && map[categoryParam]) {
@@ -209,7 +209,6 @@ function Search() {
 				setDataLoading(false);
 			});
 
-		// Fetch TIOBE data
 		fetch("/api/tiobe")
 			.then((res) => res.json())
 			.then((data) => {
@@ -239,15 +238,17 @@ function Search() {
 	const [experienceLevel, setExperienceLevel] = useState("");
 
 	// New feature state
-	const [difficultyFilter, setDifficultyFilter] = useState("default"); // "easiest" | "hardest" | "default"
-	const [preferPaid, setPreferPaid] = useState(null); // true | false | null
+	const [difficultyFilter, setDifficultyFilter] = useState("default");
+	const [preferPaid, setPreferPaid] = useState(null);
 	const [recommendedFields, setRecommendedFields] = useState([]);
-	const [selectedRecommendedField, setSelectedRecommendedField] =
-		useState(null);
-	const [wantsFollowUpRoadmap, setWantsFollowUpRoadmap] = useState(null); // true | false | null
+	const [selectedRecommendedField, setSelectedRecommendedField] = useState(null);
 	const [followUpResult, setFollowUpResult] = useState(null);
 	const [followUpLoading, setFollowUpLoading] = useState(false);
-	const [activeRoadmapTab, setActiveRoadmapTab] = useState(0); // 0 = main, 1 = follow-up
+	const [activeRoadmapTab, setActiveRoadmapTab] = useState(0);
+
+	// Save roadmap state
+	const [saveStatus, setSaveStatus] = useState("idle"); // "idle" | "saving" | "saved" | "error"
+	const [saveError, setSaveError] = useState("");
 
 	const isFilteringActive =
 		filterLanguage ||
@@ -268,7 +269,6 @@ function Search() {
 		if (!query.trim()) return sourceCareers;
 		const q = query.toLowerCase();
 
-		// 1. Check if the query matches any category name
 		const matchingCategories = allCategories.filter((cat) =>
 			cat.toLowerCase().includes(q),
 		);
@@ -276,15 +276,12 @@ function Search() {
 		let results = [];
 
 		if (matchingCategories.length > 0) {
-			// Smart filtering: if user searches for a category (e.g. "health" -> "Healthcare & Medicine")
-			// only return careers in those categories, or careers that match the name exactly/strongly.
 			results = sourceCareers.filter(
 				(c) =>
 					matchingCategories.includes(c.category) ||
 					c.career.toLowerCase().includes(q),
 			);
 		} else {
-			// Normal search: includes skills and languages
 			results = sourceCareers.filter(
 				(c) =>
 					c.career.toLowerCase().includes(q) ||
@@ -293,7 +290,6 @@ function Search() {
 			);
 		}
 
-		// 2. Score and sort so the best matches bubble up to the top
 		const scoredCareers = results.map((c) => {
 			let score = 0;
 			const careerLower = c.career.toLowerCase();
@@ -321,7 +317,6 @@ function Search() {
 			return { ...c, __score: score };
 		});
 
-		// Sort by score descending
 		scoredCareers.sort((a, b) => b.__score - a.__score);
 
 		return scoredCareers;
@@ -349,7 +344,6 @@ function Search() {
 			.filter((e) => e !== "Not Specified")
 			.sort();
 
-		// Get top 20 skills
 		const tSkills = Object.entries(skillCounts)
 			.sort((a, b) => b[1] - a[1])
 			.slice(0, 20)
@@ -369,7 +363,6 @@ function Search() {
 		baseCareers.forEach((c) => {
 			let match = true;
 
-			// 1. Language Filter
 			if (filterLanguage) {
 				const hasLang =
 					c.languages.some((l) => l.name === filterLanguage) ||
@@ -379,7 +372,6 @@ function Search() {
 				if (!hasLang) match = false;
 			}
 
-			// 2. Education Filter
 			if (
 				match &&
 				filterEducation &&
@@ -388,16 +380,13 @@ function Search() {
 				match = false;
 			}
 
-			// 3. Popular in Egypt Filter
 			if (match && filterPopular && !c.popular_in_egypt) {
 				match = false;
 			}
 
-			// 4. Skills Match (Checkbox & Text Search)
 			if (match) {
 				const careerSkills = c.skills.map((s) => s.toLowerCase());
 
-				// Checkbox match: ALL selected skills must be present
 				if (selectedSkills.length > 0) {
 					const hasAllSelectedSkills = selectedSkills.every((ss) =>
 						careerSkills.some((cs) => cs.includes(ss)),
@@ -405,7 +394,6 @@ function Search() {
 					if (!hasAllSelectedSkills) match = false;
 				}
 
-				// Text search match: ANY skill must match the typed text
 				if (match && skillSearch.trim()) {
 					const q = skillSearch.toLowerCase().trim();
 					const hasSkill = careerSkills.some((cs) => cs.includes(q));
@@ -456,7 +444,6 @@ function Search() {
 		return () => document.removeEventListener("mousedown", handleClick);
 	}, []);
 
-	// Scroll to category results when a category is selected
 	useEffect(() => {
 		if (activeCategory && categoryRef.current) {
 			categoryRef.current.scrollIntoView({
@@ -487,18 +474,15 @@ function Search() {
 		setPreferPaid(null);
 		setRecommendedFields([]);
 		setSelectedRecommendedField(null);
-		setWantsFollowUpRoadmap(null);
 		setFollowUpResult(null);
 		setActiveRoadmapTab(0);
 	};
 
-	// Check if career has direct languages (no sub_fields but has languages array)
 	const hasDirectLanguages =
 		selected &&
 		!selected.sub_fields?.length &&
 		selected.languages?.length > 0;
 
-	// Sort languages by difficulty filter
 	const sortedLanguages = useMemo(() => {
 		const langs = hasDirectLanguages ? [...selected.languages] : [];
 		if (difficultyFilter === "easiest")
@@ -514,7 +498,6 @@ function Search() {
 		return langs;
 	}, [selected, hasDirectLanguages, difficultyFilter, tiobeData]);
 
-	// Sort sub-field languages by difficulty filter
 	const sortedSubFieldLanguages = useMemo(() => {
 		if (!selectedSubField?.languages?.length) return [];
 		const langs = [...selectedSubField.languages];
@@ -531,7 +514,6 @@ function Search() {
 		return langs;
 	}, [selectedSubField, difficultyFilter, tiobeData]);
 
-	// Fetch recommended fields when language is selected
 	const fetchRecommendations = async (careerName, langName) => {
 		try {
 			const res = await fetch("http://localhost:8000/recommend_fields", {
@@ -597,8 +579,8 @@ function Search() {
 			setResult(data);
 			localStorage.setItem("roadmapResult", JSON.stringify(data));
 
-			// Generate follow-up roadmap if user requested one
-			if (wantsFollowUpRoadmap && selectedRecommendedField) {
+			// Generate follow-up roadmap if the user selected a recommended field
+			if (selectedRecommendedField) {
 				setFollowUpLoading(true);
 				try {
 					const res2 = await fetch("http://localhost:8000/generate", {
@@ -646,11 +628,39 @@ function Search() {
 		setPreferPaid(null);
 		setRecommendedFields([]);
 		setSelectedRecommendedField(null);
-		setWantsFollowUpRoadmap(null);
 		setFollowUpResult(null);
 		setActiveRoadmapTab(0);
+		setSaveStatus("idle");
+		setSaveError("");
 		inputRef.current?.focus();
 	};
+
+const handleSaveRoadmap = async () => {
+    if (!user || !user.id) {
+        setSaveError("You must be logged in to save a roadmap.");
+        setSaveStatus("error");
+        return;
+    }
+    if (!result) return;
+
+    setSaveStatus("saving");
+    setSaveError("");
+    try {
+        const res = await fetch("http://localhost:5000/save-roadmap", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ userId: user.id, roadmap: result }),
+        });
+        if (!res.ok) {
+            const errData = await res.json().catch(() => ({}));
+            throw new Error(errData.message || "Failed to save roadmap.");
+        }
+        setSaveStatus("saved");
+    } catch (err) {
+        setSaveError(err.message || "Something went wrong.");
+        setSaveStatus("error");
+    }
+};
 
 	const handleCategoryClick = (category) => {
 		setActiveCategory((prev) => (prev === category ? null : category));
@@ -668,10 +678,8 @@ function Search() {
 		setPreferPaid(null);
 		setRecommendedFields([]);
 		setSelectedRecommendedField(null);
-		setWantsFollowUpRoadmap(null);
 		setFollowUpResult(null);
 		setActiveRoadmapTab(0);
-		// Scroll back up to the search area smoothly
 		window.scrollTo({ top: 0, behavior: "smooth" });
 	};
 
@@ -706,7 +714,7 @@ function Search() {
 				</div>
 			)}
 
-			{/* Search + selected card — hide once result is shown */}
+			{/* Search + selected card - hide once result is shown */}
 			{!dataLoading && !result && (
 				<div className="max-w-2xl mx-auto px-4 pb-12">
 					<div className="flex gap-2">
@@ -851,7 +859,7 @@ function Search() {
 								</div>
 							)}
 
-							{/* Sub-field selection — for careers with sub_fields */}
+							{/* Sub-field selection */}
 							{selected.sub_fields &&
 								selected.sub_fields.length > 0 && (
 									<div className="space-y-4 pt-2">
@@ -898,7 +906,6 @@ function Search() {
 															</div>
 														</button>
 
-														{/* Language/Tool links */}
 														{selectedSubField?.name ===
 															sf.name &&
 															sf.languages &&
@@ -989,9 +996,6 @@ function Search() {
 																							[],
 																						);
 																						setSelectedRecommendedField(
-																							null,
-																						);
-																						setWantsFollowUpRoadmap(
 																							null,
 																						);
 																						fetchRecommendations(
@@ -1112,9 +1116,6 @@ function Search() {
 																				setSelectedRecommendedField(
 																					null,
 																				);
-																				setWantsFollowUpRoadmap(
-																					null,
-																				);
 																				fetchRecommendations(
 																					selectedSubField?.name ||
 																						selected.career,
@@ -1142,7 +1143,7 @@ function Search() {
 									</div>
 								)}
 
-							{/* Level picker — conditionally shown based on category or subfield */}
+							{/* Level picker */}
 							{((selected.sub_fields &&
 								selected.sub_fields.length > 0 &&
 								selectedSubField) ||
@@ -1224,7 +1225,7 @@ function Search() {
 								</div>
 							)}
 
-							{/* ── Direct Language Selection ── */}
+							{/* Direct Language Selection */}
 							{hasDirectLanguages && (
 								<div className="space-y-4 pt-2">
 									<div>
@@ -1286,9 +1287,6 @@ function Search() {
 													setPreferPaid(null);
 													setRecommendedFields([]);
 													setSelectedRecommendedField(
-														null,
-													);
-													setWantsFollowUpRoadmap(
 														null,
 													);
 													fetchRecommendations(
@@ -1377,7 +1375,6 @@ function Search() {
 												setSelectedRecommendedField(
 													null,
 												);
-												setWantsFollowUpRoadmap(null);
 												fetchRecommendations(
 													selected.career,
 													easiest.name,
@@ -1392,7 +1389,7 @@ function Search() {
 								</div>
 							)}
 
-							{/* ── Paid / Free Resources Toggle ── */}
+							{/* Paid / Free Resources Toggle */}
 							{selectedLanguage &&
 								(hasDirectLanguages ||
 									selectedSubField?.languages?.length >
@@ -1463,91 +1460,35 @@ function Search() {
 												<span className="text-purple-300 font-medium capitalize">
 													{selected.career}
 												</span>
-												, you might also enjoy:
+												, select one to also generate a roadmap for it — or skip to continue:
 											</p>
 										</div>
 										<div className="grid gap-2">
 											{recommendedFields.map(
 												(rf, idx) => (
-													<div
+													<button
 														key={idx}
-														className="rounded-lg px-4 py-3 border border-cyan-500/20 bg-cyan-900/10 text-sm"
+														onClick={() =>
+															setSelectedRecommendedField(
+																selectedRecommendedField?.field === rf.field
+																	? null
+																	: rf,
+															)
+														}
+														className={`text-left rounded-lg px-4 py-3 border text-sm transition-all ${
+															selectedRecommendedField?.field === rf.field
+																? "border-cyan-500 ring-1 ring-cyan-500 bg-cyan-500/20"
+																: "border-cyan-500/20 bg-cyan-900/10 hover:border-cyan-400/40 hover:bg-cyan-900/20"
+														}`}
 													>
-														<div className="font-semibold text-cyan-200">
-															{rf.field}
+														<div className={`font-semibold ${selectedRecommendedField?.field === rf.field ? "text-cyan-200" : "text-cyan-300"}`}>
+															{selectedRecommendedField?.field === rf.field ? "✅ " : ""}{rf.field}
 														</div>
 														<p className="text-xs text-gray-400 mt-1">
 															{rf.description}
 														</p>
-													</div>
+													</button>
 												),
-											)}
-										</div>
-										<div className="space-y-3">
-											<p className="text-sm text-gray-300">
-												Would you like to generate a
-												roadmap for any of these fields
-												too?
-											</p>
-											<div className="flex gap-3">
-												<button
-													onClick={() => {
-														setWantsFollowUpRoadmap(
-															true,
-														);
-														setSelectedRecommendedField(
-															null,
-														);
-													}}
-													className={`rounded-lg px-4 py-2 border text-sm transition-all ${wantsFollowUpRoadmap === true ? "border-cyan-500 ring-1 ring-cyan-500 bg-cyan-500/20 text-cyan-200" : "border-purple-500/20 text-gray-400 hover:border-cyan-400/50"}`}
-												>
-													Yes, pick one
-												</button>
-												<button
-													onClick={() => {
-														setWantsFollowUpRoadmap(
-															false,
-														);
-														setSelectedRecommendedField(
-															null,
-														);
-													}}
-													className={`rounded-lg px-4 py-2 border text-sm transition-all ${wantsFollowUpRoadmap === false ? "border-purple-500 ring-1 ring-purple-500 bg-purple-500/20 text-purple-200" : "border-purple-500/20 text-gray-400 hover:border-purple-400/50"}`}
-												>
-													No, just continue
-												</button>
-											</div>
-											{wantsFollowUpRoadmap === true && (
-												<div className="grid gap-2 ml-2">
-													{recommendedFields.map(
-														(rf, idx) => (
-															<button
-																key={idx}
-																onClick={() =>
-																	setSelectedRecommendedField(
-																		rf,
-																	)
-																}
-																className={`text-left rounded-lg px-4 py-2 border text-sm transition-all ${selectedRecommendedField?.field === rf.field ? "border-cyan-500 ring-1 ring-cyan-500 bg-cyan-500/20" : "border-cyan-500/20 hover:border-cyan-400/40 bg-purple-900/10"}`}
-															>
-																<span
-																	className={
-																		selectedRecommendedField?.field ===
-																		rf.field
-																			? "text-cyan-200"
-																			: "text-gray-300"
-																	}
-																>
-																	{selectedRecommendedField?.field ===
-																	rf.field
-																		? "✅ "
-																		: ""}
-																	{rf.field}
-																</span>
-															</button>
-														),
-													)}
-												</div>
 											)}
 										</div>
 									</div>
@@ -1581,9 +1522,7 @@ function Search() {
 										(hasDirectLanguages ||
 											selectedSubField?.languages
 												?.length > 0) &&
-										preferPaid === null) ||
-									(wantsFollowUpRoadmap === true &&
-										!selectedRecommendedField)
+										preferPaid === null)
 								}
 								className="specialBtnGradient rounded-full px-8 py-3 text-white font-semibold shadow-lg shadow-purple-500/50 disabled:opacity-60 disabled:cursor-not-allowed hover:scale-105 transition-transform"
 							>
@@ -1601,7 +1540,6 @@ function Search() {
 			{/* ── Filter & Category Browsing Section ── */}
 			{!dataLoading && !result && (
 				<section className="max-w-7xl mx-auto px-4 pb-20">
-					{/* Divider */}
 					<div className="flex items-center gap-4 mb-8">
 						<div className="flex-1 h-px bg-purple-500/20"></div>
 						<p className="text-sm text-purple-400/70 uppercase tracking-widest whitespace-nowrap">
@@ -1611,7 +1549,7 @@ function Search() {
 					</div>
 
 					<div className="flex flex-col md:flex-row gap-8">
-						{/* ── Filters Sidebar ── */}
+						{/* Filters Sidebar */}
 						{showFilters && (
 							<div className="w-full md:w-80 shrink-0">
 								<div className="sticky top-24 bg-black/30 border border-purple-500/30 rounded-2xl p-6 shadow-lg shadow-purple-900/20 backdrop-blur-sm animate-fadeIn">
@@ -1661,14 +1599,12 @@ function Search() {
 									)}
 
 									<div className="space-y-8">
-										{/* Languages */}
 										{uniqueLanguages.length > 0 && (
 											<div>
 												<label className="block text-xs font-medium text-purple-300 mb-3 uppercase tracking-wider">
 													Language / Tool
 												</label>
 												<div className="space-y-2.5 max-h-48 overflow-y-auto custom-scrollbar pr-2">
-													{/* "Any Language" option */}
 													<button
 														onClick={() =>
 															setFilterLanguage(
@@ -1723,7 +1659,6 @@ function Search() {
 											</div>
 										)}
 
-										{/* Education */}
 										<div>
 											<label className="block text-xs font-medium text-purple-300 mb-3 uppercase tracking-wider">
 												Education Level
@@ -1778,7 +1713,6 @@ function Search() {
 											</div>
 										</div>
 
-										{/* Popularity Toggle — already works, keeping as-is */}
 										<div>
 											<label className="block text-xs font-medium text-purple-300 mb-3 uppercase tracking-wider">
 												Popularity
@@ -1804,7 +1738,6 @@ function Search() {
 											</button>
 										</div>
 
-										{/* Skills */}
 										<div>
 											<label className="block text-xs font-medium text-purple-300 mb-2 uppercase tracking-wider">
 												Required Skills
@@ -1859,7 +1792,7 @@ function Search() {
 							</div>
 						)}
 
-						{/* ── Results Grid ── */}
+						{/* Results Grid */}
 						<div className="flex-1">
 							{isFilteringActive ? (
 								<div className="space-y-8 animate-fadeIn">
@@ -1975,7 +1908,6 @@ function Search() {
 								</div>
 							) : (
 								<>
-									{/* Category buttons grid */}
 									<div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 mb-10">
 										{allCategories.map((category) => {
 											const isActive =
@@ -2034,13 +1966,11 @@ function Search() {
 										})}
 									</div>
 
-									{/* Careers list for active category */}
 									{activeCategory && (
 										<div
 											ref={categoryRef}
 											className="animate-fadeIn"
 										>
-											{/* Category header */}
 											<div className="flex items-center justify-between mb-6">
 												<div className="flex items-center gap-3">
 													<span className="text-3xl">
@@ -2085,7 +2015,6 @@ function Search() {
 												</button>
 											</div>
 
-											{/* Careers grid */}
 											<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
 												{categoryCareers.map(
 													(careerObj, idx) => (
@@ -2190,10 +2119,9 @@ function Search() {
 				</section>
 			)}
 
-			{/* ── Result Section ── */}
+			{/* Result Section */}
 			{result && (
 				<section className="max-w-5xl mx-auto px-4 pb-20">
-					{/* Header card */}
 					<div className="bg-linear-to-br from-purple-900/30 to-transparent backdrop-blur-sm border border-purple-500/30 rounded-2xl p-8 mb-8">
 						<h2 className="text-3xl font-bold mb-2 bg-linear-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent capitalize">
 							{result.chosen_career}
@@ -2203,7 +2131,6 @@ function Search() {
 							{followUpResult ? "s are" : " is"} ready!
 						</p>
 
-						{/* Tabbed view for main + follow-up roadmap */}
 						{followUpResult && (
 							<div className="flex gap-2 mb-6">
 								<button
@@ -2221,12 +2148,29 @@ function Search() {
 								</button>
 							</div>
 						)}
-						<div className="flex flex-wrap gap-4">
+						<div className="flex flex-wrap gap-4 items-center">
 							<Link to="/flowmap">
 								<button className="specialBtnGradient rounded-full px-8 py-3 text-white font-semibold shadow-lg shadow-purple-500/50 hover:scale-105 transition-transform">
 									View Visual Roadmap
 								</button>
 							</Link>
+							<button
+								onClick={handleSaveRoadmap}
+								disabled={saveStatus === "saving" || saveStatus === "saved"}
+								className={`rounded-full px-8 py-3 border font-semibold transition-all hover:scale-105
+									${saveStatus === "saved"
+										? "border-green-500 bg-green-500/20 text-green-300 cursor-default"
+										: saveStatus === "error"
+										? "border-red-500/60 bg-red-500/10 text-red-400 hover:border-red-400"
+										: "border-purple-500/40 text-gray-300 hover:border-purple-400 hover:text-white"
+									} disabled:opacity-60 disabled:cursor-not-allowed disabled:scale-100`}
+							>
+								{saveStatus === "saving"
+									? "Saving..."
+									: saveStatus === "saved"
+									? "✅ Saved!"
+									: "💾 Save Roadmap"}
+							</button>
 							<button
 								onClick={handleClear}
 								className="rounded-full px-8 py-3 border border-purple-500/40 text-gray-300 hover:border-purple-400 hover:text-white transition-all"
@@ -2234,9 +2178,25 @@ function Search() {
 								Search Again
 							</button>
 						</div>
+						{/* Save feedback messages */}
+						{saveStatus === "error" && saveError && (
+							<p className="mt-3 text-sm text-red-400 flex items-center gap-2">
+								<span>⚠️</span>
+								{saveError}
+								{saveError.includes("logged in") && (
+									<Link to="/login" className="underline text-purple-400 hover:text-purple-300 ml-1">
+										Log in →
+									</Link>
+								)}
+							</p>
+						)}
+						{saveStatus === "saved" && (
+							<p className="mt-3 text-sm text-green-400">
+								Roadmap saved to your profile successfully.
+							</p>
+						)}
 					</div>
 
-					{/* Roadmap paths — main or follow-up based on active tab */}
 					{(activeRoadmapTab === 0 || !followUpResult) && (
 						<div className="space-y-10">
 							<h3 className="text-2xl font-bold text-purple-400">
@@ -2248,7 +2208,6 @@ function Search() {
 									key={rIdx}
 									className="bg-linear-to-br from-purple-900/20 to-transparent backdrop-blur-sm border border-purple-500/30 rounded-2xl p-6 md:p-8"
 								>
-									{/* Path header */}
 									<div className="flex flex-wrap items-center justify-between gap-2 mb-8">
 										<div>
 											<h4 className="text-xl font-bold text-gray-100 capitalize">
@@ -2266,9 +2225,7 @@ function Search() {
 										</span>
 									</div>
 
-									{/* Steps */}
 									<div className="relative">
-										{/* Vertical timeline line */}
 										<div className="absolute left-4 top-0 bottom-0 w-px bg-purple-500/20"></div>
 
 										<div className="space-y-8">
@@ -2280,13 +2237,11 @@ function Search() {
 														key={sIdx}
 														className="relative pl-12"
 													>
-														{/* Step number bubble */}
 														<div className="absolute left-0 top-0 w-8 h-8 rounded-full bg-linear-to-br from-purple-600 to-pink-500 flex items-center justify-center text-white text-sm font-bold shadow-lg shadow-purple-500/30 z-10">
 															{sIdx + 1}
 														</div>
 
 														<div className="bg-black/20 border border-purple-500/20 rounded-xl p-5 hover:border-purple-500/40 transition-all">
-															{/* Milestone title */}
 															{milestone && (
 																<>
 																	<h5 className="text-base font-bold text-gray-100 mb-2">
@@ -2304,7 +2259,6 @@ function Search() {
 																</>
 															)}
 
-															{/* Resources */}
 															{step.resources
 																?.length >
 																0 && (
@@ -2362,7 +2316,6 @@ function Search() {
 						</div>
 					)}
 
-					{/* Follow-up roadmap tab content */}
 					{activeRoadmapTab === 1 && followUpResult && (
 						<div className="space-y-10">
 							<h3 className="text-2xl font-bold text-cyan-400">
@@ -2477,7 +2430,6 @@ function Search() {
 						</div>
 					)}
 
-					{/* Follow-up loading indicator */}
 					{followUpLoading && (
 						<div className="text-center py-8">
 							<div className="inline-block w-8 h-8 border-2 border-cyan-500/30 border-t-cyan-400 rounded-full animate-spin mb-4"></div>
@@ -2487,7 +2439,6 @@ function Search() {
 						</div>
 					)}
 
-					{/* Download */}
 					<div className="mt-12 text-center">
 						<a
 							href="http://localhost:8000/download"

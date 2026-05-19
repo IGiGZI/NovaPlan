@@ -39,7 +39,7 @@ mongoose.connect(process.env.MONGO_URI)
     .then(() => {
         console.log("Connected to MongoDB");
         if (process.env.SPAWN_PYTHON !== 'false') {
-            startPythonAI();
+           // startPythonAI();
         } else {
             console.log("Skipping Python AI spawn (SPAWN_PYTHON is false)");
         }

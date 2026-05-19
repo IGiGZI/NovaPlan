@@ -5,6 +5,7 @@ import Landing from "./pages/Landing";
 import Fetching from "./pages/Fetching";
 import Flowmap from "./pages/Flowmap";
 import Search from "./pages/Search";
+import Profile from "./pages/Profile";
 
 function App() {
 	const router = createBrowserRouter([
@@ -23,6 +24,10 @@ function App() {
 		{
 			path: "/search",
 			element: <Search/>
+		},
+		{
+			path: "/profile",
+			element: <Profile/>
 		}
 	]);
 
