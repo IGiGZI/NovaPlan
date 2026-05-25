@@ -1,689 +1,133 @@
-import { useState, useMemo, useRef, useEffect } from "react";
-import { Link, useLocation } from "react-router";
-// add useAuth to your imports at the top of the file
-import { useAuth } from "../contexts/AuthContext"; // adjust path as needed
+import { useState, useEffect } from "react";
+import { Link } from "react-router";
+import { useAuth } from "../contexts/AuthContext";
+import { CATEGORY_ICONS, DOC_LINKS, TECH_ENG_CATEGORIES } from "../data/Data";
+import {
+	useSearchData,
+	useCareerFilters,
+	useCareerSelection,
+	useRoadmapGeneration,
+	useCategoryBrowser,
+} from "../util/customHooks";
 import MainNav from "../components/MainNav";
-
-// Flatten all careers from the JSON into a searchable list
-function flattenCareers(data) {
-	const flat = [];
-	for (const categoryObj of data) {
-		const { category, careers_by_learning_path } = categoryObj;
-		for (const [, careers] of Object.entries(careers_by_learning_path)) {
-			for (const careerObj of careers) {
-				flat.push({
-					career: careerObj.career,
-					category,
-					skills: careerObj.skills ?? [],
-					sub_fields: careerObj.sub_fields ?? [],
-					languages: careerObj.languages ?? [],
-					education_level:
-						careerObj.education_level ?? "Not Specified",
-					popular_in_egypt: careerObj.popular_in_egypt ?? false,
-				});
-			}
-		}
-	}
-	const seen = new Set();
-	return flat.filter((c) => {
-		if (seen.has(c.career)) return false;
-		seen.add(c.career);
-		return true;
-	});
-}
-
-// Build a map of category -> careers (deduplicated)
-function buildCategoryMap(data) {
-	const map = {};
-	for (const categoryObj of data) {
-		const { category, careers_by_learning_path } = categoryObj;
-		const seen = new Set();
-		const careers = [];
-		for (const [, careerList] of Object.entries(careers_by_learning_path)) {
-			for (const careerObj of careerList) {
-				if (!seen.has(careerObj.career)) {
-					seen.add(careerObj.career);
-					careers.push({
-						career: careerObj.career,
-						skills: careerObj.skills ?? [],
-						sub_fields: careerObj.sub_fields ?? [],
-						languages: careerObj.languages ?? [],
-						education_level:
-							careerObj.education_level ?? "Not Specified",
-						popular_in_egypt: careerObj.popular_in_egypt ?? false,
-					});
-				}
-			}
-		}
-		map[category] = careers;
-	}
-	return map;
-}
-
-// Icon map for categories
-const CATEGORY_ICONS = {
-	"Programming & Software Development": "💻",
-	"Data & Artificial Intelligence": "🤖",
-	"Cloud & IT Infrastructure": "☁️",
-	"Cybersecurity & IT Auditing": "🛡️",
-	"ICT & Business Technology": "📡",
-	"Healthcare & Medicine": "🏥",
-	"Mental Health & Social Work": "🧠",
-	"Veterinary & Animal Care": "🐾",
-	"Engineering - Civil & Construction": "🏗️",
-	"Engineering - Mechanical & Electrical": "⚙️",
-	"Engineering - Aerospace & Transportation": "🚀",
-	"Renewable & Solar Energy": "☀️",
-	"Electrical Trades": "⚡",
-	"Welding & Skilled Trades": "🔧",
-	"Aviation & Piloting": "✈️",
-	"Education & Teaching": "📚",
-	"Finance & Accounting": "💰",
-	"Business, Management & HR": "💼",
-	Legal: "⚖️",
-	"Architecture & Urban Planning": "🏛️",
-};
-
-const TECH_ENG_CATEGORIES = new Set([
-	"Programming & Software Development",
-	"Data & Artificial Intelligence",
-	"Cloud & IT Infrastructure",
-	"Cybersecurity & IT Auditing",
-	"ICT & Business Technology",
-	"Engineering - Civil & Construction",
-	"Engineering - Mechanical & Electrical",
-	"Engineering - Aerospace & Transportation",
-]);
-
-function isTechOrEngineering(category) {
-	return TECH_ENG_CATEGORIES.has(category);
-}
+import SearchWithResult from "../components/SearchWithResult";
 
 function Search() {
-	const [allCareers, setAllCareers] = useState([]);
-	const [categoryMap, setCategoryMap] = useState({});
-	const [allCategories, setAllCategories] = useState([]);
-	const [dataLoading, setDataLoading] = useState(true);
-	const [tiobeData, setTiobeData] = useState({});
-	const [tiobeAwards, setTiobeAwards] = useState({});
-
 	const { user } = useAuth();
 
-	const DOC_LINKS = {
-		python: "https://docs.python.org/3/",
-		java: "https://docs.oracle.com/en/java/",
-		javascript: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-		"c#": "https://learn.microsoft.com/en-us/dotnet/csharp/",
-		"c++": "https://en.cppreference.com/w/cpp",
-		c: "https://en.cppreference.com/w/c",
-		typescript: "https://www.typescriptlang.org/docs/",
-		ruby: "https://ruby-doc.org/",
-		php: "https://www.php.net/manual/en/",
-		swift: "https://docs.swift.org/swift-book/",
-		go: "https://go.dev/doc/",
-		rust: "https://doc.rust-lang.org/",
-		kotlin: "https://kotlinlang.org/docs/home.html",
-		dart: "https://dart.dev/guides",
-		sql: "https://dev.mysql.com/doc/",
-		html: "https://developer.mozilla.org/en-US/docs/Web/HTML",
-		css: "https://developer.mozilla.org/en-US/docs/Web/CSS",
-		react: "https://react.dev/",
-		angular: "https://angular.io/docs",
-		vue: "https://vuejs.org/guide/introduction.html",
-		"node.js": "https://nodejs.org/en/docs/",
-		flutter: "https://docs.flutter.dev/",
-		django: "https://docs.djangoproject.com/en/stable/",
-		flask: "https://flask.palletsprojects.com/",
-		spring: "https://spring.io/projects/spring-framework",
-		laravel: "https://laravel.com/docs",
-		tensorflow: "https://www.tensorflow.org/api_docs",
-		pytorch: "https://pytorch.org/docs/stable/index.html",
-		pandas: "https://pandas.pydata.org/docs/",
-		numpy: "https://numpy.org/doc/",
-		docker: "https://docs.docker.com/",
-		kubernetes: "https://kubernetes.io/docs/home/",
-		aws: "https://docs.aws.amazon.com/",
-		azure: "https://learn.microsoft.com/en-us/azure/",
-		gcp: "https://cloud.google.com/docs",
-	};
-
-	const getDocLink = (langName) => {
-		const name = langName.split("/")[0].split("(")[0].trim().toLowerCase();
-		return (
-			DOC_LINKS[name] ||
-			`https://devdocs.io/#q=${encodeURIComponent(name)}`
-		);
-	};
-
-	const getTiobeRank = (langName) => {
-		if (!tiobeData) return null;
-		let name = langName.split("/")[0].split("(")[0].trim().toLowerCase();
-		if (name === "flutter") name = "dart";
-		return tiobeData[name] || null;
-	};
-
-	const getTiobeAwards = (langName) => {
-		if (!tiobeAwards) return null;
-		let name = langName.split("/")[0].split("(")[0].trim().toLowerCase();
-		if (name === "flutter") name = "dart";
-		const years = tiobeAwards[name];
-		if (years && years.length > 0) {
-			return `Best in ${years[0]}`;
-		}
-		return null;
-	};
-
-	const location = useLocation();
-
-	// Filter state
-	const [filterLanguage, setFilterLanguage] = useState("");
-	const [filterEducation, setFilterEducation] = useState("");
-	const [filterPopular, setFilterPopular] = useState(false);
-	const [skillSearch, setSkillSearch] = useState("");
-	const [selectedSkills, setSelectedSkills] = useState([]);
-
-	useEffect(() => {
-		fetch("/api/careers_data")
-			.then((res) => res.json())
-			.then((data) => {
-				const flatCareers = flattenCareers(data);
-				setAllCareers(flatCareers);
-				const map = buildCategoryMap(data);
-				setCategoryMap(map);
-				setAllCategories(Object.keys(map));
-
-				setDataLoading(false);
-
-				const searchParams = new URLSearchParams(location.search);
-				const categoryParam = searchParams.get("category");
-				if (categoryParam && map[categoryParam]) {
-					setActiveCategory(categoryParam);
-				}
-				const topParam = searchParams.get("top");
-				if (topParam === "true") {
-					setFilterPopular(true);
-				}
-			})
-			.catch((err) => {
-				console.error("Failed to load careers dataset:", err);
-				setDataLoading(false);
-			});
-
-		fetch("/api/tiobe")
-			.then((res) => res.json())
-			.then((data) => {
-				if (data.rankings) setTiobeData(data.rankings);
-				if (data.awards) setTiobeAwards(data.awards);
-			})
-			.catch((err) => console.error("Failed to load TIOBE data:", err));
-	}, [location.search]);
-
-	const [query, setQuery] = useState("");
-	const [showFilters, setShowFilters] = useState(false);
-	const [selected, setSelected] = useState(null);
-	const [dropdownOpen, setDropdownOpen] = useState(false);
-	const [loading, setLoading] = useState(false);
-	const [result, setResult] = useState(null);
-	const [error, setError] = useState("");
-	const inputRef = useRef(null);
-	const dropdownRef = useRef(null);
-
-	// Category browsing state
-	const [activeCategory, setActiveCategory] = useState(null);
-	const categoryRef = useRef(null);
-
-	// Sub-field and level state
-	const [selectedSubField, setSelectedSubField] = useState(null);
-	const [selectedLanguage, setSelectedLanguage] = useState(null);
-	const [experienceLevel, setExperienceLevel] = useState("");
-
-	// New feature state
-	const [difficultyFilter, setDifficultyFilter] = useState("default");
-	const [preferPaid, setPreferPaid] = useState(null);
-	const [recommendedFields, setRecommendedFields] = useState([]);
-	const [selectedRecommendedField, setSelectedRecommendedField] = useState(null);
-	const [followUpResult, setFollowUpResult] = useState(null);
-	const [followUpLoading, setFollowUpLoading] = useState(false);
-	const [activeRoadmapTab, setActiveRoadmapTab] = useState(0);
-
-	// Save roadmap state
-	const [saveStatus, setSaveStatus] = useState("idle"); // "idle" | "saving" | "saved" | "error"
-	const [saveError, setSaveError] = useState("");
-
-	const isFilteringActive =
-		filterLanguage ||
-		filterEducation ||
-		filterPopular ||
-		skillSearch.trim() ||
-		selectedSkills.length > 0 ||
-		query.trim();
-
-	const baseCareers = useMemo(() => {
-		let sourceCareers = allCareers;
-		if (activeCategory) {
-			sourceCareers = allCareers.filter(
-				(c) => c.category === activeCategory,
-			);
-		}
-
-		if (!query.trim()) return sourceCareers;
-		const q = query.toLowerCase();
-
-		const matchingCategories = allCategories.filter((cat) =>
-			cat.toLowerCase().includes(q),
-		);
-
-		let results = [];
-
-		if (matchingCategories.length > 0) {
-			results = sourceCareers.filter(
-				(c) =>
-					matchingCategories.includes(c.category) ||
-					c.career.toLowerCase().includes(q),
-			);
-		} else {
-			results = sourceCareers.filter(
-				(c) =>
-					c.career.toLowerCase().includes(q) ||
-					c.skills.some((s) => s.toLowerCase().includes(q)) ||
-					c.languages.some((l) => l.name.toLowerCase().includes(q)),
-			);
-		}
-
-		const scoredCareers = results.map((c) => {
-			let score = 0;
-			const careerLower = c.career.toLowerCase();
-			const catLower = c.category.toLowerCase();
-
-			if (careerLower === q) score += 100;
-			else if (careerLower.startsWith(q)) score += 50;
-			else if (careerLower.includes(q)) score += 20;
-
-			if (catLower === q) score += 80;
-			else if (catLower.includes(q)) score += 40;
-
-			const exactSkill = c.skills.some((s) => s.toLowerCase() === q);
-			if (exactSkill) score += 10;
-			else if (c.skills.some((s) => s.toLowerCase().includes(q)))
-				score += 2;
-
-			const exactLang = c.languages.some(
-				(l) => l.name.toLowerCase() === q,
-			);
-			if (exactLang) score += 15;
-			else if (c.languages.some((l) => l.name.toLowerCase().includes(q)))
-				score += 3;
-
-			return { ...c, __score: score };
-		});
-
-		scoredCareers.sort((a, b) => b.__score - a.__score);
-
-		return scoredCareers;
-	}, [query, allCareers, allCategories]);
-
-	const { uniqueLanguages, uniqueEducations, topSkills } = useMemo(() => {
-		const langs = new Set();
-		const edus = new Set();
-		const skillCounts = {};
-
-		baseCareers.forEach((c) => {
-			c.languages.forEach((l) => langs.add(l.name));
-			c.sub_fields.forEach((sf) =>
-				sf.languages?.forEach((l) => langs.add(l.name)),
-			);
-			edus.add(c.education_level);
-			c.skills.forEach((s) => {
-				const cleanS = s.toLowerCase().trim();
-				skillCounts[cleanS] = (skillCounts[cleanS] || 0) + 1;
-			});
-		});
-
-		const uLangs = Array.from(langs).sort();
-		const uEdus = Array.from(edus)
-			.filter((e) => e !== "Not Specified")
-			.sort();
-
-		const tSkills = Object.entries(skillCounts)
-			.sort((a, b) => b[1] - a[1])
-			.slice(0, 20)
-			.map((s) => s[0]);
-
-		return {
-			uniqueLanguages: uLangs,
-			uniqueEducations: uEdus,
-			topSkills: tSkills,
-		};
-	}, [baseCareers]);
-
-	const filteredCareersGroupedByCategory = useMemo(() => {
-		if (!isFilteringActive) return null;
-		const grouped = {};
-
-		baseCareers.forEach((c) => {
-			let match = true;
-
-			if (filterLanguage) {
-				const hasLang =
-					c.languages.some((l) => l.name === filterLanguage) ||
-					c.sub_fields.some((sf) =>
-						sf.languages?.some((l) => l.name === filterLanguage),
-					);
-				if (!hasLang) match = false;
-			}
-
-			if (
-				match &&
-				filterEducation &&
-				c.education_level !== filterEducation
-			) {
-				match = false;
-			}
-
-			if (match && filterPopular && !c.popular_in_egypt) {
-				match = false;
-			}
-
-			if (match) {
-				const careerSkills = c.skills.map((s) => s.toLowerCase());
-
-				if (selectedSkills.length > 0) {
-					const hasAllSelectedSkills = selectedSkills.every((ss) =>
-						careerSkills.some((cs) => cs.includes(ss)),
-					);
-					if (!hasAllSelectedSkills) match = false;
-				}
-
-				if (match && skillSearch.trim()) {
-					const q = skillSearch.toLowerCase().trim();
-					const hasSkill = careerSkills.some((cs) => cs.includes(q));
-					if (!hasSkill) match = false;
-				}
-			}
-
-			if (match) {
-				if (!grouped[c.category]) grouped[c.category] = [];
-				grouped[c.category].push(c);
-			}
-		});
-		return grouped;
-	}, [
+	const {
 		allCareers,
+		categoryMap,
+		allCategories,
+		dataLoading,
+		getTiobeRank,
+		getTiobeAwards,
+		initialCategory,
+		initialPopular,
+	} = useSearchData();
+
+	const selection = useCareerSelection({ allCareers, getTiobeRank });
+	const {
+		setQuery,
+		selected,
+		selectedSubField,
+		setSelectedSubField,
+		selectedLanguage,
+		setSelectedLanguage,
+		experienceLevel,
+		setExperienceLevel,
+		preferPaid,
+		hasDirectLanguages,
+	} = selection;
+
+	const {
+		activeCategory,
+		categoryRef,
+		categoryCareers,
+		handleCategoryClick,
+	} = useCategoryBrowser({ categoryMap, initialCategory });
+
+	const {
 		filterLanguage,
+		setFilterLanguage,
 		filterEducation,
+		setFilterEducation,
 		filterPopular,
+		setFilterPopular,
 		skillSearch,
+		setSkillSearch,
 		selectedSkills,
+		setSelectedSkills,
 		isFilteringActive,
-	]);
+		filteredCareersGroupedByCategory,
+		uniqueLanguages,
+		uniqueEducations,
+		topSkills,
+	} = useCareerFilters({
+		allCareers,
+		allCategories,
+		query: selection.query,
+		activeCategory,
+	});
 
-	const filtered = useMemo(() => {
-		if (!query.trim()) return [];
-		const q = query.toLowerCase();
-		return allCareers
-			.filter(
-				(c) =>
-					c.career.toLowerCase().includes(q) ||
-					c.category.toLowerCase().includes(q),
-			)
-			.slice(0, 12);
-	}, [query, allCareers]);
+	const roadmap = useRoadmapGeneration({
+		selected,
+		selectedSubField,
+		selectedLanguage,
+		experienceLevel,
+		preferPaid,
+		hasDirectLanguages,
+		user,
+	});
+
+	const {
+		result,
+		followUpResult,
+		followUpLoading,
+		activeRoadmapTab,
+		setActiveRoadmapTab,
+		saveStatus,
+		saveError,
+		handleSaveRoadmap,
+	} = roadmap;
+
+	const filters = useCareerFilters({
+		allCareers,
+		allCategories,
+		query: selection.query,
+		activeCategory,
+	});
+	const category = useCategoryBrowser({ categoryMap, initialCategory });
 
 	useEffect(() => {
-		function handleClick(e) {
-			if (
-				dropdownRef.current &&
-				!dropdownRef.current.contains(e.target) &&
-				inputRef.current &&
-				!inputRef.current.contains(e.target)
-			) {
-				setDropdownOpen(false);
-			}
-		}
-		document.addEventListener("mousedown", handleClick);
-		return () => document.removeEventListener("mousedown", handleClick);
-	}, []);
+		if (initialPopular) setFilterPopular(true);
+	}, [initialPopular]);
 
-	useEffect(() => {
-		if (activeCategory && categoryRef.current) {
-			categoryRef.current.scrollIntoView({
-				behavior: "smooth",
-				block: "start",
-			});
-		}
-	}, [activeCategory]);
+	const [showFilters, setShowFilters] = useState(false);
 
 	const handleQueryChange = (e) => {
-		setQuery(e.target.value);
-		setSelected(null);
-		setDropdownOpen(true);
-		setResult(null);
-		setError("");
+		selection.handleQueryChange(e);
+		roadmap.reset();
 	};
 
 	const handleSelect = (careerObj) => {
-		setSelected(careerObj);
-		setQuery(careerObj.career);
-		setDropdownOpen(false);
-		setResult(null);
-		setError("");
-		setSelectedSubField(null);
-		setSelectedLanguage(null);
-		setExperienceLevel("");
-		setDifficultyFilter("default");
-		setPreferPaid(null);
-		setRecommendedFields([]);
-		setSelectedRecommendedField(null);
-		setFollowUpResult(null);
-		setActiveRoadmapTab(0);
-	};
-
-	const hasDirectLanguages =
-		selected &&
-		!selected.sub_fields?.length &&
-		selected.languages?.length > 0;
-
-	const sortedLanguages = useMemo(() => {
-		const langs = hasDirectLanguages ? [...selected.languages] : [];
-		if (difficultyFilter === "easiest")
-			langs.sort((a, b) => (a.difficulty ?? 99) - (b.difficulty ?? 99));
-		else if (difficultyFilter === "hardest")
-			langs.sort((a, b) => (b.difficulty ?? 0) - (a.difficulty ?? 0));
-		else if (difficultyFilter === "popular")
-			langs.sort(
-				(a, b) =>
-					(getTiobeRank(a.name) ?? 999) -
-					(getTiobeRank(b.name) ?? 999),
-			);
-		return langs;
-	}, [selected, hasDirectLanguages, difficultyFilter, tiobeData]);
-
-	const sortedSubFieldLanguages = useMemo(() => {
-		if (!selectedSubField?.languages?.length) return [];
-		const langs = [...selectedSubField.languages];
-		if (difficultyFilter === "easiest")
-			langs.sort((a, b) => (a.difficulty ?? 99) - (b.difficulty ?? 99));
-		else if (difficultyFilter === "hardest")
-			langs.sort((a, b) => (b.difficulty ?? 0) - (a.difficulty ?? 0));
-		else if (difficultyFilter === "popular")
-			langs.sort(
-				(a, b) =>
-					(getTiobeRank(a.name) ?? 999) -
-					(getTiobeRank(b.name) ?? 999),
-			);
-		return langs;
-	}, [selectedSubField, difficultyFilter, tiobeData]);
-
-	const fetchRecommendations = async (careerName, langName) => {
-		try {
-			const res = await fetch("http://localhost:8000/recommend_fields", {
-				method: "POST",
-				headers: { "Content-Type": "application/json" },
-				body: JSON.stringify({
-					career: careerName,
-					language: langName,
-				}),
-			});
-			if (res.ok) {
-				const data = await res.json();
-				setRecommendedFields(data.recommendations || []);
-			}
-		} catch (err) {
-			console.error("Failed to fetch recommendations:", err);
-		}
-	};
-
-	const handleGenerate = async () => {
-		if (!selected) return;
-		const hasSubFields =
-			selected.sub_fields && selected.sub_fields.length > 0;
-		const isTechEng = isTechOrEngineering(selected.category);
-		const needsLevel = hasSubFields ? !!selectedSubField : isTechEng;
-		const needsLang = hasDirectLanguages;
-
-		if (hasSubFields && !selectedSubField) return;
-		if (selectedSubField?.languages?.length > 0 && !selectedLanguage)
-			return;
-		if (needsLang && !selectedLanguage) return;
-		if (needsLevel && !experienceLevel) return;
-		if (
-			(needsLang || selectedSubField?.languages?.length > 0) &&
-			preferPaid === null
-		)
-			return;
-
-		setError("");
-		setLoading(true);
-		setResult(null);
-		setFollowUpResult(null);
-		setActiveRoadmapTab(0);
-
-		try {
-			const res = await fetch("http://localhost:8000/generate", {
-				method: "POST",
-				headers: { "Content-Type": "application/json" },
-				body: JSON.stringify({
-					answers: [],
-					careers: [selected.career],
-					category: selected.category,
-					user_summary: "",
-					experience_level: experienceLevel || "",
-					sub_field: selectedSubField?.name || "",
-					selected_language:
-						selectedLanguage?.name || selectedLanguage || "",
-					prefer_paid: preferPaid,
-				}),
-			});
-			if (!res.ok) throw new Error("Failed to generate roadmap");
-			const data = await res.json();
-			setResult(data);
-			localStorage.setItem("roadmapResult", JSON.stringify(data));
-
-			// Generate follow-up roadmap if the user selected a recommended field
-			if (selectedRecommendedField) {
-				setFollowUpLoading(true);
-				try {
-					const res2 = await fetch("http://localhost:8000/generate", {
-						method: "POST",
-						headers: { "Content-Type": "application/json" },
-						body: JSON.stringify({
-							answers: [],
-							careers: [selectedRecommendedField.field],
-							category: selected.category,
-							user_summary: "",
-							experience_level: experienceLevel || "",
-							selected_language:
-								selectedLanguage?.name ||
-								selectedLanguage ||
-								"",
-							prefer_paid: preferPaid,
-						}),
-					});
-					if (res2.ok) {
-						const data2 = await res2.json();
-						setFollowUpResult(data2);
-					}
-				} catch (err2) {
-					console.error("Follow-up roadmap error:", err2);
-				} finally {
-					setFollowUpLoading(false);
-				}
-			}
-		} catch (err) {
-			setError(err.message || "Something went wrong");
-		} finally {
-			setLoading(false);
-		}
+		selection.handleSelect(careerObj);
+		roadmap.reset();
 	};
 
 	const handleClear = () => {
+		selection.reset();
 		setQuery("");
-		setSelected(null);
-		setResult(null);
-		setError("");
-		setSelectedSubField(null);
-		setSelectedLanguage(null);
-		setExperienceLevel("");
-		setDifficultyFilter("default");
-		setPreferPaid(null);
-		setRecommendedFields([]);
-		setSelectedRecommendedField(null);
-		setFollowUpResult(null);
-		setActiveRoadmapTab(0);
-		setSaveStatus("idle");
-		setSaveError("");
-		inputRef.current?.focus();
-	};
-
-const handleSaveRoadmap = async () => {
-    if (!user || !user.id) {
-        setSaveError("You must be logged in to save a roadmap.");
-        setSaveStatus("error");
-        return;
-    }
-    if (!result) return;
-
-    setSaveStatus("saving");
-    setSaveError("");
-    try {
-        const res = await fetch("http://localhost:5000/save-roadmap", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ userId: user.id, roadmap: result }),
-        });
-        if (!res.ok) {
-            const errData = await res.json().catch(() => ({}));
-            throw new Error(errData.message || "Failed to save roadmap.");
-        }
-        setSaveStatus("saved");
-    } catch (err) {
-        setSaveError(err.message || "Something went wrong.");
-        setSaveStatus("error");
-    }
-};
-
-	const handleCategoryClick = (category) => {
-		setActiveCategory((prev) => (prev === category ? null : category));
+		roadmap.reset();
+		selection.inputRef.current?.focus();
 	};
 
 	const handleSelectFromCategory = (careerObj, category) => {
-		setSelected({ ...careerObj, category });
+		selection.handleSelect({ ...careerObj, category });
 		setQuery(careerObj.career);
-		setResult(null);
-		setError("");
-		setSelectedSubField(null);
-		setSelectedLanguage(null);
-		setExperienceLevel("");
-		setDifficultyFilter("default");
-		setPreferPaid(null);
-		setRecommendedFields([]);
-		setSelectedRecommendedField(null);
-		setFollowUpResult(null);
-		setActiveRoadmapTab(0);
+		roadmap.reset();
 		window.scrollTo({ top: 0, behavior: "smooth" });
 	};
-
-	const categoryCareers = activeCategory ? categoryMap[activeCategory] : [];
 
 	return (
 		<main className="min-h-screen">
@@ -715,827 +159,21 @@ const handleSaveRoadmap = async () => {
 			)}
 
 			{/* Search + selected card - hide once result is shown */}
-			{!dataLoading && !result && (
-				<div className="max-w-2xl mx-auto px-4 pb-12">
-					<div className="flex gap-2">
-						<div className="relative flex-1">
-							<div className="relative flex items-center bg-black/30 backdrop-blur-sm border border-purple-500/30 rounded-xl shadow-lg shadow-purple-500/10 focus-within:border-purple-400 focus-within:ring-2 focus-within:ring-purple-500/30 transition-all">
-								<svg
-									className="absolute left-4 w-5 h-5 text-purple-400 pointer-events-none"
-									fill="none"
-									stroke="currentColor"
-									viewBox="0 0 24 24"
-								>
-									<path
-										strokeLinecap="round"
-										strokeLinejoin="round"
-										strokeWidth={2}
-										d="M21 21l-4.35-4.35M17 11A6 6 0 1 1 5 11a6 6 0 0 1 12 0z"
-									/>
-								</svg>
-								<input
-									ref={inputRef}
-									type="text"
-									value={query}
-									onChange={handleQueryChange}
-									onFocus={() =>
-										query && setDropdownOpen(true)
-									}
-									placeholder="Search for a career or category..."
-									className="w-full bg-transparent pl-12 pr-12 py-4 text-gray-100 placeholder-gray-500 focus:outline-none text-base"
-								/>
-								{query && (
-									<button
-										onClick={handleClear}
-										className="absolute right-4 text-gray-500 hover:text-gray-300 transition-colors"
-									>
-										<svg
-											className="w-5 h-5"
-											fill="none"
-											stroke="currentColor"
-											viewBox="0 0 24 24"
-										>
-											<path
-												strokeLinecap="round"
-												strokeLinejoin="round"
-												strokeWidth={2}
-												d="M6 18L18 6M6 6l12 12"
-											/>
-										</svg>
-									</button>
-								)}
-							</div>
-
-							{/* Dropdown results */}
-							{dropdownOpen && filtered.length > 0 && (
-								<div
-									ref={dropdownRef}
-									className="absolute z-50 mt-2 w-full bg-black/90 backdrop-blur-md border border-purple-500/30 rounded-xl shadow-2xl shadow-purple-500/20 overflow-hidden"
-								>
-									{filtered.map((c, idx) => (
-										<button
-											key={idx}
-											onMouseDown={() => handleSelect(c)}
-											className="w-full text-left px-4 py-3 hover:bg-purple-500/20 transition-colors border-b border-purple-500/10 last:border-0 group"
-										>
-											<div className="text-gray-100 text-sm font-medium group-hover:text-white capitalize">
-												{c.career}
-											</div>
-											<div className="text-xs text-purple-400/70 mt-0.5">
-												{c.category}
-											</div>
-										</button>
-									))}
-								</div>
-							)}
-
-							{dropdownOpen &&
-								query.trim() &&
-								filtered.length === 0 && (
-									<div className="absolute z-50 mt-2 w-full bg-black/90 backdrop-blur-md border border-purple-500/30 rounded-xl shadow-xl px-4 py-4 text-gray-400 text-sm text-center">
-										No careers found for "{query}"
-									</div>
-								)}
-						</div>
-						<button
-							onClick={() => setShowFilters(!showFilters)}
-							className={`px-4 py-4 rounded-xl border transition-all flex items-center gap-2 font-medium shrink-0 ${showFilters || (isFilteringActive && !query.trim()) ? "bg-purple-500/20 border-purple-400 text-purple-200 shadow-lg shadow-purple-500/20" : "bg-black/30 border-purple-500/30 text-gray-400 hover:text-gray-200 hover:border-purple-400"}`}
-						>
-							<svg
-								className="w-5 h-5"
-								fill="none"
-								stroke="currentColor"
-								viewBox="0 0 24 24"
-							>
-								<path
-									strokeLinecap="round"
-									strokeLinejoin="round"
-									strokeWidth={2}
-									d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z"
-								/>
-							</svg>
-							<span className="hidden sm:inline">Filters</span>
-						</button>
-					</div>
-
-					{/* Selected career preview card */}
-					{selected && (
-						<div className="mt-6 bg-linear-to-br from-purple-900/20 to-transparent backdrop-blur-sm border border-purple-500/30 rounded-xl p-6 space-y-4">
-							<div>
-								<p className="text-xs text-purple-400 uppercase tracking-widest mb-1">
-									Selected Career
-								</p>
-								<h2 className="text-2xl font-bold text-gray-100 capitalize">
-									{selected.career}
-								</h2>
-								<p className="text-sm text-gray-400 mt-1">
-									{selected.category}
-								</p>
-							</div>
-
-							{selected.skills.length > 0 && (
-								<div>
-									<p className="text-xs text-purple-400 font-semibold mb-2 uppercase tracking-wider">
-										Key Skills
-									</p>
-									<div className="flex flex-wrap gap-2">
-										{selected.skills
-											.slice(0, 8)
-											.map((skill, i) => (
-												<span
-													key={i}
-													className="text-xs px-3 py-1 rounded-full border border-purple-500/30 text-gray-300 bg-purple-500/10 capitalize"
-												>
-													{skill}
-												</span>
-											))}
-										{selected.skills.length > 8 && (
-											<span className="text-xs px-3 py-1 rounded-full border border-purple-500/20 text-gray-500">
-												+{selected.skills.length - 8}{" "}
-												more
-											</span>
-										)}
-									</div>
-								</div>
-							)}
-
-							{/* Sub-field selection */}
-							{selected.sub_fields &&
-								selected.sub_fields.length > 0 && (
-									<div className="space-y-4 pt-2">
-										<div>
-											<p className="text-sm text-pink-400 font-medium mb-1 uppercase tracking-widest">
-												🎯 Choose a Specialization
-											</p>
-											<p className="text-gray-400 text-sm">
-												Narrow your roadmap to a
-												specific sub-field:
-											</p>
-										</div>
-										<div className="grid gap-3">
-											{selected.sub_fields.map(
-												(sf, idx) => (
-													<div key={idx}>
-														<button
-															onClick={() => {
-																setSelectedSubField(
-																	selectedSubField?.name ===
-																		sf.name
-																		? null
-																		: sf,
-																);
-																setSelectedLanguage(
-																	null,
-																);
-																setExperienceLevel(
-																	"",
-																);
-															}}
-															className={`w-full text-left rounded-lg px-4 py-3 border transition-all duration-150 ${
-																selectedSubField?.name ===
-																sf.name
-																	? "border-pink-500 ring-2 ring-pink-500 bg-linear-to-r from-pink-600/30 to-purple-500/30"
-																	: "border-purple-500/20 hover:border-pink-400/50 bg-purple-900/10"
-															}`}
-														>
-															<div className="font-semibold text-gray-100">
-																{sf.name}
-															</div>
-															<div className="text-sm text-gray-400 mt-1">
-																{sf.description}
-															</div>
-														</button>
-
-														{selectedSubField?.name ===
-															sf.name &&
-															sf.languages &&
-															sf.languages
-																.length > 0 && (
-																<div className="ml-4 mt-2 space-y-3">
-																	<p className="text-sm text-pink-400 font-medium uppercase tracking-widest">
-																		🗣️ Which
-																		of these
-																		languages/tools
-																		have you
-																		heard of
-																		or know
-																		about?
-																	</p>
-																	<p className="text-gray-400 text-xs">
-																		Select
-																		the one
-																		you'd
-																		like to
-																		learn.
-																		Use the
-																		filter
-																		to sort
-																		by
-																		difficulty.
-																	</p>
-																	<div className="flex items-center gap-3">
-																		<label className="text-xs text-gray-500 uppercase tracking-wider">
-																			Sort
-																			by:
-																		</label>
-																		<select
-																			value={
-																				difficultyFilter
-																			}
-																			onChange={(
-																				e,
-																			) =>
-																				setDifficultyFilter(
-																					e
-																						.target
-																						.value,
-																				)
-																			}
-																			className="bg-purple-900/30 border border-purple-500/30 rounded-lg px-3 py-1.5 text-sm text-gray-200 focus:border-purple-400 focus:outline-none focus:ring-1 focus:ring-purple-500/40 transition-all cursor-pointer"
-																		>
-																			<option value="default">
-																				Default
-																				order
-																			</option>
-																			<option value="easiest">
-																				Easiest
-																				first
-																			</option>
-																			<option value="hardest">
-																				Hardest
-																				first
-																			</option>
-																			<option value="popular">
-																				Most
-																				popular
-																				(TIOBE)
-																			</option>
-																		</select>
-																	</div>
-																	<div className="grid gap-2">
-																		{sortedSubFieldLanguages.map(
-																			(
-																				lang,
-																				lIdx,
-																			) => (
-																				<div
-																					key={
-																						lIdx
-																					}
-																					onClick={(
-																						e,
-																					) => {
-																						e.stopPropagation();
-																						setSelectedLanguage(
-																							lang,
-																						);
-																						setPreferPaid(
-																							null,
-																						);
-																						setRecommendedFields(
-																							[],
-																						);
-																						setSelectedRecommendedField(
-																							null,
-																						);
-																						fetchRecommendations(
-																							selectedSubField?.name ||
-																								selected.career,
-																							lang.name,
-																						);
-																					}}
-																					className={`cursor-pointer block rounded-lg px-4 py-3 border transition-all group ${
-																						selectedLanguage?.name ===
-																						lang.name
-																							? "border-pink-500 bg-pink-500/20 ring-1 ring-pink-500"
-																							: "border-pink-500/20 bg-purple-900/10 hover:bg-pink-500/10 hover:border-pink-400/40"
-																					}`}
-																				>
-																					<div className="flex items-center justify-between">
-																						<span
-																							className={`font-semibold text-sm ${selectedLanguage?.name === lang.name ? "text-pink-200" : "text-pink-300 group-hover:text-pink-200"}`}
-																						>
-																							{selectedLanguage?.name ===
-																							lang.name
-																								? "✅ "
-																								: "🔗 "}
-																							{
-																								lang.name
-																							}
-																							{lang.difficulty && (
-																								<span className="ml-2 text-xs text-gray-500">
-																									{"⭐".repeat(
-																										Math.min(
-																											lang.difficulty,
-																											5,
-																										),
-																									)}
-																								</span>
-																							)}
-																							{getTiobeRank(
-																								lang.name,
-																							) && (
-																								<span className="ml-2 text-xs bg-green-500/20 text-green-400 px-2 py-0.5 rounded-full border border-green-500/30">
-																									TIOBE
-																									Rank:
-																									#
-																									{getTiobeRank(
-																										lang.name,
-																									)}
-																								</span>
-																							)}
-																							{getTiobeAwards(
-																								lang.name,
-																							) && (
-																								<span className="ml-2 text-xs bg-yellow-500/20 text-yellow-400 px-2 py-0.5 rounded-full border border-yellow-500/30">
-																									🏆{" "}
-																									{getTiobeAwards(
-																										lang.name,
-																									)}
-																								</span>
-																							)}
-																						</span>
-																						<a
-																							href={getDocLink(
-																								lang.name,
-																							)}
-																							target="_blank"
-																							rel="noopener noreferrer"
-																							onClick={(
-																								e,
-																							) =>
-																								e.stopPropagation()
-																							}
-																							className="text-xs text-blue-400 hover:text-blue-300 hover:underline z-10 relative px-2 py-1 bg-blue-900/20 rounded-md border border-blue-500/20"
-																						>
-																							Documentation
-																							→
-																						</a>
-																					</div>
-																					{lang.description && (
-																						<p className="text-xs text-gray-400 mt-1 leading-relaxed">
-																							{
-																								lang.description
-																							}
-																						</p>
-																					)}
-																				</div>
-																			),
-																		)}
-																	</div>
-																	<button
-																		onClick={() => {
-																			const easiest =
-																				[
-																					...sf.languages,
-																				].sort(
-																					(
-																						a,
-																						b,
-																					) =>
-																						(a.difficulty ??
-																							99) -
-																						(b.difficulty ??
-																							99),
-																				)[0];
-																			if (
-																				easiest
-																			) {
-																				setSelectedLanguage(
-																					easiest,
-																				);
-																				setDifficultyFilter(
-																					"easiest",
-																				);
-																				setPreferPaid(
-																					null,
-																				);
-																				setRecommendedFields(
-																					[],
-																				);
-																				setSelectedRecommendedField(
-																					null,
-																				);
-																				fetchRecommendations(
-																					selectedSubField?.name ||
-																						selected.career,
-																					easiest.name,
-																				);
-																			}
-																		}}
-																		className="w-full text-left rounded-lg px-4 py-3 border border-dashed border-purple-500/30 text-gray-400 hover:border-purple-400 hover:text-gray-200 transition-all text-sm"
-																	>
-																		🤷 I
-																		haven't
-																		heard of
-																		any of
-																		these —
-																		pick the
-																		easiest
-																		for me
-																	</button>
-																</div>
-															)}
-													</div>
-												),
-											)}
-										</div>
-									</div>
-								)}
-
-							{/* Level picker */}
-							{((selected.sub_fields &&
-								selected.sub_fields.length > 0 &&
-								selectedSubField) ||
-								(!(
-									selected.sub_fields &&
-									selected.sub_fields.length > 0
-								) &&
-									isTechOrEngineering(
-										selected.category,
-									))) && (
-								<div className="space-y-3 pt-2">
-									<div>
-										<p className="text-sm text-purple-400 font-medium mb-1 uppercase tracking-widest">
-											📊 What's Your Experience Level?
-										</p>
-										<p className="text-gray-400 text-sm">
-											This determines the depth and type
-											of resources in your roadmap:
-										</p>
-									</div>
-									<div className="grid grid-cols-3 gap-3">
-										{[
-											{
-												value: "beginner",
-												emoji: "🌱",
-												label: "Beginner",
-												desc: "Just starting out",
-											},
-											{
-												value: "intermediate",
-												emoji: "🔧",
-												label: "Intermediate",
-												desc: "Can build projects",
-											},
-											{
-												value: "pro",
-												emoji: "🚀",
-												label: "Pro",
-												desc: "Deep expertise",
-											},
-										].map((lvl) => (
-											<button
-												key={lvl.value}
-												onClick={() =>
-													setExperienceLevel(
-														lvl.value,
-													)
-												}
-												className={`text-center rounded-lg px-3 py-4 border transition-all duration-150 ${
-													experienceLevel ===
-													lvl.value
-														? "border-purple-500 ring-2 ring-purple-500 bg-linear-to-r from-purple-600/30 to-pink-500/30 shadow-lg shadow-purple-500/30"
-														: "border-purple-500/20 hover:border-purple-400/50 bg-purple-900/10"
-												}`}
-											>
-												<div className="text-2xl mb-1">
-													{lvl.emoji}
-												</div>
-												<div className="font-semibold text-gray-100 text-sm">
-													{lvl.label}
-												</div>
-												<div className="text-xs text-gray-400 mt-0.5">
-													{lvl.desc}
-												</div>
-											</button>
-										))}
-									</div>
-									{experienceLevel && (
-										<p className="text-sm text-gray-400">
-											{experienceLevel === "beginner" &&
-												"You'll get a comprehensive step-by-step roadmap with beginner-friendly resources."}
-											{experienceLevel ===
-												"intermediate" &&
-												"You'll get a full roadmap with intermediate-level, project-based resources."}
-											{experienceLevel === "pro" &&
-												"You'll get an accelerated roadmap focused on advanced topics and fast job-readiness."}
-										</p>
-									)}
-								</div>
-							)}
-
-							{/* Direct Language Selection */}
-							{hasDirectLanguages && (
-								<div className="space-y-4 pt-2">
-									<div>
-										<p className="text-sm text-pink-400 font-medium mb-1 uppercase tracking-widest">
-											🗣️ Which of these languages/tools
-											have you heard of or know about?
-										</p>
-										<p className="text-gray-400 text-sm">
-											Select the one you'd like to learn.
-											If you're not sure, use the filter
-											to sort by difficulty.
-										</p>
-									</div>
-									<div className="flex items-center gap-3">
-										<label className="text-xs text-gray-500 uppercase tracking-wider">
-											Sort by difficulty:
-										</label>
-										<select
-											value={difficultyFilter}
-											onChange={(e) =>
-												setDifficultyFilter(
-													e.target.value,
-												)
-											}
-											className="bg-purple-900/30 border border-purple-500/30 rounded-lg px-3 py-1.5 text-sm text-gray-200 focus:border-purple-400 focus:outline-none focus:ring-1 focus:ring-purple-500/40 transition-all cursor-pointer"
-										>
-											<option
-												value="default"
-												className="bg-gray-900 text-gray-200"
-											>
-												Default order
-											</option>
-											<option
-												value="easiest"
-												className="bg-gray-900 text-gray-200"
-											>
-												Easiest first
-											</option>
-											<option
-												value="hardest"
-												className="bg-gray-900 text-gray-200"
-											>
-												Hardest first
-											</option>
-											<option
-												value="popular"
-												className="bg-gray-900 text-gray-200"
-											>
-												Most popular (TIOBE)
-											</option>
-										</select>
-									</div>
-									<div className="grid gap-2">
-										{sortedLanguages.map((lang, lIdx) => (
-											<div
-												key={lIdx}
-												onClick={() => {
-													setSelectedLanguage(lang);
-													setPreferPaid(null);
-													setRecommendedFields([]);
-													setSelectedRecommendedField(
-														null,
-													);
-													fetchRecommendations(
-														selected.career,
-														lang.name,
-													);
-												}}
-												className={`cursor-pointer block rounded-lg px-4 py-3 border transition-all group ${selectedLanguage?.name === lang.name ? "border-pink-500 bg-pink-500/20 ring-1 ring-pink-500" : "border-pink-500/20 bg-purple-900/10 hover:bg-pink-500/10 hover:border-pink-400/40"}`}
-											>
-												<div className="flex items-center justify-between">
-													<span
-														className={`font-semibold text-sm ${selectedLanguage?.name === lang.name ? "text-pink-200" : "text-pink-300 group-hover:text-pink-200"}`}
-													>
-														{selectedLanguage?.name ===
-														lang.name
-															? "✅ "
-															: "🔗 "}
-														{lang.name}
-														{lang.difficulty && (
-															<span className="ml-2 text-xs text-gray-500">
-																{"⭐".repeat(
-																	Math.min(
-																		lang.difficulty,
-																		5,
-																	),
-																)}
-															</span>
-														)}
-														{getTiobeRank(
-															lang.name,
-														) && (
-															<span className="ml-2 text-xs bg-green-500/20 text-green-400 px-2 py-0.5 rounded-full border border-green-500/30">
-																TIOBE Rank: #
-																{getTiobeRank(
-																	lang.name,
-																)}
-															</span>
-														)}
-														{getTiobeAwards(
-															lang.name,
-														) && (
-															<span className="ml-2 text-xs bg-yellow-500/20 text-yellow-400 px-2 py-0.5 rounded-full border border-yellow-500/30">
-																🏆{" "}
-																{getTiobeAwards(
-																	lang.name,
-																)}
-															</span>
-														)}
-													</span>
-													<a
-														href={getDocLink(
-															lang.name,
-														)}
-														target="_blank"
-														rel="noopener noreferrer"
-														onClick={(e) =>
-															e.stopPropagation()
-														}
-														className="text-xs text-blue-400 hover:text-blue-300 hover:underline z-10 relative px-2 py-1 bg-blue-900/20 rounded-md border border-blue-500/20"
-													>
-														Documentation →
-													</a>
-												</div>
-												{lang.description && (
-													<p className="text-xs text-gray-400 mt-1 leading-relaxed">
-														{lang.description}
-													</p>
-												)}
-											</div>
-										))}
-									</div>
-									<button
-										onClick={() => {
-											const easiest = [
-												...selected.languages,
-											].sort(
-												(a, b) =>
-													(a.difficulty ?? 99) -
-													(b.difficulty ?? 99),
-											)[0];
-											if (easiest) {
-												setSelectedLanguage(easiest);
-												setDifficultyFilter("easiest");
-												setPreferPaid(null);
-												setRecommendedFields([]);
-												setSelectedRecommendedField(
-													null,
-												);
-												fetchRecommendations(
-													selected.career,
-													easiest.name,
-												);
-											}
-										}}
-										className="w-full text-left rounded-lg px-4 py-3 border border-dashed border-purple-500/30 text-gray-400 hover:border-purple-400 hover:text-gray-200 transition-all text-sm"
-									>
-										🤷 I haven't heard of any of these —
-										pick the easiest for me
-									</button>
-								</div>
-							)}
-
-							{/* Paid / Free Resources Toggle */}
-							{selectedLanguage &&
-								(hasDirectLanguages ||
-									selectedSubField?.languages?.length >
-										0) && (
-									<div className="space-y-3 pt-2">
-										<div>
-											<p className="text-sm text-green-400 font-medium mb-1 uppercase tracking-widest">
-												💰 Are you willing to spend
-												money on courses?
-											</p>
-											<p className="text-gray-400 text-sm">
-												This controls whether your
-												roadmap includes paid or free
-												resources.
-											</p>
-										</div>
-										<div className="grid grid-cols-2 gap-3">
-											{[
-												{
-													value: true,
-													emoji: "💳",
-													label: "Yes, paid is fine",
-													desc: "Premium courses & certifications",
-												},
-												{
-													value: false,
-													emoji: "🆓",
-													label: "No, free only",
-													desc: "YouTube, freeCodeCamp, docs",
-												},
-											].map((opt) => (
-												<button
-													key={String(opt.value)}
-													onClick={() =>
-														setPreferPaid(opt.value)
-													}
-													className={`text-center rounded-lg px-3 py-4 border transition-all duration-150 ${preferPaid === opt.value ? "border-green-500 ring-2 ring-green-500 bg-green-500/20 shadow-lg shadow-green-500/20" : "border-purple-500/20 hover:border-green-400/50 bg-purple-900/10"}`}
-												>
-													<div className="text-2xl mb-1">
-														{opt.emoji}
-													</div>
-													<div className="font-semibold text-gray-100 text-sm">
-														{opt.label}
-													</div>
-													<div className="text-xs text-gray-400 mt-0.5">
-														{opt.desc}
-													</div>
-												</button>
-											))}
-										</div>
-									</div>
-								)}
-
-							{/* ── Recommended Fields ── */}
-							{recommendedFields.length > 0 &&
-								preferPaid !== null && (
-									<div className="space-y-4 pt-2">
-										<div>
-											<p className="text-sm text-cyan-400 font-medium mb-1 uppercase tracking-widest">
-												🔮 Fields you can pursue after
-											</p>
-											<p className="text-gray-400 text-sm">
-												Based on your choice of{" "}
-												<span className="text-pink-300 font-medium">
-													{selectedLanguage?.name}
-												</span>{" "}
-												and{" "}
-												<span className="text-purple-300 font-medium capitalize">
-													{selected.career}
-												</span>
-												, select one to also generate a roadmap for it — or skip to continue:
-											</p>
-										</div>
-										<div className="grid gap-2">
-											{recommendedFields.map(
-												(rf, idx) => (
-													<button
-														key={idx}
-														onClick={() =>
-															setSelectedRecommendedField(
-																selectedRecommendedField?.field === rf.field
-																	? null
-																	: rf,
-															)
-														}
-														className={`text-left rounded-lg px-4 py-3 border text-sm transition-all ${
-															selectedRecommendedField?.field === rf.field
-																? "border-cyan-500 ring-1 ring-cyan-500 bg-cyan-500/20"
-																: "border-cyan-500/20 bg-cyan-900/10 hover:border-cyan-400/40 hover:bg-cyan-900/20"
-														}`}
-													>
-														<div className={`font-semibold ${selectedRecommendedField?.field === rf.field ? "text-cyan-200" : "text-cyan-300"}`}>
-															{selectedRecommendedField?.field === rf.field ? "✅ " : ""}{rf.field}
-														</div>
-														<p className="text-xs text-gray-400 mt-1">
-															{rf.description}
-														</p>
-													</button>
-												),
-											)}
-										</div>
-									</div>
-								)}
-
-							{error && (
-								<p className="text-red-400 text-sm font-medium">
-									{error}
-								</p>
-							)}
-
-							<button
-								onClick={handleGenerate}
-								disabled={
-									loading ||
-									followUpLoading ||
-									(selected.sub_fields &&
-										selected.sub_fields.length > 0 &&
-										!selectedSubField) ||
-									(selectedSubField?.languages?.length > 0 &&
-										!selectedLanguage) ||
-									(hasDirectLanguages && !selectedLanguage) ||
-									(((selected.sub_fields &&
-										selected.sub_fields.length > 0 &&
-										selectedSubField) ||
-										isTechOrEngineering(
-											selected.category,
-										)) &&
-										!experienceLevel) ||
-									(selectedLanguage &&
-										(hasDirectLanguages ||
-											selectedSubField?.languages
-												?.length > 0) &&
-										preferPaid === null)
-								}
-								className="specialBtnGradient rounded-full px-8 py-3 text-white font-semibold shadow-lg shadow-purple-500/50 disabled:opacity-60 disabled:cursor-not-allowed hover:scale-105 transition-transform"
-							>
-								{loading
-									? "Generating..."
-									: followUpLoading
-										? "Generating follow-up..."
-										: "Generate Roadmap"}
-							</button>
-						</div>
-					)}
-				</div>
-			)}
+			<SearchWithResult
+				{...selection}
+				{...filters}
+				{...roadmap}
+				{...category}
+				getTiobeRank={getTiobeRank}
+				getTiobeAwards={getTiobeAwards}
+				dataLoading={dataLoading}
+				showFilters={showFilters}
+				setShowFilters={setShowFilters}
+				handleQueryChange={handleQueryChange}
+				handleSelect={handleSelect}
+				handleClear={handleClear}
+				handleSelectFromCategory={handleSelectFromCategory}
+			/>
 
 			{/* ── Filter & Category Browsing Section ── */}
 			{!dataLoading && !result && (
@@ -1590,7 +228,7 @@ const handleSaveRoadmap = async () => {
 												setFilterPopular(false);
 												setSkillSearch("");
 												setSelectedSkills([]);
-												setActiveCategory(null);
+												handleCategoryClick(null);
 											}}
 											className="w-full mb-6 py-2 bg-purple-500/10 text-pink-400 border border-purple-500/20 rounded-lg hover:bg-purple-500/20 hover:text-pink-300 transition-colors text-sm font-medium"
 										>
@@ -1829,7 +467,7 @@ const handleSaveRoadmap = async () => {
 														catName && (
 														<button
 															onClick={() => {
-																setActiveCategory(
+																handleCategoryClick(
 																	null,
 																);
 																setQuery("");
@@ -1861,7 +499,7 @@ const handleSaveRoadmap = async () => {
 															<button
 																key={i}
 																onClick={() => {
-																	setSelected(
+																	selection.handleSelect(
 																		careerObj,
 																	);
 																	setSelectedSubField(
@@ -1994,7 +632,9 @@ const handleSaveRoadmap = async () => {
 												</div>
 												<button
 													onClick={() =>
-														setActiveCategory(null)
+														handleCategoryClick(
+															null,
+														)
 													}
 													className="text-gray-500 hover:text-gray-300 transition-colors p-2 rounded-lg hover:bg-purple-500/10"
 													title="Close"
@@ -2156,20 +796,24 @@ const handleSaveRoadmap = async () => {
 							</Link>
 							<button
 								onClick={handleSaveRoadmap}
-								disabled={saveStatus === "saving" || saveStatus === "saved"}
+								disabled={
+									saveStatus === "saving" ||
+									saveStatus === "saved"
+								}
 								className={`rounded-full px-8 py-3 border font-semibold transition-all hover:scale-105
-									${saveStatus === "saved"
-										? "border-green-500 bg-green-500/20 text-green-300 cursor-default"
-										: saveStatus === "error"
-										? "border-red-500/60 bg-red-500/10 text-red-400 hover:border-red-400"
-										: "border-purple-500/40 text-gray-300 hover:border-purple-400 hover:text-white"
+									${
+										saveStatus === "saved"
+											? "border-green-500 bg-green-500/20 text-green-300 cursor-default"
+											: saveStatus === "error"
+												? "border-red-500/60 bg-red-500/10 text-red-400 hover:border-red-400"
+												: "border-purple-500/40 text-gray-300 hover:border-purple-400 hover:text-white"
 									} disabled:opacity-60 disabled:cursor-not-allowed disabled:scale-100`}
 							>
 								{saveStatus === "saving"
 									? "Saving..."
 									: saveStatus === "saved"
-									? "✅ Saved!"
-									: "💾 Save Roadmap"}
+										? "✅ Saved!"
+										: "💾 Save Roadmap"}
 							</button>
 							<button
 								onClick={handleClear}
@@ -2184,7 +828,10 @@ const handleSaveRoadmap = async () => {
 								<span>⚠️</span>
 								{saveError}
 								{saveError.includes("logged in") && (
-									<Link to="/login" className="underline text-purple-400 hover:text-purple-300 ml-1">
+									<Link
+										to="/login"
+										className="underline text-purple-400 hover:text-purple-300 ml-1"
+									>
 										Log in →
 									</Link>
 								)}

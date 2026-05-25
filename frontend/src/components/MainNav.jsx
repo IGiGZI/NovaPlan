@@ -1,14 +1,37 @@
-import { Link } from "react-router";
+import { Link, useNavigate, useLocation } from "react-router";
 import { useAuth } from "../contexts/AuthContext";
+import { useEffect, useState } from "react";
 
 // navigation UI
 function MainNav() {
 	const { user, openAuthModal, handleLogout } = useAuth();
+	const navigate = useNavigate();
+	const location = useLocation();
+
+	const [pendingScroll, setPendingScroll] = useState(null);
+
+	// Runs after every navigation — if there's a pending section, scroll to it
+	useEffect(() => {
+		if (pendingScroll && location.pathname === "/") {
+			const el = document.getElementById(pendingScroll);
+			if (el) el.scrollIntoView({ behavior: "smooth" });
+			setPendingScroll(null);
+		}
+	}, [location, pendingScroll]);
+
+	const handleSectionLink = (e, id) => {
+  e.preventDefault();
+
+  if (location.pathname === '/') {
+    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+  } else {
+    navigate('/', { state: { scrollTo: id } }); // pass section via router state
+  }
+};
 
 	return (
 		<nav className="fixed top-0 left-0 right-0 z-50 bg-black/80 backdrop-blur-md border-b border-purple-500/30">
 			<div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-				
 				{/* Logo */}
 				<Link to="/" className="flex items-center gap-2">
 					<img
@@ -23,9 +46,9 @@ function MainNav() {
 
 				{/* Desktop Nav */}
 				<div className="hidden md:flex items-center gap-8">
-					
 					<a
 						href="#about"
+						onClick={(e) => handleSectionLink(e, 'about')}
 						className="text-gray-300 hover:text-purple-400 transition-colors"
 					>
 						About
@@ -33,6 +56,7 @@ function MainNav() {
 
 					<a
 						href="#features"
+						onClick={(e) => handleSectionLink(e, 'features')}
 						className="text-gray-300 hover:text-purple-400 transition-colors"
 					>
 						Features
@@ -40,6 +64,7 @@ function MainNav() {
 
 					<a
 						href="#faq"
+						onClick={(e) => handleSectionLink(e, 'faq')}
 						className="text-gray-300 hover:text-purple-400 transition-colors"
 					>
 						FAQ
@@ -54,7 +79,10 @@ function MainNav() {
 
 					{user ? (
 						<>
-							<Link to="/profile" className="text-purple-400 font-semibold">
+							<Link
+								to="/profile"
+								className="text-purple-400 font-semibold"
+							>
 								{user.username}
 							</Link>
 
@@ -100,7 +128,6 @@ function MainNav() {
 						/>
 					</svg>
 				</button>
-
 			</div>
 		</nav>
 	);

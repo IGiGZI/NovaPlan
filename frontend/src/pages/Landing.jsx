@@ -1,35 +1,23 @@
 import { icons, FontAwesomeIcon } from "../assets";
-import { Link } from "react-router";
+import { Link, useLocation } from "react-router";
+import { CATEGORY_ICONS } from "../data/Data";
+import { useEffect } from "react";
 import MainNav from "../components/MainNav";
 
-const CATEGORY_ICONS = {
-	"Programming & Software Development": "💻",
-	"Data & Artificial Intelligence": "🤖",
-	"Cloud & IT Infrastructure": "☁️",
-	"Cybersecurity & IT Auditing": "🛡️",
-	"ICT & Business Technology": "📡",
-	"Healthcare & Medicine": "🏥",
-	"Mental Health & Social Work": "🧠",
-	"Veterinary & Animal Care": "🐾",
-	"Engineering - Civil & Construction": "🏗️",
-	"Engineering - Mechanical & Electrical": "⚙️",
-	"Engineering - Aerospace & Transportation": "🚀",
-	"Renewable & Solar Energy": "☀️",
-	"Electrical Trades": "⚡",
-	"Welding & Skilled Trades": "🔧",
-	"Aviation & Piloting": "✈️",
-	"Education & Teaching": "📚",
-	"Finance & Accounting": "💰",
-	"Business, Management & HR": "💼",
-	"Legal": "⚖️",
-	"Architecture & Urban Planning": "🏛️",
-};
-
 function Landing() {
+	const location = useLocation();
+
+	useEffect(() => {
+		if (location.state?.scrollTo) {
+			const el = document.getElementById(location.state.scrollTo);
+			if (el) el.scrollIntoView({ behavior: "smooth" });
+		}
+	}, []); // runs once on mount, after the page renders
+
 	return (
 		<main className="min-h-screen">
 			{/* Navbar */}
-			<MainNav/>
+			<MainNav />
 
 			{/* Hero Section */}
 			<div className="landingView text-center pt-32 pb-40 px-10 relative overflow-hidden">
@@ -71,9 +59,11 @@ function Landing() {
 							to={`/search?category=${encodeURIComponent(category)}&top=true`}
 							className="group box w-full border border-purple-500/30 rounded-2xl p-6 text-center hover:border-purple-400 transition-all hover:scale-[1.02] hover:shadow-lg hover:shadow-purple-500/20 bg-linear-to-br from-purple-900/20 to-transparent flex flex-col items-center justify-center gap-4 cursor-pointer"
 						>
-							<span className="text-5xl group-hover:scale-110 transition-transform">{icon}</span>
+							<span className="text-5xl group-hover:scale-110 transition-transform">
+								{icon}
+							</span>
 							<h3 className="text-lg font-bold text-gray-200">
-								Top {category.split(' & ')[0]} Careers
+								Top {category.split(" & ")[0]} Careers
 							</h3>
 						</Link>
 					))}

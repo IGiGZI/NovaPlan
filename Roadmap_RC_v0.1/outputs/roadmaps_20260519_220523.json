@@ -1,0 +1,245 @@
+{
+  "input": {
+    "answers": [],
+    "careers": [
+      "software developer"
+    ],
+    "category": "Programming & Software Development",
+    "user_summary": "",
+    "experience_level": "beginner",
+    "sub_field": "Backend Developer",
+    "selected_language": "Java",
+    "prefer_paid": false
+  },
+  "derived_skills": [],
+  "chosen_career": "software developer",
+  "roadmaps": [
+    {
+      "path_title": "Backend Developer \u2014 software developer",
+      "focus": "Beginner \u2014 Full Roadmap",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "milestones": [
+            {
+              "title": "Certification",
+              "description": "(Optional) Complete an online certificate, bootcamp, or structured course in software developer to build a strong learning foundation"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Java documentation \u2014 Backend Developer",
+              "url": "https://docs.oracle.com/en/java/"
+            },
+            {
+              "title": "Python documentation \u2014 Backend Developer",
+              "url": "https://docs.python.org/3/"
+            },
+            {
+              "title": "Node.js documentation \u2014 Backend Developer",
+              "url": "https://nodejs.org/en/docs/"
+            },
+            {
+              "title": "Go documentation \u2014 Backend Developer",
+              "url": "https://go.dev/doc/"
+            },
+            {
+              "title": "C# / .NET documentation \u2014 Backend Developer",
+              "url": "https://learn.microsoft.com/en-us/dotnet/"
+            },
+            {
+              "title": "Backend Developer (software developer) certification on Coursera",
+              "url": "https://www.coursera.org/search?query=Backend+Developer+(software+developer)+certificate"
+            },
+            {
+              "title": "Backend Developer (software developer) certification on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=Backend+Developer+(software+developer)+certificate"
+            },
+            {
+              "title": "Backend Developer (software developer) courses on edX",
+              "url": "https://www.edx.org/search?q=Backend+Developer+(software+developer)"
+            },
+            {
+              "title": "Google Certificates related to Backend Developer (software developer)",
+              "url": "https://grow.google/certificates/"
+            },
+            {
+              "title": "Backend Developer (software developer) certification guide on YouTube",
+              "url": "https://www.youtube.com/results?search_query=Backend+Developer+(software+developer)+certification+guide"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Core Skill Learning",
+              "description": "Learn the fundamentals: build a solid foundation in programming (python, java, or c++), data structures and algorithms, and version control (git) \u2014 these are the essential building blocks for a software developer"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Backend Developer (software developer) Core Skill Learning on Coursera",
+              "url": "https://www.coursera.org/search?query=Backend+Developer+(software+developer)+programming+python,+java,+or+c++"
+            },
+            {
+              "title": "Backend Developer (software developer) Core Skill Learning on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=Backend+Developer+(software+developer)+programming+python,+java,+or+c++"
+            },
+            {
+              "title": "Backend Developer (software developer) Core Skill Learning on YouTube",
+              "url": "https://www.youtube.com/results?search_query=Backend+Developer+(software+developer)+programming+python,+java,+or+c+++tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Intermediate / Advanced Skills",
+              "description": "Deepen your expertise by developing intermediate-to-advanced skills in restful api development, database management (sql), and debugging and troubleshooting, applying them through exercises and case studies"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Backend Developer (software developer) Intermediate / Advanced Skills on Coursera",
+              "url": "https://www.coursera.org/search?query=Backend+Developer+(software+developer)+programming+python,+java,+or+c++"
+            },
+            {
+              "title": "Backend Developer (software developer) Intermediate / Advanced Skills on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=Backend+Developer+(software+developer)+programming+python,+java,+or+c++"
+            },
+            {
+              "title": "Backend Developer (software developer) Intermediate / Advanced Skills on YouTube",
+              "url": "https://www.youtube.com/results?search_query=Backend+Developer+(software+developer)+programming+python,+java,+or+c+++tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Hands-on Practice",
+              "description": "Gain hands-on experience by completing software projects, open-source contributions, or technical prototypes \u2014 focus on applying programming (python, java, or c++), and data structures and algorithms in realistic scenarios"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Backend Developer (software developer) Hands-on Practice on Coursera",
+              "url": "https://www.coursera.org/search?query=Backend+Developer+(software+developer)+programming+python,+java,+or+c++"
+            },
+            {
+              "title": "Backend Developer (software developer) Hands-on Practice on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=Backend+Developer+(software+developer)+programming+python,+java,+or+c++"
+            },
+            {
+              "title": "Backend Developer (software developer) Hands-on Practice on YouTube",
+              "url": "https://www.youtube.com/results?search_query=Backend+Developer+(software+developer)+programming+python,+java,+or+c+++tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Portfolio Building",
+              "description": "Build a professional portfolio: publish your best projects on GitHub, create a personal website showcasing your work, and document your process and results"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Backend Developer (software developer) Portfolio Building on Coursera",
+              "url": "https://www.coursera.org/search?query=Backend+Developer+(software+developer)+programming+python,+java,+or+c++"
+            },
+            {
+              "title": "Backend Developer (software developer) Portfolio Building on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=Backend+Developer+(software+developer)+programming+python,+java,+or+c++"
+            },
+            {
+              "title": "Backend Developer (software developer) Portfolio Building on YouTube",
+              "url": "https://www.youtube.com/results?search_query=Backend+Developer+(software+developer)+programming+python,+java,+or+c+++tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "CV / Profile Building",
+              "description": "Prepare your professional profile: craft a targeted CV/resume highlighting your software developer skills, optimize your LinkedIn profile, and gather references or endorsements from mentors, instructors, or past collaborators"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Backend Developer (software developer) CV / Profile Building on Coursera",
+              "url": "https://www.coursera.org/search?query=Backend+Developer+(software+developer)+programming+python,+java,+or+c++"
+            },
+            {
+              "title": "Backend Developer (software developer) CV / Profile Building on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=Backend+Developer+(software+developer)+programming+python,+java,+or+c++"
+            },
+            {
+              "title": "Backend Developer (software developer) CV / Profile Building on YouTube",
+              "url": "https://www.youtube.com/results?search_query=Backend+Developer+(software+developer)+programming+python,+java,+or+c+++tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Job Application / Freelancing",
+              "description": "Apply for software developer positions on job boards, company career pages, and freelance platforms (Upwork, Fiverr, Toptal) \u2014 tailor each application to the role and be ready to showcase your portfolio in interviews"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Backend Developer (software developer) jobs on Wuzzuf",
+              "url": "https://wuzzuf.net/search/jobs/?q=Backend+Developer+(software+developer)&a=hpb"
+            },
+            {
+              "title": "Backend Developer (software developer) jobs on Forasna",
+              "url": "https://www.forasna.com/jobs/search/Backend-Developer-(software-developer)"
+            },
+            {
+              "title": "Backend Developer (software developer) jobs on LinkedIn",
+              "url": "https://www.linkedin.com/jobs/search/?keywords=Backend+Developer+(software+developer)&location=Egypt"
+            },
+            {
+              "title": "Backend Developer (software developer) jobs on Bayt.com",
+              "url": "https://www.bayt.com/en/egypt/jobs/Backend-Developer-(software-developer)-jobs/"
+            },
+            {
+              "title": "Backend Developer (software developer) jobs on Indeed Egypt",
+              "url": "https://eg.indeed.com/jobs?q=Backend+Developer+(software+developer)"
+            },
+            {
+              "title": "Backend Developer (software developer) freelance jobs on Upwork",
+              "url": "https://www.upwork.com/freelance-jobs/Backend-Developer-(software-developer)/"
+            },
+            {
+              "title": "Backend Developer (software developer) services on Fiverr",
+              "url": "https://www.fiverr.com/search/gigs?query=Backend+Developer+(software+developer)"
+            },
+            {
+              "title": "Backend Developer (software developer) projects on Mostaql",
+              "url": "https://mostaql.com/projects?keyword=Backend+Developer+(software+developer)"
+            },
+            {
+              "title": "Khamsat - Arabic Micro Services",
+              "url": "https://khamsat.com/"
+            },
+            {
+              "title": "Backend Developer (software developer) freelance on Toptal",
+              "url": "https://www.toptal.com/"
+            }
+          ],
+          "children": []
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/static/roadmaps/roadmap_1.png"
+  ]
+}
