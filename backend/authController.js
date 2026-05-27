@@ -1,5 +1,14 @@
 const User = require('./User');
 const bcrypt = require('bcryptjs');
+const jwt = require('jsonwebtoken');
+
+const generateToken = (user) => {
+    return jwt.sign(
+        { id: user._id, username: user.username },
+        process.env.JWT_SECRET,
+        { expiresIn: '7d' }
+    );
+};
 
 exports.signup = async (req, res) => {
     try {
@@ -13,10 +22,12 @@ exports.signup = async (req, res) => {
         }
         const newUser = new User({ username, email, password });
         await newUser.save();
+        const token = generateToken(newUser)
         res.status(201).json({ 
             message: "User registered successfully", 
             id: newUser._id, 
-            username: newUser.username 
+            username: newUser.username,
+            token
         });
     } catch (err) {
         res.status(500).json({ message: "Signup Error", error: err.message });
@@ -37,7 +48,8 @@ exports.login = async (req, res) => {
         res.status(200).json({ 
             message: "Login successful", 
             id: user._id, 
-            username: user.username 
+            username: user.username,
+            token: generateToken(user)
         });
     } catch (err) {
         res.status(500).json({ message: "Login Error", error: err.message });

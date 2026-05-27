@@ -2,20 +2,20 @@
   "input": {
     "answers": [],
     "careers": [
-      "web developer"
+      "embedded systems software developer"
     ],
     "category": "Programming & Software Development",
     "user_summary": "",
     "experience_level": "beginner",
     "sub_field": "",
-    "selected_language": "HTML / CSS",
-    "prefer_paid": true
+    "selected_language": "C",
+    "prefer_paid": false
   },
   "derived_skills": [],
-  "chosen_career": "web developer",
+  "chosen_career": "embedded systems software developer",
   "roadmaps": [
     {
-      "path_title": "web developer",
+      "path_title": "embedded systems software developer",
       "focus": "Beginner \u2014 Full Roadmap",
       "confidence_score": 0.8,
       "steps": [
@@ -23,29 +23,29 @@
           "milestones": [
             {
               "title": "Certification",
-              "description": "(Optional) Complete an online certificate, bootcamp, or structured course in web developer to build a strong learning foundation"
+              "description": "(Optional) Complete an online certificate, bootcamp, or structured course in embedded systems software developer to build a strong learning foundation"
             }
           ],
           "resources": [
             {
-              "title": "web developer certification on Coursera",
-              "url": "https://www.coursera.org/search?query=web+developer+certificate"
+              "title": "embedded systems software developer certification on Coursera",
+              "url": "https://www.coursera.org/search?query=embedded+systems+software+developer+certificate"
             },
             {
-              "title": "web developer certification on Udemy",
-              "url": "https://www.udemy.com/courses/search/?q=web+developer+certificate"
+              "title": "embedded systems software developer certification on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=embedded+systems+software+developer+certificate"
             },
             {
-              "title": "web developer courses on edX",
-              "url": "https://www.edx.org/search?q=web+developer"
+              "title": "embedded systems software developer courses on edX",
+              "url": "https://www.edx.org/search?q=embedded+systems+software+developer"
             },
             {
-              "title": "Google Certificates related to web developer",
+              "title": "Google Certificates related to embedded systems software developer",
               "url": "https://grow.google/certificates/"
             },
             {
-              "title": "web developer certification guide on YouTube",
-              "url": "https://www.youtube.com/results?search_query=web+developer+certification+guide"
+              "title": "embedded systems software developer certification guide on YouTube",
+              "url": "https://www.youtube.com/results?search_query=embedded+systems+software+developer+certification+guide"
             }
           ],
           "children": []
@@ -54,21 +54,21 @@
           "milestones": [
             {
               "title": "Core Skill Learning",
-              "description": "Learn the fundamentals: build a solid foundation in html, css, and javascript \u2014 these are the essential building blocks for a web developer"
+              "description": "Learn the fundamentals: build a solid foundation in c and c++ programming, microcontroller programming, and real-time operating systems (rtos) \u2014 these are the essential building blocks for a embedded systems software developer"
             }
           ],
           "resources": [
             {
-              "title": "web developer Core Skill Learning on Coursera",
-              "url": "https://www.coursera.org/search?query=web+developer+html"
+              "title": "embedded systems software developer Core Skill Learning on Coursera",
+              "url": "https://www.coursera.org/search?query=embedded+systems+software+developer+c+and+c+++programming"
             },
             {
-              "title": "web developer Core Skill Learning on Udemy",
-              "url": "https://www.udemy.com/courses/search/?q=web+developer+html"
+              "title": "embedded systems software developer Core Skill Learning on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=embedded+systems+software+developer+c+and+c+++programming"
             },
             {
-              "title": "web developer Core Skill Learning on YouTube",
-              "url": "https://www.youtube.com/results?search_query=web+developer+html+tutorial"
+              "title": "embedded systems software developer Core Skill Learning on YouTube",
+              "url": "https://www.youtube.com/results?search_query=embedded+systems+software+developer+c+and+c+++programming+tutorial"
             }
           ],
           "children": []
@@ -77,21 +77,21 @@
           "milestones": [
             {
               "title": "Intermediate / Advanced Skills",
-              "description": "Deepen your expertise by developing intermediate-to-advanced skills in responsive web design, react or vue.js, and version control (git), applying them through exercises and case studies"
+              "description": "Deepen your expertise by developing intermediate-to-advanced skills in hardware-software interfacing, assembly language basics, and debugging with jtag/gdb, applying them through exercises and case studies"
             }
           ],
           "resources": [
             {
-              "title": "web developer Intermediate / Advanced Skills on Coursera",
-              "url": "https://www.coursera.org/search?query=web+developer+html"
+              "title": "embedded systems software developer Intermediate / Advanced Skills on Coursera",
+              "url": "https://www.coursera.org/search?query=embedded+systems+software+developer+c+and+c+++programming"
             },
             {
-              "title": "web developer Intermediate / Advanced Skills on Udemy",
-              "url": "https://www.udemy.com/courses/search/?q=web+developer+html"
+              "title": "embedded systems software developer Intermediate / Advanced Skills on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=embedded+systems+software+developer+c+and+c+++programming"
             },
             {
-              "title": "web developer Intermediate / Advanced Skills on YouTube",
-              "url": "https://www.youtube.com/results?search_query=web+developer+html+tutorial"
+              "title": "embedded systems software developer Intermediate / Advanced Skills on YouTube",
+              "url": "https://www.youtube.com/results?search_query=embedded+systems+software+developer+c+and+c+++programming+tutorial"
             }
           ],
           "children": []
@@ -100,21 +100,21 @@
           "milestones": [
             {
               "title": "Hands-on Practice",
-              "description": "Gain hands-on experience by completing software projects, open-source contributions, or technical prototypes \u2014 focus on applying html, and css in realistic scenarios"
+              "description": "Gain hands-on experience by completing software projects, open-source contributions, or technical prototypes \u2014 focus on applying c and c++ programming, and microcontroller programming in realistic scenarios"
             }
           ],
           "resources": [
             {
-              "title": "web developer Hands-on Practice on Coursera",
-              "url": "https://www.coursera.org/search?query=web+developer+html"
+              "title": "embedded systems software developer Hands-on Practice on Coursera",
+              "url": "https://www.coursera.org/search?query=embedded+systems+software+developer+c+and+c+++programming"
             },
             {
-              "title": "web developer Hands-on Practice on Udemy",
-              "url": "https://www.udemy.com/courses/search/?q=web+developer+html"
+              "title": "embedded systems software developer Hands-on Practice on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=embedded+systems+software+developer+c+and+c+++programming"
             },
             {
-              "title": "web developer Hands-on Practice on YouTube",
-              "url": "https://www.youtube.com/results?search_query=web+developer+html+tutorial"
+              "title": "embedded systems software developer Hands-on Practice on YouTube",
+              "url": "https://www.youtube.com/results?search_query=embedded+systems+software+developer+c+and+c+++programming+tutorial"
             }
           ],
           "children": []
@@ -128,16 +128,16 @@
           ],
           "resources": [
             {
-              "title": "web developer Portfolio Building on Coursera",
-              "url": "https://www.coursera.org/search?query=web+developer+html"
+              "title": "embedded systems software developer Portfolio Building on Coursera",
+              "url": "https://www.coursera.org/search?query=embedded+systems+software+developer+c+and+c+++programming"
             },
             {
-              "title": "web developer Portfolio Building on Udemy",
-              "url": "https://www.udemy.com/courses/search/?q=web+developer+html"
+              "title": "embedded systems software developer Portfolio Building on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=embedded+systems+software+developer+c+and+c+++programming"
             },
             {
-              "title": "web developer Portfolio Building on YouTube",
-              "url": "https://www.youtube.com/results?search_query=web+developer+html+tutorial"
+              "title": "embedded systems software developer Portfolio Building on YouTube",
+              "url": "https://www.youtube.com/results?search_query=embedded+systems+software+developer+c+and+c+++programming+tutorial"
             }
           ],
           "children": []
@@ -146,21 +146,21 @@
           "milestones": [
             {
               "title": "CV / Profile Building",
-              "description": "Prepare your professional profile: craft a targeted CV/resume highlighting your web developer skills, optimize your LinkedIn profile, and gather references or endorsements from mentors, instructors, or past collaborators"
+              "description": "Prepare your professional profile: craft a targeted CV/resume highlighting your embedded systems software developer skills, optimize your LinkedIn profile, and gather references or endorsements from mentors, instructors, or past collaborators"
             }
           ],
           "resources": [
             {
-              "title": "web developer CV / Profile Building on Coursera",
-              "url": "https://www.coursera.org/search?query=web+developer+html"
+              "title": "embedded systems software developer CV / Profile Building on Coursera",
+              "url": "https://www.coursera.org/search?query=embedded+systems+software+developer+c+and+c+++programming"
             },
             {
-              "title": "web developer CV / Profile Building on Udemy",
-              "url": "https://www.udemy.com/courses/search/?q=web+developer+html"
+              "title": "embedded systems software developer CV / Profile Building on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=embedded+systems+software+developer+c+and+c+++programming"
             },
             {
-              "title": "web developer CV / Profile Building on YouTube",
-              "url": "https://www.youtube.com/results?search_query=web+developer+html+tutorial"
+              "title": "embedded systems software developer CV / Profile Building on YouTube",
+              "url": "https://www.youtube.com/results?search_query=embedded+systems+software+developer+c+and+c+++programming+tutorial"
             }
           ],
           "children": []
@@ -169,48 +169,48 @@
           "milestones": [
             {
               "title": "Job Application / Freelancing",
-              "description": "Apply for web developer positions on job boards, company career pages, and freelance platforms (Upwork, Fiverr, Toptal) \u2014 tailor each application to the role and be ready to showcase your portfolio in interviews"
+              "description": "Apply for embedded systems software developer positions on job boards, company career pages, and freelance platforms (Upwork, Fiverr, Toptal) \u2014 tailor each application to the role and be ready to showcase your portfolio in interviews"
             }
           ],
           "resources": [
             {
-              "title": "web developer jobs on Wuzzuf",
-              "url": "https://wuzzuf.net/search/jobs/?q=web+developer&a=hpb"
+              "title": "embedded systems software developer jobs on Wuzzuf",
+              "url": "https://wuzzuf.net/search/jobs/?q=embedded+systems+software+developer&a=hpb"
             },
             {
-              "title": "web developer jobs on Forasna",
-              "url": "https://www.forasna.com/jobs/search/web-developer"
+              "title": "embedded systems software developer jobs on Forasna",
+              "url": "https://www.forasna.com/jobs/search/embedded-systems-software-developer"
             },
             {
-              "title": "web developer jobs on LinkedIn",
-              "url": "https://www.linkedin.com/jobs/search/?keywords=web+developer&location=Egypt"
+              "title": "embedded systems software developer jobs on LinkedIn",
+              "url": "https://www.linkedin.com/jobs/search/?keywords=embedded+systems+software+developer&location=Egypt"
             },
             {
-              "title": "web developer jobs on Bayt.com",
-              "url": "https://www.bayt.com/en/egypt/jobs/web-developer-jobs/"
+              "title": "embedded systems software developer jobs on Bayt.com",
+              "url": "https://www.bayt.com/en/egypt/jobs/embedded-systems-software-developer-jobs/"
             },
             {
-              "title": "web developer jobs on Indeed Egypt",
-              "url": "https://eg.indeed.com/jobs?q=web+developer"
+              "title": "embedded systems software developer jobs on Indeed Egypt",
+              "url": "https://eg.indeed.com/jobs?q=embedded+systems+software+developer"
             },
             {
-              "title": "web developer freelance jobs on Upwork",
-              "url": "https://www.upwork.com/freelance-jobs/web-developer/"
+              "title": "embedded systems software developer freelance jobs on Upwork",
+              "url": "https://www.upwork.com/freelance-jobs/embedded-systems-software-developer/"
             },
             {
-              "title": "web developer services on Fiverr",
-              "url": "https://www.fiverr.com/search/gigs?query=web+developer"
+              "title": "embedded systems software developer services on Fiverr",
+              "url": "https://www.fiverr.com/search/gigs?query=embedded+systems+software+developer"
             },
             {
-              "title": "web developer projects on Mostaql",
-              "url": "https://mostaql.com/projects?keyword=web+developer"
+              "title": "embedded systems software developer projects on Mostaql",
+              "url": "https://mostaql.com/projects?keyword=embedded+systems+software+developer"
             },
             {
               "title": "Khamsat - Arabic Micro Services",
               "url": "https://khamsat.com/"
             },
             {
-              "title": "web developer freelance on Toptal",
+              "title": "embedded systems software developer freelance on Toptal",
               "url": "https://www.toptal.com/"
             }
           ],

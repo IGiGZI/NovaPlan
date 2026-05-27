@@ -9,6 +9,16 @@ const authRoutes = require('./authRoutes');
 
 const app = express();
 
+app.use(express.json({ limit: '10mb' })); // ← increase from default 100kb
+
+app.use(express.json({ limit: '10mb' }));
+app.use((err, req, res, next) => {
+    if (err.type === 'entity.too.large') {
+        return res.status(413).json({ message: 'Payload too large' });
+    }
+    next(err);
+});
+
 app.use(cors());
 app.use(express.json());
 
@@ -52,3 +62,4 @@ const NODE_PORT = 5000;
 app.listen(NODE_PORT, () => {
     console.log(`Node.js Server running on: http://127.0.0.1:${NODE_PORT}`);
 });
+

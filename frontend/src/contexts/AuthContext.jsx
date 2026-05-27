@@ -1,4 +1,3 @@
-/* eslint-disable react-refresh/only-export-components */
 import { createContext, useContext, useState, useEffect } from "react";
 
 const AuthContext = createContext(null);
@@ -7,15 +6,41 @@ export function AuthProvider({ children }) {
 	const [user, setUser] = useState(null);
 	const [showAuthModal, setShowAuthModal] = useState(false);
 	const [authMode, setAuthMode] = useState("login");
-	const [formData, setFormData] = useState({ username: "", email: "", password: "" });
+	const [formData, setFormData] = useState({
+		username: "",
+		email: "",
+		password: "",
+	});
 	const [loading, setLoading] = useState(false);
 	const [error, setError] = useState("");
 
 	useEffect(() => {
-		const storedUser = localStorage.getItem("user");
-		if (storedUser) {
-			setUser(JSON.parse(storedUser));
-		}
+		const token = localStorage.getItem("token");
+		if (!token) return; // no token, stay logged out
+
+		const verifyToken = async () => {
+			try {
+				const response = await fetch(
+					"http://localhost:5000/api/auth/me",
+					{
+						headers: { Authorization: `Bearer ${token}` },
+					},
+				);
+				if (response.ok) {
+					const data = await response.json();
+					setUser({ username: data.username, id: data.id });
+				} else {
+					// token invalid or expired — clean up
+					localStorage.removeItem("token");
+					setUser(null);
+				}
+			} catch {
+				localStorage.removeItem("token");
+				setUser(null);
+			}
+		};
+
+		verifyToken();
 	}, []);
 
 	const openAuthModal = (mode) => {
@@ -34,32 +59,34 @@ export function AuthProvider({ children }) {
 	const handleInputChange = (e) => {
 		setFormData({
 			...formData,
-			[e.target.name]: e.target.value
+			[e.target.name]: e.target.value,
 		});
 	};
 
-	// --- تعديل دالة Login لاستقبال الـ ID ---
 	const handleLogin = async () => {
 		setLoading(true);
 		setError("");
-		
+
 		try {
-			const response = await fetch("http://localhost:5000/api/auth/login", {
-				method: "POST",
-				headers: { "Content-Type": "application/json" },
-				body: JSON.stringify({
-					email: formData.email,
-					password: formData.password
-				})
-			});
+			const response = await fetch(
+				"http://localhost:5000/api/auth/login",
+				{
+					method: "POST",
+					headers: { "Content-Type": "application/json" },
+					body: JSON.stringify({
+						email: formData.email,
+						password: formData.password,
+					}),
+				},
+			);
 
 			const data = await response.json();
 
 			if (response.ok) {
-				// هنا أضفنا الـ id اللي جاي من الباك إند
-				const userData = { username: data.username, id: data.id }; 
+				const userData = { username: data.username, id: data.id };
 				setUser(userData);
-				localStorage.setItem("user", JSON.stringify(userData));
+				localStorage.setItem("token", data.token);
+				localStorage.removeItem("user");
 				closeAuthModal();
 			} else {
 				setError(data.message || "Login failed");
@@ -72,29 +99,31 @@ export function AuthProvider({ children }) {
 		}
 	};
 
-	// --- تعديل دالة Signup لاستقبال الـ ID ---
 	const handleSignup = async () => {
 		setLoading(true);
 		setError("");
-		
+
 		try {
-			const response = await fetch("http://localhost:5000/api/auth/signup", {
-				method: "POST",
-				headers: { "Content-Type": "application/json" },
-				body: JSON.stringify({
-					username: formData.username,
-					email: formData.email,
-					password: formData.password
-				})
-			});
+			const response = await fetch(
+				"http://localhost:5000/api/auth/signup",
+				{
+					method: "POST",
+					headers: { "Content-Type": "application/json" },
+					body: JSON.stringify({
+						username: formData.username,
+						email: formData.email,
+						password: formData.password,
+					}),
+				},
+			);
 
 			const data = await response.json();
 
 			if (response.ok) {
-				// نفس الشيء هنا، نخزن البيانات مع الـ ID
 				const userData = { username: data.username, id: data.id };
 				setUser(userData);
-				localStorage.setItem("user", JSON.stringify(userData));
+				localStorage.setItem("token", data.token);
+				localStorage.removeItem("user")
 				closeAuthModal();
 			} else {
 				setError(data.message || "Signup failed");
@@ -109,7 +138,7 @@ export function AuthProvider({ children }) {
 
 	const handleLogout = () => {
 		setUser(null);
-		localStorage.removeItem("user");
+		localStorage.removeItem("token");
 	};
 
 	const handleSubmit = (e) => {
@@ -133,13 +162,11 @@ export function AuthProvider({ children }) {
 		handleInputChange,
 		handleSubmit,
 		handleLogout,
-		setAuthMode
+		setAuthMode,
 	};
 
 	return (
-		<AuthContext.Provider value={value}>
-			{children}
-		</AuthContext.Provider>
+		<AuthContext.Provider value={value}>{children}</AuthContext.Provider>
 	);
 }
 
