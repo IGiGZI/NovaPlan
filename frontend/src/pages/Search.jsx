@@ -804,7 +804,7 @@ function Search() {
 									${
 										saveStatus === "saved"
 											? "border-green-500 bg-green-500/20 text-green-300 cursor-default"
-											: saveStatus === "error"
+											: saveStatus === "error" || saveStatus === "already_saved"
 												? "border-red-500/60 bg-red-500/10 text-red-400 hover:border-red-400"
 												: "border-purple-500/40 text-gray-300 hover:border-purple-400 hover:text-white"
 									} disabled:opacity-60 disabled:cursor-not-allowed disabled:scale-100`}
@@ -813,7 +813,9 @@ function Search() {
 									? "Saving..."
 									: saveStatus === "saved"
 										? "✅ Saved!"
-										: "💾 Save Roadmap"}
+										: saveStatus === "already_saved"
+											? "🔄 Already Saved!"
+											: "💾 Save Roadmap"}
 							</button>
 							<button
 								onClick={handleClear}
@@ -840,6 +842,11 @@ function Search() {
 						{saveStatus === "saved" && (
 							<p className="mt-3 text-sm text-green-400">
 								Roadmap saved to your profile successfully.
+							</p>
+						)}
+						{saveStatus === "already_saved" && (
+							<p className="mt-3 text-sm text-blue-400">
+								Roadmap is already saved to your profile.
 							</p>
 						)}
 					</div>

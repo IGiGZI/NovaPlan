@@ -1,0 +1,237 @@
+{
+  "input": {
+    "answers": [],
+    "careers": [
+      "data scientist"
+    ],
+    "category": "Data & Artificial Intelligence",
+    "user_summary": "",
+    "experience_level": "beginner",
+    "sub_field": "Computer Vision Engineer",
+    "selected_language": "Python (OpenCV)",
+    "prefer_paid": false
+  },
+  "derived_skills": [],
+  "chosen_career": "data scientist",
+  "roadmaps": [
+    {
+      "path_title": "Computer Vision Engineer \u2014 data scientist",
+      "focus": "Beginner \u2014 Full Roadmap",
+      "confidence_score": 0.8,
+      "steps": [
+        {
+          "milestones": [
+            {
+              "title": "Certification",
+              "description": "(Optional) Complete an online certificate, bootcamp, or structured course in data scientist to build a strong learning foundation"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Python (OpenCV) documentation \u2014 Computer Vision Engineer",
+              "url": "https://docs.opencv.org/master/d6/d00/tutorial_py_root.html"
+            },
+            {
+              "title": "Python (PyTorch Vision) documentation \u2014 Computer Vision Engineer",
+              "url": "https://pytorch.org/vision/stable/index.html"
+            },
+            {
+              "title": "Python (TensorFlow) documentation \u2014 Computer Vision Engineer",
+              "url": "https://www.tensorflow.org/api_docs/python/tf"
+            },
+            {
+              "title": "Computer Vision Engineer (data scientist) certification on Coursera",
+              "url": "https://www.coursera.org/search?query=Computer+Vision+Engineer+(data+scientist)+certificate"
+            },
+            {
+              "title": "Computer Vision Engineer (data scientist) certification on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=Computer+Vision+Engineer+(data+scientist)+certificate"
+            },
+            {
+              "title": "Computer Vision Engineer (data scientist) courses on edX",
+              "url": "https://www.edx.org/search?q=Computer+Vision+Engineer+(data+scientist)"
+            },
+            {
+              "title": "Google Certificates related to Computer Vision Engineer (data scientist)",
+              "url": "https://grow.google/certificates/"
+            },
+            {
+              "title": "Computer Vision Engineer (data scientist) certification guide on YouTube",
+              "url": "https://www.youtube.com/results?search_query=Computer+Vision+Engineer+(data+scientist)+certification+guide"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Core Skill Learning",
+              "description": "Learn the fundamentals: build a solid foundation in python (pandas, numpy, scikit-learn), machine learning algorithms, and statistical modelling \u2014 these are the essential building blocks for a data scientist"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Computer Vision Engineer (data scientist) Core Skill Learning on Coursera",
+              "url": "https://www.coursera.org/search?query=Computer+Vision+Engineer+(data+scientist)+python+pandas,+numpy,+scikit-learn"
+            },
+            {
+              "title": "Computer Vision Engineer (data scientist) Core Skill Learning on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=Computer+Vision+Engineer+(data+scientist)+python+pandas,+numpy,+scikit-learn"
+            },
+            {
+              "title": "Computer Vision Engineer (data scientist) Core Skill Learning on YouTube",
+              "url": "https://www.youtube.com/results?search_query=Computer+Vision+Engineer+(data+scientist)+python+pandas,+numpy,+scikit-learn+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Intermediate / Advanced Skills",
+              "description": "Deepen your expertise by developing intermediate-to-advanced skills in data visualisation, sql and databases, and feature engineering, applying them through exercises and case studies"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Computer Vision Engineer (data scientist) Intermediate / Advanced Skills on Coursera",
+              "url": "https://www.coursera.org/search?query=Computer+Vision+Engineer+(data+scientist)+python+pandas,+numpy,+scikit-learn"
+            },
+            {
+              "title": "Computer Vision Engineer (data scientist) Intermediate / Advanced Skills on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=Computer+Vision+Engineer+(data+scientist)+python+pandas,+numpy,+scikit-learn"
+            },
+            {
+              "title": "Computer Vision Engineer (data scientist) Intermediate / Advanced Skills on YouTube",
+              "url": "https://www.youtube.com/results?search_query=Computer+Vision+Engineer+(data+scientist)+python+pandas,+numpy,+scikit-learn+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Hands-on Practice",
+              "description": "Gain hands-on experience by completing data analysis projects, research studies, or analytical reports using real-world datasets \u2014 focus on applying python (pandas, numpy, scikit-learn), and machine learning algorithms in realistic scenarios"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Computer Vision Engineer (data scientist) Hands-on Practice on Coursera",
+              "url": "https://www.coursera.org/search?query=Computer+Vision+Engineer+(data+scientist)+python+pandas,+numpy,+scikit-learn"
+            },
+            {
+              "title": "Computer Vision Engineer (data scientist) Hands-on Practice on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=Computer+Vision+Engineer+(data+scientist)+python+pandas,+numpy,+scikit-learn"
+            },
+            {
+              "title": "Computer Vision Engineer (data scientist) Hands-on Practice on YouTube",
+              "url": "https://www.youtube.com/results?search_query=Computer+Vision+Engineer+(data+scientist)+python+pandas,+numpy,+scikit-learn+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Portfolio Building",
+              "description": "Build a portfolio of analytical projects: publish notebooks on Kaggle or GitHub, create data visualizations, and document your methodology and findings"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Computer Vision Engineer (data scientist) Portfolio Building on Coursera",
+              "url": "https://www.coursera.org/search?query=Computer+Vision+Engineer+(data+scientist)+python+pandas,+numpy,+scikit-learn"
+            },
+            {
+              "title": "Computer Vision Engineer (data scientist) Portfolio Building on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=Computer+Vision+Engineer+(data+scientist)+python+pandas,+numpy,+scikit-learn"
+            },
+            {
+              "title": "Computer Vision Engineer (data scientist) Portfolio Building on YouTube",
+              "url": "https://www.youtube.com/results?search_query=Computer+Vision+Engineer+(data+scientist)+python+pandas,+numpy,+scikit-learn+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "CV / Profile Building",
+              "description": "Prepare your professional profile: craft a targeted CV/resume highlighting your data scientist skills, optimize your LinkedIn profile, and gather references or endorsements from mentors, instructors, or past collaborators"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Computer Vision Engineer (data scientist) CV / Profile Building on Coursera",
+              "url": "https://www.coursera.org/search?query=Computer+Vision+Engineer+(data+scientist)+python+pandas,+numpy,+scikit-learn"
+            },
+            {
+              "title": "Computer Vision Engineer (data scientist) CV / Profile Building on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=Computer+Vision+Engineer+(data+scientist)+python+pandas,+numpy,+scikit-learn"
+            },
+            {
+              "title": "Computer Vision Engineer (data scientist) CV / Profile Building on YouTube",
+              "url": "https://www.youtube.com/results?search_query=Computer+Vision+Engineer+(data+scientist)+python+pandas,+numpy,+scikit-learn+tutorial"
+            }
+          ],
+          "children": []
+        },
+        {
+          "milestones": [
+            {
+              "title": "Job Application / Freelancing",
+              "description": "Apply for data scientist positions through job boards, company career pages, professional networks, and industry-specific platforms \u2014 tailor each application and prepare to discuss your hands-on experience and portfolio in interviews"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Computer Vision Engineer (data scientist) jobs on Wuzzuf",
+              "url": "https://wuzzuf.net/search/jobs/?q=Computer+Vision+Engineer+(data+scientist)&a=hpb"
+            },
+            {
+              "title": "Computer Vision Engineer (data scientist) jobs on Forasna",
+              "url": "https://www.forasna.com/jobs/search/Computer-Vision-Engineer-(data-scientist)"
+            },
+            {
+              "title": "Computer Vision Engineer (data scientist) jobs on LinkedIn",
+              "url": "https://www.linkedin.com/jobs/search/?keywords=Computer+Vision+Engineer+(data+scientist)&location=Egypt"
+            },
+            {
+              "title": "Computer Vision Engineer (data scientist) jobs on Bayt.com",
+              "url": "https://www.bayt.com/en/egypt/jobs/Computer-Vision-Engineer-(data-scientist)-jobs/"
+            },
+            {
+              "title": "Computer Vision Engineer (data scientist) jobs on Indeed Egypt",
+              "url": "https://eg.indeed.com/jobs?q=Computer+Vision+Engineer+(data+scientist)"
+            },
+            {
+              "title": "Computer Vision Engineer (data scientist) freelance jobs on Upwork",
+              "url": "https://www.upwork.com/freelance-jobs/Computer-Vision-Engineer-(data-scientist)/"
+            },
+            {
+              "title": "Computer Vision Engineer (data scientist) services on Fiverr",
+              "url": "https://www.fiverr.com/search/gigs?query=Computer+Vision+Engineer+(data+scientist)"
+            },
+            {
+              "title": "Computer Vision Engineer (data scientist) projects on Mostaql",
+              "url": "https://mostaql.com/projects?keyword=Computer+Vision+Engineer+(data+scientist)"
+            },
+            {
+              "title": "Khamsat - Arabic Micro Services",
+              "url": "https://khamsat.com/"
+            },
+            {
+              "title": "Computer Vision Engineer (data scientist) freelance on Toptal",
+              "url": "https://www.toptal.com/"
+            }
+          ],
+          "children": []
+        }
+      ]
+    }
+  ],
+  "images": [
+    "/static/roadmaps/roadmap_1.png"
+  ]
+}

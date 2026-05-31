@@ -613,9 +613,9 @@ export function useRoadmapGeneration({
   const [saveStatus, setSaveStatus] = useState("idle");
   const [saveError, setSaveError] = useState("");
 
-function isTechOrEngineering(category) {
-  return TECH_ENG_CATEGORIES.has(category);
-}
+  function isTechOrEngineering(category) {
+    return TECH_ENG_CATEGORIES.has(category);
+  }
 
   // ─── Reset ───────────────────────────────────────────────────────────
   // Called from handleClear in the component alongside selection.reset().
@@ -738,13 +738,23 @@ function isTechOrEngineering(category) {
     setSaveStatus("saving");
     setSaveError("");
     try {
+      const token = localStorage.getItem("token"); // or wherever you store it
+
       const res = await fetch("http://localhost:5000/api/auth/save-roadmap", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ userId: user.id, roadmap: result }),
+        headers: {
+          "Content-Type": "application/json",
+          "Authorization": `Bearer ${token}`,  // ✅ add this
+        },
+        body: JSON.stringify({ roadmap: result }),  // userId no longer needed in body
       });
+
       if (!res.ok) {
         const errData = await res.json().catch(() => ({}));
+        if (res.status === 409) {
+          setSaveStatus("already_saved");
+          return;
+        }
         throw new Error(errData.message || "Failed to save roadmap.");
       }
       setSaveStatus("saved");
@@ -800,42 +810,42 @@ function isTechOrEngineering(category) {
  *   handleCategoryClick   - toggles a category open/closed
  */
 export function useCategoryBrowser({ categoryMap, initialCategory }) {
-	const [activeCategory, setActiveCategory] = useState(null);
-	const categoryRef = useRef(null);
+  const [activeCategory, setActiveCategory] = useState(null);
+  const categoryRef = useRef(null);
 
-	// ─── Seed from URL param ─────────────────────────────────────────────
-	// Runs once when categoryMap finishes loading (it starts as {}).
-	// Only sets activeCategory if the param actually exists in the data.
+  // ─── Seed from URL param ─────────────────────────────────────────────
+  // Runs once when categoryMap finishes loading (it starts as {}).
+  // Only sets activeCategory if the param actually exists in the data.
 
-	useEffect(() => {
-		if (initialCategory && categoryMap[initialCategory]) {
-			setActiveCategory(initialCategory);
-		}
-	}, [initialCategory, categoryMap]);
+  useEffect(() => {
+    if (initialCategory && categoryMap[initialCategory]) {
+      setActiveCategory(initialCategory);
+    }
+  }, [initialCategory, categoryMap]);
 
-	// ─── Scroll into view ────────────────────────────────────────────────
+  // ─── Scroll into view ────────────────────────────────────────────────
 
-	useEffect(() => {
-		if (activeCategory && categoryRef.current) {
-			categoryRef.current.scrollIntoView({
-				behavior: "smooth",
-				block: "start",
-			});
-		}
-	}, [activeCategory]);
+  useEffect(() => {
+    if (activeCategory && categoryRef.current) {
+      categoryRef.current.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
+  }, [activeCategory]);
 
-	// ─── Handlers ────────────────────────────────────────────────────────
+  // ─── Handlers ────────────────────────────────────────────────────────
 
-	const handleCategoryClick = (category) => {
-		setActiveCategory((prev) => (prev === category ? null : category));
-	};
+  const handleCategoryClick = (category) => {
+    setActiveCategory((prev) => (prev === category ? null : category));
+  };
 
-	const categoryCareers = activeCategory ? categoryMap[activeCategory] ?? [] : [];
+  const categoryCareers = activeCategory ? categoryMap[activeCategory] ?? [] : [];
 
-	return {
-		activeCategory,
-		categoryRef,
-		categoryCareers,
-		handleCategoryClick,
-	};
+  return {
+    activeCategory,
+    categoryRef,
+    categoryCareers,
+    handleCategoryClick,
+  };
 }
