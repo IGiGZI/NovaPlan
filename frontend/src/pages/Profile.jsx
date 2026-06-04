@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import MainNav from "../components/MainNav";
 import { useAuth } from "../contexts/AuthContext";
+import { Link, useNavigate } from "react-router";
 
 function Avatar({ username }) {
 	const initials = username ? username.slice(0, 2).toUpperCase() : "??";
@@ -42,7 +43,7 @@ function RoadmapCard({ roadmap, onClick, onDelete }) {
 		try {
 			const token = localStorage.getItem("token");
 			const res = await fetch(
-				`http://localhost:5000/api/auth/roadmap/${roadmap._id}`,
+				`${import.meta.env.VITE_API_URL}/api/auth/roadmap/${roadmap._id}`,
 				{
 					method: "DELETE",
 					headers: { Authorization: `Bearer ${token}` },
@@ -55,6 +56,8 @@ function RoadmapCard({ roadmap, onClick, onDelete }) {
 			setDeleting(false);
 		}
 	};
+
+	
 
 	return (
 		<div
@@ -105,48 +108,78 @@ function RoadmapCard({ roadmap, onClick, onDelete }) {
 
 function EmptyRoadmapCard() {
 	return (
-		<div className="group relative flex flex-col items-center justify-center rounded-xl border border-dashed border-purple-500/30 bg-purple-900/10 hover:border-purple-400/50 hover:bg-purple-900/20 transition-all duration-300 min-h-40 cursor-pointer">
-			<div className="w-10 h-10 rounded-full bg-purple-900/40 border border-purple-500/30 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
-				<svg
-					className="w-5 h-5 text-purple-400"
-					fill="none"
-					stroke="currentColor"
-					viewBox="0 0 24 24"
-				>
-					<path
-						strokeLinecap="round"
-						strokeLinejoin="round"
-						strokeWidth={1.5}
-						d="M12 4v16m8-8H4"
-					/>
-				</svg>
+		<Link to="/fetch">
+			<div className="group relative flex flex-col items-center justify-center rounded-xl border border-dashed border-purple-500/30 bg-purple-900/10 hover:border-purple-400/50 hover:bg-purple-900/20 transition-all duration-300 min-h-40 cursor-pointer">
+				<div className="w-10 h-10 rounded-full bg-purple-900/40 border border-purple-500/30 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
+					<svg
+						className="w-5 h-5 text-purple-400"
+						fill="none"
+						stroke="currentColor"
+						viewBox="0 0 24 24"
+					>
+						<path
+							strokeLinecap="round"
+							strokeLinejoin="round"
+							strokeWidth={1.5}
+							d="M12 4v16m8-8H4"
+						/>
+					</svg>
+				</div>
+				<p className="text-sm text-gray-500 group-hover:text-gray-400 transition-colors">
+					Generate your first roadmap
+				</p>
 			</div>
-			<p className="text-sm text-gray-500 group-hover:text-gray-400 transition-colors">
-				Generate your first roadmap
-			</p>
-		</div>
+		</Link>
 	);
 }
 
+
+
+
 export default function Profile() {
-	const { user, handleLogout } = useAuth();
+	const { user, handleLogout, authLoading } = useAuth();
 	const [activeTab, setActiveTab] = useState("roadmaps");
 	const [roadmaps, setRoadmaps] = useState([]);
 	const [roadmapsLoading, setRoadmapsLoading] = useState(true);
 	const [roadmapsError, setRoadmapsError] = useState("");
 	const [selectedRoadmap, setSelectedRoadmap] = useState(null);
 
+	const navigate = useNavigate();
+
 	const handleDelete = (deletedId) => {
 		setRoadmaps((prev) => prev.filter((r) => r._id !== deletedId));
 		setSelectedRoadmap((prev) => (prev?._id === deletedId ? null : prev));
 	};
+
+	const handleDeleteAccount = async () => {
+    const confirmed = window.confirm("Are you sure you want to delete your account? This cannot be undone.");
+    if (!confirmed) return;
+
+    try {
+        const token = localStorage.getItem("token");
+        const res = await fetch(`${import.meta.env.VITE_API_URL}/api/auth/delete-account`, {
+            method: "DELETE",
+            headers: { Authorization: `Bearer ${token}` },
+        });
+				navigate('/')
+        if (!res.ok) throw new Error("Failed to delete account.");
+        handleLogoutSequence(); // clear token and redirect
+    } catch (err) {
+        console.error(err.message);
+    }
+};
+
+	function handleLogoutSequence(){
+		handleLogout()
+		navigate('/')
+	}
 
 	useEffect(() => {
 		const fetchRoadmaps = async () => {
 			try {
 				const token = localStorage.getItem("token");
 				const res = await fetch(
-					"http://localhost:5000/api/auth/my-roadmaps",
+					`${import.meta.env.VITE_API_URL}/api/auth/my-roadmaps`,
 					{
 						headers: { Authorization: `Bearer ${token}` },
 					},
@@ -164,16 +197,32 @@ export default function Profile() {
 		if (user?.id) fetchRoadmaps();
 	}, [user?.id]);
 
+	// for old users and new users
+	const getJoinDate = () => {
+    if (user?.createdAt) {
+        return new Date(user.createdAt).toLocaleDateString("en-US", { year: "numeric", month: "long" });
+    }
+    if (user?.id) {
+        // Extract timestamp from MongoDB ObjectId
+        const timestamp = parseInt(user.id.substring(0, 8), 16) * 1000;
+        return new Date(timestamp).toLocaleDateString("en-US", { year: "numeric", month: "long" });
+    }
+    return "Unknown";
+};
+
 	const userDetails = {
-		username: user?.username || "Anonymous",
-		email: user?.email || "Not provided",
-		joinDate: "March 2025",
-	};
+    username: user?.username || "Anonymous",
+    email: user?.email || "Not provided",
+    joinDate: getJoinDate(),
+};
 
 	const tabs = [
 		{ id: "roadmaps", label: "My Roadmaps", icon: "🗺️" },
 		{ id: "settings", label: "Settings", icon: "⚙️" },
 	];
+
+	
+	if (authLoading) return null;
 
 	return (
 		<main className="min-h-screen">
@@ -237,7 +286,7 @@ export default function Profile() {
 									d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"
 								/>
 							</svg>
-							Logout
+							<Link to="/">Logout</Link>
 						</button>
 					</div>
 
@@ -280,12 +329,12 @@ export default function Profile() {
 									here
 								</p>
 							</div>
-							<a
-								href="/fetching"
+							<Link
+								to="/search"
 								className="specialBtnGradient rounded-full px-5 py-2 text-white text-sm font-semibold shadow-lg shadow-purple-500/30 hover:scale-105 transition-transform"
 							>
-								+ New Roadmap
-							</a>
+								+ Add a new roadmap
+							</Link>
 						</div>
 
 						{/* Loading */}
@@ -360,12 +409,12 @@ export default function Profile() {
 											quiz and we'll build a personalized
 											roadmap just for you.
 										</p>
-										<a
-											href="/fetching"
+										<Link
+											to="/fetch"
 											className="mt-4 text-purple-400 hover:text-purple-300 text-sm font-medium underline underline-offset-4 transition-colors"
 										>
 											Start the career quiz →
-										</a>
+										</Link>
 									</div>
 								</>
 							)}
@@ -527,9 +576,6 @@ export default function Profile() {
 									<span className="text-gray-300 flex-1">
 										{userDetails.username}
 									</span>
-									<span className="text-xs text-gray-600 bg-purple-900/40 px-2 py-1 rounded">
-										Coming soon
-									</span>
 								</div>
 							</div>
 
@@ -566,10 +612,10 @@ export default function Profile() {
 									Danger Zone
 								</p>
 								<button
-									disabled
-									className="rounded-lg px-5 py-2.5 border border-red-500/20 text-red-400/50 text-sm cursor-not-allowed"
+									className="rounded-lg px-5 py-2.5 border border-red-500/30 text-red-400 hover:bg-red-500/10 hover:border-red-400 transition-all text-sm cursor-pointer"
+									onClick={handleDeleteAccount}
 								>
-									Delete Account (Coming Soon)
+									Delete Account
 								</button>
 							</div>
 						</div>

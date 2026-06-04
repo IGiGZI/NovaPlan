@@ -29,6 +29,11 @@ function MainNav() {
   }
 };
 
+function logoutSequence(){
+	handleLogout()
+	navigate('/')
+}
+
 	return (
 		<nav className="fixed top-0 left-0 right-0 z-50 bg-black/80 backdrop-blur-md border-b border-purple-500/30">
 			<div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
@@ -87,7 +92,7 @@ function MainNav() {
 							</Link>
 
 							<button
-								onClick={handleLogout}
+								onClick={logoutSequence}
 								className="specialBtnGradient rounded-full px-5 py-2 text-sm font-medium hover:scale-105 transition-transform"
 							>
 								Logout

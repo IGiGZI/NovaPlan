@@ -2,20 +2,20 @@
   "input": {
     "answers": [],
     "careers": [
-      "mobile application developer"
+      "video game & software retail specialist"
     ],
     "category": "Programming & Software Development",
     "user_summary": "",
     "experience_level": "beginner",
     "sub_field": "",
-    "selected_language": "Flutter / Dart",
-    "prefer_paid": false
+    "selected_language": "",
+    "prefer_paid": null
   },
   "derived_skills": [],
-  "chosen_career": "mobile application developer",
+  "chosen_career": "video game & software retail specialist",
   "roadmaps": [
     {
-      "path_title": "mobile application developer",
+      "path_title": "video game & software retail specialist",
       "focus": "Beginner \u2014 Full Roadmap",
       "confidence_score": 0.8,
       "steps": [
@@ -23,29 +23,29 @@
           "milestones": [
             {
               "title": "Certification",
-              "description": "(Optional) Complete an online certificate, bootcamp, or structured course in mobile application development to build a strong learning foundation"
+              "description": "(Optional) Complete an online certificate, bootcamp, or structured course in video game & software retail specialist to build a strong learning foundation"
             }
           ],
           "resources": [
             {
-              "title": "mobile application developer certification on Coursera",
-              "url": "https://www.coursera.org/search?query=mobile+application+developer+certificate"
+              "title": "video game & software retail specialist certification on Coursera",
+              "url": "https://www.coursera.org/search?query=video+game+&+software+retail+specialist+certificate"
             },
             {
-              "title": "mobile application developer certification on Udemy",
-              "url": "https://www.udemy.com/courses/search/?q=mobile+application+developer+certificate"
+              "title": "video game & software retail specialist certification on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=video+game+&+software+retail+specialist+certificate"
             },
             {
-              "title": "mobile application developer courses on edX",
-              "url": "https://www.edx.org/search?q=mobile+application+developer"
+              "title": "video game & software retail specialist courses on edX",
+              "url": "https://www.edx.org/search?q=video+game+&+software+retail+specialist"
             },
             {
-              "title": "Google Certificates related to mobile application developer",
+              "title": "Google Certificates related to video game & software retail specialist",
               "url": "https://grow.google/certificates/"
             },
             {
-              "title": "mobile application developer certification guide on YouTube",
-              "url": "https://www.youtube.com/results?search_query=mobile+application+developer+certification+guide"
+              "title": "video game & software retail specialist certification guide on YouTube",
+              "url": "https://www.youtube.com/results?search_query=video+game+&+software+retail+specialist+certification+guide"
             }
           ],
           "children": []
@@ -54,21 +54,21 @@
           "milestones": [
             {
               "title": "Core Skill Learning",
-              "description": "Learn the fundamentals: build a solid foundation in android development (kotlin, java), ios development (swift, swiftui), and cross-platform frameworks (react native, flutter) \u2014 these are the essential building blocks for a mobile application developer"
+              "description": "Learn the fundamentals: build a solid foundation in product knowledge of software and video games, customer service, and sales techniques \u2014 these are the essential building blocks for a video game & software retail specialist"
             }
           ],
           "resources": [
             {
-              "title": "mobile application developer Core Skill Learning on Coursera",
-              "url": "https://www.coursera.org/search?query=mobile+application+developer+android+development+kotlin,+java"
+              "title": "video game & software retail specialist Core Skill Learning on Coursera",
+              "url": "https://www.coursera.org/search?query=video+game+&+software+retail+specialist+product+knowledge+of+software+and+video+games"
             },
             {
-              "title": "mobile application developer Core Skill Learning on Udemy",
-              "url": "https://www.udemy.com/courses/search/?q=mobile+application+developer+android+development+kotlin,+java"
+              "title": "video game & software retail specialist Core Skill Learning on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=video+game+&+software+retail+specialist+product+knowledge+of+software+and+video+games"
             },
             {
-              "title": "mobile application developer Core Skill Learning on YouTube",
-              "url": "https://www.youtube.com/results?search_query=mobile+application+developer+android+development+kotlin,+java+tutorial"
+              "title": "video game & software retail specialist Core Skill Learning on YouTube",
+              "url": "https://www.youtube.com/results?search_query=video+game+&+software+retail+specialist+product+knowledge+of+software+and+video+games+tutorial"
             }
           ],
           "children": []
@@ -77,21 +77,21 @@
           "milestones": [
             {
               "title": "Intermediate / Advanced Skills",
-              "description": "Deepen your expertise by developing intermediate-to-advanced skills in mobile ui/ux design principles, restful api integration, and mobile app architecture (mvvm, clean architecture), applying them through exercises and case studies"
+              "description": "Deepen your expertise by developing intermediate-to-advanced skills in operate point-of-sale systems, stock management, and advise customers on product selection, applying them through exercises and case studies"
             }
           ],
           "resources": [
             {
-              "title": "mobile application developer Intermediate / Advanced Skills on Coursera",
-              "url": "https://www.coursera.org/search?query=mobile+application+developer+android+development+kotlin,+java"
+              "title": "video game & software retail specialist Intermediate / Advanced Skills on Coursera",
+              "url": "https://www.coursera.org/search?query=video+game+&+software+retail+specialist+product+knowledge+of+software+and+video+games"
             },
             {
-              "title": "mobile application developer Intermediate / Advanced Skills on Udemy",
-              "url": "https://www.udemy.com/courses/search/?q=mobile+application+developer+android+development+kotlin,+java"
+              "title": "video game & software retail specialist Intermediate / Advanced Skills on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=video+game+&+software+retail+specialist+product+knowledge+of+software+and+video+games"
             },
             {
-              "title": "mobile application developer Intermediate / Advanced Skills on YouTube",
-              "url": "https://www.youtube.com/results?search_query=mobile+application+developer+android+development+kotlin,+java+tutorial"
+              "title": "video game & software retail specialist Intermediate / Advanced Skills on YouTube",
+              "url": "https://www.youtube.com/results?search_query=video+game+&+software+retail+specialist+product+knowledge+of+software+and+video+games+tutorial"
             }
           ],
           "children": []
@@ -100,21 +100,21 @@
           "milestones": [
             {
               "title": "Hands-on Practice",
-              "description": "Gain hands-on experience by building and publishing mobile apps \u2014 focus on applying android development (kotlin, java) or ios development (swift, swiftui) in realistic scenarios"
+              "description": "Gain hands-on experience by completing real sales campaigns, marketing strategies, or customer engagement projects \u2014 focus on applying product knowledge of software and video games, and customer service in realistic scenarios"
             }
           ],
           "resources": [
             {
-              "title": "mobile application developer Hands-on Practice on Coursera",
-              "url": "https://www.coursera.org/search?query=mobile+application+developer+android+development+kotlin,+java"
+              "title": "video game & software retail specialist Hands-on Practice on Coursera",
+              "url": "https://www.coursera.org/search?query=video+game+&+software+retail+specialist+product+knowledge+of+software+and+video+games"
             },
             {
-              "title": "mobile application developer Hands-on Practice on Udemy",
-              "url": "https://www.udemy.com/courses/search/?q=mobile+application+developer+android+development+kotlin,+java"
+              "title": "video game & software retail specialist Hands-on Practice on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=video+game+&+software+retail+specialist+product+knowledge+of+software+and+video+games"
             },
             {
-              "title": "mobile application developer Hands-on Practice on YouTube",
-              "url": "https://www.youtube.com/results?search_query=mobile+application+developer+android+development+kotlin,+java+tutorial"
+              "title": "video game & software retail specialist Hands-on Practice on YouTube",
+              "url": "https://www.youtube.com/results?search_query=video+game+&+software+retail+specialist+product+knowledge+of+software+and+video+games+tutorial"
             }
           ],
           "children": []
@@ -123,21 +123,21 @@
           "milestones": [
             {
               "title": "Portfolio Building",
-              "description": "Build a professional portfolio: publish your apps on the Google Play Store or Apple App Store, showcase your projects on GitHub, and document your development process"
+              "description": "Build a professional portfolio: publish your best projects on GitHub, create a personal website showcasing your work, and document your process and results"
             }
           ],
           "resources": [
             {
-              "title": "mobile application developer Portfolio Building on Coursera",
-              "url": "https://www.coursera.org/search?query=mobile+application+developer+android+development+kotlin,+java"
+              "title": "video game & software retail specialist Portfolio Building on Coursera",
+              "url": "https://www.coursera.org/search?query=video+game+&+software+retail+specialist+product+knowledge+of+software+and+video+games"
             },
             {
-              "title": "mobile application developer Portfolio Building on Udemy",
-              "url": "https://www.udemy.com/courses/search/?q=mobile+application+developer+android+development+kotlin,+java"
+              "title": "video game & software retail specialist Portfolio Building on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=video+game+&+software+retail+specialist+product+knowledge+of+software+and+video+games"
             },
             {
-              "title": "mobile application developer Portfolio Building on YouTube",
-              "url": "https://www.youtube.com/results?search_query=mobile+application+developer+android+development+kotlin,+java+tutorial"
+              "title": "video game & software retail specialist Portfolio Building on YouTube",
+              "url": "https://www.youtube.com/results?search_query=video+game+&+software+retail+specialist+product+knowledge+of+software+and+video+games+tutorial"
             }
           ],
           "children": []
@@ -146,21 +146,21 @@
           "milestones": [
             {
               "title": "CV / Profile Building",
-              "description": "Prepare your professional profile: craft a targeted CV/resume highlighting your mobile application developer skills, optimize your LinkedIn profile, and gather references or endorsements from mentors, instructors, or past collaborators"
+              "description": "Prepare your professional profile: craft a targeted CV/resume highlighting your video game & software retail specialist skills, optimize your LinkedIn profile, and gather references or endorsements from mentors, instructors, or past collaborators"
             }
           ],
           "resources": [
             {
-              "title": "mobile application developer CV / Profile Building on Coursera",
-              "url": "https://www.coursera.org/search?query=mobile+application+developer+android+development+kotlin,+java"
+              "title": "video game & software retail specialist CV / Profile Building on Coursera",
+              "url": "https://www.coursera.org/search?query=video+game+&+software+retail+specialist+product+knowledge+of+software+and+video+games"
             },
             {
-              "title": "mobile application developer CV / Profile Building on Udemy",
-              "url": "https://www.udemy.com/courses/search/?q=mobile+application+developer+android+development+kotlin,+java"
+              "title": "video game & software retail specialist CV / Profile Building on Udemy",
+              "url": "https://www.udemy.com/courses/search/?q=video+game+&+software+retail+specialist+product+knowledge+of+software+and+video+games"
             },
             {
-              "title": "mobile application developer CV / Profile Building on YouTube",
-              "url": "https://www.youtube.com/results?search_query=mobile+application+developer+android+development+kotlin,+java+tutorial"
+              "title": "video game & software retail specialist CV / Profile Building on YouTube",
+              "url": "https://www.youtube.com/results?search_query=video+game+&+software+retail+specialist+product+knowledge+of+software+and+video+games+tutorial"
             }
           ],
           "children": []
@@ -169,48 +169,48 @@
           "milestones": [
             {
               "title": "Job Application / Freelancing",
-              "description": "Apply for mobile application developer positions on job boards, company career pages, and freelance platforms (Upwork, Fiverr, Toptal) \u2014 tailor each application to the role and be ready to showcase your portfolio in interviews"
+              "description": "Apply for video game & software retail specialist positions through job boards, company career pages, professional networks, and industry-specific platforms \u2014 tailor each application and prepare to discuss your hands-on experience and portfolio in interviews"
             }
           ],
           "resources": [
             {
-              "title": "mobile application developer jobs on Wuzzuf",
-              "url": "https://wuzzuf.net/search/jobs/?q=mobile+application+developer&a=hpb"
+              "title": "video game & software retail specialist jobs on Wuzzuf",
+              "url": "https://wuzzuf.net/search/jobs/?q=video+game+&+software+retail+specialist&a=hpb"
             },
             {
-              "title": "mobile application developer jobs on Forasna",
-              "url": "https://www.forasna.com/jobs/search/mobile-application-developer"
+              "title": "video game & software retail specialist jobs on Forasna",
+              "url": "https://www.forasna.com/jobs/search/video-game-&-software-retail-specialist"
             },
             {
-              "title": "mobile application developer jobs on LinkedIn",
-              "url": "https://www.linkedin.com/jobs/search/?keywords=mobile+application+developer&location=Egypt"
+              "title": "video game & software retail specialist jobs on LinkedIn",
+              "url": "https://www.linkedin.com/jobs/search/?keywords=video+game+&+software+retail+specialist&location=Egypt"
             },
             {
-              "title": "mobile application developer jobs on Bayt.com",
-              "url": "https://www.bayt.com/en/egypt/jobs/mobile-application-developer-jobs/"
+              "title": "video game & software retail specialist jobs on Bayt.com",
+              "url": "https://www.bayt.com/en/egypt/jobs/video-game-&-software-retail-specialist-jobs/"
             },
             {
-              "title": "mobile application developer jobs on Indeed Egypt",
-              "url": "https://eg.indeed.com/jobs?q=mobile+application+developer"
+              "title": "video game & software retail specialist jobs on Indeed Egypt",
+              "url": "https://eg.indeed.com/jobs?q=video+game+&+software+retail+specialist"
             },
             {
-              "title": "mobile application developer freelance jobs on Upwork",
-              "url": "https://www.upwork.com/freelance-jobs/mobile-application-developer/"
+              "title": "video game & software retail specialist freelance jobs on Upwork",
+              "url": "https://www.upwork.com/freelance-jobs/video-game-&-software-retail-specialist/"
             },
             {
-              "title": "mobile application developer services on Fiverr",
-              "url": "https://www.fiverr.com/search/gigs?query=mobile+application+developer"
+              "title": "video game & software retail specialist services on Fiverr",
+              "url": "https://www.fiverr.com/search/gigs?query=video+game+&+software+retail+specialist"
             },
             {
-              "title": "mobile application developer projects on Mostaql",
-              "url": "https://mostaql.com/projects?keyword=mobile+application+developer"
+              "title": "video game & software retail specialist projects on Mostaql",
+              "url": "https://mostaql.com/projects?keyword=video+game+&+software+retail+specialist"
             },
             {
               "title": "Khamsat - Arabic Micro Services",
               "url": "https://khamsat.com/"
             },
             {
-              "title": "mobile application developer freelance on Toptal",
+              "title": "video game & software retail specialist freelance on Toptal",
               "url": "https://www.toptal.com/"
             }
           ],

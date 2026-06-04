@@ -6,6 +6,7 @@ const jwt = require('jsonwebtoken');
 const { signup, login, updateUser, deleteUser } = require('./authController');
 const Roadmap = require('./saveRoadmap');
 const protect = require('./authMiddleware'); // ← import middleware
+const User = require('./User')
 
 router.post('/signup', signup);
 router.post('/login', login);
@@ -42,13 +43,12 @@ router.post('/save-roadmap', protect, async (req, res) => {
 });
 
 
-router.delete('/roadmap/:id', protect, async (req, res) => {
+router.delete('/delete-account', protect, async (req, res) => {
     try {
-        const roadmap = await Roadmap.findOneAndDelete({ _id: req.params.id, userId: req.user.id });
-        if (!roadmap) {
-            return res.status(404).json({ success: false, message: 'Roadmap not found.' });
-        }
-        res.status(200).json({ success: true, message: 'Roadmap deleted.' });
+        const userId = req.user.id;
+        await Roadmap.deleteMany({ userId }); // delete all their roadmaps first
+        await User.findByIdAndDelete(userId);
+        res.status(200).json({ success: true, message: 'Account deleted.' });
     } catch (err) {
         res.status(500).json({ success: false, error: err.message });
     }
@@ -65,14 +65,15 @@ router.get('/my-roadmaps', protect, async (req, res) => {
     }
 });
 
-router.get('/me', (req, res) => {
+router.get('/me', async (req, res) => {
     const authHeader = req.headers.authorization;
     if (!authHeader) return res.status(401).json({ message: 'No token' });
 
     const token = authHeader.split(' ')[1];
     try {
         const decoded = jwt.verify(token, process.env.JWT_SECRET);
-        res.status(200).json({ id: decoded.id, username: decoded.username });
+        const user = await User.findById(decoded.id).select('username email createdAt');
+        res.status(200).json({ id: user._id, username: user.username, email: user.email, createdAt: user.createdAt });
     } catch {
         res.status(401).json({ message: 'Invalid or expired token' });
     }

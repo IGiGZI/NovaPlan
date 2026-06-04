@@ -12,36 +12,41 @@ export function AuthProvider({ children }) {
 		password: "",
 	});
 	const [loading, setLoading] = useState(false);
+	const [authLoading, setAuthLoading] = useState(true);
 	const [error, setError] = useState("");
 
+
+
 	useEffect(() => {
-		const token = localStorage.getItem("token");
-		if (!token) return; // no token, stay logged out
+    const token = localStorage.getItem("token");
+    if (!token) {
+        setAuthLoading(false); // 👈 no token, done loading
+        return;
+    }
 
-		const verifyToken = async () => {
-			try {
-				const response = await fetch(
-					"http://localhost:5000/api/auth/me",
-					{
-						headers: { Authorization: `Bearer ${token}` },
-					},
-				);
-				if (response.ok) {
-					const data = await response.json();
-					setUser({ username: data.username, id: data.id });
-				} else {
-					// token invalid or expired — clean up
-					localStorage.removeItem("token");
-					setUser(null);
-				}
-			} catch {
-				localStorage.removeItem("token");
-				setUser(null);
-			}
-		};
+    const verifyToken = async () => {
+        try {
+            const response = await fetch(
+                `${import.meta.env.VITE_API_URL}/api/auth/me`,
+                { headers: { Authorization: `Bearer ${token}` } }
+            );
+            if (response.ok) {
+                const data = await response.json();
+                setUser({ username: data.username, id: data.id, email: data.email, createdAt: data.createdAt });
+            } else {
+                localStorage.removeItem("token");
+                setUser(null);
+            }
+        } catch {
+            localStorage.removeItem("token");
+            setUser(null);
+        } finally {
+            setAuthLoading(false); // 👈 done either way
+        }
+    };
 
-		verifyToken();
-	}, []);
+    verifyToken();
+}, []);
 
 	const openAuthModal = (mode) => {
 		setAuthMode(mode);
@@ -69,7 +74,7 @@ export function AuthProvider({ children }) {
 
 		try {
 			const response = await fetch(
-				"http://localhost:5000/api/auth/login",
+				`${import.meta.env.VITE_API_URL}/api/auth/login`,
 				{
 					method: "POST",
 					headers: { "Content-Type": "application/json" },
@@ -83,7 +88,7 @@ export function AuthProvider({ children }) {
 			const data = await response.json();
 
 			if (response.ok) {
-				const userData = { username: data.username, id: data.id };
+				const userData = { username: data.username, id: data.id, email: data.email };
 				setUser(userData);
 				localStorage.setItem("token", data.token);
 				localStorage.removeItem("user");
@@ -105,7 +110,7 @@ export function AuthProvider({ children }) {
 
 		try {
 			const response = await fetch(
-				"http://localhost:5000/api/auth/signup",
+				`${import.meta.env.VITE_API_URL}/api/auth/signup`,
 				{
 					method: "POST",
 					headers: { "Content-Type": "application/json" },
@@ -120,7 +125,7 @@ export function AuthProvider({ children }) {
 			const data = await response.json();
 
 			if (response.ok) {
-				const userData = { username: data.username, id: data.id };
+				const userData = { username: data.username, id: data.id, email: data.email };
 				setUser(userData);
 				localStorage.setItem("token", data.token);
 				localStorage.removeItem("user")
@@ -157,6 +162,7 @@ export function AuthProvider({ children }) {
 		formData,
 		loading,
 		error,
+		authLoading,
 		openAuthModal,
 		closeAuthModal,
 		handleInputChange,
