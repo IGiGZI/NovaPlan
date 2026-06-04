@@ -1,0 +1,40 @@
+name: career_path_app
+description: A simple dark-mode Career Path UI converted from Figma (Android focused)
+publish_to: "none"
+version: 0.0.1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  http: ^1.6.0 
+  url_launcher: ^6.2.5
+  timeline_tile: ^2.0.0
+  shared_preferences: ^2.2.0
+  auto_size_text: ^3.0.0
+  flutter_dotenv: ^5.1.0
+  shimmer: ^3.0.0
+  flutter:
+    sdk: flutter
+  google_fonts: ^5.0.0
+  translator: ^1.0.4+1
+
+dev_dependencies:
+  flutter_lints: ^2.0.0  
+  flutter_launcher_icons: ^0.13.1 
+  flutter_test:
+    sdk: flutter
+
+# إعدادات الأيقونات تم جعلها عنصر رئيسي مستقل في أول السطر لتجنب الأخطاء
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: false
+  image_path: "assets/images/logoFinal.png" 
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/questions.json
+    - assets/careers.json
+    - assets/categorized_careers_by_education.json

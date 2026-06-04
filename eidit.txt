@@ -1,0 +1,68 @@
+
+  Future<void> submitAnswers() async {
+    setState(() {
+      isSubmitting = true;
+    });
+
+    try {
+      List<Map<String, dynamic>> formattedAnswers = answers.values.toList();
+
+      debugPrint('Sending answers to server: ${json.encode({'answers': formattedAnswers})}');
+
+      final response = await http.post(
+        Uri.parse(Config.generateEndpoint),
+        headers: {'Content-Type': 'application/json'},
+        body: json.encode({'answers': formattedAnswers}),
+      );
+debugPrint('Server response body: ${response.body}');
+      debugPrint('Server response status: ${response.statusCode}');
+      debugPrint('Server response body: ${response.body}');
+
+      if (response.statusCode == 200) {
+        final result = json.decode(response.body);
+
+        debugPrint('Decoded server response: $result');
+
+        // قراءة البيانات بشكل مرن لتجنب Unknown
+        String recommendedField = 'Unknown';
+        double confidence = 0.0;
+
+        if (result is Map<String, dynamic>) {
+          recommendedField = result['recommended_field'] ??
+                             result['field'] ??
+                             (result['data']?['recommended_field']) ??
+                             'Unknown';
+          confidence = (result['confidence'] ??
+                        (result['data']?['confidence']) ??
+                        0.0).toDouble();
+        }
+
+        if (!mounted) return; // حماية الـ context بعد async
+        showDialog(
+          context: context,
+          builder: (_) => AlertDialog(
+            title: const Text('Recommended Field'),
+            content: Text('$recommendedField\nConfidence: ${confidence.toStringAsFixed(2)}'),
+            actions: [
+              TextButton(
+                onPressed: () => Navigator.of(context).pop(),
+                child: const Text('OK'),
+              ),
+            ],
+          ),
+        );
+      } else {
+        if (!mounted) return;
+        showError('Error from backend: ${response.body}');
+      }
+    } catch (e) {
+      if (!mounted) return;
+      showError('Failed to submit answers: $e');
+    } finally {
+      if (mounted) {
+        setState(() {
+          isSubmitting = false;
+        });
+      }
+    }
+  }
