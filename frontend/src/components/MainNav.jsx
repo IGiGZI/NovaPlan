@@ -36,17 +36,15 @@ function logoutSequence(){
 
 	return (
 		<nav className="fixed top-0 left-0 right-0 z-50 bg-black/80 backdrop-blur-md border-b border-purple-500/30">
-			<div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+			<div className="max-w-7xl mx-auto px-6  flex items-center justify-between h-24">
 				{/* Logo */}
 				<Link to="/" className="flex items-center gap-2">
 					<img
 						src="/logoFinal.png"
 						alt="NovaPlan"
-						className="h-10 w-10 object-contain"
+						className="h-40 w-40 object-contain shrink-0"
 					/>
-					<span className="text-xl font-bold bg-linear-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-						NovaPlan
-					</span>
+					
 				</Link>
 
 				{/* Desktop Nav */}
