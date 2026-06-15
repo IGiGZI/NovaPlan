@@ -17,7 +17,7 @@ export const CATEGORY_ICONS = {
   "Education & Teaching": "📚",
   "Finance & Accounting": "💰",
   "Business, Management & HR": "💼",
-  Legal: "⚖️",
+  "Legal": "⚖️",
   "Architecture & Urban Planning": "🏛️",
 };
 

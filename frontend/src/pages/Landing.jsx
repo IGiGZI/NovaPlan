@@ -14,6 +14,21 @@ function Landing() {
 		}
 	}, []); // runs once on mount, after the page renders
 
+	const HIDDEN_HOME_CATEGORIES = [
+		"Cybersecurity & IT Auditing",
+		"Mental Health & Social Work",
+		"Engineering - Aerospace & Transportation",
+		"Renewable & Solar Energy",
+		"Electrical Trades",
+		"Welding & Skilled Trades",
+		"Aviation & Piloting",
+		"Legal"
+	];
+
+	const homeCategories = Object.entries(CATEGORY_ICONS).filter(
+		([category]) => !HIDDEN_HOME_CATEGORIES.includes(category),
+	);
+
 	return (
 		<main className="min-h-screen">
 			{/* Navbar */}
@@ -53,7 +68,7 @@ function Landing() {
 					Explore Top Careers
 				</h2>
 				<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-					{Object.entries(CATEGORY_ICONS).map(([category, icon]) => (
+					{homeCategories.map(([category, icon]) => (
 						<Link
 							key={category}
 							to={`/search?category=${encodeURIComponent(category)}&top=true`}

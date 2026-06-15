@@ -15,38 +15,41 @@ export function AuthProvider({ children }) {
 	const [authLoading, setAuthLoading] = useState(true);
 	const [error, setError] = useState("");
 
-
-
 	useEffect(() => {
-    const token = localStorage.getItem("token");
-    if (!token) {
-        setAuthLoading(false); // 👈 no token, done loading
-        return;
-    }
+		const token = localStorage.getItem("token");
+		if (!token) {
+			setAuthLoading(false); // 👈 no token, done loading
+			return;
+		}
 
-    const verifyToken = async () => {
-        try {
-            const response = await fetch(
-                `${import.meta.env.VITE_API_URL}/api/auth/me`,
-                { headers: { Authorization: `Bearer ${token}` } }
-            );
-            if (response.ok) {
-                const data = await response.json();
-                setUser({ username: data.username, id: data.id, email: data.email, createdAt: data.createdAt });
-            } else {
-                localStorage.removeItem("token");
-                setUser(null);
-            }
-        } catch {
-            localStorage.removeItem("token");
-            setUser(null);
-        } finally {
-            setAuthLoading(false); // 👈 done either way
-        }
-    };
+		const verifyToken = async () => {
+			try {
+				const response = await fetch(
+					`${import.meta.env.VITE_API_URL}/api/auth/me`,
+					{ headers: { Authorization: `Bearer ${token}` } },
+				);
+				if (response.ok) {
+					const data = await response.json();
+					setUser({
+						username: data.username,
+						id: data.id,
+						email: data.email,
+						createdAt: data.createdAt,
+					});
+				} else {
+					localStorage.removeItem("token");
+					setUser(null);
+				}
+			} catch {
+				localStorage.removeItem("token");
+				setUser(null);
+			} finally {
+				setAuthLoading(false); // 👈 done either way
+			}
+		};
 
-    verifyToken();
-}, []);
+		verifyToken();
+	}, []);
 
 	const openAuthModal = (mode) => {
 		setAuthMode(mode);
@@ -88,10 +91,29 @@ export function AuthProvider({ children }) {
 			const data = await response.json();
 
 			if (response.ok) {
-				const userData = { username: data.username, id: data.id, email: data.email };
-				setUser(userData);
+				// const userData = { username: data.username, id: data.id, email: data.email };
+				// setUser(userData);
+				// localStorage.setItem("token", data.token);
+				// localStorage.removeItem("user");
+
+				//new
 				localStorage.setItem("token", data.token);
 				localStorage.removeItem("user");
+
+				// Fetch full user data to ensure consistency with /me
+				const meRes = await fetch(
+					`${import.meta.env.VITE_API_URL}/api/auth/me`,
+					{
+						headers: { Authorization: `Bearer ${data.token}` },
+					},
+				);
+				const meData = await meRes.json();
+				setUser({
+					username: meData.username,
+					id: meData.id,
+					email: meData.email,
+					createdAt: meData.createdAt,
+				});
 				closeAuthModal();
 			} else {
 				setError(data.message || "Login failed");
@@ -125,10 +147,24 @@ export function AuthProvider({ children }) {
 			const data = await response.json();
 
 			if (response.ok) {
-				const userData = { username: data.username, id: data.id, email: data.email };
-				setUser(userData);
 				localStorage.setItem("token", data.token);
-				localStorage.removeItem("user")
+				localStorage.removeItem("user");
+
+				// Fetch full user data to ensure consistency with /me
+				const meRes = await fetch(
+					`${import.meta.env.VITE_API_URL}/api/auth/me`,
+					{
+						headers: { Authorization: `Bearer ${data.token}` },
+					},
+				);
+				const meData = await meRes.json();
+				setUser({
+					username: meData.username,
+					id: meData.id,
+					email: meData.email,
+					createdAt: meData.createdAt,
+				});
+
 				closeAuthModal();
 			} else {
 				setError(data.message || "Signup failed");
@@ -155,6 +191,48 @@ export function AuthProvider({ children }) {
 		}
 	};
 
+	const handleUpdateProfile = async (updateData) => {
+		setLoading(true);
+		setError("");
+
+		try {
+			const token = localStorage.getItem("token");
+			const response = await fetch(
+				`${import.meta.env.VITE_API_URL}/api/auth/update/${user.id}`,
+				{
+					method: "PUT",
+					headers: {
+						"Content-Type": "application/json",
+						Authorization: `Bearer ${token}`,
+					},
+					body: JSON.stringify(updateData),
+				},
+			);
+
+			const data = await response.json();
+
+			if (response.ok) {
+				localStorage.setItem("token", data.token);
+				console.log("setUser called with:", data)
+				setUser({
+					username: data.username,
+					id: data.id,
+					email: data.email,
+					createdAt: data.createdAt,
+				});
+				return { success: true };
+			} else {
+				setError(data.message || "Update failed");
+				return { success: false, message: data.message };
+			}
+		} catch (err) {
+			setError("Something went wrong. Please try again.");
+			return { success: false, message: "Something went wrong." };
+		} finally {
+			setLoading(false);
+		}
+	};
+
 	const value = {
 		user,
 		showAuthModal,
@@ -169,6 +247,7 @@ export function AuthProvider({ children }) {
 		handleSubmit,
 		handleLogout,
 		setAuthMode,
+		handleUpdateProfile,
 	};
 
 	return (

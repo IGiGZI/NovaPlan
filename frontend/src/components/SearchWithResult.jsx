@@ -143,7 +143,7 @@ function SearchWithResult({
 									</div>
 								)}
 						</div>
-						<button
+						{!selected && (<button
 							onClick={() => setShowFilters(!showFilters)}
 							className={`px-4 py-4 rounded-xl border transition-all flex items-center gap-2 font-medium shrink-0 ${showFilters || (isFilteringActive && !query.trim()) ? "bg-purple-500/20 border-purple-400 text-purple-200 shadow-lg shadow-purple-500/20" : "bg-black/30 border-purple-500/30 text-gray-400 hover:text-gray-200 hover:border-purple-400"}`}
 						>
@@ -161,7 +161,7 @@ function SearchWithResult({
 								/>
 							</svg>
 							<span className="hidden sm:inline">Filters</span>
-						</button>
+						</button>)}
 					</div>
 
 					{/* Selected career preview card */}

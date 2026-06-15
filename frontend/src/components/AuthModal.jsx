@@ -82,6 +82,11 @@ function AuthModal() {
 							placeholder="Enter your password"
 							required
 						/>
+						{authMode === "signup" && (
+							<p className="text-lg text-gray-500 mt-1.5">
+								Must be at least 6 characters long
+							</p>
+						)}
 					</div>
 
 					{error && (

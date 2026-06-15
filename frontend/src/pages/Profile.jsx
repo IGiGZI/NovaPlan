@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
-import MainNav from "../components/MainNav";
 import { useAuth } from "../contexts/AuthContext";
 import { Link, useNavigate } from "react-router";
+import MainNav from "../components/MainNav";
+import SettingsForm from "../components/SettingsForm";
 
 function Avatar({ username }) {
 	const initials = username ? username.slice(0, 2).toUpperCase() : "??";
@@ -56,8 +57,6 @@ function RoadmapCard({ roadmap, onClick, onDelete }) {
 			setDeleting(false);
 		}
 	};
-
-	
 
 	return (
 		<div
@@ -133,9 +132,6 @@ function EmptyRoadmapCard() {
 	);
 }
 
-
-
-
 export default function Profile() {
 	const { user, handleLogout, authLoading } = useAuth();
 	const [activeTab, setActiveTab] = useState("roadmaps");
@@ -152,26 +148,31 @@ export default function Profile() {
 	};
 
 	const handleDeleteAccount = async () => {
-    const confirmed = window.confirm("Are you sure you want to delete your account? This cannot be undone.");
-    if (!confirmed) return;
+		const confirmed = window.confirm(
+			"Are you sure you want to delete your account? This cannot be undone.",
+		);
+		if (!confirmed) return;
 
-    try {
-        const token = localStorage.getItem("token");
-        const res = await fetch(`${import.meta.env.VITE_API_URL}/api/auth/delete-account`, {
-            method: "DELETE",
-            headers: { Authorization: `Bearer ${token}` },
-        });
-				navigate('/')
-        if (!res.ok) throw new Error("Failed to delete account.");
-        handleLogoutSequence(); // clear token and redirect
-    } catch (err) {
-        console.error(err.message);
-    }
-};
+		try {
+			const token = localStorage.getItem("token");
+			const res = await fetch(
+				`${import.meta.env.VITE_API_URL}/api/auth/delete-account`,
+				{
+					method: "DELETE",
+					headers: { Authorization: `Bearer ${token}` },
+				},
+			);
+			navigate("/");
+			if (!res.ok) throw new Error("Failed to delete account.");
+			handleLogoutSequence(); // clear token and redirect
+		} catch (err) {
+			console.error(err.message);
+		}
+	};
 
-	function handleLogoutSequence(){
-		handleLogout()
-		navigate('/')
+	function handleLogoutSequence() {
+		handleLogout();
+		navigate("/");
 	}
 
 	useEffect(() => {
@@ -199,29 +200,34 @@ export default function Profile() {
 
 	// for old users and new users
 	const getJoinDate = () => {
-    if (user?.createdAt) {
-        return new Date(user.createdAt).toLocaleDateString("en-US", { year: "numeric", month: "long" });
-    }
-    if (user?.id) {
-        // Extract timestamp from MongoDB ObjectId
-        const timestamp = parseInt(user.id.substring(0, 8), 16) * 1000;
-        return new Date(timestamp).toLocaleDateString("en-US", { year: "numeric", month: "long" });
-    }
-    return "Unknown";
-};
+		if (user?.createdAt) {
+			return new Date(user.createdAt).toLocaleDateString("en-US", {
+				year: "numeric",
+				month: "long",
+			});
+		}
+		if (user?.id) {
+			// Extract timestamp from MongoDB ObjectId
+			const timestamp = parseInt(user.id.substring(0, 8), 16) * 1000;
+			return new Date(timestamp).toLocaleDateString("en-US", {
+				year: "numeric",
+				month: "long",
+			});
+		}
+		return "Unknown";
+	};
 
 	const userDetails = {
-    username: user?.username || "Anonymous",
-    email: user?.email || "Not provided",
-    joinDate: getJoinDate(),
-};
+		username: user?.username || "Anonymous",
+		email: user?.email || "Not provided",
+		joinDate: getJoinDate(),
+	};
 
 	const tabs = [
 		{ id: "roadmaps", label: "My Roadmaps", icon: "🗺️" },
 		{ id: "settings", label: "Settings", icon: "⚙️" },
 	];
 
-	
 	if (authLoading) return null;
 
 	return (
@@ -270,7 +276,10 @@ export default function Profile() {
 						</div>
 
 						<button
-							onClick={handleLogout}
+							onClick={() => {
+								handleLogout();
+								navigate("/");
+							}}
 							className="self-start sm:self-auto flex items-center gap-2 rounded-full px-5 py-2.5 border border-red-500/30 text-red-400 hover:bg-red-500/10 hover:border-red-400 transition-all text-sm font-medium"
 						>
 							<svg
@@ -286,7 +295,7 @@ export default function Profile() {
 									d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"
 								/>
 							</svg>
-							<Link to="/">Logout</Link>
+							Logout
 						</button>
 					</div>
 
@@ -558,7 +567,15 @@ export default function Profile() {
 				{/* Settings Tab */}
 
 				{/* Settings Tab */}
-				{activeTab === "settings" && (
+				{activeTab === "settings" && <SettingsForm userDetails={userDetails} handleDeleteAccount={handleDeleteAccount}/>}
+			</div>
+		</main>
+	);
+}
+
+
+/*
+(
 					<div className="bg-linear-to-br from-purple-900/20 to-transparent backdrop-blur-sm border border-purple-500/30 rounded-2xl p-6">
 						<h2 className="text-xl font-bold text-white mb-2">
 							Account Settings
@@ -620,8 +637,5 @@ export default function Profile() {
 							</div>
 						</div>
 					</div>
-				)}
-			</div>
-		</main>
-	);
-}
+				)
+*/

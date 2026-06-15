@@ -10,8 +10,8 @@ const User = require('./User')
 
 router.post('/signup', signup);
 router.post('/login', login);
-router.put('/update/:id', updateUser);
-router.delete('/delete/:id', deleteUser);
+router.put('/update/:id', protect, updateUser);
+router.delete('/delete/:id', protect, deleteUser);
 
 // ✅ Save roadmap — userId comes from the verified token, NOT req.body
 router.post('/save-roadmap', protect, async (req, res) => {

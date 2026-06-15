@@ -2,20 +2,20 @@
   "input": {
     "answers": [],
     "careers": [
-      "video game & software retail specialist"
+      "backend developer"
     ],
     "category": "Programming & Software Development",
     "user_summary": "",
     "experience_level": "beginner",
     "sub_field": "",
-    "selected_language": "",
-    "prefer_paid": null
+    "selected_language": "Java",
+    "prefer_paid": false
   },
   "derived_skills": [],
-  "chosen_career": "video game & software retail specialist",
+  "chosen_career": "backend developer",
   "roadmaps": [
     {
-      "path_title": "video game & software retail specialist",
+      "path_title": "backend developer",
       "focus": "Beginner \u2014 Full Roadmap",
       "confidence_score": 0.8,
       "steps": [
@@ -23,29 +23,29 @@
           "milestones": [
             {
               "title": "Certification",
-              "description": "(Optional) Complete an online certificate, bootcamp, or structured course in video game & software retail specialist to build a strong learning foundation"
+              "description": "(Optional) Complete an online certificate, bootcamp, or structured course in backend developer to build a strong learning foundation"
             }
           ],
           "resources": [
             {
-              "title": "video game & software retail specialist certification on Coursera",
-              "url": "https://www.coursera.org/search?query=video+game+&+software+retail+specialist+certificate"
+              "title": "Java Programming and Software Engineering Fundamentals Specialization (Audit)",
+              "url": "https://www.coursera.org/specializations/java-programming"
             },
             {
-              "title": "video game & software retail specialist certification on Udemy",
-              "url": "https://www.udemy.com/courses/search/?q=video+game+&+software+retail+specialist+certificate"
+              "title": "Relational Database (Beta) Certification (freeCodeCamp)",
+              "url": "https://www.freecodecamp.org/learn/relational-database/"
             },
             {
-              "title": "video game & software retail specialist courses on edX",
-              "url": "https://www.edx.org/search?q=video+game+&+software+retail+specialist"
+              "title": "Java Spring Boot Full Course for Backend Development (Amigoscode - YouTube)",
+              "url": "https://www.youtube.com/playlist?list=PL_euSNk_fP86hH1W17a4_k-w7gR5JkCjB"
             },
             {
-              "title": "Google Certificates related to video game & software retail specialist",
-              "url": "https://grow.google/certificates/"
+              "title": "Building Scalable Java Microservices with Spring Boot (Audit)",
+              "url": "https://www.coursera.org/learn/building-scalable-java-microservices-with-spring-boot"
             },
             {
-              "title": "video game & software retail specialist certification guide on YouTube",
-              "url": "https://www.youtube.com/results?search_query=video+game+&+software+retail+specialist+certification+guide"
+              "title": "AWS Certified Cloud Practitioner Full Course (freeCodeCamp.org - YouTube)",
+              "url": "https://www.youtube.com/watch?v=SotYpC0h3S4"
             }
           ],
           "children": []
@@ -54,21 +54,25 @@
           "milestones": [
             {
               "title": "Core Skill Learning",
-              "description": "Learn the fundamentals: build a solid foundation in product knowledge of software and video games, customer service, and sales techniques \u2014 these are the essential building blocks for a video game & software retail specialist"
+              "description": "Learn the fundamentals: build a solid foundation in server-side languages (python, java, node.js, or go), relational databases (postgresql, mysql), and nosql databases (mongodb, redis) \u2014 these are the essential building blocks for a backend developer"
             }
           ],
           "resources": [
             {
-              "title": "video game & software retail specialist Core Skill Learning on Coursera",
-              "url": "https://www.coursera.org/search?query=video+game+&+software+retail+specialist+product+knowledge+of+software+and+video+games"
+              "title": "Java Programming for Beginners - Full Course",
+              "url": "https://www.youtube.com/watch?v=GoXwln4ZkFw"
             },
             {
-              "title": "video game & software retail specialist Core Skill Learning on Udemy",
-              "url": "https://www.udemy.com/courses/search/?q=video+game+&+software+retail+specialist+product+knowledge+of+software+and+video+games"
+              "title": "SQL Tutorial (Fundamentals & Basics)",
+              "url": "https://www.w3schools.com/sql/default.asp"
             },
             {
-              "title": "video game & software retail specialist Core Skill Learning on YouTube",
-              "url": "https://www.youtube.com/results?search_query=video+game+&+software+retail+specialist+product+knowledge+of+software+and+video+games+tutorial"
+              "title": "PostgreSQL Crash Course For Beginners",
+              "url": "https://www.youtube.com/watch?v=4d7C5p-M-6g"
+            },
+            {
+              "title": "MongoDB Crash Course For Beginners",
+              "url": "https://www.youtube.com/watch?v=oU8rP7x_r7A"
             }
           ],
           "children": []
@@ -77,21 +81,29 @@
           "milestones": [
             {
               "title": "Intermediate / Advanced Skills",
-              "description": "Deepen your expertise by developing intermediate-to-advanced skills in operate point-of-sale systems, stock management, and advise customers on product selection, applying them through exercises and case studies"
+              "description": "Deepen your expertise by developing intermediate-to-advanced skills in api design and development (rest, graphql), cloud services (aws, azure, gcp), and authentication and authorization (oauth, jwt), applying them through exercises and case studies"
             }
           ],
           "resources": [
             {
-              "title": "video game & software retail specialist Intermediate / Advanced Skills on Coursera",
-              "url": "https://www.coursera.org/search?query=video+game+&+software+retail+specialist+product+knowledge+of+software+and+video+games"
+              "title": "Learn Spring Boot 3 - Full Course",
+              "url": "https://www.youtube.com/watch?v=F_fPz43W7_U"
             },
             {
-              "title": "video game & software retail specialist Intermediate / Advanced Skills on Udemy",
-              "url": "https://www.udemy.com/courses/search/?q=video+game+&+software+retail+specialist+product+knowledge+of+software+and+video+games"
+              "title": "Deploy Spring Boot Application on AWS EC2 with MySQL RDS | REST API with JWT Auth",
+              "url": "https://www.youtube.com/watch?v=f2vJ-2WpE8I"
             },
             {
-              "title": "video game & software retail specialist Intermediate / Advanced Skills on YouTube",
-              "url": "https://www.youtube.com/results?search_query=video+game+&+software+retail+specialist+product+knowledge+of+software+and+video+games+tutorial"
+              "title": "Spring Boot Security JWT Authentication for Beginners",
+              "url": "https://www.youtube.com/watch?v=Kx-B0o8gS1Q"
+            },
+            {
+              "title": "API Design Tutorial \u2013 How to Create an API",
+              "url": "https://www.freecodecamp.org/news/api-design-tutorial-how-to-create-an-api/"
+            },
+            {
+              "title": "What is OAuth? How OAuth 2.0 Works",
+              "url": "https://www.freecodecamp.org/news/what-is-oauth-2-0-and-how-does-it-work/"
             }
           ],
           "children": []
@@ -100,21 +112,25 @@
           "milestones": [
             {
               "title": "Hands-on Practice",
-              "description": "Gain hands-on experience by completing real sales campaigns, marketing strategies, or customer engagement projects \u2014 focus on applying product knowledge of software and video games, and customer service in realistic scenarios"
+              "description": "Gain hands-on experience by completing software projects, open-source contributions, or technical prototypes \u2014 focus on applying server-side languages (python, java, node.js, or go), and relational databases (postgresql, mysql) in realistic scenarios"
             }
           ],
           "resources": [
             {
-              "title": "video game & software retail specialist Hands-on Practice on Coursera",
-              "url": "https://www.coursera.org/search?query=video+game+&+software+retail+specialist+product+knowledge+of+software+and+video+games"
+              "title": "Spring Boot Tutorial for Beginners - Full Course",
+              "url": "https://www.youtube.com/watch?v=9WM8-4uF6_E"
             },
             {
-              "title": "video game & software retail specialist Hands-on Practice on Udemy",
-              "url": "https://www.udemy.com/courses/search/?q=video+game+&+software+retail+specialist+product+knowledge+of+software+and+video+games"
+              "title": "PostgreSQL Tutorial for Beginners \u2013 Learn How to Use Postgres",
+              "url": "https://www.freecodecamp.org/news/postgresql-tutorial-for-beginners-learn-how-to-use-postgres/"
             },
             {
-              "title": "video game & software retail specialist Hands-on Practice on YouTube",
-              "url": "https://www.youtube.com/results?search_query=video+game+&+software+retail+specialist+product+knowledge+of+software+and+video+games+tutorial"
+              "title": "Spring Boot MySQL CRUD Application Full Stack with Angular - Part 1 (Backend Focus)",
+              "url": "https://www.youtube.com/watch?v=e_p_pM_kI0E"
+            },
+            {
+              "title": "Spring Security For Beginners | Spring Boot Security Full Course",
+              "url": "https://www.youtube.com/watch?v=KYURK19l45o"
             }
           ],
           "children": []
@@ -128,16 +144,24 @@
           ],
           "resources": [
             {
-              "title": "video game & software retail specialist Portfolio Building on Coursera",
-              "url": "https://www.coursera.org/search?query=video+game+&+software+retail+specialist+product+knowledge+of+software+and+video+games"
+              "title": "Build a REST API with Spring Boot and Java",
+              "url": "https://www.freecodecamp.org/news/build-a-rest-api-with-spring-boot-and-java/"
             },
             {
-              "title": "video game & software retail specialist Portfolio Building on Udemy",
-              "url": "https://www.udemy.com/courses/search/?q=video+game+&+software+retail+specialist+product+knowledge+of+software+and+video+games"
+              "title": "CRUD Operations using Spring Boot and MongoDB",
+              "url": "https://www.geeksforgeeks.org/crud-operations-using-spring-boot-and-mongodb/"
             },
             {
-              "title": "video game & software retail specialist Portfolio Building on YouTube",
-              "url": "https://www.youtube.com/results?search_query=video+game+&+software+retail+specialist+product+knowledge+of+software+and+video+games+tutorial"
+              "title": "Spring Security Tutorial for Beginners",
+              "url": "https://www.freecodecamp.org/news/spring-security-tutorial/"
+            },
+            {
+              "title": "AWS Cloud Fundamentals (Audit Mode)",
+              "url": "https://www.coursera.org/learn/aws-cloud-fundamentals"
+            },
+            {
+              "title": "How to Build an Awesome Portfolio Website for Developers",
+              "url": "https://www.freecodecamp.org/news/how-to-build-a-portfolio-website-for-developers/"
             }
           ],
           "children": []
@@ -146,21 +170,29 @@
           "milestones": [
             {
               "title": "CV / Profile Building",
-              "description": "Prepare your professional profile: craft a targeted CV/resume highlighting your video game & software retail specialist skills, optimize your LinkedIn profile, and gather references or endorsements from mentors, instructors, or past collaborators"
+              "description": "Prepare your professional profile: craft a targeted CV/resume highlighting your backend developer skills, optimize your LinkedIn profile, and gather references or endorsements from mentors, instructors, or past collaborators"
             }
           ],
           "resources": [
             {
-              "title": "video game & software retail specialist CV / Profile Building on Coursera",
-              "url": "https://www.coursera.org/search?query=video+game+&+software+retail+specialist+product+knowledge+of+software+and+video+games"
+              "title": "Learn Java 8 - Full Tutorial for Beginners (freeCodeCamp.org)",
+              "url": "https://www.youtube.com/watch?v=grEKGGSyJgQ"
             },
             {
-              "title": "video game & software retail specialist CV / Profile Building on Udemy",
-              "url": "https://www.udemy.com/courses/search/?q=video+game+&+software+retail+specialist+product+knowledge+of+software+and+video+games"
+              "title": "Spring Boot Tutorial for Beginners - Full Course (freeCodeCamp.org)",
+              "url": "https://www.youtube.com/watch?v=9DOzL4h_JbY"
             },
             {
-              "title": "video game & software retail specialist CV / Profile Building on YouTube",
-              "url": "https://www.youtube.com/results?search_query=video+game+&+software+retail+specialist+product+knowledge+of+software+and+video+games+tutorial"
+              "title": "Java JDBC Tutorial for Beginners (GeeksforGeeks)",
+              "url": "https://www.geeksforgeeks.org/java-jdbc-tutorial/"
+            },
+            {
+              "title": "Build a REST API with Spring Boot - A Complete Guide (freeCodeCamp.org)",
+              "url": "https://www.freecodecamp.org/news/build-a-rest-api-with-spring-boot/"
+            },
+            {
+              "title": "MongoDB Java Tutorial for Beginners (Telusko)",
+              "url": "https://www.youtube.com/watch?v=S0yC9c4uY24"
             }
           ],
           "children": []
@@ -169,48 +201,48 @@
           "milestones": [
             {
               "title": "Job Application / Freelancing",
-              "description": "Apply for video game & software retail specialist positions through job boards, company career pages, professional networks, and industry-specific platforms \u2014 tailor each application and prepare to discuss your hands-on experience and portfolio in interviews"
+              "description": "Apply for backend developer positions on job boards, company career pages, and freelance platforms (Upwork, Fiverr, Toptal) \u2014 tailor each application to the role and be ready to showcase your portfolio in interviews"
             }
           ],
           "resources": [
             {
-              "title": "video game & software retail specialist jobs on Wuzzuf",
-              "url": "https://wuzzuf.net/search/jobs/?q=video+game+&+software+retail+specialist&a=hpb"
+              "title": "backend developer jobs on Wuzzuf",
+              "url": "https://wuzzuf.net/search/jobs/?q=backend+developer&a=hpb"
             },
             {
-              "title": "video game & software retail specialist jobs on Forasna",
-              "url": "https://www.forasna.com/jobs/search/video-game-&-software-retail-specialist"
+              "title": "backend developer jobs on Forasna",
+              "url": "https://www.forasna.com/jobs/search/backend-developer"
             },
             {
-              "title": "video game & software retail specialist jobs on LinkedIn",
-              "url": "https://www.linkedin.com/jobs/search/?keywords=video+game+&+software+retail+specialist&location=Egypt"
+              "title": "backend developer jobs on LinkedIn",
+              "url": "https://www.linkedin.com/jobs/search/?keywords=backend+developer&location=Egypt"
             },
             {
-              "title": "video game & software retail specialist jobs on Bayt.com",
-              "url": "https://www.bayt.com/en/egypt/jobs/video-game-&-software-retail-specialist-jobs/"
+              "title": "backend developer jobs on Bayt.com",
+              "url": "https://www.bayt.com/en/egypt/jobs/backend-developer-jobs/"
             },
             {
-              "title": "video game & software retail specialist jobs on Indeed Egypt",
-              "url": "https://eg.indeed.com/jobs?q=video+game+&+software+retail+specialist"
+              "title": "backend developer jobs on Indeed Egypt",
+              "url": "https://eg.indeed.com/jobs?q=backend+developer"
             },
             {
-              "title": "video game & software retail specialist freelance jobs on Upwork",
-              "url": "https://www.upwork.com/freelance-jobs/video-game-&-software-retail-specialist/"
+              "title": "backend developer freelance jobs on Upwork",
+              "url": "https://www.upwork.com/freelance-jobs/backend-developer/"
             },
             {
-              "title": "video game & software retail specialist services on Fiverr",
-              "url": "https://www.fiverr.com/search/gigs?query=video+game+&+software+retail+specialist"
+              "title": "backend developer services on Fiverr",
+              "url": "https://www.fiverr.com/search/gigs?query=backend+developer"
             },
             {
-              "title": "video game & software retail specialist projects on Mostaql",
-              "url": "https://mostaql.com/projects?keyword=video+game+&+software+retail+specialist"
+              "title": "backend developer projects on Mostaql",
+              "url": "https://mostaql.com/projects?keyword=backend+developer"
             },
             {
               "title": "Khamsat - Arabic Micro Services",
               "url": "https://khamsat.com/"
             },
             {
-              "title": "video game & software retail specialist freelance on Toptal",
+              "title": "backend developer freelance on Toptal",
               "url": "https://www.toptal.com/"
             }
           ],
