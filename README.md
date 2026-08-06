@@ -11,7 +11,7 @@
 
 • Additionally, Docker acts as a virtual environment so anything that needs a venv Docker handles it by default no need to install any venv
     
-## ✅ Impelemented Weave: Weights & Biases to the app:
+## ✅ Implemented Weave: Weights & Biases to the app:
 
 • Weave tracks Gemini API requests (inputs, and outputs) and also tracks the number of tokens used for each request made
 
